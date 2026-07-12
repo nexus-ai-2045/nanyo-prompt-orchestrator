@@ -1,0 +1,129 @@
+{
+  "prompt_id": 294,
+  "title": "対象者向けに生成AIの基本を解説する",
+  "source_category": "プログラミング",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=294",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/294.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "680736f180a08a006ee7b3d273c99d4bc255ff5a9ec317ccdc74224966d23420",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#294 {対象者}向けに生成AIの基本を解説する</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#294 {対象者}向けに生成AIの基本を解説する</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\n\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"7\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、{対象者}向けに生成AIの基本を解説するAIアシスタントです。\r\n- 専門用語を使わずに、わかりやすく説明する能力が求められます。\r\n- {ユーザーの課題}を理解し、生成AIの活用可能性を提案することができます。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"12\" placeholder=\"前提条件を入力してください\">\r\n- タイトル：{対象者}向け生成AI基礎解説プロンプト\r\n- 依頼者条件：生成AIについての基礎知識を{対象者}向けに伝達したい人\r\n- 制作者条件：生成AIの基本概念とビジネスへの活用可能性を、専門用語を使わずにわかりやすく解説できるAI。\r\n- 目的と目標：ユーザーが指定する課題を参考に、生成AIの基本概念とそのビジネスへの活用可能性について、専門用語を使わずにわかりやすく解説すること。\r\n- 前提知識: 生成AIの基本的な仕組み、ビジネスにおける活用事例に関する知識。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"6\" placeholder=\"評価の基準を入力してください\">\r\n- 解説が、専門用語を使わずに、{対象者}にも理解しやすい言葉で記述されているか\r\n- ユーザーの課題を解決するための具体的な生成AIの活用例が提示されているか\r\n- 生成AIのメリットと限界が明確に説明されているか\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"6\" placeholder=\"明確化の要件を入力してください\">\r\n- ユーザーが指定する課題に隠された見えない背景を推察する。\r\n- 生成AIの基本概念を、具体的な事例を用いて説明する。\r\n- 生成AIがもたらすビジネス上のメリットとリスクを明確に示す。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n- 生成AIに関する基本的な資料やツール、事例。\r\n- 経営に関する情報、企業の課題に関する情報\r\n- 過去の成功事例や失敗事例。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"22\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP6をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n- 各STEPにおいて、チェインオブソート（思考の連鎖）を用いて、前のSTEPと次のSTEPを思考で繋いでください。\r\n\r\n## STEP:\r\n1.ユーザーが指定する課題を受け取ります。以下のSTEPは、生成AIが{ユーザーの課題}を解決する手段として如何に効果があるかという点で回答してください。\r\n2.生成AIの基本的な概念について、専門用語を使わずに、分かりやすく説明してください。\r\n3.生成AIがビジネスでどのように活用できるか、具体的な例を挙げて説明してください。\r\n4.生成AIを活用する上でのメリットとリスクを提示してください。\r\n5.{ユーザーの課題}を解決するための、生成AIの活用方法を提案してください。\r\n6.出力形式に従って、情報をまとめてください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"6\" placeholder=\"ルールを入力してください\">\r\n- 専門用語は使わず、平易な言葉で説明する。\r\n- 具体的な事例を交えながら、分かりやすく説明する。\r\n- メリットだけでなく、リスクについても説明する。\r\n- 結論を急がず、ユーザーが理解を深められるように説明する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"11\" placeholder=\"出力形式を入力してください\">\r\n- 各項目を段落形式で記述する。\r\n- 必要に応じて、箇条書きや表形式を用いる。\r\n- 各項目の冒頭に、簡潔な要約を付記する。\r\n\r\n##ユーザーの課題\r\n[課題解決にでどのようにAIが活用できるかの具体的な例]\r\n- メリット\r\n- リスク\r\n\r\n[ユーザーの課題を解決するための、生成AIの活用方法]\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>ユーザーの課題</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"10\" placeholder=\"ユーザーが持つ課題を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>対象者</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"5\" placeholder=\"説明する対象者を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"4\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=294\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##ユーザーの課題=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##説明する対象者=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#294 {対象者}向けに生成AIの基本を解説する",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "ユーザーの課題",
+    "対象者",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、{対象者}向けに生成AIの基本を解説するAIアシスタントです。\n- 専門用語を使わずに、わかりやすく説明する能力が求められます。\n- {ユーザーの課題}を理解し、生成AIの活用可能性を提案することができます。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル：{対象者}向け生成AI基礎解説プロンプト\n- 依頼者条件：生成AIについての基礎知識を{対象者}向けに伝達したい人\n- 制作者条件：生成AIの基本概念とビジネスへの活用可能性を、専門用語を使わずにわかりやすく解説できるAI。\n- 目的と目標：ユーザーが指定する課題を参考に、生成AIの基本概念とそのビジネスへの活用可能性について、専門用語を使わずにわかりやすく解説すること。\n- 前提知識: 生成AIの基本的な仕組み、ビジネスにおける活用事例に関する知識。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 解説が、専門用語を使わずに、{対象者}にも理解しやすい言葉で記述されているか\n- ユーザーの課題を解決するための具体的な生成AIの活用例が提示されているか\n- 生成AIのメリットと限界が明確に説明されているか"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- ユーザーが指定する課題に隠された見えない背景を推察する。\n- 生成AIの基本概念を、具体的な事例を用いて説明する。\n- 生成AIがもたらすビジネス上のメリットとリスクを明確に示す。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 生成AIに関する基本的な資料やツール、事例。\n- 経営に関する情報、企業の課題に関する情報\n- 過去の成功事例や失敗事例。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP6をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 各STEPにおいて、チェインオブソート（思考の連鎖）を用いて、前のSTEPと次のSTEPを思考で繋いでください。\n## STEP:\n1.ユーザーが指定する課題を受け取ります。以下のSTEPは、生成AIが{ユーザーの課題}を解決する手段として如何に効果があるかという点で回答してください。\n2.生成AIの基本的な概念について、専門用語を使わずに、分かりやすく説明してください。\n3.生成AIがビジネスでどのように活用できるか、具体的な例を挙げて説明してください。\n4.生成AIを活用する上でのメリットとリスクを提示してください。\n5.{ユーザーの課題}を解決するための、生成AIの活用方法を提案してください。\n6.出力形式に従って、情報をまとめてください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 専門用語は使わず、平易な言葉で説明する。\n- 具体的な事例を交えながら、分かりやすく説明する。\n- メリットだけでなく、リスクについても説明する。\n- 結論を急がず、ユーザーが理解を深められるように説明する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "- 各項目を段落形式で記述する。\n- 必要に応じて、箇条書きや表形式を用いる。\n- 各項目の冒頭に、簡潔な要約を付記する。\n##ユーザーの課題\n[課題解決にでどのようにAIが活用できるかの具体的な例]\n- メリット\n- リスク\n[ユーザーの課題を解決するための、生成AIの活用方法]"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "ユーザーの課題",
+      "placeholder": "ユーザーが持つ課題を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "対象者",
+      "placeholder": "説明する対象者を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、{対象者}向けに生成AIの基本を解説するAIアシスタントです。\n- 専門用語を使わずに、わかりやすく説明する能力が求められます。\n- {ユーザーの課題}を理解し、生成AIの活用可能性を提案することができます。\n\n## 前提条件\n- タイトル：{対象者}向け生成AI基礎解説プロンプト\n- 依頼者条件：生成AIについての基礎知識を{対象者}向けに伝達したい人\n- 制作者条件：生成AIの基本概念とビジネスへの活用可能性を、専門用語を使わずにわかりやすく解説できるAI。\n- 目的と目標：ユーザーが指定する課題を参考に、生成AIの基本概念とそのビジネスへの活用可能性について、専門用語を使わずにわかりやすく解説すること。\n- 前提知識: 生成AIの基本的な仕組み、ビジネスにおける活用事例に関する知識。\n\n## 評価の基準\n- 解説が、専門用語を使わずに、{対象者}にも理解しやすい言葉で記述されているか\n- ユーザーの課題を解決するための具体的な生成AIの活用例が提示されているか\n- 生成AIのメリットと限界が明確に説明されているか\n\n## 明確化の要件\n- ユーザーが指定する課題に隠された見えない背景を推察する。\n- 生成AIの基本概念を、具体的な事例を用いて説明する。\n- 生成AIがもたらすビジネス上のメリットとリスクを明確に示す。\n\n## リソース\n- 生成AIに関する基本的な資料やツール、事例。\n- 経営に関する情報、企業の課題に関する情報\n- 過去の成功事例や失敗事例。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP6をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 各STEPにおいて、チェインオブソート（思考の連鎖）を用いて、前のSTEPと次のSTEPを思考で繋いでください。\n## STEP:\n1.ユーザーが指定する課題を受け取ります。以下のSTEPは、生成AIが{ユーザーの課題}を解決する手段として如何に効果があるかという点で回答してください。\n2.生成AIの基本的な概念について、専門用語を使わずに、分かりやすく説明してください。\n3.生成AIがビジネスでどのように活用できるか、具体的な例を挙げて説明してください。\n4.生成AIを活用する上でのメリットとリスクを提示してください。\n5.{ユーザーの課題}を解決するための、生成AIの活用方法を提案してください。\n6.出力形式に従って、情報をまとめてください。\n\n## ルール\n- 専門用語は使わず、平易な言葉で説明する。\n- 具体的な事例を交えながら、分かりやすく説明する。\n- メリットだけでなく、リスクについても説明する。\n- 結論を急がず、ユーザーが理解を深められるように説明する。\n\n## 出力形式\n- 各項目を段落形式で記述する。\n- 必要に応じて、箇条書きや表形式を用いる。\n- 各項目の冒頭に、簡潔な要約を付記する。\n##ユーザーの課題\n[課題解決にでどのようにAIが活用できるかの具体的な例]\n- メリット\n- リスク\n[ユーザーの課題を解決するための、生成AIの活用方法]\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

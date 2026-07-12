@@ -1,0 +1,149 @@
+{
+  "prompt_id": 611,
+  "title": "セミナーオープニングトーク台本作成プロンプト",
+  "source_category": "コミュニケーション支援",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=611",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/611.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "ddd6c29bf6d0931a41be7e9a22f83e556b1963f250a7563bf0ee11ad9c692e5b",
+  "raw_html": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta name=\"robots\" content=\"noindex\" />\n    <title>#611 セミナーオープニングトーク台本作成プロンプト</title>\n    <style>\n        /* === スタイル設定 === */\n        \n        /* 基本ページ設定 */\n        body {\n            font-family: Arial, sans-serif;\n            margin: 0;\n            padding: 20px;\n            box-sizing: border-box;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            min-height: 100vh;\n            background-color: #FFF;\n        }\n        /* メインコンテナのスタイル */\n        .container {\n            width: 100%;\n            max-width: 800px;\n            background: #ffffff;\n            border-radius: 8px;\n            box-shadow: 3px 5px 15px -5px #777777;\n            overflow: hidden;\n        }\n        /* 各種見出し・ボタンのスタイル設定 */\n        h2 {\n            color: #797979;\n            font-size: 1.6em;\n        }\n        .box-title {\n            font-size: 1.7em;\n            letter-spacing: 0.1em;\n            padding: 1em 20px; /* Combined padding */\n            background-color: #5fc2f5;\n            color: #fff;\n            font-weight: 600;\n            display: flex; /* Make it a flex container */\n            align-items: center; /* Vertically center items */\n            justify-content: space-between; /* Push items to ends */\n        }\n        .box-title .title-text {\n            flex-grow: 1; /* Allow title to take available space */\n            text-align: center; /* Keep title centered */\n            white-space: nowrap; /* Prevent wrapping */\n            overflow: hidden; /* Hide overflow content */\n            text-overflow: ellipsis; /* Show ellipsis for truncated text */\n        }\n        #toggleIcon {\n            font-size: 24px; /* Increased size */\n        }\n        .form-content {\n            padding: 40px 120px;\n            background: #f1f1f1;\n        }\n        .box-bun {\n            background: #FFF;\n            border: 1px solid #D5D9DC;\n            border-radius: 20px;\n            padding: 15px;\n            margin-bottom: 40px;\n        }\n        .togglable-section {\n                /* display: none; Removed */\n            }\n        label {\n            display: inline-block;\n            margin-left: 5px;\n            color: #656565;\n        }\n        input[type=\"text\"], select, textarea {\n            width: 100%;\n            padding: 10px;\n            margin-top: 5px;\n            box-sizing: border-box;\n            border: 0.5px solid #AEAEAE;\n            border-radius: 5px;\n            font-size: 16px;\n        }\n        textarea {\n            resize: vertical;\n        }\n        .button-group {\n            display: flex;\n            justify-content: center;\n            margin-top: 20px;\n        }\n        .btn2 {\n            width: 150px;\n            height: 60px;\n            margin: 0 10px;\n        }\n\n        .btn-generate {\n            width: 180px;\n            height: 60px;\n            margin: 0 10px;\n        }\n        .btn2 a, .btn-generate a {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            width: 100%;\n            height: 100%;\n            text-decoration: none;\n            font-size: 20px;\n            font-weight: bold;\n            border-radius: 35px;\n            transition: all 0.5s ease;\n        }\n        .btn2 a {\n            background: #FFFFFF;\n            color: #5FC2F5;\n            border: 2px solid #5FC2F5;\n        }\n        .btn2 a:hover {\n            transform: scale(1.1, 1.1);\n        }\n        .btn-generate a {\n            background: #5FC2F5;\n            color: #FFFFFF;\n        }\n        .btn-generate a:hover {\n            transform: scale(1.1, 1.1);\n        }\n        .small-text {\n            font-size: 0.5em;\n            color: #656565;\n            text-align: center;\n            margin-top: 5px;\n        }\n\n/* === 入力エリアの色設定 === */\n.variable-textarea {\n    background-color: #ffe4e1; /* 薄いピンク */\n}\n\n\n        /* === スマホ用設定 === */\n@media only screen and (max-width: 768px) {\n    .prompt-text {\n        display: none;\n    }\n    .container {\n        width: 100%;\n        padding: 10px;\n        box-shadow: none;\n    }\n    .form-content {\n        padding: 20px 10px;\n    }\n    .box-bun {\n        padding: 10px;\n        margin-bottom: 20px;\n    }\n    h2 {\n        font-size: 1.4em;\n    }\n    .button-group {\n        flex-direction: column;\n    }\n    .btn2, .btn-generate {\n        width: 100%;\n        height: 50px;\n        margin: 10px 0;\n    }\n    .btn2 a, .btn-generate a {\n        font-size: 18px;\n    }\n    textarea {\n        font-size: 14px;\n    }\n}\n\n    </style>\n</head>\n<body>\n\n<!-- === メインのHTML構造 === -->\n<div class=\"container\">\n    <div class=\"box-title\">\n    <span class=\"title-text\">#611 セミナーオープニングトーク台本作成プロンプト</span>\n    <span id=\"toggleIcon\" style=\"cursor:pointer;\">☰</span>\n</div>\n    <div class=\"form-content\">\n        <form id=\"summaryPromptForm\">\n\n<!-- プロンプトの目的 -->\n<div class=\"box-bun\">\n<h2>目的・ねらい</h2>\nこのプロンプトは、参加者の感情（緊張の緩和、期待感の向上）に訴えかけるストーリーテリングの技術や、聴衆の関心を引きつけるための戦略（フック、ベネフィット提示）を組み込むことで、AIが質の高いオープニングトーク台本を生成できるように設計されています。\n</div>\n            <!-- あなたの役割の入力 -->\n            <div class=\"box-bun togglable-section\">\n<h2>あなたの役割</h2>\n<textarea name=\"role\" id=\"role\" rows=\"10\" placeholder=\"あなたの役割を入力してください\">\n- あなたは、聴衆の心をつかみ、場全体の学習意欲とエンゲージメントを最大化することに特化した、一流のイベント・オープニングトークライター兼アイスブレイク専門家として振る舞ってください。\n- あなたのゴールは、提供された情報に基づき、参加者の緊張を和らげ、本編への期待感を最高潮に高める魅力的で共感を呼ぶオープニング台本を完成させることです。\n</textarea>\n            </div>\n\n<!-- 前提条件 -->\n            <div class=\"box-bun togglable-section\">\n<h2>前提条件</h2>\n<textarea name=\"conditions\" id=\"conditions\" rows=\"27\" placeholder=\"前提条件を入力してください\">\n1. 前提 (Premise):\n - セミナーの成功は、聴衆の興味と感情的な結びつきを築く最初の数分間にかかっているという事実。\n - 人は論理よりも共感と期待によって行動が促される（購買行動への影響と同様）。\n2. 状況 (Situation):\n - ユーザーは、特定の{セミナーのテーマ}と{参加者の特徴}を持つ聴衆に対し、{理想の雰囲気}（トーン＆マナー）を反映した、アイスブレイク要素を含むオープニングトーク台本を求めている。\n3. 目的 (Purpose):\n - セミナー開始時に参加者の注目を一瞬で集め、場の雰囲気を和らげ、本編内容に対する期待感と参加意欲を最大限に高める台本を、指定された構成要素に沿って生成すること。\n4. 動機 (Motive):\n - 参加者の心理的な障壁（緊張や不安）を取り除き、学習や体験に対する主体的な意欲（エンゲージメント）を最初から引き出すことで、セミナー全体の価値と成果を向上させるという哲学。\n5. 制約 (Constraint):\n - 台本の内容は、提供される{セミナーのテーマ}、{参加者の特徴}、および{セミナーで伝えたいこと}の三者の論理的・感情的な繋がりを厳密に反映し、指定された[#出力フォーマット]を完全に遵守すること。\n</textarea>\n            </div>\n\n\n<!-- 評価の基準 -->\n            <div class=\"box-bun togglable-section\">\n<h2>評価の基準</h2>\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"12\" placeholder=\"評価の基準を入力してください\">\n- 共感性・親しみやすさ: 台本が{参加者の特徴}に寄り添い、親近感と共感を呼び起こす内容であるか。\n- 期待感の最大化: 参加者がセミナーを最後まで聞きたい、そして「ベネフィット（未来）」を得たいと感じられる構成になっているか。\n- 雰囲気の再現性: {理想の雰囲気}に沿った言葉遣い、スタイル、トーンが適切に反映されているか。\n- 論理的な流れ: 「掴み」から自己紹介、そして本題への移行が不自然でなく、論理的に構成されているか（PREP法やストーリーテリング要素の活用）。\n</textarea>\n            </div>\n\n\n<!-- 明確化の要件 -->\n            <div class=\"box-bun togglable-section\">\n<h2>明確化の要件</h2>\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"15\" placeholder=\"明確化の要件を入力してください\">\n1. 聴衆の課題の言語化: {参加者の特徴}から、参加者が抱える潜在的な悩みや課題を推察し、その「痛み(Pain)」に言及することで共感を呼ぶこと。\n2. 講師の専門性と言葉の接続: 自己紹介の内容が、単なる経歴ではなく、{セミナーで伝えたいこと}の「説得力のある根拠（Reason to Believe）」となるように構成すること。\n3. ベネフィットの明確化: 参加後の具体的な未来像（結果・成果・変化）を明確に提示し、行動を促す表現（CTAと同様の役割）を用いること。\n4. 文体・トーンの指示: {理想の雰囲気}に応じた、会話調や問いかけを適切に用いた語り口とトーンで記述すること。\n</textarea>\n            </div>\n\n\n<!-- リソース -->\n            <div class=\"box-bun togglable-section\">\n<h2>リソース</h2>\n<textarea name=\"resource\" id=\"resource\" rows=\"12\" placeholder=\"リソースを入力してください\">\n- コミュニケーション戦略: 聴衆の関心を引きつけるための戦略、ストーリーテリングを活用した導入方法。\n- 表現技法: 読者との距離を縮める表現、会話調の導入、抽象的な表現を避けるための具体的なエピソードの使用例。\n- 共感と動機付け: 感情的な要素を取り入れるフレーズ（「きっとあなたも共感するはずです」など）や、動機を刺激する表現。\n- 構成フレームワーク: プレゼンテーションの構成案（PREP法、SDS法、ストーリーテリング構造など）。\n</textarea>\n            </div>\n\n\n            <!-- 実行指示 -->\n            <div class=\"box-bun togglable-section\">\n<h2>実行指示</h2>\n<textarea name=\"instructions\" id=\"instructions\" rows=\"22\" placeholder=\"実行指示を入力してください\">\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n\n## STEP:\n1. {参加者の特徴}と{セミナーのテーマ}に基づき、参加者の興味を一瞬で引きつけ、共感を呼ぶ「掴み」の言葉（問いかけや短いエピソード）を考案してください。（Attention/Hook）。\n2. 「掴み」の内容に自然に繋がるように、{セミナーで伝えたいこと}の信頼性を高める親しみやすい自己紹介を作成してください。（Self-Introduction/Affinity）。\n3. このセミナーに参加することで得られる具体的な成果（未来のベネフィット）を強調し、本編への期待感を最大限に高めるメッセージを構築してください。（Desire/Benefit）。\n4. 全体を{理想の雰囲気}を反映したトーン＆マナーで記述し、[#出力フォーマット]を厳守して完成させてください。\n</textarea>\n            </div>\n\n            <!-- ルール -->\n            <div class=\"box-bun togglable-section\">\n<h2>ルール</h2>\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"10\" placeholder=\"ルールを入力してください\">\n- 台本は、実際に人が話すことを想定し、冗長的な表現や硬い接続詞を避けた話しやすい文章で構成すること。\n- 専門用語を用いる場合は、聴衆のレベルを考慮し、親しみやすい平易な言葉で言い換えること。\n- 各セクション（掴み、自己紹介、期待感向上）の論理的な繋がりを意識し、スムーズな流れを確保すること。\n- 出力は[#出力フォーマット]で指定されたセクション名と構成を厳密に維持すること。\n</textarea>\n            </div>\n\n\n<!-- 出力設定 -->\n            <div class=\"box-bun togglable-section\">\n<h2>出力形式</h2>\n<textarea name=\"output\" id=\"output\" rows=\"30\" placeholder=\"出力形式を入力してください\">\n```markdown\n# オープニングトーク台本：[セミナーのテーマ]\n\n## 1. 掴み（フック＆アイスブレイク）\n<ここに、参加者の興味を引く問いかけや、共感を呼ぶ短いエピソードを記述>\n皆さん、こんにちは！\n- [聴衆の注意を引くための問いかけ、または短い共感的なエピソード]\n- [場を和ませるための簡単なアクションやコメント]\n\n## 2. 講師自己紹介（親近感と権威付け）\n<ここに、親しみやすく、セミナー内容と関連付けた自己紹介を記述>\n- [親しみやすい挨拶と氏名]\n- [セミナーテーマに繋がる、親近感を呼ぶエピソードや経験の共有]\n- [専門性や信頼感を示す簡潔な背景情報]\n\n## 3. 本編への導入（期待感の最大化）\n<ここに、セミナーを通じて参加者が何を得られるのか（ベネフィット）を明確に記述>\nそれでは、早速本題に入っていきましょう！\n- [参加者が抱える課題の再確認と共感]\n- [セミナーで得られる、具体的な未来のベネフィット（結果・変化）の提示]\n- [本編開始を促す、モチベーションを高める一言]\n```\n</textarea>\n            </div>\n\n\n<!-- ユーザー入力 -->\n            <div class=\"box-bun\">\n<h2>ユーザー入力</h2>\n<h3>セミナーのテーマ</h3>\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"5\" placeholder=\"ここにセミナーのテーマを入力します。\" class=\"variable-textarea\" >\n</textarea>\n<h3>参加者の特徴</h3>\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"ここに参加者の特徴を記入します。\" class=\"variable-textarea\" >\n</textarea>\n<h3>セミナーで伝えたいこと</h3>\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"10\" placeholder=\"ここにセミナーで伝えたいことを記入します。\" class=\"variable-textarea\" >\n</textarea>\n<h3>理想の雰囲気</h3>\n<textarea name=\"hensu4\" id=\"hensu4\" rows=\"5\" placeholder=\"ここに理想の雰囲気を記入します。\" class=\"variable-textarea\" >\n</textarea>\n            </div>\n\n\n\n            <!-- 補足 -->\n            <div class=\"box-bun togglable-section\">\n<h2>補足</h2>\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"20\" placeholder=\"を補足を入力してください\">\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n\n### ネガティブ制約条件\n- {セミナーのテーマ}と{参加者の特徴}に合致しない、無関係な話題やエピソードを導入しないこと。\n- 台本の内容に、医療的な診断や法的な助言に類する専門的助言を直接的に含めないこと。\n- 過度に攻撃的、否定的、または一方的な表現（例：断定的な「～すべきである！」）は避け、あくまで協調的なトーンを維持すること。\n</textarea>\n            </div>\n\n\n        </form>\n        <div class=\"button-group\">\n            <div class='btn2'>\n                <a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\n            </div>\n            <div class=\"btn-generate\">\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\n            </div>\n        </div>\n    </div>\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=611\"></script>\n</div>\n\n<!-- JavaScript -->\n<script>\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\n    e.preventDefault();\n    const form = document.getElementById('summaryPromptForm');\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\n    const formData = new FormData(form);\n\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</あなたの役割>\\n\\n\";\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</前提条件>\\n\\n\";\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</評価の基準>\\n\\n\";\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</明確化の要件>\\n\\n\";\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</リソース>\\n\\n\";\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</実行指示>\\n\\n\";\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</ルール>\\n\\n\";\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</出力形式>\\n\\n\";\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\n    communicationContent += \"##セミナーのテーマ=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\n    communicationContent += \"##参加者の特徴=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\n    communicationContent += \"##セミナーで伝えたいこと=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\";\n    communicationContent += \"##理想の雰囲気=\" + (formData.get('hensu4') || '特に指示無し') + \"\\n</ユーザー入力>\\n\\n\";\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</補足>\\n\";\n\n    // クリップボードにコピー\n    navigator.clipboard.writeText(communicationContent).then(() => {\n        alert('プロンプトがコピーされました。');\n    }).catch(err => {\n        console.error('クリップボードへのコピーに失敗しました:', err);\n        alert('プロンプトのコピーに失敗しました。');\n    });\n});\n\ndocument.addEventListener('DOMContentLoaded', function() {\n    const toggleIcon = document.getElementById('toggleIcon');\n    const togglableSections = document.querySelectorAll('.togglable-section');\n\n    // Default: All blocks should be displayed\n    // Set initial state of toggleIcon to 'hide' (×) and its title\n    if (toggleIcon) { // Ensure toggleIcon exists before setting its properties\n        toggleIcon.innerHTML = '×'; // Initially show 'hide' icon\n        toggleIcon.title = ''; // Initially no tooltip when visible\n    }\n\n    if (toggleIcon && togglableSections.length > 0) {\n        toggleIcon.addEventListener('click', function() {\n            const isHidden = togglableSections[0].style.display === 'none'; // Check current display state\n            if (isHidden) { // If currently hidden, show them\n                togglableSections.forEach(section => {\n                    section.style.display = 'block';\n                });\n                toggleIcon.innerHTML = '×'; // Change icon to 'hide'\n                toggleIcon.title = 'プロンプト非表示'; // No tooltip when visible\n            } else { // If currently visible, hide them\n                togglableSections.forEach(section => {\n                    section.style.display = 'none';\n                });\n                toggleIcon.innerHTML = '☰'; // Change icon to 'show'\n                toggleIcon.title = 'プロンプト表示'; // Set title for 'show' state\n            }\n        });\n    }\n});\n</script>\n</body>\n</html>\n",
+  "page_title": "#611 セミナーオープニングトーク台本作成プロンプト",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "セミナーのテーマ",
+    "参加者の特徴",
+    "セミナーで伝えたいこと",
+    "理想の雰囲気",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、聴衆の心をつかみ、場全体の学習意欲とエンゲージメントを最大化することに特化した、一流のイベント・オープニングトークライター兼アイスブレイク専門家として振る舞ってください。\n- あなたのゴールは、提供された情報に基づき、参加者の緊張を和らげ、本編への期待感を最高潮に高める魅力的で共感を呼ぶオープニング台本を完成させることです。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "1. 前提 (Premise):\n- セミナーの成功は、聴衆の興味と感情的な結びつきを築く最初の数分間にかかっているという事実。\n- 人は論理よりも共感と期待によって行動が促される（購買行動への影響と同様）。\n2. 状況 (Situation):\n- ユーザーは、特定の{セミナーのテーマ}と{参加者の特徴}を持つ聴衆に対し、{理想の雰囲気}（トーン＆マナー）を反映した、アイスブレイク要素を含むオープニングトーク台本を求めている。\n3. 目的 (Purpose):\n- セミナー開始時に参加者の注目を一瞬で集め、場の雰囲気を和らげ、本編内容に対する期待感と参加意欲を最大限に高める台本を、指定された構成要素に沿って生成すること。\n4. 動機 (Motive):\n- 参加者の心理的な障壁（緊張や不安）を取り除き、学習や体験に対する主体的な意欲（エンゲージメント）を最初から引き出すことで、セミナー全体の価値と成果を向上させるという哲学。\n5. 制約 (Constraint):\n- 台本の内容は、提供される{セミナーのテーマ}、{参加者の特徴}、および{セミナーで伝えたいこと}の三者の論理的・感情的な繋がりを厳密に反映し、指定された[#出力フォーマット]を完全に遵守すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 共感性・親しみやすさ: 台本が{参加者の特徴}に寄り添い、親近感と共感を呼び起こす内容であるか。\n- 期待感の最大化: 参加者がセミナーを最後まで聞きたい、そして「ベネフィット（未来）」を得たいと感じられる構成になっているか。\n- 雰囲気の再現性: {理想の雰囲気}に沿った言葉遣い、スタイル、トーンが適切に反映されているか。\n- 論理的な流れ: 「掴み」から自己紹介、そして本題への移行が不自然でなく、論理的に構成されているか（PREP法やストーリーテリング要素の活用）。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1. 聴衆の課題の言語化: {参加者の特徴}から、参加者が抱える潜在的な悩みや課題を推察し、その「痛み(Pain)」に言及することで共感を呼ぶこと。\n2. 講師の専門性と言葉の接続: 自己紹介の内容が、単なる経歴ではなく、{セミナーで伝えたいこと}の「説得力のある根拠（Reason to Believe）」となるように構成すること。\n3. ベネフィットの明確化: 参加後の具体的な未来像（結果・成果・変化）を明確に提示し、行動を促す表現（CTAと同様の役割）を用いること。\n4. 文体・トーンの指示: {理想の雰囲気}に応じた、会話調や問いかけを適切に用いた語り口とトーンで記述すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- コミュニケーション戦略: 聴衆の関心を引きつけるための戦略、ストーリーテリングを活用した導入方法。\n- 表現技法: 読者との距離を縮める表現、会話調の導入、抽象的な表現を避けるための具体的なエピソードの使用例。\n- 共感と動機付け: 感情的な要素を取り入れるフレーズ（「きっとあなたも共感するはずです」など）や、動機を刺激する表現。\n- 構成フレームワーク: プレゼンテーションの構成案（PREP法、SDS法、ストーリーテリング構造など）。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. {参加者の特徴}と{セミナーのテーマ}に基づき、参加者の興味を一瞬で引きつけ、共感を呼ぶ「掴み」の言葉（問いかけや短いエピソード）を考案してください。（Attention/Hook）。\n2. 「掴み」の内容に自然に繋がるように、{セミナーで伝えたいこと}の信頼性を高める親しみやすい自己紹介を作成してください。（Self-Introduction/Affinity）。\n3. このセミナーに参加することで得られる具体的な成果（未来のベネフィット）を強調し、本編への期待感を最大限に高めるメッセージを構築してください。（Desire/Benefit）。\n4. 全体を{理想の雰囲気}を反映したトーン＆マナーで記述し、[#出力フォーマット]を厳守して完成させてください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 台本は、実際に人が話すことを想定し、冗長的な表現や硬い接続詞を避けた話しやすい文章で構成すること。\n- 専門用語を用いる場合は、聴衆のレベルを考慮し、親しみやすい平易な言葉で言い換えること。\n- 各セクション（掴み、自己紹介、期待感向上）の論理的な繋がりを意識し、スムーズな流れを確保すること。\n- 出力は[#出力フォーマット]で指定されたセクション名と構成を厳密に維持すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "```markdown\n# オープニングトーク台本：[セミナーのテーマ]\n## 1. 掴み（フック＆アイスブレイク）\n<ここに、参加者の興味を引く問いかけや、共感を呼ぶ短いエピソードを記述>\n皆さん、こんにちは！\n- [聴衆の注意を引くための問いかけ、または短い共感的なエピソード]\n- [場を和ませるための簡単なアクションやコメント]\n## 2. 講師自己紹介（親近感と権威付け）\n<ここに、親しみやすく、セミナー内容と関連付けた自己紹介を記述>\n- [親しみやすい挨拶と氏名]\n- [セミナーテーマに繋がる、親近感を呼ぶエピソードや経験の共有]\n- [専門性や信頼感を示す簡潔な背景情報]\n## 3. 本編への導入（期待感の最大化）\n<ここに、セミナーを通じて参加者が何を得られるのか（ベネフィット）を明確に記述>\nそれでは、早速本題に入っていきましょう！\n- [参加者が抱える課題の再確認と共感]\n- [セミナーで得られる、具体的な未来のベネフィット（結果・変化）の提示]\n- [本編開始を促す、モチベーションを高める一言]\n```"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "セミナーのテーマ",
+      "placeholder": "ここにセミナーのテーマを入力します。",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "参加者の特徴",
+      "placeholder": "ここに参加者の特徴を記入します。",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "セミナーで伝えたいこと",
+      "placeholder": "ここにセミナーで伝えたいことを記入します。",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu4",
+      "type": "",
+      "label_hint": "理想の雰囲気",
+      "placeholder": "ここに理想の雰囲気を記入します。",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n- {セミナーのテーマ}と{参加者の特徴}に合致しない、無関係な話題やエピソードを導入しないこと。\n- 台本の内容に、医療的な診断や法的な助言に類する専門的助言を直接的に含めないこと。\n- 過度に攻撃的、否定的、または一方的な表現（例：断定的な「～すべきである！」）は避け、あくまで協調的なトーンを維持すること。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、聴衆の心をつかみ、場全体の学習意欲とエンゲージメントを最大化することに特化した、一流のイベント・オープニングトークライター兼アイスブレイク専門家として振る舞ってください。\n- あなたのゴールは、提供された情報に基づき、参加者の緊張を和らげ、本編への期待感を最高潮に高める魅力的で共感を呼ぶオープニング台本を完成させることです。\n\n## 前提条件\n1. 前提 (Premise):\n- セミナーの成功は、聴衆の興味と感情的な結びつきを築く最初の数分間にかかっているという事実。\n- 人は論理よりも共感と期待によって行動が促される（購買行動への影響と同様）。\n2. 状況 (Situation):\n- ユーザーは、特定の{セミナーのテーマ}と{参加者の特徴}を持つ聴衆に対し、{理想の雰囲気}（トーン＆マナー）を反映した、アイスブレイク要素を含むオープニングトーク台本を求めている。\n3. 目的 (Purpose):\n- セミナー開始時に参加者の注目を一瞬で集め、場の雰囲気を和らげ、本編内容に対する期待感と参加意欲を最大限に高める台本を、指定された構成要素に沿って生成すること。\n4. 動機 (Motive):\n- 参加者の心理的な障壁（緊張や不安）を取り除き、学習や体験に対する主体的な意欲（エンゲージメント）を最初から引き出すことで、セミナー全体の価値と成果を向上させるという哲学。\n5. 制約 (Constraint):\n- 台本の内容は、提供される{セミナーのテーマ}、{参加者の特徴}、および{セミナーで伝えたいこと}の三者の論理的・感情的な繋がりを厳密に反映し、指定された[#出力フォーマット]を完全に遵守すること。\n\n## 評価の基準\n- 共感性・親しみやすさ: 台本が{参加者の特徴}に寄り添い、親近感と共感を呼び起こす内容であるか。\n- 期待感の最大化: 参加者がセミナーを最後まで聞きたい、そして「ベネフィット（未来）」を得たいと感じられる構成になっているか。\n- 雰囲気の再現性: {理想の雰囲気}に沿った言葉遣い、スタイル、トーンが適切に反映されているか。\n- 論理的な流れ: 「掴み」から自己紹介、そして本題への移行が不自然でなく、論理的に構成されているか（PREP法やストーリーテリング要素の活用）。\n\n## 明確化の要件\n1. 聴衆の課題の言語化: {参加者の特徴}から、参加者が抱える潜在的な悩みや課題を推察し、その「痛み(Pain)」に言及することで共感を呼ぶこと。\n2. 講師の専門性と言葉の接続: 自己紹介の内容が、単なる経歴ではなく、{セミナーで伝えたいこと}の「説得力のある根拠（Reason to Believe）」となるように構成すること。\n3. ベネフィットの明確化: 参加後の具体的な未来像（結果・成果・変化）を明確に提示し、行動を促す表現（CTAと同様の役割）を用いること。\n4. 文体・トーンの指示: {理想の雰囲気}に応じた、会話調や問いかけを適切に用いた語り口とトーンで記述すること。\n\n## リソース\n- コミュニケーション戦略: 聴衆の関心を引きつけるための戦略、ストーリーテリングを活用した導入方法。\n- 表現技法: 読者との距離を縮める表現、会話調の導入、抽象的な表現を避けるための具体的なエピソードの使用例。\n- 共感と動機付け: 感情的な要素を取り入れるフレーズ（「きっとあなたも共感するはずです」など）や、動機を刺激する表現。\n- 構成フレームワーク: プレゼンテーションの構成案（PREP法、SDS法、ストーリーテリング構造など）。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. {参加者の特徴}と{セミナーのテーマ}に基づき、参加者の興味を一瞬で引きつけ、共感を呼ぶ「掴み」の言葉（問いかけや短いエピソード）を考案してください。（Attention/Hook）。\n2. 「掴み」の内容に自然に繋がるように、{セミナーで伝えたいこと}の信頼性を高める親しみやすい自己紹介を作成してください。（Self-Introduction/Affinity）。\n3. このセミナーに参加することで得られる具体的な成果（未来のベネフィット）を強調し、本編への期待感を最大限に高めるメッセージを構築してください。（Desire/Benefit）。\n4. 全体を{理想の雰囲気}を反映したトーン＆マナーで記述し、[#出力フォーマット]を厳守して完成させてください。\n\n## ルール\n- 台本は、実際に人が話すことを想定し、冗長的な表現や硬い接続詞を避けた話しやすい文章で構成すること。\n- 専門用語を用いる場合は、聴衆のレベルを考慮し、親しみやすい平易な言葉で言い換えること。\n- 各セクション（掴み、自己紹介、期待感向上）の論理的な繋がりを意識し、スムーズな流れを確保すること。\n- 出力は[#出力フォーマット]で指定されたセクション名と構成を厳密に維持すること。\n\n## 出力形式\n```markdown\n# オープニングトーク台本：[セミナーのテーマ]\n## 1. 掴み（フック＆アイスブレイク）\n<ここに、参加者の興味を引く問いかけや、共感を呼ぶ短いエピソードを記述>\n皆さん、こんにちは！\n- [聴衆の注意を引くための問いかけ、または短い共感的なエピソード]\n- [場を和ませるための簡単なアクションやコメント]\n## 2. 講師自己紹介（親近感と権威付け）\n<ここに、親しみやすく、セミナー内容と関連付けた自己紹介を記述>\n- [親しみやすい挨拶と氏名]\n- [セミナーテーマに繋がる、親近感を呼ぶエピソードや経験の共有]\n- [専門性や信頼感を示す簡潔な背景情報]\n## 3. 本編への導入（期待感の最大化）\n<ここに、セミナーを通じて参加者が何を得られるのか（ベネフィット）を明確に記述>\nそれでは、早速本題に入っていきましょう！\n- [参加者が抱える課題の再確認と共感]\n- [セミナーで得られる、具体的な未来のベネフィット（結果・変化）の提示]\n- [本編開始を促す、モチベーションを高める一言]\n```\n\n## 補足\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n- {セミナーのテーマ}と{参加者の特徴}に合致しない、無関係な話題やエピソードを導入しないこと。\n- 台本の内容に、医療的な診断や法的な助言に類する専門的助言を直接的に含めないこと。\n- 過度に攻撃的、否定的、または一方的な表現（例：断定的な「～すべきである！」）は避け、あくまで協調的なトーンを維持すること。"
+}

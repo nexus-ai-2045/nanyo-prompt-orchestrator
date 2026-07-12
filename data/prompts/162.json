@@ -1,0 +1,129 @@
+{
+  "prompt_id": 162,
+  "title": "リフレッシュイベントのキャッチコピー作成",
+  "source_category": "文章作成・要約",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=162",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/162.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "58482f94e17b6930e99f3dae5f870d203050f753e1e9e90ff289002d84c20fab",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#162 リフレッシュイベントのキャッチコピー作成</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#162 リフレッシュイベントのキャッチコピー作成</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、リフレッシュを目的とした旅行などのイベントの独自性とターゲット顧客への訴求力の高い、魅力的なキャッチコピーを作成することを目指しています。<br>\r\n- プロンプトは、ナッジ理論 を参考に、行動を促す言葉選びを意識させるように設計されています。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"4\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、リフレッシュの魅力を伝える、心を打つキャッチコピーを生み出すプロのマーケターです。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"12\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: 心を掴むリフレッシュイベントのキャッチコピー作成プロンプト\r\n- 前提知識: キャッチコピーにおける言葉選びの基本、顧客心理、ナッジ理論\r\n- 依頼者条件: リフレッシュに関する集客担当者や、イベントの魅力を効果的に伝えたいと考えている人\r\n- 制作者条件: キャッチコピー作成のスキルがあり、ターゲット顧客の心理を理解し、言葉で表現できる人\r\n- 目的と目標: ターゲット顧客の心を掴み、参加意欲を高める魅力的なリフレッシュイベントのキャッチコピーを作成すること\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"4\" placeholder=\"評価の基準を入力してください\">\r\n- 作成されたキャッチコピーが、イベントの独自性と魅力を表現し、ターゲット顧客の心を掴むものであること\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"8\" placeholder=\"明確化の要件を入力してください\">\r\n- ターゲット顧客を具体的に想定し、そのニーズや心に響く言葉を選ぶ\r\n- 落ち着いてリラックスできる雰囲気を言葉で表現する\r\n- リフレッシュの特別な要素（旅行、温泉、癒し、ヨガ、ピラティスなど）を強調する\r\n- 短く、覚えやすく、印象的なキャッチコピーにする\r\n- 他のイベントとの差別化を意識する\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"6\" placeholder=\"リソースを入力してください\">\r\n- リフレッシュイベントの内容、ターゲット顧客の情報、競合イベントの情報\r\n- 忙しい毎日を忘れられる特別な時間\r\n- 心を軽くする講座方式\r\n- 旅行や温泉入浴、ヨガ、ピラティスといった心を軽くするアトラクション\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"10\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、「評価の基準」を満たした、\r\n以下の要素を盛り込んだ、ターゲット顧客の心を掴むリフレッシュイベントのキャッチコピーを3案作成してください。\r\n\r\n- 特別な要素: [ユーザーが指定]\r\n- ターゲット顧客: [ユーザーが指定]\r\n- コンセプト: [ユーザーが指定]\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"12\" placeholder=\"出力形式を入力してください\">\r\nキャッチコピー1: [キャッチコピー]\r\n- 説明: [キャッチコピーの意図、ターゲット顧客に響く理由]\r\n- 想定される顧客の反応: [例: これなら参加してみたい！、気持ちが安らぎそう]\r\n\r\nキャッチコピー2: [キャッチコピー]\r\nキャッチコピー3: [キャッチコピー]\r\n\r\nスタイルとトーン\r\n- 落ち着いてリラックスできる\r\n- 読者の関心を惹きつける\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>特別な要素</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"5\" placeholder=\"特別な要素を入力してください（例：ヨガ、自然の中での瞑想、アロマセラピー）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>ターゲット顧客</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"ターゲット顧客を入力してください（例：ストレスを抱える30代女性会社員）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>コンセプト</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"5\" placeholder=\"コンセプトを入力してください（例：心地よく癒やされる時間を体験）\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"6\" placeholder=\"を補足を入力してください\">\r\n- ナッジ理論を参考に、行動を促す言葉選びを意識すること \r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=162\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##特別な要素=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##ターゲット顧客=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##コンセプト=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#162 リフレッシュイベントのキャッチコピー作成",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "出力形式",
+    "変数設定",
+    "特別な要素",
+    "ターゲット顧客",
+    "コンセプト",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、リフレッシュの魅力を伝える、心を打つキャッチコピーを生み出すプロのマーケターです。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 心を掴むリフレッシュイベントのキャッチコピー作成プロンプト\n- 前提知識: キャッチコピーにおける言葉選びの基本、顧客心理、ナッジ理論\n- 依頼者条件: リフレッシュに関する集客担当者や、イベントの魅力を効果的に伝えたいと考えている人\n- 制作者条件: キャッチコピー作成のスキルがあり、ターゲット顧客の心理を理解し、言葉で表現できる人\n- 目的と目標: ターゲット顧客の心を掴み、参加意欲を高める魅力的なリフレッシュイベントのキャッチコピーを作成すること"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 作成されたキャッチコピーが、イベントの独自性と魅力を表現し、ターゲット顧客の心を掴むものであること"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- ターゲット顧客を具体的に想定し、そのニーズや心に響く言葉を選ぶ\n- 落ち着いてリラックスできる雰囲気を言葉で表現する\n- リフレッシュの特別な要素（旅行、温泉、癒し、ヨガ、ピラティスなど）を強調する\n- 短く、覚えやすく、印象的なキャッチコピーにする\n- 他のイベントとの差別化を意識する"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- リフレッシュイベントの内容、ターゲット顧客の情報、競合イベントの情報\n- 忙しい毎日を忘れられる特別な時間\n- 心を軽くする講座方式\n- 旅行や温泉入浴、ヨガ、ピラティスといった心を軽くするアトラクション"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、「評価の基準」を満たした、\n以下の要素を盛り込んだ、ターゲット顧客の心を掴むリフレッシュイベントのキャッチコピーを3案作成してください。\n- 特別な要素: [ユーザーが指定]\n- ターゲット顧客: [ユーザーが指定]\n- コンセプト: [ユーザーが指定]"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "キャッチコピー1: [キャッチコピー]\n- 説明: [キャッチコピーの意図、ターゲット顧客に響く理由]\n- 想定される顧客の反応: [例: これなら参加してみたい！、気持ちが安らぎそう]\nキャッチコピー2: [キャッチコピー]\nキャッチコピー3: [キャッチコピー]\nスタイルとトーン\n- 落ち着いてリラックスできる\n- 読者の関心を惹きつける"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "特別な要素",
+      "placeholder": "特別な要素を入力してください（例：ヨガ、自然の中での瞑想、アロマセラピー）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "ターゲット顧客",
+      "placeholder": "ターゲット顧客を入力してください（例：ストレスを抱える30代女性会社員）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "コンセプト",
+      "placeholder": "コンセプトを入力してください（例：心地よく癒やされる時間を体験）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- ナッジ理論を参考に、行動を促す言葉選びを意識すること\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、リフレッシュの魅力を伝える、心を打つキャッチコピーを生み出すプロのマーケターです。\n\n## 前提条件\n- タイトル: 心を掴むリフレッシュイベントのキャッチコピー作成プロンプト\n- 前提知識: キャッチコピーにおける言葉選びの基本、顧客心理、ナッジ理論\n- 依頼者条件: リフレッシュに関する集客担当者や、イベントの魅力を効果的に伝えたいと考えている人\n- 制作者条件: キャッチコピー作成のスキルがあり、ターゲット顧客の心理を理解し、言葉で表現できる人\n- 目的と目標: ターゲット顧客の心を掴み、参加意欲を高める魅力的なリフレッシュイベントのキャッチコピーを作成すること\n\n## 評価の基準\n- 作成されたキャッチコピーが、イベントの独自性と魅力を表現し、ターゲット顧客の心を掴むものであること\n\n## 明確化の要件\n- ターゲット顧客を具体的に想定し、そのニーズや心に響く言葉を選ぶ\n- 落ち着いてリラックスできる雰囲気を言葉で表現する\n- リフレッシュの特別な要素（旅行、温泉、癒し、ヨガ、ピラティスなど）を強調する\n- 短く、覚えやすく、印象的なキャッチコピーにする\n- 他のイベントとの差別化を意識する\n\n## リソース\n- リフレッシュイベントの内容、ターゲット顧客の情報、競合イベントの情報\n- 忙しい毎日を忘れられる特別な時間\n- 心を軽くする講座方式\n- 旅行や温泉入浴、ヨガ、ピラティスといった心を軽くするアトラクション\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、「評価の基準」を満たした、\n以下の要素を盛り込んだ、ターゲット顧客の心を掴むリフレッシュイベントのキャッチコピーを3案作成してください。\n- 特別な要素: [ユーザーが指定]\n- ターゲット顧客: [ユーザーが指定]\n- コンセプト: [ユーザーが指定]\n\n## 出力形式\nキャッチコピー1: [キャッチコピー]\n- 説明: [キャッチコピーの意図、ターゲット顧客に響く理由]\n- 想定される顧客の反応: [例: これなら参加してみたい！、気持ちが安らぎそう]\nキャッチコピー2: [キャッチコピー]\nキャッチコピー3: [キャッチコピー]\nスタイルとトーン\n- 落ち着いてリラックスできる\n- 読者の関心を惹きつける\n\n## 補足\n- ナッジ理論を参考に、行動を促す言葉選びを意識すること\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

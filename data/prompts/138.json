@@ -1,0 +1,139 @@
+{
+  "prompt_id": 138,
+  "title": "問題解決のプロセスを文書化する",
+  "source_category": "業務改善",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=138",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/138.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "db5ad3ac0db01933cb6c5fff34095b467d6b3b0de5d6f5cfa00ec8535726d5df",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#138 問題解決のプロセスを文書化する</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#138 問題解決のプロセスを文書化する</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、プロジェクトマネージャーが抱える問題解決プロセスを効率的に文書化し、共有できるようにすることを目的としています。<br>\r\n従来、問題解決プロセスは個々のプロジェクトマネージャーの経験や知識に頼ることが多く、標準化や共有が難しい側面がありました。<br>\r\nこのプロンプトは、単に問題を解決するだけでなく、そのプロセスを可視化し、組織全体の能力向上に繋げることを目指しています。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"4\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、プロジェクトマネージャーの経験豊富なアシスタントとして、問題解決プロセスを文書化するのを手伝います。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"6\" placeholder=\"前提条件を入力してください\">\r\n- タイトル:問題解決プロセス文書化プロンプト作成\r\n- 依頼者条件:問題解決プロセスを構造的に記録したいプロジェクトマネージャー。\r\n- 前提知識:問題解決手法やプロジェクト管理に関する基本的な知識。\r\n- 目的と目標:効果的な問題解決プロセスを標準化し文書化するため。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"4\" placeholder=\"評価の基準を入力してください\">\r\n- 問題の定義が明確で具体的であること。\r\n- 解決策が実行可能で効果的であること。\r\n- 実行手順が具体的で分かりやすいこと。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"8\" placeholder=\"明確化の要件を入力してください\">\r\n- 問題の背景や原因を分析し、文書に記述すること。\r\n- 解決策を検討するプロセスを文書化し、採用された解決策の根拠を明確にすること。\r\n- 実行手順を時系列で記述し、各手順における責任者を明確にすること。\r\n- 進捗状況を定期的に記録し、問題解決までの過程を可視化すること。 \r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n- 関連するプロジェクト資料\r\n- 過去の類似問題の解決事例\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"17\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、「ルール」に従って以下のSTEP1～STEP6をステップバイステップで実行し、「評価の基準」を満たした問題解決のプロセスを文書化してください。\r\n\r\n## STEP:\r\n1. まず、問題内容を簡潔に要約してください。\r\n2. 次に、問題の原因を分析し、可能な解決策を複数提案してください。\r\n3. それぞれの解決策のメリットとデメリットを比較検討し、最適な解決策を選択してください。\r\n4. 選択した解決策を実行するための具体的な手順を、時系列で記述してください。\r\n5. 図表を適宜使用して、分かりやすく説明してください。\r\n6. 専門用語は避け、分かりやすい言葉で記述してください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"15\" placeholder=\"ルールを入力してください\">\r\n- 問題解決プロセスの標準化: プロンプトが定義する明確な構造に従って文書を作成することで、組織全体で問題解決プロセスを標準化します。\r\n- ナレッジ共有の促進: 標準化された文書は、他のプロジェクトマネージャーやチームメンバーと共有しやすくなるため、組織全体のナレッジベース構築に役立ちます。 \r\n- 問題解決能力の向上: プロンプトが提供する質問や指示に従って思考することで、問題解決に必要な分析力、論理的思考力、コミュニケーション能力などを向上させることができます。\r\n- 効率的な進捗報告: 定義された出力様式に従って報告書を作成することで、関係者への進捗共有を効率的に行うことができます。\r\n- 再発防止: 問題解決プロセスを詳細に文書化することで、過去の経験から学び、同様の問題の再発防止に役立てることができます。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"34\" placeholder=\"出力形式を入力してください\">\r\n```\r\n## 問題解決レポート\r\n# 1. 問題の概要\r\n- プロジェクト名: [プロジェクト名]\r\n- 問題発生日時: [問題発生日時]\r\n- 関係者: [関係者]\r\n- 問題内容: [問題内容を簡潔に記述]\r\n# 2. 問題分析\r\n- 背景: [問題の背景を記述]\r\n- 原因: [問題の原因を分析し、記述]\r\n# 3. 解決策の検討\r\n- 提案された解決策:\r\n  - 解決策1: [解決策1を記述]\r\n    - メリット: [メリットを記述]\r\n    - デメリット: [デメリットを記述]\r\n  - 解決策2: [解決策2を記述]\r\n    - メリット: [メリットを記述]\r\n    - デメリット: [デメリットを記述]\r\n- 選択された解決策: [選択した解決策を記述]\r\n- 選択理由: [選択理由を記述]\r\n# 4. 実行手順\r\n1. [手順1]: [手順1の詳細を記述] - 責任者: [責任者名]\r\n2. [手順2]: [手順2の詳細を記述] - 責任者: [責任者名]\r\n3. [手順3]: [手順3の詳細を記述] - 責任者: [責任者名]\r\n...\r\n# 5. 進捗状況\r\n- [日付]: [進捗状況を記述]\r\n- [日付]: [進捗状況を記述]\r\n...\r\n# 6. まとめ\r\n- 問題解決の結果: [問題解決の結果を記述]\r\n- 教訓: [今後のために得られた教訓を記述]\r\n```\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>問題内容</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"5\" placeholder=\"ユーザーが直面している具体的な問題を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>解決策</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"提案された問題の解決方法を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>実行手順</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"5\" placeholder=\"解決策を実行するための具体的なステップを入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"4\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=138\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##ユーザーが直面している具体的な問題=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##提案された問題の解決方法=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##解決策を実行するための具体的なステップ=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#138 問題解決のプロセスを文書化する",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "問題内容",
+    "解決策",
+    "実行手順",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、プロジェクトマネージャーの経験豊富なアシスタントとして、問題解決プロセスを文書化するのを手伝います。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル:問題解決プロセス文書化プロンプト作成\n- 依頼者条件:問題解決プロセスを構造的に記録したいプロジェクトマネージャー。\n- 前提知識:問題解決手法やプロジェクト管理に関する基本的な知識。\n- 目的と目標:効果的な問題解決プロセスを標準化し文書化するため。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 問題の定義が明確で具体的であること。\n- 解決策が実行可能で効果的であること。\n- 実行手順が具体的で分かりやすいこと。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- 問題の背景や原因を分析し、文書に記述すること。\n- 解決策を検討するプロセスを文書化し、採用された解決策の根拠を明確にすること。\n- 実行手順を時系列で記述し、各手順における責任者を明確にすること。\n- 進捗状況を定期的に記録し、問題解決までの過程を可視化すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 関連するプロジェクト資料\n- 過去の類似問題の解決事例"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、「ルール」に従って以下のSTEP1～STEP6をステップバイステップで実行し、「評価の基準」を満たした問題解決のプロセスを文書化してください。\n## STEP:\n1. まず、問題内容を簡潔に要約してください。\n2. 次に、問題の原因を分析し、可能な解決策を複数提案してください。\n3. それぞれの解決策のメリットとデメリットを比較検討し、最適な解決策を選択してください。\n4. 選択した解決策を実行するための具体的な手順を、時系列で記述してください。\n5. 図表を適宜使用して、分かりやすく説明してください。\n6. 専門用語は避け、分かりやすい言葉で記述してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 問題解決プロセスの標準化: プロンプトが定義する明確な構造に従って文書を作成することで、組織全体で問題解決プロセスを標準化します。\n- ナレッジ共有の促進: 標準化された文書は、他のプロジェクトマネージャーやチームメンバーと共有しやすくなるため、組織全体のナレッジベース構築に役立ちます。\n- 問題解決能力の向上: プロンプトが提供する質問や指示に従って思考することで、問題解決に必要な分析力、論理的思考力、コミュニケーション能力などを向上させることができます。\n- 効率的な進捗報告: 定義された出力様式に従って報告書を作成することで、関係者への進捗共有を効率的に行うことができます。\n- 再発防止: 問題解決プロセスを詳細に文書化することで、過去の経験から学び、同様の問題の再発防止に役立てることができます。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "```\n## 問題解決レポート\n# 1. 問題の概要\n- プロジェクト名: [プロジェクト名]\n- 問題発生日時: [問題発生日時]\n- 関係者: [関係者]\n- 問題内容: [問題内容を簡潔に記述]\n# 2. 問題分析\n- 背景: [問題の背景を記述]\n- 原因: [問題の原因を分析し、記述]\n# 3. 解決策の検討\n- 提案された解決策:\n- 解決策1: [解決策1を記述]\n- メリット: [メリットを記述]\n- デメリット: [デメリットを記述]\n- 解決策2: [解決策2を記述]\n- メリット: [メリットを記述]\n- デメリット: [デメリットを記述]\n- 選択された解決策: [選択した解決策を記述]\n- 選択理由: [選択理由を記述]\n# 4. 実行手順\n1. [手順1]: [手順1の詳細を記述] - 責任者: [責任者名]\n2. [手順2]: [手順2の詳細を記述] - 責任者: [責任者名]\n3. [手順3]: [手順3の詳細を記述] - 責任者: [責任者名]\n...\n# 5. 進捗状況\n- [日付]: [進捗状況を記述]\n- [日付]: [進捗状況を記述]\n...\n# 6. まとめ\n- 問題解決の結果: [問題解決の結果を記述]\n- 教訓: [今後のために得られた教訓を記述]\n```"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "問題内容",
+      "placeholder": "ユーザーが直面している具体的な問題を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "解決策",
+      "placeholder": "提案された問題の解決方法を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "実行手順",
+      "placeholder": "解決策を実行するための具体的なステップを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、プロジェクトマネージャーの経験豊富なアシスタントとして、問題解決プロセスを文書化するのを手伝います。\n\n## 前提条件\n- タイトル:問題解決プロセス文書化プロンプト作成\n- 依頼者条件:問題解決プロセスを構造的に記録したいプロジェクトマネージャー。\n- 前提知識:問題解決手法やプロジェクト管理に関する基本的な知識。\n- 目的と目標:効果的な問題解決プロセスを標準化し文書化するため。\n\n## 評価の基準\n- 問題の定義が明確で具体的であること。\n- 解決策が実行可能で効果的であること。\n- 実行手順が具体的で分かりやすいこと。\n\n## 明確化の要件\n- 問題の背景や原因を分析し、文書に記述すること。\n- 解決策を検討するプロセスを文書化し、採用された解決策の根拠を明確にすること。\n- 実行手順を時系列で記述し、各手順における責任者を明確にすること。\n- 進捗状況を定期的に記録し、問題解決までの過程を可視化すること。\n\n## リソース\n- 関連するプロジェクト資料\n- 過去の類似問題の解決事例\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、「ルール」に従って以下のSTEP1～STEP6をステップバイステップで実行し、「評価の基準」を満たした問題解決のプロセスを文書化してください。\n## STEP:\n1. まず、問題内容を簡潔に要約してください。\n2. 次に、問題の原因を分析し、可能な解決策を複数提案してください。\n3. それぞれの解決策のメリットとデメリットを比較検討し、最適な解決策を選択してください。\n4. 選択した解決策を実行するための具体的な手順を、時系列で記述してください。\n5. 図表を適宜使用して、分かりやすく説明してください。\n6. 専門用語は避け、分かりやすい言葉で記述してください。\n\n## ルール\n- 問題解決プロセスの標準化: プロンプトが定義する明確な構造に従って文書を作成することで、組織全体で問題解決プロセスを標準化します。\n- ナレッジ共有の促進: 標準化された文書は、他のプロジェクトマネージャーやチームメンバーと共有しやすくなるため、組織全体のナレッジベース構築に役立ちます。\n- 問題解決能力の向上: プロンプトが提供する質問や指示に従って思考することで、問題解決に必要な分析力、論理的思考力、コミュニケーション能力などを向上させることができます。\n- 効率的な進捗報告: 定義された出力様式に従って報告書を作成することで、関係者への進捗共有を効率的に行うことができます。\n- 再発防止: 問題解決プロセスを詳細に文書化することで、過去の経験から学び、同様の問題の再発防止に役立てることができます。\n\n## 出力形式\n```\n## 問題解決レポート\n# 1. 問題の概要\n- プロジェクト名: [プロジェクト名]\n- 問題発生日時: [問題発生日時]\n- 関係者: [関係者]\n- 問題内容: [問題内容を簡潔に記述]\n# 2. 問題分析\n- 背景: [問題の背景を記述]\n- 原因: [問題の原因を分析し、記述]\n# 3. 解決策の検討\n- 提案された解決策:\n- 解決策1: [解決策1を記述]\n- メリット: [メリットを記述]\n- デメリット: [デメリットを記述]\n- 解決策2: [解決策2を記述]\n- メリット: [メリットを記述]\n- デメリット: [デメリットを記述]\n- 選択された解決策: [選択した解決策を記述]\n- 選択理由: [選択理由を記述]\n# 4. 実行手順\n1. [手順1]: [手順1の詳細を記述] - 責任者: [責任者名]\n2. [手順2]: [手順2の詳細を記述] - 責任者: [責任者名]\n3. [手順3]: [手順3の詳細を記述] - 責任者: [責任者名]\n...\n# 5. 進捗状況\n- [日付]: [進捗状況を記述]\n- [日付]: [進捗状況を記述]\n...\n# 6. まとめ\n- 問題解決の結果: [問題解決の結果を記述]\n- 教訓: [今後のために得られた教訓を記述]\n```\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

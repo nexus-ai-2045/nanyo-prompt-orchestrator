@@ -1,0 +1,139 @@
+{
+  "prompt_id": 85,
+  "title": "事業（ビジネス）提案書作成",
+  "source_category": "アイデア創出・企画",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=85",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/085.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "8d82aed18214179b4b8c56576cb210fadf0db8812b692adc87fe458ad9cf2cfa",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#085 事業（ビジネス）提案書作成</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#085 事業（ビジネス）提案書作成</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\n- 担当者が説得力のあるビジネス提案書を作成する。<br>\r\n- 提案書はターゲットや目的に応じてカスタマイズされ、革新的なアイデアを取り入れつつ、説得力を持たせることを目的としている。<br>\r\n- 出力フォーマットに従って、サービス概要、導入メリット、導入事例、費用、スケジュールなどを含めた構成としたい。<br>\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"4\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、経験豊富なビジネスコンサルタントとして説得力のあるビジネス提案書を作成します。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"8\" placeholder=\"前提条件を入力してください\">\r\n- タイトル:ビジネス提案書作成プロンプト\r\n- 依頼者条件:ビジネス提案書を必要とする担当者。\r\n- 前提知識:提案するビジネスの詳細とその業界に関する基礎知識。\r\n- 目的と目標:効率的かつ効果的にビジネス提案書を作成し、上司（又はクライアント）の意思決定を促進すること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"6\" placeholder=\"評価の基準を入力してください\">\r\n- 提案書の説得力: 論理的な構成、具体的なデータ、魅力的な表現\r\n- 提案内容の実現可能性: 費用対効果、導入スケジュール、リスクと対策\r\n- 提案書の分かりやすさ: 簡潔な文章、図表の活用、論理的な流れ\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"8\" placeholder=\"明確化の要件を入力してください\">\r\n1. 提案するサービスの現状分析: 市場トレンド、競合分析、顧客ニーズ分析\r\n2. サービス導入のメリットと効果: 定量的・定性的な分析\r\n3. 導入計画: 導入スケジュール、体制、費用、リスクと対策\r\n4. 期待される成果: 目標達成度、KPI設定\r\n5. 結論: 提案の要点と行動喚起\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n- {業界に関する市場調査レポート}\r\n- {競合サービスの分析資料}\r\n- {サービスの導入事例}\r\n- {業界}で{サービス概要}を始める意義\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"8\" placeholder=\"実行指示を入力してください\">\r\n{提案書目的}を深く解釈し、{業界}で{サービス概要}を始める意義を水平思考を使って推察してください。\r\n次に、上記の内容を基に、{業界}の業界で働く{上司（又はクライアント）}向けの、{サービス概要}の提案書を作成してください。\r\n- {ターゲット}を対象とした{提案書の目的}についての提案書を革新的なアイデアを提案し、説得力のある内容で作成してください。\r\n- {出力フォーマット}を参考に、ナラティブ形式で出力してください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"28\" placeholder=\"出力形式を入力してください\">\r\n## 出力フォーマット\r\n### 1. 提案概要\r\n- サービス名:\r\n- サービス概要: [ナラティブ形式で]\r\n- 提案の目的: [導入メリットの説得力のある記述]\r\n\r\n### 2. 現状分析\r\n- 市場トレンド:\r\n- 競合分析:\r\n- 顧客ニーズ分析:\r\n\r\n### 3. 提案内容\r\n- サービス導入のメリット:\r\n- 期待される効果:[ストリーテリングを使いナラティブ形式で]\r\n- 導入計画:\r\n    - 導入スケジュール:\r\n    - 体制:\r\n    - 費用:\r\n    - リスクと対策:\r\n\r\n### 4. 結論\r\n- 提案の要点:[ナラティブ形式で]\r\n- 行動喚起:[ナラティブ形式で]\r\n\r\n# スタイルとトーン\r\n- フォーマルで説得力のあるトーン\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>業界</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"2\" placeholder=\"業界を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>サービス概要</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"3\" placeholder=\"サービス概要を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>ターゲット</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"2\" placeholder=\"ターゲットを入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>提案書目的</h3>\r\n<textarea name=\"hensu4\" id=\"hensu4\" rows=\"5\" placeholder=\"提案書目的を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"5\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n- {出力フォーマット}のフォーマット形式を厳守してください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=85\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##業界=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##サービス概要=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##ターゲット=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##提案の目的=\" + (formData.get('hensu4') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#085 事業（ビジネス）提案書作成",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "出力形式",
+    "変数設定",
+    "業界",
+    "サービス概要",
+    "ターゲット",
+    "提案書目的",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、経験豊富なビジネスコンサルタントとして説得力のあるビジネス提案書を作成します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル:ビジネス提案書作成プロンプト\n- 依頼者条件:ビジネス提案書を必要とする担当者。\n- 前提知識:提案するビジネスの詳細とその業界に関する基礎知識。\n- 目的と目標:効率的かつ効果的にビジネス提案書を作成し、上司（又はクライアント）の意思決定を促進すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 提案書の説得力: 論理的な構成、具体的なデータ、魅力的な表現\n- 提案内容の実現可能性: 費用対効果、導入スケジュール、リスクと対策\n- 提案書の分かりやすさ: 簡潔な文章、図表の活用、論理的な流れ"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1. 提案するサービスの現状分析: 市場トレンド、競合分析、顧客ニーズ分析\n2. サービス導入のメリットと効果: 定量的・定性的な分析\n3. 導入計画: 導入スケジュール、体制、費用、リスクと対策\n4. 期待される成果: 目標達成度、KPI設定\n5. 結論: 提案の要点と行動喚起"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- {業界に関する市場調査レポート}\n- {競合サービスの分析資料}\n- {サービスの導入事例}\n- {業界}で{サービス概要}を始める意義"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "{提案書目的}を深く解釈し、{業界}で{サービス概要}を始める意義を水平思考を使って推察してください。\n次に、上記の内容を基に、{業界}の業界で働く{上司（又はクライアント）}向けの、{サービス概要}の提案書を作成してください。\n- {ターゲット}を対象とした{提案書の目的}についての提案書を革新的なアイデアを提案し、説得力のある内容で作成してください。\n- {出力フォーマット}を参考に、ナラティブ形式で出力してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "## 出力フォーマット\n### 1. 提案概要\n- サービス名:\n- サービス概要: [ナラティブ形式で]\n- 提案の目的: [導入メリットの説得力のある記述]\n### 2. 現状分析\n- 市場トレンド:\n- 競合分析:\n- 顧客ニーズ分析:\n### 3. 提案内容\n- サービス導入のメリット:\n- 期待される効果:[ストリーテリングを使いナラティブ形式で]\n- 導入計画:\n- 導入スケジュール:\n- 体制:\n- 費用:\n- リスクと対策:\n### 4. 結論\n- 提案の要点:[ナラティブ形式で]\n- 行動喚起:[ナラティブ形式で]\n# スタイルとトーン\n- フォーマルで説得力のあるトーン"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "業界",
+      "placeholder": "業界を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "サービス概要",
+      "placeholder": "サービス概要を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "ターゲット",
+      "placeholder": "ターゲットを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu4",
+      "type": "",
+      "label_hint": "提案書目的",
+      "placeholder": "提案書目的を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。\n- {出力フォーマット}のフォーマット形式を厳守してください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、経験豊富なビジネスコンサルタントとして説得力のあるビジネス提案書を作成します。\n\n## 前提条件\n- タイトル:ビジネス提案書作成プロンプト\n- 依頼者条件:ビジネス提案書を必要とする担当者。\n- 前提知識:提案するビジネスの詳細とその業界に関する基礎知識。\n- 目的と目標:効率的かつ効果的にビジネス提案書を作成し、上司（又はクライアント）の意思決定を促進すること。\n\n## 評価の基準\n- 提案書の説得力: 論理的な構成、具体的なデータ、魅力的な表現\n- 提案内容の実現可能性: 費用対効果、導入スケジュール、リスクと対策\n- 提案書の分かりやすさ: 簡潔な文章、図表の活用、論理的な流れ\n\n## 明確化の要件\n1. 提案するサービスの現状分析: 市場トレンド、競合分析、顧客ニーズ分析\n2. サービス導入のメリットと効果: 定量的・定性的な分析\n3. 導入計画: 導入スケジュール、体制、費用、リスクと対策\n4. 期待される成果: 目標達成度、KPI設定\n5. 結論: 提案の要点と行動喚起\n\n## リソース\n- {業界に関する市場調査レポート}\n- {競合サービスの分析資料}\n- {サービスの導入事例}\n- {業界}で{サービス概要}を始める意義\n\n## 実行指示\n{提案書目的}を深く解釈し、{業界}で{サービス概要}を始める意義を水平思考を使って推察してください。\n次に、上記の内容を基に、{業界}の業界で働く{上司（又はクライアント）}向けの、{サービス概要}の提案書を作成してください。\n- {ターゲット}を対象とした{提案書の目的}についての提案書を革新的なアイデアを提案し、説得力のある内容で作成してください。\n- {出力フォーマット}を参考に、ナラティブ形式で出力してください。\n\n## 出力形式\n## 出力フォーマット\n### 1. 提案概要\n- サービス名:\n- サービス概要: [ナラティブ形式で]\n- 提案の目的: [導入メリットの説得力のある記述]\n### 2. 現状分析\n- 市場トレンド:\n- 競合分析:\n- 顧客ニーズ分析:\n### 3. 提案内容\n- サービス導入のメリット:\n- 期待される効果:[ストリーテリングを使いナラティブ形式で]\n- 導入計画:\n- 導入スケジュール:\n- 体制:\n- 費用:\n- リスクと対策:\n### 4. 結論\n- 提案の要点:[ナラティブ形式で]\n- 行動喚起:[ナラティブ形式で]\n# スタイルとトーン\n- フォーマルで説得力のあるトーン\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。\n- {出力フォーマット}のフォーマット形式を厳守してください。"
+}

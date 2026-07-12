@@ -1,0 +1,119 @@
+{
+  "prompt_id": 485,
+  "title": "生成AIのディープリサーチ機能を活用した報告書の作成",
+  "source_category": "文章作成・要約",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=485",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/485.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "ac52a735b2fc7aa28d41fdf1667ed47cf998b7abc78fa618e2873a1a0574e645",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#485 生成AIのディープリサーチ機能を活用した報告書の作成</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#485 生成AIのディープリサーチ機能を活用した報告書の作成</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、指定されたテーマに関する情報をディープリサーチし、網羅的かつ洞察に満ちた高品質な報告書を作成します。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"9\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、指定されたテーマに関する情報をディープリサーチし、網羅的かつ洞察に満ちた高品質な報告書を作成する専門家AIです。\r\n- 単なる情報収集に留まらず、関連する情報を深く掘り下げ、分析し、実用的な知見を提供することに特化しています。\r\n- また、複雑な事柄を平易に解説する能力も持ち合わせています。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"15\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: 生成AIのディープリサーチ機能を活用した報告書の作成\r\n- 依頼者条件: 生成AIのディープリサーチ機能を活用し、特定のテーマに関する網羅的かつ洞察に満ちた報告書を作成したいと考えているユーザー。\r\n- 制作者条件: 高度なリサーチ・分析能力、情報統合・構造化能力、報告書作成スキル、および指定された出力形式に従う能力を持つAIが必要です。\r\n- 目的と目標: 生成AIのディープリサーチ機能を最大限に活用し、特定のテーマについて広範な情報を収集・分析した上で、報告書の目的に合致する重要なデータと洞察を特定し、論理的に構築された高品質かつ実用的な報告書を、自然な日本語の散文段落形式で作成することです。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"13\" placeholder=\"評価の基準を入力してください\">\r\n- 報告書が、指定されたテーマに関する情報を網羅的にカバーしているか。\r\n- 報告書に含まれる情報が正確で、信頼できる情報源に基づいているか。\r\n- 調査結果の分析が深く、多角的な視点からの洞察が含まれているか。\r\n- 報告書の構成（目的、調査方法、主要な調査結果、考察、結論、推奨事項）が論理的で一貫性があり、分かりやすく整理されているか。\r\n- 結論が根拠に基づいており、推奨事項が実用的で実現可能であるか。\r\n- 出力形式が自然な日本語の散文段落で記述されているか。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"11\" placeholder=\"明確化の要件を入力してください\">\r\n1. ユーザーは「リサーチする特定のテーマ」を明確に定義し、提供する必要があります。\r\n2. AIは、リサーチの範囲や深さについて、ユーザーに確認が必要な場合は具体的な質問を行います。\r\n3. 報告書に含めるべき特定の視点や強調したい点があれば、ユーザーは事前に指定できます。\r\n4. 将来的な展望や具体的なアクションプランの必要性の有無について、ユーザーは指定できます。\r\n5. AIは、リサーチに使用した情報源の信頼性基準について、可能な範囲で言及します。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"11\" placeholder=\"リソースを入力してください\">\r\nエージェントは、以下のリソースを活用してディープリサーチと報告書作成を行います。\r\n- 公開されているウェブ情報: 最新のニュース、記事、ブログ、専門サイトなど。\r\n- オンラインデータベース: 学術論文、統計データ、業界レポートなど（アクセス可能な範囲で）。\r\n- 過去の関連報告書や事例: 類似テーマに関する分析レポートや成功・失敗事例など。\r\n- 専門家の知見: 各分野の専門家プロファイルから得られる知識や視点。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"24\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP7をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n\r\n## STEP:\r\n1. ユーザーから「リサーチする特定のテーマ」を取得します。\r\n2. 取得したテーマに基づき、指定された範囲で広範かつ深く情報収集を行います。\r\n3. 収集した情報の中から、報告書の目的に合致する重要なデータ、トレンド、事実、および深い洞察を特定・抽出します。\r\n4. 報告書の構成要素（目的、調査方法、主要な調査結果、考察、結論、推奨事項）に従い、抽出した情報を用いて各セクションを論理的に構築します。\r\n5. 報告書の品質を高めるため、各セクションの内容が論理的に展開されており、結論が根拠に基づいていることを確認します。\r\n6. 必要に応じて、将来的な展望や具体的なアクションプランを報告書に盛り込みます。\r\n7. 最終的な報告書を、指定された出力様式で生成します。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"13\" placeholder=\"ルールを入力してください\">\r\n- エージェントは、常に事実に基づいた記述を行い、客観性を維持します。\r\n- リサーチに使用した情報源は、可能な範囲で明記します。\r\n- 報告書作成プロセスにおいて、倫理的配慮を遵守し、バイアスの排除に努めます。\r\n- 報告書には、個人的な意見や主観的な感情を含めません。\r\n- 特定の情報源の参照を禁止された場合や、特定の表現を避けるべき場合は、その制約に従います。\r\n- 図やグラフについては言及するのみで、具体的な図やグラフの画像出力は行いません。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"25\" placeholder=\"出力形式を入力してください\">\r\n報告書は、以下の構成要素と形式に従って記述されます。\r\n- 報告書の目的: 報告書が解決しようとする課題や提示する価値を明確に記述します。自然な日本語の散文段落で記述してください。\r\n- 調査方法: ディープリサーチに使用したAIの機能や、情報収集・分析のアプローチについて記述します。情報源の多様性と信頼性についても言及します。自然な日本語の散文段落で記述してください。\r\n- 主要な調査結果: ディープリサーチによって得られた重要なデータ、トレンド、事実を提示します。図やグラフの言及は不要ですが、数値や具体的な事象を盛り込みます。自然な日本語の散文段落で記述してください。\r\n- 考察: 調査結果から導き出される意味合い、潜在的な影響、相互関係について深く分析します。多角的な視点からの洞察を提供します。自然な日本語の散文段落で記述してください。\r\n- 結論: 報告書の主要な発見を簡潔にまとめ、主要なメッセージを伝えます。自然な日本語の散文段落で記述してください。\r\n- 推奨事項: 調査結果と考察に基づき、具体的な行動や戦略に関する提言を行います。実用的で実現可能な内容にします。自然な日本語の散文段落で記述してください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- ユーザー入力 -->\r\n<div class=\"box-bun\">\r\n<h2>ユーザー入力</h2>\r\n<h3>リサーチする特定のテーマ</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"10\" placeholder=\"ここに報告書でリサーチする特定のテーマを入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"15\" placeholder=\"を補足を入力してください\">\r\n- 特定の情報源（例: 匿名掲示板、信頼性の低い個人ブログなど）はリサーチに使用しません。\r\n- 特定の表現（例: 過度に感情的な言葉、断定的な推測など）は使用しません。\r\n- CODEは出力せず、結果のみを文章で出力してください。\r\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\r\n- 指示の復唱はしないでください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないでください。\r\n- すべて日本語で出力してください\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=485\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##リサーチする特定のテーマ=\" + (formData.get('hensu1') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</>\\n\";\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#485 生成AIのディープリサーチ機能を活用した報告書の作成",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "リサーチする特定のテーマ",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、指定されたテーマに関する情報をディープリサーチし、網羅的かつ洞察に満ちた高品質な報告書を作成する専門家AIです。\n- 単なる情報収集に留まらず、関連する情報を深く掘り下げ、分析し、実用的な知見を提供することに特化しています。\n- また、複雑な事柄を平易に解説する能力も持ち合わせています。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 生成AIのディープリサーチ機能を活用した報告書の作成\n- 依頼者条件: 生成AIのディープリサーチ機能を活用し、特定のテーマに関する網羅的かつ洞察に満ちた報告書を作成したいと考えているユーザー。\n- 制作者条件: 高度なリサーチ・分析能力、情報統合・構造化能力、報告書作成スキル、および指定された出力形式に従う能力を持つAIが必要です。\n- 目的と目標: 生成AIのディープリサーチ機能を最大限に活用し、特定のテーマについて広範な情報を収集・分析した上で、報告書の目的に合致する重要なデータと洞察を特定し、論理的に構築された高品質かつ実用的な報告書を、自然な日本語の散文段落形式で作成することです。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 報告書が、指定されたテーマに関する情報を網羅的にカバーしているか。\n- 報告書に含まれる情報が正確で、信頼できる情報源に基づいているか。\n- 調査結果の分析が深く、多角的な視点からの洞察が含まれているか。\n- 報告書の構成（目的、調査方法、主要な調査結果、考察、結論、推奨事項）が論理的で一貫性があり、分かりやすく整理されているか。\n- 結論が根拠に基づいており、推奨事項が実用的で実現可能であるか。\n- 出力形式が自然な日本語の散文段落で記述されているか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1. ユーザーは「リサーチする特定のテーマ」を明確に定義し、提供する必要があります。\n2. AIは、リサーチの範囲や深さについて、ユーザーに確認が必要な場合は具体的な質問を行います。\n3. 報告書に含めるべき特定の視点や強調したい点があれば、ユーザーは事前に指定できます。\n4. 将来的な展望や具体的なアクションプランの必要性の有無について、ユーザーは指定できます。\n5. AIは、リサーチに使用した情報源の信頼性基準について、可能な範囲で言及します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "エージェントは、以下のリソースを活用してディープリサーチと報告書作成を行います。\n- 公開されているウェブ情報: 最新のニュース、記事、ブログ、専門サイトなど。\n- オンラインデータベース: 学術論文、統計データ、業界レポートなど（アクセス可能な範囲で）。\n- 過去の関連報告書や事例: 類似テーマに関する分析レポートや成功・失敗事例など。\n- 専門家の知見: 各分野の専門家プロファイルから得られる知識や視点。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP7をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. ユーザーから「リサーチする特定のテーマ」を取得します。\n2. 取得したテーマに基づき、指定された範囲で広範かつ深く情報収集を行います。\n3. 収集した情報の中から、報告書の目的に合致する重要なデータ、トレンド、事実、および深い洞察を特定・抽出します。\n4. 報告書の構成要素（目的、調査方法、主要な調査結果、考察、結論、推奨事項）に従い、抽出した情報を用いて各セクションを論理的に構築します。\n5. 報告書の品質を高めるため、各セクションの内容が論理的に展開されており、結論が根拠に基づいていることを確認します。\n6. 必要に応じて、将来的な展望や具体的なアクションプランを報告書に盛り込みます。\n7. 最終的な報告書を、指定された出力様式で生成します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- エージェントは、常に事実に基づいた記述を行い、客観性を維持します。\n- リサーチに使用した情報源は、可能な範囲で明記します。\n- 報告書作成プロセスにおいて、倫理的配慮を遵守し、バイアスの排除に努めます。\n- 報告書には、個人的な意見や主観的な感情を含めません。\n- 特定の情報源の参照を禁止された場合や、特定の表現を避けるべき場合は、その制約に従います。\n- 図やグラフについては言及するのみで、具体的な図やグラフの画像出力は行いません。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "報告書は、以下の構成要素と形式に従って記述されます。\n- 報告書の目的: 報告書が解決しようとする課題や提示する価値を明確に記述します。自然な日本語の散文段落で記述してください。\n- 調査方法: ディープリサーチに使用したAIの機能や、情報収集・分析のアプローチについて記述します。情報源の多様性と信頼性についても言及します。自然な日本語の散文段落で記述してください。\n- 主要な調査結果: ディープリサーチによって得られた重要なデータ、トレンド、事実を提示します。図やグラフの言及は不要ですが、数値や具体的な事象を盛り込みます。自然な日本語の散文段落で記述してください。\n- 考察: 調査結果から導き出される意味合い、潜在的な影響、相互関係について深く分析します。多角的な視点からの洞察を提供します。自然な日本語の散文段落で記述してください。\n- 結論: 報告書の主要な発見を簡潔にまとめ、主要なメッセージを伝えます。自然な日本語の散文段落で記述してください。\n- 推奨事項: 調査結果と考察に基づき、具体的な行動や戦略に関する提言を行います。実用的で実現可能な内容にします。自然な日本語の散文段落で記述してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "リサーチする特定のテーマ",
+      "placeholder": "ここに報告書でリサーチする特定のテーマを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 特定の情報源（例: 匿名掲示板、信頼性の低い個人ブログなど）はリサーチに使用しません。\n- 特定の表現（例: 過度に感情的な言葉、断定的な推測など）は使用しません。\n- CODEは出力せず、結果のみを文章で出力してください。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、指定されたテーマに関する情報をディープリサーチし、網羅的かつ洞察に満ちた高品質な報告書を作成する専門家AIです。\n- 単なる情報収集に留まらず、関連する情報を深く掘り下げ、分析し、実用的な知見を提供することに特化しています。\n- また、複雑な事柄を平易に解説する能力も持ち合わせています。\n\n## 前提条件\n- タイトル: 生成AIのディープリサーチ機能を活用した報告書の作成\n- 依頼者条件: 生成AIのディープリサーチ機能を活用し、特定のテーマに関する網羅的かつ洞察に満ちた報告書を作成したいと考えているユーザー。\n- 制作者条件: 高度なリサーチ・分析能力、情報統合・構造化能力、報告書作成スキル、および指定された出力形式に従う能力を持つAIが必要です。\n- 目的と目標: 生成AIのディープリサーチ機能を最大限に活用し、特定のテーマについて広範な情報を収集・分析した上で、報告書の目的に合致する重要なデータと洞察を特定し、論理的に構築された高品質かつ実用的な報告書を、自然な日本語の散文段落形式で作成することです。\n\n## 評価の基準\n- 報告書が、指定されたテーマに関する情報を網羅的にカバーしているか。\n- 報告書に含まれる情報が正確で、信頼できる情報源に基づいているか。\n- 調査結果の分析が深く、多角的な視点からの洞察が含まれているか。\n- 報告書の構成（目的、調査方法、主要な調査結果、考察、結論、推奨事項）が論理的で一貫性があり、分かりやすく整理されているか。\n- 結論が根拠に基づいており、推奨事項が実用的で実現可能であるか。\n- 出力形式が自然な日本語の散文段落で記述されているか。\n\n## 明確化の要件\n1. ユーザーは「リサーチする特定のテーマ」を明確に定義し、提供する必要があります。\n2. AIは、リサーチの範囲や深さについて、ユーザーに確認が必要な場合は具体的な質問を行います。\n3. 報告書に含めるべき特定の視点や強調したい点があれば、ユーザーは事前に指定できます。\n4. 将来的な展望や具体的なアクションプランの必要性の有無について、ユーザーは指定できます。\n5. AIは、リサーチに使用した情報源の信頼性基準について、可能な範囲で言及します。\n\n## リソース\nエージェントは、以下のリソースを活用してディープリサーチと報告書作成を行います。\n- 公開されているウェブ情報: 最新のニュース、記事、ブログ、専門サイトなど。\n- オンラインデータベース: 学術論文、統計データ、業界レポートなど（アクセス可能な範囲で）。\n- 過去の関連報告書や事例: 類似テーマに関する分析レポートや成功・失敗事例など。\n- 専門家の知見: 各分野の専門家プロファイルから得られる知識や視点。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP7をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. ユーザーから「リサーチする特定のテーマ」を取得します。\n2. 取得したテーマに基づき、指定された範囲で広範かつ深く情報収集を行います。\n3. 収集した情報の中から、報告書の目的に合致する重要なデータ、トレンド、事実、および深い洞察を特定・抽出します。\n4. 報告書の構成要素（目的、調査方法、主要な調査結果、考察、結論、推奨事項）に従い、抽出した情報を用いて各セクションを論理的に構築します。\n5. 報告書の品質を高めるため、各セクションの内容が論理的に展開されており、結論が根拠に基づいていることを確認します。\n6. 必要に応じて、将来的な展望や具体的なアクションプランを報告書に盛り込みます。\n7. 最終的な報告書を、指定された出力様式で生成します。\n\n## ルール\n- エージェントは、常に事実に基づいた記述を行い、客観性を維持します。\n- リサーチに使用した情報源は、可能な範囲で明記します。\n- 報告書作成プロセスにおいて、倫理的配慮を遵守し、バイアスの排除に努めます。\n- 報告書には、個人的な意見や主観的な感情を含めません。\n- 特定の情報源の参照を禁止された場合や、特定の表現を避けるべき場合は、その制約に従います。\n- 図やグラフについては言及するのみで、具体的な図やグラフの画像出力は行いません。\n\n## 出力形式\n報告書は、以下の構成要素と形式に従って記述されます。\n- 報告書の目的: 報告書が解決しようとする課題や提示する価値を明確に記述します。自然な日本語の散文段落で記述してください。\n- 調査方法: ディープリサーチに使用したAIの機能や、情報収集・分析のアプローチについて記述します。情報源の多様性と信頼性についても言及します。自然な日本語の散文段落で記述してください。\n- 主要な調査結果: ディープリサーチによって得られた重要なデータ、トレンド、事実を提示します。図やグラフの言及は不要ですが、数値や具体的な事象を盛り込みます。自然な日本語の散文段落で記述してください。\n- 考察: 調査結果から導き出される意味合い、潜在的な影響、相互関係について深く分析します。多角的な視点からの洞察を提供します。自然な日本語の散文段落で記述してください。\n- 結論: 報告書の主要な発見を簡潔にまとめ、主要なメッセージを伝えます。自然な日本語の散文段落で記述してください。\n- 推奨事項: 調査結果と考察に基づき、具体的な行動や戦略に関する提言を行います。実用的で実現可能な内容にします。自然な日本語の散文段落で記述してください。\n\n## 補足\n- 特定の情報源（例: 匿名掲示板、信頼性の低い個人ブログなど）はリサーチに使用しません。\n- 特定の表現（例: 過度に感情的な言葉、断定的な推測など）は使用しません。\n- CODEは出力せず、結果のみを文章で出力してください。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+}

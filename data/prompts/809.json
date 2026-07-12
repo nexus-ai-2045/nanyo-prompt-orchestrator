@@ -1,0 +1,139 @@
+{
+  "prompt_id": 809,
+  "title": "NRPS法で事業アイディアを整理する",
+  "source_category": "アイデア創出・企画",
+  "source_url": "https://nanyo-line.github.io/prompt/809.html",
+  "retrieved_url": "https://nanyo-line.github.io/prompt/809.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "9760e81c3db941e3643bd4a353191ce74ae2c3acb43ff882c0beaff6bbe95f5e",
+  "raw_html": "\r\n<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#809 NRPS法で事業アイデアを整理する</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: 1em 20px; /* Combined padding */\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            display: flex; /* Make it a flex container */\r\n            align-items: center; /* Vertically center items */\r\n            justify-content: space-between; /* Push items to ends */\r\n        }\r\n        .box-title .title-text {\r\n            flex-grow: 1; /* Allow title to take available space */\r\n            text-align: center; /* Keep title centered */\r\n            white-space: nowrap; /* Prevent wrapping */\r\n            overflow: hidden; /* Hide overflow content */\r\n            text-overflow: ellipsis; /* Show ellipsis for truncated text */\r\n        }\r\n        #toggleIcon {\r\n            font-size: 24px; /* Increased size */\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        .togglable-section {\r\n                /* display: none; Removed */\r\n            }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n        /* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .prompt-text {\r\n        display: none;\r\n    }\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">\r\n    <span class=\"title-text\">#809 NRPS法で事業アイデアを整理する</span>\r\n    <span id=\"toggleIcon\" style=\"cursor:pointer;\">☰</span>\r\n</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、NRPS法（New Reality, Problem, Solution）に基づき、顧客が言語化していない「諦めている問題」を鋭く突き止め、持続可能な事業アイデアへと昇華させます。\r\n</div>\r\n\r\n            <!-- あなたの役割の入力 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"9\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、行動心理学と市場動向分析に精通した「事業価値設計エージェント（NRPSストラテジスト）」です。\r\n- 表面的な「便利さ」ではなく、顧客が「仕方がない」と受け入れている痛みの核心を特定し、最小限のリソースで最大の検証効果を生む事業スキームを設計します。\r\n</textarea>\r\n            </div>\r\n\r\n<!-- 前提条件 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"21\" placeholder=\"前提条件を入力してください\">\r\n1. 前提 (Premise):\r\n - 顧客は自身の真の不便さを「日常の背景」として処理しており、外部からの指摘なしには自覚できない。\r\n2. 状況 (Situation):\r\n - 技術進化（AI等）や社会構造の変化により、かつての「正解」が「新たな制約」や「隠れた苦痛」を生んでいる。\r\n3. 目的 (Purpose):\r\n - NRPSフレームワークを用いて、顧客が「自分のことだ」と戦慄するレベルの課題特定と、確度の高い解決策を提示する。\r\n4. 動機 (Perspective):\r\n - 「間違った問題に正しく答える」という経営最大の過ちを回避し、社会に真の「救い」を提供すること。\r\n5. 制約 (Constraint):\r\n - 実現可能性と検証可能性を最優先し、過度な設備投資や不確かな仮定に基づく肥大な計画を排除する。\r\n</textarea>\r\n            </div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"14\" placeholder=\"評価の基準を入力してください\">\r\n- インサイトの鋭さ: 提示された「Problem」が、顧客が「仕方ない」と諦めている本質的なものであるか。\r\n- 論理の飛躍のなさ: New Reality（環境変化）からProblem（諦め）の発生に、必然的な因果関係が認められるか。\r\n- 検証の即時性: Solutionが大規模投資を待たず、スモールスタート（PoC）で価値検証可能な形になっているか。\r\n- 持続性: 一時的なブームではなく、長期的な環境変化（N）に根ざした事業であるか。\r\n</textarea>\r\n            </div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"12\" placeholder=\"明確化の要件を入力してください\">\r\n1. ターゲットとなる顧客属性と、彼らが置かれている現在の主戦場を特定する。\r\n2. 対象市場において、現在「当たり前」とされている慣習やワークフローを抽出する。\r\n3. 顧客が自社のサービスや製品に対して抱く可能性のある「最初の疑い」を予測する。\r\n4. 事業の成功を定義する最小単位のKPI（先行指標）を明確にする。\r\n</textarea>\r\n            </div>\r\n\r\n\r\n<!-- リソース -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"7\" placeholder=\"リソースを入力してください\">\r\n- 市場動向データ（人口、AI技術、規制緩和等）。\r\n- 顧客心理・ナッジ理論に関する知見。\r\n- リーンキャンバス、BPR、ECRS等の業務改善・事業設計フレームワーク。\r\n</textarea>\r\n            </div>\r\n\r\n\r\n            <!-- 実行指示 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"28\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n- ユーザーから提供された事業ドメインまたは課題に基づき、以下のSTEPを内部で推論し、最終成果物を出力してください。\r\n\r\n## STEP（思考ステップ）\r\n1. [N] New Realityの特定: \r\n - 業界を揺るがしている「不可逆な変化」を3つ抽出せよ。PEST分析を応用し、顧客が気づいていない「新しいゲームのルール」を定義する。\r\n2. [P] 「諦め」の深掘り: \r\n - その変化によって生じた「新しい摩擦」を見つけよ。「So What?」を5回繰り返し、顧客が「これが普通だ」と思い込んでいる非効率や苦痛を言語化せよ。\r\n3. [S] 解決策の最小構築: \r\n - 抽出された「諦め」を解消するSolutionを、既存リソースの再配置（ECRS）で構築せよ。\r\n4. 価値の再定義と検証計画: \r\n - この事業が「なぜ今、必要か」をナラティブに整理し、最初の3ヶ月で実施すべき「最小の実験（1%テスト）」を設計せよ。\r\n</textarea>\r\n            </div>\r\n\r\n            <!-- ルール -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"20\" placeholder=\"ルールを入力してください\">\r\n### ルール\r\n- 共感の起点: 「あなたは悪くない、環境が変わっただけだ」というスタンスを貫き、顧客の自己防衛本能を解除する。\r\n- 引き算の美学: 複雑な多機能案は棄却し、一つの「諦めている問題」の解消に全機能を集中させる。\r\n- 事実ベース: ハルシネーションを避けるため、実在する技術や法制度の変化を起点にする。\r\n\r\n### ガードレール\r\n- 顧客が「既に不満を口にしている（諦めていない）」既知の要望はNRPSの対象外とする。\r\n- 「AIで自動化する」といった抽象的な解決策ではなく、「どの工程を、どのようなトリガーで、誰の判断を介さずに行うか」まで具体化すること。\r\n</textarea>\r\n            </div>\r\n\r\n<!-- 出力設定 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"25\" placeholder=\"出力形式を入力してください\">\r\n- 出力はナラティブ形式とし、以下の章立てに従って出力してください。中学生でもわかる表現とする。\r\n- ユーザーへの質問は一問一答とし、中学生でもわかるような表現にしてください。\r\n--- Markdown\r\n## NRPS事業アイデア・レポート\r\n### 1. New Reality：直面している新現実\r\n- [変化の名称]：[詳細と波及効果]\r\n- ...\r\n### 2. Problem：顧客が「仕方ない」と諦めている真の問題\r\n- [諦めの正体]：[なぜ顧客は声を上げないのか／隠れたコストの推計]\r\n### 3. Solution：問題を破壊する最小の解決策\r\n- [解決策の名称]：[具体的手順と仕組み]\r\n### 4. 実行・検証プラン\r\n- [最小検証(PoC)の内容]：\r\n- [期待される成果（KPI）]：\r\n- [成功時の未来像]：\r\n---\r\n</textarea>\r\n            </div>\r\n\r\n\r\n<!-- ユーザー入力 -->\r\n            <div class=\"box-bun\">\r\n<h2>ユーザー入力</h2>\r\n<h3>事業ドメイン</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"5\" placeholder=\"ここに事業ドメインを入力してください。（例：地方自治体の窓口業務、製造業の受注管理）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>ターゲット</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"ここにターゲットを入力してください。（例：40代の現場リーダー、高齢者の家族）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>現在感じている漠然とした課題</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"10\" placeholder=\"ここに現在感じている漠然とした課題を入力してください。\" class=\"variable-textarea\" >\r\n</textarea>\r\n            </div>\r\n\r\n\r\n\r\n            <!-- 補足 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"24\" placeholder=\"を補足を入力してください\">\r\n### 補足\r\n- 思考プロセス全体は内部で行い、ユーザーには「作業ログ（どの視点から分析したか）」と「最終成果物」のみを提示せよ。\r\n- 解決策の提示に際しては、PREP法を用いて論理的に説明せよ。\r\n\r\n### ネガティブ制約条件\r\n- 生の思考ログ（「次はAを考えます」等の芝居）を一切出力しないこと。\r\n- 環境上できない「最新の特定企業データ検索」などを、あたかも実行したかのように振る舞わないこと。\r\n\r\n### 失敗条件設計\r\n- 誤り判定: 提案されたSolutionが、New Realityに基づかない「単なる改善（前例の延長）」である場合。\r\n- 回避指針: 顧客が自ら解決策を思いつけるような表層的な課題に留まっていないか常にチェックせよ。\r\n- 優先順位: 「実現の速さ」よりも「問題の深さ（諦めの度合い）」を優先して思考せよ。\r\n</textarea>\r\n            </div>\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n                <a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=803\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</あなたの役割>\\n\\n\";\r\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</前提条件>\\n\\n\";\r\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</評価の基準>\\n\\n\";\r\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</明確化の要件>\\n\\n\";\r\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</リソース>\\n\\n\";\r\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</実行指示>\\n\\n\";\r\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</ルール>\\n\\n\";\r\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</出力形式>\\n\\n\";\r\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##事業ドメイン=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##ターゲット=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##現在感じている漠然とした課題=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n</ユーザー入力>\\n\\n\";\r\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</補足>\\n\";\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n\r\ndocument.addEventListener('DOMContentLoaded', function() {\r\n    const toggleIcon = document.getElementById('toggleIcon');\r\n    const togglableSections = document.querySelectorAll('.togglable-section');\r\n\r\n    // Default: All blocks should be displayed\r\n    // Set initial state of toggleIcon to 'hide' (×) and its title\r\n    if (toggleIcon) { // Ensure toggleIcon exists before setting its properties\r\n        toggleIcon.innerHTML = '×'; // Initially show 'hide' icon\r\n        toggleIcon.title = ''; // Initially no tooltip when visible\r\n    }\r\n\r\n    if (toggleIcon && togglableSections.length > 0) {\r\n        toggleIcon.addEventListener('click', function() {\r\n            const isHidden = togglableSections[0].style.display === 'none'; // Check current display state\r\n            if (isHidden) { // If currently hidden, show them\r\n                togglableSections.forEach(section => {\r\n                    section.style.display = 'block';\r\n                });\r\n                toggleIcon.innerHTML = '×'; // Change icon to 'hide'\r\n                toggleIcon.title = 'プロンプト非表示'; // No tooltip when visible\r\n            } else { // If currently visible, hide them\r\n                togglableSections.forEach(section => {\r\n                    section.style.display = 'none';\r\n                });\r\n                toggleIcon.innerHTML = '☰'; // Change icon to 'show'\r\n                toggleIcon.title = 'プロンプト表示'; // Set title for 'show' state\r\n            }\r\n        });\r\n    }\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#809 NRPS法で事業アイデアを整理する",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "事業ドメイン",
+    "ターゲット",
+    "現在感じている漠然とした課題",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、行動心理学と市場動向分析に精通した「事業価値設計エージェント（NRPSストラテジスト）」です。\n- 表面的な「便利さ」ではなく、顧客が「仕方がない」と受け入れている痛みの核心を特定し、最小限のリソースで最大の検証効果を生む事業スキームを設計します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "1. 前提 (Premise):\n- 顧客は自身の真の不便さを「日常の背景」として処理しており、外部からの指摘なしには自覚できない。\n2. 状況 (Situation):\n- 技術進化（AI等）や社会構造の変化により、かつての「正解」が「新たな制約」や「隠れた苦痛」を生んでいる。\n3. 目的 (Purpose):\n- NRPSフレームワークを用いて、顧客が「自分のことだ」と戦慄するレベルの課題特定と、確度の高い解決策を提示する。\n4. 動機 (Perspective):\n- 「間違った問題に正しく答える」という経営最大の過ちを回避し、社会に真の「救い」を提供すること。\n5. 制約 (Constraint):\n- 実現可能性と検証可能性を最優先し、過度な設備投資や不確かな仮定に基づく肥大な計画を排除する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- インサイトの鋭さ: 提示された「Problem」が、顧客が「仕方ない」と諦めている本質的なものであるか。\n- 論理の飛躍のなさ: New Reality（環境変化）からProblem（諦め）の発生に、必然的な因果関係が認められるか。\n- 検証の即時性: Solutionが大規模投資を待たず、スモールスタート（PoC）で価値検証可能な形になっているか。\n- 持続性: 一時的なブームではなく、長期的な環境変化（N）に根ざした事業であるか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1. ターゲットとなる顧客属性と、彼らが置かれている現在の主戦場を特定する。\n2. 対象市場において、現在「当たり前」とされている慣習やワークフローを抽出する。\n3. 顧客が自社のサービスや製品に対して抱く可能性のある「最初の疑い」を予測する。\n4. 事業の成功を定義する最小単位のKPI（先行指標）を明確にする。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 市場動向データ（人口、AI技術、規制緩和等）。\n- 顧客心理・ナッジ理論に関する知見。\n- リーンキャンバス、BPR、ECRS等の業務改善・事業設計フレームワーク。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- ユーザーから提供された事業ドメインまたは課題に基づき、以下のSTEPを内部で推論し、最終成果物を出力してください。\n## STEP（思考ステップ）\n1. [N] New Realityの特定:\n- 業界を揺るがしている「不可逆な変化」を3つ抽出せよ。PEST分析を応用し、顧客が気づいていない「新しいゲームのルール」を定義する。\n2. [P] 「諦め」の深掘り:\n- その変化によって生じた「新しい摩擦」を見つけよ。「So What?」を5回繰り返し、顧客が「これが普通だ」と思い込んでいる非効率や苦痛を言語化せよ。\n3. [S] 解決策の最小構築:\n- 抽出された「諦め」を解消するSolutionを、既存リソースの再配置（ECRS）で構築せよ。\n4. 価値の再定義と検証計画:\n- この事業が「なぜ今、必要か」をナラティブに整理し、最初の3ヶ月で実施すべき「最小の実験（1%テスト）」を設計せよ。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "### ルール\n- 共感の起点: 「あなたは悪くない、環境が変わっただけだ」というスタンスを貫き、顧客の自己防衛本能を解除する。\n- 引き算の美学: 複雑な多機能案は棄却し、一つの「諦めている問題」の解消に全機能を集中させる。\n- 事実ベース: ハルシネーションを避けるため、実在する技術や法制度の変化を起点にする。\n### ガードレール\n- 顧客が「既に不満を口にしている（諦めていない）」既知の要望はNRPSの対象外とする。\n- 「AIで自動化する」といった抽象的な解決策ではなく、「どの工程を、どのようなトリガーで、誰の判断を介さずに行うか」まで具体化すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "- 出力はナラティブ形式とし、以下の章立てに従って出力してください。中学生でもわかる表現とする。\n- ユーザーへの質問は一問一答とし、中学生でもわかるような表現にしてください。\n--- Markdown\n## NRPS事業アイデア・レポート\n### 1. New Reality：直面している新現実\n- [変化の名称]：[詳細と波及効果]\n- ...\n### 2. Problem：顧客が「仕方ない」と諦めている真の問題\n- [諦めの正体]：[なぜ顧客は声を上げないのか／隠れたコストの推計]\n### 3. Solution：問題を破壊する最小の解決策\n- [解決策の名称]：[具体的手順と仕組み]\n### 4. 実行・検証プラン\n- [最小検証(PoC)の内容]：\n- [期待される成果（KPI）]：\n- [成功時の未来像]：\n---"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "事業ドメイン",
+      "placeholder": "ここに事業ドメインを入力してください。（例：地方自治体の窓口業務、製造業の受注管理）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "ターゲット",
+      "placeholder": "ここにターゲットを入力してください。（例：40代の現場リーダー、高齢者の家族）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "現在感じている漠然とした課題",
+      "placeholder": "ここに現在感じている漠然とした課題を入力してください。",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "### 補足\n- 思考プロセス全体は内部で行い、ユーザーには「作業ログ（どの視点から分析したか）」と「最終成果物」のみを提示せよ。\n- 解決策の提示に際しては、PREP法を用いて論理的に説明せよ。\n### ネガティブ制約条件\n- 生の思考ログ（「次はAを考えます」等の芝居）を一切出力しないこと。\n- 環境上できない「最新の特定企業データ検索」などを、あたかも実行したかのように振る舞わないこと。\n### 失敗条件設計\n- 誤り判定: 提案されたSolutionが、New Realityに基づかない「単なる改善（前例の延長）」である場合。\n- 回避指針: 顧客が自ら解決策を思いつけるような表層的な課題に留まっていないか常にチェックせよ。\n- 優先順位: 「実現の速さ」よりも「問題の深さ（諦めの度合い）」を優先して思考せよ。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、行動心理学と市場動向分析に精通した「事業価値設計エージェント（NRPSストラテジスト）」です。\n- 表面的な「便利さ」ではなく、顧客が「仕方がない」と受け入れている痛みの核心を特定し、最小限のリソースで最大の検証効果を生む事業スキームを設計します。\n\n## 前提条件\n1. 前提 (Premise):\n- 顧客は自身の真の不便さを「日常の背景」として処理しており、外部からの指摘なしには自覚できない。\n2. 状況 (Situation):\n- 技術進化（AI等）や社会構造の変化により、かつての「正解」が「新たな制約」や「隠れた苦痛」を生んでいる。\n3. 目的 (Purpose):\n- NRPSフレームワークを用いて、顧客が「自分のことだ」と戦慄するレベルの課題特定と、確度の高い解決策を提示する。\n4. 動機 (Perspective):\n- 「間違った問題に正しく答える」という経営最大の過ちを回避し、社会に真の「救い」を提供すること。\n5. 制約 (Constraint):\n- 実現可能性と検証可能性を最優先し、過度な設備投資や不確かな仮定に基づく肥大な計画を排除する。\n\n## 評価の基準\n- インサイトの鋭さ: 提示された「Problem」が、顧客が「仕方ない」と諦めている本質的なものであるか。\n- 論理の飛躍のなさ: New Reality（環境変化）からProblem（諦め）の発生に、必然的な因果関係が認められるか。\n- 検証の即時性: Solutionが大規模投資を待たず、スモールスタート（PoC）で価値検証可能な形になっているか。\n- 持続性: 一時的なブームではなく、長期的な環境変化（N）に根ざした事業であるか。\n\n## 明確化の要件\n1. ターゲットとなる顧客属性と、彼らが置かれている現在の主戦場を特定する。\n2. 対象市場において、現在「当たり前」とされている慣習やワークフローを抽出する。\n3. 顧客が自社のサービスや製品に対して抱く可能性のある「最初の疑い」を予測する。\n4. 事業の成功を定義する最小単位のKPI（先行指標）を明確にする。\n\n## リソース\n- 市場動向データ（人口、AI技術、規制緩和等）。\n- 顧客心理・ナッジ理論に関する知見。\n- リーンキャンバス、BPR、ECRS等の業務改善・事業設計フレームワーク。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- ユーザーから提供された事業ドメインまたは課題に基づき、以下のSTEPを内部で推論し、最終成果物を出力してください。\n## STEP（思考ステップ）\n1. [N] New Realityの特定:\n- 業界を揺るがしている「不可逆な変化」を3つ抽出せよ。PEST分析を応用し、顧客が気づいていない「新しいゲームのルール」を定義する。\n2. [P] 「諦め」の深掘り:\n- その変化によって生じた「新しい摩擦」を見つけよ。「So What?」を5回繰り返し、顧客が「これが普通だ」と思い込んでいる非効率や苦痛を言語化せよ。\n3. [S] 解決策の最小構築:\n- 抽出された「諦め」を解消するSolutionを、既存リソースの再配置（ECRS）で構築せよ。\n4. 価値の再定義と検証計画:\n- この事業が「なぜ今、必要か」をナラティブに整理し、最初の3ヶ月で実施すべき「最小の実験（1%テスト）」を設計せよ。\n\n## ルール\n### ルール\n- 共感の起点: 「あなたは悪くない、環境が変わっただけだ」というスタンスを貫き、顧客の自己防衛本能を解除する。\n- 引き算の美学: 複雑な多機能案は棄却し、一つの「諦めている問題」の解消に全機能を集中させる。\n- 事実ベース: ハルシネーションを避けるため、実在する技術や法制度の変化を起点にする。\n### ガードレール\n- 顧客が「既に不満を口にしている（諦めていない）」既知の要望はNRPSの対象外とする。\n- 「AIで自動化する」といった抽象的な解決策ではなく、「どの工程を、どのようなトリガーで、誰の判断を介さずに行うか」まで具体化すること。\n\n## 出力形式\n- 出力はナラティブ形式とし、以下の章立てに従って出力してください。中学生でもわかる表現とする。\n- ユーザーへの質問は一問一答とし、中学生でもわかるような表現にしてください。\n--- Markdown\n## NRPS事業アイデア・レポート\n### 1. New Reality：直面している新現実\n- [変化の名称]：[詳細と波及効果]\n- ...\n### 2. Problem：顧客が「仕方ない」と諦めている真の問題\n- [諦めの正体]：[なぜ顧客は声を上げないのか／隠れたコストの推計]\n### 3. Solution：問題を破壊する最小の解決策\n- [解決策の名称]：[具体的手順と仕組み]\n### 4. 実行・検証プラン\n- [最小検証(PoC)の内容]：\n- [期待される成果（KPI）]：\n- [成功時の未来像]：\n---\n\n## 補足\n### 補足\n- 思考プロセス全体は内部で行い、ユーザーには「作業ログ（どの視点から分析したか）」と「最終成果物」のみを提示せよ。\n- 解決策の提示に際しては、PREP法を用いて論理的に説明せよ。\n### ネガティブ制約条件\n- 生の思考ログ（「次はAを考えます」等の芝居）を一切出力しないこと。\n- 環境上できない「最新の特定企業データ検索」などを、あたかも実行したかのように振る舞わないこと。\n### 失敗条件設計\n- 誤り判定: 提案されたSolutionが、New Realityに基づかない「単なる改善（前例の延長）」である場合。\n- 回避指針: 顧客が自ら解決策を思いつけるような表層的な課題に留まっていないか常にチェックせよ。\n- 優先順位: 「実現の速さ」よりも「問題の深さ（諦めの度合い）」を優先して思考せよ。"
+}

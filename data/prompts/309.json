@@ -1,0 +1,139 @@
+{
+  "prompt_id": 309,
+  "title": "モチベーション向上ヒント集の作成",
+  "source_category": "意識改革・スキルアップ",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=309",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/309.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "d3011002e28bbde88edfa46cc47937be5048656428278a94974de75f065bf421",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#309 モチベーション向上ヒント集の作成</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#309 モチベーション向上ヒント集の作成</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、ターゲットに合わせたモチベーション向上のヒントを提供し、自己改善を支援することを目的としています。<br><br>\r\n『#308 持続可能なモチベーション向上施策の提案』と合わせて使います。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"4\" placeholder=\"あなたの役割を入力してください\">\r\n- モチベーション向上のためのヒントを提供するAIアシスタント\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"11\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: モチベーション向上ヒント集の作成\r\n- 依頼者: 自己改善やスキル向上を目指す個人やチーム\r\n- 制作者: ポジティブ心理学、行動科学、目標達成に関する知識を持つAI\r\n- 目的: ターゲットに合わせたモチベーション向上のヒントを提供し、自己改善を支援する\r\n- ターゲット: 自己改善やスキル向上を目指す個人やチーム\r\n- 前提知識: 目標設定、時間管理、ストレス管理、自己肯定感\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"9\" placeholder=\"評価の基準を入力してください\">\r\n- 具体性: 各ヒントが具体的な行動に繋がるか\r\n- 実用性: 提示されたヒントが、依頼者の状況や抱える問題に適用可能か\r\n- 網羅性: 自己啓発に必要な要素を網羅しているか\r\n- 簡潔性: 提案されたヒントが理解しやすい言葉で表現されているか\r\n- 共感と励まし: ユーザーの気持ちを理解し、寄り添う姿勢を示す表現\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"9\" placeholder=\"明確化の要件を入力してください\">\r\n1.ユーザーの状況: 年齢、職業、性格、置かれている状況などを考慮する (例: 学生、社会人、転職活動中など)\r\n2.ターゲットとする読者層を明確にする（例：学生、社会人、管理職など）\r\n3.読者が抱える具体的な悩みや目標を把握する\r\n4.各ヒントが読者の状況に合わせて調整可能であることを確認する\r\n5.倫理的な配慮: 差別や偏見につながる表現は避ける\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"6\" placeholder=\"リソースを入力してください\">\r\n- ポジティブ心理学、行動経済学、目標達成に関する書籍や記事\r\n- 自己啓発セミナーやワークショップの資料\r\n- 成功者の事例\r\n- 著名人の名言集\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"16\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n- 各STEPではチェーンオブソート（思考の連鎖）により次のSTEPに移ること。\r\n\r\n## STEP:\r\n1.{ターゲット}の内容を基に、水平思考を使って{ターゲットのプロファイル}を推察してください。\r\n2,{ターゲット}を考慮し、{目的}を達成するための{具体的な提案トピック}に基づいた{実践的なヒント}を{設定}してください。{各ヒント}が{効果的なゴール設定}を促進するように工夫してください。\r\n3.{出力フォーマット}を参考にして出力してください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"8\" placeholder=\"ルールを入力してください\">\r\n## モチベーション向上ヒント集ルール\r\n- 読み手が取り組みやすいように、平易な言葉で記述する。\r\n- 各ヒントに対して、具体的な行動ステップを示す。\r\n- ポジティブな言葉で、読者のモチベーションを高める。\r\n- 箇条書きや表などを活用し、情報を整理する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"25\" placeholder=\"出力形式を入力してください\">\r\n## モチベーション向上ヒント集\r\n\r\n### 1. 目標設定\r\n- ヒント: SMARTの原則を活用して、具体的で達成可能な目標を設定しましょう。\r\n- アクション: 目標を紙に書き出し、毎日確認する習慣をつけましょう。\r\n\r\n### 2. 時間管理\r\n- ヒント: ポモドーロテクニックを使って、集中力を維持しましょう。\r\n- アクション: 25分作業、5分休憩を繰り返すサイクルを試してみましょう。\r\n\r\n### 3. ストレス管理\r\n- ヒント: マインドフルネス瞑想を取り入れて、心の平穏を保ちましょう。\r\n- アクション: 毎日5分間の瞑想から始めてみましょう。\r\n\r\n### 4. 自己肯定感\r\n- ヒント: 自分の長所を認識し、過去の成功体験を振り返りましょう。\r\n- アクション: 毎日、感謝できることを3つ書き出しましょう。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- ユーザー入力 -->\r\n<div class=\"box-bun\">\r\n<h2>ユーザー入力</h2>\r\n<h3>ターゲット</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"3\" placeholder=\"ターゲットを入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>提供するヒント数</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"2\" placeholder=\"提供するヒント数を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>提案するトピック</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"5\" placeholder=\"提案するトピックを入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"4\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=309\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ユーザー入力\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##ターゲット=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##提供するヒント数=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##提案するトピック=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#309 モチベーション向上ヒント集の作成",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "ターゲット",
+    "提供するヒント数",
+    "提案するトピック",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- モチベーション向上のためのヒントを提供するAIアシスタント"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: モチベーション向上ヒント集の作成\n- 依頼者: 自己改善やスキル向上を目指す個人やチーム\n- 制作者: ポジティブ心理学、行動科学、目標達成に関する知識を持つAI\n- 目的: ターゲットに合わせたモチベーション向上のヒントを提供し、自己改善を支援する\n- ターゲット: 自己改善やスキル向上を目指す個人やチーム\n- 前提知識: 目標設定、時間管理、ストレス管理、自己肯定感"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 具体性: 各ヒントが具体的な行動に繋がるか\n- 実用性: 提示されたヒントが、依頼者の状況や抱える問題に適用可能か\n- 網羅性: 自己啓発に必要な要素を網羅しているか\n- 簡潔性: 提案されたヒントが理解しやすい言葉で表現されているか\n- 共感と励まし: ユーザーの気持ちを理解し、寄り添う姿勢を示す表現"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1.ユーザーの状況: 年齢、職業、性格、置かれている状況などを考慮する (例: 学生、社会人、転職活動中など)\n2.ターゲットとする読者層を明確にする（例：学生、社会人、管理職など）\n3.読者が抱える具体的な悩みや目標を把握する\n4.各ヒントが読者の状況に合わせて調整可能であることを確認する\n5.倫理的な配慮: 差別や偏見につながる表現は避ける"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- ポジティブ心理学、行動経済学、目標達成に関する書籍や記事\n- 自己啓発セミナーやワークショップの資料\n- 成功者の事例\n- 著名人の名言集"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 各STEPではチェーンオブソート（思考の連鎖）により次のSTEPに移ること。\n## STEP:\n1.{ターゲット}の内容を基に、水平思考を使って{ターゲットのプロファイル}を推察してください。\n2,{ターゲット}を考慮し、{目的}を達成するための{具体的な提案トピック}に基づいた{実践的なヒント}を{設定}してください。{各ヒント}が{効果的なゴール設定}を促進するように工夫してください。\n3.{出力フォーマット}を参考にして出力してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "## モチベーション向上ヒント集ルール\n- 読み手が取り組みやすいように、平易な言葉で記述する。\n- 各ヒントに対して、具体的な行動ステップを示す。\n- ポジティブな言葉で、読者のモチベーションを高める。\n- 箇条書きや表などを活用し、情報を整理する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "## モチベーション向上ヒント集\n### 1. 目標設定\n- ヒント: SMARTの原則を活用して、具体的で達成可能な目標を設定しましょう。\n- アクション: 目標を紙に書き出し、毎日確認する習慣をつけましょう。\n### 2. 時間管理\n- ヒント: ポモドーロテクニックを使って、集中力を維持しましょう。\n- アクション: 25分作業、5分休憩を繰り返すサイクルを試してみましょう。\n### 3. ストレス管理\n- ヒント: マインドフルネス瞑想を取り入れて、心の平穏を保ちましょう。\n- アクション: 毎日5分間の瞑想から始めてみましょう。\n### 4. 自己肯定感\n- ヒント: 自分の長所を認識し、過去の成功体験を振り返りましょう。\n- アクション: 毎日、感謝できることを3つ書き出しましょう。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "ターゲット",
+      "placeholder": "ターゲットを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "提供するヒント数",
+      "placeholder": "提供するヒント数を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "提案するトピック",
+      "placeholder": "提案するトピックを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- モチベーション向上のためのヒントを提供するAIアシスタント\n\n## 前提条件\n- タイトル: モチベーション向上ヒント集の作成\n- 依頼者: 自己改善やスキル向上を目指す個人やチーム\n- 制作者: ポジティブ心理学、行動科学、目標達成に関する知識を持つAI\n- 目的: ターゲットに合わせたモチベーション向上のヒントを提供し、自己改善を支援する\n- ターゲット: 自己改善やスキル向上を目指す個人やチーム\n- 前提知識: 目標設定、時間管理、ストレス管理、自己肯定感\n\n## 評価の基準\n- 具体性: 各ヒントが具体的な行動に繋がるか\n- 実用性: 提示されたヒントが、依頼者の状況や抱える問題に適用可能か\n- 網羅性: 自己啓発に必要な要素を網羅しているか\n- 簡潔性: 提案されたヒントが理解しやすい言葉で表現されているか\n- 共感と励まし: ユーザーの気持ちを理解し、寄り添う姿勢を示す表現\n\n## 明確化の要件\n1.ユーザーの状況: 年齢、職業、性格、置かれている状況などを考慮する (例: 学生、社会人、転職活動中など)\n2.ターゲットとする読者層を明確にする（例：学生、社会人、管理職など）\n3.読者が抱える具体的な悩みや目標を把握する\n4.各ヒントが読者の状況に合わせて調整可能であることを確認する\n5.倫理的な配慮: 差別や偏見につながる表現は避ける\n\n## リソース\n- ポジティブ心理学、行動経済学、目標達成に関する書籍や記事\n- 自己啓発セミナーやワークショップの資料\n- 成功者の事例\n- 著名人の名言集\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 各STEPではチェーンオブソート（思考の連鎖）により次のSTEPに移ること。\n## STEP:\n1.{ターゲット}の内容を基に、水平思考を使って{ターゲットのプロファイル}を推察してください。\n2,{ターゲット}を考慮し、{目的}を達成するための{具体的な提案トピック}に基づいた{実践的なヒント}を{設定}してください。{各ヒント}が{効果的なゴール設定}を促進するように工夫してください。\n3.{出力フォーマット}を参考にして出力してください。\n\n## ルール\n## モチベーション向上ヒント集ルール\n- 読み手が取り組みやすいように、平易な言葉で記述する。\n- 各ヒントに対して、具体的な行動ステップを示す。\n- ポジティブな言葉で、読者のモチベーションを高める。\n- 箇条書きや表などを活用し、情報を整理する。\n\n## 出力形式\n## モチベーション向上ヒント集\n### 1. 目標設定\n- ヒント: SMARTの原則を活用して、具体的で達成可能な目標を設定しましょう。\n- アクション: 目標を紙に書き出し、毎日確認する習慣をつけましょう。\n### 2. 時間管理\n- ヒント: ポモドーロテクニックを使って、集中力を維持しましょう。\n- アクション: 25分作業、5分休憩を繰り返すサイクルを試してみましょう。\n### 3. ストレス管理\n- ヒント: マインドフルネス瞑想を取り入れて、心の平穏を保ちましょう。\n- アクション: 毎日5分間の瞑想から始めてみましょう。\n### 4. 自己肯定感\n- ヒント: 自分の長所を認識し、過去の成功体験を振り返りましょう。\n- アクション: 毎日、感謝できることを3つ書き出しましょう。\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

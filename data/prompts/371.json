@@ -1,0 +1,119 @@
+{
+  "prompt_id": 371,
+  "title": "住民の心に響く広報文ガイドラインの作成",
+  "source_category": "文章作成・要約",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=371",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/371.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "bd690c9ddd5b85526c006d672d620db5bb3bc87d8df8875e630f4facd5dfa039",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#371 住民の心に響く広報文ガイドライン作成</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#371 住民の心に響く広報文ガイドライン作成</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、自治体職員が住民の心に響く広報文を作成するための詳細な手順をサポートします。<br>\r\nターゲットとなる住民像の明確化から始まり、住民のニーズや課題に基づいた共感ポイントの発見、親しみやすい表現方法の選択、そして行動を促す自然な流れの構築までをステップバイステップで案内します。\r\n</div>\r\n\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"6\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、住民の共感を醸成し、施策への理解と協力を深める効果的な広報文を作成するプロフェッショナルです。\r\n- 自治体職員であるユーザーの意図を理解し、最高の広報文を作成するためのプロンプトを提供します。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"12\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: 住民の心に響く広報文作成プロンプト\r\n- 発注者像: 住民への情報伝達に課題を感じ、共感と協力を得たい自治体職員\r\n- 制作者像: 住民心理と効果的なコミュニケーション手法を熟知し、共感を呼ぶ広報文作成に精通しているプロフェッショナル\r\n- 目標: 住民が「自分ごと」として捉え、施策への理解と協力を深める広報文を作成すること\r\n- 成果評価: 広報文に対する住民の反応（問い合わせ数、イベント参加率、アンケート回答率など）が向上しているか\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"6\" placeholder=\"評価の基準を入力してください\">\r\n- ユーザーが求める広報文の作成を効果的に支援できるか。\r\n- 住民の共感を醸成し、施策への理解と協力を深めるための要素を含んでいるか。\r\n- 具体的かつ実行可能であるか。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"15\" placeholder=\"明確化の要件を入力してください\">\r\nユーザーから提供された「広報したい事項」について、以下の点を明確にするための質問を必要に応じて行います。\r\n- 広報の目的は何ですか？（例：イベント告知、制度説明、意識啓発など）\r\n- ターゲットとなる住民層はどのような人々ですか？（年齢、性別、興味関心など）\r\n- 特に伝えたい重要なメッセージは何ですか？\r\n- 広報文を通じて、住民にどのような行動を期待しますか？\r\n- 広報媒体は何を想定していますか？（広報誌、ウェブサイト、SNSなど）\r\n- 過去の広報活動で効果のあった事例や、反省点があれば教えてください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n- 過去の広報物の反応データ、住民アンケート結果、地域課題に関する情報、共感を呼ぶ文章表現ノウハウ\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"71\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP9をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n\r\n## STEP:\r\nSTEP1｜住民が「知りたい」「共感したい」と思うことは？（ニーズと共感ポイントの抽出）\r\n{対象住民}が“自分に関わることだ”と感じ、興味を持つであろう情報や、共感を覚えるであろう感情を20個リストアップしてください。\r\n【記述ルール】\r\n・理屈だけでなく“感情”に訴えかけるもの\r\n・日々の生活の中で感じるであろう喜び、不安、期待など\r\n・「他人事」ではなく「自分事」として捉えられる具体的な内容で書くこと\r\nSTEP2｜特に伝えたい重要なメッセージTOP3の明確化\r\n- STEP1で書き出した中から、住民に「ぜひ知ってほしい」「共感してほしい」重要なメッセージTOP3を選んでください。\r\nSTEP3｜住民が「この情報を見てどうなってほしいか？」という理想の状態\r\n- 広報文を通して、{対象住民}がどのような気持ちになり、どのような行動を起こしてくれることを期待しますか？具体的に記述してください。\r\nSTEP4｜信頼感と安心感を届けるには？（実績・住民の声の活用）\r\n- {これまでの成果や住民からの好意的な反応、感謝の声}を、具体的な事例やエピソードとして複数ピックアップしてください。\r\nSTEP5｜心を惹きつける見出し案の構築\r\n- {以下の要素とテンプレート}を活用して、見出し案を6案出してください。\r\n【押さえるべき4要素】\r\n1. 親近感（身近な言葉、問いかけ）\r\n2. メリット（住民にとっての利点）\r\n3. 新鮮さ（新しい情報、意外性）\r\n4. 具体性（数字や地域名など明確な情報）\r\n\r\n【テンプレート6種】\r\n1. ○○の皆さんへ！知っておきたい○○のお知らせ\r\n2. ○○で変わる！△△がスタートします\r\n3. ○○と○○が、あなたの生活をより良くします\r\n4. ○○を活用して、△△を実現しませんか？\r\n5. ○○に参加して、××を体験しませんか？\r\n6. ○○を知ることで、△△な未来が広がります\r\nSTEP6～11｜4種類の本文構成案を構築\r\nSTEP6｜課題解決型テンプレート\r\n- ○○でお困りではありませんか？\r\n- その原因は○○かもしれません\r\n- 解決策として○○があります\r\n- まずは○○から始めてみませんか？\r\n- 詳しくはこちらをご覧ください\r\nSTEP7｜メリット提示型テンプレート\r\n- ○○することで、△△な良いことがあります\r\n- 例えば、○○な事例があります\r\n- あなたも○○を始めてみませんか？\r\n- まずは○○をお試しください\r\nSTEP8｜共感ストーリー型テンプレート\r\n- 私たちも○○という課題に直面していました\r\n- しかし、○○という取り組みによって変化が生まれました\r\n- そして、○○という成果につながっています\r\n- この経験を皆さんと共有したいと思います\r\n- ぜひ、あなたの声をお聞かせください\r\nSTEP9｜行動喚起型テンプレート\r\n- ○○に参加しませんか？\r\n- ○○をご確認ください\r\n- ○○について、ご意見をお聞かせください\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"13\" placeholder=\"ルールを入力してください\">\r\n## 必須要件（成功要因）:\r\n1. 広報対象となる住民像（年齢層、関心事、生活スタイルなど）を具体的にイメージする\r\n2. 専門用語を避け、平易で分かりやすい言葉を選ぶ\r\n3. 住民のメリットや共感を呼ぶポイントを明確にする\r\n4. 一方的な告知ではなく、双方向のコミュニケーションを意識した表現にする\r\n5. 行動を促す具体的な呼びかけ（例：参加しませんか、ご確認ください、ご連絡ください）を入れる\r\n6. 温かさや親しみやすさを感じさせるトーンで記述する\r\n7. 視覚的に訴えるデザインや写真の活用を検討する\r\n8. 配布方法やタイミングを考慮する\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"4\" placeholder=\"出力形式を入力してください\">\r\n広報テーマ：\r\n- 各STEPの出力\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ユーザー入力 -->\r\n<div class=\"box-bun\">\r\n<h2>ユーザー入力</h2>\r\n<h3>広報したい事項</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"10\" placeholder=\"この情報を通じて、住民の皆さんにどのような行動を起こしてほしいですか？具体的に記述してください。\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"5\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないでください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないでください。\r\n- すべて日本語で出力してください\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=371\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##広報したい事項=\" + (formData.get('hensu1') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</>\\n\";\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#371 住民の心に響く広報文ガイドライン作成",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "広報したい事項",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、住民の共感を醸成し、施策への理解と協力を深める効果的な広報文を作成するプロフェッショナルです。\n- 自治体職員であるユーザーの意図を理解し、最高の広報文を作成するためのプロンプトを提供します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 住民の心に響く広報文作成プロンプト\n- 発注者像: 住民への情報伝達に課題を感じ、共感と協力を得たい自治体職員\n- 制作者像: 住民心理と効果的なコミュニケーション手法を熟知し、共感を呼ぶ広報文作成に精通しているプロフェッショナル\n- 目標: 住民が「自分ごと」として捉え、施策への理解と協力を深める広報文を作成すること\n- 成果評価: 広報文に対する住民の反応（問い合わせ数、イベント参加率、アンケート回答率など）が向上しているか"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- ユーザーが求める広報文の作成を効果的に支援できるか。\n- 住民の共感を醸成し、施策への理解と協力を深めるための要素を含んでいるか。\n- 具体的かつ実行可能であるか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "ユーザーから提供された「広報したい事項」について、以下の点を明確にするための質問を必要に応じて行います。\n- 広報の目的は何ですか？（例：イベント告知、制度説明、意識啓発など）\n- ターゲットとなる住民層はどのような人々ですか？（年齢、性別、興味関心など）\n- 特に伝えたい重要なメッセージは何ですか？\n- 広報文を通じて、住民にどのような行動を期待しますか？\n- 広報媒体は何を想定していますか？（広報誌、ウェブサイト、SNSなど）\n- 過去の広報活動で効果のあった事例や、反省点があれば教えてください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 過去の広報物の反応データ、住民アンケート結果、地域課題に関する情報、共感を呼ぶ文章表現ノウハウ"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP9をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\nSTEP1｜住民が「知りたい」「共感したい」と思うことは？（ニーズと共感ポイントの抽出）\n{対象住民}が“自分に関わることだ”と感じ、興味を持つであろう情報や、共感を覚えるであろう感情を20個リストアップしてください。\n【記述ルール】\n・理屈だけでなく“感情”に訴えかけるもの\n・日々の生活の中で感じるであろう喜び、不安、期待など\n・「他人事」ではなく「自分事」として捉えられる具体的な内容で書くこと\nSTEP2｜特に伝えたい重要なメッセージTOP3の明確化\n- STEP1で書き出した中から、住民に「ぜひ知ってほしい」「共感してほしい」重要なメッセージTOP3を選んでください。\nSTEP3｜住民が「この情報を見てどうなってほしいか？」という理想の状態\n- 広報文を通して、{対象住民}がどのような気持ちになり、どのような行動を起こしてくれることを期待しますか？具体的に記述してください。\nSTEP4｜信頼感と安心感を届けるには？（実績・住民の声の活用）\n- {これまでの成果や住民からの好意的な反応、感謝の声}を、具体的な事例やエピソードとして複数ピックアップしてください。\nSTEP5｜心を惹きつける見出し案の構築\n- {以下の要素とテンプレート}を活用して、見出し案を6案出してください。\n【押さえるべき4要素】\n1. 親近感（身近な言葉、問いかけ）\n2. メリット（住民にとっての利点）\n3. 新鮮さ（新しい情報、意外性）\n4. 具体性（数字や地域名など明確な情報）\n【テンプレート6種】\n1. ○○の皆さんへ！知っておきたい○○のお知らせ\n2. ○○で変わる！△△がスタートします\n3. ○○と○○が、あなたの生活をより良くします\n4. ○○を活用して、△△を実現しませんか？\n5. ○○に参加して、××を体験しませんか？\n6. ○○を知ることで、△△な未来が広がります\nSTEP6～11｜4種類の本文構成案を構築\nSTEP6｜課題解決型テンプレート\n- ○○でお困りではありませんか？\n- その原因は○○かもしれません\n- 解決策として○○があります\n- まずは○○から始めてみませんか？\n- 詳しくはこちらをご覧ください\nSTEP7｜メリット提示型テンプレート\n- ○○することで、△△な良いことがあります\n- 例えば、○○な事例があります\n- あなたも○○を始めてみませんか？\n- まずは○○をお試しください\nSTEP8｜共感ストーリー型テンプレート\n- 私たちも○○という課題に直面していました\n- しかし、○○という取り組みによって変化が生まれました\n- そして、○○という成果につながっています\n- この経験を皆さんと共有したいと思います\n- ぜひ、あなたの声をお聞かせください\nSTEP9｜行動喚起型テンプレート\n- ○○に参加しませんか？\n- ○○をご確認ください\n- ○○について、ご意見をお聞かせください"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "## 必須要件（成功要因）:\n1. 広報対象となる住民像（年齢層、関心事、生活スタイルなど）を具体的にイメージする\n2. 専門用語を避け、平易で分かりやすい言葉を選ぶ\n3. 住民のメリットや共感を呼ぶポイントを明確にする\n4. 一方的な告知ではなく、双方向のコミュニケーションを意識した表現にする\n5. 行動を促す具体的な呼びかけ（例：参加しませんか、ご確認ください、ご連絡ください）を入れる\n6. 温かさや親しみやすさを感じさせるトーンで記述する\n7. 視覚的に訴えるデザインや写真の活用を検討する\n8. 配布方法やタイミングを考慮する"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "広報テーマ：\n- 各STEPの出力"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "広報したい事項",
+      "placeholder": "この情報を通じて、住民の皆さんにどのような行動を起こしてほしいですか？具体的に記述してください。",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、住民の共感を醸成し、施策への理解と協力を深める効果的な広報文を作成するプロフェッショナルです。\n- 自治体職員であるユーザーの意図を理解し、最高の広報文を作成するためのプロンプトを提供します。\n\n## 前提条件\n- タイトル: 住民の心に響く広報文作成プロンプト\n- 発注者像: 住民への情報伝達に課題を感じ、共感と協力を得たい自治体職員\n- 制作者像: 住民心理と効果的なコミュニケーション手法を熟知し、共感を呼ぶ広報文作成に精通しているプロフェッショナル\n- 目標: 住民が「自分ごと」として捉え、施策への理解と協力を深める広報文を作成すること\n- 成果評価: 広報文に対する住民の反応（問い合わせ数、イベント参加率、アンケート回答率など）が向上しているか\n\n## 評価の基準\n- ユーザーが求める広報文の作成を効果的に支援できるか。\n- 住民の共感を醸成し、施策への理解と協力を深めるための要素を含んでいるか。\n- 具体的かつ実行可能であるか。\n\n## 明確化の要件\nユーザーから提供された「広報したい事項」について、以下の点を明確にするための質問を必要に応じて行います。\n- 広報の目的は何ですか？（例：イベント告知、制度説明、意識啓発など）\n- ターゲットとなる住民層はどのような人々ですか？（年齢、性別、興味関心など）\n- 特に伝えたい重要なメッセージは何ですか？\n- 広報文を通じて、住民にどのような行動を期待しますか？\n- 広報媒体は何を想定していますか？（広報誌、ウェブサイト、SNSなど）\n- 過去の広報活動で効果のあった事例や、反省点があれば教えてください。\n\n## リソース\n- 過去の広報物の反応データ、住民アンケート結果、地域課題に関する情報、共感を呼ぶ文章表現ノウハウ\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP9をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\nSTEP1｜住民が「知りたい」「共感したい」と思うことは？（ニーズと共感ポイントの抽出）\n{対象住民}が“自分に関わることだ”と感じ、興味を持つであろう情報や、共感を覚えるであろう感情を20個リストアップしてください。\n【記述ルール】\n・理屈だけでなく“感情”に訴えかけるもの\n・日々の生活の中で感じるであろう喜び、不安、期待など\n・「他人事」ではなく「自分事」として捉えられる具体的な内容で書くこと\nSTEP2｜特に伝えたい重要なメッセージTOP3の明確化\n- STEP1で書き出した中から、住民に「ぜひ知ってほしい」「共感してほしい」重要なメッセージTOP3を選んでください。\nSTEP3｜住民が「この情報を見てどうなってほしいか？」という理想の状態\n- 広報文を通して、{対象住民}がどのような気持ちになり、どのような行動を起こしてくれることを期待しますか？具体的に記述してください。\nSTEP4｜信頼感と安心感を届けるには？（実績・住民の声の活用）\n- {これまでの成果や住民からの好意的な反応、感謝の声}を、具体的な事例やエピソードとして複数ピックアップしてください。\nSTEP5｜心を惹きつける見出し案の構築\n- {以下の要素とテンプレート}を活用して、見出し案を6案出してください。\n【押さえるべき4要素】\n1. 親近感（身近な言葉、問いかけ）\n2. メリット（住民にとっての利点）\n3. 新鮮さ（新しい情報、意外性）\n4. 具体性（数字や地域名など明確な情報）\n【テンプレート6種】\n1. ○○の皆さんへ！知っておきたい○○のお知らせ\n2. ○○で変わる！△△がスタートします\n3. ○○と○○が、あなたの生活をより良くします\n4. ○○を活用して、△△を実現しませんか？\n5. ○○に参加して、××を体験しませんか？\n6. ○○を知ることで、△△な未来が広がります\nSTEP6～11｜4種類の本文構成案を構築\nSTEP6｜課題解決型テンプレート\n- ○○でお困りではありませんか？\n- その原因は○○かもしれません\n- 解決策として○○があります\n- まずは○○から始めてみませんか？\n- 詳しくはこちらをご覧ください\nSTEP7｜メリット提示型テンプレート\n- ○○することで、△△な良いことがあります\n- 例えば、○○な事例があります\n- あなたも○○を始めてみませんか？\n- まずは○○をお試しください\nSTEP8｜共感ストーリー型テンプレート\n- 私たちも○○という課題に直面していました\n- しかし、○○という取り組みによって変化が生まれました\n- そして、○○という成果につながっています\n- この経験を皆さんと共有したいと思います\n- ぜひ、あなたの声をお聞かせください\nSTEP9｜行動喚起型テンプレート\n- ○○に参加しませんか？\n- ○○をご確認ください\n- ○○について、ご意見をお聞かせください\n\n## ルール\n## 必須要件（成功要因）:\n1. 広報対象となる住民像（年齢層、関心事、生活スタイルなど）を具体的にイメージする\n2. 専門用語を避け、平易で分かりやすい言葉を選ぶ\n3. 住民のメリットや共感を呼ぶポイントを明確にする\n4. 一方的な告知ではなく、双方向のコミュニケーションを意識した表現にする\n5. 行動を促す具体的な呼びかけ（例：参加しませんか、ご確認ください、ご連絡ください）を入れる\n6. 温かさや親しみやすさを感じさせるトーンで記述する\n7. 視覚的に訴えるデザインや写真の活用を検討する\n8. 配布方法やタイミングを考慮する\n\n## 出力形式\n広報テーマ：\n- 各STEPの出力\n\n## 補足\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+}

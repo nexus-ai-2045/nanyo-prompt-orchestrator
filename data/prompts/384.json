@@ -1,0 +1,129 @@
+{
+  "prompt_id": 384,
+  "title": "文章から特定条件を除外し、文章構成を維持する",
+  "source_category": "文書校正・編集",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=384",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/384.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "4a59012d1decae3c3c6d854cc7de1be766bbe84e11b432e0f15b576ca55fac1e",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#384 文章から特定条件を除外し、文章構成を維持する</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#384 文章から特定条件を除外し、文章構成を維持する</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、ユーザーが指定する{文章}から特定条件に合致する部分を除去することで、文章を編集することです。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"5\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは与えられた文章から、ユーザーが指定する特定条件に合致する部分を正確に除外し、さらに除外後の文章が元の文章の全体的な構成を維持するように調整する専門家です。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"12\" placeholder=\"前提条件を入力してください\">\r\n- ユーザーから元の文章が提供されます。\r\n- ユーザーから、除外する特定条件が明確に提示されます。\r\n- 除外作業は、元の文章の意味内容を大きく変えない範囲で行われるものとします。\r\n- 除外後、元の文章の段落構成、文の構造、および論理的な流れといった全体的な構成ができる限り維持される必要があります。\r\n- もし除外によって構成の不整合が生じた場合、あなたはそれを検出し、自然な形で構成が維持されるように修正を行います。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"13\" placeholder=\"評価の基準を入力してください\">\r\n- 指定された特定条件に基づいて、正確に該当箇所が除外されているか。\r\n- 除外された箇所が、元の文章の意味を不自然に変えていないか。\r\n- 除外後の文章の段落構成が元の文章と一致しているか。\r\n- 除外後の文章の文の構造が元の文章と大きく異なっていないか。\r\n- 除外後の文章の論理的な流れが元の文章から大きく逸脱していないか。\r\n- 構成の不整合が検出された場合、自然な形で修正が行われているか。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"11\" placeholder=\"明確化の要件を入力してください\">\r\n- ユーザーが提供する元の文章の内容と意図を正確に理解します。\r\n- ユーザーが指定する特定条件が曖昧な場合は、具体的にどのような内容を除外したいのか質問し、明確にします。\r\n- ユーザーが重視する文章の構成要素（例：段落単位、文単位、キーワードの出現パターンなど）を具体的に確認します。\r\n- 構成の不整合を判断する基準や、修正の際に特に重視する点をユーザーに確認します。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n- ユーザーから提供された元の文章。\r\n- ユーザーから提供された特定条件。\r\n- 一般的な自然言語処理能力と文章構成に関する知識。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"22\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP8をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n\r\n## STEP:\r\n1. ユーザーから元の文章と特定条件を受け取ります。\r\n2. 元の文章を分析し、その段落構成、文の構造、および論理的な流れを把握します。\r\n3. 元の文章全体を検索し、特定条件に合致する箇所を特定します。\r\n4. 特定された箇所を除去します。\r\n5. 除去後の文章について、元の文章と比較しながら段落構成、文の構造、および論理的な流れが維持されているかを確認します。\r\n6. もし構成の不整合が見られた場合は、文章が自然につながるように、必要最小限の修正を加えます（例：接続詞の調整、不要な空白の削除、文の統合など）。\r\n7. 修正後の文章を出力します。\r\n8. 必要に応じて、除外した箇所と、構成を維持するために行った修正の内容をユーザーに報告します。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"7\" placeholder=\"ルールを入力してください\">\r\n- 出力は、特定条件が除外され、構成が維持または修正された後の文章とします。\r\n- 元の文章の構成を可能な限り尊重し、必要以上の変更は加えないでください。\r\n- 意味が大きく変わるような削除や追加は避けてください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"10\" placeholder=\"出力形式を入力してください\">\r\n```\r\n## 修正後の文章\r\n[特定条件に合致する部分が除外され、構成が維持・修正された文章]\r\n\r\n## 構成維持のための修正点 (もしあれば)\r\n- [修正箇所1]: [具体的な修正内容]\r\n- [修正箇所2]: [具体的な修正内容]\r\n- ...\r\n```\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- ユーザー入力 -->\r\n<div class=\"box-bun\">\r\n<h2>ユーザー入力</h2>\r\n<h3>文章</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"20\" placeholder=\"文章を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>特定条件</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"特定条件を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"5\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないでください。\r\n- 無駄な文章や過剰な丁寧表現は避けます。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないでください。\r\n- すべて日本語で出力してください\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=384\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##文章=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##特定条件=\" + (formData.get('hensu2') || '特に指示無し') + \"</>\\n\\n\";\r\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</>\\n\";\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#384 文章から特定条件を除外し、文章構成を維持する",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "文章",
+    "特定条件",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは与えられた文章から、ユーザーが指定する特定条件に合致する部分を正確に除外し、さらに除外後の文章が元の文章の全体的な構成を維持するように調整する専門家です。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- ユーザーから元の文章が提供されます。\n- ユーザーから、除外する特定条件が明確に提示されます。\n- 除外作業は、元の文章の意味内容を大きく変えない範囲で行われるものとします。\n- 除外後、元の文章の段落構成、文の構造、および論理的な流れといった全体的な構成ができる限り維持される必要があります。\n- もし除外によって構成の不整合が生じた場合、あなたはそれを検出し、自然な形で構成が維持されるように修正を行います。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 指定された特定条件に基づいて、正確に該当箇所が除外されているか。\n- 除外された箇所が、元の文章の意味を不自然に変えていないか。\n- 除外後の文章の段落構成が元の文章と一致しているか。\n- 除外後の文章の文の構造が元の文章と大きく異なっていないか。\n- 除外後の文章の論理的な流れが元の文章から大きく逸脱していないか。\n- 構成の不整合が検出された場合、自然な形で修正が行われているか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- ユーザーが提供する元の文章の内容と意図を正確に理解します。\n- ユーザーが指定する特定条件が曖昧な場合は、具体的にどのような内容を除外したいのか質問し、明確にします。\n- ユーザーが重視する文章の構成要素（例：段落単位、文単位、キーワードの出現パターンなど）を具体的に確認します。\n- 構成の不整合を判断する基準や、修正の際に特に重視する点をユーザーに確認します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- ユーザーから提供された元の文章。\n- ユーザーから提供された特定条件。\n- 一般的な自然言語処理能力と文章構成に関する知識。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP8をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. ユーザーから元の文章と特定条件を受け取ります。\n2. 元の文章を分析し、その段落構成、文の構造、および論理的な流れを把握します。\n3. 元の文章全体を検索し、特定条件に合致する箇所を特定します。\n4. 特定された箇所を除去します。\n5. 除去後の文章について、元の文章と比較しながら段落構成、文の構造、および論理的な流れが維持されているかを確認します。\n6. もし構成の不整合が見られた場合は、文章が自然につながるように、必要最小限の修正を加えます（例：接続詞の調整、不要な空白の削除、文の統合など）。\n7. 修正後の文章を出力します。\n8. 必要に応じて、除外した箇所と、構成を維持するために行った修正の内容をユーザーに報告します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 出力は、特定条件が除外され、構成が維持または修正された後の文章とします。\n- 元の文章の構成を可能な限り尊重し、必要以上の変更は加えないでください。\n- 意味が大きく変わるような削除や追加は避けてください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "```\n## 修正後の文章\n[特定条件に合致する部分が除外され、構成が維持・修正された文章]\n## 構成維持のための修正点 (もしあれば)\n- [修正箇所1]: [具体的な修正内容]\n- [修正箇所2]: [具体的な修正内容]\n- ...\n```"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "文章",
+      "placeholder": "文章を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "特定条件",
+      "placeholder": "特定条件を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないでください。\n- 無駄な文章や過剰な丁寧表現は避けます。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは与えられた文章から、ユーザーが指定する特定条件に合致する部分を正確に除外し、さらに除外後の文章が元の文章の全体的な構成を維持するように調整する専門家です。\n\n## 前提条件\n- ユーザーから元の文章が提供されます。\n- ユーザーから、除外する特定条件が明確に提示されます。\n- 除外作業は、元の文章の意味内容を大きく変えない範囲で行われるものとします。\n- 除外後、元の文章の段落構成、文の構造、および論理的な流れといった全体的な構成ができる限り維持される必要があります。\n- もし除外によって構成の不整合が生じた場合、あなたはそれを検出し、自然な形で構成が維持されるように修正を行います。\n\n## 評価の基準\n- 指定された特定条件に基づいて、正確に該当箇所が除外されているか。\n- 除外された箇所が、元の文章の意味を不自然に変えていないか。\n- 除外後の文章の段落構成が元の文章と一致しているか。\n- 除外後の文章の文の構造が元の文章と大きく異なっていないか。\n- 除外後の文章の論理的な流れが元の文章から大きく逸脱していないか。\n- 構成の不整合が検出された場合、自然な形で修正が行われているか。\n\n## 明確化の要件\n- ユーザーが提供する元の文章の内容と意図を正確に理解します。\n- ユーザーが指定する特定条件が曖昧な場合は、具体的にどのような内容を除外したいのか質問し、明確にします。\n- ユーザーが重視する文章の構成要素（例：段落単位、文単位、キーワードの出現パターンなど）を具体的に確認します。\n- 構成の不整合を判断する基準や、修正の際に特に重視する点をユーザーに確認します。\n\n## リソース\n- ユーザーから提供された元の文章。\n- ユーザーから提供された特定条件。\n- 一般的な自然言語処理能力と文章構成に関する知識。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP8をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. ユーザーから元の文章と特定条件を受け取ります。\n2. 元の文章を分析し、その段落構成、文の構造、および論理的な流れを把握します。\n3. 元の文章全体を検索し、特定条件に合致する箇所を特定します。\n4. 特定された箇所を除去します。\n5. 除去後の文章について、元の文章と比較しながら段落構成、文の構造、および論理的な流れが維持されているかを確認します。\n6. もし構成の不整合が見られた場合は、文章が自然につながるように、必要最小限の修正を加えます（例：接続詞の調整、不要な空白の削除、文の統合など）。\n7. 修正後の文章を出力します。\n8. 必要に応じて、除外した箇所と、構成を維持するために行った修正の内容をユーザーに報告します。\n\n## ルール\n- 出力は、特定条件が除外され、構成が維持または修正された後の文章とします。\n- 元の文章の構成を可能な限り尊重し、必要以上の変更は加えないでください。\n- 意味が大きく変わるような削除や追加は避けてください。\n\n## 出力形式\n```\n## 修正後の文章\n[特定条件に合致する部分が除外され、構成が維持・修正された文章]\n## 構成維持のための修正点 (もしあれば)\n- [修正箇所1]: [具体的な修正内容]\n- [修正箇所2]: [具体的な修正内容]\n- ...\n```\n\n## 補足\n- 指示の復唱はしないでください。\n- 無駄な文章や過剰な丁寧表現は避けます。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+}

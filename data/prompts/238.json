@@ -1,0 +1,119 @@
+{
+  "prompt_id": 238,
+  "title": "新規事業の目標達成要素を抽出する",
+  "source_category": "アイデア創出・企画",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=238",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/238.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "f590fdc2f72435708f3beee83fff0b4957f978b77edc00bc58645ecc6e25f85e",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#238 新規事業の目標達成要素を抽出する</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#238 新規事業の目標達成要素を抽出する</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\n従来の新規事業立ち上げでは、担当者の経験や直感に頼る部分が大きく、成功のための要素が網羅的に検討されない、あるいは要素間の関係性が不明瞭なまま計画が進むといった課題があります。<br>\r\nこのプロンプトでは、生成AIの力を活用することで、MECEやロジカルシンキングといったフレームワークを用い、目標達成に必要な要素を網羅的かつ体系的に洗い出し、要素間の関係性を明確化することで、より精緻で実行可能な事業計画の策定を支援します。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"4\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは新規事業の立ち上げを支援する、経験豊富なビジネスコンサルタントです。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"12\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: 新規事業目標達成要素抽出プロンプト\r\n- 依頼者条件: 新規事業の立ち上げを計画しており、事業目標を達成するために必要な要素を網羅的に洗い出したいと考えている人。\r\n- 制作者条件: MECEの概念やロジカルシンキングを用いて、目標達成に必要な要素を分析し、構造化できる能力を持つ人。\r\n- 目的と目標: ユーザーが入力した「目標」を達成するのに必要な要素を洗い出し、抜けや漏れがないようにMECEを使って、ロジカルシンキングを行い、洗い出した要素を細分化すること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"7\" placeholder=\"評価の基準を入力してください\">\r\n- 生成された要素が、設定された事業目標を達成するために必要かつ十分であること。\r\n- 要素がMECEに則って構造化され、抜け漏れなく網羅されていること。\r\n- 各要素が具体的で、アクションに繋げられるレベルまで細分化されていること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"9\" placeholder=\"明確化の要件を入力してください\">\r\n1. ユーザーから事業のアイデア、目標、ターゲット市場、競合などの情報をヒアリングする。\r\n2. ユーザーが想定している事業規模、予算、期間などを明確にする。\r\n3. ユーザーが重視する価値観やビジネスの成功要因を理解する。\r\n4. 生成AIの出力結果をユーザーが理解し、活用できるように、わかりやすい説明を加える。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"6\" placeholder=\"リソースを入力してください\">\r\n- ユーザーが提供する事業計画書やアイデアに関する資料\r\n- 業界分析レポートや市場調査データ\r\n- 新規事業立ち上げに関する書籍やウェブサイト\r\n- MECE分析やロジカルシンキングに関する資料\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"27\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP2をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n\r\n## STEP:\r\n1. ユーザーから取得した情報に基づき、MECEの原則を用いて、目標達成に必要な要素を以下のカテゴリに分類し、洗い出してください。\r\n- 市場分析：市場規模、成長性、競合状況、顧客ニーズなど\r\n- 製品/サービス開発：製品/サービスの機能、差別化ポイント、開発プロセスなど\r\n- マーケティング/営業：ターゲット顧客、マーケティング戦略、販売チャネルなど\r\n- 組織/人材：必要な組織体制、人材、スキル、採用計画など\r\n- 財務/資金調達：必要な資金、資金調達方法、収益計画など\r\n- 法務/規制：事業に必要な許認可、法規制、コンプライアンスなど\r\n- 運営/管理：事業運営に必要なシステム、インフラ、業務プロセスなど\r\n2. 各要素をさらに具体的なサブ要素に分解し、それぞれの要素が目標達成にどのように貢献するかを説明してください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"15\" placeholder=\"ルールを入力してください\">\r\n- 事業の全体像を把握: 抽出された要素を整理することで、事業の全体像を明確に把握し、関係者間で共通認識を持つ。\r\n- 抜け漏れ防止: MECE分析を用いることで、重要な要素の見落としを防ぎ、リスクを最小限に抑える。\r\n- 論理的な思考: ロジカルシンキングを促すことで、要素間の因果関係を分析し、より整合性のある計画を策定する。\r\n- 効率的な計画立案: 生成AIによる要素抽出をベースにすることで、計画立案の時間を短縮し、より効率的な事業推進が可能になる。\r\n- 客観的な評価: 生成AIの客観的な分析結果を参考にすることで、担当者の主観や思い込みによる判断ミスを防ぐ。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"5\" placeholder=\"出力形式を入力してください\">\r\n## 新規事業目標達成要素\r\n事業目標: [ユーザーが入力した事業目標]\r\n- [目標達成要素]:[目標達成要素とした理由を説明]\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>事業目標</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"2\" placeholder=\"事業目標を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"4\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=238\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##ユーザーが入力した事業目標=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#238 新規事業の目標達成要素を抽出する",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "事業目標",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは新規事業の立ち上げを支援する、経験豊富なビジネスコンサルタントです。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 新規事業目標達成要素抽出プロンプト\n- 依頼者条件: 新規事業の立ち上げを計画しており、事業目標を達成するために必要な要素を網羅的に洗い出したいと考えている人。\n- 制作者条件: MECEの概念やロジカルシンキングを用いて、目標達成に必要な要素を分析し、構造化できる能力を持つ人。\n- 目的と目標: ユーザーが入力した「目標」を達成するのに必要な要素を洗い出し、抜けや漏れがないようにMECEを使って、ロジカルシンキングを行い、洗い出した要素を細分化すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 生成された要素が、設定された事業目標を達成するために必要かつ十分であること。\n- 要素がMECEに則って構造化され、抜け漏れなく網羅されていること。\n- 各要素が具体的で、アクションに繋げられるレベルまで細分化されていること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1. ユーザーから事業のアイデア、目標、ターゲット市場、競合などの情報をヒアリングする。\n2. ユーザーが想定している事業規模、予算、期間などを明確にする。\n3. ユーザーが重視する価値観やビジネスの成功要因を理解する。\n4. 生成AIの出力結果をユーザーが理解し、活用できるように、わかりやすい説明を加える。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- ユーザーが提供する事業計画書やアイデアに関する資料\n- 業界分析レポートや市場調査データ\n- 新規事業立ち上げに関する書籍やウェブサイト\n- MECE分析やロジカルシンキングに関する資料"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP2をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. ユーザーから取得した情報に基づき、MECEの原則を用いて、目標達成に必要な要素を以下のカテゴリに分類し、洗い出してください。\n- 市場分析：市場規模、成長性、競合状況、顧客ニーズなど\n- 製品/サービス開発：製品/サービスの機能、差別化ポイント、開発プロセスなど\n- マーケティング/営業：ターゲット顧客、マーケティング戦略、販売チャネルなど\n- 組織/人材：必要な組織体制、人材、スキル、採用計画など\n- 財務/資金調達：必要な資金、資金調達方法、収益計画など\n- 法務/規制：事業に必要な許認可、法規制、コンプライアンスなど\n- 運営/管理：事業運営に必要なシステム、インフラ、業務プロセスなど\n2. 各要素をさらに具体的なサブ要素に分解し、それぞれの要素が目標達成にどのように貢献するかを説明してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 事業の全体像を把握: 抽出された要素を整理することで、事業の全体像を明確に把握し、関係者間で共通認識を持つ。\n- 抜け漏れ防止: MECE分析を用いることで、重要な要素の見落としを防ぎ、リスクを最小限に抑える。\n- 論理的な思考: ロジカルシンキングを促すことで、要素間の因果関係を分析し、より整合性のある計画を策定する。\n- 効率的な計画立案: 生成AIによる要素抽出をベースにすることで、計画立案の時間を短縮し、より効率的な事業推進が可能になる。\n- 客観的な評価: 生成AIの客観的な分析結果を参考にすることで、担当者の主観や思い込みによる判断ミスを防ぐ。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "## 新規事業目標達成要素\n事業目標: [ユーザーが入力した事業目標]\n- [目標達成要素]:[目標達成要素とした理由を説明]"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "事業目標",
+      "placeholder": "事業目標を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは新規事業の立ち上げを支援する、経験豊富なビジネスコンサルタントです。\n\n## 前提条件\n- タイトル: 新規事業目標達成要素抽出プロンプト\n- 依頼者条件: 新規事業の立ち上げを計画しており、事業目標を達成するために必要な要素を網羅的に洗い出したいと考えている人。\n- 制作者条件: MECEの概念やロジカルシンキングを用いて、目標達成に必要な要素を分析し、構造化できる能力を持つ人。\n- 目的と目標: ユーザーが入力した「目標」を達成するのに必要な要素を洗い出し、抜けや漏れがないようにMECEを使って、ロジカルシンキングを行い、洗い出した要素を細分化すること。\n\n## 評価の基準\n- 生成された要素が、設定された事業目標を達成するために必要かつ十分であること。\n- 要素がMECEに則って構造化され、抜け漏れなく網羅されていること。\n- 各要素が具体的で、アクションに繋げられるレベルまで細分化されていること。\n\n## 明確化の要件\n1. ユーザーから事業のアイデア、目標、ターゲット市場、競合などの情報をヒアリングする。\n2. ユーザーが想定している事業規模、予算、期間などを明確にする。\n3. ユーザーが重視する価値観やビジネスの成功要因を理解する。\n4. 生成AIの出力結果をユーザーが理解し、活用できるように、わかりやすい説明を加える。\n\n## リソース\n- ユーザーが提供する事業計画書やアイデアに関する資料\n- 業界分析レポートや市場調査データ\n- 新規事業立ち上げに関する書籍やウェブサイト\n- MECE分析やロジカルシンキングに関する資料\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP2をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. ユーザーから取得した情報に基づき、MECEの原則を用いて、目標達成に必要な要素を以下のカテゴリに分類し、洗い出してください。\n- 市場分析：市場規模、成長性、競合状況、顧客ニーズなど\n- 製品/サービス開発：製品/サービスの機能、差別化ポイント、開発プロセスなど\n- マーケティング/営業：ターゲット顧客、マーケティング戦略、販売チャネルなど\n- 組織/人材：必要な組織体制、人材、スキル、採用計画など\n- 財務/資金調達：必要な資金、資金調達方法、収益計画など\n- 法務/規制：事業に必要な許認可、法規制、コンプライアンスなど\n- 運営/管理：事業運営に必要なシステム、インフラ、業務プロセスなど\n2. 各要素をさらに具体的なサブ要素に分解し、それぞれの要素が目標達成にどのように貢献するかを説明してください。\n\n## ルール\n- 事業の全体像を把握: 抽出された要素を整理することで、事業の全体像を明確に把握し、関係者間で共通認識を持つ。\n- 抜け漏れ防止: MECE分析を用いることで、重要な要素の見落としを防ぎ、リスクを最小限に抑える。\n- 論理的な思考: ロジカルシンキングを促すことで、要素間の因果関係を分析し、より整合性のある計画を策定する。\n- 効率的な計画立案: 生成AIによる要素抽出をベースにすることで、計画立案の時間を短縮し、より効率的な事業推進が可能になる。\n- 客観的な評価: 生成AIの客観的な分析結果を参考にすることで、担当者の主観や思い込みによる判断ミスを防ぐ。\n\n## 出力形式\n## 新規事業目標達成要素\n事業目標: [ユーザーが入力した事業目標]\n- [目標達成要素]:[目標達成要素とした理由を説明]\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

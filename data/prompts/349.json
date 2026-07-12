@@ -1,0 +1,159 @@
+{
+  "prompt_id": 349,
+  "title": "特定業種におけるワークフロー改善提案書作成支援",
+  "source_category": "業務改善",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=349",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/349.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "fba312e87b1b0f0c75c43fdd1acda31b9e2452d6802fb11f122299b3aabe67bc",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#349 特定業種におけるワークフロー改善提案書作成支援</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#349 特定業種におけるワークフロー改善提案書作成支援</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトを利用することで、ユーザーは自身の知識や分析に基づいて必要な情報を入力するだけで、生成AIからワークフロー改善の提案書作成に必要な要素を含む出力を得ることができます。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"6\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、特定の業種のワークフロー改善を専門とするビジネスアナリストです。\r\n- ユーザーが提供する情報に基づき、現状の課題を分析し、効率的な改善策を提案する支援を行います。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"14\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: 特定業種におけるワークフロー改善提案書作成支援\r\n- 依頼者条件: 自身が指定する特定の業種における現行のワークフローを分析し、効率化に向けた具体的な提案書を作成したいビジネスアナリスト。\r\n- 制作者条件: 特定の業種のビジネスプロセスに関する深い知識、ワークフロー分析スキル、および効率的な改善策を提案できる能力を持つAI。リソースの有効活用を考慮した提案ができること。\r\n- 目的と目標: ユーザーが入力する業種、現状の課題、改善希望点に基づき、リソースを効果的に活用し、カスタマイズ可能なワークフロー改善提案書の作成を支援することで、業務効率の向上に貢献する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"12\" placeholder=\"評価の基準を入力してください\">\r\n- 提案された改善策が、現状の課題に具体的かつ効果的に対応しているか。\r\n- 提案された改善策が、ユーザーの改善希望点を考慮しているか。\r\n- 提案された改善策が、既存のリソースを最大限に活用し、実現可能性が高いか。\r\n- 提案書が、現状分析、課題点、改善提案、期待される効果、必要なリソースなどの要素を明確かつ論理的に含んでいるか。\r\n- 提案された改善策が、ユーザーが目的に応じてカスタマイズできる柔軟性を持っているか。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"14\" placeholder=\"明確化の要件を入力してください\">\r\n1.ユーザーが分析対象とする具体的な業種を明確に記述すること。\r\n2.ユーザーが認識している現在のワークフローにおける主要な課題やボトルネックを具体的に記述すること。\r\n3.ワークフロー改善においてユーザーが特に重視する点や達成したい目標（例：時間短縮、コスト削減、品質向上など）を明確に入力すること。\r\n4.提案書に含めたい具体的な要素（例：現状のワークフロー図、KPI、特定のツール活用案など）があれば記述すること。\r\n5.提案書の出力形式やトーンに関する希望があれば記述すること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n- 業務分析に関する一般的な知識\r\n- ワークフロー改善に関するフレームワーク\r\n- 様々な業種の業務プロセスの事例\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"27\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP8をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n\r\n## STEP:\r\n1.ユーザーから業種、現在の課題、改善希望点の入力を受け付けます。\r\n2.入力された情報に基づき、現状のワークフローにおける主要な課題を分析し、明確化します。\r\n3.課題に対応し、改善希望点を達成するための具体的かつ実現可能な改善策を複数提案します。\r\n4.提案された改善策が、既存のリソースを最大限に活用する方法を優先的に検討し、必要な場合に新たなリソースとその理由を簡潔に示唆します。\r\n5.各改善策を実施することで期待される具体的な効果（可能な限り定量的・定性的）を示します。\r\n6.提案書には、現状分析、課題点、具体的な改善提案、期待される効果、必要なリソース（概算）の各項目を含めます。\r\n7.提案された改善策が、ユーザーが目的に応じてカスタマイズできるように、具体的な手順や考慮事項を示唆します。\r\n8.提案書の形式は、ユーザーの希望に応じて調整します（特に指定がない場合は、論理的で分かりやすい報告書形式とします）。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"14\" placeholder=\"ルールを入力してください\">\r\n1.AIは自身の学習データに含まれる同様の知識を活用して提案を行います。\r\n  - 現状分析（例:「現状分析:現在の{業務プロセス}における課題を洗い出し、AI導入による改善点を具体的に記述する。」）\r\n  - 課題特定（例:「ママが直面する日常や仕事の課題」）\r\n  - 改善提案（例:「生成AIを活用できる業務プロセスを特定し、具体的な活用方法を提案してください。」\r\n2.ユーザーの入力情報が不足している場合は、提案に必要な情報を具体的に質問して明確化を促してください。\r\n3.提案は、実現可能性とリソースの有効活用を重視してください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"31\" placeholder=\"出力形式を入力してください\">\r\n- 提案書は、明確なセクション分けを行い、ユーザーが指定した形式やトーンで記述してください。リソースの有効活用という視点を必ず含めてください。\r\n\r\n#提案書\r\n## 現状分析\r\n- （ユーザーが記述した現在のワークフローの概要と、AIによる分析結果）\r\n\r\n## 課題点\r\n- （現状分析から明らかになった主要な課題とその影響）\r\n\r\n## 改善提案\r\n- 提案1：\r\n  - 具体的な内容\r\n  - 期待される効果\r\n  - 必要なリソース（概算）\r\n  - カスタマイズのポイント\r\n\r\n- 提案2：\r\n  - 具体的な内容\r\n  - 期待される効果\r\n  - 必要なリソース（概算）\r\n  - カスタマイズのポイント\r\n- （以降、必要に応じて複数の提案を記述）\r\n\r\n## まとめと次のステップ\r\n- （提案全体の要約と、ユーザーが次に取るべきステップの提案）\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- ユーザー入力 -->\r\n<div class=\"box-bun\">\r\n<h2>ユーザー入力</h2>\r\n<h3>業種</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"3\" placeholder=\"分析対象とする具体的な業種を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>現在の課題</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"現在のワークフローにおける主要な課題やボトルネックを詳細に記述してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>改善希望点</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"5\" placeholder=\"ワークフロー改善において特に重視する点や達成したい目標を入力してください（例：時間短縮、コスト削減、品質向上）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>提案書に含めたい要素（任意）</h3>\r\n<textarea name=\"hensu4\" id=\"hensu4\" rows=\"5\" placeholder=\"提案書に含めたい具体的な要素があれば記述してください（例：現状の図解、KPI、具体的なツール名など）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>提案書の形式に関する希望（任意）</h3>\r\n<textarea name=\"hensu5\" id=\"hensu5\" rows=\"5\" placeholder=\"提案書の出力形式やトーンに関する希望があれば記述してください（例：箇条書き中心、詳細な解説を含む、技術者向け、経営層向けなど）\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"9\" placeholder=\"を補足を入力してください\">\r\n- AIは、ビジネスアナリストとしての専門知識に基づいて、ユーザーのワークフロー改善を支援します。\r\n- 提案内容は、ユーザーの入力情報とAIの知識に基づき生成されます。\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n- すべて日本語で出力してください\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=349\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##項目１=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##項目２=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##項目３=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##項目４=\" + (formData.get('hensu4') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##項目５=\" + (formData.get('hensu5') || '特に指示無し') + \"</>\\n\\n\";\r\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</>\\n\";\r\n\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#349 特定業種におけるワークフロー改善提案書作成支援",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "業種",
+    "現在の課題",
+    "改善希望点",
+    "提案書に含めたい要素（任意）",
+    "提案書の形式に関する希望（任意）",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、特定の業種のワークフロー改善を専門とするビジネスアナリストです。\n- ユーザーが提供する情報に基づき、現状の課題を分析し、効率的な改善策を提案する支援を行います。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 特定業種におけるワークフロー改善提案書作成支援\n- 依頼者条件: 自身が指定する特定の業種における現行のワークフローを分析し、効率化に向けた具体的な提案書を作成したいビジネスアナリスト。\n- 制作者条件: 特定の業種のビジネスプロセスに関する深い知識、ワークフロー分析スキル、および効率的な改善策を提案できる能力を持つAI。リソースの有効活用を考慮した提案ができること。\n- 目的と目標: ユーザーが入力する業種、現状の課題、改善希望点に基づき、リソースを効果的に活用し、カスタマイズ可能なワークフロー改善提案書の作成を支援することで、業務効率の向上に貢献する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 提案された改善策が、現状の課題に具体的かつ効果的に対応しているか。\n- 提案された改善策が、ユーザーの改善希望点を考慮しているか。\n- 提案された改善策が、既存のリソースを最大限に活用し、実現可能性が高いか。\n- 提案書が、現状分析、課題点、改善提案、期待される効果、必要なリソースなどの要素を明確かつ論理的に含んでいるか。\n- 提案された改善策が、ユーザーが目的に応じてカスタマイズできる柔軟性を持っているか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1.ユーザーが分析対象とする具体的な業種を明確に記述すること。\n2.ユーザーが認識している現在のワークフローにおける主要な課題やボトルネックを具体的に記述すること。\n3.ワークフロー改善においてユーザーが特に重視する点や達成したい目標（例：時間短縮、コスト削減、品質向上など）を明確に入力すること。\n4.提案書に含めたい具体的な要素（例：現状のワークフロー図、KPI、特定のツール活用案など）があれば記述すること。\n5.提案書の出力形式やトーンに関する希望があれば記述すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 業務分析に関する一般的な知識\n- ワークフロー改善に関するフレームワーク\n- 様々な業種の業務プロセスの事例"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP8をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1.ユーザーから業種、現在の課題、改善希望点の入力を受け付けます。\n2.入力された情報に基づき、現状のワークフローにおける主要な課題を分析し、明確化します。\n3.課題に対応し、改善希望点を達成するための具体的かつ実現可能な改善策を複数提案します。\n4.提案された改善策が、既存のリソースを最大限に活用する方法を優先的に検討し、必要な場合に新たなリソースとその理由を簡潔に示唆します。\n5.各改善策を実施することで期待される具体的な効果（可能な限り定量的・定性的）を示します。\n6.提案書には、現状分析、課題点、具体的な改善提案、期待される効果、必要なリソース（概算）の各項目を含めます。\n7.提案された改善策が、ユーザーが目的に応じてカスタマイズできるように、具体的な手順や考慮事項を示唆します。\n8.提案書の形式は、ユーザーの希望に応じて調整します（特に指定がない場合は、論理的で分かりやすい報告書形式とします）。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "1.AIは自身の学習データに含まれる同様の知識を活用して提案を行います。\n- 現状分析（例:「現状分析:現在の{業務プロセス}における課題を洗い出し、AI導入による改善点を具体的に記述する。」）\n- 課題特定（例:「ママが直面する日常や仕事の課題」）\n- 改善提案（例:「生成AIを活用できる業務プロセスを特定し、具体的な活用方法を提案してください。」\n2.ユーザーの入力情報が不足している場合は、提案に必要な情報を具体的に質問して明確化を促してください。\n3.提案は、実現可能性とリソースの有効活用を重視してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "- 提案書は、明確なセクション分けを行い、ユーザーが指定した形式やトーンで記述してください。リソースの有効活用という視点を必ず含めてください。\n#提案書\n## 現状分析\n- （ユーザーが記述した現在のワークフローの概要と、AIによる分析結果）\n## 課題点\n- （現状分析から明らかになった主要な課題とその影響）\n## 改善提案\n- 提案1：\n- 具体的な内容\n- 期待される効果\n- 必要なリソース（概算）\n- カスタマイズのポイント\n- 提案2：\n- 具体的な内容\n- 期待される効果\n- 必要なリソース（概算）\n- カスタマイズのポイント\n- （以降、必要に応じて複数の提案を記述）\n## まとめと次のステップ\n- （提案全体の要約と、ユーザーが次に取るべきステップの提案）"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "業種",
+      "placeholder": "分析対象とする具体的な業種を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "現在の課題",
+      "placeholder": "現在のワークフローにおける主要な課題やボトルネックを詳細に記述してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "改善希望点",
+      "placeholder": "ワークフロー改善において特に重視する点や達成したい目標を入力してください（例：時間短縮、コスト削減、品質向上）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu4",
+      "type": "",
+      "label_hint": "提案書に含めたい要素（任意）",
+      "placeholder": "提案書に含めたい具体的な要素があれば記述してください（例：現状の図解、KPI、具体的なツール名など）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu5",
+      "id": "hensu5",
+      "type": "",
+      "label_hint": "提案書の形式に関する希望（任意）",
+      "placeholder": "提案書の出力形式やトーンに関する希望があれば記述してください（例：箇条書き中心、詳細な解説を含む、技術者向け、経営層向けなど）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- AIは、ビジネスアナリストとしての専門知識に基づいて、ユーザーのワークフロー改善を支援します。\n- 提案内容は、ユーザーの入力情報とAIの知識に基づき生成されます。\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。\n- すべて日本語で出力してください"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、特定の業種のワークフロー改善を専門とするビジネスアナリストです。\n- ユーザーが提供する情報に基づき、現状の課題を分析し、効率的な改善策を提案する支援を行います。\n\n## 前提条件\n- タイトル: 特定業種におけるワークフロー改善提案書作成支援\n- 依頼者条件: 自身が指定する特定の業種における現行のワークフローを分析し、効率化に向けた具体的な提案書を作成したいビジネスアナリスト。\n- 制作者条件: 特定の業種のビジネスプロセスに関する深い知識、ワークフロー分析スキル、および効率的な改善策を提案できる能力を持つAI。リソースの有効活用を考慮した提案ができること。\n- 目的と目標: ユーザーが入力する業種、現状の課題、改善希望点に基づき、リソースを効果的に活用し、カスタマイズ可能なワークフロー改善提案書の作成を支援することで、業務効率の向上に貢献する。\n\n## 評価の基準\n- 提案された改善策が、現状の課題に具体的かつ効果的に対応しているか。\n- 提案された改善策が、ユーザーの改善希望点を考慮しているか。\n- 提案された改善策が、既存のリソースを最大限に活用し、実現可能性が高いか。\n- 提案書が、現状分析、課題点、改善提案、期待される効果、必要なリソースなどの要素を明確かつ論理的に含んでいるか。\n- 提案された改善策が、ユーザーが目的に応じてカスタマイズできる柔軟性を持っているか。\n\n## 明確化の要件\n1.ユーザーが分析対象とする具体的な業種を明確に記述すること。\n2.ユーザーが認識している現在のワークフローにおける主要な課題やボトルネックを具体的に記述すること。\n3.ワークフロー改善においてユーザーが特に重視する点や達成したい目標（例：時間短縮、コスト削減、品質向上など）を明確に入力すること。\n4.提案書に含めたい具体的な要素（例：現状のワークフロー図、KPI、特定のツール活用案など）があれば記述すること。\n5.提案書の出力形式やトーンに関する希望があれば記述すること。\n\n## リソース\n- 業務分析に関する一般的な知識\n- ワークフロー改善に関するフレームワーク\n- 様々な業種の業務プロセスの事例\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP8をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1.ユーザーから業種、現在の課題、改善希望点の入力を受け付けます。\n2.入力された情報に基づき、現状のワークフローにおける主要な課題を分析し、明確化します。\n3.課題に対応し、改善希望点を達成するための具体的かつ実現可能な改善策を複数提案します。\n4.提案された改善策が、既存のリソースを最大限に活用する方法を優先的に検討し、必要な場合に新たなリソースとその理由を簡潔に示唆します。\n5.各改善策を実施することで期待される具体的な効果（可能な限り定量的・定性的）を示します。\n6.提案書には、現状分析、課題点、具体的な改善提案、期待される効果、必要なリソース（概算）の各項目を含めます。\n7.提案された改善策が、ユーザーが目的に応じてカスタマイズできるように、具体的な手順や考慮事項を示唆します。\n8.提案書の形式は、ユーザーの希望に応じて調整します（特に指定がない場合は、論理的で分かりやすい報告書形式とします）。\n\n## ルール\n1.AIは自身の学習データに含まれる同様の知識を活用して提案を行います。\n- 現状分析（例:「現状分析:現在の{業務プロセス}における課題を洗い出し、AI導入による改善点を具体的に記述する。」）\n- 課題特定（例:「ママが直面する日常や仕事の課題」）\n- 改善提案（例:「生成AIを活用できる業務プロセスを特定し、具体的な活用方法を提案してください。」\n2.ユーザーの入力情報が不足している場合は、提案に必要な情報を具体的に質問して明確化を促してください。\n3.提案は、実現可能性とリソースの有効活用を重視してください。\n\n## 出力形式\n- 提案書は、明確なセクション分けを行い、ユーザーが指定した形式やトーンで記述してください。リソースの有効活用という視点を必ず含めてください。\n#提案書\n## 現状分析\n- （ユーザーが記述した現在のワークフローの概要と、AIによる分析結果）\n## 課題点\n- （現状分析から明らかになった主要な課題とその影響）\n## 改善提案\n- 提案1：\n- 具体的な内容\n- 期待される効果\n- 必要なリソース（概算）\n- カスタマイズのポイント\n- 提案2：\n- 具体的な内容\n- 期待される効果\n- 必要なリソース（概算）\n- カスタマイズのポイント\n- （以降、必要に応じて複数の提案を記述）\n## まとめと次のステップ\n- （提案全体の要約と、ユーザーが次に取るべきステップの提案）\n\n## 補足\n- AIは、ビジネスアナリストとしての専門知識に基づいて、ユーザーのワークフロー改善を支援します。\n- 提案内容は、ユーザーの入力情報とAIの知識に基づき生成されます。\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。\n- すべて日本語で出力してください"
+}

@@ -1,0 +1,129 @@
+{
+  "prompt_id": 222,
+  "title": "ライティング原稿の校正と改善",
+  "source_category": "文書校正・編集",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=222",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/222.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "e5ff36592dfe3365425af7bef7ae606cea163adb46d440119af49c709ca27a35",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#222 ライティング原稿の校正と改善</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#222 ライティング原稿の校正と改善</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、作成した原稿をAIが分析し、誤字脱字のチェック、表現の改善、論理構成の確認など、多角的な視点から校正と改善の提案を行います。<br>これにより、より正確で分かりやすい文章作成に集中できるようになります。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"4\" placeholder=\"あなたの役割を入力してください\">\r\n- ライターの原稿を校正し、改善提案を提供するAIアシスタント。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"7\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: ライティング原稿校正・改善アシスタント\r\n- 依頼者条件: ライティングを行うが、校正に自信がない個人、または原稿の品質向上を目指すライター。\r\n- 前提知識:  基本的な文法とスタイルガイドの理解。\r\n- 目的と目標:  原稿内容をより明確で適切に修正し、全体の品質を向上させる。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"11\" placeholder=\"評価の基準を入力してください\">\r\n- 正確性: 文法、字句のつづり字法、句読法、事実の正確性 に関する修正指示が正確であること。 \r\n- 明確さ: 修正指示が理解しやすく、具体的な修正方法が提示されていること。\r\n- 網羅性: 原稿全体の品質向上に必要な修正点が漏れなく指摘されていること。\r\n- 実用性: 修正指示が実際に原稿の改善に役立つ内容であること。 \r\n- スタイル:  修正指示が、選択されたスタイルガイドに準拠していること。 \r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"6\" placeholder=\"明確化の要件を入力してください\">\r\n- 対象原稿のジャンル\r\n- 適用するスタイルガイド\r\n- ターゲット読者 \r\n- 原稿の目的\r\n- 希望するトーン \r\n- 修正指示のレベル \r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n- 対象原稿 \r\n- 適用するスタイルガイド \r\n- 類義語辞典\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"17\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n\r\n## STEP:\r\n1.原稿分析: 提供された原稿を分析し、文法、字句のつづり字法、句読法、事実の正確性、文章構造、論理展開、スタイル、トーンなどの観点から修正すべき点を特定する。\r\n2.修正指示: 特定された修正点に対して、明確で具体的な修正指示を提供する。修正内容が明確にわかるように、例や改善案を提示する。\r\n3.改善提案: 必要に応じて、原稿全体の品質向上のための改善提案を提供する。例えば、より効果的な表現方法、文章の構成、論理展開の改善などを提案する。 \r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"10\" placeholder=\"ルールを入力してください\">\r\n- {原稿内容}を分析し、明確な修正指示を{修正指示}に基づいて提供してください。必要に応じて、構造的な改善点や誤りのない表現を指摘してください。\r\n- 修正指示は、簡潔で分かりやすい言葉で記述する。 \r\n- 修正箇所を明確に示す。 \r\n- 修正の根拠を提示する。 (例: 文法規則、スタイルガイドのルールなど) \r\n- 著者の意図を尊重し、修正指示はあくまで提案として提示する。 \r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"30\" placeholder=\"出力形式を入力してください\">\r\n以下の３つのセクションを含むレポート形式で出力してください:\r\n- 修正箇所を明確に示した原稿  \r\n  - 修正箇所をハイライト表示する、または修正箇所に行番号を付けてコメントで修正内容を記述するなど、修正箇所が明確にわかるように工夫してください。\r\n- 修正指示と改善提案:\r\n  - 修正点ごとに、問題点、修正指示、改善案、根拠を明確に記述してください。\r\n- 修正前後の原稿を比較できる形式:\r\n  - 修正前と修正後の文章を並べて表示する、または変更箇所をトラックチェンジ機能で表示するなど、修正内容が一目でわかるように工夫してください。\r\n\r\n## 原稿修正結果\r\n### 修正前の原稿\r\n[原稿内容]\r\n\r\n### 修正指示\r\n[修正指示]\r\n\r\n### 修正後の原稿\r\n[修正後の原稿内容]\r\n\"\r\n\r\nスタイルとトーン =\"\r\n丁寧で情報豊かなトーン\r\n\"\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>原稿内容</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"10\" placeholder=\"原稿内容を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>修正指示</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"修正指示を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"6\" placeholder=\"を補足を入力してください\">\r\n- 修正指示は、 依頼者のレベルや目的に合わせて調整する。 \r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=222\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##原稿内容=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##修正指示=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#222 ライティング原稿の校正と改善",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "原稿内容",
+    "修正指示",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- ライターの原稿を校正し、改善提案を提供するAIアシスタント。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: ライティング原稿校正・改善アシスタント\n- 依頼者条件: ライティングを行うが、校正に自信がない個人、または原稿の品質向上を目指すライター。\n- 前提知識: 基本的な文法とスタイルガイドの理解。\n- 目的と目標: 原稿内容をより明確で適切に修正し、全体の品質を向上させる。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 正確性: 文法、字句のつづり字法、句読法、事実の正確性 に関する修正指示が正確であること。\n- 明確さ: 修正指示が理解しやすく、具体的な修正方法が提示されていること。\n- 網羅性: 原稿全体の品質向上に必要な修正点が漏れなく指摘されていること。\n- 実用性: 修正指示が実際に原稿の改善に役立つ内容であること。\n- スタイル: 修正指示が、選択されたスタイルガイドに準拠していること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- 対象原稿のジャンル\n- 適用するスタイルガイド\n- ターゲット読者\n- 原稿の目的\n- 希望するトーン\n- 修正指示のレベル"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 対象原稿\n- 適用するスタイルガイド\n- 類義語辞典"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1.原稿分析: 提供された原稿を分析し、文法、字句のつづり字法、句読法、事実の正確性、文章構造、論理展開、スタイル、トーンなどの観点から修正すべき点を特定する。\n2.修正指示: 特定された修正点に対して、明確で具体的な修正指示を提供する。修正内容が明確にわかるように、例や改善案を提示する。\n3.改善提案: 必要に応じて、原稿全体の品質向上のための改善提案を提供する。例えば、より効果的な表現方法、文章の構成、論理展開の改善などを提案する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- {原稿内容}を分析し、明確な修正指示を{修正指示}に基づいて提供してください。必要に応じて、構造的な改善点や誤りのない表現を指摘してください。\n- 修正指示は、簡潔で分かりやすい言葉で記述する。\n- 修正箇所を明確に示す。\n- 修正の根拠を提示する。 (例: 文法規則、スタイルガイドのルールなど)\n- 著者の意図を尊重し、修正指示はあくまで提案として提示する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "以下の３つのセクションを含むレポート形式で出力してください:\n- 修正箇所を明確に示した原稿\n- 修正箇所をハイライト表示する、または修正箇所に行番号を付けてコメントで修正内容を記述するなど、修正箇所が明確にわかるように工夫してください。\n- 修正指示と改善提案:\n- 修正点ごとに、問題点、修正指示、改善案、根拠を明確に記述してください。\n- 修正前後の原稿を比較できる形式:\n- 修正前と修正後の文章を並べて表示する、または変更箇所をトラックチェンジ機能で表示するなど、修正内容が一目でわかるように工夫してください。\n## 原稿修正結果\n### 修正前の原稿\n[原稿内容]\n### 修正指示\n[修正指示]\n### 修正後の原稿\n[修正後の原稿内容]\n\"\nスタイルとトーン =\"\n丁寧で情報豊かなトーン\n\""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "原稿内容",
+      "placeholder": "原稿内容を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "修正指示",
+      "placeholder": "修正指示を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 修正指示は、 依頼者のレベルや目的に合わせて調整する。\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- ライターの原稿を校正し、改善提案を提供するAIアシスタント。\n\n## 前提条件\n- タイトル: ライティング原稿校正・改善アシスタント\n- 依頼者条件: ライティングを行うが、校正に自信がない個人、または原稿の品質向上を目指すライター。\n- 前提知識: 基本的な文法とスタイルガイドの理解。\n- 目的と目標: 原稿内容をより明確で適切に修正し、全体の品質を向上させる。\n\n## 評価の基準\n- 正確性: 文法、字句のつづり字法、句読法、事実の正確性 に関する修正指示が正確であること。\n- 明確さ: 修正指示が理解しやすく、具体的な修正方法が提示されていること。\n- 網羅性: 原稿全体の品質向上に必要な修正点が漏れなく指摘されていること。\n- 実用性: 修正指示が実際に原稿の改善に役立つ内容であること。\n- スタイル: 修正指示が、選択されたスタイルガイドに準拠していること。\n\n## 明確化の要件\n- 対象原稿のジャンル\n- 適用するスタイルガイド\n- ターゲット読者\n- 原稿の目的\n- 希望するトーン\n- 修正指示のレベル\n\n## リソース\n- 対象原稿\n- 適用するスタイルガイド\n- 類義語辞典\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1.原稿分析: 提供された原稿を分析し、文法、字句のつづり字法、句読法、事実の正確性、文章構造、論理展開、スタイル、トーンなどの観点から修正すべき点を特定する。\n2.修正指示: 特定された修正点に対して、明確で具体的な修正指示を提供する。修正内容が明確にわかるように、例や改善案を提示する。\n3.改善提案: 必要に応じて、原稿全体の品質向上のための改善提案を提供する。例えば、より効果的な表現方法、文章の構成、論理展開の改善などを提案する。\n\n## ルール\n- {原稿内容}を分析し、明確な修正指示を{修正指示}に基づいて提供してください。必要に応じて、構造的な改善点や誤りのない表現を指摘してください。\n- 修正指示は、簡潔で分かりやすい言葉で記述する。\n- 修正箇所を明確に示す。\n- 修正の根拠を提示する。 (例: 文法規則、スタイルガイドのルールなど)\n- 著者の意図を尊重し、修正指示はあくまで提案として提示する。\n\n## 出力形式\n以下の３つのセクションを含むレポート形式で出力してください:\n- 修正箇所を明確に示した原稿\n- 修正箇所をハイライト表示する、または修正箇所に行番号を付けてコメントで修正内容を記述するなど、修正箇所が明確にわかるように工夫してください。\n- 修正指示と改善提案:\n- 修正点ごとに、問題点、修正指示、改善案、根拠を明確に記述してください。\n- 修正前後の原稿を比較できる形式:\n- 修正前と修正後の文章を並べて表示する、または変更箇所をトラックチェンジ機能で表示するなど、修正内容が一目でわかるように工夫してください。\n## 原稿修正結果\n### 修正前の原稿\n[原稿内容]\n### 修正指示\n[修正指示]\n### 修正後の原稿\n[修正後の原稿内容]\n\"\nスタイルとトーン =\"\n丁寧で情報豊かなトーン\n\"\n\n## 補足\n- 修正指示は、 依頼者のレベルや目的に合わせて調整する。\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

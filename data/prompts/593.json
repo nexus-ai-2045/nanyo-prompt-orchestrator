@@ -1,0 +1,119 @@
+{
+  "prompt_id": 593,
+  "title": "文章構造分析とテンプレート生成AIプロンプト",
+  "source_category": "文章作成・要約",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=593",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/593.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "249ddbf980b81c2b90121f28412d6951c89e8fe56f63eb74655f430906c791c4",
+  "raw_html": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta name=\"robots\" content=\"noindex\" />\n    <title>#593 文章構造分析とテンプレート生成AIプロンプト</title>\n    <style>\n        /* === スタイル設定 === */\n        \n        /* 基本ページ設定 */\n        body {\n            font-family: Arial, sans-serif;\n            margin: 0;\n            padding: 20px;\n            box-sizing: border-box;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            min-height: 100vh;\n            background-color: #FFF;\n        }\n        /* メインコンテナのスタイル */\n        .container {\n            width: 100%;\n            max-width: 800px;\n            background: #ffffff;\n            border-radius: 8px;\n            box-shadow: 3px 5px 15px -5px #777777;\n            overflow: hidden;\n        }\n        /* 各種見出し・ボタンのスタイル設定 */\n        h2 {\n            color: #797979;\n            font-size: 1.6em;\n        }\n        .box-title {\n            font-size: 1.7em;\n            letter-spacing: 0.1em;\n            padding: 1em 20px; /* Combined padding */\n            background-color: #5fc2f5;\n            color: #fff;\n            font-weight: 600;\n            display: flex; /* Make it a flex container */\n            align-items: center; /* Vertically center items */\n            justify-content: space-between; /* Push items to ends */\n        }\n        .box-title .title-text {\n            flex-grow: 1; /* Allow title to take available space */\n            text-align: center; /* Keep title centered */\n            white-space: nowrap; /* Prevent wrapping */\n            overflow: hidden; /* Hide overflow content */\n            text-overflow: ellipsis; /* Show ellipsis for truncated text */\n        }\n        #toggleIcon {\n            font-size: 24px; /* Increased size */\n        }\n        .form-content {\n            padding: 40px 120px;\n            background: #f1f1f1;\n        }\n        .box-bun {\n            background: #FFF;\n            border: 1px solid #D5D9DC;\n            border-radius: 20px;\n            padding: 15px;\n            margin-bottom: 40px;\n        }\n        .togglable-section {\n                /* display: none; Removed */\n            }\n        label {\n            display: inline-block;\n            margin-left: 5px;\n            color: #656565;\n        }\n        input[type=\"text\"], select, textarea {\n            width: 100%;\n            padding: 10px;\n            margin-top: 5px;\n            box-sizing: border-box;\n            border: 0.5px solid #AEAEAE;\n            border-radius: 5px;\n            font-size: 16px;\n        }\n        textarea {\n            resize: vertical;\n        }\n        .button-group {\n            display: flex;\n            justify-content: center;\n            margin-top: 20px;\n        }\n        .btn2 {\n            width: 150px;\n            height: 60px;\n            margin: 0 10px;\n        }\n\n        .btn-generate {\n            width: 180px;\n            height: 60px;\n            margin: 0 10px;\n        }\n        .btn2 a, .btn-generate a {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            width: 100%;\n            height: 100%;\n            text-decoration: none;\n            font-size: 20px;\n            font-weight: bold;\n            border-radius: 35px;\n            transition: all 0.5s ease;\n        }\n        .btn2 a {\n            background: #FFFFFF;\n            color: #5FC2F5;\n            border: 2px solid #5FC2F5;\n        }\n        .btn2 a:hover {\n            transform: scale(1.1, 1.1);\n        }\n        .btn-generate a {\n            background: #5FC2F5;\n            color: #FFFFFF;\n        }\n        .btn-generate a:hover {\n            transform: scale(1.1, 1.1);\n        }\n        .small-text {\n            font-size: 0.5em;\n            color: #656565;\n            text-align: center;\n            margin-top: 5px;\n        }\n\n/* === 入力エリアの色設定 === */\n.variable-textarea {\n    background-color: #ffe4e1; /* 薄いピンク */\n}\n\n\n        /* === スマホ用設定 === */\n@media only screen and (max-width: 768px) {\n    .prompt-text {\n        display: none;\n    }\n    .container {\n        width: 100%;\n        padding: 10px;\n        box-shadow: none;\n    }\n    .form-content {\n        padding: 20px 10px;\n    }\n    .box-bun {\n        padding: 10px;\n        margin-bottom: 20px;\n    }\n    h2 {\n        font-size: 1.4em;\n    }\n    .button-group {\n        flex-direction: column;\n    }\n    .btn2, .btn-generate {\n        width: 100%;\n        height: 50px;\n        margin: 10px 0;\n    }\n    .btn2 a, .btn-generate a {\n        font-size: 18px;\n    }\n    textarea {\n        font-size: 14px;\n    }\n}\n\n    </style>\n</head>\n<body>\n\n<!-- === メインのHTML構造 === -->\n<div class=\"container\">\n    <div class=\"box-title\">\n    <span class=\"title-text\">#593 文章構造分析とテンプレート生成AIプロンプト</span>\n    <span id=\"toggleIcon\" style=\"cursor:pointer;\">☰</span>\n</div>\n    <div class=\"form-content\">\n        <form id=\"summaryPromptForm\">\n\n<!-- プロンプトの目的 -->\n<div class=\"box-bun\">\n<h2>目的・ねらい</h2>\nこのプロンプトは、GSP（Generic Structure Potential）の「目的達成のために必要な要素と順序を見つける」という考え方を応用し、ユーザーが提供するテキストから構造を分析し、それをテンプレート化します。\n</div>\n\n            <!-- あなたの役割の入力 -->\n            <div class=\"box-bun togglable-section\">\n<h2>あなたの役割</h2>\n<textarea name=\"role\" id=\"role\" rows=\"9\" placeholder=\"あなたの役割を入力してください\">\n- あなたは、高度な文章解析能力を持つ専門家です。\n- ユーザーが提供した文章の構造を分析し、その文章が持つ目的や視点を反映した汎用的なフォーマット（テンプレート）を作成する役割を担います。\n- これにより、他のユーザーが類似のトピックやスタイルで一貫した文章を効果的に作成できるよう支援します。\n</textarea>\n            </div>\n\n<!-- 前提条件 -->\n            <div class=\"box-bun togglable-section\">\n<h2>前提条件</h2>\n<textarea name=\"conditions\" id=\"conditions\" rows=\"15\" placeholder=\"前提条件を入力してください\">\n- タイトル: 文章構造分析とテンプレート生成AIプロンプト\n- 依頼者条件: 既存の文章からその構造や構成要素を抽出し、他の文章作成に応用できるテンプレートを求めている人。\n- 制作者条件: 文章の構造分析、主要テーマや要点の抽出、そしてそれらを汎用的なテンプレートに落とし込む能力に長けたAI。\n- 目的と目標: ユーザーから提供された文章を分析し、その中から主要なテーマや構成要素を抽出して構造化されたフォーマットを作成すること。これにより、他のユーザーが同様の文章を作成する際の参照として利用できるものを提供する。\n</textarea>\n            </div>\n\n\n<!-- 評価の基準 -->\n            <div class=\"box-bun togglable-section\">\n<h2>評価の基準</h2>\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"9\" placeholder=\"評価の基準を入力してください\">\n- 作成されたフォーマットが、分析対象の文章の核心的な構造や論理展開を正確に捉えているか。\n- 生成されたフォーマットが、ユーザーが類似の文章を作成する際に実用的で役立つものになっているか。\n- フォーマットの説明が、元の文章の情報をどのように整理し、ユーザーの文章作成プロセスを支援するかを簡潔に説明できているか。\n</textarea>\n            </div>\n\n\n<!-- 明確化の要件 -->\n            <div class=\"box-bun togglable-section\">\n<h2>明確化の要件</h2>\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"7\" placeholder=\"明確化の要件を入力してください\">\n- 分析する文章の主要なテーマと要点を特定すること。\n- 抽出した情報を基に、文章の目的や視点を明確に反映したフォーマットを作成すること。\n- フォーマットが他のユーザーの文章作成プロセスをどのように支援するかを説明すること。\n</textarea>\n            </div>\n\n\n<!-- リソース -->\n            <div class=\"box-bun togglable-section\">\n<h2>リソース</h2>\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\n- ユーザーが提供する分析対象の参考文章。\n- 文章構造やテンプレート作成に関する一般的な知識。\n</textarea>\n            </div>\n\n\n            <!-- 実行指示 -->\n            <div class=\"box-bun togglable-section\">\n<h2>実行指示</h2>\n<textarea name=\"instructions\" id=\"instructions\" rows=\"20\" placeholder=\"実行指示を入力してください\">\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n\n## STEP:（成果物を作る段階プロセス）\n1. ユーザーから提供された`{参考文章}`を深く読み込み、その文章の主要なテーマ、構成要素、論理展開、そして目的を特定してください。\n2. STEP1で特定した情報を基に、その文章の構造を再現するための汎用的なテンプレート（フォーマット）を作成してください。このテンプレートは、必須要素と任意要素を区別し、それらがどのような順序で現れるかを示す必要があります。\n3. 作成したテンプレートが、元の文章の情報をどのように整理し、他のユーザーが類似のトピックやスタイルで一貫した文章を作成するプロセスをどのように支援するかを簡潔に説明してください。\n</textarea>\n            </div>\n\n            <!-- ルール -->\n            <div class=\"box-bun togglable-section\">\n<h2>ルール</h2>\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"6\" placeholder=\"ルールを入力してください\">\n- 出力形式は、必ず`出力様式`に従ってください。\n- 元の文章の文意を変えたり、情報を捏造・改変したりしてはいけません。\n- 注釈、説明、繰り返しは不要です。指示された内容のみを出力してください。\n</textarea>\n            </div>\n\n\n<!-- 出力設定 -->\n            <div class=\"box-bun togglable-section\">\n<h2>出力形式</h2>\n<textarea name=\"output\" id=\"output\" rows=\"30\" placeholder=\"出力形式を入力してください\">\n以下の形式で出力してください。\n```markdown\n# {参考文章の主題}に関する文章テンプレート\n\n## 1. テンプレート概要\n（このテンプレートがどのような目的の文章作成に役立つかの簡単な説明）\n\n## 2. 構成要素と順序\n### 【必須要素】\n1.  （要素名1）: （この要素が果たす役割や記述内容の説明）\n2.  （要素名2）: （この要素が果たす役割や記述内容の説明）\n    - （下位要素があれば記述）\n3.  ...\n\n### 【任意要素（オプション）】\n- （要素名A）: （この要素がどのような場合に追加すると効果的かの説明）\n- （要素名B）: （この要素がどのような場合に追加すると効果的かの説明）\n- ...\n\n## 3. このテンプレートの活用方法\n（このテンプレートを使うことで、ユーザーがどのように質の高い文章を効率的に作成できるかの簡潔な説明）\n\n```\n</textarea>\n            </div>\n\n\n<!-- ユーザー入力 -->\n            <div class=\"box-bun\">\n<h2>ユーザー入力</h2>\n<h3>参考文章</h3>\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"15\" placeholder=\"ここに構造を分析してほしい文章を貼り付ける\" class=\"variable-textarea\" >\n</textarea>\n</div>\n\n\n\n            <!-- 補足 -->\n            <div class=\"box-bun togglable-section\">\n<h2>補足</h2>\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"22\" placeholder=\"を補足を入力してください\">\n- このプロンプトは、GSPの考え方に基づき、文章の「構造的ポテンシャル」を明らかにすることを目的としています。\n- AIが生成したテンプレートを基に、ユーザーは自身の目的に合わせて要素を調整し、新たな文章を作成することができます。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n\n### ネガティブ制約条件\n- 元の文章の表面的な単語やフレーズをコピーするだけのテンプレートは作成しないでください。\n- 分析対象の文章内容に対する個人的な意見や評価は含めないでください。\n</textarea>\n            </div>\n\n\n        </form>\n        <div class=\"button-group\">\n            <div class='btn2'>\n                <a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\n            </div>\n            <div class=\"btn-generate\">\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\n            </div>\n        </div>\n    </div>\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=593\"></script>\n</div>\n\n<!-- JavaScript -->\n<script>\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\n    e.preventDefault();\n    const form = document.getElementById('summaryPromptForm');\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n- 以下に10個の重要なセクションを提示する。すべて同等に重要であり、省略してはならない。\\n- セクション一覧: あなたの役割 / 前提条件 / 評価の基準 / 明確化の要件 / リソース / 実行指示 / ルール / 出力形式 / ユーザー入力 / 補足 \\n\\n\";\n    const formData = new FormData(form);\n\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</あなたの役割>\\n\\n\";\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</前提条件>\\n\\n\";\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</評価の基準>\\n\\n\";\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</明確化の要件>\\n\\n\";\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</リソース>\\n\\n\";\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</実行指示>\\n\\n\";\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</ルール>\\n\\n\";\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</出力形式>\\n\\n\";\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\n    communicationContent += \"##参考文章=\" + (formData.get('hensu1') || '特に指示無し') + \"</>\\n\\n\";\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</補足>\\n\";\n\n    // クリップボードにコピー\n    navigator.clipboard.writeText(communicationContent).then(() => {\n        alert('プロンプトがコピーされました。');\n    }).catch(err => {\n        console.error('クリップボードへのコピーに失敗しました:', err);\n        alert('プロンプトのコピーに失敗しました。');\n    });\n});\n\ndocument.addEventListener('DOMContentLoaded', function() {\n    const toggleIcon = document.getElementById('toggleIcon');\n    const togglableSections = document.querySelectorAll('.togglable-section');\n\n    // Default: All blocks should be displayed\n    // Set initial state of toggleIcon to 'hide' (×) and its title\n    if (toggleIcon) { // Ensure toggleIcon exists before setting its properties\n        toggleIcon.innerHTML = '×'; // Initially show 'hide' icon\n        toggleIcon.title = ''; // Initially no tooltip when visible\n    }\n\n    if (toggleIcon && togglableSections.length > 0) {\n        toggleIcon.addEventListener('click', function() {\n            const isHidden = togglableSections[0].style.display === 'none'; // Check current display state\n            if (isHidden) { // If currently hidden, show them\n                togglableSections.forEach(section => {\n                    section.style.display = 'block';\n                });\n                toggleIcon.innerHTML = '×'; // Change icon to 'hide'\n                toggleIcon.title = 'プロンプト非表示'; // No tooltip when visible\n            } else { // If currently visible, hide them\n                togglableSections.forEach(section => {\n                    section.style.display = 'none';\n                });\n                toggleIcon.innerHTML = '☰'; // Change icon to 'show'\n                toggleIcon.title = 'プロンプト表示'; // Set title for 'show' state\n            }\n        });\n    }\n});\n</script>\n</body>\n</html>\n",
+  "page_title": "#593 文章構造分析とテンプレート生成AIプロンプト",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "参考文章",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、高度な文章解析能力を持つ専門家です。\n- ユーザーが提供した文章の構造を分析し、その文章が持つ目的や視点を反映した汎用的なフォーマット（テンプレート）を作成する役割を担います。\n- これにより、他のユーザーが類似のトピックやスタイルで一貫した文章を効果的に作成できるよう支援します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 文章構造分析とテンプレート生成AIプロンプト\n- 依頼者条件: 既存の文章からその構造や構成要素を抽出し、他の文章作成に応用できるテンプレートを求めている人。\n- 制作者条件: 文章の構造分析、主要テーマや要点の抽出、そしてそれらを汎用的なテンプレートに落とし込む能力に長けたAI。\n- 目的と目標: ユーザーから提供された文章を分析し、その中から主要なテーマや構成要素を抽出して構造化されたフォーマットを作成すること。これにより、他のユーザーが同様の文章を作成する際の参照として利用できるものを提供する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 作成されたフォーマットが、分析対象の文章の核心的な構造や論理展開を正確に捉えているか。\n- 生成されたフォーマットが、ユーザーが類似の文章を作成する際に実用的で役立つものになっているか。\n- フォーマットの説明が、元の文章の情報をどのように整理し、ユーザーの文章作成プロセスを支援するかを簡潔に説明できているか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- 分析する文章の主要なテーマと要点を特定すること。\n- 抽出した情報を基に、文章の目的や視点を明確に反映したフォーマットを作成すること。\n- フォーマットが他のユーザーの文章作成プロセスをどのように支援するかを説明すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- ユーザーが提供する分析対象の参考文章。\n- 文章構造やテンプレート作成に関する一般的な知識。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:（成果物を作る段階プロセス）\n1. ユーザーから提供された`{参考文章}`を深く読み込み、その文章の主要なテーマ、構成要素、論理展開、そして目的を特定してください。\n2. STEP1で特定した情報を基に、その文章の構造を再現するための汎用的なテンプレート（フォーマット）を作成してください。このテンプレートは、必須要素と任意要素を区別し、それらがどのような順序で現れるかを示す必要があります。\n3. 作成したテンプレートが、元の文章の情報をどのように整理し、他のユーザーが類似のトピックやスタイルで一貫した文章を作成するプロセスをどのように支援するかを簡潔に説明してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 出力形式は、必ず`出力様式`に従ってください。\n- 元の文章の文意を変えたり、情報を捏造・改変したりしてはいけません。\n- 注釈、説明、繰り返しは不要です。指示された内容のみを出力してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "以下の形式で出力してください。\n```markdown\n# {参考文章の主題}に関する文章テンプレート\n## 1. テンプレート概要\n（このテンプレートがどのような目的の文章作成に役立つかの簡単な説明）\n## 2. 構成要素と順序\n### 【必須要素】\n1. （要素名1）: （この要素が果たす役割や記述内容の説明）\n2. （要素名2）: （この要素が果たす役割や記述内容の説明）\n- （下位要素があれば記述）\n3. ...\n### 【任意要素（オプション）】\n- （要素名A）: （この要素がどのような場合に追加すると効果的かの説明）\n- （要素名B）: （この要素がどのような場合に追加すると効果的かの説明）\n- ...\n## 3. このテンプレートの活用方法\n（このテンプレートを使うことで、ユーザーがどのように質の高い文章を効率的に作成できるかの簡潔な説明）\n```"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "参考文章",
+      "placeholder": "ここに構造を分析してほしい文章を貼り付ける",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- このプロンプトは、GSPの考え方に基づき、文章の「構造的ポテンシャル」を明らかにすることを目的としています。\n- AIが生成したテンプレートを基に、ユーザーは自身の目的に合わせて要素を調整し、新たな文章を作成することができます。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n- 元の文章の表面的な単語やフレーズをコピーするだけのテンプレートは作成しないでください。\n- 分析対象の文章内容に対する個人的な意見や評価は含めないでください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、高度な文章解析能力を持つ専門家です。\n- ユーザーが提供した文章の構造を分析し、その文章が持つ目的や視点を反映した汎用的なフォーマット（テンプレート）を作成する役割を担います。\n- これにより、他のユーザーが類似のトピックやスタイルで一貫した文章を効果的に作成できるよう支援します。\n\n## 前提条件\n- タイトル: 文章構造分析とテンプレート生成AIプロンプト\n- 依頼者条件: 既存の文章からその構造や構成要素を抽出し、他の文章作成に応用できるテンプレートを求めている人。\n- 制作者条件: 文章の構造分析、主要テーマや要点の抽出、そしてそれらを汎用的なテンプレートに落とし込む能力に長けたAI。\n- 目的と目標: ユーザーから提供された文章を分析し、その中から主要なテーマや構成要素を抽出して構造化されたフォーマットを作成すること。これにより、他のユーザーが同様の文章を作成する際の参照として利用できるものを提供する。\n\n## 評価の基準\n- 作成されたフォーマットが、分析対象の文章の核心的な構造や論理展開を正確に捉えているか。\n- 生成されたフォーマットが、ユーザーが類似の文章を作成する際に実用的で役立つものになっているか。\n- フォーマットの説明が、元の文章の情報をどのように整理し、ユーザーの文章作成プロセスを支援するかを簡潔に説明できているか。\n\n## 明確化の要件\n- 分析する文章の主要なテーマと要点を特定すること。\n- 抽出した情報を基に、文章の目的や視点を明確に反映したフォーマットを作成すること。\n- フォーマットが他のユーザーの文章作成プロセスをどのように支援するかを説明すること。\n\n## リソース\n- ユーザーが提供する分析対象の参考文章。\n- 文章構造やテンプレート作成に関する一般的な知識。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:（成果物を作る段階プロセス）\n1. ユーザーから提供された`{参考文章}`を深く読み込み、その文章の主要なテーマ、構成要素、論理展開、そして目的を特定してください。\n2. STEP1で特定した情報を基に、その文章の構造を再現するための汎用的なテンプレート（フォーマット）を作成してください。このテンプレートは、必須要素と任意要素を区別し、それらがどのような順序で現れるかを示す必要があります。\n3. 作成したテンプレートが、元の文章の情報をどのように整理し、他のユーザーが類似のトピックやスタイルで一貫した文章を作成するプロセスをどのように支援するかを簡潔に説明してください。\n\n## ルール\n- 出力形式は、必ず`出力様式`に従ってください。\n- 元の文章の文意を変えたり、情報を捏造・改変したりしてはいけません。\n- 注釈、説明、繰り返しは不要です。指示された内容のみを出力してください。\n\n## 出力形式\n以下の形式で出力してください。\n```markdown\n# {参考文章の主題}に関する文章テンプレート\n## 1. テンプレート概要\n（このテンプレートがどのような目的の文章作成に役立つかの簡単な説明）\n## 2. 構成要素と順序\n### 【必須要素】\n1. （要素名1）: （この要素が果たす役割や記述内容の説明）\n2. （要素名2）: （この要素が果たす役割や記述内容の説明）\n- （下位要素があれば記述）\n3. ...\n### 【任意要素（オプション）】\n- （要素名A）: （この要素がどのような場合に追加すると効果的かの説明）\n- （要素名B）: （この要素がどのような場合に追加すると効果的かの説明）\n- ...\n## 3. このテンプレートの活用方法\n（このテンプレートを使うことで、ユーザーがどのように質の高い文章を効率的に作成できるかの簡潔な説明）\n```\n\n## 補足\n- このプロンプトは、GSPの考え方に基づき、文章の「構造的ポテンシャル」を明らかにすることを目的としています。\n- AIが生成したテンプレートを基に、ユーザーは自身の目的に合わせて要素を調整し、新たな文章を作成することができます。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n- 元の文章の表面的な単語やフレーズをコピーするだけのテンプレートは作成しないでください。\n- 分析対象の文章内容に対する個人的な意見や評価は含めないでください。"
+}

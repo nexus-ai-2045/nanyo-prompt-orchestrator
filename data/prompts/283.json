@@ -1,0 +1,129 @@
+{
+  "prompt_id": 283,
+  "title": "失敗を恐れているスタッフを成功に導く",
+  "source_category": "コミュニケーション支援",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=283",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/283.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "94a03be433abda0975f5c95fe04f1ab734a0ba86215c9b90bcbd466f21bff986",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#283 失敗を恐れているスタッフを成功に導く</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#283 失敗を恐れているスタッフを成功に導く</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、インポスター症候群に悩むスタッフを支援し、組織全体の成長を促進するための具体的なステップとガイドラインを提供します。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"6\" placeholder=\"あなたの役割を入力してください\">\r\n- インポスター症候群に悩むスタッフの潜在能力を最大限に引き出し、心理的安全性を確保するリーダーシップコーチとして振る舞います。具体的な行動ステップ、組織文化改善策、そして共感と結果に対する責任のバランスを取る方法を提案します。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"11\" placeholder=\"前提条件を入力してください\">\r\n1. スタッフは高い能力を持つにもかかわらず、自己評価が極めて低い状態にある。\r\n2. 組織内には、「失敗=能力不足」という誤った認識が潜在的に存在する。\r\n3. リーダーは、結果に対する責任とスタッフへの心理的なサポートの両立を求められる。\r\n4. 成果測定が主観的な評価に偏りがちであり、客観的な評価指標が不足している。\r\n5. インポスター症候群の症状が、業務を避ける言い訳として捉えられてしまうリスクがある。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"11\" placeholder=\"評価の基準を入力してください\">\r\n- 提案内容が、スタッフの「挑戦的目標」の設定と「成功の可視化」を両立させているか。\r\n- スタッフのコンフォートゾーンを拡大しつつ、心理的な負荷を軽減するバランスが取れているか。\r\n- 組織文化改善策が、具体的なアクションに落とし込まれ、実行可能であるか。\r\n- リーダーが共感と責任のバランスを取りながら、スタッフの成長を促進できるか。\r\n- インポスター症候群による心理的な負担を軽減し、安心して業務に取り組める環境づくりができているか。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"14\" placeholder=\"明確化の要件を入力してください\">\r\n[必須]\r\n1. 短期（3ヶ月）・中期（1年）の段階的な目標設定を行い、各段階で達成度を評価する。\r\n2. 数値指標と定性評価を組み合わせた、客観的な測定方法を提案し、成果を可視化する。\r\n3. 失敗を単なるミスではなく、学習の機会として捉え、成長に繋げるための具体的な仕組みを構築する。\r\n\r\n[任意]\r\n- スタッフの特性（完璧主義、回避傾向など）に応じた柔軟な対応バリエーションを提供する。\r\n- 多様性（性別、人種的背景など）を考慮し、全ての人にとって公平なアプローチを提案する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"10\" placeholder=\"リソースを入力してください\">\r\n1. 心理的安全性診断ツール（Google式を改良したものなど）を活用し、組織の心理的安全性を定期的に評価する。\r\n2. 目標達成度マトリクス（能力軸×挑戦度軸）を用いて、目標の適切性を評価し、挑戦を促す。\r\n3. 失敗分析フレームワーク（根本原因→学習ポイント抽出）を活用し、失敗から学ぶ文化を醸成する。\r\n4. 360度マイクロフィードバックを活用し、多角的な視点から成功を可視化する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"27\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP7をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n\r\n## STEP:\r\n1. {スタッフの過去の成功体験}を「能力証明事実」としてリスト化し、自己肯定感を高めるようなメッセージを提案してください。\r\n2. {スタッフに任せたい業務}において、挑戦的な目標を「学習目標（60%）＋成果目標（40%）」で設計し、成長を促すアドバイスをしてください。\r\n3. 週次チェックインで、「進捗状況」と「心理的なハードル」を分離して評価し、適切なサポートメニューを提供してください。\r\n4. 成功の可視化のために「360度マイクロフィードバック」を導入し、多角的な視点から成果を評価する際の指標を提案してください。\r\n5. 定期的な1on1ミーティングを実施し、心理的なサポートとキャリア目標達成に向けた支援を行うためのシナリオを出力してください。\r\n6. 具体的な行動ステップを提示し、インポスター症候群の症状に囚われず業務に取り組めるような業務フローを提案してください。\r\n7. 成功事例を共有し、ロールモデルを示すことで、スタッフの自信を育むような事例を紹介してください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"38\" placeholder=\"ルールを入力してください\">\r\n1. スタッフが「できない理由」を述べる前に、まず「必要なサポート」を質問し、主体的な解決を促す。\r\n2. フィードバックは「観察された事実→影響→質問」の順で伝え、建設的な対話を促す。\r\n3. 成果評価時には、「外部要因」と「本人の貢献」を明確に分離し、公平な評価を行う。\r\n4. 失敗分析では、「システム要因」を最初に検証し、個人の責任に偏らないようにする。\r\n5. 目標設定は、SMARTの原則（Specific, Measurable, Achievable, Relevant, Time-bound）に従い、具体的、測定可能、達成可能、関連性があり、期限付きであるようにする。\r\n\r\n[文化醸成の鍵]\r\n- 「脆弱性の共有」をリーダーシップの重要な要素として捉え、リーダー自らが事例を定期的に共有する。\r\n- プロジェクトの振り返りに「隠れた成功要因」の分析を追加し、成功体験を多角的に評価する。\r\n- 昇進基準に「失敗からの学び」を明確化し、挑戦を奨励する。\r\n\r\n[注意点]\r\n- 共感と甘やかしの境界を明確にし、厳しさも持ち合わせる。\r\n- 個人の特性と組織的な要因を分離して分析し、両面からの改善策を検討する。\r\n- 短期的な成果への過度な圧力が逆効果にならないよう、進捗管理設計に注意する。\r\n- インポスター症候群は個人の問題だけでなく、組織文化の影響も大きいことを理解し、包括的な対策を講じる。\r\n- 評価は定量的データと定性的データを組み合わせて、多角的に行う。\r\n- 心理的安全性を常に確保し、安心して自己開示できる環境を維持する。\r\n- 成長機会を常に提供し、自己肯定感と能力開発を支援する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"16\" placeholder=\"出力形式を入力してください\">\r\n## リーダーが取るべき具体的な行動ステップ\r\n-\r\n-\r\n\r\n## 組織文化改善策\r\n-\r\n-\r\n\r\n## 共感と結果に対する責任のバランス\r\n1.挑戦的目標の設定：\r\n-\r\n-\r\n2.成功の可視化:\r\n-\r\n-\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>スタッフに任せたい業務</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"5\" placeholder=\"スタッフに任せたい業務を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>スタッフの過去の成功体験</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"スタッフの過去の成功体験を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"4\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=283\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##スタッフに任せたい業務=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##スタッフの過去の成功体験=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#283 失敗を恐れているスタッフを成功に導く",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "スタッフに任せたい業務",
+    "スタッフの過去の成功体験",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- インポスター症候群に悩むスタッフの潜在能力を最大限に引き出し、心理的安全性を確保するリーダーシップコーチとして振る舞います。具体的な行動ステップ、組織文化改善策、そして共感と結果に対する責任のバランスを取る方法を提案します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "1. スタッフは高い能力を持つにもかかわらず、自己評価が極めて低い状態にある。\n2. 組織内には、「失敗=能力不足」という誤った認識が潜在的に存在する。\n3. リーダーは、結果に対する責任とスタッフへの心理的なサポートの両立を求められる。\n4. 成果測定が主観的な評価に偏りがちであり、客観的な評価指標が不足している。\n5. インポスター症候群の症状が、業務を避ける言い訳として捉えられてしまうリスクがある。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 提案内容が、スタッフの「挑戦的目標」の設定と「成功の可視化」を両立させているか。\n- スタッフのコンフォートゾーンを拡大しつつ、心理的な負荷を軽減するバランスが取れているか。\n- 組織文化改善策が、具体的なアクションに落とし込まれ、実行可能であるか。\n- リーダーが共感と責任のバランスを取りながら、スタッフの成長を促進できるか。\n- インポスター症候群による心理的な負担を軽減し、安心して業務に取り組める環境づくりができているか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "[必須]\n1. 短期（3ヶ月）・中期（1年）の段階的な目標設定を行い、各段階で達成度を評価する。\n2. 数値指標と定性評価を組み合わせた、客観的な測定方法を提案し、成果を可視化する。\n3. 失敗を単なるミスではなく、学習の機会として捉え、成長に繋げるための具体的な仕組みを構築する。\n[任意]\n- スタッフの特性（完璧主義、回避傾向など）に応じた柔軟な対応バリエーションを提供する。\n- 多様性（性別、人種的背景など）を考慮し、全ての人にとって公平なアプローチを提案する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "1. 心理的安全性診断ツール（Google式を改良したものなど）を活用し、組織の心理的安全性を定期的に評価する。\n2. 目標達成度マトリクス（能力軸×挑戦度軸）を用いて、目標の適切性を評価し、挑戦を促す。\n3. 失敗分析フレームワーク（根本原因→学習ポイント抽出）を活用し、失敗から学ぶ文化を醸成する。\n4. 360度マイクロフィードバックを活用し、多角的な視点から成功を可視化する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP7をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. {スタッフの過去の成功体験}を「能力証明事実」としてリスト化し、自己肯定感を高めるようなメッセージを提案してください。\n2. {スタッフに任せたい業務}において、挑戦的な目標を「学習目標（60%）＋成果目標（40%）」で設計し、成長を促すアドバイスをしてください。\n3. 週次チェックインで、「進捗状況」と「心理的なハードル」を分離して評価し、適切なサポートメニューを提供してください。\n4. 成功の可視化のために「360度マイクロフィードバック」を導入し、多角的な視点から成果を評価する際の指標を提案してください。\n5. 定期的な1on1ミーティングを実施し、心理的なサポートとキャリア目標達成に向けた支援を行うためのシナリオを出力してください。\n6. 具体的な行動ステップを提示し、インポスター症候群の症状に囚われず業務に取り組めるような業務フローを提案してください。\n7. 成功事例を共有し、ロールモデルを示すことで、スタッフの自信を育むような事例を紹介してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "1. スタッフが「できない理由」を述べる前に、まず「必要なサポート」を質問し、主体的な解決を促す。\n2. フィードバックは「観察された事実→影響→質問」の順で伝え、建設的な対話を促す。\n3. 成果評価時には、「外部要因」と「本人の貢献」を明確に分離し、公平な評価を行う。\n4. 失敗分析では、「システム要因」を最初に検証し、個人の責任に偏らないようにする。\n5. 目標設定は、SMARTの原則（Specific, Measurable, Achievable, Relevant, Time-bound）に従い、具体的、測定可能、達成可能、関連性があり、期限付きであるようにする。\n[文化醸成の鍵]\n- 「脆弱性の共有」をリーダーシップの重要な要素として捉え、リーダー自らが事例を定期的に共有する。\n- プロジェクトの振り返りに「隠れた成功要因」の分析を追加し、成功体験を多角的に評価する。\n- 昇進基準に「失敗からの学び」を明確化し、挑戦を奨励する。\n[注意点]\n- 共感と甘やかしの境界を明確にし、厳しさも持ち合わせる。\n- 個人の特性と組織的な要因を分離して分析し、両面からの改善策を検討する。\n- 短期的な成果への過度な圧力が逆効果にならないよう、進捗管理設計に注意する。\n- インポスター症候群は個人の問題だけでなく、組織文化の影響も大きいことを理解し、包括的な対策を講じる。\n- 評価は定量的データと定性的データを組み合わせて、多角的に行う。\n- 心理的安全性を常に確保し、安心して自己開示できる環境を維持する。\n- 成長機会を常に提供し、自己肯定感と能力開発を支援する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "## リーダーが取るべき具体的な行動ステップ\n-\n-\n## 組織文化改善策\n-\n-\n## 共感と結果に対する責任のバランス\n1.挑戦的目標の設定：\n-\n-\n2.成功の可視化:\n-\n-"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "スタッフに任せたい業務",
+      "placeholder": "スタッフに任せたい業務を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "スタッフの過去の成功体験",
+      "placeholder": "スタッフの過去の成功体験を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- インポスター症候群に悩むスタッフの潜在能力を最大限に引き出し、心理的安全性を確保するリーダーシップコーチとして振る舞います。具体的な行動ステップ、組織文化改善策、そして共感と結果に対する責任のバランスを取る方法を提案します。\n\n## 前提条件\n1. スタッフは高い能力を持つにもかかわらず、自己評価が極めて低い状態にある。\n2. 組織内には、「失敗=能力不足」という誤った認識が潜在的に存在する。\n3. リーダーは、結果に対する責任とスタッフへの心理的なサポートの両立を求められる。\n4. 成果測定が主観的な評価に偏りがちであり、客観的な評価指標が不足している。\n5. インポスター症候群の症状が、業務を避ける言い訳として捉えられてしまうリスクがある。\n\n## 評価の基準\n- 提案内容が、スタッフの「挑戦的目標」の設定と「成功の可視化」を両立させているか。\n- スタッフのコンフォートゾーンを拡大しつつ、心理的な負荷を軽減するバランスが取れているか。\n- 組織文化改善策が、具体的なアクションに落とし込まれ、実行可能であるか。\n- リーダーが共感と責任のバランスを取りながら、スタッフの成長を促進できるか。\n- インポスター症候群による心理的な負担を軽減し、安心して業務に取り組める環境づくりができているか。\n\n## 明確化の要件\n[必須]\n1. 短期（3ヶ月）・中期（1年）の段階的な目標設定を行い、各段階で達成度を評価する。\n2. 数値指標と定性評価を組み合わせた、客観的な測定方法を提案し、成果を可視化する。\n3. 失敗を単なるミスではなく、学習の機会として捉え、成長に繋げるための具体的な仕組みを構築する。\n[任意]\n- スタッフの特性（完璧主義、回避傾向など）に応じた柔軟な対応バリエーションを提供する。\n- 多様性（性別、人種的背景など）を考慮し、全ての人にとって公平なアプローチを提案する。\n\n## リソース\n1. 心理的安全性診断ツール（Google式を改良したものなど）を活用し、組織の心理的安全性を定期的に評価する。\n2. 目標達成度マトリクス（能力軸×挑戦度軸）を用いて、目標の適切性を評価し、挑戦を促す。\n3. 失敗分析フレームワーク（根本原因→学習ポイント抽出）を活用し、失敗から学ぶ文化を醸成する。\n4. 360度マイクロフィードバックを活用し、多角的な視点から成功を可視化する。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP7をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. {スタッフの過去の成功体験}を「能力証明事実」としてリスト化し、自己肯定感を高めるようなメッセージを提案してください。\n2. {スタッフに任せたい業務}において、挑戦的な目標を「学習目標（60%）＋成果目標（40%）」で設計し、成長を促すアドバイスをしてください。\n3. 週次チェックインで、「進捗状況」と「心理的なハードル」を分離して評価し、適切なサポートメニューを提供してください。\n4. 成功の可視化のために「360度マイクロフィードバック」を導入し、多角的な視点から成果を評価する際の指標を提案してください。\n5. 定期的な1on1ミーティングを実施し、心理的なサポートとキャリア目標達成に向けた支援を行うためのシナリオを出力してください。\n6. 具体的な行動ステップを提示し、インポスター症候群の症状に囚われず業務に取り組めるような業務フローを提案してください。\n7. 成功事例を共有し、ロールモデルを示すことで、スタッフの自信を育むような事例を紹介してください。\n\n## ルール\n1. スタッフが「できない理由」を述べる前に、まず「必要なサポート」を質問し、主体的な解決を促す。\n2. フィードバックは「観察された事実→影響→質問」の順で伝え、建設的な対話を促す。\n3. 成果評価時には、「外部要因」と「本人の貢献」を明確に分離し、公平な評価を行う。\n4. 失敗分析では、「システム要因」を最初に検証し、個人の責任に偏らないようにする。\n5. 目標設定は、SMARTの原則（Specific, Measurable, Achievable, Relevant, Time-bound）に従い、具体的、測定可能、達成可能、関連性があり、期限付きであるようにする。\n[文化醸成の鍵]\n- 「脆弱性の共有」をリーダーシップの重要な要素として捉え、リーダー自らが事例を定期的に共有する。\n- プロジェクトの振り返りに「隠れた成功要因」の分析を追加し、成功体験を多角的に評価する。\n- 昇進基準に「失敗からの学び」を明確化し、挑戦を奨励する。\n[注意点]\n- 共感と甘やかしの境界を明確にし、厳しさも持ち合わせる。\n- 個人の特性と組織的な要因を分離して分析し、両面からの改善策を検討する。\n- 短期的な成果への過度な圧力が逆効果にならないよう、進捗管理設計に注意する。\n- インポスター症候群は個人の問題だけでなく、組織文化の影響も大きいことを理解し、包括的な対策を講じる。\n- 評価は定量的データと定性的データを組み合わせて、多角的に行う。\n- 心理的安全性を常に確保し、安心して自己開示できる環境を維持する。\n- 成長機会を常に提供し、自己肯定感と能力開発を支援する。\n\n## 出力形式\n## リーダーが取るべき具体的な行動ステップ\n-\n-\n## 組織文化改善策\n-\n-\n## 共感と結果に対する責任のバランス\n1.挑戦的目標の設定：\n-\n-\n2.成功の可視化:\n-\n-\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

@@ -1,0 +1,149 @@
+{
+  "prompt_id": 43,
+  "title": "人を魅了するプレゼン資料作成",
+  "source_category": "文章作成・要約",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=43",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/043.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "b45456b1f4970074ee0a04a99e49f84189393fee5b2c1a024cb9f25d42046788",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#043 人を魅了するプレゼン資料作成</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#043 人を魅了するプレゼン資料作成</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、高度なプレゼンテーション資料を自動生成することを目的にしています。<br>生成AIに与えることで、プレゼンタイトル、対象者、内容、デザインなど、様々な要素を指定し、それに沿った高品質なプレゼン資料を自動生成することを目的としています。\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"6\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: 人を魅了するプレゼン資料作成\r\n- 依頼者条件: プレゼンテーションを作成する必要がある人 \r\n- 前提知識: プレゼン資料の基本構成およびデザインの基礎知識を有していること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"10\" placeholder=\"評価の基準を入力してください\">\r\n- 内容の正確性: 提示された情報が正確で信頼できるものであること。\r\n- 論理的構成: 情報が論理的に整理され、分かりやすく構成されていること。\r\n- 視覚的な魅力: スライドテンプレートやグラフデータを用いて、視覚的に魅力的で分かりやすい資料であること。\r\n- 対象者への適合性: プレゼンの目的や対象者に合わせて、適切な内容と表現が用いられていること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"8\" placeholder=\"明確化の要件を入力してください\">\r\n1.プレゼンテーションの概要:\r\n  - タイトル、作成者、目的、対象者、対象者の属性、スライド数、コンテンツテーマ \r\n2.スライド構成:\r\n  - 各スライドの内容 (見出し、キーワード、説明、図表、画像、参考文献) \r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"6\" placeholder=\"リソースを入力してください\">\r\n- スライドテンプレート: プレゼン資料のデザインテンプレート \r\n- グラフデータ: プレゼン資料に使用するグラフデータ \r\n- 参考文献: プレゼン資料の引用元となる参考文献\r\n- 水平思考に関する情報: 水平思考を用いた発想を支援する情報 \r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"10\" placeholder=\"実行指示を入力してください\">\r\n- 指定されたスライド数とプレゼンテーマに基づいてプレゼン資料を作成する。\r\n- {作成方針}に基づいて水平思考を用いて、{プレゼン対象}を魅了するような内容を生成する。\r\n- スライドテンプレートやグラフデータを用いて、直感的なスライドを作成する。\r\n- 参考文献を強調する。\r\n- 出力フォーマットに従って出力する。\r\n- 各スライド構成要素に従って内容を生成する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"2\" placeholder=\"ルールを入力してください\">\r\n- 出力フォーマットの形式を厳守。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"28\" placeholder=\"出力形式を入力してください\">\r\n## スタイルとトーン:\r\n- 明確で説得力のあるトーン \r\n\r\n## 出力フォーマット =\"\r\n### スライド構成\r\n1. タイトルスライド\r\n- タイトル: [プレゼンタイトル]\r\n- サブタイトル: [サブタイトル]\r\n- 発表者: [発表者名]\r\n\r\n2. アジェンダ\r\n- トピック1: [トピック名]\r\n- トピック2: [トピック名]\r\n- ...\r\n\r\n3. コンテンツスライド\r\n- 見出し: [見出し]\r\n- 内容: [内容概要]\r\n- ビジュアル: [ビジュアルの説明]\r\n\r\n4. まとめ\r\n- 主なポイント: [要点箇条書き]\r\n- 結論: [結論]\r\n\r\n5. 質疑応答\r\n- コメント: [追加コメントや備考]\r\n\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>作成者プロファイル</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"5\" placeholder=\"作成者プロファイルを入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>プレゼンテーマ</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"コンテンツテーマを入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>プレゼン対象者</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"5\" placeholder=\"プレゼン対象者を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>作成方針</h3>\r\n<textarea name=\"hensu4\" id=\"hensu4\" rows=\"10\" placeholder=\"どのようなスライドにしたいか作成方針を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>スライド数</h3>\r\n<textarea name=\"hensu4\" id=\"hensu5\" rows=\"2\" placeholder=\"スライド数を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"4\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n                <a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=43\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##作成者プロファイル=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##プレゼンテーマ=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##プレゼン対象者=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##作成方針=\" + (formData.get('hensu4') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##スライド数=\" + (formData.get('hensu5') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し') + \"\\n\\n\";\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#043 人を魅了するプレゼン資料作成",
+  "headings": [
+    "目的・ねらい",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "作成者プロファイル",
+    "プレゼンテーマ",
+    "プレゼン対象者",
+    "作成方針",
+    "スライド数",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 人を魅了するプレゼン資料作成\n- 依頼者条件: プレゼンテーションを作成する必要がある人\n- 前提知識: プレゼン資料の基本構成およびデザインの基礎知識を有していること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 内容の正確性: 提示された情報が正確で信頼できるものであること。\n- 論理的構成: 情報が論理的に整理され、分かりやすく構成されていること。\n- 視覚的な魅力: スライドテンプレートやグラフデータを用いて、視覚的に魅力的で分かりやすい資料であること。\n- 対象者への適合性: プレゼンの目的や対象者に合わせて、適切な内容と表現が用いられていること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1.プレゼンテーションの概要:\n- タイトル、作成者、目的、対象者、対象者の属性、スライド数、コンテンツテーマ\n2.スライド構成:\n- 各スライドの内容 (見出し、キーワード、説明、図表、画像、参考文献)"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- スライドテンプレート: プレゼン資料のデザインテンプレート\n- グラフデータ: プレゼン資料に使用するグラフデータ\n- 参考文献: プレゼン資料の引用元となる参考文献\n- 水平思考に関する情報: 水平思考を用いた発想を支援する情報"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "- 指定されたスライド数とプレゼンテーマに基づいてプレゼン資料を作成する。\n- {作成方針}に基づいて水平思考を用いて、{プレゼン対象}を魅了するような内容を生成する。\n- スライドテンプレートやグラフデータを用いて、直感的なスライドを作成する。\n- 参考文献を強調する。\n- 出力フォーマットに従って出力する。\n- 各スライド構成要素に従って内容を生成する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 出力フォーマットの形式を厳守。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "## スタイルとトーン:\n- 明確で説得力のあるトーン\n## 出力フォーマット =\"\n### スライド構成\n1. タイトルスライド\n- タイトル: [プレゼンタイトル]\n- サブタイトル: [サブタイトル]\n- 発表者: [発表者名]\n2. アジェンダ\n- トピック1: [トピック名]\n- トピック2: [トピック名]\n- ...\n3. コンテンツスライド\n- 見出し: [見出し]\n- 内容: [内容概要]\n- ビジュアル: [ビジュアルの説明]\n4. まとめ\n- 主なポイント: [要点箇条書き]\n- 結論: [結論]\n5. 質疑応答\n- コメント: [追加コメントや備考]"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "作成者プロファイル",
+      "placeholder": "作成者プロファイルを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "プレゼンテーマ",
+      "placeholder": "コンテンツテーマを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "プレゼン対象者",
+      "placeholder": "プレゼン対象者を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu4",
+      "type": "",
+      "label_hint": "作成方針",
+      "placeholder": "どのようなスライドにしたいか作成方針を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu5",
+      "type": "",
+      "label_hint": "スライド数",
+      "placeholder": "スライド数を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## 前提条件\n- タイトル: 人を魅了するプレゼン資料作成\n- 依頼者条件: プレゼンテーションを作成する必要がある人\n- 前提知識: プレゼン資料の基本構成およびデザインの基礎知識を有していること。\n\n## 評価の基準\n- 内容の正確性: 提示された情報が正確で信頼できるものであること。\n- 論理的構成: 情報が論理的に整理され、分かりやすく構成されていること。\n- 視覚的な魅力: スライドテンプレートやグラフデータを用いて、視覚的に魅力的で分かりやすい資料であること。\n- 対象者への適合性: プレゼンの目的や対象者に合わせて、適切な内容と表現が用いられていること。\n\n## 明確化の要件\n1.プレゼンテーションの概要:\n- タイトル、作成者、目的、対象者、対象者の属性、スライド数、コンテンツテーマ\n2.スライド構成:\n- 各スライドの内容 (見出し、キーワード、説明、図表、画像、参考文献)\n\n## リソース\n- スライドテンプレート: プレゼン資料のデザインテンプレート\n- グラフデータ: プレゼン資料に使用するグラフデータ\n- 参考文献: プレゼン資料の引用元となる参考文献\n- 水平思考に関する情報: 水平思考を用いた発想を支援する情報\n\n## 実行指示\n- 指定されたスライド数とプレゼンテーマに基づいてプレゼン資料を作成する。\n- {作成方針}に基づいて水平思考を用いて、{プレゼン対象}を魅了するような内容を生成する。\n- スライドテンプレートやグラフデータを用いて、直感的なスライドを作成する。\n- 参考文献を強調する。\n- 出力フォーマットに従って出力する。\n- 各スライド構成要素に従って内容を生成する。\n\n## ルール\n- 出力フォーマットの形式を厳守。\n\n## 出力形式\n## スタイルとトーン:\n- 明確で説得力のあるトーン\n## 出力フォーマット =\"\n### スライド構成\n1. タイトルスライド\n- タイトル: [プレゼンタイトル]\n- サブタイトル: [サブタイトル]\n- 発表者: [発表者名]\n2. アジェンダ\n- トピック1: [トピック名]\n- トピック2: [トピック名]\n- ...\n3. コンテンツスライド\n- 見出し: [見出し]\n- 内容: [内容概要]\n- ビジュアル: [ビジュアルの説明]\n4. まとめ\n- 主なポイント: [要点箇条書き]\n- 結論: [結論]\n5. 質疑応答\n- コメント: [追加コメントや備考]\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

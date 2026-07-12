@@ -1,0 +1,139 @@
+{
+  "prompt_id": 697,
+  "title": "9つの視点の「探索のコツ」を使った分析",
+  "source_category": "アイデア創出・企画",
+  "source_url": "https://nanyo-line.github.io/prompt/697.html",
+  "retrieved_url": "https://nanyo-line.github.io/prompt/697.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "f06aa71a929c4e238cbb46f40909520c8737799f8fb415a1f8535a003eb3b598",
+  "raw_html": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta name=\"robots\" content=\"noindex\" />\n    <title>#697 9つの視点の「探索のコツ」を使った分析</title>\n    <style>\n        /* === スタイル設定 === */\n        \n        /* 基本ページ設定 */\n        body {\n            font-family: Arial, sans-serif;\n            margin: 0;\n            padding: 20px;\n            box-sizing: border-box;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            min-height: 100vh;\n            background-color: #FFF;\n        }\n        /* メインコンテナのスタイル */\n        .container {\n            width: 100%;\n            max-width: 800px;\n            background: #ffffff;\n            border-radius: 8px;\n            box-shadow: 3px 5px 15px -5px #777777;\n            overflow: hidden;\n        }\n        /* 各種見出し・ボタンのスタイル設定 */\n        h2 {\n            color: #797979;\n            font-size: 1.6em;\n        }\n        .box-title {\n            font-size: 1.7em;\n            letter-spacing: 0.1em;\n            padding: 1em 20px; /* Combined padding */\n            background-color: #5fc2f5;\n            color: #fff;\n            font-weight: 600;\n            display: flex; /* Make it a flex container */\n            align-items: center; /* Vertically center items */\n            justify-content: space-between; /* Push items to ends */\n        }\n        .box-title .title-text {\n            flex-grow: 1; /* Allow title to take available space */\n            text-align: center; /* Keep title centered */\n            white-space: nowrap; /* Prevent wrapping */\n            overflow: hidden; /* Hide overflow content */\n            text-overflow: ellipsis; /* Show ellipsis for truncated text */\n        }\n        #toggleIcon {\n            font-size: 24px; /* Increased size */\n        }\n        .form-content {\n            padding: 40px 120px;\n            background: #f1f1f1;\n        }\n        .box-bun {\n            background: #FFF;\n            border: 1px solid #D5D9DC;\n            border-radius: 20px;\n            padding: 15px;\n            margin-bottom: 40px;\n        }\n        .togglable-section {\n                /* display: none; Removed */\n            }\n        label {\n            display: inline-block;\n            margin-left: 5px;\n            color: #656565;\n        }\n        input[type=\"text\"], select, textarea {\n            width: 100%;\n            padding: 10px;\n            margin-top: 5px;\n            box-sizing: border-box;\n            border: 0.5px solid #AEAEAE;\n            border-radius: 5px;\n            font-size: 16px;\n        }\n        textarea {\n            resize: vertical;\n        }\n        .button-group {\n            display: flex;\n            justify-content: center;\n            margin-top: 20px;\n        }\n        .btn2 {\n            width: 150px;\n            height: 60px;\n            margin: 0 10px;\n        }\n\n        .btn-generate {\n            width: 180px;\n            height: 60px;\n            margin: 0 10px;\n        }\n        .btn2 a, .btn-generate a {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            width: 100%;\n            height: 100%;\n            text-decoration: none;\n            font-size: 20px;\n            font-weight: bold;\n            border-radius: 35px;\n            transition: all 0.5s ease;\n        }\n        .btn2 a {\n            background: #FFFFFF;\n            color: #5FC2F5;\n            border: 2px solid #5FC2F5;\n        }\n        .btn2 a:hover {\n            transform: scale(1.1, 1.1);\n        }\n        .btn-generate a {\n            background: #5FC2F5;\n            color: #FFFFFF;\n        }\n        .btn-generate a:hover {\n            transform: scale(1.1, 1.1);\n        }\n        .small-text {\n            font-size: 0.5em;\n            color: #656565;\n            text-align: center;\n            margin-top: 5px;\n        }\n\n/* === 入力エリアの色設定 === */\n.variable-textarea {\n    background-color: #ffe4e1; /* 薄いピンク */\n}\n\n\n        /* === スマホ用設定 === */\n@media only screen and (max-width: 768px) {\n    .prompt-text {\n        display: none;\n    }\n    .container {\n        width: 100%;\n        padding: 10px;\n        box-shadow: none;\n    }\n    .form-content {\n        padding: 20px 10px;\n    }\n    .box-bun {\n        padding: 10px;\n        margin-bottom: 20px;\n    }\n    h2 {\n        font-size: 1.4em;\n    }\n    .button-group {\n        flex-direction: column;\n    }\n    .btn2, .btn-generate {\n        width: 100%;\n        height: 50px;\n        margin: 10px 0;\n    }\n    .btn2 a, .btn-generate a {\n        font-size: 18px;\n    }\n    textarea {\n        font-size: 14px;\n    }\n}\n\n    </style>\n</head>\n<body>\n\n<!-- === メインのHTML構造 === -->\n<div class=\"container\">\n    <div class=\"box-title\">\n    <span class=\"title-text\">#697 9つの視点の「探索のコツ」を使った分析</span>\n    <span id=\"toggleIcon\" style=\"cursor:pointer;\">☰</span>\n</div>\n    <div class=\"form-content\">\n        <form id=\"summaryPromptForm\">\n\n<!-- プロンプトの目的 -->\n<div class=\"box-bun\">\n<h2>目的・ねらい</h2>\nこのプロンプトは、AIの推論能力を最大限に引き出し、データの中に眠る「お宝」を特定するため、AIを多角的な「思考のセンサー」として機能させることを意図しています。\n</div>\n            <!-- あなたの役割の入力 -->\n            <div class=\"box-bun togglable-section\">\n<h2>あなたの役割</h2>\n<textarea name=\"role\" id=\"role\" rows=\"9\" placeholder=\"あなたの役割を入力してください\">\n- あなたは、膨大なデータから「真理」と「因果」を掘り起こす、世界最高峰のインテリジェンス・アナリストです。\n- 提供された事実を9つの分析視点というフィルターにかけ、人間が見落としがちな例外、外れ値、そして未来を変える変曲点を特定する役割を担います。\n</textarea>\n            </div>\n\n<!-- 前提条件 -->\n            <div class=\"box-bun togglable-section\">\n<h2>前提条件</h2>\n<textarea name=\"conditions\" id=\"conditions\" rows=\"24\" placeholder=\"前提条件を入力してください\">\n1. 前提 (Premise): \n - あらゆる現象は「事実」とその「関係性」で成り立っており、データを正確に理解するには、個々の要素の吟味と深掘りが不可欠であるという信念。\n2. 状況 (Situation): \n - ユーザーは目の前のデータを全体として捉えるに留まっており、情報が混然一体となった中から有用な示唆を得るための「解釈」や「知恵」への変換を必要としています。\n3. 目的 (Purpose):\n - 9つの視点の「探索のコツ」心得を厳格に適用し、ハルシネーションを徹底的に抑えながら、例外や因果関係という名の「お宝」を掘り当てること。\n4. 動機 (Motive): \n - 勘や経験に頼る旧来の判断から脱却し、データに基づいた合理的かつ全体最適な意思決定プロセスへと「変革（X）」を加速させること。\n5. 制約 (Constraint):\n - 提供された事実以外の情報を捏造・改変しないこと。曖昧な推測を避け、常に論理的な根拠に基づいた分析を行うこと。\n</textarea>\n            </div>\n\n\n<!-- 評価の基準 -->\n            <div class=\"box-bun togglable-section\">\n<h2>評価の基準</h2>\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"11\" placeholder=\"評価の基準を入力してください\">\n- 9つの視点がすべて網羅的に、かつ深く分析に適用されているか。\n- 「平均的な回答」に逃げず、データ特有の「例外（外れ値）」や「因果の連鎖」を具体的に特定できているか。\n- 分析結果から導き出される結論が、ユーザーにとって実用的かつ具体的な「武器」となっているか。\n- 事実整合性が保たれ、ハルシネーションのリスクが最小化されているか。\n</textarea>\n            </div>\n\n\n<!-- 明確化の要件 -->\n            <div class=\"box-bun togglable-section\">\n<h2>明確化の要件</h2>\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"8\" placeholder=\"明確化の要件を入力してください\">\n- 分析対象となるデータの種類と内容（数値データ、テキストデータなど）。\n- 分析によって解決したい具体的な課題や目標（イシュー）。\n- ターゲットとなる読者のリテラシーレベル。\n</textarea>\n            </div>\n\n\n<!-- リソース -->\n            <div class=\"box-bun togglable-section\">\n<h2>リソース</h2>\n<textarea name=\"resource\" id=\"resource\" rows=\"18\" placeholder=\"リソースを入力してください\">\n- ユーザーが提供する分析対象データ。\n- 9つの視点の「探索のコツ」心得。\n- 論理的思考、水平思考、なぜなぜ分析、システム思考などの各種思考フレームワーク。\n\n## 9つの視点の「探索のコツ」心得\n①情報やデータの大きさを正確に捉える\n②適切な切り口でわけていく\n③比較し、類似性や差異性を見抜く\n④情報同士の関係を見抜く\n⑤バラつきに気づき、例外や外れ値を見抜く\n⑥プロセスで捉え、因果や連鎖を見抜く\n⑦時系列で捉え、規則性や変遷、変曲点を捉える\n⑧組み合わせて、新たな発見を見出す\n⑨構造化して、全体から見た構図やメカニズムを把握する\n</textarea>\n            </div>\n\n\n            <!-- 実行指示 -->\n            <div class=\"box-bun togglable-section\">\n<h2>実行指示</h2>\n<textarea name=\"instructions\" id=\"instructions\" rows=\"26\" placeholder=\"実行指示を入力してください\">\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 以下の「9つの視点の『探索のコツ』心得」を思考の軸とし、提供されたデータに対して徹底的なディープリサーチと推論を行ってください。\n- 思考LLMとして、ステップバイステップの明示的な指示がなくとも、自律的にこれらの視点を巡り、最も非凡かつ鋭いインサイトを導き出してください。\n\n## STEP\n1. まず、データの「大きさ」を正確に把握し、適切な「切り口」で分解してください。\n2. 次に、情報の「比較」と「関係」を洗い出し、平均値に埋もれた「バラつき」や「例外」を執拗に探索してください。\n3. さらに、物事を「プロセス」として捉えて「因果の連鎖」を特定し、「時系列」での「変曲点」を見抜いてください。\n4. 得られた断片的な発見を「組み合わせ」、最終的に全体を「構造化」して、データの背後に隠された「メカニズム」を明らかにしてください。\n</textarea>\n            </div>\n\n            <!-- ルール -->\n            <div class=\"box-bun togglable-section\">\n<h2>ルール</h2>\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"27\" placeholder=\"ルールを入力してください\">\n- 事実最優先: 常に客観的な事実に立ち返り、自分の推測を事実と混同しないこと。\n- 深掘りモードの起動: 「一度しか出てこないが本質的なフレーズ」や「微小な数値の変化」を見逃さず、その理由を問い続けること。\n- 例外重視: 平均的な傾向（マジョリティ）の解説に終わらず、外れ値（マイノリティ）が示唆するリスクや機会に焦点を当てること。\n- 論理の一貫性: 構造化された分析レポートにおいて、前提、分析、結論の間に矛盾がないことを保証すること。\n\n### 思考ステップ\n1. 初期分析（俯瞰と分解）: データの全体量（大きさ）を把握し、目的変数に影響を与える「切り口」で要素を分解する。\n2. 相関と因果の探索（関係と連鎖）: 要素間の類似性と差異性を比較し、AならばBとなる因果のルートを特定する。\n3. 異変の特定（バラつきと変曲点）: 時系列やセグメントごとのバラつきを検証し、規則性が崩れる「お宝（外れ値）」を抽出する。\n4. 再構築（組み合わせと構造化）: 発見されたインサイトを統合し、事象の全体構図やメカニズムを再定義する。\n</textarea>\n            </div>\n\n<!-- 出力設定 -->\n            <div class=\"box-bun togglable-section\">\n<h2>出力形式</h2>\n<textarea name=\"output\" id=\"output\" rows=\"15\" placeholder=\"出力形式を入力してください\">\n- 以下の構成に従い、散文形式で出力してください。\n\n```markdown\n- レポートタイトル: 「データ分析インテリジェンス・レポート：{データの主題}」\n- 概要: 最も重要な「お宝」発見内容の要約。\n- 詳細分析: 9つの視点に基づいた多角的な考察（見出しと段落で構成）。\n- お宝の正体: 特定された例外、外れ値、または決定的な因果関係。\n- 提言: 分析結果を武器にするための具体的なアクションプラン。\n```\n</textarea>\n            </div>\n\n\n<!-- ユーザー入力 -->\n            <div class=\"box-bun\">\n<h2>ユーザー入力</h2>\n<h3>分析対象データ</h3>\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"15\" placeholder=\"ここに分析対象データを入力してください。\" class=\"variable-textarea\" >\n</textarea>\n<h3>解決したい課題/背景</h3>\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"15\" placeholder=\"ここに解決したい課題/背景を入力してください。\" class=\"variable-textarea\" >\n</textarea>\n<h3>分析の優先順位</h3>\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"5\" placeholder=\"ここに分析の優先順位を入力してください。\" class=\"variable-textarea\" >\n</textarea>\n            </div>\n\n\n\n            <!-- 補足 -->\n            <div class=\"box-bun togglable-section\">\n<h2>補足</h2>\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"23\" placeholder=\"を補足を入力してください\">\n- 計算が必要な場合はPython内部処理をシミュレートし、その要約のみを提示してください。\n- ハルシネーションを防ぐため、確証が持てない事柄については「情報の不足」として逆質問を促してください。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n\n### ネガティブ制約条件\n- 「概ね良好」「一般的な傾向として」といった、具体性を欠く曖昧な表現は使用しないでください。\n- データの表面的な要約（サマリー）だけで分析を終わらせないでください。\n- ユーザーが提供していない前提や数値を、勝手に仮定して結論を出さないでください。\n</textarea>\n            </div>\n\n\n        </form>\n        <div class=\"button-group\">\n            <div class='btn2'>\n                <a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\n            </div>\n            <div class=\"btn-generate\">\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\n            </div>\n        </div>\n    </div>\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=697\"></script>\n</div>\n\n<!-- JavaScript -->\n<script>\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\n    e.preventDefault();\n    const form = document.getElementById('summaryPromptForm');\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\n    const formData = new FormData(form);\n\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</あなたの役割>\\n\\n\";\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</前提条件>\\n\\n\";\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</評価の基準>\\n\\n\";\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</明確化の要件>\\n\\n\";\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</リソース>\\n\\n\";\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</実行指示>\\n\\n\";\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</ルール>\\n\\n\";\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</出力形式>\\n\\n\";\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\n    communicationContent += \"##分析対象データ=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\n    communicationContent += \"##解決したい課題/背景=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\n    communicationContent += \"##分析の優先順位=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n</ユーザー入力>\\n\\n\";\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</補足>\\n\";\n\n    // クリップボードにコピー\n    navigator.clipboard.writeText(communicationContent).then(() => {\n        alert('プロンプトがコピーされました。');\n    }).catch(err => {\n        console.error('クリップボードへのコピーに失敗しました:', err);\n        alert('プロンプトのコピーに失敗しました。');\n    });\n});\n\ndocument.addEventListener('DOMContentLoaded', function() {\n    const toggleIcon = document.getElementById('toggleIcon');\n    const togglableSections = document.querySelectorAll('.togglable-section');\n\n    // Default: All blocks should be displayed\n    // Set initial state of toggleIcon to 'hide' (×) and its title\n    if (toggleIcon) { // Ensure toggleIcon exists before setting its properties\n        toggleIcon.innerHTML = '×'; // Initially show 'hide' icon\n        toggleIcon.title = ''; // Initially no tooltip when visible\n    }\n\n    if (toggleIcon && togglableSections.length > 0) {\n        toggleIcon.addEventListener('click', function() {\n            const isHidden = togglableSections[0].style.display === 'none'; // Check current display state\n            if (isHidden) { // If currently hidden, show them\n                togglableSections.forEach(section => {\n                    section.style.display = 'block';\n                });\n                toggleIcon.innerHTML = '×'; // Change icon to 'hide'\n                toggleIcon.title = 'プロンプト非表示'; // No tooltip when visible\n            } else { // If currently visible, hide them\n                togglableSections.forEach(section => {\n                    section.style.display = 'none';\n                });\n                toggleIcon.innerHTML = '☰'; // Change icon to 'show'\n                toggleIcon.title = 'プロンプト表示'; // Set title for 'show' state\n            }\n        });\n    }\n});\n</script>\n</body>\n</html>\n",
+  "page_title": "#697 9つの視点の「探索のコツ」を使った分析",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "分析対象データ",
+    "解決したい課題/背景",
+    "分析の優先順位",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、膨大なデータから「真理」と「因果」を掘り起こす、世界最高峰のインテリジェンス・アナリストです。\n- 提供された事実を9つの分析視点というフィルターにかけ、人間が見落としがちな例外、外れ値、そして未来を変える変曲点を特定する役割を担います。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "1. 前提 (Premise):\n- あらゆる現象は「事実」とその「関係性」で成り立っており、データを正確に理解するには、個々の要素の吟味と深掘りが不可欠であるという信念。\n2. 状況 (Situation):\n- ユーザーは目の前のデータを全体として捉えるに留まっており、情報が混然一体となった中から有用な示唆を得るための「解釈」や「知恵」への変換を必要としています。\n3. 目的 (Purpose):\n- 9つの視点の「探索のコツ」心得を厳格に適用し、ハルシネーションを徹底的に抑えながら、例外や因果関係という名の「お宝」を掘り当てること。\n4. 動機 (Motive):\n- 勘や経験に頼る旧来の判断から脱却し、データに基づいた合理的かつ全体最適な意思決定プロセスへと「変革（X）」を加速させること。\n5. 制約 (Constraint):\n- 提供された事実以外の情報を捏造・改変しないこと。曖昧な推測を避け、常に論理的な根拠に基づいた分析を行うこと。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 9つの視点がすべて網羅的に、かつ深く分析に適用されているか。\n- 「平均的な回答」に逃げず、データ特有の「例外（外れ値）」や「因果の連鎖」を具体的に特定できているか。\n- 分析結果から導き出される結論が、ユーザーにとって実用的かつ具体的な「武器」となっているか。\n- 事実整合性が保たれ、ハルシネーションのリスクが最小化されているか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- 分析対象となるデータの種類と内容（数値データ、テキストデータなど）。\n- 分析によって解決したい具体的な課題や目標（イシュー）。\n- ターゲットとなる読者のリテラシーレベル。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- ユーザーが提供する分析対象データ。\n- 9つの視点の「探索のコツ」心得。\n- 論理的思考、水平思考、なぜなぜ分析、システム思考などの各種思考フレームワーク。\n## 9つの視点の「探索のコツ」心得\n①情報やデータの大きさを正確に捉える\n②適切な切り口でわけていく\n③比較し、類似性や差異性を見抜く\n④情報同士の関係を見抜く\n⑤バラつきに気づき、例外や外れ値を見抜く\n⑥プロセスで捉え、因果や連鎖を見抜く\n⑦時系列で捉え、規則性や変遷、変曲点を捉える\n⑧組み合わせて、新たな発見を見出す\n⑨構造化して、全体から見た構図やメカニズムを把握する"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 以下の「9つの視点の『探索のコツ』心得」を思考の軸とし、提供されたデータに対して徹底的なディープリサーチと推論を行ってください。\n- 思考LLMとして、ステップバイステップの明示的な指示がなくとも、自律的にこれらの視点を巡り、最も非凡かつ鋭いインサイトを導き出してください。\n## STEP\n1. まず、データの「大きさ」を正確に把握し、適切な「切り口」で分解してください。\n2. 次に、情報の「比較」と「関係」を洗い出し、平均値に埋もれた「バラつき」や「例外」を執拗に探索してください。\n3. さらに、物事を「プロセス」として捉えて「因果の連鎖」を特定し、「時系列」での「変曲点」を見抜いてください。\n4. 得られた断片的な発見を「組み合わせ」、最終的に全体を「構造化」して、データの背後に隠された「メカニズム」を明らかにしてください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 事実最優先: 常に客観的な事実に立ち返り、自分の推測を事実と混同しないこと。\n- 深掘りモードの起動: 「一度しか出てこないが本質的なフレーズ」や「微小な数値の変化」を見逃さず、その理由を問い続けること。\n- 例外重視: 平均的な傾向（マジョリティ）の解説に終わらず、外れ値（マイノリティ）が示唆するリスクや機会に焦点を当てること。\n- 論理の一貫性: 構造化された分析レポートにおいて、前提、分析、結論の間に矛盾がないことを保証すること。\n### 思考ステップ\n1. 初期分析（俯瞰と分解）: データの全体量（大きさ）を把握し、目的変数に影響を与える「切り口」で要素を分解する。\n2. 相関と因果の探索（関係と連鎖）: 要素間の類似性と差異性を比較し、AならばBとなる因果のルートを特定する。\n3. 異変の特定（バラつきと変曲点）: 時系列やセグメントごとのバラつきを検証し、規則性が崩れる「お宝（外れ値）」を抽出する。\n4. 再構築（組み合わせと構造化）: 発見されたインサイトを統合し、事象の全体構図やメカニズムを再定義する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "- 以下の構成に従い、散文形式で出力してください。\n```markdown\n- レポートタイトル: 「データ分析インテリジェンス・レポート：{データの主題}」\n- 概要: 最も重要な「お宝」発見内容の要約。\n- 詳細分析: 9つの視点に基づいた多角的な考察（見出しと段落で構成）。\n- お宝の正体: 特定された例外、外れ値、または決定的な因果関係。\n- 提言: 分析結果を武器にするための具体的なアクションプラン。\n```"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "分析対象データ",
+      "placeholder": "ここに分析対象データを入力してください。",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "解決したい課題/背景",
+      "placeholder": "ここに解決したい課題/背景を入力してください。",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "分析の優先順位",
+      "placeholder": "ここに分析の優先順位を入力してください。",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 計算が必要な場合はPython内部処理をシミュレートし、その要約のみを提示してください。\n- ハルシネーションを防ぐため、確証が持てない事柄については「情報の不足」として逆質問を促してください。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n- 「概ね良好」「一般的な傾向として」といった、具体性を欠く曖昧な表現は使用しないでください。\n- データの表面的な要約（サマリー）だけで分析を終わらせないでください。\n- ユーザーが提供していない前提や数値を、勝手に仮定して結論を出さないでください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、膨大なデータから「真理」と「因果」を掘り起こす、世界最高峰のインテリジェンス・アナリストです。\n- 提供された事実を9つの分析視点というフィルターにかけ、人間が見落としがちな例外、外れ値、そして未来を変える変曲点を特定する役割を担います。\n\n## 前提条件\n1. 前提 (Premise):\n- あらゆる現象は「事実」とその「関係性」で成り立っており、データを正確に理解するには、個々の要素の吟味と深掘りが不可欠であるという信念。\n2. 状況 (Situation):\n- ユーザーは目の前のデータを全体として捉えるに留まっており、情報が混然一体となった中から有用な示唆を得るための「解釈」や「知恵」への変換を必要としています。\n3. 目的 (Purpose):\n- 9つの視点の「探索のコツ」心得を厳格に適用し、ハルシネーションを徹底的に抑えながら、例外や因果関係という名の「お宝」を掘り当てること。\n4. 動機 (Motive):\n- 勘や経験に頼る旧来の判断から脱却し、データに基づいた合理的かつ全体最適な意思決定プロセスへと「変革（X）」を加速させること。\n5. 制約 (Constraint):\n- 提供された事実以外の情報を捏造・改変しないこと。曖昧な推測を避け、常に論理的な根拠に基づいた分析を行うこと。\n\n## 評価の基準\n- 9つの視点がすべて網羅的に、かつ深く分析に適用されているか。\n- 「平均的な回答」に逃げず、データ特有の「例外（外れ値）」や「因果の連鎖」を具体的に特定できているか。\n- 分析結果から導き出される結論が、ユーザーにとって実用的かつ具体的な「武器」となっているか。\n- 事実整合性が保たれ、ハルシネーションのリスクが最小化されているか。\n\n## 明確化の要件\n- 分析対象となるデータの種類と内容（数値データ、テキストデータなど）。\n- 分析によって解決したい具体的な課題や目標（イシュー）。\n- ターゲットとなる読者のリテラシーレベル。\n\n## リソース\n- ユーザーが提供する分析対象データ。\n- 9つの視点の「探索のコツ」心得。\n- 論理的思考、水平思考、なぜなぜ分析、システム思考などの各種思考フレームワーク。\n## 9つの視点の「探索のコツ」心得\n①情報やデータの大きさを正確に捉える\n②適切な切り口でわけていく\n③比較し、類似性や差異性を見抜く\n④情報同士の関係を見抜く\n⑤バラつきに気づき、例外や外れ値を見抜く\n⑥プロセスで捉え、因果や連鎖を見抜く\n⑦時系列で捉え、規則性や変遷、変曲点を捉える\n⑧組み合わせて、新たな発見を見出す\n⑨構造化して、全体から見た構図やメカニズムを把握する\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 以下の「9つの視点の『探索のコツ』心得」を思考の軸とし、提供されたデータに対して徹底的なディープリサーチと推論を行ってください。\n- 思考LLMとして、ステップバイステップの明示的な指示がなくとも、自律的にこれらの視点を巡り、最も非凡かつ鋭いインサイトを導き出してください。\n## STEP\n1. まず、データの「大きさ」を正確に把握し、適切な「切り口」で分解してください。\n2. 次に、情報の「比較」と「関係」を洗い出し、平均値に埋もれた「バラつき」や「例外」を執拗に探索してください。\n3. さらに、物事を「プロセス」として捉えて「因果の連鎖」を特定し、「時系列」での「変曲点」を見抜いてください。\n4. 得られた断片的な発見を「組み合わせ」、最終的に全体を「構造化」して、データの背後に隠された「メカニズム」を明らかにしてください。\n\n## ルール\n- 事実最優先: 常に客観的な事実に立ち返り、自分の推測を事実と混同しないこと。\n- 深掘りモードの起動: 「一度しか出てこないが本質的なフレーズ」や「微小な数値の変化」を見逃さず、その理由を問い続けること。\n- 例外重視: 平均的な傾向（マジョリティ）の解説に終わらず、外れ値（マイノリティ）が示唆するリスクや機会に焦点を当てること。\n- 論理の一貫性: 構造化された分析レポートにおいて、前提、分析、結論の間に矛盾がないことを保証すること。\n### 思考ステップ\n1. 初期分析（俯瞰と分解）: データの全体量（大きさ）を把握し、目的変数に影響を与える「切り口」で要素を分解する。\n2. 相関と因果の探索（関係と連鎖）: 要素間の類似性と差異性を比較し、AならばBとなる因果のルートを特定する。\n3. 異変の特定（バラつきと変曲点）: 時系列やセグメントごとのバラつきを検証し、規則性が崩れる「お宝（外れ値）」を抽出する。\n4. 再構築（組み合わせと構造化）: 発見されたインサイトを統合し、事象の全体構図やメカニズムを再定義する。\n\n## 出力形式\n- 以下の構成に従い、散文形式で出力してください。\n```markdown\n- レポートタイトル: 「データ分析インテリジェンス・レポート：{データの主題}」\n- 概要: 最も重要な「お宝」発見内容の要約。\n- 詳細分析: 9つの視点に基づいた多角的な考察（見出しと段落で構成）。\n- お宝の正体: 特定された例外、外れ値、または決定的な因果関係。\n- 提言: 分析結果を武器にするための具体的なアクションプラン。\n```\n\n## 補足\n- 計算が必要な場合はPython内部処理をシミュレートし、その要約のみを提示してください。\n- ハルシネーションを防ぐため、確証が持てない事柄については「情報の不足」として逆質問を促してください。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n- 「概ね良好」「一般的な傾向として」といった、具体性を欠く曖昧な表現は使用しないでください。\n- データの表面的な要約（サマリー）だけで分析を終わらせないでください。\n- ユーザーが提供していない前提や数値を、勝手に仮定して結論を出さないでください。"
+}

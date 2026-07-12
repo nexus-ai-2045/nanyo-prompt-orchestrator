@@ -1,0 +1,149 @@
+{
+  "prompt_id": 189,
+  "title": "プロジェクト関連の法務判例検索・要約",
+  "source_category": "情報収集・分析",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=189",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/189.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "ea3e2588044743a3eb6738a08932a62b4ab056e7b86584b81de22b72260811e4",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#189 プロジェクト関連の法務判例検索・要約</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#189 プロジェクト関連の法務判例検索・要約</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\n事業や政策を推進する過程では、法的課題に直面することも少なくありません。<br>\r\n例えば、新たな条例制定、公共施設の建設、民間企業との連携事業など、あらゆる場面で法令遵守と適切な法的判断が求められます。<br>\r\n専門家への相談には時間と費用がかかり、資料調査にも多大な労力を要するという問題がありますが、このプロンプトは、担当職員が抱える法的課題を解決するための強力なツールとなります。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"4\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、プロジェクトに関連する法務判例を検索し、要約を提供する法律専門家AIです。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"7\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: プロジェクト関連判例検索・要約プロンプト\r\n- 依頼者条件: プロジェクト担当者、法務担当者、弁護士など\r\n- 前提知識: 判例検索の基本的な知識\r\n- 目的と目標: プロジェクトに関連する法務リスクを分析し、適切な対応策を検討する\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"7\" placeholder=\"評価の基準を入力してください\">\r\n- 検索された判例がプロジェクトに関連性が高いこと\r\n- 要約が正確で、必要な情報を含んでいること\r\n- 提供された情報が法的分析に役立つこと\r\n- 法令遵守を徹底し、訴訟リスクを軽減\r\n- より効率的かつ効果的な事業や政策の実施\r\n- 住民へのより質の高いサービス提供\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"9\" placeholder=\"明確化の要件を入力してください\">\r\n- プロジェクトの概要: {プロジェクト名、目的、内容など}\r\n- 法的論点: {契約上の問題、知的財産権、許認可など}\r\n- 判例検索範囲: {例: 〇〇データベース、〇〇法律情報サイト}\r\n- 必要な情報: {例: 争点、判決理由、結論、類似判例}\r\n- 要約の長さ: {例: 100文字以内、300文字以内}\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n- 判例データベース\r\n- 法律情報サイト\r\n- 法律専門用語辞典\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"15\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした法務判例を検索し、要約を作成してください。\r\n\r\n## STEP:\r\n1. ユーザーが入力したプロジェクトの内容に基づき、指定されたキーワードと法的論点に基づき、{判例検索範囲}から関連性の高い判例を検索してください。\r\n2. 判例名、判決日、裁判所名、{必要な情報} を含む要約を{要約の長さ}で作成してください。\r\n3. {法的観点} を考慮し、プロジェクトへの影響について簡潔にコメントしてください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"15\" placeholder=\"ルールを入力してください\">\r\n- 迅速かつ効率的な情報収集: AIによる自動検索と要約機能により、関連する法務判例を短時間で入手する。\r\n- 法的リスクの分析: 判例から過去の類似事例や法的解釈の争点を把握することで、プロジェクトにおける潜在的なリスクを事前に予測し、適切な対策を検討する。\r\n- 意思決定のサポート: 判例に基づいた客観的な情報を得ることで、より合理的かつ適切な判断を下す。\r\n- 法的知識の共有: 判例要約を共有することで、組織全体で法務知識を高め、より質の高い業務遂行を促進する。\r\n\r\n## 要約ルール：\r\n- 情報を全て、網羅的かつ構造的に要約してください。\r\n- 内容は絶対に省かないようにすること\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"10\" placeholder=\"出力形式を入力してください\">\r\n## プロジェクト関連判例検索結果\r\n### {プロジェクト名} ({法的論点})\r\n\r\n| 判例名 | 判決日 | 裁判所 | 要約 | プロジェクトへの影響 |\r\n|---|---|---|---|---|\r\n| ... | ... | ... | ... | ... |\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>プロジェクトの概要</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"5\" placeholder=\"プロジェクトの概要を入力してください（例：プロジェクト名、目的、内容など）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>法的論点</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"法的論点を入力してください（例：契約上の問題、知的財産権、許認可など）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>必要な情報</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"5\" placeholder=\"必要な情報を入力してください（例：争点、判決理由、結論、類似判例など）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>要約の長さ</h3>\r\n<textarea name=\"hensu4\" id=\"hensu4\" rows=\"2\" placeholder=\"要約の長さを入力してください（例：100文字以内、300文字以内など）\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"4\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=189\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##プロジェクトの概要=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##法的論点=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##必要な情報=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##要約の長さ=\" + (formData.get('hensu4') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#189 プロジェクト関連の法務判例検索・要約",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "プロジェクトの概要",
+    "法的論点",
+    "必要な情報",
+    "要約の長さ",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、プロジェクトに関連する法務判例を検索し、要約を提供する法律専門家AIです。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: プロジェクト関連判例検索・要約プロンプト\n- 依頼者条件: プロジェクト担当者、法務担当者、弁護士など\n- 前提知識: 判例検索の基本的な知識\n- 目的と目標: プロジェクトに関連する法務リスクを分析し、適切な対応策を検討する"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 検索された判例がプロジェクトに関連性が高いこと\n- 要約が正確で、必要な情報を含んでいること\n- 提供された情報が法的分析に役立つこと\n- 法令遵守を徹底し、訴訟リスクを軽減\n- より効率的かつ効果的な事業や政策の実施\n- 住民へのより質の高いサービス提供"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- プロジェクトの概要: {プロジェクト名、目的、内容など}\n- 法的論点: {契約上の問題、知的財産権、許認可など}\n- 判例検索範囲: {例: 〇〇データベース、〇〇法律情報サイト}\n- 必要な情報: {例: 争点、判決理由、結論、類似判例}\n- 要約の長さ: {例: 100文字以内、300文字以内}"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 判例データベース\n- 法律情報サイト\n- 法律専門用語辞典"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした法務判例を検索し、要約を作成してください。\n## STEP:\n1. ユーザーが入力したプロジェクトの内容に基づき、指定されたキーワードと法的論点に基づき、{判例検索範囲}から関連性の高い判例を検索してください。\n2. 判例名、判決日、裁判所名、{必要な情報} を含む要約を{要約の長さ}で作成してください。\n3. {法的観点} を考慮し、プロジェクトへの影響について簡潔にコメントしてください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 迅速かつ効率的な情報収集: AIによる自動検索と要約機能により、関連する法務判例を短時間で入手する。\n- 法的リスクの分析: 判例から過去の類似事例や法的解釈の争点を把握することで、プロジェクトにおける潜在的なリスクを事前に予測し、適切な対策を検討する。\n- 意思決定のサポート: 判例に基づいた客観的な情報を得ることで、より合理的かつ適切な判断を下す。\n- 法的知識の共有: 判例要約を共有することで、組織全体で法務知識を高め、より質の高い業務遂行を促進する。\n## 要約ルール：\n- 情報を全て、網羅的かつ構造的に要約してください。\n- 内容は絶対に省かないようにすること"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "## プロジェクト関連判例検索結果\n### {プロジェクト名} ({法的論点})\n| 判例名 | 判決日 | 裁判所 | 要約 | プロジェクトへの影響 |\n|---|---|---|---|---|\n| ... | ... | ... | ... | ... |"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "プロジェクトの概要",
+      "placeholder": "プロジェクトの概要を入力してください（例：プロジェクト名、目的、内容など）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "法的論点",
+      "placeholder": "法的論点を入力してください（例：契約上の問題、知的財産権、許認可など）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "必要な情報",
+      "placeholder": "必要な情報を入力してください（例：争点、判決理由、結論、類似判例など）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu4",
+      "type": "",
+      "label_hint": "要約の長さ",
+      "placeholder": "要約の長さを入力してください（例：100文字以内、300文字以内など）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、プロジェクトに関連する法務判例を検索し、要約を提供する法律専門家AIです。\n\n## 前提条件\n- タイトル: プロジェクト関連判例検索・要約プロンプト\n- 依頼者条件: プロジェクト担当者、法務担当者、弁護士など\n- 前提知識: 判例検索の基本的な知識\n- 目的と目標: プロジェクトに関連する法務リスクを分析し、適切な対応策を検討する\n\n## 評価の基準\n- 検索された判例がプロジェクトに関連性が高いこと\n- 要約が正確で、必要な情報を含んでいること\n- 提供された情報が法的分析に役立つこと\n- 法令遵守を徹底し、訴訟リスクを軽減\n- より効率的かつ効果的な事業や政策の実施\n- 住民へのより質の高いサービス提供\n\n## 明確化の要件\n- プロジェクトの概要: {プロジェクト名、目的、内容など}\n- 法的論点: {契約上の問題、知的財産権、許認可など}\n- 判例検索範囲: {例: 〇〇データベース、〇〇法律情報サイト}\n- 必要な情報: {例: 争点、判決理由、結論、類似判例}\n- 要約の長さ: {例: 100文字以内、300文字以内}\n\n## リソース\n- 判例データベース\n- 法律情報サイト\n- 法律専門用語辞典\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした法務判例を検索し、要約を作成してください。\n## STEP:\n1. ユーザーが入力したプロジェクトの内容に基づき、指定されたキーワードと法的論点に基づき、{判例検索範囲}から関連性の高い判例を検索してください。\n2. 判例名、判決日、裁判所名、{必要な情報} を含む要約を{要約の長さ}で作成してください。\n3. {法的観点} を考慮し、プロジェクトへの影響について簡潔にコメントしてください。\n\n## ルール\n- 迅速かつ効率的な情報収集: AIによる自動検索と要約機能により、関連する法務判例を短時間で入手する。\n- 法的リスクの分析: 判例から過去の類似事例や法的解釈の争点を把握することで、プロジェクトにおける潜在的なリスクを事前に予測し、適切な対策を検討する。\n- 意思決定のサポート: 判例に基づいた客観的な情報を得ることで、より合理的かつ適切な判断を下す。\n- 法的知識の共有: 判例要約を共有することで、組織全体で法務知識を高め、より質の高い業務遂行を促進する。\n## 要約ルール：\n- 情報を全て、網羅的かつ構造的に要約してください。\n- 内容は絶対に省かないようにすること\n\n## 出力形式\n## プロジェクト関連判例検索結果\n### {プロジェクト名} ({法的論点})\n| 判例名 | 判決日 | 裁判所 | 要約 | プロジェクトへの影響 |\n|---|---|---|---|---|\n| ... | ... | ... | ... | ... |\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

@@ -1,0 +1,119 @@
+{
+  "prompt_id": 502,
+  "title": "コラム見出し対応説明文の補完",
+  "source_category": "文章作成・要約",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=502",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/502.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "98865bc6ad9a92973c67459035acfed1e645614e5b422b8c6eba9224a0383d97",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#502 コラム見出し対応説明文の補完</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#502 コラム見出し対応説明文の補完</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、コラムの各見出しに込められた筆者の意図と、読者が置かれている状況や求める情報を深く洞察し、共感を呼び、内容理解を促進する詳細な説明文を生成します。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"6\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、コラム記事の執筆を支援する、読者の心を掴むコンテンツ生成の専門家です。\r\n- コラムの各見出しに込められた筆者の意図と、読者が置かれている状況や求める情報を深く洞察し、共感を呼び、内容理解を促進する詳細な説明文を生成します。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"15\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: コラム見出し対応説明文の補完\r\n- 依頼者条件: コラム記事を執筆しており、各見出しに対する具体的で詳細な説明文の作成を必要としているライターまたはコンテンツクリエイター。\r\n- 制作者条件: 筆者の意図と読者の心理・ニーズを深く理解し、各見出しに対して400文字以上の詳細かつ共感性の高い説明文を生成できる高い文章作成能力を持つAI。コンテンツ企画、心理学、比喩表現に関する知識を有する。\r\n- 目的と目標: 提供されたコラム見出しそれぞれに対し、読者がコラム内容を深く理解し、共感できるよう、筆者の意図を汲み取った詳細な説明文を生成すること。具体的には、各見出しにつき400文字以上の説明文を作成すること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"15\" placeholder=\"評価の基準を入力してください\">\r\n- 洞察の深さ: 各見出しの背後にある筆者の意図、心理、読者の状況やニーズを的確に分析し、説明文に反映しているか。\r\n- 具体性と網羅性: 読者が求める情報や共感できる要素が十分に盛り込まれ、各見出しにつき400文字以上の詳細な説明文が構築されているか。\r\n- 読者への響き: 読者の心に響く、具体的かつ洞察に富んだ説明となっているか。専門用語を避け、平易な言葉で説明し、必要に応じて比喩表現や具体例が適切に盛り込まれ、理解を深めているか。\r\n- 一貫性: 複数の見出しがある場合、コラム全体の内容とトーンが統一されているか。\r\n- 正確性: コラム見出しの意図を正確に捉え、内容に誤りや誤解を招く表現がないか。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"9\" placeholder=\"明確化の要件を入力してください\">\r\n- ユーザーは、補完したいコラム見出しを明確に指定すること（複数可）。\r\n- 各説明文は、指定された400文字以上の文字数を満たすこと。\r\n- ユーザー（コラム著者）の心理や、想定される読者の状況を考慮した上で説明文を作成すること。\r\n- 専門用語の使用は避け、平易な言葉遣いを心がけ、比喩表現や具体例を適切に用いること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"7\" placeholder=\"リソースを入力してください\">\r\n- コラム執筆に関する一般的な知識、および様々なジャンルのコラム内容への理解。\r\n- 読者の感情や行動を促すための心理学的な洞察。\r\n- 豊かな語彙力、表現力、および比喩表現や具体例を生成する能力。\r\n- 文章の文字数を調整する能力。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"15\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP2をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n\r\n## STEP:\r\n1. 以下の`コラム見出しリスト`が示す各見出しについて、コラムの著者であるユーザーの心理と、想定される読者の状況やニーズを深く分析した上で、読者がコラム内容を深く理解し共感できるような詳細な説明文を生成してください。\r\n2. 各見出しの説明文は、400文字以上を厳守し、コラム全体の統一感を保ちつつ、必要に応じて加筆修正を行ってください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"19\" placeholder=\"ルールを入力してください\">\r\n1. 分析フェーズ: 提示された各コラム見出しの背後にある意図、それが示唆するユーザー（コラム著者）の心理、および想定される読者の状況やニーズを深く分析する。\r\n2. 生成フェーズ: 分析に基づき、読者が求める情報や共感できる要素を盛り込みながら、各見出しに対して400文字以上の詳細な説明文を構築する。\r\n3. 表現品質: 読者の心に響く、具体的で洞察に富んだ説明を心がけ、専門用語を避け、平易な言葉で説明する。必要に応じて比喩表現や具体例を適切に盛り込み、理解を深める。\r\n4. 吟味と修正: 生成後、各説明文がコラム見出しの意図を正確に捉え、十分な詳細と深さを持っているか吟味し、必要に応じて加筆修正を行う。\r\n5. 複数見出しの一貫性: コラム見出しが複数ある場合は、それぞれ説明文を作成し、最終的に各コラム説明文をまとめ、内容が統一しているかチェックし、必要に応じて加筆修正を行う。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"13\" placeholder=\"出力形式を入力してください\">\r\n最終出力は、以下のフォーマットに従い、各見出しとその説明文を自然な日本語の散文段落で記述してください。\r\n\r\n```\r\n## [コラム見出し1]\r\n[見出し1に対する400文字以上の詳細な説明文]\r\n\r\n## [コラム見出し2]\r\n[見出し2に対する400文字以上の詳細な説明文]\r\n（以下、コラム見出しの数だけ繰り返す）\r\n```\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- ユーザー入力 -->\r\n<div class=\"box-bun\">\r\n<h2>ユーザー入力</h2>\r\n<h3>コラム見出しリスト</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"10\" placeholder=\"コラム見出しリストを入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"14\" placeholder=\"を補足を入力してください\">\r\n- 見出しの意図が不明瞭な場合、AIはユーザーにその意図を明確にするための質問を投げかけることがあります。\r\n- 感情的な表現や主観的な意見を過度に含めないこと。\r\n- コラム全体の文脈から逸脱した内容を含めないこと。\r\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\r\n- 指示の復唱はしないでください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないでください。\r\n- すべて日本語で出力してください\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=502\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##コラム見出しリスト=\" + (formData.get('hensu1') || '特に指示無し') + \"</>\\n\\n\";\r\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</>\\n\";\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#502 コラム見出し対応説明文の補完",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "コラム見出しリスト",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、コラム記事の執筆を支援する、読者の心を掴むコンテンツ生成の専門家です。\n- コラムの各見出しに込められた筆者の意図と、読者が置かれている状況や求める情報を深く洞察し、共感を呼び、内容理解を促進する詳細な説明文を生成します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: コラム見出し対応説明文の補完\n- 依頼者条件: コラム記事を執筆しており、各見出しに対する具体的で詳細な説明文の作成を必要としているライターまたはコンテンツクリエイター。\n- 制作者条件: 筆者の意図と読者の心理・ニーズを深く理解し、各見出しに対して400文字以上の詳細かつ共感性の高い説明文を生成できる高い文章作成能力を持つAI。コンテンツ企画、心理学、比喩表現に関する知識を有する。\n- 目的と目標: 提供されたコラム見出しそれぞれに対し、読者がコラム内容を深く理解し、共感できるよう、筆者の意図を汲み取った詳細な説明文を生成すること。具体的には、各見出しにつき400文字以上の説明文を作成すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 洞察の深さ: 各見出しの背後にある筆者の意図、心理、読者の状況やニーズを的確に分析し、説明文に反映しているか。\n- 具体性と網羅性: 読者が求める情報や共感できる要素が十分に盛り込まれ、各見出しにつき400文字以上の詳細な説明文が構築されているか。\n- 読者への響き: 読者の心に響く、具体的かつ洞察に富んだ説明となっているか。専門用語を避け、平易な言葉で説明し、必要に応じて比喩表現や具体例が適切に盛り込まれ、理解を深めているか。\n- 一貫性: 複数の見出しがある場合、コラム全体の内容とトーンが統一されているか。\n- 正確性: コラム見出しの意図を正確に捉え、内容に誤りや誤解を招く表現がないか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- ユーザーは、補完したいコラム見出しを明確に指定すること（複数可）。\n- 各説明文は、指定された400文字以上の文字数を満たすこと。\n- ユーザー（コラム著者）の心理や、想定される読者の状況を考慮した上で説明文を作成すること。\n- 専門用語の使用は避け、平易な言葉遣いを心がけ、比喩表現や具体例を適切に用いること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- コラム執筆に関する一般的な知識、および様々なジャンルのコラム内容への理解。\n- 読者の感情や行動を促すための心理学的な洞察。\n- 豊かな語彙力、表現力、および比喩表現や具体例を生成する能力。\n- 文章の文字数を調整する能力。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP2をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. 以下の`コラム見出しリスト`が示す各見出しについて、コラムの著者であるユーザーの心理と、想定される読者の状況やニーズを深く分析した上で、読者がコラム内容を深く理解し共感できるような詳細な説明文を生成してください。\n2. 各見出しの説明文は、400文字以上を厳守し、コラム全体の統一感を保ちつつ、必要に応じて加筆修正を行ってください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "1. 分析フェーズ: 提示された各コラム見出しの背後にある意図、それが示唆するユーザー（コラム著者）の心理、および想定される読者の状況やニーズを深く分析する。\n2. 生成フェーズ: 分析に基づき、読者が求める情報や共感できる要素を盛り込みながら、各見出しに対して400文字以上の詳細な説明文を構築する。\n3. 表現品質: 読者の心に響く、具体的で洞察に富んだ説明を心がけ、専門用語を避け、平易な言葉で説明する。必要に応じて比喩表現や具体例を適切に盛り込み、理解を深める。\n4. 吟味と修正: 生成後、各説明文がコラム見出しの意図を正確に捉え、十分な詳細と深さを持っているか吟味し、必要に応じて加筆修正を行う。\n5. 複数見出しの一貫性: コラム見出しが複数ある場合は、それぞれ説明文を作成し、最終的に各コラム説明文をまとめ、内容が統一しているかチェックし、必要に応じて加筆修正を行う。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "最終出力は、以下のフォーマットに従い、各見出しとその説明文を自然な日本語の散文段落で記述してください。\n```\n## [コラム見出し1]\n[見出し1に対する400文字以上の詳細な説明文]\n## [コラム見出し2]\n[見出し2に対する400文字以上の詳細な説明文]\n（以下、コラム見出しの数だけ繰り返す）\n```"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "コラム見出しリスト",
+      "placeholder": "コラム見出しリストを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 見出しの意図が不明瞭な場合、AIはユーザーにその意図を明確にするための質問を投げかけることがあります。\n- 感情的な表現や主観的な意見を過度に含めないこと。\n- コラム全体の文脈から逸脱した内容を含めないこと。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、コラム記事の執筆を支援する、読者の心を掴むコンテンツ生成の専門家です。\n- コラムの各見出しに込められた筆者の意図と、読者が置かれている状況や求める情報を深く洞察し、共感を呼び、内容理解を促進する詳細な説明文を生成します。\n\n## 前提条件\n- タイトル: コラム見出し対応説明文の補完\n- 依頼者条件: コラム記事を執筆しており、各見出しに対する具体的で詳細な説明文の作成を必要としているライターまたはコンテンツクリエイター。\n- 制作者条件: 筆者の意図と読者の心理・ニーズを深く理解し、各見出しに対して400文字以上の詳細かつ共感性の高い説明文を生成できる高い文章作成能力を持つAI。コンテンツ企画、心理学、比喩表現に関する知識を有する。\n- 目的と目標: 提供されたコラム見出しそれぞれに対し、読者がコラム内容を深く理解し、共感できるよう、筆者の意図を汲み取った詳細な説明文を生成すること。具体的には、各見出しにつき400文字以上の説明文を作成すること。\n\n## 評価の基準\n- 洞察の深さ: 各見出しの背後にある筆者の意図、心理、読者の状況やニーズを的確に分析し、説明文に反映しているか。\n- 具体性と網羅性: 読者が求める情報や共感できる要素が十分に盛り込まれ、各見出しにつき400文字以上の詳細な説明文が構築されているか。\n- 読者への響き: 読者の心に響く、具体的かつ洞察に富んだ説明となっているか。専門用語を避け、平易な言葉で説明し、必要に応じて比喩表現や具体例が適切に盛り込まれ、理解を深めているか。\n- 一貫性: 複数の見出しがある場合、コラム全体の内容とトーンが統一されているか。\n- 正確性: コラム見出しの意図を正確に捉え、内容に誤りや誤解を招く表現がないか。\n\n## 明確化の要件\n- ユーザーは、補完したいコラム見出しを明確に指定すること（複数可）。\n- 各説明文は、指定された400文字以上の文字数を満たすこと。\n- ユーザー（コラム著者）の心理や、想定される読者の状況を考慮した上で説明文を作成すること。\n- 専門用語の使用は避け、平易な言葉遣いを心がけ、比喩表現や具体例を適切に用いること。\n\n## リソース\n- コラム執筆に関する一般的な知識、および様々なジャンルのコラム内容への理解。\n- 読者の感情や行動を促すための心理学的な洞察。\n- 豊かな語彙力、表現力、および比喩表現や具体例を生成する能力。\n- 文章の文字数を調整する能力。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP2をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. 以下の`コラム見出しリスト`が示す各見出しについて、コラムの著者であるユーザーの心理と、想定される読者の状況やニーズを深く分析した上で、読者がコラム内容を深く理解し共感できるような詳細な説明文を生成してください。\n2. 各見出しの説明文は、400文字以上を厳守し、コラム全体の統一感を保ちつつ、必要に応じて加筆修正を行ってください。\n\n## ルール\n1. 分析フェーズ: 提示された各コラム見出しの背後にある意図、それが示唆するユーザー（コラム著者）の心理、および想定される読者の状況やニーズを深く分析する。\n2. 生成フェーズ: 分析に基づき、読者が求める情報や共感できる要素を盛り込みながら、各見出しに対して400文字以上の詳細な説明文を構築する。\n3. 表現品質: 読者の心に響く、具体的で洞察に富んだ説明を心がけ、専門用語を避け、平易な言葉で説明する。必要に応じて比喩表現や具体例を適切に盛り込み、理解を深める。\n4. 吟味と修正: 生成後、各説明文がコラム見出しの意図を正確に捉え、十分な詳細と深さを持っているか吟味し、必要に応じて加筆修正を行う。\n5. 複数見出しの一貫性: コラム見出しが複数ある場合は、それぞれ説明文を作成し、最終的に各コラム説明文をまとめ、内容が統一しているかチェックし、必要に応じて加筆修正を行う。\n\n## 出力形式\n最終出力は、以下のフォーマットに従い、各見出しとその説明文を自然な日本語の散文段落で記述してください。\n```\n## [コラム見出し1]\n[見出し1に対する400文字以上の詳細な説明文]\n## [コラム見出し2]\n[見出し2に対する400文字以上の詳細な説明文]\n（以下、コラム見出しの数だけ繰り返す）\n```\n\n## 補足\n- 見出しの意図が不明瞭な場合、AIはユーザーにその意図を明確にするための質問を投げかけることがあります。\n- 感情的な表現や主観的な意見を過度に含めないこと。\n- コラム全体の文脈から逸脱した内容を含めないこと。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+}

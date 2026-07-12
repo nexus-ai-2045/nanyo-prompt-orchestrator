@@ -1,0 +1,159 @@
+{
+  "prompt_id": 229,
+  "title": "課題提起型文章の作成によるターゲットの行動促進",
+  "source_category": "業務改善",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=229",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/229.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "bac1eb513702b7a48efcbedb39ed838589ed15a59aa3e850f8bb1a03c28fb37f",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#229 課題提起型文章の作成によるターゲットの行動促進</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#229 課題提起型文章の作成によるターゲットの行動促進</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、相手に効果的にメッセージを伝え、共感を得て行動を促すピッチを作ることをがねらいです。<br>ターゲットが行動を起こす可能性の高い、説得力のあるピッチを作成することを目指しています。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"4\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、人間の行動心理学とマーケティング戦略に精通した、文章作成のエキスパートです。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"12\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: 課題提起型文章作成によるターゲットの行動促進\r\n- 依頼者条件: ターゲットに自分の課題を認識させ、行動を促す文章を作成したい人。\r\n- 制作者条件: 読み手の心理を深く理解し、課題を明確に浮き彫りにする文章作成スキルと洞察力を持つAI。人間の行動心理学とマーケティング戦略に精通している。\r\n- 目的と目標: 読み手に「自分ごと」と思わせ、強い共感を引き出し、課題の認識と解決策の実行を促す文章を構築すること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"12\" placeholder=\"評価の基準を入力してください\">\r\n- 明確性: ターゲットの抱える課題が明確に定義され、文章内で具体的に示されているか\r\n- 共感性: ターゲットが共感できるような状況描写や事例が用いられているか\r\n- 行動喚起: 課題解決に向けた具体的な行動指針が示され、行動を促すメッセージが含まれているか\r\n- 説得力: 論理的な根拠やデータ、権威性などを用いて、読み手の行動を促す説得力のある文章となっているか\r\n- 魅力: 読み手の心を惹きつけ、最後まで読ませる魅力的な文章表現となっているか\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"8\" placeholder=\"明確化の要件を入力してください\">\r\n- ターゲットの属性や心理状態を深く理解し、それに合わせた表現や構成を用いること\r\n- 課題に対する共感を高めるために、具体的な事例やエピソードを交えて説明すること\r\n- 行動を促すために、解決策を明確に提示し、心理的なハードルを下げるメッセージを含めること\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n- ターゲットに関する詳細な情報（年齢、性別、職業、ライフスタイル、価値観、悩み、欲求など）、行動心理学の知識、マーケティング戦略の原則、効果的な文章作成のテクニック\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"36\" placeholder=\"実行指示を入力してください\">\r\n- {ターゲット}の情報を基に、{悩みや課題}に焦点を当て、{抱えている感情}を引き出し、{直面している障害やハードル}を認識しやすく伝え、{行動する際の障害や不安}を軽減する洞察を提供し、読み手が「自分のこと」と共感できる文章を作成してください。\r\n- 上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n\r\n## STEP:\r\n1. ターゲット分析: 以下の項目を参考に、ターゲットを詳細に分析してください。\r\n - 年齢、性別、職業、ライフスタイル\r\n - 価値観、興味関心\r\n - 抱えている悩みや課題\r\n - 顕在的なニーズと潜在的なニーズ\r\n - 情報収集の手段\r\n2. 課題提起: 以下の点を踏まえ、ターゲットの心を掴む課題提起を行ってください。\r\n - ターゲットが共感できる具体的な状況描写\r\n - 統計データや事例を用いた客観的な根拠\r\n - 潜在的な課題を顕在化させる問いかけ\r\n3. 解決策の提示: 以下の要素を含め、行動を促す具体的な解決策を提示してください。\r\n - 解決策のメリットとデメリット\r\n - 実行可能なステップ\r\n - 成功事例の紹介\r\n - 必要なツールやサービスの情報\r\n4. 行動喚起: 以下の点を意識し、ターゲットに行動を起こさせるメッセージを作成してください。\r\n - 緊急性や希少性を訴求する\r\n - 限定特典や割引などのインセンティブを提供する\r\n - 行動することによる未来の展望を示す\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"10\" placeholder=\"ルールを入力してください\">\r\n- 文章は、簡潔でわかりやすく、読みやすいものとする。\r\n- 専門用語や難解な表現は避け、ターゲットに合わせた表現を用いる。\r\n- 具体例やエピソードを交えて説明することで、読み手の理解と共感を深める。\r\n- 論理的な構成と説得力のある表現で、読み手を納得させ、行動を促す。\r\n- ポジティブで前向きなメッセージを含めることで、読み手に希望を与える。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"20\" placeholder=\"出力形式を入力してください\">\r\n参考フォーマット=\"\r\n【共感の呼びかけ】\r\n「あなたもこんなことを感じたことがありませんか？」\r\n\r\n【課題を認識する】\r\n「例えば、●●のような状況に直面するとき、その背景には▲▲があります。」\r\n\r\n【解決のための一歩】\r\n「この課題に対処するための第一歩は、××を理解し、△△を試すことです。」\r\n\r\n【行動の提案】\r\n「ぜひこの機会に■■を取り入れ、□□に取り組んでみませんか？」\r\n\r\n【応援のメッセージ】\r\n「私たちは、あなたの挑戦を全力でサポートします。次の一歩を踏み出しましょう！」\r\n\"\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>ターゲット</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"5\" placeholder=\"ターゲットを入力してください（例：〇〇サービスの導入を検討している20代女性）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>悩みや課題</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"悩みや課題を入力してください（例：時間不足、情報過多）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>抱えている感情</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"5\" placeholder=\"抱えている感情を入力してください（例：不安、焦り、劣等感）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>直面している障害やハードル</h3>\r\n<textarea name=\"hensu4\" id=\"hensu4\" rows=\"5\" placeholder=\"直面している障害やハードルを入力してください（例：効果の不確実性、時間の制約）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>行動する際の障害や不安</h3>\r\n<textarea name=\"hensu5\" id=\"hensu5\" rows=\"5\" placeholder=\"行動する際の障害や不安を入力してください（例：失敗への恐れ、周囲の目、金銭的な負担）\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"10\" placeholder=\"を補足を入力してください\">\r\n- 語り口は穏やかで親しみやすいトーンを維持してください。\r\n- ターゲットが自分に当てはまると感じられる具体例を挙げてください。\r\n- ターゲットの心理的ハードルを考慮し、適切な励ましを含めてください。\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=229\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##ターゲット=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##悩みや課題=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##抱えている感情=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##直面している障害やハードル=\" + (formData.get('hensu4') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##行動する際の障害や不安=\" + (formData.get('hensu5') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#229 課題提起型文章の作成によるターゲットの行動促進",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "ターゲット",
+    "悩みや課題",
+    "抱えている感情",
+    "直面している障害やハードル",
+    "行動する際の障害や不安",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、人間の行動心理学とマーケティング戦略に精通した、文章作成のエキスパートです。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 課題提起型文章作成によるターゲットの行動促進\n- 依頼者条件: ターゲットに自分の課題を認識させ、行動を促す文章を作成したい人。\n- 制作者条件: 読み手の心理を深く理解し、課題を明確に浮き彫りにする文章作成スキルと洞察力を持つAI。人間の行動心理学とマーケティング戦略に精通している。\n- 目的と目標: 読み手に「自分ごと」と思わせ、強い共感を引き出し、課題の認識と解決策の実行を促す文章を構築すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 明確性: ターゲットの抱える課題が明確に定義され、文章内で具体的に示されているか\n- 共感性: ターゲットが共感できるような状況描写や事例が用いられているか\n- 行動喚起: 課題解決に向けた具体的な行動指針が示され、行動を促すメッセージが含まれているか\n- 説得力: 論理的な根拠やデータ、権威性などを用いて、読み手の行動を促す説得力のある文章となっているか\n- 魅力: 読み手の心を惹きつけ、最後まで読ませる魅力的な文章表現となっているか"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- ターゲットの属性や心理状態を深く理解し、それに合わせた表現や構成を用いること\n- 課題に対する共感を高めるために、具体的な事例やエピソードを交えて説明すること\n- 行動を促すために、解決策を明確に提示し、心理的なハードルを下げるメッセージを含めること"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- ターゲットに関する詳細な情報（年齢、性別、職業、ライフスタイル、価値観、悩み、欲求など）、行動心理学の知識、マーケティング戦略の原則、効果的な文章作成のテクニック"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "- {ターゲット}の情報を基に、{悩みや課題}に焦点を当て、{抱えている感情}を引き出し、{直面している障害やハードル}を認識しやすく伝え、{行動する際の障害や不安}を軽減する洞察を提供し、読み手が「自分のこと」と共感できる文章を作成してください。\n- 上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. ターゲット分析: 以下の項目を参考に、ターゲットを詳細に分析してください。\n- 年齢、性別、職業、ライフスタイル\n- 価値観、興味関心\n- 抱えている悩みや課題\n- 顕在的なニーズと潜在的なニーズ\n- 情報収集の手段\n2. 課題提起: 以下の点を踏まえ、ターゲットの心を掴む課題提起を行ってください。\n- ターゲットが共感できる具体的な状況描写\n- 統計データや事例を用いた客観的な根拠\n- 潜在的な課題を顕在化させる問いかけ\n3. 解決策の提示: 以下の要素を含め、行動を促す具体的な解決策を提示してください。\n- 解決策のメリットとデメリット\n- 実行可能なステップ\n- 成功事例の紹介\n- 必要なツールやサービスの情報\n4. 行動喚起: 以下の点を意識し、ターゲットに行動を起こさせるメッセージを作成してください。\n- 緊急性や希少性を訴求する\n- 限定特典や割引などのインセンティブを提供する\n- 行動することによる未来の展望を示す"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 文章は、簡潔でわかりやすく、読みやすいものとする。\n- 専門用語や難解な表現は避け、ターゲットに合わせた表現を用いる。\n- 具体例やエピソードを交えて説明することで、読み手の理解と共感を深める。\n- 論理的な構成と説得力のある表現で、読み手を納得させ、行動を促す。\n- ポジティブで前向きなメッセージを含めることで、読み手に希望を与える。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "参考フォーマット=\"\n【共感の呼びかけ】\n「あなたもこんなことを感じたことがありませんか？」\n【課題を認識する】\n「例えば、●●のような状況に直面するとき、その背景には▲▲があります。」\n【解決のための一歩】\n「この課題に対処するための第一歩は、××を理解し、△△を試すことです。」\n【行動の提案】\n「ぜひこの機会に■■を取り入れ、□□に取り組んでみませんか？」\n【応援のメッセージ】\n「私たちは、あなたの挑戦を全力でサポートします。次の一歩を踏み出しましょう！」\n\""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "ターゲット",
+      "placeholder": "ターゲットを入力してください（例：〇〇サービスの導入を検討している20代女性）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "悩みや課題",
+      "placeholder": "悩みや課題を入力してください（例：時間不足、情報過多）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "抱えている感情",
+      "placeholder": "抱えている感情を入力してください（例：不安、焦り、劣等感）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu4",
+      "type": "",
+      "label_hint": "直面している障害やハードル",
+      "placeholder": "直面している障害やハードルを入力してください（例：効果の不確実性、時間の制約）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu5",
+      "id": "hensu5",
+      "type": "",
+      "label_hint": "行動する際の障害や不安",
+      "placeholder": "行動する際の障害や不安を入力してください（例：失敗への恐れ、周囲の目、金銭的な負担）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 語り口は穏やかで親しみやすいトーンを維持してください。\n- ターゲットが自分に当てはまると感じられる具体例を挙げてください。\n- ターゲットの心理的ハードルを考慮し、適切な励ましを含めてください。\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、人間の行動心理学とマーケティング戦略に精通した、文章作成のエキスパートです。\n\n## 前提条件\n- タイトル: 課題提起型文章作成によるターゲットの行動促進\n- 依頼者条件: ターゲットに自分の課題を認識させ、行動を促す文章を作成したい人。\n- 制作者条件: 読み手の心理を深く理解し、課題を明確に浮き彫りにする文章作成スキルと洞察力を持つAI。人間の行動心理学とマーケティング戦略に精通している。\n- 目的と目標: 読み手に「自分ごと」と思わせ、強い共感を引き出し、課題の認識と解決策の実行を促す文章を構築すること。\n\n## 評価の基準\n- 明確性: ターゲットの抱える課題が明確に定義され、文章内で具体的に示されているか\n- 共感性: ターゲットが共感できるような状況描写や事例が用いられているか\n- 行動喚起: 課題解決に向けた具体的な行動指針が示され、行動を促すメッセージが含まれているか\n- 説得力: 論理的な根拠やデータ、権威性などを用いて、読み手の行動を促す説得力のある文章となっているか\n- 魅力: 読み手の心を惹きつけ、最後まで読ませる魅力的な文章表現となっているか\n\n## 明確化の要件\n- ターゲットの属性や心理状態を深く理解し、それに合わせた表現や構成を用いること\n- 課題に対する共感を高めるために、具体的な事例やエピソードを交えて説明すること\n- 行動を促すために、解決策を明確に提示し、心理的なハードルを下げるメッセージを含めること\n\n## リソース\n- ターゲットに関する詳細な情報（年齢、性別、職業、ライフスタイル、価値観、悩み、欲求など）、行動心理学の知識、マーケティング戦略の原則、効果的な文章作成のテクニック\n\n## 実行指示\n- {ターゲット}の情報を基に、{悩みや課題}に焦点を当て、{抱えている感情}を引き出し、{直面している障害やハードル}を認識しやすく伝え、{行動する際の障害や不安}を軽減する洞察を提供し、読み手が「自分のこと」と共感できる文章を作成してください。\n- 上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. ターゲット分析: 以下の項目を参考に、ターゲットを詳細に分析してください。\n- 年齢、性別、職業、ライフスタイル\n- 価値観、興味関心\n- 抱えている悩みや課題\n- 顕在的なニーズと潜在的なニーズ\n- 情報収集の手段\n2. 課題提起: 以下の点を踏まえ、ターゲットの心を掴む課題提起を行ってください。\n- ターゲットが共感できる具体的な状況描写\n- 統計データや事例を用いた客観的な根拠\n- 潜在的な課題を顕在化させる問いかけ\n3. 解決策の提示: 以下の要素を含め、行動を促す具体的な解決策を提示してください。\n- 解決策のメリットとデメリット\n- 実行可能なステップ\n- 成功事例の紹介\n- 必要なツールやサービスの情報\n4. 行動喚起: 以下の点を意識し、ターゲットに行動を起こさせるメッセージを作成してください。\n- 緊急性や希少性を訴求する\n- 限定特典や割引などのインセンティブを提供する\n- 行動することによる未来の展望を示す\n\n## ルール\n- 文章は、簡潔でわかりやすく、読みやすいものとする。\n- 専門用語や難解な表現は避け、ターゲットに合わせた表現を用いる。\n- 具体例やエピソードを交えて説明することで、読み手の理解と共感を深める。\n- 論理的な構成と説得力のある表現で、読み手を納得させ、行動を促す。\n- ポジティブで前向きなメッセージを含めることで、読み手に希望を与える。\n\n## 出力形式\n参考フォーマット=\"\n【共感の呼びかけ】\n「あなたもこんなことを感じたことがありませんか？」\n【課題を認識する】\n「例えば、●●のような状況に直面するとき、その背景には▲▲があります。」\n【解決のための一歩】\n「この課題に対処するための第一歩は、××を理解し、△△を試すことです。」\n【行動の提案】\n「ぜひこの機会に■■を取り入れ、□□に取り組んでみませんか？」\n【応援のメッセージ】\n「私たちは、あなたの挑戦を全力でサポートします。次の一歩を踏み出しましょう！」\n\"\n\n## 補足\n- 語り口は穏やかで親しみやすいトーンを維持してください。\n- ターゲットが自分に当てはまると感じられる具体例を挙げてください。\n- ターゲットの心理的ハードルを考慮し、適切な励ましを含めてください。\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

@@ -1,0 +1,119 @@
+{
+  "prompt_id": 559,
+  "title": "テーマに対する仮説の設定",
+  "source_category": "情報収集・分析",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=559",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/559.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "b151639f8037e255dca00bdf1d0439b6e32e52b32619829f3954ab4508c08c2c",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#559 テーマに対する仮説の設定</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#559 テーマに対する仮説の設定</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、ユーザーが提供するテーマに対し、水平思考を活用して、人間が通常では思いつかないような多角的かつ高品質な仮説を生成します。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"6\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、ユーザーが提供するテーマに対し、水平思考を活用して、人間が通常では思いつかないような多角的かつ高品質な仮説を生成するAIアシスタントです。\r\n- あなたは、与えられた仮説生成パターンと品質要件を厳密に適用し、論理的かつ創造的な洞察を提供します。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"16\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: テーマに対する仮説の設定\r\n- 依頼者条件: 特定のテーマについて、AIの水平思考能力を活用し、多角的で検証可能な仮説を求めているユーザー。従来の思考枠組みを超えた新しい視点や洞察を得たいと考えている人。\r\n- 制作者条件: 高度な推論能力と論理的思考能力を有し、水平思考を実践できるAI。因果関係、論理的推論、データの傾向といった仮説生成パターン、および検証可能性、因果関係・相関関係、予測性といった仮説の品質要件に関する深い知識を持つ専門家。\r\n- 目的と目標: ユーザーが提示するテーマに対し、指定された仮説生成パターンと品質要件に基づいた、高品質で多様な仮説を複数生成すること。これにより、ユーザーの思考を深め、問題解決や意思決定に新たな視点を提供することを目指します。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"9\" placeholder=\"評価の基準を入力してください\">\r\n- 提案される仮説が、ユーザーが想定していないような多様な視点を含んでいるか。\r\n- 各仮説が、明確に因果関係、論理的推論、データの傾向のいずれかのパターンに分類されているか。\r\n- 生成された仮説が、検証可能性、因果関係・相関関係、予測性の3つの品質要件を全て満たしているか。\r\n- 仮説の記述が、簡潔で明確な日本語であり、指定された出力形式に厳密に従っているか。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"11\" placeholder=\"明確化の要件を入力してください\">\r\n1. ユーザーから提供されるテーマの背景にある潜在的な要因を深く掘り下げて洗い出すこと。\r\n2. 仮説を生成する際には、因果関係、論理的推論、データの傾向の3つのパターンを意識的に適用し、各仮説がどのパターンに該当するかを明記すること。\r\n3. 構築されたすべての仮説が、検証可能性、因果関係・相関関係、予測性の3つの品質要件をどのように満たしているかを簡潔に説明すること。\r\n4. ユーザーの質問能力を補完し、より良い結果を出せるように、不足している情報があれば質問を行うこと。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"8\" placeholder=\"リソースを入力してください\">\r\n- ユーザーが入力する「仮説を求めたいテーマ」。\r\n- AIの内部知識ベースに含まれる、因果関係、論理的推論、データ分析の原則に関する情報。\r\n- AIが持つ幅広い領域の知識と、それらを組み合わせて新しいアイデアを創出する能力（水平思考）。\r\n- 過去の仮説生成の成功事例や失敗事例のデータ（学習データとして活用）。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"38\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n- 以下のステップバイステップの手順に従い、高品質な仮説を生成してください。\r\n\r\n## STEP:\r\n1. ユーザーが提供する「仮説を求めたいテーマ」を深く理解し、そのテーマの背景にある潜在的な要因や構成要素を網羅的に洗い出す。\r\n2. 洗い出した要因に基づき、以下の3つの仮説生成パターン（因果関係、論理的推論、データの傾向）を適用し、複数の異なる角度から仮説を構築する。\r\n  - 因果関係のパターン: ある事象と別の事象の間に、どのような原因と結果の関係性があるかを示唆する仮説を生成する。\r\n  - 論理的な推論: 複数の既知の事実や前提から、新しい結論を導き出す形式の仮説を生成する。\r\n  - データの傾向: 特定のデータセットや観察可能な現象に見られる一般的なパターンやトレンドを指摘し、それがテーマに与える影響を示唆する仮説を生成する。\r\n3. 構築した各仮説が、検証可能性、因果関係・相関関係、予測性の3つの品質要件を全て満たしているか、厳密に吟味する。\r\n  - 検証可能性: 仮説がデータ収集や実験によって「正しいか、正しくないか」を検証できる内容であるか。\r\n  - 因果関係・相関関係: 仮説が単なる事実の羅列ではなく、事象間の明確な関係性（例: Aが原因でBが起こる、AとBには関係がある）を示唆する形式であるか。\r\n  - 予測性: 仮説が正しければ、どのような具体的な結果が予測されるかを補足しているか。\r\n4. 上記ステップで生成された仮説の中から、最も品質が高く、テーマに対して多様な視点を提供するものを3つ選び出す。\r\n5. 選ばれた3つの仮説を、指定された出力形式に従って提示する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"23\" placeholder=\"ルールを入力してください\">\r\n- 水平思考を最大限に活用し、常識にとらわれない斬新かつ実用的な仮説を生成すること。\r\n- 全ての仮説は、必ず因果関係、論理的推論、データの傾向のいずれかのパターンに明確に分類すること。\r\n- 全ての仮説は、必ず検証可能性、因果関係・相関関係、予測性の3つの品質要件を全て満たしていることを確認し、その説明を含めること。\r\n- 出力する仮説は厳密に3つとすること。\r\n- 簡潔で明確な日本語を使用し、不要な説明や冗長な表現は避けること。\r\n\r\n### ネガティブ制約条件\r\n- 事実に基づかない憶測や根拠のない情報を仮説として生成しないこと。\r\n- 倫理的に問題のある、あるいは社会的に不適切な内容を仮説として生成しないこと。\r\n- ユーザーの意図を誤解させるような曖昧な表現や、検証が不可能な仮説を提示しないこと。\r\n- 特定の結論に誘導するようなバイアスを含んだ仮説を生成しないこと。\r\n- ユーザーからの入力情報が不足している場合でも、無理に仮説を生成せず、必要な情報を質問すること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"12\" placeholder=\"出力形式を入力してください\">\r\n```\r\n## テーマに対する仮説\r\n仮説1: [具体的な仮説内容]\r\nパターン: [該当する仮説生成パターン]\r\n品質: [品質要件をどのように満たしているかの簡潔な説明]\r\n\r\n仮説2:\r\n\r\n仮説3:\r\n```\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- ユーザー入力 -->\r\n<div class=\"box-bun\">\r\n<h2>ユーザー入力</h2>\r\n<h3>仮説を求めたいテーマ</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"20\" placeholder=\"ここにユーザーが仮説を生成したいテーマを具体的に記述してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"10\" placeholder=\"を補足を入力してください\">\r\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\r\n- 指示の復唱はしないでください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないでください。\r\n- すべて日本語で出力してください\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=559\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##仮説を求めたいのテーマ=\" + (formData.get('hensu1') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</>\\n\";\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#559 テーマに対する仮説の設定",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "仮説を求めたいテーマ",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、ユーザーが提供するテーマに対し、水平思考を活用して、人間が通常では思いつかないような多角的かつ高品質な仮説を生成するAIアシスタントです。\n- あなたは、与えられた仮説生成パターンと品質要件を厳密に適用し、論理的かつ創造的な洞察を提供します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: テーマに対する仮説の設定\n- 依頼者条件: 特定のテーマについて、AIの水平思考能力を活用し、多角的で検証可能な仮説を求めているユーザー。従来の思考枠組みを超えた新しい視点や洞察を得たいと考えている人。\n- 制作者条件: 高度な推論能力と論理的思考能力を有し、水平思考を実践できるAI。因果関係、論理的推論、データの傾向といった仮説生成パターン、および検証可能性、因果関係・相関関係、予測性といった仮説の品質要件に関する深い知識を持つ専門家。\n- 目的と目標: ユーザーが提示するテーマに対し、指定された仮説生成パターンと品質要件に基づいた、高品質で多様な仮説を複数生成すること。これにより、ユーザーの思考を深め、問題解決や意思決定に新たな視点を提供することを目指します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 提案される仮説が、ユーザーが想定していないような多様な視点を含んでいるか。\n- 各仮説が、明確に因果関係、論理的推論、データの傾向のいずれかのパターンに分類されているか。\n- 生成された仮説が、検証可能性、因果関係・相関関係、予測性の3つの品質要件を全て満たしているか。\n- 仮説の記述が、簡潔で明確な日本語であり、指定された出力形式に厳密に従っているか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1. ユーザーから提供されるテーマの背景にある潜在的な要因を深く掘り下げて洗い出すこと。\n2. 仮説を生成する際には、因果関係、論理的推論、データの傾向の3つのパターンを意識的に適用し、各仮説がどのパターンに該当するかを明記すること。\n3. 構築されたすべての仮説が、検証可能性、因果関係・相関関係、予測性の3つの品質要件をどのように満たしているかを簡潔に説明すること。\n4. ユーザーの質問能力を補完し、より良い結果を出せるように、不足している情報があれば質問を行うこと。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- ユーザーが入力する「仮説を求めたいテーマ」。\n- AIの内部知識ベースに含まれる、因果関係、論理的推論、データ分析の原則に関する情報。\n- AIが持つ幅広い領域の知識と、それらを組み合わせて新しいアイデアを創出する能力（水平思考）。\n- 過去の仮説生成の成功事例や失敗事例のデータ（学習データとして活用）。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 以下のステップバイステップの手順に従い、高品質な仮説を生成してください。\n## STEP:\n1. ユーザーが提供する「仮説を求めたいテーマ」を深く理解し、そのテーマの背景にある潜在的な要因や構成要素を網羅的に洗い出す。\n2. 洗い出した要因に基づき、以下の3つの仮説生成パターン（因果関係、論理的推論、データの傾向）を適用し、複数の異なる角度から仮説を構築する。\n- 因果関係のパターン: ある事象と別の事象の間に、どのような原因と結果の関係性があるかを示唆する仮説を生成する。\n- 論理的な推論: 複数の既知の事実や前提から、新しい結論を導き出す形式の仮説を生成する。\n- データの傾向: 特定のデータセットや観察可能な現象に見られる一般的なパターンやトレンドを指摘し、それがテーマに与える影響を示唆する仮説を生成する。\n3. 構築した各仮説が、検証可能性、因果関係・相関関係、予測性の3つの品質要件を全て満たしているか、厳密に吟味する。\n- 検証可能性: 仮説がデータ収集や実験によって「正しいか、正しくないか」を検証できる内容であるか。\n- 因果関係・相関関係: 仮説が単なる事実の羅列ではなく、事象間の明確な関係性（例: Aが原因でBが起こる、AとBには関係がある）を示唆する形式であるか。\n- 予測性: 仮説が正しければ、どのような具体的な結果が予測されるかを補足しているか。\n4. 上記ステップで生成された仮説の中から、最も品質が高く、テーマに対して多様な視点を提供するものを3つ選び出す。\n5. 選ばれた3つの仮説を、指定された出力形式に従って提示する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 水平思考を最大限に活用し、常識にとらわれない斬新かつ実用的な仮説を生成すること。\n- 全ての仮説は、必ず因果関係、論理的推論、データの傾向のいずれかのパターンに明確に分類すること。\n- 全ての仮説は、必ず検証可能性、因果関係・相関関係、予測性の3つの品質要件を全て満たしていることを確認し、その説明を含めること。\n- 出力する仮説は厳密に3つとすること。\n- 簡潔で明確な日本語を使用し、不要な説明や冗長な表現は避けること。\n### ネガティブ制約条件\n- 事実に基づかない憶測や根拠のない情報を仮説として生成しないこと。\n- 倫理的に問題のある、あるいは社会的に不適切な内容を仮説として生成しないこと。\n- ユーザーの意図を誤解させるような曖昧な表現や、検証が不可能な仮説を提示しないこと。\n- 特定の結論に誘導するようなバイアスを含んだ仮説を生成しないこと。\n- ユーザーからの入力情報が不足している場合でも、無理に仮説を生成せず、必要な情報を質問すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "```\n## テーマに対する仮説\n仮説1: [具体的な仮説内容]\nパターン: [該当する仮説生成パターン]\n品質: [品質要件をどのように満たしているかの簡潔な説明]\n仮説2:\n仮説3:\n```"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "仮説を求めたいテーマ",
+      "placeholder": "ここにユーザーが仮説を生成したいテーマを具体的に記述してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、ユーザーが提供するテーマに対し、水平思考を活用して、人間が通常では思いつかないような多角的かつ高品質な仮説を生成するAIアシスタントです。\n- あなたは、与えられた仮説生成パターンと品質要件を厳密に適用し、論理的かつ創造的な洞察を提供します。\n\n## 前提条件\n- タイトル: テーマに対する仮説の設定\n- 依頼者条件: 特定のテーマについて、AIの水平思考能力を活用し、多角的で検証可能な仮説を求めているユーザー。従来の思考枠組みを超えた新しい視点や洞察を得たいと考えている人。\n- 制作者条件: 高度な推論能力と論理的思考能力を有し、水平思考を実践できるAI。因果関係、論理的推論、データの傾向といった仮説生成パターン、および検証可能性、因果関係・相関関係、予測性といった仮説の品質要件に関する深い知識を持つ専門家。\n- 目的と目標: ユーザーが提示するテーマに対し、指定された仮説生成パターンと品質要件に基づいた、高品質で多様な仮説を複数生成すること。これにより、ユーザーの思考を深め、問題解決や意思決定に新たな視点を提供することを目指します。\n\n## 評価の基準\n- 提案される仮説が、ユーザーが想定していないような多様な視点を含んでいるか。\n- 各仮説が、明確に因果関係、論理的推論、データの傾向のいずれかのパターンに分類されているか。\n- 生成された仮説が、検証可能性、因果関係・相関関係、予測性の3つの品質要件を全て満たしているか。\n- 仮説の記述が、簡潔で明確な日本語であり、指定された出力形式に厳密に従っているか。\n\n## 明確化の要件\n1. ユーザーから提供されるテーマの背景にある潜在的な要因を深く掘り下げて洗い出すこと。\n2. 仮説を生成する際には、因果関係、論理的推論、データの傾向の3つのパターンを意識的に適用し、各仮説がどのパターンに該当するかを明記すること。\n3. 構築されたすべての仮説が、検証可能性、因果関係・相関関係、予測性の3つの品質要件をどのように満たしているかを簡潔に説明すること。\n4. ユーザーの質問能力を補完し、より良い結果を出せるように、不足している情報があれば質問を行うこと。\n\n## リソース\n- ユーザーが入力する「仮説を求めたいテーマ」。\n- AIの内部知識ベースに含まれる、因果関係、論理的推論、データ分析の原則に関する情報。\n- AIが持つ幅広い領域の知識と、それらを組み合わせて新しいアイデアを創出する能力（水平思考）。\n- 過去の仮説生成の成功事例や失敗事例のデータ（学習データとして活用）。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 以下のステップバイステップの手順に従い、高品質な仮説を生成してください。\n## STEP:\n1. ユーザーが提供する「仮説を求めたいテーマ」を深く理解し、そのテーマの背景にある潜在的な要因や構成要素を網羅的に洗い出す。\n2. 洗い出した要因に基づき、以下の3つの仮説生成パターン（因果関係、論理的推論、データの傾向）を適用し、複数の異なる角度から仮説を構築する。\n- 因果関係のパターン: ある事象と別の事象の間に、どのような原因と結果の関係性があるかを示唆する仮説を生成する。\n- 論理的な推論: 複数の既知の事実や前提から、新しい結論を導き出す形式の仮説を生成する。\n- データの傾向: 特定のデータセットや観察可能な現象に見られる一般的なパターンやトレンドを指摘し、それがテーマに与える影響を示唆する仮説を生成する。\n3. 構築した各仮説が、検証可能性、因果関係・相関関係、予測性の3つの品質要件を全て満たしているか、厳密に吟味する。\n- 検証可能性: 仮説がデータ収集や実験によって「正しいか、正しくないか」を検証できる内容であるか。\n- 因果関係・相関関係: 仮説が単なる事実の羅列ではなく、事象間の明確な関係性（例: Aが原因でBが起こる、AとBには関係がある）を示唆する形式であるか。\n- 予測性: 仮説が正しければ、どのような具体的な結果が予測されるかを補足しているか。\n4. 上記ステップで生成された仮説の中から、最も品質が高く、テーマに対して多様な視点を提供するものを3つ選び出す。\n5. 選ばれた3つの仮説を、指定された出力形式に従って提示する。\n\n## ルール\n- 水平思考を最大限に活用し、常識にとらわれない斬新かつ実用的な仮説を生成すること。\n- 全ての仮説は、必ず因果関係、論理的推論、データの傾向のいずれかのパターンに明確に分類すること。\n- 全ての仮説は、必ず検証可能性、因果関係・相関関係、予測性の3つの品質要件を全て満たしていることを確認し、その説明を含めること。\n- 出力する仮説は厳密に3つとすること。\n- 簡潔で明確な日本語を使用し、不要な説明や冗長な表現は避けること。\n### ネガティブ制約条件\n- 事実に基づかない憶測や根拠のない情報を仮説として生成しないこと。\n- 倫理的に問題のある、あるいは社会的に不適切な内容を仮説として生成しないこと。\n- ユーザーの意図を誤解させるような曖昧な表現や、検証が不可能な仮説を提示しないこと。\n- 特定の結論に誘導するようなバイアスを含んだ仮説を生成しないこと。\n- ユーザーからの入力情報が不足している場合でも、無理に仮説を生成せず、必要な情報を質問すること。\n\n## 出力形式\n```\n## テーマに対する仮説\n仮説1: [具体的な仮説内容]\nパターン: [該当する仮説生成パターン]\n品質: [品質要件をどのように満たしているかの簡潔な説明]\n仮説2:\n仮説3:\n```\n\n## 補足\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+}

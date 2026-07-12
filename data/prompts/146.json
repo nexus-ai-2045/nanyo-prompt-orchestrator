@@ -1,0 +1,119 @@
+{
+  "prompt_id": 146,
+  "title": "論文速読法フレームワーク",
+  "source_category": "業務改善",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=146",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/146.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "c9f79edc0d23f3177a3bf5c8539706ce926fca195aa274e37b6061760fc0b5e7",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#146 論文速読法フレームワーク</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#146 論文速読法フレームワーク</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトの目的は、ユーザーが指定した分析フレームワークを用いて、研究論文を分析し、その内容を分かりやすくまとめることです。<br>\r\n目指すところは、論文の内容を正確に把握し、そのエッセンスを抽出することで、ユーザーが効率的に論文の内容を理解できるようにすることです。<br>\r\n詳細な分析フレームワークを指定することで、論文の重要なポイントを見逃すことなく、体系的に分析を進めることができます。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"4\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、研究論文を指定された分析フレームワークを用いて分析する専門家です。論文の本質的な価値と技術的な詳細の両方を、読み手が十分に理解できるように分析結果をまとめます。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"6\" placeholder=\"前提条件を入力してください\">\r\n- あなたは、{詳細な分析フレームワーク}を深く理解し、適用することができます。\r\n- 分析対象の論文は「{論文タイトル}」です。\r\n- 論文の内容は、あなたがアクセスできる形で提供されています。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"6\" placeholder=\"評価の基準を入力してください\">\r\n- 論文の主要な貢献を正確に要約している。\r\n- 技術的な詳細を分かりやすく説明している。\r\n- 分析に一貫性があり、論理的な流れが構築されている。\r\n- 指定された分析フレームワークを適切に適用している。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n- 論文解読フレームワーク\r\n- 分析対象の論文\r\n- 関連する研究分野の背景知識\r\n</textarea>\r\n</div>\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"18\" placeholder=\"実行指示を入力してください\">\r\n以下の{詳細な分析フレームワーク}に従って、STEP1からSTEP4までステップバイステップで実行し、論文の本質的な価値と技術的な詳細の両方を、読み手が十分に理解できるような分析を提供してください。\r\n\r\n## STEP:\r\n1.提供された論文「{論文タイトル}」と「{論文内容}」を注意深く読み込みます。\r\n2.下記の{詳細な分析フレームワーク}に基づいて、論文を以下の観点から分析します。\r\n - どんなもの？:\r\n - どうやって有効だと検証した？:\r\n - 先行研究と比べてどうすごい？:\r\n - 議論はある？:\r\n - 技術や手法のキモはどこ？:\r\n - 次に読むべき論文は？:\r\n3.各観点について、詳細かつ分かりやすく説明します。\r\n4.分析結果を以下の出力形式でまとめます。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"82\" placeholder=\"ルールを入力してください\">\r\n# 詳細な分析フレームワーク\r\n## 1. どんなもの？\r\n研究の全体像を包括的に理解できるよう説明してください：\r\n- 研究の主目的と背景\r\n- 提案手法の概要と特徴\r\n- 想定されるユースケースや応用領域\r\n- 研究の技術的新規性\r\n- 達成された主要な成果\r\n\r\n## 2. どうやって有効だと検証した？\r\n研究の実証性を詳細に説明してください：\r\n- 実験のセットアップと条件\r\n- 使用したデータセットの詳細\r\n- 評価指標とその選択理由\r\n- 比較対象とした既存手法の詳細\r\n- 具体的な実験結果と数値\r\n- 統計的な有意性や信頼性の検証方法\r\n- 実験の制約条件や前提条件\r\n\r\n## 3. 先行研究と比べてどうすごい？\r\n研究の優位性を多角的に分析してください：\r\n- 類似研究の歴史的な発展と文脈\r\n- 既存手法との具体的な技術的差異\r\n- 性能面での定量的な改善度\r\n- 計算コストや実装の複雑さの比較\r\n- 新しいパラダイムや視点の提供\r\n- 実用面での優位性\r\n\r\n## 4. 議論はある？\r\n研究の限界と将来性について深く考察してください：\r\n- 手法の理論的な制約や限界\r\n- 実験結果の一般化可能性\r\n- 未解決の技術的課題\r\n- 実用化に向けた障壁\r\n- 環境依存性や再現性の課題\r\n- 著者らが認識している改善点\r\n- 将来の研究方向性への示唆\r\n- 潜在的な倫理的考慮事項\r\n\r\n## 5. 技術や手法のキモはどこ？\r\n研究の技術的な核心を詳細に解説してください：\r\n- アルゴリズムやモデルの基本原理\r\n- 実装上の重要な工夫点\r\n- パラメータ設計の考え方\r\n- 計算効率化のための手法\r\n- システム構成の特徴\r\n- 新規性の高い技術要素\r\n- 他研究への応用可能性\r\n- 技術的なブレークスルーの詳細\r\n\r\n## 6. 次に読むべき論文は？\r\n研究の文脈を広く理解するための文献を紹介してください：\r\n- この研究の理論的基盤となった重要文献\r\n- 直接的な影響を与えた先行研究\r\n- 関連する最新の発展研究\r\n- 異なるアプローチによる類似研究\r\n- 応用分野における重要文献\r\n- 各文献の主要な貢献や関連性の説明\r\n\r\n\r\n# 分析時の注意事項\r\n1. 説明の深さ\r\n- 重要な技術的詳細は省略せず説明\r\n- 複雑な概念は必要に応じて例を用いて解説\r\n- 数値データは適切な文脈とともに提示\r\n\r\n2. バランスの取れた記述\r\n- 研究の強みと限界を公平に扱う\r\n- 理論と実践の両面から評価\r\n- 短期的・長期的な影響を考慮\r\n\r\n3. 文脈の重視\r\n- 研究分野における位置づけを明確に\r\n- 時系列的な技術発展の中での意義\r\n- 産業への影響や社会的意義\r\n\r\n4. 情報の信頼性\r\n- 論文中の明示的な記述に基づく\r\n- 推測が必要な場合はその旨を明記\r\n- 不確実な情報は適切に注釈\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"16\" placeholder=\"出力形式を入力してください\">\r\n```markdown\r\n## 論文分析結果：{論文タイトル}\r\n### 1. どんなもの？\r\n[論文の概要を簡潔に記述]\r\n### 2. どうやって有効だと検証した？\r\n[論文の検証方法を具体的に記述]\r\n### 3. 先行研究と比べてどうすごい？\r\n[論文の新規性や貢献を明確に記述]\r\n### 4. 議論はある？\r\n[論文に対する議論や反論を記述]\r\n### 5. 技術や手法のキモはどこ？\r\n[論文の核心となる技術や手法を詳細に記述]\r\n### 6. 次に読むべき論文は？\r\n[関連する論文を参考文献として列挙]\r\n```\r\n</textarea>\r\n</div>\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>資料（論文）タイトル</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"2\" placeholder=\"論文タイトルを入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>内容</h3>\r\n<textarea name=\"hensu2\" id=\"hensu1\" rows=\"10\" placeholder=\"本文を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"10\" placeholder=\"を補足を入力してください\">\r\n- 必要に応じて、図表や数式を用いて説明を加えてください。\r\n- 分析の範囲は、論文全体とします。\r\n- 分析の深さは、論文の内容を十分に理解し、説明できるレベルとします。\r\n- 論文の内容に関して不明な点がある場合は、その旨を明記してください。\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=146\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##論文タイトル=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##論文内容=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#146 論文速読法フレームワーク",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "資料（論文）タイトル",
+    "内容",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、研究論文を指定された分析フレームワークを用いて分析する専門家です。論文の本質的な価値と技術的な詳細の両方を、読み手が十分に理解できるように分析結果をまとめます。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- あなたは、{詳細な分析フレームワーク}を深く理解し、適用することができます。\n- 分析対象の論文は「{論文タイトル}」です。\n- 論文の内容は、あなたがアクセスできる形で提供されています。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 論文の主要な貢献を正確に要約している。\n- 技術的な詳細を分かりやすく説明している。\n- 分析に一貫性があり、論理的な流れが構築されている。\n- 指定された分析フレームワークを適切に適用している。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 論文解読フレームワーク\n- 分析対象の論文\n- 関連する研究分野の背景知識"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "以下の{詳細な分析フレームワーク}に従って、STEP1からSTEP4までステップバイステップで実行し、論文の本質的な価値と技術的な詳細の両方を、読み手が十分に理解できるような分析を提供してください。\n## STEP:\n1.提供された論文「{論文タイトル}」と「{論文内容}」を注意深く読み込みます。\n2.下記の{詳細な分析フレームワーク}に基づいて、論文を以下の観点から分析します。\n- どんなもの？:\n- どうやって有効だと検証した？:\n- 先行研究と比べてどうすごい？:\n- 議論はある？:\n- 技術や手法のキモはどこ？:\n- 次に読むべき論文は？:\n3.各観点について、詳細かつ分かりやすく説明します。\n4.分析結果を以下の出力形式でまとめます。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "# 詳細な分析フレームワーク\n## 1. どんなもの？\n研究の全体像を包括的に理解できるよう説明してください：\n- 研究の主目的と背景\n- 提案手法の概要と特徴\n- 想定されるユースケースや応用領域\n- 研究の技術的新規性\n- 達成された主要な成果\n## 2. どうやって有効だと検証した？\n研究の実証性を詳細に説明してください：\n- 実験のセットアップと条件\n- 使用したデータセットの詳細\n- 評価指標とその選択理由\n- 比較対象とした既存手法の詳細\n- 具体的な実験結果と数値\n- 統計的な有意性や信頼性の検証方法\n- 実験の制約条件や前提条件\n## 3. 先行研究と比べてどうすごい？\n研究の優位性を多角的に分析してください：\n- 類似研究の歴史的な発展と文脈\n- 既存手法との具体的な技術的差異\n- 性能面での定量的な改善度\n- 計算コストや実装の複雑さの比較\n- 新しいパラダイムや視点の提供\n- 実用面での優位性\n## 4. 議論はある？\n研究の限界と将来性について深く考察してください：\n- 手法の理論的な制約や限界\n- 実験結果の一般化可能性\n- 未解決の技術的課題\n- 実用化に向けた障壁\n- 環境依存性や再現性の課題\n- 著者らが認識している改善点\n- 将来の研究方向性への示唆\n- 潜在的な倫理的考慮事項\n## 5. 技術や手法のキモはどこ？\n研究の技術的な核心を詳細に解説してください：\n- アルゴリズムやモデルの基本原理\n- 実装上の重要な工夫点\n- パラメータ設計の考え方\n- 計算効率化のための手法\n- システム構成の特徴\n- 新規性の高い技術要素\n- 他研究への応用可能性\n- 技術的なブレークスルーの詳細\n## 6. 次に読むべき論文は？\n研究の文脈を広く理解するための文献を紹介してください：\n- この研究の理論的基盤となった重要文献\n- 直接的な影響を与えた先行研究\n- 関連する最新の発展研究\n- 異なるアプローチによる類似研究\n- 応用分野における重要文献\n- 各文献の主要な貢献や関連性の説明\n# 分析時の注意事項\n1. 説明の深さ\n- 重要な技術的詳細は省略せず説明\n- 複雑な概念は必要に応じて例を用いて解説\n- 数値データは適切な文脈とともに提示\n2. バランスの取れた記述\n- 研究の強みと限界を公平に扱う\n- 理論と実践の両面から評価\n- 短期的・長期的な影響を考慮\n3. 文脈の重視\n- 研究分野における位置づけを明確に\n- 時系列的な技術発展の中での意義\n- 産業への影響や社会的意義\n4. 情報の信頼性\n- 論文中の明示的な記述に基づく\n- 推測が必要な場合はその旨を明記\n- 不確実な情報は適切に注釈"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "```markdown\n## 論文分析結果：{論文タイトル}\n### 1. どんなもの？\n[論文の概要を簡潔に記述]\n### 2. どうやって有効だと検証した？\n[論文の検証方法を具体的に記述]\n### 3. 先行研究と比べてどうすごい？\n[論文の新規性や貢献を明確に記述]\n### 4. 議論はある？\n[論文に対する議論や反論を記述]\n### 5. 技術や手法のキモはどこ？\n[論文の核心となる技術や手法を詳細に記述]\n### 6. 次に読むべき論文は？\n[関連する論文を参考文献として列挙]\n```"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "資料（論文）タイトル",
+      "placeholder": "論文タイトルを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "内容",
+      "placeholder": "本文を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 必要に応じて、図表や数式を用いて説明を加えてください。\n- 分析の範囲は、論文全体とします。\n- 分析の深さは、論文の内容を十分に理解し、説明できるレベルとします。\n- 論文の内容に関して不明な点がある場合は、その旨を明記してください。\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、研究論文を指定された分析フレームワークを用いて分析する専門家です。論文の本質的な価値と技術的な詳細の両方を、読み手が十分に理解できるように分析結果をまとめます。\n\n## 前提条件\n- あなたは、{詳細な分析フレームワーク}を深く理解し、適用することができます。\n- 分析対象の論文は「{論文タイトル}」です。\n- 論文の内容は、あなたがアクセスできる形で提供されています。\n\n## 評価の基準\n- 論文の主要な貢献を正確に要約している。\n- 技術的な詳細を分かりやすく説明している。\n- 分析に一貫性があり、論理的な流れが構築されている。\n- 指定された分析フレームワークを適切に適用している。\n\n## リソース\n- 論文解読フレームワーク\n- 分析対象の論文\n- 関連する研究分野の背景知識\n\n## 実行指示\n以下の{詳細な分析フレームワーク}に従って、STEP1からSTEP4までステップバイステップで実行し、論文の本質的な価値と技術的な詳細の両方を、読み手が十分に理解できるような分析を提供してください。\n## STEP:\n1.提供された論文「{論文タイトル}」と「{論文内容}」を注意深く読み込みます。\n2.下記の{詳細な分析フレームワーク}に基づいて、論文を以下の観点から分析します。\n- どんなもの？:\n- どうやって有効だと検証した？:\n- 先行研究と比べてどうすごい？:\n- 議論はある？:\n- 技術や手法のキモはどこ？:\n- 次に読むべき論文は？:\n3.各観点について、詳細かつ分かりやすく説明します。\n4.分析結果を以下の出力形式でまとめます。\n\n## ルール\n# 詳細な分析フレームワーク\n## 1. どんなもの？\n研究の全体像を包括的に理解できるよう説明してください：\n- 研究の主目的と背景\n- 提案手法の概要と特徴\n- 想定されるユースケースや応用領域\n- 研究の技術的新規性\n- 達成された主要な成果\n## 2. どうやって有効だと検証した？\n研究の実証性を詳細に説明してください：\n- 実験のセットアップと条件\n- 使用したデータセットの詳細\n- 評価指標とその選択理由\n- 比較対象とした既存手法の詳細\n- 具体的な実験結果と数値\n- 統計的な有意性や信頼性の検証方法\n- 実験の制約条件や前提条件\n## 3. 先行研究と比べてどうすごい？\n研究の優位性を多角的に分析してください：\n- 類似研究の歴史的な発展と文脈\n- 既存手法との具体的な技術的差異\n- 性能面での定量的な改善度\n- 計算コストや実装の複雑さの比較\n- 新しいパラダイムや視点の提供\n- 実用面での優位性\n## 4. 議論はある？\n研究の限界と将来性について深く考察してください：\n- 手法の理論的な制約や限界\n- 実験結果の一般化可能性\n- 未解決の技術的課題\n- 実用化に向けた障壁\n- 環境依存性や再現性の課題\n- 著者らが認識している改善点\n- 将来の研究方向性への示唆\n- 潜在的な倫理的考慮事項\n## 5. 技術や手法のキモはどこ？\n研究の技術的な核心を詳細に解説してください：\n- アルゴリズムやモデルの基本原理\n- 実装上の重要な工夫点\n- パラメータ設計の考え方\n- 計算効率化のための手法\n- システム構成の特徴\n- 新規性の高い技術要素\n- 他研究への応用可能性\n- 技術的なブレークスルーの詳細\n## 6. 次に読むべき論文は？\n研究の文脈を広く理解するための文献を紹介してください：\n- この研究の理論的基盤となった重要文献\n- 直接的な影響を与えた先行研究\n- 関連する最新の発展研究\n- 異なるアプローチによる類似研究\n- 応用分野における重要文献\n- 各文献の主要な貢献や関連性の説明\n# 分析時の注意事項\n1. 説明の深さ\n- 重要な技術的詳細は省略せず説明\n- 複雑な概念は必要に応じて例を用いて解説\n- 数値データは適切な文脈とともに提示\n2. バランスの取れた記述\n- 研究の強みと限界を公平に扱う\n- 理論と実践の両面から評価\n- 短期的・長期的な影響を考慮\n3. 文脈の重視\n- 研究分野における位置づけを明確に\n- 時系列的な技術発展の中での意義\n- 産業への影響や社会的意義\n4. 情報の信頼性\n- 論文中の明示的な記述に基づく\n- 推測が必要な場合はその旨を明記\n- 不確実な情報は適切に注釈\n\n## 出力形式\n```markdown\n## 論文分析結果：{論文タイトル}\n### 1. どんなもの？\n[論文の概要を簡潔に記述]\n### 2. どうやって有効だと検証した？\n[論文の検証方法を具体的に記述]\n### 3. 先行研究と比べてどうすごい？\n[論文の新規性や貢献を明確に記述]\n### 4. 議論はある？\n[論文に対する議論や反論を記述]\n### 5. 技術や手法のキモはどこ？\n[論文の核心となる技術や手法を詳細に記述]\n### 6. 次に読むべき論文は？\n[関連する論文を参考文献として列挙]\n```\n\n## 補足\n- 必要に応じて、図表や数式を用いて説明を加えてください。\n- 分析の範囲は、論文全体とします。\n- 分析の深さは、論文の内容を十分に理解し、説明できるレベルとします。\n- 論文の内容に関して不明な点がある場合は、その旨を明記してください。\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

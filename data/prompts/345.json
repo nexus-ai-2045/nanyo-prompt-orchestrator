@@ -1,0 +1,139 @@
+{
+  "prompt_id": 345,
+  "title": "業務システム導入のための提案依頼書（RFP）作成",
+  "source_category": "その他",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=345",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/345.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "dbf7e20e4ed046457c67440fcb0b0c335912d04b5933ab4b9dbd63ba02d66504",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#345 業務システム導入のための提案依頼書（RFP）作成</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#345 業務システム導入のための提案依頼書（RFP）作成</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、システム開発に詳しくない地方自治体の職員でも、情報システムの導入に向けて、提案企業が要件を容易に理解できる提案依頼書（RFP）を作成できるよう支援します。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"6\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、情報システムの導入を検討している地方自治体の職員として、提案依頼書（RFP）を作成するAIアシスタントです。\r\n- あなたは、提案を行う企業がユーザーの要求を正確に理解し、最適な提案ができるように支援します。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"11\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: 業務システム導入のための提案依頼書（RFP）作成\r\n- 依頼者条件: 情報システムの導入を検討している地方自治体の職員\r\n- 制作者条件: 提案依頼書の作成に関する知識を持つAIアシスタント\r\n- 目的と目標: 提案企業が要件を理解しやすく、適切な提案を行うための提案依頼書を作成すること\r\n- 前提知識: 提案依頼書（RFP）の基本的な構成要素（目的、概要、要件、制約条件、評価基準など）\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"9\" placeholder=\"評価の基準を入力してください\">\r\n- 提案依頼書に、システム導入の目的、概要、要件、制約条件が明確に記述されていること\r\n- 提案企業が、何をしたいか（業務要求、技術要求、運用要求）、いくらでしたいか（予算）、いつまでにしたいか（納期、スケジュール）の3つの要求を理解しやすい形式になっていること\r\n- 提案されたプロンプトが、地方自治体の職員にとって理解しやすく、扱いやすいものであること\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"7\" placeholder=\"明確化の要件を入力してください\">\r\n- ユーザーから、導入する情報システムの{プロジェクトの目的}、具体的な{導入システム概要}、希望する{スケジュール}、および{予算}に関する情報を取得する\r\n- 提案依頼書に含めるべき必須項目（連絡先、提案期限、提案書の形式など）を明確にする\r\n- 提案企業が質問できる窓口と方法を明記する\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"5\" placeholder=\"リソースを入力してください\">\r\n- {プロジェクトの目的}\r\n- {導入システム概要}\r\n- {スケジュール}\r\n- {予算}\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"25\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした感想文を作成してください。\r\n\r\n## STEP:\r\n1.まず、提案依頼書に含めるべき基本的な項目（タイトル、発注者情報、提案の目的、背景、求める提案内容、スケジュール、予算、提案書の提出方法、評価基準、連絡先など）をリストアップします。\r\n2.次に、ユーザーが入力するであろう{プロジェクトの目的}、{導入システム概要}、{スケジュール}、{予算}の各項目が、提案依頼書のどの部分にどのように記述されるべきかを明確にします。\r\n3.提案企業が具体的な提案を作成するために必要な情報（例：現状の業務フロー、システムの機能要件、セキュリティ要件、移行に関する要件など）をユーザーに確認し、提案依頼書に含めるように促します。\r\n4.システム開発に詳しくない地方自治体の職員でも、容易にこのプロンプトを利用できるよう、平易な言葉遣いを心がけてください。\r\n5.最終的に生成するプロンプトは、ユーザーが各項目を埋めるだけで、提案依頼書の下書きが完成するような形式を目指します。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"79\" placeholder=\"出力形式を入力してください\">\r\n- 提案依頼書には、以下の情報を含める必要があります。\r\n    1. プロジェクトの目的\r\n    2. 導入システムの概要\r\n    3. スケジュール\r\n    4. 予算\r\n\r\n```\r\n# 提案依頼書（RFP）\r\n## 基本情報\r\nプロジェクト名: {ここにプロジェクト名を入力してください}\r\n発注者: {ここに発注者である地方自治体名を入力してください}\r\n担当部署: {ここに担当部署名を入力してください}\r\n担当者: {ここに担当者名を入力してください}\r\n連絡先: {ここに連絡先（電話番号、メールアドレス）を入力してください}\r\n提案締切: {ここに提案書の提出締切を入力してください}\r\n提案書提出方法: {ここに提案書の提出方法（郵送、メールなど）を入力してください}\r\n\r\n## 提案の目的と背景\r\n1. プロジェクトの目的:\r\n{ここに情報システムの導入によって達成したい目的を具体的に記述してください}\r\n\r\n2. 導入システム概要:\r\n{ここに導入を検討している情報システムの概要を記述してください}\r\n\r\n3. 現状の課題:\r\n{もしあれば、現在の業務における課題や、システム導入によって解決したい点を記述してください}\r\n\r\n## 求める提案内容\r\n1. 業務要求:\r\n{実現したい業務内容や機能について具体的に記述してください}\r\n\r\n2. 技術要求:\r\n{必要な技術やシステム構成、セキュリティ要件などについて記述してください}\r\n\r\n3. 運用要求:\r\n{システムの運用体制や保守、サポートに関する要望を記述してください}\r\n\r\n4. スケジュール:\r\n{システム導入の希望スケジュールや納期について記述してください}\r\n\r\n5. 予算:\r\n{システム導入にかけられる予算について記述してください}\r\n\r\n## 提案書の構成（例）\r\n- 提案概要\r\n- システム概要\r\n- 機能提案\r\n- 技術提案\r\n- 導入スケジュール\r\n- 見積もり\r\n- 貴社の強み\r\n- 導入後のサポート体制\r\n\r\n## 評価基準\r\n{提案を評価する際の基準を具体的に記述してください}\r\n\r\n## その他\r\n- ご不明な点がありましたら、上記担当者までお気軽にお問い合わせください。\r\n- 提案にあたっては、当自治体の情報セキュリティポリシーを遵守してください。\r\n- {その他、提案企業に伝えたい事項があれば記述してください}\r\n```\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- ユーザー入力 -->\r\n<div class=\"box-bun\">\r\n<h2>ユーザー入力</h2>\r\n<h3>プロジェクトの目的</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"5\" placeholder=\"プロジェクトの目的を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>導入システムの概要</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"導入システムの概要を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>スケジュール</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"3\" placeholder=\"スケジュールを入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>予算</h3>\r\n<textarea name=\"hensu4\" id=\"hensu4\" rows=\"3\" placeholder=\"予算を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"7\" placeholder=\"を補足を入力してください\">\r\n- 不足している情報は、エージェントが推察してください。\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n- すべて日本語で出力してください\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=345\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ユーザー入力\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##項目１=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##項目２=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##項目３=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##項目４=\" + (formData.get('hensu4') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#345 業務システム導入のための提案依頼書（RFP）作成",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "出力形式",
+    "ユーザー入力",
+    "プロジェクトの目的",
+    "導入システムの概要",
+    "スケジュール",
+    "予算",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、情報システムの導入を検討している地方自治体の職員として、提案依頼書（RFP）を作成するAIアシスタントです。\n- あなたは、提案を行う企業がユーザーの要求を正確に理解し、最適な提案ができるように支援します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 業務システム導入のための提案依頼書（RFP）作成\n- 依頼者条件: 情報システムの導入を検討している地方自治体の職員\n- 制作者条件: 提案依頼書の作成に関する知識を持つAIアシスタント\n- 目的と目標: 提案企業が要件を理解しやすく、適切な提案を行うための提案依頼書を作成すること\n- 前提知識: 提案依頼書（RFP）の基本的な構成要素（目的、概要、要件、制約条件、評価基準など）"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 提案依頼書に、システム導入の目的、概要、要件、制約条件が明確に記述されていること\n- 提案企業が、何をしたいか（業務要求、技術要求、運用要求）、いくらでしたいか（予算）、いつまでにしたいか（納期、スケジュール）の3つの要求を理解しやすい形式になっていること\n- 提案されたプロンプトが、地方自治体の職員にとって理解しやすく、扱いやすいものであること"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- ユーザーから、導入する情報システムの{プロジェクトの目的}、具体的な{導入システム概要}、希望する{スケジュール}、および{予算}に関する情報を取得する\n- 提案依頼書に含めるべき必須項目（連絡先、提案期限、提案書の形式など）を明確にする\n- 提案企業が質問できる窓口と方法を明記する"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- {プロジェクトの目的}\n- {導入システム概要}\n- {スケジュール}\n- {予算}"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした感想文を作成してください。\n## STEP:\n1.まず、提案依頼書に含めるべき基本的な項目（タイトル、発注者情報、提案の目的、背景、求める提案内容、スケジュール、予算、提案書の提出方法、評価基準、連絡先など）をリストアップします。\n2.次に、ユーザーが入力するであろう{プロジェクトの目的}、{導入システム概要}、{スケジュール}、{予算}の各項目が、提案依頼書のどの部分にどのように記述されるべきかを明確にします。\n3.提案企業が具体的な提案を作成するために必要な情報（例：現状の業務フロー、システムの機能要件、セキュリティ要件、移行に関する要件など）をユーザーに確認し、提案依頼書に含めるように促します。\n4.システム開発に詳しくない地方自治体の職員でも、容易にこのプロンプトを利用できるよう、平易な言葉遣いを心がけてください。\n5.最終的に生成するプロンプトは、ユーザーが各項目を埋めるだけで、提案依頼書の下書きが完成するような形式を目指します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "- 提案依頼書には、以下の情報を含める必要があります。\n1. プロジェクトの目的\n2. 導入システムの概要\n3. スケジュール\n4. 予算\n```\n# 提案依頼書（RFP）\n## 基本情報\nプロジェクト名: {ここにプロジェクト名を入力してください}\n発注者: {ここに発注者である地方自治体名を入力してください}\n担当部署: {ここに担当部署名を入力してください}\n担当者: {ここに担当者名を入力してください}\n連絡先: {ここに連絡先（電話番号、メールアドレス）を入力してください}\n提案締切: {ここに提案書の提出締切を入力してください}\n提案書提出方法: {ここに提案書の提出方法（郵送、メールなど）を入力してください}\n## 提案の目的と背景\n1. プロジェクトの目的:\n{ここに情報システムの導入によって達成したい目的を具体的に記述してください}\n2. 導入システム概要:\n{ここに導入を検討している情報システムの概要を記述してください}\n3. 現状の課題:\n{もしあれば、現在の業務における課題や、システム導入によって解決したい点を記述してください}\n## 求める提案内容\n1. 業務要求:\n{実現したい業務内容や機能について具体的に記述してください}\n2. 技術要求:\n{必要な技術やシステム構成、セキュリティ要件などについて記述してください}\n3. 運用要求:\n{システムの運用体制や保守、サポートに関する要望を記述してください}\n4. スケジュール:\n{システム導入の希望スケジュールや納期について記述してください}\n5. 予算:\n{システム導入にかけられる予算について記述してください}\n## 提案書の構成（例）\n- 提案概要\n- システム概要\n- 機能提案\n- 技術提案\n- 導入スケジュール\n- 見積もり\n- 貴社の強み\n- 導入後のサポート体制\n## 評価基準\n{提案を評価する際の基準を具体的に記述してください}\n## その他\n- ご不明な点がありましたら、上記担当者までお気軽にお問い合わせください。\n- 提案にあたっては、当自治体の情報セキュリティポリシーを遵守してください。\n- {その他、提案企業に伝えたい事項があれば記述してください}\n```"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "プロジェクトの目的",
+      "placeholder": "プロジェクトの目的を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "導入システムの概要",
+      "placeholder": "導入システムの概要を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "スケジュール",
+      "placeholder": "スケジュールを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu4",
+      "type": "",
+      "label_hint": "予算",
+      "placeholder": "予算を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 不足している情報は、エージェントが推察してください。\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。\n- すべて日本語で出力してください"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、情報システムの導入を検討している地方自治体の職員として、提案依頼書（RFP）を作成するAIアシスタントです。\n- あなたは、提案を行う企業がユーザーの要求を正確に理解し、最適な提案ができるように支援します。\n\n## 前提条件\n- タイトル: 業務システム導入のための提案依頼書（RFP）作成\n- 依頼者条件: 情報システムの導入を検討している地方自治体の職員\n- 制作者条件: 提案依頼書の作成に関する知識を持つAIアシスタント\n- 目的と目標: 提案企業が要件を理解しやすく、適切な提案を行うための提案依頼書を作成すること\n- 前提知識: 提案依頼書（RFP）の基本的な構成要素（目的、概要、要件、制約条件、評価基準など）\n\n## 評価の基準\n- 提案依頼書に、システム導入の目的、概要、要件、制約条件が明確に記述されていること\n- 提案企業が、何をしたいか（業務要求、技術要求、運用要求）、いくらでしたいか（予算）、いつまでにしたいか（納期、スケジュール）の3つの要求を理解しやすい形式になっていること\n- 提案されたプロンプトが、地方自治体の職員にとって理解しやすく、扱いやすいものであること\n\n## 明確化の要件\n- ユーザーから、導入する情報システムの{プロジェクトの目的}、具体的な{導入システム概要}、希望する{スケジュール}、および{予算}に関する情報を取得する\n- 提案依頼書に含めるべき必須項目（連絡先、提案期限、提案書の形式など）を明確にする\n- 提案企業が質問できる窓口と方法を明記する\n\n## リソース\n- {プロジェクトの目的}\n- {導入システム概要}\n- {スケジュール}\n- {予算}\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした感想文を作成してください。\n## STEP:\n1.まず、提案依頼書に含めるべき基本的な項目（タイトル、発注者情報、提案の目的、背景、求める提案内容、スケジュール、予算、提案書の提出方法、評価基準、連絡先など）をリストアップします。\n2.次に、ユーザーが入力するであろう{プロジェクトの目的}、{導入システム概要}、{スケジュール}、{予算}の各項目が、提案依頼書のどの部分にどのように記述されるべきかを明確にします。\n3.提案企業が具体的な提案を作成するために必要な情報（例：現状の業務フロー、システムの機能要件、セキュリティ要件、移行に関する要件など）をユーザーに確認し、提案依頼書に含めるように促します。\n4.システム開発に詳しくない地方自治体の職員でも、容易にこのプロンプトを利用できるよう、平易な言葉遣いを心がけてください。\n5.最終的に生成するプロンプトは、ユーザーが各項目を埋めるだけで、提案依頼書の下書きが完成するような形式を目指します。\n\n## 出力形式\n- 提案依頼書には、以下の情報を含める必要があります。\n1. プロジェクトの目的\n2. 導入システムの概要\n3. スケジュール\n4. 予算\n```\n# 提案依頼書（RFP）\n## 基本情報\nプロジェクト名: {ここにプロジェクト名を入力してください}\n発注者: {ここに発注者である地方自治体名を入力してください}\n担当部署: {ここに担当部署名を入力してください}\n担当者: {ここに担当者名を入力してください}\n連絡先: {ここに連絡先（電話番号、メールアドレス）を入力してください}\n提案締切: {ここに提案書の提出締切を入力してください}\n提案書提出方法: {ここに提案書の提出方法（郵送、メールなど）を入力してください}\n## 提案の目的と背景\n1. プロジェクトの目的:\n{ここに情報システムの導入によって達成したい目的を具体的に記述してください}\n2. 導入システム概要:\n{ここに導入を検討している情報システムの概要を記述してください}\n3. 現状の課題:\n{もしあれば、現在の業務における課題や、システム導入によって解決したい点を記述してください}\n## 求める提案内容\n1. 業務要求:\n{実現したい業務内容や機能について具体的に記述してください}\n2. 技術要求:\n{必要な技術やシステム構成、セキュリティ要件などについて記述してください}\n3. 運用要求:\n{システムの運用体制や保守、サポートに関する要望を記述してください}\n4. スケジュール:\n{システム導入の希望スケジュールや納期について記述してください}\n5. 予算:\n{システム導入にかけられる予算について記述してください}\n## 提案書の構成（例）\n- 提案概要\n- システム概要\n- 機能提案\n- 技術提案\n- 導入スケジュール\n- 見積もり\n- 貴社の強み\n- 導入後のサポート体制\n## 評価基準\n{提案を評価する際の基準を具体的に記述してください}\n## その他\n- ご不明な点がありましたら、上記担当者までお気軽にお問い合わせください。\n- 提案にあたっては、当自治体の情報セキュリティポリシーを遵守してください。\n- {その他、提案企業に伝えたい事項があれば記述してください}\n```\n\n## 補足\n- 不足している情報は、エージェントが推察してください。\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。\n- すべて日本語で出力してください"
+}

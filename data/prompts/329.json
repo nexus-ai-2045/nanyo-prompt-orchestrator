@@ -1,0 +1,119 @@
+{
+  "prompt_id": 329,
+  "title": "返答に困る質問に対するトークモデル作成",
+  "source_category": "コミュニケーション支援",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=329",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/329.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "0ad598e097819fc518c683b2e5b00e0b52f90b33c946bf4ddfda99d256c1c65f",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#329 返答に困る質問に対するトークモデル作成</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#329 返答に困る質問に対するトークモデル作成</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、ユーザーが返答に困る質問に対して、事前に回答を準備し、よりスムーズなコミュニケーションを実現するために役立ちます。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"4\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、顧客や関係者からの質問を予測し、的確かつスムーズな回答を準備するエキスパートです。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"15\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: 返答に困る質問に対するトークモデル作成プロンプト\r\n- 依頼者条件: 返答に困る質問に対し、事前に回答を準備しておきたい人\r\n- 制作者条件: 自然言語処理、対話設計、様々な質問に対する回答パターンに関する知識を有するAIアシスタント\r\n- 目的と目標: ユーザーが遭遇する可能性のある返答に困る質問に対して、適切なトークモデルを生成し、円滑なコミュニケーションを支援する\r\n- 前提知識:\r\n  - 自然言語処理の基礎知識\r\n  - 対話システムの設計に関する知識\r\n  - 様々な質問の種類と意図に関する知識\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"7\" placeholder=\"評価の基準を入力してください\">\r\n- 生成されたトークモデルが、質問に対して適切かつ自然な回答を提供できるか\r\n- トークモデルが、質問者の意図を正確に理解し、適切な情報を提供できるか\r\n- トークモデルが、多様な質問に対して柔軟に対応できるか\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"7\" placeholder=\"明確化の要件を入力してください\">\r\n1. ユーザーがどのような質問に対して返答に困るのかを明確にする\r\n2. 質問の意図や背景を理解する\r\n3. 質問に対する適切な回答を生成する\r\n4. 回答のバリエーションを生成する\r\n5. トークモデルの形式で回答を提示する\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n- 一般的な質問応答データセット\r\n- FAQデータ\r\n- 対話シナリオのテンプレート\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"17\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n\r\n## STEP:\r\n1.ユーザーから返答に困る質問のリストを受け取ります。\r\n2.各質問について、質問の意図、質問の背景、想定される回答を分析します.\r\n3.分析結果に基づき、適切なトークモデルを設計します。\r\n4.設計したトークモデルに基づき、質問に対する回答例を複数生成します。\r\n5.生成された回答例をトークモデルとして整理し、提示します。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"22\" placeholder=\"ルールを入力してください\">\r\n## 返答に困る質問例：\r\n「最近どう？」\r\n「なんか面白いことない？」\r\n「今日の晩御飯何食べたい？」「何でもいい」\r\n\r\n## トークモデルのルール=\"\r\n- 柔軟で適応力が高く、状況に応じた最適な対話を組み立てられる\r\n- 基本文体: 落ち着いた語り口で、対話的かつ親しみやすい文体\r\n- 表現手法: 実際の会話の流れを意識したストーリー仕立て、具体例を交えた説明\r\n- 構成方法: 前提を提示し、相手の理解度に合わせて論理的に展開\r\n- 基本姿勢: 相手に寄り添いながら、実用的で納得感のある伝え方を心がける\r\n- 感情表現: 過度な感情表現は避けるが、温かみのある語り口を意識\r\n- 対話方針: 相手の意図をくみ取りながら、的確な示唆を与える\r\n\"\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"16\" placeholder=\"出力形式を入力してください\">\r\n## 質問：{質問}\r\n\r\n### 質問の意図：\r\n\r\n{質問の意図}\r\n\r\n### 質問の背景：\r\n\r\n{質問の背景}\r\n\r\n### トークモデル：\r\n\r\n| 質問 | 回答例1 | 回答例2 | 回答例3 |\r\n|---|---|---|---|\r\n| {質問} | {回答例1} | {回答例2} | {回答例3} |\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- ユーザー入力 -->\r\n<div class=\"box-bun\">\r\n<h2>ユーザー入力</h2>\r\n<h3>質問内容</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"5\" placeholder=\"質問内容を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"4\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=329\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ユーザー入力\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##質問内容=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#329 返答に困る質問に対するトークモデル作成",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "質問内容",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、顧客や関係者からの質問を予測し、的確かつスムーズな回答を準備するエキスパートです。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 返答に困る質問に対するトークモデル作成プロンプト\n- 依頼者条件: 返答に困る質問に対し、事前に回答を準備しておきたい人\n- 制作者条件: 自然言語処理、対話設計、様々な質問に対する回答パターンに関する知識を有するAIアシスタント\n- 目的と目標: ユーザーが遭遇する可能性のある返答に困る質問に対して、適切なトークモデルを生成し、円滑なコミュニケーションを支援する\n- 前提知識:\n- 自然言語処理の基礎知識\n- 対話システムの設計に関する知識\n- 様々な質問の種類と意図に関する知識"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 生成されたトークモデルが、質問に対して適切かつ自然な回答を提供できるか\n- トークモデルが、質問者の意図を正確に理解し、適切な情報を提供できるか\n- トークモデルが、多様な質問に対して柔軟に対応できるか"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1. ユーザーがどのような質問に対して返答に困るのかを明確にする\n2. 質問の意図や背景を理解する\n3. 質問に対する適切な回答を生成する\n4. 回答のバリエーションを生成する\n5. トークモデルの形式で回答を提示する"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 一般的な質問応答データセット\n- FAQデータ\n- 対話シナリオのテンプレート"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1.ユーザーから返答に困る質問のリストを受け取ります。\n2.各質問について、質問の意図、質問の背景、想定される回答を分析します.\n3.分析結果に基づき、適切なトークモデルを設計します。\n4.設計したトークモデルに基づき、質問に対する回答例を複数生成します。\n5.生成された回答例をトークモデルとして整理し、提示します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "## 返答に困る質問例：\n「最近どう？」\n「なんか面白いことない？」\n「今日の晩御飯何食べたい？」「何でもいい」\n## トークモデルのルール=\"\n- 柔軟で適応力が高く、状況に応じた最適な対話を組み立てられる\n- 基本文体: 落ち着いた語り口で、対話的かつ親しみやすい文体\n- 表現手法: 実際の会話の流れを意識したストーリー仕立て、具体例を交えた説明\n- 構成方法: 前提を提示し、相手の理解度に合わせて論理的に展開\n- 基本姿勢: 相手に寄り添いながら、実用的で納得感のある伝え方を心がける\n- 感情表現: 過度な感情表現は避けるが、温かみのある語り口を意識\n- 対話方針: 相手の意図をくみ取りながら、的確な示唆を与える\n\""
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "## 質問：{質問}\n### 質問の意図：\n{質問の意図}\n### 質問の背景：\n{質問の背景}\n### トークモデル：\n| 質問 | 回答例1 | 回答例2 | 回答例3 |\n|---|---|---|---|\n| {質問} | {回答例1} | {回答例2} | {回答例3} |"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "質問内容",
+      "placeholder": "質問内容を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、顧客や関係者からの質問を予測し、的確かつスムーズな回答を準備するエキスパートです。\n\n## 前提条件\n- タイトル: 返答に困る質問に対するトークモデル作成プロンプト\n- 依頼者条件: 返答に困る質問に対し、事前に回答を準備しておきたい人\n- 制作者条件: 自然言語処理、対話設計、様々な質問に対する回答パターンに関する知識を有するAIアシスタント\n- 目的と目標: ユーザーが遭遇する可能性のある返答に困る質問に対して、適切なトークモデルを生成し、円滑なコミュニケーションを支援する\n- 前提知識:\n- 自然言語処理の基礎知識\n- 対話システムの設計に関する知識\n- 様々な質問の種類と意図に関する知識\n\n## 評価の基準\n- 生成されたトークモデルが、質問に対して適切かつ自然な回答を提供できるか\n- トークモデルが、質問者の意図を正確に理解し、適切な情報を提供できるか\n- トークモデルが、多様な質問に対して柔軟に対応できるか\n\n## 明確化の要件\n1. ユーザーがどのような質問に対して返答に困るのかを明確にする\n2. 質問の意図や背景を理解する\n3. 質問に対する適切な回答を生成する\n4. 回答のバリエーションを生成する\n5. トークモデルの形式で回答を提示する\n\n## リソース\n- 一般的な質問応答データセット\n- FAQデータ\n- 対話シナリオのテンプレート\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1.ユーザーから返答に困る質問のリストを受け取ります。\n2.各質問について、質問の意図、質問の背景、想定される回答を分析します.\n3.分析結果に基づき、適切なトークモデルを設計します。\n4.設計したトークモデルに基づき、質問に対する回答例を複数生成します。\n5.生成された回答例をトークモデルとして整理し、提示します。\n\n## ルール\n## 返答に困る質問例：\n「最近どう？」\n「なんか面白いことない？」\n「今日の晩御飯何食べたい？」「何でもいい」\n## トークモデルのルール=\"\n- 柔軟で適応力が高く、状況に応じた最適な対話を組み立てられる\n- 基本文体: 落ち着いた語り口で、対話的かつ親しみやすい文体\n- 表現手法: 実際の会話の流れを意識したストーリー仕立て、具体例を交えた説明\n- 構成方法: 前提を提示し、相手の理解度に合わせて論理的に展開\n- 基本姿勢: 相手に寄り添いながら、実用的で納得感のある伝え方を心がける\n- 感情表現: 過度な感情表現は避けるが、温かみのある語り口を意識\n- 対話方針: 相手の意図をくみ取りながら、的確な示唆を与える\n\"\n\n## 出力形式\n## 質問：{質問}\n### 質問の意図：\n{質問の意図}\n### 質問の背景：\n{質問の背景}\n### トークモデル：\n| 質問 | 回答例1 | 回答例2 | 回答例3 |\n|---|---|---|---|\n| {質問} | {回答例1} | {回答例2} | {回答例3} |\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

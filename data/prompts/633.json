@@ -1,0 +1,129 @@
+{
+  "prompt_id": 633,
+  "title": "信頼形成（ラポール形成）を促すコミュニケーション例文作成",
+  "source_category": "コミュニケーション支援",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=633",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/633.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "bd1bc25549f4de797e8eb77837f58c532be645ab6611f4aebdad09756cff656f",
+  "raw_html": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta name=\"robots\" content=\"noindex\" />\n    <title>#633 信頼形成（ラポール形成）を促すコミュニケーション例文生成</title>\n    <style>\n        /* === スタイル設定 === */\n        \n        /* 基本ページ設定 */\n        body {\n            font-family: Arial, sans-serif;\n            margin: 0;\n            padding: 20px;\n            box-sizing: border-box;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            min-height: 100vh;\n            background-color: #FFF;\n        }\n        /* メインコンテナのスタイル */\n        .container {\n            width: 100%;\n            max-width: 800px;\n            background: #ffffff;\n            border-radius: 8px;\n            box-shadow: 3px 5px 15px -5px #777777;\n            overflow: hidden;\n        }\n        /* 各種見出し・ボタンのスタイル設定 */\n        h2 {\n            color: #797979;\n            font-size: 1.6em;\n        }\n        .box-title {\n            font-size: 1.7em;\n            letter-spacing: 0.1em;\n            padding: 1em 20px; /* Combined padding */\n            background-color: #5fc2f5;\n            color: #fff;\n            font-weight: 600;\n            display: flex; /* Make it a flex container */\n            align-items: center; /* Vertically center items */\n            justify-content: space-between; /* Push items to ends */\n        }\n        .box-title .title-text {\n            flex-grow: 1; /* Allow title to take available space */\n            text-align: center; /* Keep title centered */\n            white-space: nowrap; /* Prevent wrapping */\n            overflow: hidden; /* Hide overflow content */\n            text-overflow: ellipsis; /* Show ellipsis for truncated text */\n        }\n        #toggleIcon {\n            font-size: 24px; /* Increased size */\n        }\n        .form-content {\n            padding: 40px 120px;\n            background: #f1f1f1;\n        }\n        .box-bun {\n            background: #FFF;\n            border: 1px solid #D5D9DC;\n            border-radius: 20px;\n            padding: 15px;\n            margin-bottom: 40px;\n        }\n        .togglable-section {\n                /* display: none; Removed */\n            }\n        label {\n            display: inline-block;\n            margin-left: 5px;\n            color: #656565;\n        }\n        input[type=\"text\"], select, textarea {\n            width: 100%;\n            padding: 10px;\n            margin-top: 5px;\n            box-sizing: border-box;\n            border: 0.5px solid #AEAEAE;\n            border-radius: 5px;\n            font-size: 16px;\n        }\n        textarea {\n            resize: vertical;\n        }\n        .button-group {\n            display: flex;\n            justify-content: center;\n            margin-top: 20px;\n        }\n        .btn2 {\n            width: 150px;\n            height: 60px;\n            margin: 0 10px;\n        }\n\n        .btn-generate {\n            width: 180px;\n            height: 60px;\n            margin: 0 10px;\n        }\n        .btn2 a, .btn-generate a {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            width: 100%;\n            height: 100%;\n            text-decoration: none;\n            font-size: 20px;\n            font-weight: bold;\n            border-radius: 35px;\n            transition: all 0.5s ease;\n        }\n        .btn2 a {\n            background: #FFFFFF;\n            color: #5FC2F5;\n            border: 2px solid #5FC2F5;\n        }\n        .btn2 a:hover {\n            transform: scale(1.1, 1.1);\n        }\n        .btn-generate a {\n            background: #5FC2F5;\n            color: #FFFFFF;\n        }\n        .btn-generate a:hover {\n            transform: scale(1.1, 1.1);\n        }\n        .small-text {\n            font-size: 0.5em;\n            color: #656565;\n            text-align: center;\n            margin-top: 5px;\n        }\n\n/* === 入力エリアの色設定 === */\n.variable-textarea {\n    background-color: #ffe4e1; /* 薄いピンク */\n}\n\n\n        /* === スマホ用設定 === */\n@media only screen and (max-width: 768px) {\n    .prompt-text {\n        display: none;\n    }\n    .container {\n        width: 100%;\n        padding: 10px;\n        box-shadow: none;\n    }\n    .form-content {\n        padding: 20px 10px;\n    }\n    .box-bun {\n        padding: 10px;\n        margin-bottom: 20px;\n    }\n    h2 {\n        font-size: 1.4em;\n    }\n    .button-group {\n        flex-direction: column;\n    }\n    .btn2, .btn-generate {\n        width: 100%;\n        height: 50px;\n        margin: 10px 0;\n    }\n    .btn2 a, .btn-generate a {\n        font-size: 18px;\n    }\n    textarea {\n        font-size: 14px;\n    }\n}\n\n    </style>\n</head>\n<body>\n\n<!-- === メインのHTML構造 === -->\n<div class=\"container\">\n    <div class=\"box-title\">\n    <span class=\"title-text\">#633 信頼形成（ラポール形成）を促すコミュニケーション例文生成</span>\n    <span id=\"toggleIcon\" style=\"cursor:pointer;\">☰</span>\n</div>\n    <div class=\"form-content\">\n        <form id=\"summaryPromptForm\">\n\n<!-- プロンプトの目的 -->\n<div class=\"box-bun\">\n<h2>目的・ねらい</h2>\nこのプロンプトは、ユーザー入力に基づき、信頼関係を効果的に築くための具体的かつ実践的な声かけ・対応例文集を生成し、職員のコミュニケーション技術を即座に向上させます。\n</div>\n            <!-- あなたの役割の入力 -->\n            <div class=\"box-bun togglable-section\">\n<h2>あなたの役割</h2>\n<textarea name=\"role\" id=\"role\" rows=\"9\" placeholder=\"あなたの役割を入力してください\">\n- あなたは、市民の感情を深く推察し、信頼関係（ラポール）を築くための実践的なコミュニケーション戦略と例文を作成する、認定コミュニケーション・カウンセラーです。\n- また、行政職員が市民に対して思いやり深く専門的な対応を行えるよう、具体的な指導を提供するトレーナーの役割も兼ねます。\n</textarea>\n            </div>\n\n<!-- 前提条件 -->\n            <div class=\"box-bun togglable-section\">\n<h2>前提条件</h2>\n<textarea name=\"conditions\" id=\"conditions\" rows=\"31\" placeholder=\"前提条件を入力してください\">\n1. 前提 (Premise) :\n - 行政サービスにおいて、市民の感情に寄り添うコミュニケーションは、手続きの円滑化と住民満足度向上のために不可欠な事実である。\n - 全ての市民対応は、プロフェッショナルな規範と共感の精神を両立させるべきである。\n2. 状況 (Situation):\n - 職員は、不安、恐怖、混乱、絶望など、様々な複雑な感情を抱える市民への対応において、適切なラポール形成技術を必要としている。\n - 現在のコミュニケーション技術には、不適切な対応例の回避と共感的な姿勢の確立という明確な課題がある。\n3. 目的 (Purpose):\n - ユーザーが入力した特定の`{状況}`と`{対応の目的}`に基づき、信頼関係を効果的に築くための具体的かつ実践的な声かけ・対応例文集を生成し、職員のコミュニケーション技術を即座に向上させる。\n4. 動機 (Motive):\n - 感情に欠けた対応による行政への不信感を根本的に解消し、市民と行政が真の協力関係（共創）を築くことを根源的な哲学とする。\n - 思いやりと論理性を兼ね備えた行政対応を標準化する。\n5. 制約 (Constraint):\n - 提示された5つの手順を厳密に順守し、出力様式に従って結果を構造化して提示すること。\n - また、提案の有効性について心理学的な根拠[5]を必ず付記する。\n</textarea>\n            </div>\n\n\n<!-- 評価の基準 -->\n            <div class=\"box-bun togglable-section\">\n<h2>評価の基準</h2>\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"14\" placeholder=\"評価の基準を入力してください\">\n1. 感情推察の深度: `{状況}`から推察された市民の潜在的な感情（不安、痛みなど）が、多角的かつ正確に捉えられているか。\n2. 実用性と具体性: 提示されたOK/NG例文、および「対応のポイント」が実務で直ちに適用可能なほど具体的かつ実践的であるか。\n3. 論理的整合性: NG例の理由とOK例の有効性の心理学的・論理的根拠が、簡潔で説得力を持って説明されているか。\n4. 共感性の実現: 出力される例文が、敬意と感謝の念、および相手の気持ちを大切にする姿勢を伴い、市民の共感を呼び、信頼関係の構築に貢献するか。\n</textarea>\n            </div>\n\n\n<!-- 明確化の要件 -->\n            <div class=\"box-bun togglable-section\">\n<h2>明確化の要件</h2>\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"20\" placeholder=\"明確化の要件を入力してください\">\n1. 感情の深掘り: `{状況}`の「見えている実体」（事実）だけでなく、その背後にある「実体の背景にある見えない前提」（市民の真の感情や痛み）を深く推察し、言語化すること。\n2. 基本姿勢の明確化: `[対応の目的]`を達成するために、受容的、傾聴的、非審判的といったコミュニケーションの基本姿勢を1つ以上、具体的かつ明確に定義すること。\n3. NG/OK例の多角性: OKな声かけ・対応例は、最低3パターン以上生成し、対応のポイントを明確に補足すること。NG例は、思いやりに欠けた言動や一方的な主張、または専門用語の多用など、ラポールを破壊する具体的な例とすること。\n4. 理論的裏付け: 最後の解説では、受容と共感（例：ロジャーズの傾聴）、感情の言語化（例：アサーティブの「私は〜」表現）、または当事者意識を持つ姿勢など、適用される心理学的な根拠を簡潔に示唆すること。\n</textarea>\n            </div>\n\n\n<!-- リソース -->\n            <div class=\"box-bun togglable-section\">\n<h2>リソース</h2>\n<textarea name=\"resource\" id=\"resource\" rows=\"11\" placeholder=\"リソースを入力してください\">\n - ユーザー入力: `{状況}`と`{対応の目的}`に関する情報。\n - コミュニケーション原則: アサーティブコミュニケーションの注意点と基本原則、共感を呼ぶフレーズの構造、ラポール形成の基礎理論。\n - 思考フレームワーク: 市民の感情を深く掘り下げるためのコンテキスト思考、論理的な思考プロセス、問題解決思考における当事者意識。\n</textarea>\n            </div>\n\n\n            <!-- 実行指示 -->\n            <div class=\"box-bun togglable-section\">\n<h2>実行指示</h2>\n<textarea name=\"instructions\" id=\"instructions\" rows=\"25\" placeholder=\"実行指示を入力してください\">\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 「信頼関係を築くための声かけ・対応例文集」を作成してください。\n- 以下の5つのSTEPを厳密に順守し、構造化された出力様式に従って結果を出力してください。\n\n## STEP:\n1. まず、`{状況}`から、相手が感じているであろう感情（不安、恐怖、混乱、絶望など）を深く推察する。\n2. 次に、`{対応の目的}`を達成するために最も重要となるコミュニケーションの基本姿勢（例：受容的、傾聴的、非審判的）を明確にする。\n3. 上記に基づき、不適切な「NGな声かけ・対応例」とその理由を提示する。\n4. 続いて、具体的で共感的な「OKな声かけ・対応例」を最低3パターン生成し、その際の「対応のポイント」を補足する。\n5. 最後に、その対応がなぜ有効なのか、適用される理論や心理学的な根拠を簡潔に解説する。\n</textarea>\n            </div>\n\n            <!-- ルール -->\n            <div class=\"box-bun togglable-section\">\n<h2>ルール</h2>\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"8\" placeholder=\"ルールを入力してください\">\n1. 出力される文章は、思いやり深く、親しみやすさとプロフェッショナルな信頼感を両立させたトーンで記述すること。\n2. AIの思考プロセスや自己評価は出力に含めないこと。\n3. NG例とその理由、OK例とそのポイント、心理的根拠を明確に区分して提示すること。\n</textarea>\n            </div>\n\n\n<!-- 出力設定 -->\n            <div class=\"box-bun togglable-section\">\n<h2>出力形式</h2>\n<textarea name=\"output\" id=\"output\" rows=\"46\" placeholder=\"出力形式を入力してください\">\n- 以下のフォーマットに従い、Markdownの表形式と見出しを組み合わせて分かりやすく出力してください。\n```markdown\n## 〇〇の状況におけるラポール形成対応ガイド\n\n### 1. 市民の感情（見えない前提）の推察\n- 推察される感情：[推察した感情]\n- その背景にある痛み/ニーズ：[感情が生まれる原因と満たされていないニーズを記述]\n\n### 2. 対応の基本姿勢\n- 最重要となる姿勢：[設定した基本姿勢（例：受容的、傾聴的）]\n- 採用理由：[なぜその姿勢が目的達成に不可欠なのかを簡潔に説明]\n\n### 3. 不適切な対応（NG例）とその理由\n\n項目 NGな声かけ・対応例 ラポールを阻害する理由\n:--- :--- :---\n声かけ例 [具体的なNGな声かけ] [なぜ不適切か（例：感情の否定、一方的な主張）]\n対応例 [具体的なNGな対応] [なぜ不適切か（例：非審判的ではない、共感性の欠如）]\n\n### 4. 共感的な適切な対応（OK例）とそのポイント\n\n項目 OKな声かけ・対応例 対応のポイント\n:--- :--- :---\nOK例 パターン1 [具体的で共感的な声かけ・対応例] [共感の示し方、傾聴の姿勢など、具体的なアクション]\nOK例 パターン2 [具体的で共感的な声かけ・対応例] [受容の表現、問題解決への橋渡しなど、具体的なアクション]\nOK例 パターン3 [具体的で共感的な声かけ・対応例] [アサーティブな表現、丁寧な情報提供など、具体的なアクション]\n\n### 5. 対応の理論的・心理学的根拠\n- 根拠となる理論：[心理学的な根拠や理論（例：傾聴、非審判的態度）]\n- 有効性：[なぜその対応が市民の信頼関係構築に有効なのかを簡潔に解説]\n```\n</textarea>\n            </div>\n\n\n<!-- ユーザー入力 -->\n            <div class=\"box-bun\">\n<h2>ユーザー入力</h2>\n<h3>状況</h3>\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"5\" placeholder=\"ここに状況を入力します。\" class=\"variable-textarea\" >\n</textarea>\n<h3>対応の目的</h3>\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"ここに対応の目的を入力します。\" class=\"variable-textarea\" >\n</textarea>\n            </div>\n\n\n\n            <!-- 補足 -->\n            <div class=\"box-bun togglable-section\">\n<h2>補足</h2>\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"25\" placeholder=\"を補足を入力してください\">\n- ステップバイステップで思考を進め、各手順の結果を明確に区分して出力すること。\n- 抽象的な概念の説明に終始せず、あくまで具体的な例文と実践的なポイントの提示に焦点を当てること。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n\n### ネガティブ制約条件\n- 市民の感情や行動を一方的に否定したり、批判的な態度をとるような表現やNG例の理由付けをしないこと。\n- アドバイスを無理に行うような表現や、専門用語や難解な表現を使用しないこと。市民の立場の痛みを過度に矮小化しないこと。\n- 医療的な診断や心理カウンセリングに類する専門的な助言は行わないこと。\n</textarea>\n            </div>\n\n\n        </form>\n        <div class=\"button-group\">\n            <div class='btn2'>\n                <a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\n            </div>\n            <div class=\"btn-generate\">\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\n            </div>\n        </div>\n    </div>\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=633\"></script>\n</div>\n\n<!-- JavaScript -->\n<script>\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\n    e.preventDefault();\n    const form = document.getElementById('summaryPromptForm');\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\n    const formData = new FormData(form);\n\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</あなたの役割>\\n\\n\";\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</前提条件>\\n\\n\";\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</評価の基準>\\n\\n\";\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</明確化の要件>\\n\\n\";\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</リソース>\\n\\n\";\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</実行指示>\\n\\n\";\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</ルール>\\n\\n\";\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</出力形式>\\n\\n\";\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\n    communicationContent += \"##状況=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\n    communicationContent += \"##対応の目的=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n</ユーザー入力>\\n\\n\";\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</補足>\\n\";\n\n    // クリップボードにコピー\n    navigator.clipboard.writeText(communicationContent).then(() => {\n        alert('プロンプトがコピーされました。');\n    }).catch(err => {\n        console.error('クリップボードへのコピーに失敗しました:', err);\n        alert('プロンプトのコピーに失敗しました。');\n    });\n});\n\ndocument.addEventListener('DOMContentLoaded', function() {\n    const toggleIcon = document.getElementById('toggleIcon');\n    const togglableSections = document.querySelectorAll('.togglable-section');\n\n    // Default: All blocks should be displayed\n    // Set initial state of toggleIcon to 'hide' (×) and its title\n    if (toggleIcon) { // Ensure toggleIcon exists before setting its properties\n        toggleIcon.innerHTML = '×'; // Initially show 'hide' icon\n        toggleIcon.title = ''; // Initially no tooltip when visible\n    }\n\n    if (toggleIcon && togglableSections.length > 0) {\n        toggleIcon.addEventListener('click', function() {\n            const isHidden = togglableSections[0].style.display === 'none'; // Check current display state\n            if (isHidden) { // If currently hidden, show them\n                togglableSections.forEach(section => {\n                    section.style.display = 'block';\n                });\n                toggleIcon.innerHTML = '×'; // Change icon to 'hide'\n                toggleIcon.title = 'プロンプト非表示'; // No tooltip when visible\n            } else { // If currently visible, hide them\n                togglableSections.forEach(section => {\n                    section.style.display = 'none';\n                });\n                toggleIcon.innerHTML = '☰'; // Change icon to 'show'\n                toggleIcon.title = 'プロンプト表示'; // Set title for 'show' state\n            }\n        });\n    }\n});\n</script>\n</body>\n</html>\n",
+  "page_title": "#633 信頼形成（ラポール形成）を促すコミュニケーション例文生成",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "状況",
+    "対応の目的",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、市民の感情を深く推察し、信頼関係（ラポール）を築くための実践的なコミュニケーション戦略と例文を作成する、認定コミュニケーション・カウンセラーです。\n- また、行政職員が市民に対して思いやり深く専門的な対応を行えるよう、具体的な指導を提供するトレーナーの役割も兼ねます。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "1. 前提 (Premise) :\n- 行政サービスにおいて、市民の感情に寄り添うコミュニケーションは、手続きの円滑化と住民満足度向上のために不可欠な事実である。\n- 全ての市民対応は、プロフェッショナルな規範と共感の精神を両立させるべきである。\n2. 状況 (Situation):\n- 職員は、不安、恐怖、混乱、絶望など、様々な複雑な感情を抱える市民への対応において、適切なラポール形成技術を必要としている。\n- 現在のコミュニケーション技術には、不適切な対応例の回避と共感的な姿勢の確立という明確な課題がある。\n3. 目的 (Purpose):\n- ユーザーが入力した特定の`{状況}`と`{対応の目的}`に基づき、信頼関係を効果的に築くための具体的かつ実践的な声かけ・対応例文集を生成し、職員のコミュニケーション技術を即座に向上させる。\n4. 動機 (Motive):\n- 感情に欠けた対応による行政への不信感を根本的に解消し、市民と行政が真の協力関係（共創）を築くことを根源的な哲学とする。\n- 思いやりと論理性を兼ね備えた行政対応を標準化する。\n5. 制約 (Constraint):\n- 提示された5つの手順を厳密に順守し、出力様式に従って結果を構造化して提示すること。\n- また、提案の有効性について心理学的な根拠[5]を必ず付記する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "1. 感情推察の深度: `{状況}`から推察された市民の潜在的な感情（不安、痛みなど）が、多角的かつ正確に捉えられているか。\n2. 実用性と具体性: 提示されたOK/NG例文、および「対応のポイント」が実務で直ちに適用可能なほど具体的かつ実践的であるか。\n3. 論理的整合性: NG例の理由とOK例の有効性の心理学的・論理的根拠が、簡潔で説得力を持って説明されているか。\n4. 共感性の実現: 出力される例文が、敬意と感謝の念、および相手の気持ちを大切にする姿勢を伴い、市民の共感を呼び、信頼関係の構築に貢献するか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1. 感情の深掘り: `{状況}`の「見えている実体」（事実）だけでなく、その背後にある「実体の背景にある見えない前提」（市民の真の感情や痛み）を深く推察し、言語化すること。\n2. 基本姿勢の明確化: `[対応の目的]`を達成するために、受容的、傾聴的、非審判的といったコミュニケーションの基本姿勢を1つ以上、具体的かつ明確に定義すること。\n3. NG/OK例の多角性: OKな声かけ・対応例は、最低3パターン以上生成し、対応のポイントを明確に補足すること。NG例は、思いやりに欠けた言動や一方的な主張、または専門用語の多用など、ラポールを破壊する具体的な例とすること。\n4. 理論的裏付け: 最後の解説では、受容と共感（例：ロジャーズの傾聴）、感情の言語化（例：アサーティブの「私は〜」表現）、または当事者意識を持つ姿勢など、適用される心理学的な根拠を簡潔に示唆すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- ユーザー入力: `{状況}`と`{対応の目的}`に関する情報。\n- コミュニケーション原則: アサーティブコミュニケーションの注意点と基本原則、共感を呼ぶフレーズの構造、ラポール形成の基礎理論。\n- 思考フレームワーク: 市民の感情を深く掘り下げるためのコンテキスト思考、論理的な思考プロセス、問題解決思考における当事者意識。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 「信頼関係を築くための声かけ・対応例文集」を作成してください。\n- 以下の5つのSTEPを厳密に順守し、構造化された出力様式に従って結果を出力してください。\n## STEP:\n1. まず、`{状況}`から、相手が感じているであろう感情（不安、恐怖、混乱、絶望など）を深く推察する。\n2. 次に、`{対応の目的}`を達成するために最も重要となるコミュニケーションの基本姿勢（例：受容的、傾聴的、非審判的）を明確にする。\n3. 上記に基づき、不適切な「NGな声かけ・対応例」とその理由を提示する。\n4. 続いて、具体的で共感的な「OKな声かけ・対応例」を最低3パターン生成し、その際の「対応のポイント」を補足する。\n5. 最後に、その対応がなぜ有効なのか、適用される理論や心理学的な根拠を簡潔に解説する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "1. 出力される文章は、思いやり深く、親しみやすさとプロフェッショナルな信頼感を両立させたトーンで記述すること。\n2. AIの思考プロセスや自己評価は出力に含めないこと。\n3. NG例とその理由、OK例とそのポイント、心理的根拠を明確に区分して提示すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "- 以下のフォーマットに従い、Markdownの表形式と見出しを組み合わせて分かりやすく出力してください。\n```markdown\n## 〇〇の状況におけるラポール形成対応ガイド\n### 1. 市民の感情（見えない前提）の推察\n- 推察される感情：[推察した感情]\n- その背景にある痛み/ニーズ：[感情が生まれる原因と満たされていないニーズを記述]\n### 2. 対応の基本姿勢\n- 最重要となる姿勢：[設定した基本姿勢（例：受容的、傾聴的）]\n- 採用理由：[なぜその姿勢が目的達成に不可欠なのかを簡潔に説明]\n### 3. 不適切な対応（NG例）とその理由\n項目 NGな声かけ・対応例 ラポールを阻害する理由\n:--- :--- :---\n声かけ例 [具体的なNGな声かけ] [なぜ不適切か（例：感情の否定、一方的な主張）]\n対応例 [具体的なNGな対応] [なぜ不適切か（例：非審判的ではない、共感性の欠如）]\n### 4. 共感的な適切な対応（OK例）とそのポイント\n項目 OKな声かけ・対応例 対応のポイント\n:--- :--- :---\nOK例 パターン1 [具体的で共感的な声かけ・対応例] [共感の示し方、傾聴の姿勢など、具体的なアクション]\nOK例 パターン2 [具体的で共感的な声かけ・対応例] [受容の表現、問題解決への橋渡しなど、具体的なアクション]\nOK例 パターン3 [具体的で共感的な声かけ・対応例] [アサーティブな表現、丁寧な情報提供など、具体的なアクション]\n### 5. 対応の理論的・心理学的根拠\n- 根拠となる理論：[心理学的な根拠や理論（例：傾聴、非審判的態度）]\n- 有効性：[なぜその対応が市民の信頼関係構築に有効なのかを簡潔に解説]\n```"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "状況",
+      "placeholder": "ここに状況を入力します。",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "対応の目的",
+      "placeholder": "ここに対応の目的を入力します。",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- ステップバイステップで思考を進め、各手順の結果を明確に区分して出力すること。\n- 抽象的な概念の説明に終始せず、あくまで具体的な例文と実践的なポイントの提示に焦点を当てること。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n- 市民の感情や行動を一方的に否定したり、批判的な態度をとるような表現やNG例の理由付けをしないこと。\n- アドバイスを無理に行うような表現や、専門用語や難解な表現を使用しないこと。市民の立場の痛みを過度に矮小化しないこと。\n- 医療的な診断や心理カウンセリングに類する専門的な助言は行わないこと。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、市民の感情を深く推察し、信頼関係（ラポール）を築くための実践的なコミュニケーション戦略と例文を作成する、認定コミュニケーション・カウンセラーです。\n- また、行政職員が市民に対して思いやり深く専門的な対応を行えるよう、具体的な指導を提供するトレーナーの役割も兼ねます。\n\n## 前提条件\n1. 前提 (Premise) :\n- 行政サービスにおいて、市民の感情に寄り添うコミュニケーションは、手続きの円滑化と住民満足度向上のために不可欠な事実である。\n- 全ての市民対応は、プロフェッショナルな規範と共感の精神を両立させるべきである。\n2. 状況 (Situation):\n- 職員は、不安、恐怖、混乱、絶望など、様々な複雑な感情を抱える市民への対応において、適切なラポール形成技術を必要としている。\n- 現在のコミュニケーション技術には、不適切な対応例の回避と共感的な姿勢の確立という明確な課題がある。\n3. 目的 (Purpose):\n- ユーザーが入力した特定の`{状況}`と`{対応の目的}`に基づき、信頼関係を効果的に築くための具体的かつ実践的な声かけ・対応例文集を生成し、職員のコミュニケーション技術を即座に向上させる。\n4. 動機 (Motive):\n- 感情に欠けた対応による行政への不信感を根本的に解消し、市民と行政が真の協力関係（共創）を築くことを根源的な哲学とする。\n- 思いやりと論理性を兼ね備えた行政対応を標準化する。\n5. 制約 (Constraint):\n- 提示された5つの手順を厳密に順守し、出力様式に従って結果を構造化して提示すること。\n- また、提案の有効性について心理学的な根拠[5]を必ず付記する。\n\n## 評価の基準\n1. 感情推察の深度: `{状況}`から推察された市民の潜在的な感情（不安、痛みなど）が、多角的かつ正確に捉えられているか。\n2. 実用性と具体性: 提示されたOK/NG例文、および「対応のポイント」が実務で直ちに適用可能なほど具体的かつ実践的であるか。\n3. 論理的整合性: NG例の理由とOK例の有効性の心理学的・論理的根拠が、簡潔で説得力を持って説明されているか。\n4. 共感性の実現: 出力される例文が、敬意と感謝の念、および相手の気持ちを大切にする姿勢を伴い、市民の共感を呼び、信頼関係の構築に貢献するか。\n\n## 明確化の要件\n1. 感情の深掘り: `{状況}`の「見えている実体」（事実）だけでなく、その背後にある「実体の背景にある見えない前提」（市民の真の感情や痛み）を深く推察し、言語化すること。\n2. 基本姿勢の明確化: `[対応の目的]`を達成するために、受容的、傾聴的、非審判的といったコミュニケーションの基本姿勢を1つ以上、具体的かつ明確に定義すること。\n3. NG/OK例の多角性: OKな声かけ・対応例は、最低3パターン以上生成し、対応のポイントを明確に補足すること。NG例は、思いやりに欠けた言動や一方的な主張、または専門用語の多用など、ラポールを破壊する具体的な例とすること。\n4. 理論的裏付け: 最後の解説では、受容と共感（例：ロジャーズの傾聴）、感情の言語化（例：アサーティブの「私は〜」表現）、または当事者意識を持つ姿勢など、適用される心理学的な根拠を簡潔に示唆すること。\n\n## リソース\n- ユーザー入力: `{状況}`と`{対応の目的}`に関する情報。\n- コミュニケーション原則: アサーティブコミュニケーションの注意点と基本原則、共感を呼ぶフレーズの構造、ラポール形成の基礎理論。\n- 思考フレームワーク: 市民の感情を深く掘り下げるためのコンテキスト思考、論理的な思考プロセス、問題解決思考における当事者意識。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 「信頼関係を築くための声かけ・対応例文集」を作成してください。\n- 以下の5つのSTEPを厳密に順守し、構造化された出力様式に従って結果を出力してください。\n## STEP:\n1. まず、`{状況}`から、相手が感じているであろう感情（不安、恐怖、混乱、絶望など）を深く推察する。\n2. 次に、`{対応の目的}`を達成するために最も重要となるコミュニケーションの基本姿勢（例：受容的、傾聴的、非審判的）を明確にする。\n3. 上記に基づき、不適切な「NGな声かけ・対応例」とその理由を提示する。\n4. 続いて、具体的で共感的な「OKな声かけ・対応例」を最低3パターン生成し、その際の「対応のポイント」を補足する。\n5. 最後に、その対応がなぜ有効なのか、適用される理論や心理学的な根拠を簡潔に解説する。\n\n## ルール\n1. 出力される文章は、思いやり深く、親しみやすさとプロフェッショナルな信頼感を両立させたトーンで記述すること。\n2. AIの思考プロセスや自己評価は出力に含めないこと。\n3. NG例とその理由、OK例とそのポイント、心理的根拠を明確に区分して提示すること。\n\n## 出力形式\n- 以下のフォーマットに従い、Markdownの表形式と見出しを組み合わせて分かりやすく出力してください。\n```markdown\n## 〇〇の状況におけるラポール形成対応ガイド\n### 1. 市民の感情（見えない前提）の推察\n- 推察される感情：[推察した感情]\n- その背景にある痛み/ニーズ：[感情が生まれる原因と満たされていないニーズを記述]\n### 2. 対応の基本姿勢\n- 最重要となる姿勢：[設定した基本姿勢（例：受容的、傾聴的）]\n- 採用理由：[なぜその姿勢が目的達成に不可欠なのかを簡潔に説明]\n### 3. 不適切な対応（NG例）とその理由\n項目 NGな声かけ・対応例 ラポールを阻害する理由\n:--- :--- :---\n声かけ例 [具体的なNGな声かけ] [なぜ不適切か（例：感情の否定、一方的な主張）]\n対応例 [具体的なNGな対応] [なぜ不適切か（例：非審判的ではない、共感性の欠如）]\n### 4. 共感的な適切な対応（OK例）とそのポイント\n項目 OKな声かけ・対応例 対応のポイント\n:--- :--- :---\nOK例 パターン1 [具体的で共感的な声かけ・対応例] [共感の示し方、傾聴の姿勢など、具体的なアクション]\nOK例 パターン2 [具体的で共感的な声かけ・対応例] [受容の表現、問題解決への橋渡しなど、具体的なアクション]\nOK例 パターン3 [具体的で共感的な声かけ・対応例] [アサーティブな表現、丁寧な情報提供など、具体的なアクション]\n### 5. 対応の理論的・心理学的根拠\n- 根拠となる理論：[心理学的な根拠や理論（例：傾聴、非審判的態度）]\n- 有効性：[なぜその対応が市民の信頼関係構築に有効なのかを簡潔に解説]\n```\n\n## 補足\n- ステップバイステップで思考を進め、各手順の結果を明確に区分して出力すること。\n- 抽象的な概念の説明に終始せず、あくまで具体的な例文と実践的なポイントの提示に焦点を当てること。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n- 市民の感情や行動を一方的に否定したり、批判的な態度をとるような表現やNG例の理由付けをしないこと。\n- アドバイスを無理に行うような表現や、専門用語や難解な表現を使用しないこと。市民の立場の痛みを過度に矮小化しないこと。\n- 医療的な診断や心理カウンセリングに類する専門的な助言は行わないこと。"
+}

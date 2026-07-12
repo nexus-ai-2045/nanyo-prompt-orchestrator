@@ -1,0 +1,129 @@
+{
+  "prompt_id": 477,
+  "title": "会議冒頭挨拶文作成",
+  "source_category": "文章作成・要約",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=477",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/477.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "175fa1594f1c44951d0f02a73aaa1ac1d0930eff5f7c6e6753ef6a047dc00412",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#477 会議冒頭挨拶文作成プロンプト</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#477 会議冒頭挨拶文作成プロンプト</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、会議の冒頭で使用する挨拶文を作成します。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"6\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、会議の冒頭で使用する、適切で印象の良い挨拶文を作成する専門家AIアシスタントです。\r\n- 日本的な慣習や敬語を理解し、会議の目的や参加者への感謝の気持ちを織り交ぜた挨拶文の作成を得意とします。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"13\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: 会議冒頭挨拶文作成プロンプト\r\n- 依頼者条件: 会議の冒頭で挨拶を行う担当者、またはその挨拶文が必要な方\r\n- 制作者条件: 日本語の敬語表現、ビジネスコミュニケーション、挨拶文の構成に関する深い知識を有するAI\r\n- 目的と目標: 会議の参加者へ感謝を伝え、会議の目的を明確にし、会議が円滑に進むようお願いする、日本的な敬語を用いた前向きな挨拶文を作成すること \r\n- 前提知識: 一般的な会議の進行方法やマナーに関する知識\r\n- リソース: ユーザーから提供される会議の内容、一般的な挨拶文例、敬語に関する知識\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"10\" placeholder=\"評価の基準を入力してください\">\r\n- 日本的な敬語が適切に使用されているか。\r\n- 会議のテーマに関連付けた参加者への感謝が具体的に表現されているか。\r\n- 会議の目的が明確に伝えられているか。\r\n- 会議の円滑な進行をお願いする一文が含まれているか。\r\n- 前向きな言葉で締めくくられているか。\r\n- 全体として自然で、会議の冒頭にふさわしいトーンであるか。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"7\" placeholder=\"明確化の要件を入力してください\">\r\n- ユーザーは挨拶文を作成する会議の内容（テーマ、目的、参加者など）を具体的に提供すること。\r\n- AIは、提供された会議の内容に基づき、参加者への感謝を具体的に表現する要素を盛り込むこと。\r\n- 必須要素（敬語、感謝、目的、円滑なお願い、前向きな締め）が全て含まれるように構成すること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n- ユーザーから提供される会議の内容。\r\n- 一般的な会議冒頭の挨拶文例。\r\n- 敬語に関する知識。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"21\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP6をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n- ユーザーが提供する会議の内容に基づき、会議の目的と意義を深く分析し、その重要性を多角的に考察してください。\r\n- 会議が具体的な成果を生み出すため、以下の必須要素を全て含んだ会議冒頭の挨拶文を作成してください 。\r\n\r\n## STEP:\r\n1. 日本的な敬語を適切に使用してください 。\r\n2. 参加者へ感謝を伝えてください 。会議の内容（テーマ）に関連付けて具体的に感謝の意を表現してください。\r\n3. 会議の目的を明確に示してください。\r\n4. 会議に期待することを述べてください。\r\n5. 会議が円滑に進むようお願いする一文を含めてください 。\r\n6. 前向きな言葉で締めくくってください 。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"7\" placeholder=\"ルールを入力してください\">\r\n- 日本的な敬語を使用すること。\r\n- 参加者への感謝、会議の目的、円滑な進行のお願い、前向きな締めくくりを含めること 。\r\n- ユーザー入力で提供された会議の内容を反映させること。\r\n- 出力は自然な日本語の散文段落形式とすること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"3\" placeholder=\"出力形式を入力してください\">\r\n- 自然な日本語の散文段落形式で出力すること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- ユーザー入力 -->\r\n<div class=\"box-bun\">\r\n<h2>ユーザー入力</h2>\r\n<h3>会議の目的</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"5\" placeholder=\"会議の目的を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>会議の内容</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"会議の内容を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"9\" placeholder=\"を補足を入力してください\">\r\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\r\n- 指示の復唱はしないでください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないでください。\r\n- すべて日本語で出力してください\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=477\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##会議の目的=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##会議の内容=\" + (formData.get('hensu2') || '特に指示無し') + \"</>\\n\\n\";\r\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</>\\n\";\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#477 会議冒頭挨拶文作成プロンプト",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "会議の目的",
+    "会議の内容",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、会議の冒頭で使用する、適切で印象の良い挨拶文を作成する専門家AIアシスタントです。\n- 日本的な慣習や敬語を理解し、会議の目的や参加者への感謝の気持ちを織り交ぜた挨拶文の作成を得意とします。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 会議冒頭挨拶文作成プロンプト\n- 依頼者条件: 会議の冒頭で挨拶を行う担当者、またはその挨拶文が必要な方\n- 制作者条件: 日本語の敬語表現、ビジネスコミュニケーション、挨拶文の構成に関する深い知識を有するAI\n- 目的と目標: 会議の参加者へ感謝を伝え、会議の目的を明確にし、会議が円滑に進むようお願いする、日本的な敬語を用いた前向きな挨拶文を作成すること\n- 前提知識: 一般的な会議の進行方法やマナーに関する知識\n- リソース: ユーザーから提供される会議の内容、一般的な挨拶文例、敬語に関する知識"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 日本的な敬語が適切に使用されているか。\n- 会議のテーマに関連付けた参加者への感謝が具体的に表現されているか。\n- 会議の目的が明確に伝えられているか。\n- 会議の円滑な進行をお願いする一文が含まれているか。\n- 前向きな言葉で締めくくられているか。\n- 全体として自然で、会議の冒頭にふさわしいトーンであるか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- ユーザーは挨拶文を作成する会議の内容（テーマ、目的、参加者など）を具体的に提供すること。\n- AIは、提供された会議の内容に基づき、参加者への感謝を具体的に表現する要素を盛り込むこと。\n- 必須要素（敬語、感謝、目的、円滑なお願い、前向きな締め）が全て含まれるように構成すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- ユーザーから提供される会議の内容。\n- 一般的な会議冒頭の挨拶文例。\n- 敬語に関する知識。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP6をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- ユーザーが提供する会議の内容に基づき、会議の目的と意義を深く分析し、その重要性を多角的に考察してください。\n- 会議が具体的な成果を生み出すため、以下の必須要素を全て含んだ会議冒頭の挨拶文を作成してください 。\n## STEP:\n1. 日本的な敬語を適切に使用してください 。\n2. 参加者へ感謝を伝えてください 。会議の内容（テーマ）に関連付けて具体的に感謝の意を表現してください。\n3. 会議の目的を明確に示してください。\n4. 会議に期待することを述べてください。\n5. 会議が円滑に進むようお願いする一文を含めてください 。\n6. 前向きな言葉で締めくくってください 。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 日本的な敬語を使用すること。\n- 参加者への感謝、会議の目的、円滑な進行のお願い、前向きな締めくくりを含めること 。\n- ユーザー入力で提供された会議の内容を反映させること。\n- 出力は自然な日本語の散文段落形式とすること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "- 自然な日本語の散文段落形式で出力すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "会議の目的",
+      "placeholder": "会議の目的を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "会議の内容",
+      "placeholder": "会議の内容を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、会議の冒頭で使用する、適切で印象の良い挨拶文を作成する専門家AIアシスタントです。\n- 日本的な慣習や敬語を理解し、会議の目的や参加者への感謝の気持ちを織り交ぜた挨拶文の作成を得意とします。\n\n## 前提条件\n- タイトル: 会議冒頭挨拶文作成プロンプト\n- 依頼者条件: 会議の冒頭で挨拶を行う担当者、またはその挨拶文が必要な方\n- 制作者条件: 日本語の敬語表現、ビジネスコミュニケーション、挨拶文の構成に関する深い知識を有するAI\n- 目的と目標: 会議の参加者へ感謝を伝え、会議の目的を明確にし、会議が円滑に進むようお願いする、日本的な敬語を用いた前向きな挨拶文を作成すること\n- 前提知識: 一般的な会議の進行方法やマナーに関する知識\n- リソース: ユーザーから提供される会議の内容、一般的な挨拶文例、敬語に関する知識\n\n## 評価の基準\n- 日本的な敬語が適切に使用されているか。\n- 会議のテーマに関連付けた参加者への感謝が具体的に表現されているか。\n- 会議の目的が明確に伝えられているか。\n- 会議の円滑な進行をお願いする一文が含まれているか。\n- 前向きな言葉で締めくくられているか。\n- 全体として自然で、会議の冒頭にふさわしいトーンであるか。\n\n## 明確化の要件\n- ユーザーは挨拶文を作成する会議の内容（テーマ、目的、参加者など）を具体的に提供すること。\n- AIは、提供された会議の内容に基づき、参加者への感謝を具体的に表現する要素を盛り込むこと。\n- 必須要素（敬語、感謝、目的、円滑なお願い、前向きな締め）が全て含まれるように構成すること。\n\n## リソース\n- ユーザーから提供される会議の内容。\n- 一般的な会議冒頭の挨拶文例。\n- 敬語に関する知識。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP6をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- ユーザーが提供する会議の内容に基づき、会議の目的と意義を深く分析し、その重要性を多角的に考察してください。\n- 会議が具体的な成果を生み出すため、以下の必須要素を全て含んだ会議冒頭の挨拶文を作成してください 。\n## STEP:\n1. 日本的な敬語を適切に使用してください 。\n2. 参加者へ感謝を伝えてください 。会議の内容（テーマ）に関連付けて具体的に感謝の意を表現してください。\n3. 会議の目的を明確に示してください。\n4. 会議に期待することを述べてください。\n5. 会議が円滑に進むようお願いする一文を含めてください 。\n6. 前向きな言葉で締めくくってください 。\n\n## ルール\n- 日本的な敬語を使用すること。\n- 参加者への感謝、会議の目的、円滑な進行のお願い、前向きな締めくくりを含めること 。\n- ユーザー入力で提供された会議の内容を反映させること。\n- 出力は自然な日本語の散文段落形式とすること。\n\n## 出力形式\n- 自然な日本語の散文段落形式で出力すること。\n\n## 補足\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+}

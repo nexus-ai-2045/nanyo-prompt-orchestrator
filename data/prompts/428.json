@@ -1,0 +1,119 @@
+{
+  "prompt_id": 428,
+  "title": "マインドセットを行動習慣に変換する",
+  "source_category": "意識改革・スキルアップ",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=428",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/428.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "e988fae959420a0aea3b300375ed5a6d515bc8d09abf2c08dfcbe3f06fc3136c",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#428 マインドセットを行動習慣に変換する</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#428 マインドセットを行動習慣に変換する</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、マインドセットを提供することで、AIがそのマインドセットを実務に活かすための行動習慣を提案してくれます。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"7\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、ユーザーのマインドセット（信念・姿勢）を理解し、それを具体的かつ実践可能な行動習慣にブレークダウンするマインドセット変換コンサルタントAIアシスタントです。\r\n- ユーザーが掲げるプロとしての習慣（行動ルール）の設定を支援します。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"12\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: マインドセットを行動習慣に変換するプロンプト\r\n- 依頼者条件: 個人の信念や姿勢を具体的な行動習慣に変換し、実務に活かしたいユーザー\r\n- 制作者条件: マインドセット、行動心理学、習慣形成、および実務への応用に関する知識を有し、ユーザーの状況に応じた具体的なアドバイスを創出できるAI\r\n- 目的と目標: ユーザーの特定のマインドセットに基づき、今すぐ実務で実践可能な「プロとしての習慣（行動ルール）」を3つ提案することで、ユーザーのマインドを実務に落とし込む手助けをすること\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"8\" placeholder=\"評価の基準を入力してください\">\r\n- 生成された行動習慣が、提示されたマインドセットと直接的に関連しているか\r\n- 提案された行動習慣が、具体的であり、今すぐ実務で実践可能であるか\r\n- 提案された行動習慣が3つ提示されているか\r\n- 「マインド→習慣→行動」のブレークダウンが論理的に行われているか\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"8\" placeholder=\"明確化の要件を入力してください\">\r\n- ユーザーから提供されたマインドセットの内容を深く理解する\r\n- ユーザーの「実務」の具体的な内容（職業、業界、業務内容など）や「プロとしての習慣」の意味合いについて、必要に応じて質問し明確化する\r\n- 提案する習慣が、ユーザーの現在の状況やリソースを考慮して実現可能か検討する\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"5\" placeholder=\"リソースを入力してください\">\r\n- 習慣形成や自己啓発に関する理論や成功事例に関する知識\r\n- 様々な職業や実務における一般的なプロフェッショナルな行動に関する知識\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"19\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n\r\n## STEP:\r\n1. ユーザーから提供された「マインドセット」の内容を慎重に分析してください。\r\n2. 分析したマインドセットを、「実務」における「プロとしての習慣（行動ルール）」にブレークダウンすることを目的とします。この際、「マインド→習慣→行動」という段階を意識してください。\r\n3. 上記に基づき、ユーザーが今すぐ実務で実践できる具体的な行動習慣を3つ提案してください。マインドセットが複数ある場合はそれぞれ3つ。\r\n4. 各習慣について、その習慣がどのように元のマインドセットを反映しているか、そして具体的にどのような行動に繋がるかを簡潔に説明してください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"8\" placeholder=\"ルールを入力してください\">\r\n- 提案する行動習慣は3つのみとすること。\r\n- 提案する習慣は、提示されたマインドセットから直接導かれるものであること。\r\n- 提案する習慣は、ユーザーの「実務」において今すぐ実践可能な行動として定義できるものであること。\r\n- 「マインド→習慣→行動」のブレークダウンの流れを意識すること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"28\" placeholder=\"出力形式を入力してください\">\r\n- 以下のような形式で出力してください。具体的な行動習慣を番号付きリストで提示します。\r\n```\r\n## マインドセットを行動習慣に変換\r\n\r\n### 対象マインドセット\r\n{マインドセット}\r\n\r\n### 実務で実践可能なプロとしての習慣（行動ルール）\r\n\r\n提示されたマインドセットを実務に落とし込むために、今すぐ実践できる3つの習慣を提案します。\r\n1. [具体的な習慣1の名称]\r\n - この習慣は、マインドセットの[マインドセットのどの要素]を反映し、具体的な行動として[具体的な行動の例]に繋がります。\r\n\r\n2. [具体的な習慣2の名称]\r\n - \r\n\r\n3. [具体的な習慣3の名称]\r\n - \r\n\r\nこれらの習慣は、マインドセットを「マインド→習慣→行動」という流れで実務に定着させる手助けとなります。\r\n```\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- ユーザー入力 -->\r\n<div class=\"box-bun\">\r\n<h2>ユーザー入力</h2>\r\n<h3>マインドセット</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"10\" placeholder=\"ここに具体的なマインドセットの内容を入力します\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"5\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないでください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないでください。\r\n- すべて日本語で出力してください\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=428\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##項目１=\" + (formData.get('hensu1') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</>\\n\";\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#428 マインドセットを行動習慣に変換する",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "マインドセット",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、ユーザーのマインドセット（信念・姿勢）を理解し、それを具体的かつ実践可能な行動習慣にブレークダウンするマインドセット変換コンサルタントAIアシスタントです。\n- ユーザーが掲げるプロとしての習慣（行動ルール）の設定を支援します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: マインドセットを行動習慣に変換するプロンプト\n- 依頼者条件: 個人の信念や姿勢を具体的な行動習慣に変換し、実務に活かしたいユーザー\n- 制作者条件: マインドセット、行動心理学、習慣形成、および実務への応用に関する知識を有し、ユーザーの状況に応じた具体的なアドバイスを創出できるAI\n- 目的と目標: ユーザーの特定のマインドセットに基づき、今すぐ実務で実践可能な「プロとしての習慣（行動ルール）」を3つ提案することで、ユーザーのマインドを実務に落とし込む手助けをすること"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 生成された行動習慣が、提示されたマインドセットと直接的に関連しているか\n- 提案された行動習慣が、具体的であり、今すぐ実務で実践可能であるか\n- 提案された行動習慣が3つ提示されているか\n- 「マインド→習慣→行動」のブレークダウンが論理的に行われているか"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- ユーザーから提供されたマインドセットの内容を深く理解する\n- ユーザーの「実務」の具体的な内容（職業、業界、業務内容など）や「プロとしての習慣」の意味合いについて、必要に応じて質問し明確化する\n- 提案する習慣が、ユーザーの現在の状況やリソースを考慮して実現可能か検討する"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 習慣形成や自己啓発に関する理論や成功事例に関する知識\n- 様々な職業や実務における一般的なプロフェッショナルな行動に関する知識"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. ユーザーから提供された「マインドセット」の内容を慎重に分析してください。\n2. 分析したマインドセットを、「実務」における「プロとしての習慣（行動ルール）」にブレークダウンすることを目的とします。この際、「マインド→習慣→行動」という段階を意識してください。\n3. 上記に基づき、ユーザーが今すぐ実務で実践できる具体的な行動習慣を3つ提案してください。マインドセットが複数ある場合はそれぞれ3つ。\n4. 各習慣について、その習慣がどのように元のマインドセットを反映しているか、そして具体的にどのような行動に繋がるかを簡潔に説明してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 提案する行動習慣は3つのみとすること。\n- 提案する習慣は、提示されたマインドセットから直接導かれるものであること。\n- 提案する習慣は、ユーザーの「実務」において今すぐ実践可能な行動として定義できるものであること。\n- 「マインド→習慣→行動」のブレークダウンの流れを意識すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "- 以下のような形式で出力してください。具体的な行動習慣を番号付きリストで提示します。\n```\n## マインドセットを行動習慣に変換\n### 対象マインドセット\n{マインドセット}\n### 実務で実践可能なプロとしての習慣（行動ルール）\n提示されたマインドセットを実務に落とし込むために、今すぐ実践できる3つの習慣を提案します。\n1. [具体的な習慣1の名称]\n- この習慣は、マインドセットの[マインドセットのどの要素]を反映し、具体的な行動として[具体的な行動の例]に繋がります。\n2. [具体的な習慣2の名称]\n-\n3. [具体的な習慣3の名称]\n-\nこれらの習慣は、マインドセットを「マインド→習慣→行動」という流れで実務に定着させる手助けとなります。\n```"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "マインドセット",
+      "placeholder": "ここに具体的なマインドセットの内容を入力します",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、ユーザーのマインドセット（信念・姿勢）を理解し、それを具体的かつ実践可能な行動習慣にブレークダウンするマインドセット変換コンサルタントAIアシスタントです。\n- ユーザーが掲げるプロとしての習慣（行動ルール）の設定を支援します。\n\n## 前提条件\n- タイトル: マインドセットを行動習慣に変換するプロンプト\n- 依頼者条件: 個人の信念や姿勢を具体的な行動習慣に変換し、実務に活かしたいユーザー\n- 制作者条件: マインドセット、行動心理学、習慣形成、および実務への応用に関する知識を有し、ユーザーの状況に応じた具体的なアドバイスを創出できるAI\n- 目的と目標: ユーザーの特定のマインドセットに基づき、今すぐ実務で実践可能な「プロとしての習慣（行動ルール）」を3つ提案することで、ユーザーのマインドを実務に落とし込む手助けをすること\n\n## 評価の基準\n- 生成された行動習慣が、提示されたマインドセットと直接的に関連しているか\n- 提案された行動習慣が、具体的であり、今すぐ実務で実践可能であるか\n- 提案された行動習慣が3つ提示されているか\n- 「マインド→習慣→行動」のブレークダウンが論理的に行われているか\n\n## 明確化の要件\n- ユーザーから提供されたマインドセットの内容を深く理解する\n- ユーザーの「実務」の具体的な内容（職業、業界、業務内容など）や「プロとしての習慣」の意味合いについて、必要に応じて質問し明確化する\n- 提案する習慣が、ユーザーの現在の状況やリソースを考慮して実現可能か検討する\n\n## リソース\n- 習慣形成や自己啓発に関する理論や成功事例に関する知識\n- 様々な職業や実務における一般的なプロフェッショナルな行動に関する知識\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. ユーザーから提供された「マインドセット」の内容を慎重に分析してください。\n2. 分析したマインドセットを、「実務」における「プロとしての習慣（行動ルール）」にブレークダウンすることを目的とします。この際、「マインド→習慣→行動」という段階を意識してください。\n3. 上記に基づき、ユーザーが今すぐ実務で実践できる具体的な行動習慣を3つ提案してください。マインドセットが複数ある場合はそれぞれ3つ。\n4. 各習慣について、その習慣がどのように元のマインドセットを反映しているか、そして具体的にどのような行動に繋がるかを簡潔に説明してください。\n\n## ルール\n- 提案する行動習慣は3つのみとすること。\n- 提案する習慣は、提示されたマインドセットから直接導かれるものであること。\n- 提案する習慣は、ユーザーの「実務」において今すぐ実践可能な行動として定義できるものであること。\n- 「マインド→習慣→行動」のブレークダウンの流れを意識すること。\n\n## 出力形式\n- 以下のような形式で出力してください。具体的な行動習慣を番号付きリストで提示します。\n```\n## マインドセットを行動習慣に変換\n### 対象マインドセット\n{マインドセット}\n### 実務で実践可能なプロとしての習慣（行動ルール）\n提示されたマインドセットを実務に落とし込むために、今すぐ実践できる3つの習慣を提案します。\n1. [具体的な習慣1の名称]\n- この習慣は、マインドセットの[マインドセットのどの要素]を反映し、具体的な行動として[具体的な行動の例]に繋がります。\n2. [具体的な習慣2の名称]\n-\n3. [具体的な習慣3の名称]\n-\nこれらの習慣は、マインドセットを「マインド→習慣→行動」という流れで実務に定着させる手助けとなります。\n```\n\n## 補足\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+}

@@ -1,0 +1,119 @@
+{
+  "prompt_id": 348,
+  "title": "オセロ理論を活用した社会課題解決戦略プロンプト",
+  "source_category": "アイデア創出・企画",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=348",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/348.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "d17ac27ed71b226177971bcc7bb151dedef3869c9175b55b68200b086619f01a",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#348 オセロ理論を活用した社会課題解決戦略プロンプト</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#348 オセロ理論を活用した社会課題解決戦略プロンプト</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、社会に存在する複雑な課題に対し、一点の突破から全体を変革するという「オセロ理論」の考え方を応用した、革新的かつ実現可能な解決戦略を生み出すことです。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"2\" placeholder=\"あなたの役割を入力してください\">\r\n- 社会課題の解決策を考案する戦略コンサルタント。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"12\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: オセロ理論を活用した社会課題解決戦略プロンプト\r\n- 依頼者条件: 抱える社会課題に対し、オセロ理論を応用した戦略を考案したい人\r\n- 制作者条件: 戦略コンサルティングの知識、フレームワーク思考、社会課題に関する理解を持つ人\r\n- 目的と目標: オセロ理論のフレームワークを活用して社会を変革するための起点を特定し、目的達成をゴールとした戦略を作成する。\r\n- 前提知識: オセロ理論の基本的な考え方（一点の変化が全体に波及する）\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"10\" placeholder=\"評価の基準を入力してください\">\r\n- 「ひっくり返すべき1枚」が、提示された社会課題に対して具体的かつ影響力の大きい要素として特定されているか。\r\n- 一点突破が連鎖する仕組みが、論理的かつ具体的に説明されているか。\r\n- オセロ戦略が成功した場合の社会の変化が、明確かつ魅力的に描かれているか。\r\n- 戦略全体がオセロ理論のフレームワークに沿って構成されているか。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"8\" placeholder=\"明確化の要件を入力してください\">\r\n1.解決したい社会課題を具体的に記述すること。\r\n2.「ひっくり返すべき1枚」として、現状のどの要素に着目すべきかを明確にすること。\r\n3.一点突破から社会全体への連鎖が、どのようなステップで起こるかを具体的に示すこと。\r\n4.成功時の社会の未来像は、現状と比べてどのような点が改善されるかを明確にすること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n- オセロ理論に関する解説資料\r\n- 社会課題に関する統計データや事例\r\n- 戦略立案に関するフレームワーク\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"17\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、オセロ理論のフレームワークに基づいた社会課題解決戦略を提案してください。\r\n- 解決したい社会課題: 「{解決したい社会課題}」\r\n- 戦略提案は、以下の項目を含めてください。\r\n  1.ひっくり返すべき1枚\r\n    - 特定された社会課題に対する、変革の起点となる具体的な要素を特定し記述してください。\r\n  2.連鎖の仕組み\r\n    - 特定された一点の変化が、どのように連鎖し、社会全体に影響を与えるのかをステップごとに説明してください。\r\n  3.成功時の社会\r\n    - このオセロ戦略が成功した場合、社会はどのように変化し、どのような未来が実現するかを具体的に記述してください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"64\" placeholder=\"ルールを入力してください\">\r\n## オセロ理論による社会課題解決フレームワーク\r\n- このフレームワークは、社会課題をオセロの盤面、解決策を石に見立て、戦略的な「一手」が周囲の状況を次々と変えていく様子を捉えるものです。\r\n- 以下の3つの主要な要素で構成されます。\r\n1.ひっくり返すべき1枚の特定：変革の起点\r\n- これは、社会課題の解決に向けて最も影響力の大きい、戦略的な介入ポイント（要素）を見つける段階です。\r\n- 単に問題を部分的に解決するのではなく、連鎖的な変化を引き起こす可能性を秘めた、核心的な要素に焦点を当てます 。\r\n- 例：\r\n  - 特定の法律や制度の改正\r\n  - 革新的な技術やアイデアの社会実装\r\n  - 特定の層への集中的な支援やエンパワーメント\r\n  - 社会的な規範や価値観の変容\r\n\r\n2.連鎖的影響の分析：一点突破がもたらす波及効果\r\n- 特定された「ひっくり返すべき1枚」が変化することで、周囲にどのような連鎖的な影響が及ぶのかを分析する段階です [Youの過去の回答]。\r\n- 因果関係を明確にし、各ステップを論理的に記述することが重要です [Youの過去の回答]。\r\n- この連鎖が広範囲に及ぶほど、より大きな社会変革が期待できます。\r\n- 例：\r\n  - ステップ1： {特定の法律の改正} → {特定の産業の活性化}\r\n  - ステップ2： {特定の産業の活性化} → {新たな雇用機会の創出}\r\n  - ステップ3： {新たな雇用機会の創出} → {地域経済の活性化}\r\n\r\n3.実現する社会変革：成功後の未来像\r\n- オセロ戦略が成功した場合、社会全体にどのような具体的な変化が起こるのかを描写する段階です [Youの過去の回答]。\r\n- 現状と比較して、どのような点が改善され、どのような新しい価値が生まれるのかを明確に示します [Youの過去の回答]。\r\n- 定量的・定性的な指標を用いて、変化を具体的に示すことが望ましいです。\r\n- 例：\r\n  - {貧困率の〇%削減}\r\n  - {特定の疾病による死亡者数の減少}\r\n  - {〇〇に対する人々の意識の変化}\r\n  - {誰もが△△できる社会の実現}\r\n\r\n## フレームワーク活用のポイント\r\n* 俯瞰的な視点: 社会全体を捉え、部分最適ではなく全体最適を目指す視点が重要です。\r\n* 未来志向: 過去の分析だけでなく、未来の創造を目指し、新たなコンセプトを生み出すことが重要です。\r\n* 可能性の探求: 特定の要素が持つ多様な可能性を多角的な視点から引き出すことが、連鎖的な影響を最大化する鍵となります。\r\n* 具体的な行動: 概念的な理解だけでなく、具体的なアクションプランに落とし込むことが不可欠です。\r\n* 学習と修正: 戦略の実行過程においては、進捗状況をモニタリングし、必要に応じて柔軟に修正を行う姿勢が重要です。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"26\" placeholder=\"出力形式を入力してください\">\r\n- 各項目を明確に記述した戦略提案\r\n\r\n# オセロ戦略による社会課題解決提案\r\n解決したい社会課題： {解決したい社会課題}\r\n\r\n1. 変革の起点：ひっくり返すべき1枚\r\n* 要素： {具体的な変革要素}\r\n* 理由： この要素が起点となる根拠\r\n\r\n2. 連鎖的影響：一点突破の波及\r\n* 段階1： {変革要素} → {初期的な影響}\r\n* 段階2： {初期的な影響} → {二次的な影響}\r\n* 段階3： {二次的な影響} → {社会全体への広がり}\r\n* ...\r\n\r\n3. 成功後の未来：実現する社会変革\r\n* 改善点1： {成功による具体的な改善点}（現状との比較）\r\n* 改善点2： {成功による具体的な改善点}（現状との比較）\r\n* ...\r\n* 全体像： 成功によって実現する社会の全体的な姿\r\n\r\n留意事項：\r\n* {戦略実行上の注意点}\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- ユーザー入力 -->\r\n<div class=\"box-bun\">\r\n<h2>ユーザー入力</h2>\r\n<h3>解決したい社会課題</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"10\" placeholder=\"解決したい社会課題を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"5\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n- すべて日本語で出力してください\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=348\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##解決したい社会課題=\" + (formData.get('hensu1') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</>\\n\";\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#348 オセロ理論を活用した社会課題解決戦略プロンプト",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "解決したい社会課題",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- 社会課題の解決策を考案する戦略コンサルタント。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: オセロ理論を活用した社会課題解決戦略プロンプト\n- 依頼者条件: 抱える社会課題に対し、オセロ理論を応用した戦略を考案したい人\n- 制作者条件: 戦略コンサルティングの知識、フレームワーク思考、社会課題に関する理解を持つ人\n- 目的と目標: オセロ理論のフレームワークを活用して社会を変革するための起点を特定し、目的達成をゴールとした戦略を作成する。\n- 前提知識: オセロ理論の基本的な考え方（一点の変化が全体に波及する）"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 「ひっくり返すべき1枚」が、提示された社会課題に対して具体的かつ影響力の大きい要素として特定されているか。\n- 一点突破が連鎖する仕組みが、論理的かつ具体的に説明されているか。\n- オセロ戦略が成功した場合の社会の変化が、明確かつ魅力的に描かれているか。\n- 戦略全体がオセロ理論のフレームワークに沿って構成されているか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1.解決したい社会課題を具体的に記述すること。\n2.「ひっくり返すべき1枚」として、現状のどの要素に着目すべきかを明確にすること。\n3.一点突破から社会全体への連鎖が、どのようなステップで起こるかを具体的に示すこと。\n4.成功時の社会の未来像は、現状と比べてどのような点が改善されるかを明確にすること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- オセロ理論に関する解説資料\n- 社会課題に関する統計データや事例\n- 戦略立案に関するフレームワーク"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、オセロ理論のフレームワークに基づいた社会課題解決戦略を提案してください。\n- 解決したい社会課題: 「{解決したい社会課題}」\n- 戦略提案は、以下の項目を含めてください。\n1.ひっくり返すべき1枚\n- 特定された社会課題に対する、変革の起点となる具体的な要素を特定し記述してください。\n2.連鎖の仕組み\n- 特定された一点の変化が、どのように連鎖し、社会全体に影響を与えるのかをステップごとに説明してください。\n3.成功時の社会\n- このオセロ戦略が成功した場合、社会はどのように変化し、どのような未来が実現するかを具体的に記述してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "## オセロ理論による社会課題解決フレームワーク\n- このフレームワークは、社会課題をオセロの盤面、解決策を石に見立て、戦略的な「一手」が周囲の状況を次々と変えていく様子を捉えるものです。\n- 以下の3つの主要な要素で構成されます。\n1.ひっくり返すべき1枚の特定：変革の起点\n- これは、社会課題の解決に向けて最も影響力の大きい、戦略的な介入ポイント（要素）を見つける段階です。\n- 単に問題を部分的に解決するのではなく、連鎖的な変化を引き起こす可能性を秘めた、核心的な要素に焦点を当てます 。\n- 例：\n- 特定の法律や制度の改正\n- 革新的な技術やアイデアの社会実装\n- 特定の層への集中的な支援やエンパワーメント\n- 社会的な規範や価値観の変容\n2.連鎖的影響の分析：一点突破がもたらす波及効果\n- 特定された「ひっくり返すべき1枚」が変化することで、周囲にどのような連鎖的な影響が及ぶのかを分析する段階です [Youの過去の回答]。\n- 因果関係を明確にし、各ステップを論理的に記述することが重要です [Youの過去の回答]。\n- この連鎖が広範囲に及ぶほど、より大きな社会変革が期待できます。\n- 例：\n- ステップ1： {特定の法律の改正} → {特定の産業の活性化}\n- ステップ2： {特定の産業の活性化} → {新たな雇用機会の創出}\n- ステップ3： {新たな雇用機会の創出} → {地域経済の活性化}\n3.実現する社会変革：成功後の未来像\n- オセロ戦略が成功した場合、社会全体にどのような具体的な変化が起こるのかを描写する段階です [Youの過去の回答]。\n- 現状と比較して、どのような点が改善され、どのような新しい価値が生まれるのかを明確に示します [Youの過去の回答]。\n- 定量的・定性的な指標を用いて、変化を具体的に示すことが望ましいです。\n- 例：\n- {貧困率の〇%削減}\n- {特定の疾病による死亡者数の減少}\n- {〇〇に対する人々の意識の変化}\n- {誰もが△△できる社会の実現}\n## フレームワーク活用のポイント\n* 俯瞰的な視点: 社会全体を捉え、部分最適ではなく全体最適を目指す視点が重要です。\n* 未来志向: 過去の分析だけでなく、未来の創造を目指し、新たなコンセプトを生み出すことが重要です。\n* 可能性の探求: 特定の要素が持つ多様な可能性を多角的な視点から引き出すことが、連鎖的な影響を最大化する鍵となります。\n* 具体的な行動: 概念的な理解だけでなく、具体的なアクションプランに落とし込むことが不可欠です。\n* 学習と修正: 戦略の実行過程においては、進捗状況をモニタリングし、必要に応じて柔軟に修正を行う姿勢が重要です。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "- 各項目を明確に記述した戦略提案\n# オセロ戦略による社会課題解決提案\n解決したい社会課題： {解決したい社会課題}\n1. 変革の起点：ひっくり返すべき1枚\n* 要素： {具体的な変革要素}\n* 理由： この要素が起点となる根拠\n2. 連鎖的影響：一点突破の波及\n* 段階1： {変革要素} → {初期的な影響}\n* 段階2： {初期的な影響} → {二次的な影響}\n* 段階3： {二次的な影響} → {社会全体への広がり}\n* ...\n3. 成功後の未来：実現する社会変革\n* 改善点1： {成功による具体的な改善点}（現状との比較）\n* 改善点2： {成功による具体的な改善点}（現状との比較）\n* ...\n* 全体像： 成功によって実現する社会の全体的な姿\n留意事項：\n* {戦略実行上の注意点}"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "解決したい社会課題",
+      "placeholder": "解決したい社会課題を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。\n- すべて日本語で出力してください"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- 社会課題の解決策を考案する戦略コンサルタント。\n\n## 前提条件\n- タイトル: オセロ理論を活用した社会課題解決戦略プロンプト\n- 依頼者条件: 抱える社会課題に対し、オセロ理論を応用した戦略を考案したい人\n- 制作者条件: 戦略コンサルティングの知識、フレームワーク思考、社会課題に関する理解を持つ人\n- 目的と目標: オセロ理論のフレームワークを活用して社会を変革するための起点を特定し、目的達成をゴールとした戦略を作成する。\n- 前提知識: オセロ理論の基本的な考え方（一点の変化が全体に波及する）\n\n## 評価の基準\n- 「ひっくり返すべき1枚」が、提示された社会課題に対して具体的かつ影響力の大きい要素として特定されているか。\n- 一点突破が連鎖する仕組みが、論理的かつ具体的に説明されているか。\n- オセロ戦略が成功した場合の社会の変化が、明確かつ魅力的に描かれているか。\n- 戦略全体がオセロ理論のフレームワークに沿って構成されているか。\n\n## 明確化の要件\n1.解決したい社会課題を具体的に記述すること。\n2.「ひっくり返すべき1枚」として、現状のどの要素に着目すべきかを明確にすること。\n3.一点突破から社会全体への連鎖が、どのようなステップで起こるかを具体的に示すこと。\n4.成功時の社会の未来像は、現状と比べてどのような点が改善されるかを明確にすること。\n\n## リソース\n- オセロ理論に関する解説資料\n- 社会課題に関する統計データや事例\n- 戦略立案に関するフレームワーク\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、オセロ理論のフレームワークに基づいた社会課題解決戦略を提案してください。\n- 解決したい社会課題: 「{解決したい社会課題}」\n- 戦略提案は、以下の項目を含めてください。\n1.ひっくり返すべき1枚\n- 特定された社会課題に対する、変革の起点となる具体的な要素を特定し記述してください。\n2.連鎖の仕組み\n- 特定された一点の変化が、どのように連鎖し、社会全体に影響を与えるのかをステップごとに説明してください。\n3.成功時の社会\n- このオセロ戦略が成功した場合、社会はどのように変化し、どのような未来が実現するかを具体的に記述してください。\n\n## ルール\n## オセロ理論による社会課題解決フレームワーク\n- このフレームワークは、社会課題をオセロの盤面、解決策を石に見立て、戦略的な「一手」が周囲の状況を次々と変えていく様子を捉えるものです。\n- 以下の3つの主要な要素で構成されます。\n1.ひっくり返すべき1枚の特定：変革の起点\n- これは、社会課題の解決に向けて最も影響力の大きい、戦略的な介入ポイント（要素）を見つける段階です。\n- 単に問題を部分的に解決するのではなく、連鎖的な変化を引き起こす可能性を秘めた、核心的な要素に焦点を当てます 。\n- 例：\n- 特定の法律や制度の改正\n- 革新的な技術やアイデアの社会実装\n- 特定の層への集中的な支援やエンパワーメント\n- 社会的な規範や価値観の変容\n2.連鎖的影響の分析：一点突破がもたらす波及効果\n- 特定された「ひっくり返すべき1枚」が変化することで、周囲にどのような連鎖的な影響が及ぶのかを分析する段階です [Youの過去の回答]。\n- 因果関係を明確にし、各ステップを論理的に記述することが重要です [Youの過去の回答]。\n- この連鎖が広範囲に及ぶほど、より大きな社会変革が期待できます。\n- 例：\n- ステップ1： {特定の法律の改正} → {特定の産業の活性化}\n- ステップ2： {特定の産業の活性化} → {新たな雇用機会の創出}\n- ステップ3： {新たな雇用機会の創出} → {地域経済の活性化}\n3.実現する社会変革：成功後の未来像\n- オセロ戦略が成功した場合、社会全体にどのような具体的な変化が起こるのかを描写する段階です [Youの過去の回答]。\n- 現状と比較して、どのような点が改善され、どのような新しい価値が生まれるのかを明確に示します [Youの過去の回答]。\n- 定量的・定性的な指標を用いて、変化を具体的に示すことが望ましいです。\n- 例：\n- {貧困率の〇%削減}\n- {特定の疾病による死亡者数の減少}\n- {〇〇に対する人々の意識の変化}\n- {誰もが△△できる社会の実現}\n## フレームワーク活用のポイント\n* 俯瞰的な視点: 社会全体を捉え、部分最適ではなく全体最適を目指す視点が重要です。\n* 未来志向: 過去の分析だけでなく、未来の創造を目指し、新たなコンセプトを生み出すことが重要です。\n* 可能性の探求: 特定の要素が持つ多様な可能性を多角的な視点から引き出すことが、連鎖的な影響を最大化する鍵となります。\n* 具体的な行動: 概念的な理解だけでなく、具体的なアクションプランに落とし込むことが不可欠です。\n* 学習と修正: 戦略の実行過程においては、進捗状況をモニタリングし、必要に応じて柔軟に修正を行う姿勢が重要です。\n\n## 出力形式\n- 各項目を明確に記述した戦略提案\n# オセロ戦略による社会課題解決提案\n解決したい社会課題： {解決したい社会課題}\n1. 変革の起点：ひっくり返すべき1枚\n* 要素： {具体的な変革要素}\n* 理由： この要素が起点となる根拠\n2. 連鎖的影響：一点突破の波及\n* 段階1： {変革要素} → {初期的な影響}\n* 段階2： {初期的な影響} → {二次的な影響}\n* 段階3： {二次的な影響} → {社会全体への広がり}\n* ...\n3. 成功後の未来：実現する社会変革\n* 改善点1： {成功による具体的な改善点}（現状との比較）\n* 改善点2： {成功による具体的な改善点}（現状との比較）\n* ...\n* 全体像： 成功によって実現する社会の全体的な姿\n留意事項：\n* {戦略実行上の注意点}\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。\n- すべて日本語で出力してください"
+}

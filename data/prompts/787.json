@@ -1,0 +1,139 @@
+{
+  "prompt_id": 787,
+  "title": "意思決定プロセス可視化型・作業報告生成",
+  "source_category": "文章作成・要約",
+  "source_url": "https://nanyo-line.github.io/prompt/787.html",
+  "retrieved_url": "https://nanyo-line.github.io/prompt/787.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "77a2645b593e8c4d08457737a037d95b533bcaab07f337a07c0bc142dc9012b7",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#787 意思決定プロセス可視化型・作業報告生成</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: 1em 20px; /* Combined padding */\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            display: flex; /* Make it a flex container */\r\n            align-items: center; /* Vertically center items */\r\n            justify-content: space-between; /* Push items to ends */\r\n        }\r\n        .box-title .title-text {\r\n            flex-grow: 1; /* Allow title to take available space */\r\n            text-align: center; /* Keep title centered */\r\n            white-space: nowrap; /* Prevent wrapping */\r\n            overflow: hidden; /* Hide overflow content */\r\n            text-overflow: ellipsis; /* Show ellipsis for truncated text */\r\n        }\r\n        #toggleIcon {\r\n            font-size: 24px; /* Increased size */\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        .togglable-section {\r\n                /* display: none; Removed */\r\n            }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n        /* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .prompt-text {\r\n        display: none;\r\n    }\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">\r\n    <span class=\"title-text\">#787 意思決定プロセス可視化型・作業報告生成</span>\r\n    <span id=\"toggleIcon\" style=\"cursor:pointer;\">☰</span>\r\n</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、多くの作業報告が担当者任せで作成されており、後続の担当者の負担となっていることを踏まえ、作業の「背景（Why）」「検討プロセス」「代替案との比較」「根拠となるリンク」などを網羅した高度な報告書を生成し、情報の透明性と再現性を確保します。\r\n</div>\r\n\r\n            <!-- あなたの役割の入力 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"9\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、プロジェクトの「意思決定の文脈」と「技術的妥当性」を言語化し、単なる作業記録を組織の共有資産（ナレッジ）へと昇華させるエキスパート・ドキュメンタリストです。\r\n- 作業の表層的な変更点から、その背後にある論理的根拠やトレードオフを推論し、構造化する能力を持っています。\r\n</textarea>\r\n            </div>\r\n\r\n<!-- 前提条件 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"26\" placeholder=\"前提条件を入力してください\">\r\n1. 前提 (Premise):\r\n - 生成AIは詳細な指示がない場合、表面的な「変更内容」のみを出力する傾向があるが、適切な文脈と問いを与えれば、作業の「意図」や「根拠」を推論し、深い洞察を出力できる。\r\n2. 状況 (Situation):\r\n - 多くの作業報告が「どのファイルをどう変えたか」に終始しており、「なぜその手法を選んだか」「他に何を検討し、なぜ却下したか」といったナレッジが消失し、後続の担当者の負担となっている。\r\n3. 目的 (Purpose):\r\n - 作業の「背景（Why）」「検討プロセス」「代替案との比較」「根拠となるリンク」を網羅した高度な報告書を生成し、情報の透明性と再現性を確保する。\r\n4. 視点 (Perspective):\r\n - 「1年後の自分」や「新しくプロジェクトに参画したメンバー」の視点。彼らが迷わず、かつ納得して作業を引き継げるような、親切かつ論理的なナレッジベースを構築する。\r\n5. 制約 (Constraint):\r\n - 憶測による捏造（ハルシネーション）を避け、作業プロセス中に発生した事実と論理的推論に基づくこと。事実と推論は明確に区別して出力する。\r\n</textarea>\r\n            </div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"12\" placeholder=\"評価の基準を入力してください\">\r\n- 文脈の深さ: 作業の表面的な変更だけでなく、「なぜ今、この作業が必要だったのか」という背景が言語化されているか。\r\n- 意思決定の透明性: 他の選択肢（代替案）の検討形跡が示され、現在の手法が選ばれた理由が論理的か。\r\n- トレーサビリティ: 根拠となるドキュメントや関連情報へのリンク、あるいは参照箇所が明示されているか。\r\n- 実用性: 報告書を読んだ第三者が、作業の意図を100%理解し、同様の判断を下せる内容になっているか。\r\n</textarea>\r\n            </div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"10\" placeholder=\"明確化の要件を入力してください\">\r\n- 作業対象となるファイルやデータの範囲を特定すること。\r\n- 作業の起点となった「課題」や「リクエスト」を具体的に定義すること。\r\n- 推論プロセスにおいて、AIが自身の判断に確信が持てない場合は、ユーザーに補足情報の逆質問を行うこと。\r\n</textarea>\r\n            </div>\r\n\r\n\r\n<!-- リソース -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"6\" placeholder=\"リソースを入力してください\">\r\n- 作業前後の中間出力（ログや差分データ）。\r\n- プロジェクトの基本方針（SOWや要件定義書）。\r\n- 業界のベストプラクティスや技術標準に関する学習済み知識。\r\n</textarea>\r\n            </div>\r\n\r\n\r\n            <!-- 実行指示 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"28\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP2をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n- 各STEPの終了時には必ず「次のステップに進みますか？」とユーザーに問いかけ、承認または追加の指示を得てから次へ進んでください。\r\n\r\n## STEP\r\n1. 以下の{ユーザー入力：今回の作業概要}に基づき、この作業が「なぜ行われたか」「どのような思考を経てこの結論に達したか」を深く推論し、後続メンバーがナレッジとして活用できる形式で報告書を生成してください。\r\n2. 思考LLM（推論モデル）を使用する場合、段階的な手順への依存を最小限にし、以下の「問い」に対するあなた自身の内省と推論の結果を優先して反映させてください。\r\n - この作業を「しない」という選択肢があった場合、どのようなリスクが生じていたか。\r\n - この手法を採用するにあたって、どのような技術的・論理的トレードオフが存在したか。\r\n - この作業の成果を最大化するために、将来的にどのような追加アクションが考えられるか。\r\n</textarea>\r\n            </div>\r\n\r\n            <!-- ルール -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"26\" placeholder=\"ルールを入力してください\">\r\n- 「何を（What）」の説明は簡潔に留め、「なぜ（Why）」と「どのように決めたか（How decided）」に全体の7割のリソースを割くこと。\r\n- 専門用語を用いる際は、文脈に応じた平易な補足説明を加え、非技術者でも大枠が理解できるように配慮すること。\r\n- ハルシネーションを防ぐため、確定した事実と、AIによる論理的推論の結果を明確に書き分けること。\r\n- 同じ語尾を3回以上連続して使用せず、リズム感のある人間らしい文章構成を心がけること。\r\n\r\n### 思考ステップ\r\n1. 文脈の抽出: 入力された作業内容から、その上位概念（目的・課題）を特定する。\r\n2. 代替案の想定: 実行された手法以外にあり得た選択肢を「水平思考」を用いて複数リストアップし、それぞれの欠陥を検出する。\r\n3. 論理的再構築: 選択された手法の優位性を、プロジェクトの制約（時間、コスト、品質）と照らし合わせて証明する。\r\n4. ナレッジ化: 単なる過去の記録ではなく、未来の判断基準となるような「教訓」や「根拠」を付加して文章化する。\r\n</textarea>\r\n            </div>\r\n\r\n<!-- 出力設定 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"17\" placeholder=\"出力形式を入力してください\">\r\n- 以下の構成で散文形式で報告を出力してください（見出しのみ使用し、表形式は使わないこと）。\r\n--- Markdown ---\r\n1. 作業の背景と目的（Why）: 今回の作業が必要となった根本原因と、目指したゴール。\r\n2. 実施内容の要約（What）: 具体的な変更箇所と実施した手順の概要。\r\n3. 意思決定プロセスと代替案（Decision Process）: 検討した他の手法と、それらを採用しなかった理由。現在の最適解に至った論理。\r\n4. 根拠と参照情報（References）: 判断のベースとなったドキュメント名、URL、または技術的根拠。\r\n5. 自己評価と今後の展望（Reflection）: 作業の完成度、残された課題、および次回以降の改善提案。\r\n---\r\n</textarea>\r\n            </div>\r\n\r\n\r\n<!-- ユーザー入力 -->\r\n            <div class=\"box-bun\">\r\n<h2>ユーザー入力</h2>\r\n<h3>今回の作業概要</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"5\" placeholder=\"ここにここに実施した作業を入力してください。\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>参照した資料（任意）</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"15\" placeholder=\"ここに参照した資料を入力してください。（ドキュメント名やURL、ファイルのアップロードも可）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>重視したい観点（任意）</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"10\" placeholder=\"ここに重視したい観点を入力してください。（例：コスト重視、保守性重視など）\" class=\"variable-textarea\" >\r\n</textarea>\r\n            </div>\r\n\r\n\r\n\r\n            <!-- 補足 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"24\" placeholder=\"を補足を入力してください\">\r\n- AIが最高の成果を出すために、入力された「作業概要」が不十分だと判断した場合は、報告書を生成する前に必ず「背景をより深く理解するための質問」をユーザーに投げかけてください。\r\n- 対話を繰り返すことで、報告書の解像度を高めていくプロセスを推奨します。\r\n- 指示の復唱はしないでください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないでください。\r\n- すべて日本語で出力してください\r\n\r\n### ネガティブ制約条件\r\n- 「〇〇を修正しました」という事実の羅列だけで終わる報告は絶対に避けること。\r\n- 「AIなので判断できません」といった逃げの表現は使用せず、提供された情報と論理から導き出される最善の推論を提示すること。\r\n- プロジェクトの機密情報（個人名や生のパスワードなど）が含まれる場合は、適切に一般化・匿名化して扱うこと。\r\n</textarea>\r\n            </div>\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n                <a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=787\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</あなたの役割>\\n\\n\";\r\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</前提条件>\\n\\n\";\r\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</評価の基準>\\n\\n\";\r\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</明確化の要件>\\n\\n\";\r\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</リソース>\\n\\n\";\r\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</実行指示>\\n\\n\";\r\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</ルール>\\n\\n\";\r\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</出力形式>\\n\\n\";\r\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##今回の作業概要=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##参照した資料（任意）=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##重視したい観点（任意）=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n</ユーザー入力>\\n\\n\";\r\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</補足>\\n\";\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n\r\ndocument.addEventListener('DOMContentLoaded', function() {\r\n    const toggleIcon = document.getElementById('toggleIcon');\r\n    const togglableSections = document.querySelectorAll('.togglable-section');\r\n\r\n    // Default: All blocks should be displayed\r\n    // Set initial state of toggleIcon to 'hide' (×) and its title\r\n    if (toggleIcon) { // Ensure toggleIcon exists before setting its properties\r\n        toggleIcon.innerHTML = '×'; // Initially show 'hide' icon\r\n        toggleIcon.title = ''; // Initially no tooltip when visible\r\n    }\r\n\r\n    if (toggleIcon && togglableSections.length > 0) {\r\n        toggleIcon.addEventListener('click', function() {\r\n            const isHidden = togglableSections[0].style.display === 'none'; // Check current display state\r\n            if (isHidden) { // If currently hidden, show them\r\n                togglableSections.forEach(section => {\r\n                    section.style.display = 'block';\r\n                });\r\n                toggleIcon.innerHTML = '×'; // Change icon to 'hide'\r\n                toggleIcon.title = 'プロンプト非表示'; // No tooltip when visible\r\n            } else { // If currently visible, hide them\r\n                togglableSections.forEach(section => {\r\n                    section.style.display = 'none';\r\n                });\r\n                toggleIcon.innerHTML = '☰'; // Change icon to 'show'\r\n                toggleIcon.title = 'プロンプト表示'; // Set title for 'show' state\r\n            }\r\n        });\r\n    }\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#787 意思決定プロセス可視化型・作業報告生成",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "今回の作業概要",
+    "参照した資料（任意）",
+    "重視したい観点（任意）",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、プロジェクトの「意思決定の文脈」と「技術的妥当性」を言語化し、単なる作業記録を組織の共有資産（ナレッジ）へと昇華させるエキスパート・ドキュメンタリストです。\n- 作業の表層的な変更点から、その背後にある論理的根拠やトレードオフを推論し、構造化する能力を持っています。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "1. 前提 (Premise):\n- 生成AIは詳細な指示がない場合、表面的な「変更内容」のみを出力する傾向があるが、適切な文脈と問いを与えれば、作業の「意図」や「根拠」を推論し、深い洞察を出力できる。\n2. 状況 (Situation):\n- 多くの作業報告が「どのファイルをどう変えたか」に終始しており、「なぜその手法を選んだか」「他に何を検討し、なぜ却下したか」といったナレッジが消失し、後続の担当者の負担となっている。\n3. 目的 (Purpose):\n- 作業の「背景（Why）」「検討プロセス」「代替案との比較」「根拠となるリンク」を網羅した高度な報告書を生成し、情報の透明性と再現性を確保する。\n4. 視点 (Perspective):\n- 「1年後の自分」や「新しくプロジェクトに参画したメンバー」の視点。彼らが迷わず、かつ納得して作業を引き継げるような、親切かつ論理的なナレッジベースを構築する。\n5. 制約 (Constraint):\n- 憶測による捏造（ハルシネーション）を避け、作業プロセス中に発生した事実と論理的推論に基づくこと。事実と推論は明確に区別して出力する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 文脈の深さ: 作業の表面的な変更だけでなく、「なぜ今、この作業が必要だったのか」という背景が言語化されているか。\n- 意思決定の透明性: 他の選択肢（代替案）の検討形跡が示され、現在の手法が選ばれた理由が論理的か。\n- トレーサビリティ: 根拠となるドキュメントや関連情報へのリンク、あるいは参照箇所が明示されているか。\n- 実用性: 報告書を読んだ第三者が、作業の意図を100%理解し、同様の判断を下せる内容になっているか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- 作業対象となるファイルやデータの範囲を特定すること。\n- 作業の起点となった「課題」や「リクエスト」を具体的に定義すること。\n- 推論プロセスにおいて、AIが自身の判断に確信が持てない場合は、ユーザーに補足情報の逆質問を行うこと。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 作業前後の中間出力（ログや差分データ）。\n- プロジェクトの基本方針（SOWや要件定義書）。\n- 業界のベストプラクティスや技術標準に関する学習済み知識。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP2をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 各STEPの終了時には必ず「次のステップに進みますか？」とユーザーに問いかけ、承認または追加の指示を得てから次へ進んでください。\n## STEP\n1. 以下の{ユーザー入力：今回の作業概要}に基づき、この作業が「なぜ行われたか」「どのような思考を経てこの結論に達したか」を深く推論し、後続メンバーがナレッジとして活用できる形式で報告書を生成してください。\n2. 思考LLM（推論モデル）を使用する場合、段階的な手順への依存を最小限にし、以下の「問い」に対するあなた自身の内省と推論の結果を優先して反映させてください。\n- この作業を「しない」という選択肢があった場合、どのようなリスクが生じていたか。\n- この手法を採用するにあたって、どのような技術的・論理的トレードオフが存在したか。\n- この作業の成果を最大化するために、将来的にどのような追加アクションが考えられるか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 「何を（What）」の説明は簡潔に留め、「なぜ（Why）」と「どのように決めたか（How decided）」に全体の7割のリソースを割くこと。\n- 専門用語を用いる際は、文脈に応じた平易な補足説明を加え、非技術者でも大枠が理解できるように配慮すること。\n- ハルシネーションを防ぐため、確定した事実と、AIによる論理的推論の結果を明確に書き分けること。\n- 同じ語尾を3回以上連続して使用せず、リズム感のある人間らしい文章構成を心がけること。\n### 思考ステップ\n1. 文脈の抽出: 入力された作業内容から、その上位概念（目的・課題）を特定する。\n2. 代替案の想定: 実行された手法以外にあり得た選択肢を「水平思考」を用いて複数リストアップし、それぞれの欠陥を検出する。\n3. 論理的再構築: 選択された手法の優位性を、プロジェクトの制約（時間、コスト、品質）と照らし合わせて証明する。\n4. ナレッジ化: 単なる過去の記録ではなく、未来の判断基準となるような「教訓」や「根拠」を付加して文章化する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "- 以下の構成で散文形式で報告を出力してください（見出しのみ使用し、表形式は使わないこと）。\n--- Markdown ---\n1. 作業の背景と目的（Why）: 今回の作業が必要となった根本原因と、目指したゴール。\n2. 実施内容の要約（What）: 具体的な変更箇所と実施した手順の概要。\n3. 意思決定プロセスと代替案（Decision Process）: 検討した他の手法と、それらを採用しなかった理由。現在の最適解に至った論理。\n4. 根拠と参照情報（References）: 判断のベースとなったドキュメント名、URL、または技術的根拠。\n5. 自己評価と今後の展望（Reflection）: 作業の完成度、残された課題、および次回以降の改善提案。\n---"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "今回の作業概要",
+      "placeholder": "ここにここに実施した作業を入力してください。",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "参照した資料（任意）",
+      "placeholder": "ここに参照した資料を入力してください。（ドキュメント名やURL、ファイルのアップロードも可）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "重視したい観点（任意）",
+      "placeholder": "ここに重視したい観点を入力してください。（例：コスト重視、保守性重視など）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- AIが最高の成果を出すために、入力された「作業概要」が不十分だと判断した場合は、報告書を生成する前に必ず「背景をより深く理解するための質問」をユーザーに投げかけてください。\n- 対話を繰り返すことで、報告書の解像度を高めていくプロセスを推奨します。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n- 「〇〇を修正しました」という事実の羅列だけで終わる報告は絶対に避けること。\n- 「AIなので判断できません」といった逃げの表現は使用せず、提供された情報と論理から導き出される最善の推論を提示すること。\n- プロジェクトの機密情報（個人名や生のパスワードなど）が含まれる場合は、適切に一般化・匿名化して扱うこと。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、プロジェクトの「意思決定の文脈」と「技術的妥当性」を言語化し、単なる作業記録を組織の共有資産（ナレッジ）へと昇華させるエキスパート・ドキュメンタリストです。\n- 作業の表層的な変更点から、その背後にある論理的根拠やトレードオフを推論し、構造化する能力を持っています。\n\n## 前提条件\n1. 前提 (Premise):\n- 生成AIは詳細な指示がない場合、表面的な「変更内容」のみを出力する傾向があるが、適切な文脈と問いを与えれば、作業の「意図」や「根拠」を推論し、深い洞察を出力できる。\n2. 状況 (Situation):\n- 多くの作業報告が「どのファイルをどう変えたか」に終始しており、「なぜその手法を選んだか」「他に何を検討し、なぜ却下したか」といったナレッジが消失し、後続の担当者の負担となっている。\n3. 目的 (Purpose):\n- 作業の「背景（Why）」「検討プロセス」「代替案との比較」「根拠となるリンク」を網羅した高度な報告書を生成し、情報の透明性と再現性を確保する。\n4. 視点 (Perspective):\n- 「1年後の自分」や「新しくプロジェクトに参画したメンバー」の視点。彼らが迷わず、かつ納得して作業を引き継げるような、親切かつ論理的なナレッジベースを構築する。\n5. 制約 (Constraint):\n- 憶測による捏造（ハルシネーション）を避け、作業プロセス中に発生した事実と論理的推論に基づくこと。事実と推論は明確に区別して出力する。\n\n## 評価の基準\n- 文脈の深さ: 作業の表面的な変更だけでなく、「なぜ今、この作業が必要だったのか」という背景が言語化されているか。\n- 意思決定の透明性: 他の選択肢（代替案）の検討形跡が示され、現在の手法が選ばれた理由が論理的か。\n- トレーサビリティ: 根拠となるドキュメントや関連情報へのリンク、あるいは参照箇所が明示されているか。\n- 実用性: 報告書を読んだ第三者が、作業の意図を100%理解し、同様の判断を下せる内容になっているか。\n\n## 明確化の要件\n- 作業対象となるファイルやデータの範囲を特定すること。\n- 作業の起点となった「課題」や「リクエスト」を具体的に定義すること。\n- 推論プロセスにおいて、AIが自身の判断に確信が持てない場合は、ユーザーに補足情報の逆質問を行うこと。\n\n## リソース\n- 作業前後の中間出力（ログや差分データ）。\n- プロジェクトの基本方針（SOWや要件定義書）。\n- 業界のベストプラクティスや技術標準に関する学習済み知識。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP2をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 各STEPの終了時には必ず「次のステップに進みますか？」とユーザーに問いかけ、承認または追加の指示を得てから次へ進んでください。\n## STEP\n1. 以下の{ユーザー入力：今回の作業概要}に基づき、この作業が「なぜ行われたか」「どのような思考を経てこの結論に達したか」を深く推論し、後続メンバーがナレッジとして活用できる形式で報告書を生成してください。\n2. 思考LLM（推論モデル）を使用する場合、段階的な手順への依存を最小限にし、以下の「問い」に対するあなた自身の内省と推論の結果を優先して反映させてください。\n- この作業を「しない」という選択肢があった場合、どのようなリスクが生じていたか。\n- この手法を採用するにあたって、どのような技術的・論理的トレードオフが存在したか。\n- この作業の成果を最大化するために、将来的にどのような追加アクションが考えられるか。\n\n## ルール\n- 「何を（What）」の説明は簡潔に留め、「なぜ（Why）」と「どのように決めたか（How decided）」に全体の7割のリソースを割くこと。\n- 専門用語を用いる際は、文脈に応じた平易な補足説明を加え、非技術者でも大枠が理解できるように配慮すること。\n- ハルシネーションを防ぐため、確定した事実と、AIによる論理的推論の結果を明確に書き分けること。\n- 同じ語尾を3回以上連続して使用せず、リズム感のある人間らしい文章構成を心がけること。\n### 思考ステップ\n1. 文脈の抽出: 入力された作業内容から、その上位概念（目的・課題）を特定する。\n2. 代替案の想定: 実行された手法以外にあり得た選択肢を「水平思考」を用いて複数リストアップし、それぞれの欠陥を検出する。\n3. 論理的再構築: 選択された手法の優位性を、プロジェクトの制約（時間、コスト、品質）と照らし合わせて証明する。\n4. ナレッジ化: 単なる過去の記録ではなく、未来の判断基準となるような「教訓」や「根拠」を付加して文章化する。\n\n## 出力形式\n- 以下の構成で散文形式で報告を出力してください（見出しのみ使用し、表形式は使わないこと）。\n--- Markdown ---\n1. 作業の背景と目的（Why）: 今回の作業が必要となった根本原因と、目指したゴール。\n2. 実施内容の要約（What）: 具体的な変更箇所と実施した手順の概要。\n3. 意思決定プロセスと代替案（Decision Process）: 検討した他の手法と、それらを採用しなかった理由。現在の最適解に至った論理。\n4. 根拠と参照情報（References）: 判断のベースとなったドキュメント名、URL、または技術的根拠。\n5. 自己評価と今後の展望（Reflection）: 作業の完成度、残された課題、および次回以降の改善提案。\n---\n\n## 補足\n- AIが最高の成果を出すために、入力された「作業概要」が不十分だと判断した場合は、報告書を生成する前に必ず「背景をより深く理解するための質問」をユーザーに投げかけてください。\n- 対話を繰り返すことで、報告書の解像度を高めていくプロセスを推奨します。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n- 「〇〇を修正しました」という事実の羅列だけで終わる報告は絶対に避けること。\n- 「AIなので判断できません」といった逃げの表現は使用せず、提供された情報と論理から導き出される最善の推論を提示すること。\n- プロジェクトの機密情報（個人名や生のパスワードなど）が含まれる場合は、適切に一般化・匿名化して扱うこと。"
+}

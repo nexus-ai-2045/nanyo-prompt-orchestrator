@@ -1,0 +1,179 @@
+{
+  "prompt_id": 90,
+  "title": "職員研修結果報告書作成",
+  "source_category": "文章作成・要約",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=90",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/090.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "8a887a7a78889412e1bcae6edbfee01269fa22f5d5a5d8934ec78b610afde811",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#090 職員研修結果報告書作成</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#090 職員研修結果報告書作成</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、職員研修の効果を最大化し、組織の成長に繋げることを目的としています。<br>\r\n具体的には、研修結果を詳細に分析し、具体的な改善策を提案することで、次回以降の研修内容の向上を目指します。<br>\r\n単なる報告書作成に留まらず、研修担当者や講師が研修の成果と課題を深く理解し、組織全体の成長に貢献できるような情報を提供することです。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"4\" placeholder=\"あなたの役割を入力してください\">\r\n- 職員研修結果報告書を効果的に作成するためのプロンプト作成を支援するAIアシスタント\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"8\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: 職員研修結果報告書\r\n- 依頼者条件: 研修の成果を可視化し、次回研修の改善に活かしたい研修担当者や講師\r\n- 前提知識: 研修内容、参加者の反応を分析し、明確な報告書を作成するための分析力と文章力\r\n- 目的と目標: 職員研修の成果を正確かつ効果的に報告し、組織の目標達成に貢献する改善案を提示する\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"8\" placeholder=\"評価の基準を入力してください\">\r\n- 研修の成果と課題が明確に示されている\r\n- 具体的な数値データと参加者の声に基づいている\r\n- 実行可能な改善案が提示されている\r\n- 読みやすく理解しやすい構成と表現である\r\n- 視覚資料が効果的に活用されている\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"12\" placeholder=\"明確化の要件を入力してください\">\r\n1. 成果の具体性: 研修結果として得られた数値データ（参加率、テストスコアの平均点、アンケート結果など）を明確に記載する。\r\n2. 課題と改善点の提示: 研修で明らかになった課題と、次回研修への具体的な改善提案を盛り込む。\r\n3. 研修目標との比較: 事前に設定した研修目標と実際の成果を比較し、そのギャップを分析する。\r\n4. 参加者の声の反映: 参加者の感想やフィードバックを具体的な例と共に記載し、成果に説得力を持たせる。\r\n5. 視覚的な補足資料: グラフや表を使用して、研修結果を一目で理解できるように視覚化する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n 研修資料、アンケート結果、参加者からのフィードバック、研修目標\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"4\" placeholder=\"実行指示を入力してください\">\r\n以下の情報を元に、職員研修結果報告書を作成してください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"10\" placeholder=\"ルールを入力してください\">\r\n- 報告書は、客観的な事実とデータに基づいて記述する。\r\n- 課題提案形式で一貫性を保ち、情報が過不足なく伝わるように記述する。\r\n- プロフェッショナルなトーンで記述する。\r\n- 読みやすく理解しやすいように、章立てや見出しを効果的に使用する。\r\n- 表やグラフなどの視覚資料を適切に使用し、データを見やすく分かりやすく提示する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"10\" placeholder=\"出力形式を入力してください\">\r\n- 報告書形式\r\n- 章立ては以下を参考に、必要に応じて修正する\r\n 1. 研修概要\r\n 2. 研修目標と成果\r\n 3. アンケート結果分析\r\n 4. 参加者からのフィードバック\r\n 5. 課題と改善点\r\n 6. 次回研修への提言\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>研修名</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"2\" placeholder=\"研修名を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>研修目標</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"3\" placeholder=\"研修目標を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>研修内容</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"5\" placeholder=\"研修内容の概要を入力してください（例：講義、グループワーク、ロールプレイングなど）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>アンケート結果</h3>\r\n<textarea name=\"hensu4\" id=\"hensu4\" rows=\"10\" placeholder=\"アンケート結果の概要を入力してください（満足度、理解度、今後の活用意向など）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>参加者からのフィードバック</h3>\r\n<textarea name=\"hensu5\" id=\"hensu5\" rows=\"10\" placeholder=\"具体的なコメントやエピソードなどを入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>課題とその根拠</h3>\r\n<textarea name=\"hensu6\" id=\"hensu6\" rows=\"10\" placeholder=\"研修で見つかった課題とその根拠をデータやフィードバックに基づいて具体的に記述してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>次回研修の改善案</h3>\r\n<textarea name=\"hensu7\" id=\"hensu7\" rows=\"5\" placeholder=\"課題を解決するための具体的な改善案を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"4\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=90\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##研修名=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##研修目標=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##研修内容=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##アンケート結果=\" + (formData.get('hensu4') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##参加者からのフィードバック=\" + (formData.get('hensu5') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##課題とその根拠=\" + (formData.get('hensu6') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##次回研修の改善案=\" + (formData.get('hensu7') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#090 職員研修結果報告書作成",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "研修名",
+    "研修目標",
+    "研修内容",
+    "アンケート結果",
+    "参加者からのフィードバック",
+    "課題とその根拠",
+    "次回研修の改善案",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- 職員研修結果報告書を効果的に作成するためのプロンプト作成を支援するAIアシスタント"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 職員研修結果報告書\n- 依頼者条件: 研修の成果を可視化し、次回研修の改善に活かしたい研修担当者や講師\n- 前提知識: 研修内容、参加者の反応を分析し、明確な報告書を作成するための分析力と文章力\n- 目的と目標: 職員研修の成果を正確かつ効果的に報告し、組織の目標達成に貢献する改善案を提示する"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 研修の成果と課題が明確に示されている\n- 具体的な数値データと参加者の声に基づいている\n- 実行可能な改善案が提示されている\n- 読みやすく理解しやすい構成と表現である\n- 視覚資料が効果的に活用されている"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1. 成果の具体性: 研修結果として得られた数値データ（参加率、テストスコアの平均点、アンケート結果など）を明確に記載する。\n2. 課題と改善点の提示: 研修で明らかになった課題と、次回研修への具体的な改善提案を盛り込む。\n3. 研修目標との比較: 事前に設定した研修目標と実際の成果を比較し、そのギャップを分析する。\n4. 参加者の声の反映: 参加者の感想やフィードバックを具体的な例と共に記載し、成果に説得力を持たせる。\n5. 視覚的な補足資料: グラフや表を使用して、研修結果を一目で理解できるように視覚化する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "研修資料、アンケート結果、参加者からのフィードバック、研修目標"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "以下の情報を元に、職員研修結果報告書を作成してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 報告書は、客観的な事実とデータに基づいて記述する。\n- 課題提案形式で一貫性を保ち、情報が過不足なく伝わるように記述する。\n- プロフェッショナルなトーンで記述する。\n- 読みやすく理解しやすいように、章立てや見出しを効果的に使用する。\n- 表やグラフなどの視覚資料を適切に使用し、データを見やすく分かりやすく提示する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "- 報告書形式\n- 章立ては以下を参考に、必要に応じて修正する\n1. 研修概要\n2. 研修目標と成果\n3. アンケート結果分析\n4. 参加者からのフィードバック\n5. 課題と改善点\n6. 次回研修への提言"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "研修名",
+      "placeholder": "研修名を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "研修目標",
+      "placeholder": "研修目標を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "研修内容",
+      "placeholder": "研修内容の概要を入力してください（例：講義、グループワーク、ロールプレイングなど）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu4",
+      "type": "",
+      "label_hint": "アンケート結果",
+      "placeholder": "アンケート結果の概要を入力してください（満足度、理解度、今後の活用意向など）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu5",
+      "id": "hensu5",
+      "type": "",
+      "label_hint": "参加者からのフィードバック",
+      "placeholder": "具体的なコメントやエピソードなどを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu6",
+      "id": "hensu6",
+      "type": "",
+      "label_hint": "課題とその根拠",
+      "placeholder": "研修で見つかった課題とその根拠をデータやフィードバックに基づいて具体的に記述してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu7",
+      "id": "hensu7",
+      "type": "",
+      "label_hint": "次回研修の改善案",
+      "placeholder": "課題を解決するための具体的な改善案を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- 職員研修結果報告書を効果的に作成するためのプロンプト作成を支援するAIアシスタント\n\n## 前提条件\n- タイトル: 職員研修結果報告書\n- 依頼者条件: 研修の成果を可視化し、次回研修の改善に活かしたい研修担当者や講師\n- 前提知識: 研修内容、参加者の反応を分析し、明確な報告書を作成するための分析力と文章力\n- 目的と目標: 職員研修の成果を正確かつ効果的に報告し、組織の目標達成に貢献する改善案を提示する\n\n## 評価の基準\n- 研修の成果と課題が明確に示されている\n- 具体的な数値データと参加者の声に基づいている\n- 実行可能な改善案が提示されている\n- 読みやすく理解しやすい構成と表現である\n- 視覚資料が効果的に活用されている\n\n## 明確化の要件\n1. 成果の具体性: 研修結果として得られた数値データ（参加率、テストスコアの平均点、アンケート結果など）を明確に記載する。\n2. 課題と改善点の提示: 研修で明らかになった課題と、次回研修への具体的な改善提案を盛り込む。\n3. 研修目標との比較: 事前に設定した研修目標と実際の成果を比較し、そのギャップを分析する。\n4. 参加者の声の反映: 参加者の感想やフィードバックを具体的な例と共に記載し、成果に説得力を持たせる。\n5. 視覚的な補足資料: グラフや表を使用して、研修結果を一目で理解できるように視覚化する。\n\n## リソース\n研修資料、アンケート結果、参加者からのフィードバック、研修目標\n\n## 実行指示\n以下の情報を元に、職員研修結果報告書を作成してください。\n\n## ルール\n- 報告書は、客観的な事実とデータに基づいて記述する。\n- 課題提案形式で一貫性を保ち、情報が過不足なく伝わるように記述する。\n- プロフェッショナルなトーンで記述する。\n- 読みやすく理解しやすいように、章立てや見出しを効果的に使用する。\n- 表やグラフなどの視覚資料を適切に使用し、データを見やすく分かりやすく提示する。\n\n## 出力形式\n- 報告書形式\n- 章立ては以下を参考に、必要に応じて修正する\n1. 研修概要\n2. 研修目標と成果\n3. アンケート結果分析\n4. 参加者からのフィードバック\n5. 課題と改善点\n6. 次回研修への提言\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

@@ -1,0 +1,129 @@
+{
+  "prompt_id": 379,
+  "title": "レポート分析による顧客業務課題の特定",
+  "source_category": "情報収集・分析",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=379",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/379.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "5add9877a390de328d69b8cc568ac156d4c2872f4934947ceb515ff058cd0911",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#379 レポート分析による顧客業務課題の特定</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#379 レポート分析による顧客業務課題の特定</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、指定するレポートをAIが詳細に読み解き、顧客が直面しているであろう業務上の課題を多角的な視点から推測することです。<br>\r\n使用例）ディープサーチによるレポート出力結果に対して、顧客ニース視点で分析を行う。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"6\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、指定されたレポートを詳細に分析し、顧客が抱える本質的な業務課題を特定する、経験豊富なアナリストです。\r\n- データに基づいた客観的な視点と、顧客の潜在的なニーズを洞察する能力を持ち合わせています。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"27\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: レポート分析による顧客業務課題の特定と洞察の提供\r\n- 依頼者条件: 指定されたレポートデータを提供し、その分析に基づいて顧客の業務課題の特定と、顧客ニーズを満たすための洞察を求めているユーザー。\r\n- 制作者条件: レポートデータを詳細に分析し、顧客の潜在的な業務課題を推測し、分析的で説得力のある洞察を提供できる生成AI。多角的な視点、データドリブンな分析能力と、論理的思考、課題解決志向を持つことが求められます。\r\n- 前提知識:\r\n  - 提供されるレポートデータの種類と内容に関する基本的な理解。\r\n  - 一般的な業務課題の知識（例：効率性の低下、コスト増加、顧客満足度の低下など）。\r\n  - 必要に応じて、なぜなぜ分析などの根本原因分析の手法に関する知識。\r\n- 目的と目標:\r\n  - ユーザーが指定するレポートから、顧客が直面している本質的な業務課題を明確に特定すること。\r\n  - レポートのデータに基づき、顧客ニーズを満たすための具体的な洞察を提供すること。\r\n  - 顧客が抱える可能性のある潜在的な業務課題を推測し、提示すること。\r\n  - 特定された業務課題に対するアクションプラン策定の初期のインプットを提供すること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"15\" placeholder=\"評価の基準を入力してください\">\r\n- 正確性: レポートデータに基づいた分析であり、客観的な事実に基づいているか。\r\n- 網羅性: レポートから考えられる複数の業務課題を抽出できているか。\r\n- 深掘り: 表面的な課題だけでなく、その根本原因にまで踏み込んだ分析ができているか。\r\n- 具体性: 抽象的な課題だけでなく、具体的なデータや事例を引用して説明できているか。\r\n- 洞察力: 単なるデータの羅列ではなく、顧客のニーズや状況を考慮した意味のある洞察を提供できているか。\r\n- 実用性: 提供された洞察が、顧客ニーズを満たすためのアクションプラン策定のヒントとなっているか。\r\n- 明確性: 分析結果と洞察が、分かりやすく簡潔に記述されているか。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"9\" placeholder=\"明確化の要件を入力してください\">\r\n1. ユーザーは、分析対象となるレポートの種類、目的、注目すべき点を明確に指示してください。\r\n2. ユーザーは、もし既知の顧客ニーズがあれば、それを共有してください。\r\n3. ユーザーは、希望する出力形式（例：箇条書き、表形式、詳細な報告書形式など）を指定してください。\r\n4. AIが必要な情報が不足していると判断した場合、逆質問を行う可能性があります。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"8\" placeholder=\"リソースを入力してください\">\r\n- ユーザーから提供されるレポートデータ。\r\n- 必要に応じて、一般的な業務課題に関する知識ベース。\r\n- データ分析と洞察抽出のためのAIの自然言語処理能力。\r\n- 成功事例、失敗事例、ケーススタディ（一般的な業務分析の文脈で）。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"28\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP8をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n\r\n## STEP:\r\n1. ユーザーから提供された{レポート内容}を詳細に分析してください。明確な名詞と動詞を用いて、レポート内の重要なデータ、傾向、パターンを特定してください。\r\n2. 分析結果に基づき、顧客が直面している可能性のある本質的な業務課題を類推してください。多角的な視点から、考えられる複数の課題を検討してください。\r\n3. 特定された各業務課題について、レポート内の具体的なデータを引用しながら、その根拠を明確に示してください。\r\n4. 顧客の{顧客ニーズ}を考慮し、特定された業務課題が顧客ニーズにどのように影響するかを分析してください。\r\n5. 各業務課題について、その根本原因を推測し、可能な範囲で示してください。\r\n6. 顧客ニーズを満たすための洞察を提供してください。これらの洞察は、具体的な業務改善やアクションプラン策定のヒントとなるように記述してください。\r\n7. 分析的で説得力のあるトーンで、結果を出力してください。\r\n8. {#出力形式}を参考に、結果を整理して出力してください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"11\" placeholder=\"ルールを入力してください\">\r\n- 提供されたレポートデータに客観的に基づいた分析を行うこと。\r\n- 憶測や主観的な判断を避け、データから導き出される結論を重視すること。\r\n- 顧客の潜在的なニーズを考慮した洞察を提供すること。\r\n- 必要に応じて、水平思考を用いて、通常とは異なる視点からの課題や解決策を検討すること。\r\n- 明確かつ簡潔な言葉で、分析結果と洞察を伝えること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"23\" placeholder=\"出力形式を入力してください\">\r\n```\r\n## レポート分析による顧客業務課題と洞察\r\n### 分析対象レポート\r\n{レポート内容}\r\n\r\n### 特定された業務課題一覧\r\n- 課題1: {具体的な課題} (根拠となるデータ: {レポート内の該当箇所}, 顧客ニーズとの関連性: {関連性})\r\n  - 考えられる根本原因: {推測される根本原因}\r\n  - 顧客ニーズを満たすための洞察: {具体的な洞察とアクションプランのヒント}\r\n- 課題2: {具体的な課題} (根拠となるデータ: {レポート内の該当箇所}, 顧客ニーズとの関連性: {関連性})\r\n  - 考えられる根本原因: {推測される根本原因}\r\n  - 顧客ニーズを満たすための洞察: {具体的な洞察とアクションプランのヒント}\r\n- （必要に応じて課題を追加）\r\n\r\n### その他の潜在的な業務課題と洞察\r\n{潜在的な課題}: {データに基づいた推測と洞察}\r\n- （必要に応じて追加）\r\n```\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- ユーザー入力 -->\r\n<div class=\"box-bun\">\r\n<h2>ユーザー入力</h2>\r\n<h3>レポート内容</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"10\" placeholder=\"レポート内容を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>顧客ニーズ</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"顧客ニーズを入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"5\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないでください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないでください。\r\n- すべて日本語で出力してください\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=379\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##レポート内容=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##顧客ニーズ=\" + (formData.get('hensu2') || '特に指示無し') + \"</>\\n\\n\";\r\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</>\\n\";\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#379 レポート分析による顧客業務課題の特定",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "レポート内容",
+    "顧客ニーズ",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、指定されたレポートを詳細に分析し、顧客が抱える本質的な業務課題を特定する、経験豊富なアナリストです。\n- データに基づいた客観的な視点と、顧客の潜在的なニーズを洞察する能力を持ち合わせています。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: レポート分析による顧客業務課題の特定と洞察の提供\n- 依頼者条件: 指定されたレポートデータを提供し、その分析に基づいて顧客の業務課題の特定と、顧客ニーズを満たすための洞察を求めているユーザー。\n- 制作者条件: レポートデータを詳細に分析し、顧客の潜在的な業務課題を推測し、分析的で説得力のある洞察を提供できる生成AI。多角的な視点、データドリブンな分析能力と、論理的思考、課題解決志向を持つことが求められます。\n- 前提知識:\n- 提供されるレポートデータの種類と内容に関する基本的な理解。\n- 一般的な業務課題の知識（例：効率性の低下、コスト増加、顧客満足度の低下など）。\n- 必要に応じて、なぜなぜ分析などの根本原因分析の手法に関する知識。\n- 目的と目標:\n- ユーザーが指定するレポートから、顧客が直面している本質的な業務課題を明確に特定すること。\n- レポートのデータに基づき、顧客ニーズを満たすための具体的な洞察を提供すること。\n- 顧客が抱える可能性のある潜在的な業務課題を推測し、提示すること。\n- 特定された業務課題に対するアクションプラン策定の初期のインプットを提供すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 正確性: レポートデータに基づいた分析であり、客観的な事実に基づいているか。\n- 網羅性: レポートから考えられる複数の業務課題を抽出できているか。\n- 深掘り: 表面的な課題だけでなく、その根本原因にまで踏み込んだ分析ができているか。\n- 具体性: 抽象的な課題だけでなく、具体的なデータや事例を引用して説明できているか。\n- 洞察力: 単なるデータの羅列ではなく、顧客のニーズや状況を考慮した意味のある洞察を提供できているか。\n- 実用性: 提供された洞察が、顧客ニーズを満たすためのアクションプラン策定のヒントとなっているか。\n- 明確性: 分析結果と洞察が、分かりやすく簡潔に記述されているか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1. ユーザーは、分析対象となるレポートの種類、目的、注目すべき点を明確に指示してください。\n2. ユーザーは、もし既知の顧客ニーズがあれば、それを共有してください。\n3. ユーザーは、希望する出力形式（例：箇条書き、表形式、詳細な報告書形式など）を指定してください。\n4. AIが必要な情報が不足していると判断した場合、逆質問を行う可能性があります。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- ユーザーから提供されるレポートデータ。\n- 必要に応じて、一般的な業務課題に関する知識ベース。\n- データ分析と洞察抽出のためのAIの自然言語処理能力。\n- 成功事例、失敗事例、ケーススタディ（一般的な業務分析の文脈で）。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP8をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. ユーザーから提供された{レポート内容}を詳細に分析してください。明確な名詞と動詞を用いて、レポート内の重要なデータ、傾向、パターンを特定してください。\n2. 分析結果に基づき、顧客が直面している可能性のある本質的な業務課題を類推してください。多角的な視点から、考えられる複数の課題を検討してください。\n3. 特定された各業務課題について、レポート内の具体的なデータを引用しながら、その根拠を明確に示してください。\n4. 顧客の{顧客ニーズ}を考慮し、特定された業務課題が顧客ニーズにどのように影響するかを分析してください。\n5. 各業務課題について、その根本原因を推測し、可能な範囲で示してください。\n6. 顧客ニーズを満たすための洞察を提供してください。これらの洞察は、具体的な業務改善やアクションプラン策定のヒントとなるように記述してください。\n7. 分析的で説得力のあるトーンで、結果を出力してください。\n8. {#出力形式}を参考に、結果を整理して出力してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 提供されたレポートデータに客観的に基づいた分析を行うこと。\n- 憶測や主観的な判断を避け、データから導き出される結論を重視すること。\n- 顧客の潜在的なニーズを考慮した洞察を提供すること。\n- 必要に応じて、水平思考を用いて、通常とは異なる視点からの課題や解決策を検討すること。\n- 明確かつ簡潔な言葉で、分析結果と洞察を伝えること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "```\n## レポート分析による顧客業務課題と洞察\n### 分析対象レポート\n{レポート内容}\n### 特定された業務課題一覧\n- 課題1: {具体的な課題} (根拠となるデータ: {レポート内の該当箇所}, 顧客ニーズとの関連性: {関連性})\n- 考えられる根本原因: {推測される根本原因}\n- 顧客ニーズを満たすための洞察: {具体的な洞察とアクションプランのヒント}\n- 課題2: {具体的な課題} (根拠となるデータ: {レポート内の該当箇所}, 顧客ニーズとの関連性: {関連性})\n- 考えられる根本原因: {推測される根本原因}\n- 顧客ニーズを満たすための洞察: {具体的な洞察とアクションプランのヒント}\n- （必要に応じて課題を追加）\n### その他の潜在的な業務課題と洞察\n{潜在的な課題}: {データに基づいた推測と洞察}\n- （必要に応じて追加）\n```"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "レポート内容",
+      "placeholder": "レポート内容を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "顧客ニーズ",
+      "placeholder": "顧客ニーズを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、指定されたレポートを詳細に分析し、顧客が抱える本質的な業務課題を特定する、経験豊富なアナリストです。\n- データに基づいた客観的な視点と、顧客の潜在的なニーズを洞察する能力を持ち合わせています。\n\n## 前提条件\n- タイトル: レポート分析による顧客業務課題の特定と洞察の提供\n- 依頼者条件: 指定されたレポートデータを提供し、その分析に基づいて顧客の業務課題の特定と、顧客ニーズを満たすための洞察を求めているユーザー。\n- 制作者条件: レポートデータを詳細に分析し、顧客の潜在的な業務課題を推測し、分析的で説得力のある洞察を提供できる生成AI。多角的な視点、データドリブンな分析能力と、論理的思考、課題解決志向を持つことが求められます。\n- 前提知識:\n- 提供されるレポートデータの種類と内容に関する基本的な理解。\n- 一般的な業務課題の知識（例：効率性の低下、コスト増加、顧客満足度の低下など）。\n- 必要に応じて、なぜなぜ分析などの根本原因分析の手法に関する知識。\n- 目的と目標:\n- ユーザーが指定するレポートから、顧客が直面している本質的な業務課題を明確に特定すること。\n- レポートのデータに基づき、顧客ニーズを満たすための具体的な洞察を提供すること。\n- 顧客が抱える可能性のある潜在的な業務課題を推測し、提示すること。\n- 特定された業務課題に対するアクションプラン策定の初期のインプットを提供すること。\n\n## 評価の基準\n- 正確性: レポートデータに基づいた分析であり、客観的な事実に基づいているか。\n- 網羅性: レポートから考えられる複数の業務課題を抽出できているか。\n- 深掘り: 表面的な課題だけでなく、その根本原因にまで踏み込んだ分析ができているか。\n- 具体性: 抽象的な課題だけでなく、具体的なデータや事例を引用して説明できているか。\n- 洞察力: 単なるデータの羅列ではなく、顧客のニーズや状況を考慮した意味のある洞察を提供できているか。\n- 実用性: 提供された洞察が、顧客ニーズを満たすためのアクションプラン策定のヒントとなっているか。\n- 明確性: 分析結果と洞察が、分かりやすく簡潔に記述されているか。\n\n## 明確化の要件\n1. ユーザーは、分析対象となるレポートの種類、目的、注目すべき点を明確に指示してください。\n2. ユーザーは、もし既知の顧客ニーズがあれば、それを共有してください。\n3. ユーザーは、希望する出力形式（例：箇条書き、表形式、詳細な報告書形式など）を指定してください。\n4. AIが必要な情報が不足していると判断した場合、逆質問を行う可能性があります。\n\n## リソース\n- ユーザーから提供されるレポートデータ。\n- 必要に応じて、一般的な業務課題に関する知識ベース。\n- データ分析と洞察抽出のためのAIの自然言語処理能力。\n- 成功事例、失敗事例、ケーススタディ（一般的な業務分析の文脈で）。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP8をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. ユーザーから提供された{レポート内容}を詳細に分析してください。明確な名詞と動詞を用いて、レポート内の重要なデータ、傾向、パターンを特定してください。\n2. 分析結果に基づき、顧客が直面している可能性のある本質的な業務課題を類推してください。多角的な視点から、考えられる複数の課題を検討してください。\n3. 特定された各業務課題について、レポート内の具体的なデータを引用しながら、その根拠を明確に示してください。\n4. 顧客の{顧客ニーズ}を考慮し、特定された業務課題が顧客ニーズにどのように影響するかを分析してください。\n5. 各業務課題について、その根本原因を推測し、可能な範囲で示してください。\n6. 顧客ニーズを満たすための洞察を提供してください。これらの洞察は、具体的な業務改善やアクションプラン策定のヒントとなるように記述してください。\n7. 分析的で説得力のあるトーンで、結果を出力してください。\n8. {#出力形式}を参考に、結果を整理して出力してください。\n\n## ルール\n- 提供されたレポートデータに客観的に基づいた分析を行うこと。\n- 憶測や主観的な判断を避け、データから導き出される結論を重視すること。\n- 顧客の潜在的なニーズを考慮した洞察を提供すること。\n- 必要に応じて、水平思考を用いて、通常とは異なる視点からの課題や解決策を検討すること。\n- 明確かつ簡潔な言葉で、分析結果と洞察を伝えること。\n\n## 出力形式\n```\n## レポート分析による顧客業務課題と洞察\n### 分析対象レポート\n{レポート内容}\n### 特定された業務課題一覧\n- 課題1: {具体的な課題} (根拠となるデータ: {レポート内の該当箇所}, 顧客ニーズとの関連性: {関連性})\n- 考えられる根本原因: {推測される根本原因}\n- 顧客ニーズを満たすための洞察: {具体的な洞察とアクションプランのヒント}\n- 課題2: {具体的な課題} (根拠となるデータ: {レポート内の該当箇所}, 顧客ニーズとの関連性: {関連性})\n- 考えられる根本原因: {推測される根本原因}\n- 顧客ニーズを満たすための洞察: {具体的な洞察とアクションプランのヒント}\n- （必要に応じて課題を追加）\n### その他の潜在的な業務課題と洞察\n{潜在的な課題}: {データに基づいた推測と洞察}\n- （必要に応じて追加）\n```\n\n## 補足\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+}

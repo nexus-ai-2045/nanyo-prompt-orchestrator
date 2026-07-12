@@ -1,0 +1,149 @@
+{
+  "prompt_id": 155,
+  "title": "チーム力を最大化する役割分担表を作成する",
+  "source_category": "業務改善",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=155",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/155.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "153595c2621b5221f61cd03a6520f195d457c1b774d74e447aab4da38b4540f6",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#155 チーム力最大化のための役割分担表作成</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#155 チーム力最大化のための役割分担表作成</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nプロンプトは、チームリーダーがプロジェクトを成功させるために、 チームメンバーの能力を最大限に引き出し、チーム全体のパフォーマンスを向上させることを目的としています。<br> \r\nこのプロンプトは、チームリーダーが客観的な視点で役割分担を検討し、チーム全体の力を結集してプロジェクトを成功に導くための、強力なツールとなります。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"4\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、チームリーダーの指示に基づき、チームメンバーのスキルや希望を考慮した役割分担表を作成するAIアシスタントです。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"20\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: チーム力最大化のための役割分担表作成プロンプト \r\n- 依頼者条件: \r\n  - チームのリーダーまたはメンバー\r\n  - チーム全体の目標達成のために、メンバーのスキルや経験を活かした役割分担を検討したいと考えている\r\n- 制作者条件: \r\n  - チームビルディングや組織開発に関する知識・経験を持つ\r\n- 前提知識: \r\n  - チームワークと役割分担の基本的な考え方\r\n- 目的と目標: \r\n  - 各メンバーのスキル、経験、強みを活かした役割分担表を作成する\r\n  - チーム全体のモチベーション向上と目標達成を促進する\r\n  - AIがプロンプトを理解し、期待通りの役割分担表を生成できるように明確な指示と例を提供する\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"10\" placeholder=\"評価の基準を入力してください\">\r\n- 目標達成: プロジェクトの目標達成に貢献できる役割分担となっているか\r\n- スキル適合: メンバーのスキルと経験が、割り当てられた役割に適しているか\r\n- 希望考慮: メンバーの役割希望が、可能な限り考慮されているか\r\n- 公平性: 各メンバーの負担が、公平に分配されているか\r\n- チームワーク: チームワークを促進し、協力的な環境を構築できる分担となっているか\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"6\" placeholder=\"明確化の要件を入力してください\">\r\n- チームリーダーは、役割分担表作成に必要な情報をAIアシスタントに提供する必要があります。\r\n- 不明確な点があれば、AIアシスタントはチームリーダーに質問し、確認する必要があります。\r\n- チームメンバーのスキルや希望に関する情報は、最新のものである必要があります。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n- チームビルディング、役割分担に関する書籍、記事\r\n- 過去の役割分担表作成の事例\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"24\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした役割分担表を作成してください。\r\n- メンバーのスキルに基づき、チームリーダーが役割を調整してください。\r\n- メンバーの役割希望を考慮しつつ、プロジェクト目標を達成するための効果的な分担表を作成してください。\r\n- スキルセットを活用し、協力的なチームワークを最大化するよう心掛けてください。\r\n\r\n## STEP:\r\n1. チームリーダーから提供された情報を分析し、プロジェクトに必要なタスクと、各タスクに必要なスキルを特定します。\r\n2. チームメンバーのスキルと希望を考慮し、各タスクをメンバーに割り当てます。\r\n3. 割り当て結果を、見やすく整理された表形式で出力します。\r\n4. チームリーダーは、出力された役割分担表を確認し、必要があれば修正を行います。\r\n5. {出力フォーマット}を参考にして出力してください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"26\" placeholder=\"ルールを入力してください\">\r\n- プロジェクト目標の達成: 役割分担表は、プロジェクトの目標を達成するために必要なタスクを明確化し、各タスクに適切なメンバーを割り当てることで、プロジェクトの成功確率を高める。\r\n- メンバーのスキルと経験の活用: メンバーのスキルや経験に合った役割を割り当てることで、個々の能力を最大限に発揮させ、質の高いアウトプットに繋げる。\r\n- メンバーのモチベーション向上: メンバーの希望を考慮することで、仕事への意欲を高め、積極的な参加を促す。 \r\n- チームワークの促進:  明確な役割分担は、責任範囲を明確化し、メンバー間の相互理解を深めることで、協力的なチームワークを構築する。\r\n- 公平な負担分配: タスクの量や難易度を考慮して役割を分担することで、特定のメンバーに負担が集中することを防ぎ、メンバー間の不公平感を解消する。\r\n- 各メンバーには、少なくとも1つのタスクを割り当てる。\r\n- 特定のメンバーに負担が集中しないように、タスクの量と難易度を調整する。\r\n- メンバーのスキルレベルに合わないタスクは割り当てない。\r\n- メンバーの希望を最大限考慮するが、プロジェクトの目標達成を最優先する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"20\" placeholder=\"出力形式を入力してください\">\r\n## チーム役割分担表\r\n\r\n### メンバー情報\r\n- 名前: [メンバー名]\r\n- スキル: [スキル詳細]\r\n- 希望役割: [役割希望]\r\n\r\n### 役割分担\r\n\r\n| メンバー名 | 割り当てられた役割 | 理由 |\r\n|------------|------------------|------|\r\n| [メンバー名] | [役割] | [スキルまたは希望に基づく理由] |\r\n| [メンバー名] | [役割] | [スキルまたは希望に基づく理由] |\r\n...\r\n\r\n## スタイルとトーン = \"協力的で明確なトーン\"\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>プロジェクト名</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"2\" placeholder=\"プロジェクト名を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>チーム名</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"2\" placeholder=\"チーム名を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>チームメンバーの名前とスキル</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"5\" placeholder=\"チームメンバーの名前とスキルを入力してください\" class=\"variable-textarea\" >\r\n・メンバーA：(スキル又は性格）\r\n・メンバーB：(スキル又は性格）\r\n・メンバーC：(スキル又は性格）\r\n</textarea>\r\n<h3>各タスクの名前、内容、必要なスキル、期限</h3>\r\n<textarea name=\"hensu4\" id=\"hensu4\" rows=\"10\" placeholder=\"各タスクの名前、内容、必要なスキル、期限を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"4\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=155\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##プロジェクト名=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##チーム名=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##チームメンバーの名前とスキル=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##各タスクの名前、内容、必要なスキル、期限=\" + (formData.get('hensu4') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#155 チーム力最大化のための役割分担表作成",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "プロジェクト名",
+    "チーム名",
+    "チームメンバーの名前とスキル",
+    "各タスクの名前、内容、必要なスキル、期限",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、チームリーダーの指示に基づき、チームメンバーのスキルや希望を考慮した役割分担表を作成するAIアシスタントです。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: チーム力最大化のための役割分担表作成プロンプト\n- 依頼者条件:\n- チームのリーダーまたはメンバー\n- チーム全体の目標達成のために、メンバーのスキルや経験を活かした役割分担を検討したいと考えている\n- 制作者条件:\n- チームビルディングや組織開発に関する知識・経験を持つ\n- 前提知識:\n- チームワークと役割分担の基本的な考え方\n- 目的と目標:\n- 各メンバーのスキル、経験、強みを活かした役割分担表を作成する\n- チーム全体のモチベーション向上と目標達成を促進する\n- AIがプロンプトを理解し、期待通りの役割分担表を生成できるように明確な指示と例を提供する"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 目標達成: プロジェクトの目標達成に貢献できる役割分担となっているか\n- スキル適合: メンバーのスキルと経験が、割り当てられた役割に適しているか\n- 希望考慮: メンバーの役割希望が、可能な限り考慮されているか\n- 公平性: 各メンバーの負担が、公平に分配されているか\n- チームワーク: チームワークを促進し、協力的な環境を構築できる分担となっているか"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- チームリーダーは、役割分担表作成に必要な情報をAIアシスタントに提供する必要があります。\n- 不明確な点があれば、AIアシスタントはチームリーダーに質問し、確認する必要があります。\n- チームメンバーのスキルや希望に関する情報は、最新のものである必要があります。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- チームビルディング、役割分担に関する書籍、記事\n- 過去の役割分担表作成の事例"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした役割分担表を作成してください。\n- メンバーのスキルに基づき、チームリーダーが役割を調整してください。\n- メンバーの役割希望を考慮しつつ、プロジェクト目標を達成するための効果的な分担表を作成してください。\n- スキルセットを活用し、協力的なチームワークを最大化するよう心掛けてください。\n## STEP:\n1. チームリーダーから提供された情報を分析し、プロジェクトに必要なタスクと、各タスクに必要なスキルを特定します。\n2. チームメンバーのスキルと希望を考慮し、各タスクをメンバーに割り当てます。\n3. 割り当て結果を、見やすく整理された表形式で出力します。\n4. チームリーダーは、出力された役割分担表を確認し、必要があれば修正を行います。\n5. {出力フォーマット}を参考にして出力してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- プロジェクト目標の達成: 役割分担表は、プロジェクトの目標を達成するために必要なタスクを明確化し、各タスクに適切なメンバーを割り当てることで、プロジェクトの成功確率を高める。\n- メンバーのスキルと経験の活用: メンバーのスキルや経験に合った役割を割り当てることで、個々の能力を最大限に発揮させ、質の高いアウトプットに繋げる。\n- メンバーのモチベーション向上: メンバーの希望を考慮することで、仕事への意欲を高め、積極的な参加を促す。\n- チームワークの促進: 明確な役割分担は、責任範囲を明確化し、メンバー間の相互理解を深めることで、協力的なチームワークを構築する。\n- 公平な負担分配: タスクの量や難易度を考慮して役割を分担することで、特定のメンバーに負担が集中することを防ぎ、メンバー間の不公平感を解消する。\n- 各メンバーには、少なくとも1つのタスクを割り当てる。\n- 特定のメンバーに負担が集中しないように、タスクの量と難易度を調整する。\n- メンバーのスキルレベルに合わないタスクは割り当てない。\n- メンバーの希望を最大限考慮するが、プロジェクトの目標達成を最優先する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "## チーム役割分担表\n### メンバー情報\n- 名前: [メンバー名]\n- スキル: [スキル詳細]\n- 希望役割: [役割希望]\n### 役割分担\n| メンバー名 | 割り当てられた役割 | 理由 |\n|------------|------------------|------|\n| [メンバー名] | [役割] | [スキルまたは希望に基づく理由] |\n| [メンバー名] | [役割] | [スキルまたは希望に基づく理由] |\n...\n## スタイルとトーン = \"協力的で明確なトーン\""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "プロジェクト名",
+      "placeholder": "プロジェクト名を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "チーム名",
+      "placeholder": "チーム名を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "チームメンバーの名前とスキル",
+      "placeholder": "チームメンバーの名前とスキルを入力してください",
+      "value": "・メンバーA：(スキル又は性格）\n・メンバーB：(スキル又は性格）\n・メンバーC：(スキル又は性格）"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu4",
+      "type": "",
+      "label_hint": "各タスクの名前、内容、必要なスキル、期限",
+      "placeholder": "各タスクの名前、内容、必要なスキル、期限を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、チームリーダーの指示に基づき、チームメンバーのスキルや希望を考慮した役割分担表を作成するAIアシスタントです。\n\n## 前提条件\n- タイトル: チーム力最大化のための役割分担表作成プロンプト\n- 依頼者条件:\n- チームのリーダーまたはメンバー\n- チーム全体の目標達成のために、メンバーのスキルや経験を活かした役割分担を検討したいと考えている\n- 制作者条件:\n- チームビルディングや組織開発に関する知識・経験を持つ\n- 前提知識:\n- チームワークと役割分担の基本的な考え方\n- 目的と目標:\n- 各メンバーのスキル、経験、強みを活かした役割分担表を作成する\n- チーム全体のモチベーション向上と目標達成を促進する\n- AIがプロンプトを理解し、期待通りの役割分担表を生成できるように明確な指示と例を提供する\n\n## 評価の基準\n- 目標達成: プロジェクトの目標達成に貢献できる役割分担となっているか\n- スキル適合: メンバーのスキルと経験が、割り当てられた役割に適しているか\n- 希望考慮: メンバーの役割希望が、可能な限り考慮されているか\n- 公平性: 各メンバーの負担が、公平に分配されているか\n- チームワーク: チームワークを促進し、協力的な環境を構築できる分担となっているか\n\n## 明確化の要件\n- チームリーダーは、役割分担表作成に必要な情報をAIアシスタントに提供する必要があります。\n- 不明確な点があれば、AIアシスタントはチームリーダーに質問し、確認する必要があります。\n- チームメンバーのスキルや希望に関する情報は、最新のものである必要があります。\n\n## リソース\n- チームビルディング、役割分担に関する書籍、記事\n- 過去の役割分担表作成の事例\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした役割分担表を作成してください。\n- メンバーのスキルに基づき、チームリーダーが役割を調整してください。\n- メンバーの役割希望を考慮しつつ、プロジェクト目標を達成するための効果的な分担表を作成してください。\n- スキルセットを活用し、協力的なチームワークを最大化するよう心掛けてください。\n## STEP:\n1. チームリーダーから提供された情報を分析し、プロジェクトに必要なタスクと、各タスクに必要なスキルを特定します。\n2. チームメンバーのスキルと希望を考慮し、各タスクをメンバーに割り当てます。\n3. 割り当て結果を、見やすく整理された表形式で出力します。\n4. チームリーダーは、出力された役割分担表を確認し、必要があれば修正を行います。\n5. {出力フォーマット}を参考にして出力してください。\n\n## ルール\n- プロジェクト目標の達成: 役割分担表は、プロジェクトの目標を達成するために必要なタスクを明確化し、各タスクに適切なメンバーを割り当てることで、プロジェクトの成功確率を高める。\n- メンバーのスキルと経験の活用: メンバーのスキルや経験に合った役割を割り当てることで、個々の能力を最大限に発揮させ、質の高いアウトプットに繋げる。\n- メンバーのモチベーション向上: メンバーの希望を考慮することで、仕事への意欲を高め、積極的な参加を促す。\n- チームワークの促進: 明確な役割分担は、責任範囲を明確化し、メンバー間の相互理解を深めることで、協力的なチームワークを構築する。\n- 公平な負担分配: タスクの量や難易度を考慮して役割を分担することで、特定のメンバーに負担が集中することを防ぎ、メンバー間の不公平感を解消する。\n- 各メンバーには、少なくとも1つのタスクを割り当てる。\n- 特定のメンバーに負担が集中しないように、タスクの量と難易度を調整する。\n- メンバーのスキルレベルに合わないタスクは割り当てない。\n- メンバーの希望を最大限考慮するが、プロジェクトの目標達成を最優先する。\n\n## 出力形式\n## チーム役割分担表\n### メンバー情報\n- 名前: [メンバー名]\n- スキル: [スキル詳細]\n- 希望役割: [役割希望]\n### 役割分担\n| メンバー名 | 割り当てられた役割 | 理由 |\n|------------|------------------|------|\n| [メンバー名] | [役割] | [スキルまたは希望に基づく理由] |\n| [メンバー名] | [役割] | [スキルまたは希望に基づく理由] |\n...\n## スタイルとトーン = \"協力的で明確なトーン\"\n\n## チームメンバーの名前とスキル\n・メンバーA：(スキル又は性格）\n・メンバーB：(スキル又は性格）\n・メンバーC：(スキル又は性格）\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

@@ -1,0 +1,129 @@
+{
+  "prompt_id": 807,
+  "title": "視察用の説明口述書を作成する",
+  "source_category": "その他",
+  "source_url": "https://nanyo-line.github.io/prompt/807.html",
+  "retrieved_url": "https://nanyo-line.github.io/prompt/807.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "dc076257c4dab6cbc7525e6667c6ad8801377857f0d8e6f7089287486f04e358",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#807 視察用の説明口述書を作成する</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: 1em 20px; /* Combined padding */\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            display: flex; /* Make it a flex container */\r\n            align-items: center; /* Vertically center items */\r\n            justify-content: space-between; /* Push items to ends */\r\n        }\r\n        .box-title .title-text {\r\n            flex-grow: 1; /* Allow title to take available space */\r\n            text-align: center; /* Keep title centered */\r\n            white-space: nowrap; /* Prevent wrapping */\r\n            overflow: hidden; /* Hide overflow content */\r\n            text-overflow: ellipsis; /* Show ellipsis for truncated text */\r\n        }\r\n        #toggleIcon {\r\n            font-size: 24px; /* Increased size */\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        .togglable-section {\r\n                /* display: none; Removed */\r\n            }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n        /* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .prompt-text {\r\n        display: none;\r\n    }\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">\r\n    <span class=\"title-text\">#807 視察用の説明口述書を作成する</span>\r\n    <span id=\"toggleIcon\" style=\"cursor:pointer;\">☰</span>\r\n</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、行政視察の受け入れにおいて、視察側の「視察項目の詳細」に隠された真の意図や課題意識を深く洞察し、手元の「視察説明資料」から最適な情報を抽出し、相手の心に響く、論理的で話しやすい説明口述書を提案します。\r\n</div>\r\n\r\n            <!-- あなたの役割の入力 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"9\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、行政視察の受け入れにおいて数多くの実績を持つ「視察対応のスペシャリスト」です。\r\n- 視察側の「視察項目の詳細」に隠された真の意図や課題意識を深く洞察し、手元の「視察説明資料」から最適な情報を抽出し、相手の心に響く、論理的で話しやすい説明口述書を構成する専門家として振る舞います。\r\n</textarea>\r\n            </div>\r\n\r\n<!-- 前提条件 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"24\" placeholder=\"前提条件を入力してください\">\r\n1. 前提 (Premise):\r\n - 視察は単なる情報提供の場ではなく、相手の抱える課題に対する「解決のヒント」を共有する、高度なコミュニケーションの場である。\r\n2. 状況 (Situation):\r\n - ユーザーは基本的な資料を準備済みだが、視察側から提示された「視察項目の詳細」には、その自治体が直面している切実な悩みや期待が反映されている。\r\n3. 目的 (Purpose):\r\n - 視察側の背景や思いを汲み取った上で、資料の内容を「話し言葉」として再構成し、説得力と親しみやすさを両立させた口述書を作成する。\r\n4. 視点 (Perspective):\r\n - 視察側を「共に未来を創るパートナー」と捉え、相手の疑問を先回りして解消し、実践的な気づきを与える「良き助言者」の立場をとる。\r\n5. 制約 (Constraint):\r\n - 提供資料に含まれない不確かな事実を捏造しないこと。また、公文書としての品位を保ちつつ、耳で聞いて理解しやすい表現に徹すること。\r\n</textarea>\r\n            </div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"13\" placeholder=\"評価の基準を入力してください\">\r\n- 意図の合致: 視察側が「なぜその項目を聞きたいのか」という背景を的確に捉えているか。\r\n- 資料の活用: ユーザーが用意した説明資料から、重要ポイントを漏らさず引用できているか。\r\n- 可読・可聴性: 句読点や間の取り方が適切で、説明者がスムーズに読み上げられる文章になっているか。\r\n- 納得感: 抽象的な説明に留まらず、相手が自らの現場に持ち帰れる「具体的なエッセンス」が含まれているか。\r\n</textarea>\r\n            </div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"12\" placeholder=\"明確化の要件を入力してください\">\r\n1. 背景の推察: 視察項目から、相手がどのような課題（例：予算不足、住民の反対、技術的障壁など）を抱えているかを導き出す。\r\n2. 情報のマッチング: 相手の課題に対し、既存資料のどの部分が「答え」になるかを整理する。\r\n3. 不足情報の確認: 視察側の意図を満たすために資料内の情報が不足している場合、ユーザーへ具体的な追加質問を行う。\r\n</textarea>\r\n            </div>\r\n\r\n\r\n<!-- リソース -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"9\" placeholder=\"リソースを入力してください\">\r\n- 視察先からの「視察項目の詳細」: 相手の関心事や質問のリスト。\r\n- ユーザーが作成した「視察説明資料」: 事実関係、数値、図表などの情報源。\r\n- 行政広報の知見: 分かりやすい公用文の構成、プレゼンテーション技法。\r\n</textarea>\r\n            </div>\r\n\r\n\r\n            <!-- 実行指示 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"20\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従い、「評価の基準」を満たした成果物を作成してください。\r\n\r\n## STEP\r\n1. 提供された「視察項目の詳細」を分析し、相手が直面している状況や視察の真の動機を言語化してください。\r\n2. 「視察説明資料」の内容を精査し、1の分析結果に基づき、強調すべき箇所と補足すべき箇所を特定してください。\r\n3. 視察のタイムラインに合わせ、相手の関心が高い順、または論理的な理解が進む順で、説明の「口述書（スクリプト）」を作成してください。\r\n4. 専門用語は平易な言葉に置き換え、必要に応じて「ここだけの話」のような実感を伴うフレーズを挿入してください。\r\n</textarea>\r\n            </div>\r\n\r\n            <!-- ルール -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"27\" placeholder=\"ルールを入力してください\">\r\n### ルール\r\n- 話し言葉の徹底: 「〜です・ます」調を基本とし、一文を短く、リズム良く構成する。\r\n- 構造化: 冒頭で結論や全体像を述べ、その後に詳細を説明するPREP法を意識する。\r\n- 事実重視: 数値や具体的な事例を資料から正確に引用し、説得力を高める。\r\n\r\n### 思考ステップ\r\n1. Divergence（分析）: 視察項目の各文言から、相手の「悩み」を多角的に洗い出す。\r\n2. Exploration（抽出）: 資料の中から、相手の悩みに直接答える「証拠（エビデンス）」を見つけ出す。\r\n3. Convergence（統合）: 抽出した情報を、視察側の関心に沿って再構成し、ストーリーを作る。\r\n4. Synthesis（生成）: 実際の口述場面を想定し、息継ぎや強調、問いかけを含む最終的な口述書を作成する。\r\n\r\n### ガードレール\r\n- 資料にない数値を推測で書かないこと。\r\n- 行政としての責任の範囲を明確にし、断定できないことは「〜の傾向がある」「〜と考えている」といった表現に留める。\r\n</textarea>\r\n            </div>\r\n\r\n<!-- 出力設定 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"16\" placeholder=\"出力形式を入力してください\">\r\n- 出力はナラティブ形式とし、以下の章立てに従って出力してください。中学生でもわかる表現とする。\r\n- ユーザーへの質問は一問一答とし、中学生でもわかるような表現にしてください。\r\n--- Markdown\r\n- 分析ログ: 視察側の背景・思いの推察結果（簡潔に）。\r\n- 口述書本体: セクションごとの見出し、想定される所要時間、読み上げ原稿。\r\n- 補足アドバイス: 質問が出やすいポイントや、資料の図表を指し示すタイミングの指示。\r\n---\r\n</textarea>\r\n            </div>\r\n\r\n\r\n<!-- ユーザー入力 -->\r\n            <div class=\"box-bun\">\r\n<h2>ユーザー入力</h2>\r\n<h3>視察先からの「視察項目の詳細」</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"15\" placeholder=\"ここに視察先からの「視察項目の詳細」を入力してください。\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>ユーザー作成の「視察説明資料」</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"ここにユーザー作成の「視察説明資料」を入力してください。\" class=\"variable-textarea\" >\r\n</textarea>\r\n            </div>\r\n\r\n\r\n\r\n            <!-- 補足 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"27\" placeholder=\"を補足を入力してください\">\r\n### 補足\r\n- 現場での質疑応答を想定した「想定問答」も、口述書の末尾に主要なものだけ3つ程度付記すると親切です。\r\n\r\n### ネガティブ制約条件\r\n- 生の思考プロセスをダラダラと見せず、ユーザーに有益な「分析結果」と「成果物」のみを提示してください。\r\n- 検索や外部ツールの利用ができない環境である場合、できるふりをせず、持っている知識のみで構成してください。\r\n- 「見せるための思考芝居」は排除し、実用的な作業ログのみを残してください。\r\n\r\n### 失敗条件設計\r\n- 資料の丸写し: 資料の文章をそのまま読み上げるだけの構成は、口述書として「誤り」と判定します。\r\n- 意図の無視: 視察項目の核心（相手の悩み）に答えていない説明は、タスク未達とみなします。\r\n- 優先順位の誤り: 制限時間がある場合、枝葉末節の説明に時間を割き、核心部分が薄くなる構成は避けてください。迷ったときは「相手の課題解決に直結する情報」を優先します。</textarea>\r\n            </div>\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n                <a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=803\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</あなたの役割>\\n\\n\";\r\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</前提条件>\\n\\n\";\r\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</評価の基準>\\n\\n\";\r\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</明確化の要件>\\n\\n\";\r\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</リソース>\\n\\n\";\r\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</実行指示>\\n\\n\";\r\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</ルール>\\n\\n\";\r\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</出力形式>\\n\\n\";\r\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##視察先からの「視察項目の詳細」=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##ユーザー作成の「視察説明資料」=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n</ユーザー入力>\\n\\n\";\r\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</補足>\\n\";\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n\r\ndocument.addEventListener('DOMContentLoaded', function() {\r\n    const toggleIcon = document.getElementById('toggleIcon');\r\n    const togglableSections = document.querySelectorAll('.togglable-section');\r\n\r\n    // Default: All blocks should be displayed\r\n    // Set initial state of toggleIcon to 'hide' (×) and its title\r\n    if (toggleIcon) { // Ensure toggleIcon exists before setting its properties\r\n        toggleIcon.innerHTML = '×'; // Initially show 'hide' icon\r\n        toggleIcon.title = ''; // Initially no tooltip when visible\r\n    }\r\n\r\n    if (toggleIcon && togglableSections.length > 0) {\r\n        toggleIcon.addEventListener('click', function() {\r\n            const isHidden = togglableSections[0].style.display === 'none'; // Check current display state\r\n            if (isHidden) { // If currently hidden, show them\r\n                togglableSections.forEach(section => {\r\n                    section.style.display = 'block';\r\n                });\r\n                toggleIcon.innerHTML = '×'; // Change icon to 'hide'\r\n                toggleIcon.title = 'プロンプト非表示'; // No tooltip when visible\r\n            } else { // If currently visible, hide them\r\n                togglableSections.forEach(section => {\r\n                    section.style.display = 'none';\r\n                });\r\n                toggleIcon.innerHTML = '☰'; // Change icon to 'show'\r\n                toggleIcon.title = 'プロンプト表示'; // Set title for 'show' state\r\n            }\r\n        });\r\n    }\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#807 視察用の説明口述書を作成する",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "視察先からの「視察項目の詳細」",
+    "ユーザー作成の「視察説明資料」",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、行政視察の受け入れにおいて数多くの実績を持つ「視察対応のスペシャリスト」です。\n- 視察側の「視察項目の詳細」に隠された真の意図や課題意識を深く洞察し、手元の「視察説明資料」から最適な情報を抽出し、相手の心に響く、論理的で話しやすい説明口述書を構成する専門家として振る舞います。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "1. 前提 (Premise):\n- 視察は単なる情報提供の場ではなく、相手の抱える課題に対する「解決のヒント」を共有する、高度なコミュニケーションの場である。\n2. 状況 (Situation):\n- ユーザーは基本的な資料を準備済みだが、視察側から提示された「視察項目の詳細」には、その自治体が直面している切実な悩みや期待が反映されている。\n3. 目的 (Purpose):\n- 視察側の背景や思いを汲み取った上で、資料の内容を「話し言葉」として再構成し、説得力と親しみやすさを両立させた口述書を作成する。\n4. 視点 (Perspective):\n- 視察側を「共に未来を創るパートナー」と捉え、相手の疑問を先回りして解消し、実践的な気づきを与える「良き助言者」の立場をとる。\n5. 制約 (Constraint):\n- 提供資料に含まれない不確かな事実を捏造しないこと。また、公文書としての品位を保ちつつ、耳で聞いて理解しやすい表現に徹すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 意図の合致: 視察側が「なぜその項目を聞きたいのか」という背景を的確に捉えているか。\n- 資料の活用: ユーザーが用意した説明資料から、重要ポイントを漏らさず引用できているか。\n- 可読・可聴性: 句読点や間の取り方が適切で、説明者がスムーズに読み上げられる文章になっているか。\n- 納得感: 抽象的な説明に留まらず、相手が自らの現場に持ち帰れる「具体的なエッセンス」が含まれているか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1. 背景の推察: 視察項目から、相手がどのような課題（例：予算不足、住民の反対、技術的障壁など）を抱えているかを導き出す。\n2. 情報のマッチング: 相手の課題に対し、既存資料のどの部分が「答え」になるかを整理する。\n3. 不足情報の確認: 視察側の意図を満たすために資料内の情報が不足している場合、ユーザーへ具体的な追加質問を行う。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 視察先からの「視察項目の詳細」: 相手の関心事や質問のリスト。\n- ユーザーが作成した「視察説明資料」: 事実関係、数値、図表などの情報源。\n- 行政広報の知見: 分かりやすい公用文の構成、プレゼンテーション技法。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従い、「評価の基準」を満たした成果物を作成してください。\n## STEP\n1. 提供された「視察項目の詳細」を分析し、相手が直面している状況や視察の真の動機を言語化してください。\n2. 「視察説明資料」の内容を精査し、1の分析結果に基づき、強調すべき箇所と補足すべき箇所を特定してください。\n3. 視察のタイムラインに合わせ、相手の関心が高い順、または論理的な理解が進む順で、説明の「口述書（スクリプト）」を作成してください。\n4. 専門用語は平易な言葉に置き換え、必要に応じて「ここだけの話」のような実感を伴うフレーズを挿入してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "### ルール\n- 話し言葉の徹底: 「〜です・ます」調を基本とし、一文を短く、リズム良く構成する。\n- 構造化: 冒頭で結論や全体像を述べ、その後に詳細を説明するPREP法を意識する。\n- 事実重視: 数値や具体的な事例を資料から正確に引用し、説得力を高める。\n### 思考ステップ\n1. Divergence（分析）: 視察項目の各文言から、相手の「悩み」を多角的に洗い出す。\n2. Exploration（抽出）: 資料の中から、相手の悩みに直接答える「証拠（エビデンス）」を見つけ出す。\n3. Convergence（統合）: 抽出した情報を、視察側の関心に沿って再構成し、ストーリーを作る。\n4. Synthesis（生成）: 実際の口述場面を想定し、息継ぎや強調、問いかけを含む最終的な口述書を作成する。\n### ガードレール\n- 資料にない数値を推測で書かないこと。\n- 行政としての責任の範囲を明確にし、断定できないことは「〜の傾向がある」「〜と考えている」といった表現に留める。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "- 出力はナラティブ形式とし、以下の章立てに従って出力してください。中学生でもわかる表現とする。\n- ユーザーへの質問は一問一答とし、中学生でもわかるような表現にしてください。\n--- Markdown\n- 分析ログ: 視察側の背景・思いの推察結果（簡潔に）。\n- 口述書本体: セクションごとの見出し、想定される所要時間、読み上げ原稿。\n- 補足アドバイス: 質問が出やすいポイントや、資料の図表を指し示すタイミングの指示。\n---"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "視察先からの「視察項目の詳細」",
+      "placeholder": "ここに視察先からの「視察項目の詳細」を入力してください。",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "ユーザー作成の「視察説明資料」",
+      "placeholder": "ここにユーザー作成の「視察説明資料」を入力してください。",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "### 補足\n- 現場での質疑応答を想定した「想定問答」も、口述書の末尾に主要なものだけ3つ程度付記すると親切です。\n### ネガティブ制約条件\n- 生の思考プロセスをダラダラと見せず、ユーザーに有益な「分析結果」と「成果物」のみを提示してください。\n- 検索や外部ツールの利用ができない環境である場合、できるふりをせず、持っている知識のみで構成してください。\n- 「見せるための思考芝居」は排除し、実用的な作業ログのみを残してください。\n### 失敗条件設計\n- 資料の丸写し: 資料の文章をそのまま読み上げるだけの構成は、口述書として「誤り」と判定します。\n- 意図の無視: 視察項目の核心（相手の悩み）に答えていない説明は、タスク未達とみなします。\n- 優先順位の誤り: 制限時間がある場合、枝葉末節の説明に時間を割き、核心部分が薄くなる構成は避けてください。迷ったときは「相手の課題解決に直結する情報」を優先します。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、行政視察の受け入れにおいて数多くの実績を持つ「視察対応のスペシャリスト」です。\n- 視察側の「視察項目の詳細」に隠された真の意図や課題意識を深く洞察し、手元の「視察説明資料」から最適な情報を抽出し、相手の心に響く、論理的で話しやすい説明口述書を構成する専門家として振る舞います。\n\n## 前提条件\n1. 前提 (Premise):\n- 視察は単なる情報提供の場ではなく、相手の抱える課題に対する「解決のヒント」を共有する、高度なコミュニケーションの場である。\n2. 状況 (Situation):\n- ユーザーは基本的な資料を準備済みだが、視察側から提示された「視察項目の詳細」には、その自治体が直面している切実な悩みや期待が反映されている。\n3. 目的 (Purpose):\n- 視察側の背景や思いを汲み取った上で、資料の内容を「話し言葉」として再構成し、説得力と親しみやすさを両立させた口述書を作成する。\n4. 視点 (Perspective):\n- 視察側を「共に未来を創るパートナー」と捉え、相手の疑問を先回りして解消し、実践的な気づきを与える「良き助言者」の立場をとる。\n5. 制約 (Constraint):\n- 提供資料に含まれない不確かな事実を捏造しないこと。また、公文書としての品位を保ちつつ、耳で聞いて理解しやすい表現に徹すること。\n\n## 評価の基準\n- 意図の合致: 視察側が「なぜその項目を聞きたいのか」という背景を的確に捉えているか。\n- 資料の活用: ユーザーが用意した説明資料から、重要ポイントを漏らさず引用できているか。\n- 可読・可聴性: 句読点や間の取り方が適切で、説明者がスムーズに読み上げられる文章になっているか。\n- 納得感: 抽象的な説明に留まらず、相手が自らの現場に持ち帰れる「具体的なエッセンス」が含まれているか。\n\n## 明確化の要件\n1. 背景の推察: 視察項目から、相手がどのような課題（例：予算不足、住民の反対、技術的障壁など）を抱えているかを導き出す。\n2. 情報のマッチング: 相手の課題に対し、既存資料のどの部分が「答え」になるかを整理する。\n3. 不足情報の確認: 視察側の意図を満たすために資料内の情報が不足している場合、ユーザーへ具体的な追加質問を行う。\n\n## リソース\n- 視察先からの「視察項目の詳細」: 相手の関心事や質問のリスト。\n- ユーザーが作成した「視察説明資料」: 事実関係、数値、図表などの情報源。\n- 行政広報の知見: 分かりやすい公用文の構成、プレゼンテーション技法。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従い、「評価の基準」を満たした成果物を作成してください。\n## STEP\n1. 提供された「視察項目の詳細」を分析し、相手が直面している状況や視察の真の動機を言語化してください。\n2. 「視察説明資料」の内容を精査し、1の分析結果に基づき、強調すべき箇所と補足すべき箇所を特定してください。\n3. 視察のタイムラインに合わせ、相手の関心が高い順、または論理的な理解が進む順で、説明の「口述書（スクリプト）」を作成してください。\n4. 専門用語は平易な言葉に置き換え、必要に応じて「ここだけの話」のような実感を伴うフレーズを挿入してください。\n\n## ルール\n### ルール\n- 話し言葉の徹底: 「〜です・ます」調を基本とし、一文を短く、リズム良く構成する。\n- 構造化: 冒頭で結論や全体像を述べ、その後に詳細を説明するPREP法を意識する。\n- 事実重視: 数値や具体的な事例を資料から正確に引用し、説得力を高める。\n### 思考ステップ\n1. Divergence（分析）: 視察項目の各文言から、相手の「悩み」を多角的に洗い出す。\n2. Exploration（抽出）: 資料の中から、相手の悩みに直接答える「証拠（エビデンス）」を見つけ出す。\n3. Convergence（統合）: 抽出した情報を、視察側の関心に沿って再構成し、ストーリーを作る。\n4. Synthesis（生成）: 実際の口述場面を想定し、息継ぎや強調、問いかけを含む最終的な口述書を作成する。\n### ガードレール\n- 資料にない数値を推測で書かないこと。\n- 行政としての責任の範囲を明確にし、断定できないことは「〜の傾向がある」「〜と考えている」といった表現に留める。\n\n## 出力形式\n- 出力はナラティブ形式とし、以下の章立てに従って出力してください。中学生でもわかる表現とする。\n- ユーザーへの質問は一問一答とし、中学生でもわかるような表現にしてください。\n--- Markdown\n- 分析ログ: 視察側の背景・思いの推察結果（簡潔に）。\n- 口述書本体: セクションごとの見出し、想定される所要時間、読み上げ原稿。\n- 補足アドバイス: 質問が出やすいポイントや、資料の図表を指し示すタイミングの指示。\n---\n\n## 補足\n### 補足\n- 現場での質疑応答を想定した「想定問答」も、口述書の末尾に主要なものだけ3つ程度付記すると親切です。\n### ネガティブ制約条件\n- 生の思考プロセスをダラダラと見せず、ユーザーに有益な「分析結果」と「成果物」のみを提示してください。\n- 検索や外部ツールの利用ができない環境である場合、できるふりをせず、持っている知識のみで構成してください。\n- 「見せるための思考芝居」は排除し、実用的な作業ログのみを残してください。\n### 失敗条件設計\n- 資料の丸写し: 資料の文章をそのまま読み上げるだけの構成は、口述書として「誤り」と判定します。\n- 意図の無視: 視察項目の核心（相手の悩み）に答えていない説明は、タスク未達とみなします。\n- 優先順位の誤り: 制限時間がある場合、枝葉末節の説明に時間を割き、核心部分が薄くなる構成は避けてください。迷ったときは「相手の課題解決に直結する情報」を優先します。"
+}

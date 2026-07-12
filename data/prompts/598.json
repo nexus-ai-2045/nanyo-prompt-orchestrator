@@ -1,0 +1,129 @@
+{
+  "prompt_id": 598,
+  "title": "対話からの「知の共有」と「再利用可能な知識」抽出プロンプト",
+  "source_category": "コミュニケーション支援",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=598",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/598.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "e5cd73b355ca02dac990125c136e4e477f3ba336825296c90cf580bc0a4f1f9e",
+  "raw_html": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta name=\"robots\" content=\"noindex\" />\n    <title>#598 対話からの「知の共有」と「再利用可能な知識」抽出</title>\n    <style>\n        /* === スタイル設定 === */\n        \n        /* 基本ページ設定 */\n        body {\n            font-family: Arial, sans-serif;\n            margin: 0;\n            padding: 20px;\n            box-sizing: border-box;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            min-height: 100vh;\n            background-color: #FFF;\n        }\n        /* メインコンテナのスタイル */\n        .container {\n            width: 100%;\n            max-width: 800px;\n            background: #ffffff;\n            border-radius: 8px;\n            box-shadow: 3px 5px 15px -5px #777777;\n            overflow: hidden;\n        }\n        /* 各種見出し・ボタンのスタイル設定 */\n        h2 {\n            color: #797979;\n            font-size: 1.6em;\n        }\n        .box-title {\n            font-size: 1.7em;\n            letter-spacing: 0.1em;\n            padding: 1em 20px; /* Combined padding */\n            background-color: #5fc2f5;\n            color: #fff;\n            font-weight: 600;\n            display: flex; /* Make it a flex container */\n            align-items: center; /* Vertically center items */\n            justify-content: space-between; /* Push items to ends */\n        }\n        .box-title .title-text {\n            flex-grow: 1; /* Allow title to take available space */\n            text-align: center; /* Keep title centered */\n            white-space: nowrap; /* Prevent wrapping */\n            overflow: hidden; /* Hide overflow content */\n            text-overflow: ellipsis; /* Show ellipsis for truncated text */\n        }\n        #toggleIcon {\n            font-size: 24px; /* Increased size */\n        }\n        .form-content {\n            padding: 40px 120px;\n            background: #f1f1f1;\n        }\n        .box-bun {\n            background: #FFF;\n            border: 1px solid #D5D9DC;\n            border-radius: 20px;\n            padding: 15px;\n            margin-bottom: 40px;\n        }\n        .togglable-section {\n                /* display: none; Removed */\n            }\n        label {\n            display: inline-block;\n            margin-left: 5px;\n            color: #656565;\n        }\n        input[type=\"text\"], select, textarea {\n            width: 100%;\n            padding: 10px;\n            margin-top: 5px;\n            box-sizing: border-box;\n            border: 0.5px solid #AEAEAE;\n            border-radius: 5px;\n            font-size: 16px;\n        }\n        textarea {\n            resize: vertical;\n        }\n        .button-group {\n            display: flex;\n            justify-content: center;\n            margin-top: 20px;\n        }\n        .btn2 {\n            width: 150px;\n            height: 60px;\n            margin: 0 10px;\n        }\n\n        .btn-generate {\n            width: 180px;\n            height: 60px;\n            margin: 0 10px;\n        }\n        .btn2 a, .btn-generate a {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            width: 100%;\n            height: 100%;\n            text-decoration: none;\n            font-size: 20px;\n            font-weight: bold;\n            border-radius: 35px;\n            transition: all 0.5s ease;\n        }\n        .btn2 a {\n            background: #FFFFFF;\n            color: #5FC2F5;\n            border: 2px solid #5FC2F5;\n        }\n        .btn2 a:hover {\n            transform: scale(1.1, 1.1);\n        }\n        .btn-generate a {\n            background: #5FC2F5;\n            color: #FFFFFF;\n        }\n        .btn-generate a:hover {\n            transform: scale(1.1, 1.1);\n        }\n        .small-text {\n            font-size: 0.5em;\n            color: #656565;\n            text-align: center;\n            margin-top: 5px;\n        }\n\n/* === 入力エリアの色設定 === */\n.variable-textarea {\n    background-color: #ffe4e1; /* 薄いピンク */\n}\n\n\n        /* === スマホ用設定 === */\n@media only screen and (max-width: 768px) {\n    .prompt-text {\n        display: none;\n    }\n    .container {\n        width: 100%;\n        padding: 10px;\n        box-shadow: none;\n    }\n    .form-content {\n        padding: 20px 10px;\n    }\n    .box-bun {\n        padding: 10px;\n        margin-bottom: 20px;\n    }\n    h2 {\n        font-size: 1.4em;\n    }\n    .button-group {\n        flex-direction: column;\n    }\n    .btn2, .btn-generate {\n        width: 100%;\n        height: 50px;\n        margin: 10px 0;\n    }\n    .btn2 a, .btn-generate a {\n        font-size: 18px;\n    }\n    textarea {\n        font-size: 14px;\n    }\n}\n\n    </style>\n</head>\n<body>\n\n<!-- === メインのHTML構造 === -->\n<div class=\"container\">\n    <div class=\"box-title\">\n    <span class=\"title-text\">#598 対話からの「知の共有」と「再利用可能な知識」抽出</span>\n    <span id=\"toggleIcon\" style=\"cursor:pointer;\">☰</span>\n</div>\n    <div class=\"form-content\">\n        <form id=\"summaryPromptForm\">\n\n<!-- プロンプトの目的 -->\n<div class=\"box-bun\">\n<h2>目的・ねらい</h2>\nこのプロンプトは、ユーザーが提供した「対話内容」から、「知の共有」と「再利用可能性」を達成するために、論理的な構造化、法則化を行います。\n</div>\n\n            <!-- あなたの役割の入力 -->\n            <div class=\"box-bun togglable-section\">\n<h2>あなたの役割</h2>\n<textarea name=\"role\" id=\"role\" rows=\"8\" placeholder=\"あなたの役割を入力してください\">\n- あなたは、提供された2者間の対話テキストを深く分析する知識構造化の専門家です。\n- 単なる会話の要約ではなく、議論の背後にある本質的な洞察、知識、法則を抽出する能力を持っています。\n- 抽出した情報を、他のユーザーが実務や思考に即座に「再利用可能」な形式で、論理的に構造化することがあなたの最優先事項です。\n</textarea>\n            </div>\n\n<!-- 前提条件 -->\n            <div class=\"box-bun togglable-section\">\n<h2>前提条件</h2>\n<textarea name=\"conditions\" id=\"conditions\" rows=\"14\" placeholder=\"前提条件を入力してください\">\n- タイトル: 対話からの「知の共有」と「再利用可能な知識」抽出プロンプト\n- 依頼者条件: 対話記録から具体的な知恵や行動指針を抽出し、再利用したいビジネスパーソン、研究者、または記録担当者。\n- 制作者条件: 日本語の高度な文章理解能力、論理的思考力、問題の要素分解能力、構造化プロンプト設計に関する高度な知識、知識の法則化と抽象化思考。\n- 目的と目標: ユーザーが提供した対話テキストから、単なる意見の要約を超えた「知（知識、洞察、法則）」を抽出し、実務で応用可能なフレームワークとして構造化し、対話記録を再利用可能にすること。\n</textarea>\n            </div>\n\n\n<!-- 評価の基準 -->\n            <div class=\"box-bun togglable-section\">\n<h2>評価の基準</h2>\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"15\" placeholder=\"評価の基準を入力してください\">\n1. 知識の深さ (Deep Insight): 抽出された「知」が、対話の表面的な結論や意見の要約に留まらず、論理的思考に基づいた因果関係や本質的な法則を示しているか。\n2. 再利用可能性 (Reusability): 抽出・構造化された知識が、他の文脈やタスクに応用可能な形式（例：原則、行動リスト、フレームワーク）で整理されているか。\n3. 網羅性と正確性 (Coverage and Accuracy): 指定された対話テキストの全文を扱い、いかなる情報も省略していないか。また、対話内容の文意を正確に反映しているか。\n4. 明確性 (Clarity): 抽出された知の項目が曖昧な表現を排除し、具体的な行動や思考に結びつくよう明確に定義されているか。\n</textarea>\n            </div>\n\n\n<!-- 明確化の要件 -->\n            <div class=\"box-bun togglable-section\">\n<h2>明確化の要件</h2>\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"15\" placeholder=\"明確化の要件を入力してください\">\n1. 提供された対話テキストのコンテキストや背景（例：この対話が行われた目的、前提とされている情報）を分析し、出力に反映すること。\n2. 抽出する「知」を定義するために、「知」と「単なる意見や感想」を明確に区別する基準を、AIが内部で設定し、その基準に基づいて知の抽出を行うこと。\n3. 抽出された知識の法則化（アナロジー思考、抽象化思考）を試み、その知識が他の異なる分野に応用できる可能性を提案すること。\n4. 不明瞭な点や不足情報があった場合、回答を試みる前に、最高の成果を出すために追加情報が必要である旨を質問する形式を提示すること。\n</textarea>\n            </div>\n\n\n<!-- リソース -->\n            <div class=\"box-bun togglable-section\">\n<h2>リソース</h2>\n<textarea name=\"resource\" id=\"resource\" rows=\"9\" placeholder=\"リソースを入力してください\">\n- ユーザーから提供される{対話テキスト}と{対話のテーマ}。\n- 論理的思考（要素分解、因果関係の特定）の知識。\n- 知識構造化（フレームワーク、アウトライン作成）のテンプレートと手法。\n- 会議記録や議事録からの決定事項およびアクションアイテム抽出の事例。\n</textarea>\n            </div>\n\n\n            <!-- 実行指示 -->\n            <div class=\"box-bun togglable-section\">\n<h2>実行指示</h2>\n<textarea name=\"instructions\" id=\"instructions\" rows=\"28\" placeholder=\"実行指示を入力してください\">\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 以下のステップバイステップの手順に従い、対話から「知」を抽出し、再利用可能な構造で出力してください。\n\n## STEP:\n1. 対話の全体像把握（インプット処理）: 提供された{対話テキスト}の全文を読み込み、各発言者が持つ前提、推論、結論の筋道、および論点を特定し、構造的に理解する。\n2. 「知」と「意見」の峻別と抽出: 対話内容から、単なる発言者の意見や感情的な反応を除外し、普遍性や応用可能性を持つ「知識」「洞察」「論理的構造」「法則」を抽出する。\n3. 知識の体系化と法則化: 抽出された知を、「コンセプト（概念）」と「実行可能なアクションアイテム」に分類し、再利用可能な形で抽象化・法則化する。\n4. 知の構造化（出力フォーマットへの変換）: STEP3で体系化された知を、指定された出力様式に従い、論理的で分かりやすいレポート形式で記述する。\n5. 制約の確認: 指定された対話テキストの全文を扱い、省略していないかを最後に検証する。\n</textarea>\n            </div>\n\n            <!-- ルール -->\n            <div class=\"box-bun togglable-section\">\n<h2>ルール</h2>\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"12\" placeholder=\"ルールを入力してください\">\n1. 対話テキストの全文を扱い、いかなる部分も省略してはならない。\n2. 出力は「知の共有」を最優先とし、単なる会話の要約や感情的な記述は避けること。\n3. 曖昧な表現を排除し、数値や具体的な例を用いて具体的な指示を与えることが重要である。\n4. 思考プロセスを可視化するために、各抽出の根拠を明確に示すこと。\n5. 指示の復唱、結論やまとめ、自己評価、感想、余談的提案は禁止する。\n</textarea>\n            </div>\n\n\n<!-- 出力設定 -->\n            <div class=\"box-bun togglable-section\">\n<h2>出力形式</h2>\n<textarea name=\"output\" id=\"output\" rows=\"55\" placeholder=\"出力形式を入力してください\">\n以下の構造と形式を厳格に遵守して出力してください。見出しと箇条書きを多用し、視覚的に読みやすく整理すること。\n\n```markdown\n## 知識構造化レポート：『{対話のテーマ}』に関する知の抽出\n\n### 1. 対話の概要とコンテキスト\n- 主題: [対話の核となるテーマ]\n- 対話の背景: [対話が行われた目的や、前提となっている状況]\n- 参加者と主要な主張:\n  - [発言者1]: [主要な論点]\n  - [発言者2]: [主要な論点]\n\n### 2. 抽出された「知」と「洞察」（意見の要約ではない、応用可能な法則）\n\n#### 2-1. 論理構造と問題の特定\n- 対話における問題/課題設定: [対話の中で特定された、白黒つける価値のある重要な問題（イシュー）]\n- 根本原因または前提の特定: [対話を通じて明らかになった、問題の背景にある見えない前提や根本原因（なぜなぜ分析の応用）]\n- 主要な因果関係: [発言者の主張や決定事項が、どのような結果を引き起こすかという因果関係]\n\n#### 2-2. 知識の法則化（再利用可能なコンセプト）\n- 普遍的な原則: [この対話から抽出できる、他の分野にも応用可能な普遍的な法則や知恵]\n- 新たな概念の提案: [対話の情報を抽象化することで生まれた、新しい視点や概念]\n\n### 3. 再利用可能なアクションフレームワーク\n- 重要な決定事項/合意事項: [対話で合意された、具体的な決定内容や行動の方向性]\n- 次回のアクションアイテム: [決定事項を実行に移すための具体的な行動リスト（誰が、何を、いつまでに行うか）]\n  - [アクション1]\n  - [アクション2]\n\n---\nAIからの確認事項:\n最高の成果を出すために、以下の追加情報が欲しい場合は、質問してください。\n1. [知の共有]において、特にどの要素（例：戦略、技術、組織文化）に焦点を当てるべきですか？\n2. 抽出された知識の「再利用」の対象とする具体的な業務または分野（例：マーケティング戦略、チームビルディング）は何ですか？\n```\n</textarea>\n            </div>\n\n\n<!-- ユーザー入力 -->\n            <div class=\"box-bun\">\n<h2>ユーザー入力</h2>\n<h3>対話のテーマ</h3>\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"5\" placeholder=\"ここに対話の主題を記述してください。\" class=\"variable-textarea\" >\n</textarea>\n<h3>対話テキスト</h3>\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"15\" placeholder=\"ここにユーザーが提供する2人の対話の具体的なテキストを入力してください。\" class=\"variable-textarea\" >\n</textarea>\n            </div>\n\n\n\n            <!-- 補足 -->\n            <div class=\"box-bun togglable-section\">\n<h2>補足</h2>\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"20\" placeholder=\"を補足を入力してください\">\n- 提示された出力様式を厳密に遵守してください。\n- 抽出された知の応用可能性（法則化）について、具体的に言及すること。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n\n### ネガティブ制約条件\n- 単なる意見の要約、感想、または感情的な記述に終始しないこと。\n- 提供された対話テキストの全文を扱い、いかなる部分も省略してはならない。\n- 架空の表現や言葉、または対話に明記されていない事実を捏造しないこと。\n</textarea>\n            </div>\n\n\n        </form>\n        <div class=\"button-group\">\n            <div class='btn2'>\n                <a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\n            </div>\n            <div class=\"btn-generate\">\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\n            </div>\n        </div>\n    </div>\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=598\"></script>\n</div>\n\n<!-- JavaScript -->\n<script>\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\n    e.preventDefault();\n    const form = document.getElementById('summaryPromptForm');\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\n    const formData = new FormData(form);\n\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</>\\n\\n\";\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</>\\n\\n\";\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</>\\n\\n\";\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</>\\n\\n\";\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</>\\n\\n\";\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</>\\n\\n\";\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</>\\n\\n\";\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</>\\n\\n\";\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\n    communicationContent += \"##対話のテーマ=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\n    communicationContent += \"##対話テキスト=\" + (formData.get('hensu2') || '特に指示無し') + \"</>\\n\\n\";\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</>\\n\";\n\n    // クリップボードにコピー\n    navigator.clipboard.writeText(communicationContent).then(() => {\n        alert('プロンプトがコピーされました。');\n    }).catch(err => {\n        console.error('クリップボードへのコピーに失敗しました:', err);\n        alert('プロンプトのコピーに失敗しました。');\n    });\n});\n\ndocument.addEventListener('DOMContentLoaded', function() {\n    const toggleIcon = document.getElementById('toggleIcon');\n    const togglableSections = document.querySelectorAll('.togglable-section');\n\n    // Default: All blocks should be displayed\n    // Set initial state of toggleIcon to 'hide' (×) and its title\n    if (toggleIcon) { // Ensure toggleIcon exists before setting its properties\n        toggleIcon.innerHTML = '×'; // Initially show 'hide' icon\n        toggleIcon.title = ''; // Initially no tooltip when visible\n    }\n\n    if (toggleIcon && togglableSections.length > 0) {\n        toggleIcon.addEventListener('click', function() {\n            const isHidden = togglableSections[0].style.display === 'none'; // Check current display state\n            if (isHidden) { // If currently hidden, show them\n                togglableSections.forEach(section => {\n                    section.style.display = 'block';\n                });\n                toggleIcon.innerHTML = '×'; // Change icon to 'hide'\n                toggleIcon.title = 'プロンプト非表示'; // No tooltip when visible\n            } else { // If currently visible, hide them\n                togglableSections.forEach(section => {\n                    section.style.display = 'none';\n                });\n                toggleIcon.innerHTML = '☰'; // Change icon to 'show'\n                toggleIcon.title = 'プロンプト表示'; // Set title for 'show' state\n            }\n        });\n    }\n});\n</script>\n</body>\n</html>\n",
+  "page_title": "#598 対話からの「知の共有」と「再利用可能な知識」抽出",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "対話のテーマ",
+    "対話テキスト",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、提供された2者間の対話テキストを深く分析する知識構造化の専門家です。\n- 単なる会話の要約ではなく、議論の背後にある本質的な洞察、知識、法則を抽出する能力を持っています。\n- 抽出した情報を、他のユーザーが実務や思考に即座に「再利用可能」な形式で、論理的に構造化することがあなたの最優先事項です。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 対話からの「知の共有」と「再利用可能な知識」抽出プロンプト\n- 依頼者条件: 対話記録から具体的な知恵や行動指針を抽出し、再利用したいビジネスパーソン、研究者、または記録担当者。\n- 制作者条件: 日本語の高度な文章理解能力、論理的思考力、問題の要素分解能力、構造化プロンプト設計に関する高度な知識、知識の法則化と抽象化思考。\n- 目的と目標: ユーザーが提供した対話テキストから、単なる意見の要約を超えた「知（知識、洞察、法則）」を抽出し、実務で応用可能なフレームワークとして構造化し、対話記録を再利用可能にすること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "1. 知識の深さ (Deep Insight): 抽出された「知」が、対話の表面的な結論や意見の要約に留まらず、論理的思考に基づいた因果関係や本質的な法則を示しているか。\n2. 再利用可能性 (Reusability): 抽出・構造化された知識が、他の文脈やタスクに応用可能な形式（例：原則、行動リスト、フレームワーク）で整理されているか。\n3. 網羅性と正確性 (Coverage and Accuracy): 指定された対話テキストの全文を扱い、いかなる情報も省略していないか。また、対話内容の文意を正確に反映しているか。\n4. 明確性 (Clarity): 抽出された知の項目が曖昧な表現を排除し、具体的な行動や思考に結びつくよう明確に定義されているか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1. 提供された対話テキストのコンテキストや背景（例：この対話が行われた目的、前提とされている情報）を分析し、出力に反映すること。\n2. 抽出する「知」を定義するために、「知」と「単なる意見や感想」を明確に区別する基準を、AIが内部で設定し、その基準に基づいて知の抽出を行うこと。\n3. 抽出された知識の法則化（アナロジー思考、抽象化思考）を試み、その知識が他の異なる分野に応用できる可能性を提案すること。\n4. 不明瞭な点や不足情報があった場合、回答を試みる前に、最高の成果を出すために追加情報が必要である旨を質問する形式を提示すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- ユーザーから提供される{対話テキスト}と{対話のテーマ}。\n- 論理的思考（要素分解、因果関係の特定）の知識。\n- 知識構造化（フレームワーク、アウトライン作成）のテンプレートと手法。\n- 会議記録や議事録からの決定事項およびアクションアイテム抽出の事例。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 以下のステップバイステップの手順に従い、対話から「知」を抽出し、再利用可能な構造で出力してください。\n## STEP:\n1. 対話の全体像把握（インプット処理）: 提供された{対話テキスト}の全文を読み込み、各発言者が持つ前提、推論、結論の筋道、および論点を特定し、構造的に理解する。\n2. 「知」と「意見」の峻別と抽出: 対話内容から、単なる発言者の意見や感情的な反応を除外し、普遍性や応用可能性を持つ「知識」「洞察」「論理的構造」「法則」を抽出する。\n3. 知識の体系化と法則化: 抽出された知を、「コンセプト（概念）」と「実行可能なアクションアイテム」に分類し、再利用可能な形で抽象化・法則化する。\n4. 知の構造化（出力フォーマットへの変換）: STEP3で体系化された知を、指定された出力様式に従い、論理的で分かりやすいレポート形式で記述する。\n5. 制約の確認: 指定された対話テキストの全文を扱い、省略していないかを最後に検証する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "1. 対話テキストの全文を扱い、いかなる部分も省略してはならない。\n2. 出力は「知の共有」を最優先とし、単なる会話の要約や感情的な記述は避けること。\n3. 曖昧な表現を排除し、数値や具体的な例を用いて具体的な指示を与えることが重要である。\n4. 思考プロセスを可視化するために、各抽出の根拠を明確に示すこと。\n5. 指示の復唱、結論やまとめ、自己評価、感想、余談的提案は禁止する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "以下の構造と形式を厳格に遵守して出力してください。見出しと箇条書きを多用し、視覚的に読みやすく整理すること。\n```markdown\n## 知識構造化レポート：『{対話のテーマ}』に関する知の抽出\n### 1. 対話の概要とコンテキスト\n- 主題: [対話の核となるテーマ]\n- 対話の背景: [対話が行われた目的や、前提となっている状況]\n- 参加者と主要な主張:\n- [発言者1]: [主要な論点]\n- [発言者2]: [主要な論点]\n### 2. 抽出された「知」と「洞察」（意見の要約ではない、応用可能な法則）\n#### 2-1. 論理構造と問題の特定\n- 対話における問題/課題設定: [対話の中で特定された、白黒つける価値のある重要な問題（イシュー）]\n- 根本原因または前提の特定: [対話を通じて明らかになった、問題の背景にある見えない前提や根本原因（なぜなぜ分析の応用）]\n- 主要な因果関係: [発言者の主張や決定事項が、どのような結果を引き起こすかという因果関係]\n#### 2-2. 知識の法則化（再利用可能なコンセプト）\n- 普遍的な原則: [この対話から抽出できる、他の分野にも応用可能な普遍的な法則や知恵]\n- 新たな概念の提案: [対話の情報を抽象化することで生まれた、新しい視点や概念]\n### 3. 再利用可能なアクションフレームワーク\n- 重要な決定事項/合意事項: [対話で合意された、具体的な決定内容や行動の方向性]\n- 次回のアクションアイテム: [決定事項を実行に移すための具体的な行動リスト（誰が、何を、いつまでに行うか）]\n- [アクション1]\n- [アクション2]\n---\nAIからの確認事項:\n最高の成果を出すために、以下の追加情報が欲しい場合は、質問してください。\n1. [知の共有]において、特にどの要素（例：戦略、技術、組織文化）に焦点を当てるべきですか？\n2. 抽出された知識の「再利用」の対象とする具体的な業務または分野（例：マーケティング戦略、チームビルディング）は何ですか？\n```"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "対話のテーマ",
+      "placeholder": "ここに対話の主題を記述してください。",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "対話テキスト",
+      "placeholder": "ここにユーザーが提供する2人の対話の具体的なテキストを入力してください。",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 提示された出力様式を厳密に遵守してください。\n- 抽出された知の応用可能性（法則化）について、具体的に言及すること。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n- 単なる意見の要約、感想、または感情的な記述に終始しないこと。\n- 提供された対話テキストの全文を扱い、いかなる部分も省略してはならない。\n- 架空の表現や言葉、または対話に明記されていない事実を捏造しないこと。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、提供された2者間の対話テキストを深く分析する知識構造化の専門家です。\n- 単なる会話の要約ではなく、議論の背後にある本質的な洞察、知識、法則を抽出する能力を持っています。\n- 抽出した情報を、他のユーザーが実務や思考に即座に「再利用可能」な形式で、論理的に構造化することがあなたの最優先事項です。\n\n## 前提条件\n- タイトル: 対話からの「知の共有」と「再利用可能な知識」抽出プロンプト\n- 依頼者条件: 対話記録から具体的な知恵や行動指針を抽出し、再利用したいビジネスパーソン、研究者、または記録担当者。\n- 制作者条件: 日本語の高度な文章理解能力、論理的思考力、問題の要素分解能力、構造化プロンプト設計に関する高度な知識、知識の法則化と抽象化思考。\n- 目的と目標: ユーザーが提供した対話テキストから、単なる意見の要約を超えた「知（知識、洞察、法則）」を抽出し、実務で応用可能なフレームワークとして構造化し、対話記録を再利用可能にすること。\n\n## 評価の基準\n1. 知識の深さ (Deep Insight): 抽出された「知」が、対話の表面的な結論や意見の要約に留まらず、論理的思考に基づいた因果関係や本質的な法則を示しているか。\n2. 再利用可能性 (Reusability): 抽出・構造化された知識が、他の文脈やタスクに応用可能な形式（例：原則、行動リスト、フレームワーク）で整理されているか。\n3. 網羅性と正確性 (Coverage and Accuracy): 指定された対話テキストの全文を扱い、いかなる情報も省略していないか。また、対話内容の文意を正確に反映しているか。\n4. 明確性 (Clarity): 抽出された知の項目が曖昧な表現を排除し、具体的な行動や思考に結びつくよう明確に定義されているか。\n\n## 明確化の要件\n1. 提供された対話テキストのコンテキストや背景（例：この対話が行われた目的、前提とされている情報）を分析し、出力に反映すること。\n2. 抽出する「知」を定義するために、「知」と「単なる意見や感想」を明確に区別する基準を、AIが内部で設定し、その基準に基づいて知の抽出を行うこと。\n3. 抽出された知識の法則化（アナロジー思考、抽象化思考）を試み、その知識が他の異なる分野に応用できる可能性を提案すること。\n4. 不明瞭な点や不足情報があった場合、回答を試みる前に、最高の成果を出すために追加情報が必要である旨を質問する形式を提示すること。\n\n## リソース\n- ユーザーから提供される{対話テキスト}と{対話のテーマ}。\n- 論理的思考（要素分解、因果関係の特定）の知識。\n- 知識構造化（フレームワーク、アウトライン作成）のテンプレートと手法。\n- 会議記録や議事録からの決定事項およびアクションアイテム抽出の事例。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 以下のステップバイステップの手順に従い、対話から「知」を抽出し、再利用可能な構造で出力してください。\n## STEP:\n1. 対話の全体像把握（インプット処理）: 提供された{対話テキスト}の全文を読み込み、各発言者が持つ前提、推論、結論の筋道、および論点を特定し、構造的に理解する。\n2. 「知」と「意見」の峻別と抽出: 対話内容から、単なる発言者の意見や感情的な反応を除外し、普遍性や応用可能性を持つ「知識」「洞察」「論理的構造」「法則」を抽出する。\n3. 知識の体系化と法則化: 抽出された知を、「コンセプト（概念）」と「実行可能なアクションアイテム」に分類し、再利用可能な形で抽象化・法則化する。\n4. 知の構造化（出力フォーマットへの変換）: STEP3で体系化された知を、指定された出力様式に従い、論理的で分かりやすいレポート形式で記述する。\n5. 制約の確認: 指定された対話テキストの全文を扱い、省略していないかを最後に検証する。\n\n## ルール\n1. 対話テキストの全文を扱い、いかなる部分も省略してはならない。\n2. 出力は「知の共有」を最優先とし、単なる会話の要約や感情的な記述は避けること。\n3. 曖昧な表現を排除し、数値や具体的な例を用いて具体的な指示を与えることが重要である。\n4. 思考プロセスを可視化するために、各抽出の根拠を明確に示すこと。\n5. 指示の復唱、結論やまとめ、自己評価、感想、余談的提案は禁止する。\n\n## 出力形式\n以下の構造と形式を厳格に遵守して出力してください。見出しと箇条書きを多用し、視覚的に読みやすく整理すること。\n```markdown\n## 知識構造化レポート：『{対話のテーマ}』に関する知の抽出\n### 1. 対話の概要とコンテキスト\n- 主題: [対話の核となるテーマ]\n- 対話の背景: [対話が行われた目的や、前提となっている状況]\n- 参加者と主要な主張:\n- [発言者1]: [主要な論点]\n- [発言者2]: [主要な論点]\n### 2. 抽出された「知」と「洞察」（意見の要約ではない、応用可能な法則）\n#### 2-1. 論理構造と問題の特定\n- 対話における問題/課題設定: [対話の中で特定された、白黒つける価値のある重要な問題（イシュー）]\n- 根本原因または前提の特定: [対話を通じて明らかになった、問題の背景にある見えない前提や根本原因（なぜなぜ分析の応用）]\n- 主要な因果関係: [発言者の主張や決定事項が、どのような結果を引き起こすかという因果関係]\n#### 2-2. 知識の法則化（再利用可能なコンセプト）\n- 普遍的な原則: [この対話から抽出できる、他の分野にも応用可能な普遍的な法則や知恵]\n- 新たな概念の提案: [対話の情報を抽象化することで生まれた、新しい視点や概念]\n### 3. 再利用可能なアクションフレームワーク\n- 重要な決定事項/合意事項: [対話で合意された、具体的な決定内容や行動の方向性]\n- 次回のアクションアイテム: [決定事項を実行に移すための具体的な行動リスト（誰が、何を、いつまでに行うか）]\n- [アクション1]\n- [アクション2]\n---\nAIからの確認事項:\n最高の成果を出すために、以下の追加情報が欲しい場合は、質問してください。\n1. [知の共有]において、特にどの要素（例：戦略、技術、組織文化）に焦点を当てるべきですか？\n2. 抽出された知識の「再利用」の対象とする具体的な業務または分野（例：マーケティング戦略、チームビルディング）は何ですか？\n```\n\n## 補足\n- 提示された出力様式を厳密に遵守してください。\n- 抽出された知の応用可能性（法則化）について、具体的に言及すること。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n- 単なる意見の要約、感想、または感情的な記述に終始しないこと。\n- 提供された対話テキストの全文を扱い、いかなる部分も省略してはならない。\n- 架空の表現や言葉、または対話に明記されていない事実を捏造しないこと。"
+}

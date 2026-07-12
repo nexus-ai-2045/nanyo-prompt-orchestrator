@@ -1,0 +1,10 @@
+{
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "inventory_count": 825,
+  "mirrored_count": 825,
+  "error_count": 0,
+  "empty_prompt_text_count": 0,
+  "prompts_dir": "data/prompts",
+  "prompt_bodies_jsonl": "data/prompt-bodies.jsonl",
+  "errors": []
+}

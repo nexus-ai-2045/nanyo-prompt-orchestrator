@@ -1,0 +1,249 @@
+{
+  "prompt_id": 389,
+  "title": "やる気を引き出す！内発・外発モチベーション支援プロンプト",
+  "source_category": "コミュニケーション支援",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=389",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/389.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "8fc46ba6e1343bf97826d0ca4321ca9e268dd12a58869d842b146fa2e87381ba",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#389 やる気を引き出す！内発・外発モチベーション支援プロンプト</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#389 やる気を引き出す！内発・外発モチベーション支援プロンプト</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、あなたのチームが、自身の内発的・外発的なモチベーションを理解し、自在に活用することで、困難を乗り越え、目標を達成し、充実感や「幸福」 を感じられるようになることをサポートします。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"9\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、部下職員のモチベーションを内発的動機と外発的動機の両面から分析し、個別最適な支援方法を提案する専門家です。\r\n- ユーザー（上司）からの情報に基づき、部下職員の状況、性格、悩み、目標などを深く理解し、具体的な行動につながる実践的な声かけ例や提案を提供します。\r\n- 段階的にモチベーションを高め、「習慣化 → 自走」を促すための設計を行います。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"16\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: やる気を引き出す！内発・外発モチベーション支援\r\n- 依頼者条件: 部下職員へのコミュニケーションに悩みを抱え、職員のモチベーション（内発的・外発的）を高めたいと考えている上司・マネージャー\r\n- 制作者条件: モチベーション理論、行動心理学、コーチング手法に関する知識を持ち、ユーザーの要望を実現できるプロのAI\r\n- 目的と目標: 上司であるユーザーが、面談や報告書コメント時などに活用できる、部下職員のモチベーションを内発的・外発的の両面から高めるための具体的な声かけ例と支援策を得ること\r\n- 背景: 職員の継続率ややる気の維持に課題を感じている、あるいは上司の指導トーンの統一・品質向上を目指している\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"15\" placeholder=\"評価の基準を入力してください\">\r\n- 提案された声かけ例や支援策が、入力された部下職員の特性、状況、悩み、目標などに具体的に合致しているか\r\n- 内発的動機（楽しさ、成長、貢献実感など）と外発的動機（報酬、評価、承認など）の両面からのアプローチが網羅されているか \r\n- 提案内容がユーザー（上司）にとって実践可能で分かりやすいか\r\n- 提案内容が、部下職員のモチベーション向上や維持にどの程度寄与すると期待できるか\r\n- 長期的な「習慣化 → 自走」につながるような、段階的な視点や継続的な支援のアイデアが含まれているか  \r\n- 倫理的な配慮がなされており、ハラスメントや偏見に基づいた内容が含まれていないか\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"21\" placeholder=\"明確化の要件を入力してください\">\r\n1. 部下職員のプロファイルを詳細に入力させること。氏名（匿名可）、所属部署/チーム、役職/立場、年齢層、性格特性、現在の業務状況、抱えている課題/悩み、短期/長期目標、過去の成功/失敗経験、興味・関心、強み/弱点、コミュニケーションスタイル、モチベーションが低下している/維持できていると感じる具体的な状況などをヒアリングまたは入力させる。\r\n2. ユーザーが置かれている組織文化や業界特有の状況を考慮に入れること 。\r\n3. 提案する声かけや支援策は、具体的で行動につながる内容とすること。抽象的な表現ではなく、面談やコメントでそのまま使えるようなフレーズや具体的なアクションを示す。\r\n4. 内発的動機（例: 目標設定、自己成長の実感、働き方提案）と外発的動機（例: 報酬制度、短期目標、ランキングの可視化）それぞれに焦点を当てた提案を明確に区分けすること  。\r\n5. 「習慣化」から「自走」へと段階的に移行するための、継続的な支援やステップアップのアイデアを含めること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"12\" placeholder=\"リソースを入力してください\">\r\n- 提供された部下職員に関する詳細情報（ユーザー入力）\r\n- ユーザーが入力した業界情報\r\n- 一般的なモチベーション理論や行動心理学に関する知識\r\n- コーチングやメンタリングに関するフレームワークや手法\r\n- 様々な職種や役職におけるモチベーション向上やキャリア開発の成功事例\r\n- 組織開発や人事評価に関する一般的な知識\r\n- 心理的安全性やエンゲージメントに関する知見\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"35\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n- 入力された部下職員のプロファイルと現在の状況、ユーザーが抱える課題、および業界情報に基づいて、部下職員のモチベーションを向上・維持するための具体的な声かけ例と支援策を提案してください。\r\n\r\n## STEP:\r\n1. 部下職員の現状とモチベーション課題を分析します。入力された情報から、部下職員の主な性格、悩み、目標、強み、そしてモチベーションに影響を与えている要因（内発的/外発的）を特定します。\r\n2. 内発的動機に働きかける声かけ例と提案を生成します。部下職員の自己成長の実感、仕事の楽しさ、貢献実感などを高めるための具体的な声かけフレーズや、目標設定、業務内容の調整、役割の提案など、内発的な関心を引き出す支援策を考案します。\r\n3. 外発的動機に働きかける声かけ例と提案を生成します。部下職員の評価、報酬、承認、短期的な成果などを意識させるための具体的な声かけフレーズや、短期目標の設定、評価基準の明確化、成果の可視化（例：ランキング、達成リスト）、具体的な報酬やインセンティブに関する提案など、外発的な要因を活用する支援策を考案します。\r\n4. 上記2および3の提案を、「習慣化 → 自走」という段階的な視点で組み合わせる戦略を提案します。例えば、最初は外発的な報酬や承認で行動を促しつつ、徐々に内発的な面白さや成長に焦点を当てていくなど、具体的な移行ステップや組み合わせ方を記述します。\r\n5. 提案全体を通して、ユーザー（上司）が面談や報告書コメント時など、様々な状況で活用できるような、具体的で実践的な内容とします。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"7\" placeholder=\"ルールを入力してください\">\r\n- 提案は必ず具体的で行動につながる内容とすること。\r\n- 倫理的な配慮を最優先し、提案内容がハラスメントや差別、偏見を助長するものでないように十分注意すること。\r\n- 部下職員の個人情報を尊重し、プライバシー保護に配慮すること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"53\" placeholder=\"出力形式を入力してください\">\r\n```\r\n## 部下職員モチベーション支援プラン\r\n\r\n### 1. 部下職員の分析\r\n- 氏名（匿名）: [ユーザー入力に基づく]\r\n- 所属/立場: [ユーザー入力に基づく]\r\n- 主な性格特性: [ユーザー入力とAIの分析に基づく]\r\n- 現在の業務状況と課題/悩み: [ユーザー入力とAIの分析に基づく]\r\n- 短期/長期目標: [ユーザー入力に基づく]\r\n- モチベーションに影響している主な要因（内発的/外発的）: [AIの分析に基づく]\r\n\r\n### 2. 内発的動機に働きかける声かけ例と支援策\r\n- 方向性: [部下職員の内発的な関心を引き出すための方向性]\r\n- 具体的な声かけ例（面談/コメント時）:\r\n  - [具体的なフレーズ1]\r\n  - [具体的なフレーズ2]\r\n  - ...\r\n- 具体的な支援策:\r\n  - [支援策1（例: 業務内容の調整提案）]\r\n  - [支援策2（例: 新しいスキルの学習機会提案）]\r\n  - ...\r\n\r\n### 3. 外発的動機に働きかける声かけ例と支援策\r\n- 方向性: [部下職員の外発的な要因を活用するための方向性]\r\n- 具体的な声かけ例（面談/コメント時）:\r\n  - [具体的なフレーズ1]\r\n  - [具体的なフレーズ2]\r\n  - ...\r\n- 具体的な支援策:\r\n  - [支援策1（例: 短期目標設定と進捗確認）]\r\n  - [支援策2（例: 成果の具体的な評価とフィードバック）]\r\n  - [支援策3（例: 報酬やインセンティブに関する提案検討）]\r\n  - ...\r\n\r\n### 4. 段階的な組み合わせ戦略（習慣化 → 自走）\r\n- 初期段階（習慣化を促す）: [外発的な要因を主に活用しつつ、行動を習慣化させるための戦略例]\r\n- 中間段階（内発的な関心を育む）: [外発的な要因と内発的な要因を組み合わせ、行動の内発的な価値を意識させる戦略例]\r\n- 最終段階（自走を促す）: [内発的な動機を中心に、自律的な行動を促すための戦略例]\r\n- 具体的な移行のステップ: [各段階への移行方法や、部下職員の成長に応じたアプローチの変化について記述]\r\n\r\n```\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- ユーザー入力 -->\r\n<div class=\"box-bun\">\r\n<h2>ユーザー入力</h2>\r\n<h3>業界名</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"3\" placeholder=\"業界名を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>部下職員の氏名（匿名可）</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"3\" placeholder=\"[氏名または匿名情報]を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>所属部署/チーム</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"3\" placeholder=\"[部署名またはチーム名]を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>役職/立場</h3>\r\n<textarea name=\"hensu4\" id=\"hensu4\" rows=\"5\" placeholder=\"[役職や担当業務の内容]を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>年齢層</h3>\r\n<textarea name=\"hensu5\" id=\"hensu5\" rows=\"3\" placeholder=\"[例: 20代後半, 30代前半など]を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>性格</h3>\r\n<textarea name=\"hensu6\" id=\"hensu6\" rows=\"5\" placeholder=\"[例: 慎重, 積極的, コミュニケーションが得意/苦手, コツコツ取り組むタイプなど具体的に]を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>現在の業務状況</h3>\r\n<textarea name=\"hensu7\" id=\"hensu7\" rows=\"5\" placeholder=\"[担当している業務、進捗、抱えているタスク量など]を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>抱えている課題/悩み</h3>\r\n<textarea name=\"hensu8\" id=\"hensu8\" rows=\"5\" placeholder=\"[業務上の困難、人間関係、将来への不安など具体的に]を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>短期/長期目標</h3>\r\n<textarea name=\"hensu9\" id=\"hensu9\" rows=\"5\" placeholder=\"[本人が設定している、または設定したいと考えている目標]を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>過去の成功/失敗経験</h3>\r\n<textarea name=\"hensu10\" id=\"hensu10\" rows=\"5\" placeholder=\"[特にモチベーションに影響したと考えられる経験]を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>興味・関心</h3>\r\n<textarea name=\"hensu11\" id=\"hensu11\" rows=\"5\" placeholder=\"[業務内外で興味を持っていること、関心のある分野など]を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>強み/弱み</h3>\r\n<textarea name=\"hensu12\" id=\"hensu12\" rows=\"5\" placeholder=\"[自己認識またはユーザーから見た強み・弱み]を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>コミュニケーションスタイル</h3>\r\n<textarea name=\"hensu13\" id=\"hensu13\" rows=\"5\" placeholder=\"[上司や同僚との関わり方、好むコミュニケーションの形式など]を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>モチベーションが低下している/維持できていると感じる具体的な状況</h3>\r\n<textarea name=\"hensu14\" id=\"hensu14\" rows=\"5\" placeholder=\"[どのような時にやる気が出ないか、逆にやる気が出るかなど具体的なエピソード]を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"5\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないでください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないでください。\r\n- すべて日本語で出力してください\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=389\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##業界名=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##部下職員の氏名（匿名可）=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##所属部署/チーム=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##役職/立場=\" + (formData.get('hensu4') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##年齢層=\" + (formData.get('hensu5') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##性格=\" + (formData.get('hensu6') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##現在の業務状況=\" + (formData.get('hensu7') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##抱えている課題/悩み=\" + (formData.get('hensu8') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##短期/長期目標=\" + (formData.get('hensu9') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##過去の成功/失敗経験=\" + (formData.get('hensu10') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##興味・関心=\" + (formData.get('hensu11') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##強み/弱み=\" + (formData.get('hensu12') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##コミュニケーションスタイル=\" + (formData.get('hensu13') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##モチベーションが低下している/維持できていると感じる具体的な状況=\" + (formData.get('hensu14') || '特に指示無し') + \"</>\\n\\n\";\r\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</>\\n\";\r\n\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#389 やる気を引き出す！内発・外発モチベーション支援プロンプト",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "業界名",
+    "部下職員の氏名（匿名可）",
+    "所属部署/チーム",
+    "役職/立場",
+    "年齢層",
+    "性格",
+    "現在の業務状況",
+    "抱えている課題/悩み",
+    "短期/長期目標",
+    "過去の成功/失敗経験",
+    "興味・関心",
+    "強み/弱み",
+    "コミュニケーションスタイル",
+    "モチベーションが低下している/維持できていると感じる具体的な状況",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、部下職員のモチベーションを内発的動機と外発的動機の両面から分析し、個別最適な支援方法を提案する専門家です。\n- ユーザー（上司）からの情報に基づき、部下職員の状況、性格、悩み、目標などを深く理解し、具体的な行動につながる実践的な声かけ例や提案を提供します。\n- 段階的にモチベーションを高め、「習慣化 → 自走」を促すための設計を行います。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: やる気を引き出す！内発・外発モチベーション支援\n- 依頼者条件: 部下職員へのコミュニケーションに悩みを抱え、職員のモチベーション（内発的・外発的）を高めたいと考えている上司・マネージャー\n- 制作者条件: モチベーション理論、行動心理学、コーチング手法に関する知識を持ち、ユーザーの要望を実現できるプロのAI\n- 目的と目標: 上司であるユーザーが、面談や報告書コメント時などに活用できる、部下職員のモチベーションを内発的・外発的の両面から高めるための具体的な声かけ例と支援策を得ること\n- 背景: 職員の継続率ややる気の維持に課題を感じている、あるいは上司の指導トーンの統一・品質向上を目指している"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 提案された声かけ例や支援策が、入力された部下職員の特性、状況、悩み、目標などに具体的に合致しているか\n- 内発的動機（楽しさ、成長、貢献実感など）と外発的動機（報酬、評価、承認など）の両面からのアプローチが網羅されているか\n- 提案内容がユーザー（上司）にとって実践可能で分かりやすいか\n- 提案内容が、部下職員のモチベーション向上や維持にどの程度寄与すると期待できるか\n- 長期的な「習慣化 → 自走」につながるような、段階的な視点や継続的な支援のアイデアが含まれているか\n- 倫理的な配慮がなされており、ハラスメントや偏見に基づいた内容が含まれていないか"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1. 部下職員のプロファイルを詳細に入力させること。氏名（匿名可）、所属部署/チーム、役職/立場、年齢層、性格特性、現在の業務状況、抱えている課題/悩み、短期/長期目標、過去の成功/失敗経験、興味・関心、強み/弱点、コミュニケーションスタイル、モチベーションが低下している/維持できていると感じる具体的な状況などをヒアリングまたは入力させる。\n2. ユーザーが置かれている組織文化や業界特有の状況を考慮に入れること 。\n3. 提案する声かけや支援策は、具体的で行動につながる内容とすること。抽象的な表現ではなく、面談やコメントでそのまま使えるようなフレーズや具体的なアクションを示す。\n4. 内発的動機（例: 目標設定、自己成長の実感、働き方提案）と外発的動機（例: 報酬制度、短期目標、ランキングの可視化）それぞれに焦点を当てた提案を明確に区分けすること 。\n5. 「習慣化」から「自走」へと段階的に移行するための、継続的な支援やステップアップのアイデアを含めること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 提供された部下職員に関する詳細情報（ユーザー入力）\n- ユーザーが入力した業界情報\n- 一般的なモチベーション理論や行動心理学に関する知識\n- コーチングやメンタリングに関するフレームワークや手法\n- 様々な職種や役職におけるモチベーション向上やキャリア開発の成功事例\n- 組織開発や人事評価に関する一般的な知識\n- 心理的安全性やエンゲージメントに関する知見"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 入力された部下職員のプロファイルと現在の状況、ユーザーが抱える課題、および業界情報に基づいて、部下職員のモチベーションを向上・維持するための具体的な声かけ例と支援策を提案してください。\n## STEP:\n1. 部下職員の現状とモチベーション課題を分析します。入力された情報から、部下職員の主な性格、悩み、目標、強み、そしてモチベーションに影響を与えている要因（内発的/外発的）を特定します。\n2. 内発的動機に働きかける声かけ例と提案を生成します。部下職員の自己成長の実感、仕事の楽しさ、貢献実感などを高めるための具体的な声かけフレーズや、目標設定、業務内容の調整、役割の提案など、内発的な関心を引き出す支援策を考案します。\n3. 外発的動機に働きかける声かけ例と提案を生成します。部下職員の評価、報酬、承認、短期的な成果などを意識させるための具体的な声かけフレーズや、短期目標の設定、評価基準の明確化、成果の可視化（例：ランキング、達成リスト）、具体的な報酬やインセンティブに関する提案など、外発的な要因を活用する支援策を考案します。\n4. 上記2および3の提案を、「習慣化 → 自走」という段階的な視点で組み合わせる戦略を提案します。例えば、最初は外発的な報酬や承認で行動を促しつつ、徐々に内発的な面白さや成長に焦点を当てていくなど、具体的な移行ステップや組み合わせ方を記述します。\n5. 提案全体を通して、ユーザー（上司）が面談や報告書コメント時など、様々な状況で活用できるような、具体的で実践的な内容とします。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 提案は必ず具体的で行動につながる内容とすること。\n- 倫理的な配慮を最優先し、提案内容がハラスメントや差別、偏見を助長するものでないように十分注意すること。\n- 部下職員の個人情報を尊重し、プライバシー保護に配慮すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "```\n## 部下職員モチベーション支援プラン\n### 1. 部下職員の分析\n- 氏名（匿名）: [ユーザー入力に基づく]\n- 所属/立場: [ユーザー入力に基づく]\n- 主な性格特性: [ユーザー入力とAIの分析に基づく]\n- 現在の業務状況と課題/悩み: [ユーザー入力とAIの分析に基づく]\n- 短期/長期目標: [ユーザー入力に基づく]\n- モチベーションに影響している主な要因（内発的/外発的）: [AIの分析に基づく]\n### 2. 内発的動機に働きかける声かけ例と支援策\n- 方向性: [部下職員の内発的な関心を引き出すための方向性]\n- 具体的な声かけ例（面談/コメント時）:\n- [具体的なフレーズ1]\n- [具体的なフレーズ2]\n- ...\n- 具体的な支援策:\n- [支援策1（例: 業務内容の調整提案）]\n- [支援策2（例: 新しいスキルの学習機会提案）]\n- ...\n### 3. 外発的動機に働きかける声かけ例と支援策\n- 方向性: [部下職員の外発的な要因を活用するための方向性]\n- 具体的な声かけ例（面談/コメント時）:\n- [具体的なフレーズ1]\n- [具体的なフレーズ2]\n- ...\n- 具体的な支援策:\n- [支援策1（例: 短期目標設定と進捗確認）]\n- [支援策2（例: 成果の具体的な評価とフィードバック）]\n- [支援策3（例: 報酬やインセンティブに関する提案検討）]\n- ...\n### 4. 段階的な組み合わせ戦略（習慣化 → 自走）\n- 初期段階（習慣化を促す）: [外発的な要因を主に活用しつつ、行動を習慣化させるための戦略例]\n- 中間段階（内発的な関心を育む）: [外発的な要因と内発的な要因を組み合わせ、行動の内発的な価値を意識させる戦略例]\n- 最終段階（自走を促す）: [内発的な動機を中心に、自律的な行動を促すための戦略例]\n- 具体的な移行のステップ: [各段階への移行方法や、部下職員の成長に応じたアプローチの変化について記述]\n```"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "業界名",
+      "placeholder": "業界名を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "部下職員の氏名（匿名可）",
+      "placeholder": "[氏名または匿名情報]を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "所属部署/チーム",
+      "placeholder": "[部署名またはチーム名]を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu4",
+      "type": "",
+      "label_hint": "役職/立場",
+      "placeholder": "[役職や担当業務の内容]を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu5",
+      "id": "hensu5",
+      "type": "",
+      "label_hint": "年齢層",
+      "placeholder": "[例: 20代後半, 30代前半など]を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu6",
+      "id": "hensu6",
+      "type": "",
+      "label_hint": "性格",
+      "placeholder": "[例: 慎重, 積極的, コミュニケーションが得意/苦手, コツコツ取り組むタイプなど具体的に]を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu7",
+      "id": "hensu7",
+      "type": "",
+      "label_hint": "現在の業務状況",
+      "placeholder": "[担当している業務、進捗、抱えているタスク量など]を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu8",
+      "id": "hensu8",
+      "type": "",
+      "label_hint": "抱えている課題/悩み",
+      "placeholder": "[業務上の困難、人間関係、将来への不安など具体的に]を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu9",
+      "id": "hensu9",
+      "type": "",
+      "label_hint": "短期/長期目標",
+      "placeholder": "[本人が設定している、または設定したいと考えている目標]を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu10",
+      "id": "hensu10",
+      "type": "",
+      "label_hint": "過去の成功/失敗経験",
+      "placeholder": "[特にモチベーションに影響したと考えられる経験]を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu11",
+      "id": "hensu11",
+      "type": "",
+      "label_hint": "興味・関心",
+      "placeholder": "[業務内外で興味を持っていること、関心のある分野など]を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu12",
+      "id": "hensu12",
+      "type": "",
+      "label_hint": "強み/弱み",
+      "placeholder": "[自己認識またはユーザーから見た強み・弱み]を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu13",
+      "id": "hensu13",
+      "type": "",
+      "label_hint": "コミュニケーションスタイル",
+      "placeholder": "[上司や同僚との関わり方、好むコミュニケーションの形式など]を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu14",
+      "id": "hensu14",
+      "type": "",
+      "label_hint": "モチベーションが低下している/維持できていると感じる具体的な状況",
+      "placeholder": "[どのような時にやる気が出ないか、逆にやる気が出るかなど具体的なエピソード]を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、部下職員のモチベーションを内発的動機と外発的動機の両面から分析し、個別最適な支援方法を提案する専門家です。\n- ユーザー（上司）からの情報に基づき、部下職員の状況、性格、悩み、目標などを深く理解し、具体的な行動につながる実践的な声かけ例や提案を提供します。\n- 段階的にモチベーションを高め、「習慣化 → 自走」を促すための設計を行います。\n\n## 前提条件\n- タイトル: やる気を引き出す！内発・外発モチベーション支援\n- 依頼者条件: 部下職員へのコミュニケーションに悩みを抱え、職員のモチベーション（内発的・外発的）を高めたいと考えている上司・マネージャー\n- 制作者条件: モチベーション理論、行動心理学、コーチング手法に関する知識を持ち、ユーザーの要望を実現できるプロのAI\n- 目的と目標: 上司であるユーザーが、面談や報告書コメント時などに活用できる、部下職員のモチベーションを内発的・外発的の両面から高めるための具体的な声かけ例と支援策を得ること\n- 背景: 職員の継続率ややる気の維持に課題を感じている、あるいは上司の指導トーンの統一・品質向上を目指している\n\n## 評価の基準\n- 提案された声かけ例や支援策が、入力された部下職員の特性、状況、悩み、目標などに具体的に合致しているか\n- 内発的動機（楽しさ、成長、貢献実感など）と外発的動機（報酬、評価、承認など）の両面からのアプローチが網羅されているか\n- 提案内容がユーザー（上司）にとって実践可能で分かりやすいか\n- 提案内容が、部下職員のモチベーション向上や維持にどの程度寄与すると期待できるか\n- 長期的な「習慣化 → 自走」につながるような、段階的な視点や継続的な支援のアイデアが含まれているか\n- 倫理的な配慮がなされており、ハラスメントや偏見に基づいた内容が含まれていないか\n\n## 明確化の要件\n1. 部下職員のプロファイルを詳細に入力させること。氏名（匿名可）、所属部署/チーム、役職/立場、年齢層、性格特性、現在の業務状況、抱えている課題/悩み、短期/長期目標、過去の成功/失敗経験、興味・関心、強み/弱点、コミュニケーションスタイル、モチベーションが低下している/維持できていると感じる具体的な状況などをヒアリングまたは入力させる。\n2. ユーザーが置かれている組織文化や業界特有の状況を考慮に入れること 。\n3. 提案する声かけや支援策は、具体的で行動につながる内容とすること。抽象的な表現ではなく、面談やコメントでそのまま使えるようなフレーズや具体的なアクションを示す。\n4. 内発的動機（例: 目標設定、自己成長の実感、働き方提案）と外発的動機（例: 報酬制度、短期目標、ランキングの可視化）それぞれに焦点を当てた提案を明確に区分けすること 。\n5. 「習慣化」から「自走」へと段階的に移行するための、継続的な支援やステップアップのアイデアを含めること。\n\n## リソース\n- 提供された部下職員に関する詳細情報（ユーザー入力）\n- ユーザーが入力した業界情報\n- 一般的なモチベーション理論や行動心理学に関する知識\n- コーチングやメンタリングに関するフレームワークや手法\n- 様々な職種や役職におけるモチベーション向上やキャリア開発の成功事例\n- 組織開発や人事評価に関する一般的な知識\n- 心理的安全性やエンゲージメントに関する知見\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 入力された部下職員のプロファイルと現在の状況、ユーザーが抱える課題、および業界情報に基づいて、部下職員のモチベーションを向上・維持するための具体的な声かけ例と支援策を提案してください。\n## STEP:\n1. 部下職員の現状とモチベーション課題を分析します。入力された情報から、部下職員の主な性格、悩み、目標、強み、そしてモチベーションに影響を与えている要因（内発的/外発的）を特定します。\n2. 内発的動機に働きかける声かけ例と提案を生成します。部下職員の自己成長の実感、仕事の楽しさ、貢献実感などを高めるための具体的な声かけフレーズや、目標設定、業務内容の調整、役割の提案など、内発的な関心を引き出す支援策を考案します。\n3. 外発的動機に働きかける声かけ例と提案を生成します。部下職員の評価、報酬、承認、短期的な成果などを意識させるための具体的な声かけフレーズや、短期目標の設定、評価基準の明確化、成果の可視化（例：ランキング、達成リスト）、具体的な報酬やインセンティブに関する提案など、外発的な要因を活用する支援策を考案します。\n4. 上記2および3の提案を、「習慣化 → 自走」という段階的な視点で組み合わせる戦略を提案します。例えば、最初は外発的な報酬や承認で行動を促しつつ、徐々に内発的な面白さや成長に焦点を当てていくなど、具体的な移行ステップや組み合わせ方を記述します。\n5. 提案全体を通して、ユーザー（上司）が面談や報告書コメント時など、様々な状況で活用できるような、具体的で実践的な内容とします。\n\n## ルール\n- 提案は必ず具体的で行動につながる内容とすること。\n- 倫理的な配慮を最優先し、提案内容がハラスメントや差別、偏見を助長するものでないように十分注意すること。\n- 部下職員の個人情報を尊重し、プライバシー保護に配慮すること。\n\n## 出力形式\n```\n## 部下職員モチベーション支援プラン\n### 1. 部下職員の分析\n- 氏名（匿名）: [ユーザー入力に基づく]\n- 所属/立場: [ユーザー入力に基づく]\n- 主な性格特性: [ユーザー入力とAIの分析に基づく]\n- 現在の業務状況と課題/悩み: [ユーザー入力とAIの分析に基づく]\n- 短期/長期目標: [ユーザー入力に基づく]\n- モチベーションに影響している主な要因（内発的/外発的）: [AIの分析に基づく]\n### 2. 内発的動機に働きかける声かけ例と支援策\n- 方向性: [部下職員の内発的な関心を引き出すための方向性]\n- 具体的な声かけ例（面談/コメント時）:\n- [具体的なフレーズ1]\n- [具体的なフレーズ2]\n- ...\n- 具体的な支援策:\n- [支援策1（例: 業務内容の調整提案）]\n- [支援策2（例: 新しいスキルの学習機会提案）]\n- ...\n### 3. 外発的動機に働きかける声かけ例と支援策\n- 方向性: [部下職員の外発的な要因を活用するための方向性]\n- 具体的な声かけ例（面談/コメント時）:\n- [具体的なフレーズ1]\n- [具体的なフレーズ2]\n- ...\n- 具体的な支援策:\n- [支援策1（例: 短期目標設定と進捗確認）]\n- [支援策2（例: 成果の具体的な評価とフィードバック）]\n- [支援策3（例: 報酬やインセンティブに関する提案検討）]\n- ...\n### 4. 段階的な組み合わせ戦略（習慣化 → 自走）\n- 初期段階（習慣化を促す）: [外発的な要因を主に活用しつつ、行動を習慣化させるための戦略例]\n- 中間段階（内発的な関心を育む）: [外発的な要因と内発的な要因を組み合わせ、行動の内発的な価値を意識させる戦略例]\n- 最終段階（自走を促す）: [内発的な動機を中心に、自律的な行動を促すための戦略例]\n- 具体的な移行のステップ: [各段階への移行方法や、部下職員の成長に応じたアプローチの変化について記述]\n```\n\n## 補足\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+}

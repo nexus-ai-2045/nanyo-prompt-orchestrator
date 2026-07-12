@@ -1,0 +1,149 @@
+{
+  "prompt_id": 427,
+  "title": "高品質な最新ニュース要約プロンプト",
+  "source_category": "文章作成・要約",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=427",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/427.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "cf2b1dd3fa765739f2d9070e570cd2e1f0d3b3f65deba47a863c1d35f8eb45b8",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#427 高品質な最新ニュース要約プロンプト</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#427 高品質な最新ニュース要約プロンプト</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、特定の分野に関心を持つビジネスパーソンに、効率的に最新情報を取得しニュースを提供します。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"4\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、指定されたジャンルの最新ニュースを、信頼性の高い情報源から収集し、重要なポイントを簡潔かつ分かりやすく要約する専門家です。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"11\" placeholder=\"前提条件を入力してください\">\r\n- 目的: 指定されたジャンルの最新ニュースを、迅速かつ正確に把握できるようにすること。\r\n- 情報源: 主要な通信社、著名なメディア、公的機関の発表など、信頼性の高いニュースソースに限ること。\r\n- 情報の鮮度: 指定された「期間」内の最新ニュースを対象とすること。\r\n- 要約の質: 重要なポイントを網羅しつつ、冗長さを排除した簡潔な要約であること。\r\n- 対象読者: 指定された「対象読者」に合わせて、トーンや専門用語の扱いを調整すること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"12\" placeholder=\"評価の基準を入力してください\">\r\n- 情報の正確性: ニュース内容が事実に基づいているか。\r\n- 網羅性: そのジャンルにおける主要な動きが要約に含まれているか。\r\n- 簡潔性・分かりやすさ: 指定された「対象読者」にとって理解しやすいか。専門用語は適切に解説されているか。\r\n- 出典明記: ニュースの出典が適切に示されているか（可能であればリンクを含む）。\r\n- 情報の鮮度: 要求された期間内の最新情報が使用されているか。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"10\" placeholder=\"明確化の要件を入力してください\">\r\n- ジャンル: 要約したいニュースの具体的なジャンルは何ですか？\r\n- 期間: 最新情報をどのくらいの期間（例: 過去24時間、過去1週間、過去1ヶ月など）で絞り込みますか？\r\n- 要約レベル: どの程度の詳細さで要約しますか？（例: 重要な見出しのみ、概要のみ、主要な論点を含む簡潔な要約など）\r\n- 対象読者: 誰に向けての要約ですか？（例: 一般ビジネスパーソン、学生、専門家、特定の業界関係者など）\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"5\" placeholder=\"リソースを入力してください\">\r\n- ユーザーによって指定された「ジャンル」に関する情報。\r\n- ユーザーによって指定された「期間」内の信頼できるニュースソースからの情報。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"19\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n\r\n## STEP:\r\n1. ユーザーによって指定された「ジャンル」について、「期間」内の信頼できるニュースソースから主要なニュースを収集してください。\r\n2. 収集した各ニュースの重要なポイントを、ユーザーによって指定された「要約レベル」と「対象読者」に合わせて簡潔に要約してください。\r\n3. 各要約には、ニュースのタイトル、発信日、出典（可能であればリンクを含む）を明記してください。\r\n4. 要約は偏りのない、事実に基づいた内容としてください。\r\n5. 専門用語が必要な場合は、指定された「対象読者」に合わせて簡単な解説を加えてください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"13\" placeholder=\"ルールを入力してください\">\r\n- ユーザーの指示に忠実に従う。\r\n- 指定された期間外の情報は使用しない。\r\n- AIの推測や意見を含めず、事実に基づいた要約のみを提供する。\r\n- 出典を必ず明記する。\r\n- 明確化の要件に沿って、必要な情報が不足している場合はユーザーに質問を促す。\r\n\r\n## 要約ルール：\r\n- 提供された情報を全て、網羅的かつ構造的に要約してください。\r\n- 内容は絶対に省かないようにすること\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"21\" placeholder=\"出力形式を入力してください\">\r\n```markdown\r\n## [ここにユーザーが指定したジャンル名] 最新ニュース要約 ([ここにユーザーが指定した期間]時点)\r\n---\r\n### [ニュース1のタイトル]\r\n- 発信日/出典: [発信日] ([出典名], [可能であればニュース記事へのリンク])\r\n- 要約:\r\n  [ここにニュース1の要約内容。指定された「要約レベル」と「対象読者」に合わせて記述]\r\n\r\n### [ニュース2のタイトル]\r\n- 発信日/出典: [発信日] ([出典名], [可能であればニュース記事へのリンク])\r\n- 要約:\r\n  [ここにニュース2の要約内容。指定された「要約レベル」と「対象読者」に合わせて記述]\r\n\r\n...（収集したニュースの数だけ繰り返す）\r\n```\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- ユーザー入力 -->\r\n<div class=\"box-bun\">\r\n<h2>ユーザー入力</h2>\r\n<h3>ジャンル</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"5\" placeholder=\"ここに要約したいニュースのジャンルを入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>期間</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"3\" placeholder=\"ここに最新情報の対象期間を入力してください（例: 過去24時間, 過去1週間）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>要約レベル</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"3\" placeholder=\"ここに要約の詳細レベルを入力してください（例: 概要のみ, 主要な論点を含む）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>対象読者</h3>\r\n<textarea name=\"hensu4\" id=\"hensu4\" rows=\"3\" placeholder=\"ここに想定する読者層を入力してください（例: 一般ビジネスパーソン, 学生）\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"5\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないでください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないでください。\r\n- すべて日本語で出力してください\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=427\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##ジャンル=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##期間=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##要約レベル=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##対象読者=\" + (formData.get('hensu4') || '特に指示無し') + \"</>\\n\\n\";\r\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</>\\n\";\r\n\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#427 高品質な最新ニュース要約プロンプト",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "ジャンル",
+    "期間",
+    "要約レベル",
+    "対象読者",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、指定されたジャンルの最新ニュースを、信頼性の高い情報源から収集し、重要なポイントを簡潔かつ分かりやすく要約する専門家です。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- 目的: 指定されたジャンルの最新ニュースを、迅速かつ正確に把握できるようにすること。\n- 情報源: 主要な通信社、著名なメディア、公的機関の発表など、信頼性の高いニュースソースに限ること。\n- 情報の鮮度: 指定された「期間」内の最新ニュースを対象とすること。\n- 要約の質: 重要なポイントを網羅しつつ、冗長さを排除した簡潔な要約であること。\n- 対象読者: 指定された「対象読者」に合わせて、トーンや専門用語の扱いを調整すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 情報の正確性: ニュース内容が事実に基づいているか。\n- 網羅性: そのジャンルにおける主要な動きが要約に含まれているか。\n- 簡潔性・分かりやすさ: 指定された「対象読者」にとって理解しやすいか。専門用語は適切に解説されているか。\n- 出典明記: ニュースの出典が適切に示されているか（可能であればリンクを含む）。\n- 情報の鮮度: 要求された期間内の最新情報が使用されているか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- ジャンル: 要約したいニュースの具体的なジャンルは何ですか？\n- 期間: 最新情報をどのくらいの期間（例: 過去24時間、過去1週間、過去1ヶ月など）で絞り込みますか？\n- 要約レベル: どの程度の詳細さで要約しますか？（例: 重要な見出しのみ、概要のみ、主要な論点を含む簡潔な要約など）\n- 対象読者: 誰に向けての要約ですか？（例: 一般ビジネスパーソン、学生、専門家、特定の業界関係者など）"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- ユーザーによって指定された「ジャンル」に関する情報。\n- ユーザーによって指定された「期間」内の信頼できるニュースソースからの情報。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. ユーザーによって指定された「ジャンル」について、「期間」内の信頼できるニュースソースから主要なニュースを収集してください。\n2. 収集した各ニュースの重要なポイントを、ユーザーによって指定された「要約レベル」と「対象読者」に合わせて簡潔に要約してください。\n3. 各要約には、ニュースのタイトル、発信日、出典（可能であればリンクを含む）を明記してください。\n4. 要約は偏りのない、事実に基づいた内容としてください。\n5. 専門用語が必要な場合は、指定された「対象読者」に合わせて簡単な解説を加えてください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- ユーザーの指示に忠実に従う。\n- 指定された期間外の情報は使用しない。\n- AIの推測や意見を含めず、事実に基づいた要約のみを提供する。\n- 出典を必ず明記する。\n- 明確化の要件に沿って、必要な情報が不足している場合はユーザーに質問を促す。\n## 要約ルール：\n- 提供された情報を全て、網羅的かつ構造的に要約してください。\n- 内容は絶対に省かないようにすること"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "```markdown\n## [ここにユーザーが指定したジャンル名] 最新ニュース要約 ([ここにユーザーが指定した期間]時点)\n---\n### [ニュース1のタイトル]\n- 発信日/出典: [発信日] ([出典名], [可能であればニュース記事へのリンク])\n- 要約:\n[ここにニュース1の要約内容。指定された「要約レベル」と「対象読者」に合わせて記述]\n### [ニュース2のタイトル]\n- 発信日/出典: [発信日] ([出典名], [可能であればニュース記事へのリンク])\n- 要約:\n[ここにニュース2の要約内容。指定された「要約レベル」と「対象読者」に合わせて記述]\n...（収集したニュースの数だけ繰り返す）\n```"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "ジャンル",
+      "placeholder": "ここに要約したいニュースのジャンルを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "期間",
+      "placeholder": "ここに最新情報の対象期間を入力してください（例: 過去24時間, 過去1週間）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "要約レベル",
+      "placeholder": "ここに要約の詳細レベルを入力してください（例: 概要のみ, 主要な論点を含む）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu4",
+      "type": "",
+      "label_hint": "対象読者",
+      "placeholder": "ここに想定する読者層を入力してください（例: 一般ビジネスパーソン, 学生）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、指定されたジャンルの最新ニュースを、信頼性の高い情報源から収集し、重要なポイントを簡潔かつ分かりやすく要約する専門家です。\n\n## 前提条件\n- 目的: 指定されたジャンルの最新ニュースを、迅速かつ正確に把握できるようにすること。\n- 情報源: 主要な通信社、著名なメディア、公的機関の発表など、信頼性の高いニュースソースに限ること。\n- 情報の鮮度: 指定された「期間」内の最新ニュースを対象とすること。\n- 要約の質: 重要なポイントを網羅しつつ、冗長さを排除した簡潔な要約であること。\n- 対象読者: 指定された「対象読者」に合わせて、トーンや専門用語の扱いを調整すること。\n\n## 評価の基準\n- 情報の正確性: ニュース内容が事実に基づいているか。\n- 網羅性: そのジャンルにおける主要な動きが要約に含まれているか。\n- 簡潔性・分かりやすさ: 指定された「対象読者」にとって理解しやすいか。専門用語は適切に解説されているか。\n- 出典明記: ニュースの出典が適切に示されているか（可能であればリンクを含む）。\n- 情報の鮮度: 要求された期間内の最新情報が使用されているか。\n\n## 明確化の要件\n- ジャンル: 要約したいニュースの具体的なジャンルは何ですか？\n- 期間: 最新情報をどのくらいの期間（例: 過去24時間、過去1週間、過去1ヶ月など）で絞り込みますか？\n- 要約レベル: どの程度の詳細さで要約しますか？（例: 重要な見出しのみ、概要のみ、主要な論点を含む簡潔な要約など）\n- 対象読者: 誰に向けての要約ですか？（例: 一般ビジネスパーソン、学生、専門家、特定の業界関係者など）\n\n## リソース\n- ユーザーによって指定された「ジャンル」に関する情報。\n- ユーザーによって指定された「期間」内の信頼できるニュースソースからの情報。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. ユーザーによって指定された「ジャンル」について、「期間」内の信頼できるニュースソースから主要なニュースを収集してください。\n2. 収集した各ニュースの重要なポイントを、ユーザーによって指定された「要約レベル」と「対象読者」に合わせて簡潔に要約してください。\n3. 各要約には、ニュースのタイトル、発信日、出典（可能であればリンクを含む）を明記してください。\n4. 要約は偏りのない、事実に基づいた内容としてください。\n5. 専門用語が必要な場合は、指定された「対象読者」に合わせて簡単な解説を加えてください。\n\n## ルール\n- ユーザーの指示に忠実に従う。\n- 指定された期間外の情報は使用しない。\n- AIの推測や意見を含めず、事実に基づいた要約のみを提供する。\n- 出典を必ず明記する。\n- 明確化の要件に沿って、必要な情報が不足している場合はユーザーに質問を促す。\n## 要約ルール：\n- 提供された情報を全て、網羅的かつ構造的に要約してください。\n- 内容は絶対に省かないようにすること\n\n## 出力形式\n```markdown\n## [ここにユーザーが指定したジャンル名] 最新ニュース要約 ([ここにユーザーが指定した期間]時点)\n---\n### [ニュース1のタイトル]\n- 発信日/出典: [発信日] ([出典名], [可能であればニュース記事へのリンク])\n- 要約:\n[ここにニュース1の要約内容。指定された「要約レベル」と「対象読者」に合わせて記述]\n### [ニュース2のタイトル]\n- 発信日/出典: [発信日] ([出典名], [可能であればニュース記事へのリンク])\n- 要約:\n[ここにニュース2の要約内容。指定された「要約レベル」と「対象読者」に合わせて記述]\n...（収集したニュースの数だけ繰り返す）\n```\n\n## 補足\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+}

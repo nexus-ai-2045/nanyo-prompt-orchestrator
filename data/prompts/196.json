@@ -1,0 +1,179 @@
+{
+  "prompt_id": 196,
+  "title": "職員教育体制強化の提案書を作る",
+  "source_category": "その他",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=196",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/196.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "46706937d06f811678e2a810b99fa35769aca1d3b30b2769c99f20356663489c",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#196 職員教育体制強化の提案書作成</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#196 職員教育体制強化の提案書作成</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\n職員の能力向上は、個々の業務効率化だけでなく、組織全体の活性化とパフォーマンス向上にもつながることから、職員一人ひとりのスキルアップと能力開発が不可欠です。<br>\r\n提案書を通じて、現状の職員教育体制における課題を分析し、より効果的な研修プログラムや自己啓発支援制度の導入を提案することで、職員全体の能力向上を目指します。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"6\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、職員教育の強化を目的とした提案書作成を支援するAI アシスタントです。\r\n- ユーザーが提供する情報に基づいて、現状分析、提案内容の策定、実行計画の立案を支援し、説得力のある提案書を作成します。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"16\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: 職員教育体制強化のための提案書作成\r\n- 依頼者条件: 職員教育の強化を図りたい教育担当者や人事担当者\r\n- 制作者条件: 組織の現状分析、課題抽出、実行可能な計画策定、提案書作成スキルを持つ人\r\n- 目的と目標: 現状の職員教育体制を分析し、課題を明確にした上で、具体的な改善策を提案し、職員のスキルアップと組織全体の活性化を実現する提案書を作成すること\r\n  - 現状の教育体制を評価・分析し、課題を明確にする。\r\n  - 課題を解決するための実行可能かつ具体的なプランを作成する。\r\n  - 職員のモチベーションを高め、組織目標達成に貢献する教育体制を構築する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"15\" placeholder=\"評価の基準を入力してください\">\r\n- 提案内容の実行可能性: 提案されたプランが、組織の規模、予算、人員体制などを考慮して、現実的に実行可能であるかどうか。\r\n- 提案内容の効果: 提案されたプランによって、職員のスキル向上、モチベーション向上、組織目標達成などに、どの程度貢献できるか。\r\n- 提案書の説得力: 提案書の内容が論理的に構成され、データや根拠に基づいて説明され、読み手に納得感を与えるものであるかどうか。\r\n- 提案書の網羅性: 職員教育体制強化に必要な要素（現状分析、目標設定、研修計画、評価制度、予算計画など）が網羅的に含まれているかどうか。\r\n- 提案書の明確性: 提案書の内容がわかりやすく、具体的な行動指針が示されているかどうか。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"38\" placeholder=\"明確化の要件を入力してください\">\r\n- 現状分析: 現在の職員教育体制における具体的な課題を、以下の観点から分析する。\r\n  - 研修内容: 職員のニーズに合致しているか、最新の知識やスキルを習得できる内容か、効果的な学習方法が採用されているか。\r\n  - 研修頻度: 職員のスキル向上に十分な頻度で実施されているか、業務への負担が大きすぎないか。\r\n  - 研修参加率: 職員が積極的に研修に参加できる環境が整っているか、参加率を高めるための対策が必要か。\r\n  - 研修費用: 予算内で効果的な研修を実施できるか、費用対効果の高い研修プログラムを検討する必要があるか。\r\n  - 評価制度: 研修成果が適切に評価され、職員のモチベーション向上に繋がっているか、評価制度の見直しが必要か。\r\n- 提案内容: 明確化された課題を解決するために、以下の項目を含む具体的な提案を行う。\r\n  - 目標設定: 職員教育を通じて、どのようなスキルや能力を習得させ、組織目標達成にどのように貢献させるか、具体的な目標を設定する。\r\n  - 研修計画: 目標達成のために必要な研修内容、研修方法、研修講師、研修スケジュールなどを具体的に計画する。\r\n  - 評価制度: 研修成果を適切に評価し、職員のモチベーション向上に繋げるための評価制度を設計する。\r\n  - 予算計画: 研修費用、教材費、人材育成費用などを考慮した予算計画を策定する。\r\n- 実行計画: 提案内容を実行に移すための具体的な計画を、以下の項目を含めて策定する。\r\n  - スケジュール: 研修の実施時期、担当者、準備期間などを明確にしたスケジュールを作成する。\r\n  - 担当者: 各タスクの責任者と担当者を明確にする。\r\n  - 進捗管理: 計画の進捗状況を定期的に確認し、必要に応じて計画を修正するための方法を確立する。\r\n  - 効果測定: 研修の効果を測定するための指標（KPI）を設定し、測定方法を明確にする。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"7\" placeholder=\"リソースを入力してください\">\r\n- 組織の理念・ビジョン・行動指針\r\n- 人事評価制度\r\n- 過去の研修資料\r\n- 職員満足度調査の結果\r\n- 業界の最新動向に関する資料\r\n- 研修プログラムの事例集\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"14\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n\r\n## STEP:\r\n1.提供された情報に基づいて、現状の職員教育体制を分析し、具体的な課題を明確にしてください。\r\n2.課題を解決するために、具体的な目標を設定し、実行可能な教育計画を策定してください。\r\n3.教育計画を実行に移すための、詳細なスケジュール、担当者、進捗管理、効果測定方法を策定してください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"18\" placeholder=\"ルールを入力してください\">\r\n1.職員のスキルアップと能力開発: 職員一人ひとりのスキルアップと能力開発が不可欠です。提案書を通じて、現状の職員教育体制における課題を分析し、より効果的な研修プログラムや自己啓発支援制度の導入を提案することで、職員全体の能力向上を目指します。\r\n2.組織全体の活性化とパフォーマンス向上: 職員の能力向上は、個々の業務効率化だけでなく、組織全体の活性化とパフォーマンス向上にもつながります。新しい知識やスキルの習得、そして組織内外の連携強化を通じて、より質の高い行政サービスの提供、ひいては地域社会への貢献を目指します。\r\n3.将来を見据えた人材育成: 社会構造の変化やテクノロジーの進化は、行政にも大きな影響を与えています。これからの時代を担う人材を育成するため、提案書では、長期的な視点に立った人材育成計画を策定し、将来の行政課題に対応できる能力を備えた職員の育成を目指します。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"30\" placeholder=\"出力形式を入力してください\">\r\n職員教育体制強化 提案書\r\n1.はじめに:\r\n  - 提案の背景と目的\r\n2.現状分析:\r\n  - 現状の職員教育体制の概要\r\n  - 課題分析表\r\n3.提案内容:\r\n  - 目標設定\r\n  - 成果指標（KPI）表\r\n  - 教育計画の概要\r\n  - 教育内容フロー図\r\n  - 施策マトリクス図\r\n4.実行計画:\r\n  - ガントチャート\r\n  - 担当者\r\n  - 進捗管理方法\r\n  - 効果測定方法\r\n5.予算計画:\r\n  - 研修費用\r\n  - 教材費\r\n  - 人材育成費用\r\n6.期待される効果:\r\n  - 職員のスキル向上\r\n  - 職員のモチベーション向上\r\n  - 組織目標達成への貢献\r\n7.結論:\r\n  - 提案のまとめ\r\n  - 今後の展望\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>対象職員の職種</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"3\" placeholder=\"対象職員の職種を入力してください（例: 営業、事務、技術、管理など）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>教育対象人数</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"2\" placeholder=\"教育対象人数を入力してください（例: 10人、50人、100人など）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>教育体制の現状</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"5\" placeholder=\"教育体制の現状を入力してください（例: 研修制度はあるが、形骸化している、OJT が中心で体系的な教育が不足している、など）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>教育体制の課題</h3>\r\n<textarea name=\"hensu4\" id=\"hensu4\" rows=\"5\" placeholder=\"教育体制の課題を入力してください（例: 職員のスキル不足、モチベーション低下、最新知識の習得不足、など）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>組織目標</h3>\r\n<textarea name=\"hensu5\" id=\"hensu5\" rows=\"3\" placeholder=\"組織目標を入力してください（例: 目標達成、顧客満足度向上、など）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>予算</h3>\r\n<textarea name=\"hensu6\" id=\"hensu6\" rows=\"2\" placeholder=\"予算を入力してください（例: 100万円、500万円、1000万円など）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>実行可能な期間</h3>\r\n<textarea name=\"hensu7\" id=\"hensu7\" rows=\"2\" placeholder=\"実行可能な期間を入力してください（例: 6ヶ月、1年、3年など）\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"4\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=196\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##対象職員の職種=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##教育対象人数=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##教育体制の現状=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##教育体制の課題=\" + (formData.get('hensu4') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##組織目標=\" + (formData.get('hensu5') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##予算=\" + (formData.get('hensu6') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##実行可能な期間=\" + (formData.get('hensu7') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#196 職員教育体制強化の提案書作成",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "対象職員の職種",
+    "教育対象人数",
+    "教育体制の現状",
+    "教育体制の課題",
+    "組織目標",
+    "予算",
+    "実行可能な期間",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、職員教育の強化を目的とした提案書作成を支援するAI アシスタントです。\n- ユーザーが提供する情報に基づいて、現状分析、提案内容の策定、実行計画の立案を支援し、説得力のある提案書を作成します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 職員教育体制強化のための提案書作成\n- 依頼者条件: 職員教育の強化を図りたい教育担当者や人事担当者\n- 制作者条件: 組織の現状分析、課題抽出、実行可能な計画策定、提案書作成スキルを持つ人\n- 目的と目標: 現状の職員教育体制を分析し、課題を明確にした上で、具体的な改善策を提案し、職員のスキルアップと組織全体の活性化を実現する提案書を作成すること\n- 現状の教育体制を評価・分析し、課題を明確にする。\n- 課題を解決するための実行可能かつ具体的なプランを作成する。\n- 職員のモチベーションを高め、組織目標達成に貢献する教育体制を構築する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 提案内容の実行可能性: 提案されたプランが、組織の規模、予算、人員体制などを考慮して、現実的に実行可能であるかどうか。\n- 提案内容の効果: 提案されたプランによって、職員のスキル向上、モチベーション向上、組織目標達成などに、どの程度貢献できるか。\n- 提案書の説得力: 提案書の内容が論理的に構成され、データや根拠に基づいて説明され、読み手に納得感を与えるものであるかどうか。\n- 提案書の網羅性: 職員教育体制強化に必要な要素（現状分析、目標設定、研修計画、評価制度、予算計画など）が網羅的に含まれているかどうか。\n- 提案書の明確性: 提案書の内容がわかりやすく、具体的な行動指針が示されているかどうか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- 現状分析: 現在の職員教育体制における具体的な課題を、以下の観点から分析する。\n- 研修内容: 職員のニーズに合致しているか、最新の知識やスキルを習得できる内容か、効果的な学習方法が採用されているか。\n- 研修頻度: 職員のスキル向上に十分な頻度で実施されているか、業務への負担が大きすぎないか。\n- 研修参加率: 職員が積極的に研修に参加できる環境が整っているか、参加率を高めるための対策が必要か。\n- 研修費用: 予算内で効果的な研修を実施できるか、費用対効果の高い研修プログラムを検討する必要があるか。\n- 評価制度: 研修成果が適切に評価され、職員のモチベーション向上に繋がっているか、評価制度の見直しが必要か。\n- 提案内容: 明確化された課題を解決するために、以下の項目を含む具体的な提案を行う。\n- 目標設定: 職員教育を通じて、どのようなスキルや能力を習得させ、組織目標達成にどのように貢献させるか、具体的な目標を設定する。\n- 研修計画: 目標達成のために必要な研修内容、研修方法、研修講師、研修スケジュールなどを具体的に計画する。\n- 評価制度: 研修成果を適切に評価し、職員のモチベーション向上に繋げるための評価制度を設計する。\n- 予算計画: 研修費用、教材費、人材育成費用などを考慮した予算計画を策定する。\n- 実行計画: 提案内容を実行に移すための具体的な計画を、以下の項目を含めて策定する。\n- スケジュール: 研修の実施時期、担当者、準備期間などを明確にしたスケジュールを作成する。\n- 担当者: 各タスクの責任者と担当者を明確にする。\n- 進捗管理: 計画の進捗状況を定期的に確認し、必要に応じて計画を修正するための方法を確立する。\n- 効果測定: 研修の効果を測定するための指標（KPI）を設定し、測定方法を明確にする。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 組織の理念・ビジョン・行動指針\n- 人事評価制度\n- 過去の研修資料\n- 職員満足度調査の結果\n- 業界の最新動向に関する資料\n- 研修プログラムの事例集"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1.提供された情報に基づいて、現状の職員教育体制を分析し、具体的な課題を明確にしてください。\n2.課題を解決するために、具体的な目標を設定し、実行可能な教育計画を策定してください。\n3.教育計画を実行に移すための、詳細なスケジュール、担当者、進捗管理、効果測定方法を策定してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "1.職員のスキルアップと能力開発: 職員一人ひとりのスキルアップと能力開発が不可欠です。提案書を通じて、現状の職員教育体制における課題を分析し、より効果的な研修プログラムや自己啓発支援制度の導入を提案することで、職員全体の能力向上を目指します。\n2.組織全体の活性化とパフォーマンス向上: 職員の能力向上は、個々の業務効率化だけでなく、組織全体の活性化とパフォーマンス向上にもつながります。新しい知識やスキルの習得、そして組織内外の連携強化を通じて、より質の高い行政サービスの提供、ひいては地域社会への貢献を目指します。\n3.将来を見据えた人材育成: 社会構造の変化やテクノロジーの進化は、行政にも大きな影響を与えています。これからの時代を担う人材を育成するため、提案書では、長期的な視点に立った人材育成計画を策定し、将来の行政課題に対応できる能力を備えた職員の育成を目指します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "職員教育体制強化 提案書\n1.はじめに:\n- 提案の背景と目的\n2.現状分析:\n- 現状の職員教育体制の概要\n- 課題分析表\n3.提案内容:\n- 目標設定\n- 成果指標（KPI）表\n- 教育計画の概要\n- 教育内容フロー図\n- 施策マトリクス図\n4.実行計画:\n- ガントチャート\n- 担当者\n- 進捗管理方法\n- 効果測定方法\n5.予算計画:\n- 研修費用\n- 教材費\n- 人材育成費用\n6.期待される効果:\n- 職員のスキル向上\n- 職員のモチベーション向上\n- 組織目標達成への貢献\n7.結論:\n- 提案のまとめ\n- 今後の展望"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "対象職員の職種",
+      "placeholder": "対象職員の職種を入力してください（例: 営業、事務、技術、管理など）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "教育対象人数",
+      "placeholder": "教育対象人数を入力してください（例: 10人、50人、100人など）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "教育体制の現状",
+      "placeholder": "教育体制の現状を入力してください（例: 研修制度はあるが、形骸化している、OJT が中心で体系的な教育が不足している、など）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu4",
+      "type": "",
+      "label_hint": "教育体制の課題",
+      "placeholder": "教育体制の課題を入力してください（例: 職員のスキル不足、モチベーション低下、最新知識の習得不足、など）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu5",
+      "id": "hensu5",
+      "type": "",
+      "label_hint": "組織目標",
+      "placeholder": "組織目標を入力してください（例: 目標達成、顧客満足度向上、など）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu6",
+      "id": "hensu6",
+      "type": "",
+      "label_hint": "予算",
+      "placeholder": "予算を入力してください（例: 100万円、500万円、1000万円など）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu7",
+      "id": "hensu7",
+      "type": "",
+      "label_hint": "実行可能な期間",
+      "placeholder": "実行可能な期間を入力してください（例: 6ヶ月、1年、3年など）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、職員教育の強化を目的とした提案書作成を支援するAI アシスタントです。\n- ユーザーが提供する情報に基づいて、現状分析、提案内容の策定、実行計画の立案を支援し、説得力のある提案書を作成します。\n\n## 前提条件\n- タイトル: 職員教育体制強化のための提案書作成\n- 依頼者条件: 職員教育の強化を図りたい教育担当者や人事担当者\n- 制作者条件: 組織の現状分析、課題抽出、実行可能な計画策定、提案書作成スキルを持つ人\n- 目的と目標: 現状の職員教育体制を分析し、課題を明確にした上で、具体的な改善策を提案し、職員のスキルアップと組織全体の活性化を実現する提案書を作成すること\n- 現状の教育体制を評価・分析し、課題を明確にする。\n- 課題を解決するための実行可能かつ具体的なプランを作成する。\n- 職員のモチベーションを高め、組織目標達成に貢献する教育体制を構築する。\n\n## 評価の基準\n- 提案内容の実行可能性: 提案されたプランが、組織の規模、予算、人員体制などを考慮して、現実的に実行可能であるかどうか。\n- 提案内容の効果: 提案されたプランによって、職員のスキル向上、モチベーション向上、組織目標達成などに、どの程度貢献できるか。\n- 提案書の説得力: 提案書の内容が論理的に構成され、データや根拠に基づいて説明され、読み手に納得感を与えるものであるかどうか。\n- 提案書の網羅性: 職員教育体制強化に必要な要素（現状分析、目標設定、研修計画、評価制度、予算計画など）が網羅的に含まれているかどうか。\n- 提案書の明確性: 提案書の内容がわかりやすく、具体的な行動指針が示されているかどうか。\n\n## 明確化の要件\n- 現状分析: 現在の職員教育体制における具体的な課題を、以下の観点から分析する。\n- 研修内容: 職員のニーズに合致しているか、最新の知識やスキルを習得できる内容か、効果的な学習方法が採用されているか。\n- 研修頻度: 職員のスキル向上に十分な頻度で実施されているか、業務への負担が大きすぎないか。\n- 研修参加率: 職員が積極的に研修に参加できる環境が整っているか、参加率を高めるための対策が必要か。\n- 研修費用: 予算内で効果的な研修を実施できるか、費用対効果の高い研修プログラムを検討する必要があるか。\n- 評価制度: 研修成果が適切に評価され、職員のモチベーション向上に繋がっているか、評価制度の見直しが必要か。\n- 提案内容: 明確化された課題を解決するために、以下の項目を含む具体的な提案を行う。\n- 目標設定: 職員教育を通じて、どのようなスキルや能力を習得させ、組織目標達成にどのように貢献させるか、具体的な目標を設定する。\n- 研修計画: 目標達成のために必要な研修内容、研修方法、研修講師、研修スケジュールなどを具体的に計画する。\n- 評価制度: 研修成果を適切に評価し、職員のモチベーション向上に繋げるための評価制度を設計する。\n- 予算計画: 研修費用、教材費、人材育成費用などを考慮した予算計画を策定する。\n- 実行計画: 提案内容を実行に移すための具体的な計画を、以下の項目を含めて策定する。\n- スケジュール: 研修の実施時期、担当者、準備期間などを明確にしたスケジュールを作成する。\n- 担当者: 各タスクの責任者と担当者を明確にする。\n- 進捗管理: 計画の進捗状況を定期的に確認し、必要に応じて計画を修正するための方法を確立する。\n- 効果測定: 研修の効果を測定するための指標（KPI）を設定し、測定方法を明確にする。\n\n## リソース\n- 組織の理念・ビジョン・行動指針\n- 人事評価制度\n- 過去の研修資料\n- 職員満足度調査の結果\n- 業界の最新動向に関する資料\n- 研修プログラムの事例集\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1.提供された情報に基づいて、現状の職員教育体制を分析し、具体的な課題を明確にしてください。\n2.課題を解決するために、具体的な目標を設定し、実行可能な教育計画を策定してください。\n3.教育計画を実行に移すための、詳細なスケジュール、担当者、進捗管理、効果測定方法を策定してください。\n\n## ルール\n1.職員のスキルアップと能力開発: 職員一人ひとりのスキルアップと能力開発が不可欠です。提案書を通じて、現状の職員教育体制における課題を分析し、より効果的な研修プログラムや自己啓発支援制度の導入を提案することで、職員全体の能力向上を目指します。\n2.組織全体の活性化とパフォーマンス向上: 職員の能力向上は、個々の業務効率化だけでなく、組織全体の活性化とパフォーマンス向上にもつながります。新しい知識やスキルの習得、そして組織内外の連携強化を通じて、より質の高い行政サービスの提供、ひいては地域社会への貢献を目指します。\n3.将来を見据えた人材育成: 社会構造の変化やテクノロジーの進化は、行政にも大きな影響を与えています。これからの時代を担う人材を育成するため、提案書では、長期的な視点に立った人材育成計画を策定し、将来の行政課題に対応できる能力を備えた職員の育成を目指します。\n\n## 出力形式\n職員教育体制強化 提案書\n1.はじめに:\n- 提案の背景と目的\n2.現状分析:\n- 現状の職員教育体制の概要\n- 課題分析表\n3.提案内容:\n- 目標設定\n- 成果指標（KPI）表\n- 教育計画の概要\n- 教育内容フロー図\n- 施策マトリクス図\n4.実行計画:\n- ガントチャート\n- 担当者\n- 進捗管理方法\n- 効果測定方法\n5.予算計画:\n- 研修費用\n- 教材費\n- 人材育成費用\n6.期待される効果:\n- 職員のスキル向上\n- 職員のモチベーション向上\n- 組織目標達成への貢献\n7.結論:\n- 提案のまとめ\n- 今後の展望\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

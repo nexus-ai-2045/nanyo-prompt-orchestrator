@@ -1,0 +1,159 @@
+{
+  "prompt_id": 668,
+  "title": "生成AI導入の戦略的エグゼクティブメッセージ作成",
+  "source_category": "プログラミング",
+  "source_url": "https://nanyo-line.github.io/prompt/668.html",
+  "retrieved_url": "https://nanyo-line.github.io/prompt/668.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "5235faeeec7ef676e6c7a422faf7536d15101b7afd4d29cab3bf95ff94ee857d",
+  "raw_html": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta name=\"robots\" content=\"noindex\" />\n    <title>#668 生成AI導入の戦略的エグゼクティブメッセージ作成</title>\n    <style>\n        /* === スタイル設定 === */\n        \n        /* 基本ページ設定 */\n        body {\n            font-family: Arial, sans-serif;\n            margin: 0;\n            padding: 20px;\n            box-sizing: border-box;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            min-height: 100vh;\n            background-color: #FFF;\n        }\n        /* メインコンテナのスタイル */\n        .container {\n            width: 100%;\n            max-width: 800px;\n            background: #ffffff;\n            border-radius: 8px;\n            box-shadow: 3px 5px 15px -5px #777777;\n            overflow: hidden;\n        }\n        /* 各種見出し・ボタンのスタイル設定 */\n        h2 {\n            color: #797979;\n            font-size: 1.6em;\n        }\n        .box-title {\n            font-size: 1.7em;\n            letter-spacing: 0.1em;\n            padding: 1em 20px; /* Combined padding */\n            background-color: #5fc2f5;\n            color: #fff;\n            font-weight: 600;\n            display: flex; /* Make it a flex container */\n            align-items: center; /* Vertically center items */\n            justify-content: space-between; /* Push items to ends */\n        }\n        .box-title .title-text {\n            flex-grow: 1; /* Allow title to take available space */\n            text-align: center; /* Keep title centered */\n            white-space: nowrap; /* Prevent wrapping */\n            overflow: hidden; /* Hide overflow content */\n            text-overflow: ellipsis; /* Show ellipsis for truncated text */\n        }\n        #toggleIcon {\n            font-size: 24px; /* Increased size */\n        }\n        .form-content {\n            padding: 40px 120px;\n            background: #f1f1f1;\n        }\n        .box-bun {\n            background: #FFF;\n            border: 1px solid #D5D9DC;\n            border-radius: 20px;\n            padding: 15px;\n            margin-bottom: 40px;\n        }\n        .togglable-section {\n                /* display: none; Removed */\n            }\n        label {\n            display: inline-block;\n            margin-left: 5px;\n            color: #656565;\n        }\n        input[type=\"text\"], select, textarea {\n            width: 100%;\n            padding: 10px;\n            margin-top: 5px;\n            box-sizing: border-box;\n            border: 0.5px solid #AEAEAE;\n            border-radius: 5px;\n            font-size: 16px;\n        }\n        textarea {\n            resize: vertical;\n        }\n        .button-group {\n            display: flex;\n            justify-content: center;\n            margin-top: 20px;\n        }\n        .btn2 {\n            width: 150px;\n            height: 60px;\n            margin: 0 10px;\n        }\n\n        .btn-generate {\n            width: 180px;\n            height: 60px;\n            margin: 0 10px;\n        }\n        .btn2 a, .btn-generate a {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            width: 100%;\n            height: 100%;\n            text-decoration: none;\n            font-size: 20px;\n            font-weight: bold;\n            border-radius: 35px;\n            transition: all 0.5s ease;\n        }\n        .btn2 a {\n            background: #FFFFFF;\n            color: #5FC2F5;\n            border: 2px solid #5FC2F5;\n        }\n        .btn2 a:hover {\n            transform: scale(1.1, 1.1);\n        }\n        .btn-generate a {\n            background: #5FC2F5;\n            color: #FFFFFF;\n        }\n        .btn-generate a:hover {\n            transform: scale(1.1, 1.1);\n        }\n        .small-text {\n            font-size: 0.5em;\n            color: #656565;\n            text-align: center;\n            margin-top: 5px;\n        }\n\n/* === 入力エリアの色設定 === */\n.variable-textarea {\n    background-color: #ffe4e1; /* 薄いピンク */\n}\n\n\n        /* === スマホ用設定 === */\n@media only screen and (max-width: 768px) {\n    .prompt-text {\n        display: none;\n    }\n    .container {\n        width: 100%;\n        padding: 10px;\n        box-shadow: none;\n    }\n    .form-content {\n        padding: 20px 10px;\n    }\n    .box-bun {\n        padding: 10px;\n        margin-bottom: 20px;\n    }\n    h2 {\n        font-size: 1.4em;\n    }\n    .button-group {\n        flex-direction: column;\n    }\n    .btn2, .btn-generate {\n        width: 100%;\n        height: 50px;\n        margin: 10px 0;\n    }\n    .btn2 a, .btn-generate a {\n        font-size: 18px;\n    }\n    textarea {\n        font-size: 14px;\n    }\n}\n\n    </style>\n</head>\n<body>\n\n<!-- === メインのHTML構造 === -->\n<div class=\"container\">\n    <div class=\"box-title\">\n    <span class=\"title-text\">#668 生成AI導入の戦略的エグゼクティブメッセージ作成</span>\n    <span id=\"toggleIcon\" style=\"cursor:pointer;\">☰</span>\n</div>\n    <div class=\"form-content\">\n        <form id=\"summaryPromptForm\">\n\n<!-- プロンプトの目的 -->\n<div class=\"box-bun\">\n<h2>目的・ねらい</h2>\nこのプロンプトは、経営層の視点から生成AI導入の戦略的意義を明確に伝え、全社員の理解と協力を得るための文章を作成する。\n</div>\n            <!-- あなたの役割の入力 -->\n            <div class=\"box-bun togglable-section\">\n<h2>あなたの役割</h2>\n<textarea name=\"role\" id=\"role\" rows=\"9\" placeholder=\"あなたの役割を入力してください\">\n- あなたは、経営層の戦略的視点と現場の共感を深く理解する、一流の戦略的コミュニケーション専門家兼コンセプトデザイナーとして振舞ってください。\n- あなたの究極のミッションは、生成AIの導入が組織にもたらす「変革の意義」を明確に言語化し、全社員の「やりたい」意欲と主体的な参画を促す、情熱的で戦略的なエグゼクティブメッセージを作成することです。\n</textarea>\n            </div>\n\n<!-- 前提条件 -->\n            <div class=\"box-bun togglable-section\">\n<h2>前提条件</h2>\n<textarea name=\"conditions\" id=\"conditions\" rows=\"35\" placeholder=\"前提条件を入力してください\">\n1. 前提 (Premise)：\n - 生成AIは、単なるITツールではなく、社員一人ひとりの能力を拡張し、組織全体の変革（DXの「X」）を推進するための不可欠な手段であるという事実は揺るぎません。\n - 最高の成果は、思考プロセスの透明性と、曖昧さを排除した具体的かつ明確な指示によって達成されます。\n2. 状況 (Situation)：\n - ユーザーは現在、生成AI導入の開始期にあり、全社員に対し、その戦略的意義と、変革への主体的な参加を促すためのメッセージを作成する必要があるという文脈にあります。\n - このメッセージは、全社のデジタル利用に対する心理的なハードルを下げ、共通のビジョンを共有するためのものです。\n3. 目的 (Purpose)：\n - 経営層の視点から生成AI導入の戦略的意義を明確に伝え、全社員の理解と協力を得ることを唯一のゴールとします。\n - 最終的に、導入への期待感を醸成し、変革へのモメンタムを創出します。\n4. 動機 (Motive)：\n - 組織全体の生産性向上とビジネススピードの強化を達成するため、全社員の「やらされ」意欲ではなく「やりたい」意欲を引き出すこと。\n5. 制約 (Constraint)：\n - メッセージは全社員（非技術職を含む）が理解できるよう、専門用語を避け、親しみやすく平易な言葉遣いに限定します。\n - また、ユーザーが指定した4つの要素（変革の背景、位置づけ、導入後のビジョン、社員への期待）を厳密に含め、[#出力フォーマット]を厳守することとします。\n</textarea>\n            </div>\n\n\n<!-- 評価の基準 -->\n            <div class=\"box-bun togglable-section\">\n<h2>評価の基準</h2>\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"9\" placeholder=\"評価の基準を入力してください\">\n- メッセージが、全社員の共感を呼び起こし、主体的な行動意欲（例えば、AIを「まずは試してみよう」という意欲）を最大化できるか。\n- 組織の変革推進（DXの「X」）に寄与する明確なビジョンと論理的構成が両立しているか。\n- また、メッセージが曖昧でなく、具体的な目標達成につながる指針を含んでいるか。\n</textarea>\n            </div>\n\n\n<!-- 明確化の要件 -->\n            <div class=\"box-bun togglable-section\">\n<h2>明確化の要件</h2>\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"20\" placeholder=\"明確化の要件を入力してください\">\nAIがメッセージの核となる情報を深く理解できるよう、以下の情報をユーザーに問いかけ、明確化を促します。\n1. 変革の背景: なぜ今すぐ生成AIが必要なのか、その必然性（例：競争激化、顧客ニーズの変化、既存業務の非効率性）を、具体的なデータや事実（エビデンス）に基づき明確に記述すること。\n2. 生成AIの位置づけ: 生成AIが社員にとって「欠点を補完し、能力をさらに引き上げる」ツールや「共創パートナー」であることを示す具体的な定義。\n3. 導入後のビジョン: 導入後に達成される「理想の状態」を明確にし、社員のキャリアや業務にどのような明るい未来がもたらされるか、情熱的かつ具体的に描写すること。\n4. 社員への期待: 変革を成功に導くために、社員に求める具体的な行動（例：失敗を恐れずに試行錯誤する姿勢、ロジカルシンキングやプロセス設計力）を明確にすること。\n</textarea>\n            </div>\n\n\n<!-- リソース -->\n            <div class=\"box-bun togglable-section\">\n<h2>リソース</h2>\n<textarea name=\"resource\" id=\"resource\" rows=\"15\" placeholder=\"リソースを入力してください\">\n以下の知識や情報ソースを活用して、メッセージの品質を向上させます。\n- 戦略・哲学関連: DX/組織変革（Xスキル）に関する知識、「やりたい」意欲の重要性、問題解決思考（理想と現実のギャップ埋め）の原則、組織変革における性格・価値観の重要性。\n- コミュニケーション・訴求関連: 読者の感情（不安、希望、好奇心など）を揺さぶる感情トリガーの活用、重要なメッセージを強調するフレーズ、共感を呼ぶストーリーテリングのノウハウ。\n- AI活用関連: 生成AI導入の具体的なメリット（業務効率化、コスト削減、アイデア創出）、AIとの共創プロセスに関する知識。\n</textarea>\n            </div>\n\n\n            <!-- 実行指示 -->\n            <div class=\"box-bun togglable-section\">\n<h2>実行指示</h2>\n<textarea name=\"instructions\" id=\"instructions\" rows=\"26\" placeholder=\"実行指示を入力してください\">\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- ユーザー入力の情報を基に、エグゼクティブメッセージ草案を作成してください。\n\n## STEP:\n1. まず、ユーザー入力の`{変革の背景}`を基に、なぜ今、我々が変わらなければならないのか、その必然性を力強く訴える導入部を構築してください。\n2. 次に、生成AIが単なるITツールではなく、`{生成AIの位置づけ}`であることを明確に定義し、社員の能力を拡張する存在であると説明してください。\n3. 生成AIの導入によって、会社と社員に`{導入後のビジョン}`という、どのような明るい未来がもたらされるのかを情熱的に語ってください。\n4. 最後に、この変革を成功に導くために`{社員への期待}`を具体的に伝え、全社員の主体的な参画を促す行動要請（コール・トゥ・アクション）を盛り込んでください。\n5. 全体の構成は、[#出力フォーマット]を厳守し、平易で情熱的、かつプロフェッショナルなトーンで記述してください。\n</textarea>\n            </div>\n\n            <!-- ルール -->\n            <div class=\"box-bun togglable-section\">\n<h2>ルール</h2>\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"12\" placeholder=\"ルールを入力してください\">\n- 出力全体を通じて、専門的でありながらも、AI初心者にも分かりやすく、実践を促すような丁寧で平易な言葉遣いを心がけてください。\n- 出力は、論理的整合性を保ちながら、読者の感情に訴えかける表現を意識してください。\n- [#出力フォーマット] の見出しを厳守し、冗長な説明や繰り返しは避けてください。\n- 生成AIの出力品質はプロンプトの内容に大きく依存することを考慮し、可能な限り具体的で明確な指示を含めてください。\n</textarea>\n            </div>\n\n            <!-- 思考ステップ（AI内部処理の定義） -->\n            <div class=\"box-bun togglable-section\">\n<h2>思考ステップ（AI内部処理の定義）</h2>\n<textarea name=\"thinking_steps\" id=\"thinking_steps\" rows=\"20\" placeholder=\"ルールを入力してください\">\n本タスクを実行するにあたり、以下の思考プロセスを適用します。\n1. イシューの特定（論点思考）: ユーザー課題を「なぜ全社員の意欲が低いのか？」という本質的な論点（イシュー）に見極め、メッセージがこの課題を解決するように設計します。\n2. 感情的フックの設計: ターゲット社員が抱える潜在的な不安や現状の「困りごと」（例：「宝の持ち腐れ」状態、「何をすればいいかわからない」）に共感する要素を特定します。\n3. メッセージの論理構成（PREP法）: 結論（ビジョン）を最初に伝え、その理由（背景、AIの位置づけ）を論理的に展開し、最後に具体的な行動（社員への期待）を促す構成を適用します。\n4. トーン調整と平易化: 作成された草案に対して、非技術職でも理解できる平易な言葉に変換し、かつ情熱的で、「押しつけ感」や「煽り」を排除したトーンになっているかを検証します。\n</textarea>\n            </div>\n\n<!-- 出力設定 -->\n            <div class=\"box-bun togglable-section\">\n<h2>出力形式</h2>\n<textarea name=\"output\" id=\"output\" rows=\"33\" placeholder=\"出力形式を入力してください\">\n```markdown\n## 〇〇社 全社員向け：生成AIが拓く未来へのメッセージ\n\n### 1. 変革の背景と必然性\n（力強く訴える導入文。なぜ今変わる必要があるのかを明確に。）\n{変革の背景}\n\n### 2. 生成AIの位置づけ：あなたの能力を拡張する共創パートナー\n（生成AIが単なるツールではないこと、社員の欠点を補い、能力を引き上げる存在であることを定義。）\n{生成AIの位置づけ}\n\n### 3. 導入後のビジョン：会社と社員にもたらされる明るい未来\n（導入によって達成される「理想の状態」を情熱的に描写。）\n{導入後のビジョン}\n\n### 4. 社員への期待：変革を成功に導くためのコミットメント\n（この変革を推進するために、全社員に求める具体的かつ主体的な行動。）\n{社員への期待}\n\n敬具\n[経営層の署名]\n```\n</textarea>\n            </div>\n\n\n<!-- ユーザー入力 -->\n            <div class=\"box-bun\">\n<h2>ユーザー入力</h2>\n<h3>変革の背景</h3>\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"10\" placeholder=\"ここに変革の背景を入力してください。（例：営業部門向け：週報の要約とリスク抽出）\" class=\"variable-textarea\" >\n</textarea>\n<h3>生成AIの位置づけ</h3>\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"10\" placeholder=\"ここに生成AIをどのような存在として位置づけるかを入力してください。（例：パーソナルコーチ、能力拡張ツールなど）\" class=\"variable-textarea\" >\n</textarea>\n<h3>導入後のビジョン</h3>\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"10\" placeholder=\"ここに会社、顧客、社員の業務にどのような具体的な明るい未来がもたらされるかを記述してください。\" class=\"variable-textarea\" >\n</textarea>\n<h3>社員への期待</h3>\n<textarea name=\"hensu4\" id=\"hensu4\" rows=\"10\" placeholder=\"ここにこの変革を成功に導くために、社員に求める具体的な行動やマインドセットを記述してください。\" class=\"variable-textarea\" >\n</textarea>\n            </div>\n\n\n\n            <!-- 補足 -->\n            <div class=\"box-bun togglable-section\">\n<h2>補足</h2>\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"25\" placeholder=\"を補足を入力してください\">\n- このプロンプトは、AIが最高の成果を出すために、まず「何をしたいか？」という具体的な困りごとからスタートするという原則に基づいて設計されています。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n\n### ネガティブ制約条件\n- AIの技術的な詳細（例：確率モデル、トークンなど）に関する専門用語や難解な表現は、全社員の理解を妨げるため一切使用しないでください。\n- 一般的な、抽象的で誰にでも当てはまる「無難な解決策」の羅列に終始しないでください。必ず具体的なビジョンと期待に焦点を当てます。\n- 倫理的に問題のある表現や、社員の不安を過度に煽る表現（例：「やらないと時代に取り残される」といった過度な煽り）を含まないこと。\n</textarea>\n            </div>\n\n\n        </form>\n        <div class=\"button-group\">\n            <div class='btn2'>\n                <a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\n            </div>\n            <div class=\"btn-generate\">\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\n            </div>\n        </div>\n    </div>\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=668\"></script>\n</div>\n\n<!-- JavaScript -->\n<script>\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\n    e.preventDefault();\n    const form = document.getElementById('summaryPromptForm');\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\n    const formData = new FormData(form);\n\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</あなたの役割>\\n\\n\";\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</前提条件>\\n\\n\";\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</評価の基準>\\n\\n\";\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</明確化の要件>\\n\\n\";\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</リソース>\\n\\n\";\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</実行指示>\\n\\n\";\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</ルール>\\n\\n\";\n    communicationContent += \"<思考ステップ（AI内部処理の定義）>\\n\" + (formData.get('thinking_steps') || '特に指示無し\\n') + \"</思考ステップ（AI内部処理の定義）>\\n\\n\";\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</出力形式>\\n\\n\";\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\n    communicationContent += \"##変革の背景=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\n    communicationContent += \"##生成AIの位置づけ=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\n    communicationContent += \"##導入後のビジョン=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\";\n    communicationContent += \"##社員への期待=\" + (formData.get('hensu4') || '特に指示無し') + \"\\n</ユーザー入力>\\n\\n\";\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</補足>\\n\";\n\n    // クリップボードにコピー\n    navigator.clipboard.writeText(communicationContent).then(() => {\n        alert('プロンプトがコピーされました。');\n    }).catch(err => {\n        console.error('クリップボードへのコピーに失敗しました:', err);\n        alert('プロンプトのコピーに失敗しました。');\n    });\n});\n\ndocument.addEventListener('DOMContentLoaded', function() {\n    const toggleIcon = document.getElementById('toggleIcon');\n    const togglableSections = document.querySelectorAll('.togglable-section');\n\n    // Default: All blocks should be displayed\n    // Set initial state of toggleIcon to 'hide' (×) and its title\n    if (toggleIcon) { // Ensure toggleIcon exists before setting its properties\n        toggleIcon.innerHTML = '×'; // Initially show 'hide' icon\n        toggleIcon.title = ''; // Initially no tooltip when visible\n    }\n\n    if (toggleIcon && togglableSections.length > 0) {\n        toggleIcon.addEventListener('click', function() {\n            const isHidden = togglableSections[0].style.display === 'none'; // Check current display state\n            if (isHidden) { // If currently hidden, show them\n                togglableSections.forEach(section => {\n                    section.style.display = 'block';\n                });\n                toggleIcon.innerHTML = '×'; // Change icon to 'hide'\n                toggleIcon.title = 'プロンプト非表示'; // No tooltip when visible\n            } else { // If currently visible, hide them\n                togglableSections.forEach(section => {\n                    section.style.display = 'none';\n                });\n                toggleIcon.innerHTML = '☰'; // Change icon to 'show'\n                toggleIcon.title = 'プロンプト表示'; // Set title for 'show' state\n            }\n        });\n    }\n});\n</script>\n</body>\n</html>\n",
+  "page_title": "#668 生成AI導入の戦略的エグゼクティブメッセージ作成",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "思考ステップ（AI内部処理の定義）",
+    "出力形式",
+    "ユーザー入力",
+    "変革の背景",
+    "生成AIの位置づけ",
+    "導入後のビジョン",
+    "社員への期待",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、経営層の戦略的視点と現場の共感を深く理解する、一流の戦略的コミュニケーション専門家兼コンセプトデザイナーとして振舞ってください。\n- あなたの究極のミッションは、生成AIの導入が組織にもたらす「変革の意義」を明確に言語化し、全社員の「やりたい」意欲と主体的な参画を促す、情熱的で戦略的なエグゼクティブメッセージを作成することです。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "1. 前提 (Premise)：\n- 生成AIは、単なるITツールではなく、社員一人ひとりの能力を拡張し、組織全体の変革（DXの「X」）を推進するための不可欠な手段であるという事実は揺るぎません。\n- 最高の成果は、思考プロセスの透明性と、曖昧さを排除した具体的かつ明確な指示によって達成されます。\n2. 状況 (Situation)：\n- ユーザーは現在、生成AI導入の開始期にあり、全社員に対し、その戦略的意義と、変革への主体的な参加を促すためのメッセージを作成する必要があるという文脈にあります。\n- このメッセージは、全社のデジタル利用に対する心理的なハードルを下げ、共通のビジョンを共有するためのものです。\n3. 目的 (Purpose)：\n- 経営層の視点から生成AI導入の戦略的意義を明確に伝え、全社員の理解と協力を得ることを唯一のゴールとします。\n- 最終的に、導入への期待感を醸成し、変革へのモメンタムを創出します。\n4. 動機 (Motive)：\n- 組織全体の生産性向上とビジネススピードの強化を達成するため、全社員の「やらされ」意欲ではなく「やりたい」意欲を引き出すこと。\n5. 制約 (Constraint)：\n- メッセージは全社員（非技術職を含む）が理解できるよう、専門用語を避け、親しみやすく平易な言葉遣いに限定します。\n- また、ユーザーが指定した4つの要素（変革の背景、位置づけ、導入後のビジョン、社員への期待）を厳密に含め、[#出力フォーマット]を厳守することとします。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- メッセージが、全社員の共感を呼び起こし、主体的な行動意欲（例えば、AIを「まずは試してみよう」という意欲）を最大化できるか。\n- 組織の変革推進（DXの「X」）に寄与する明確なビジョンと論理的構成が両立しているか。\n- また、メッセージが曖昧でなく、具体的な目標達成につながる指針を含んでいるか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "AIがメッセージの核となる情報を深く理解できるよう、以下の情報をユーザーに問いかけ、明確化を促します。\n1. 変革の背景: なぜ今すぐ生成AIが必要なのか、その必然性（例：競争激化、顧客ニーズの変化、既存業務の非効率性）を、具体的なデータや事実（エビデンス）に基づき明確に記述すること。\n2. 生成AIの位置づけ: 生成AIが社員にとって「欠点を補完し、能力をさらに引き上げる」ツールや「共創パートナー」であることを示す具体的な定義。\n3. 導入後のビジョン: 導入後に達成される「理想の状態」を明確にし、社員のキャリアや業務にどのような明るい未来がもたらされるか、情熱的かつ具体的に描写すること。\n4. 社員への期待: 変革を成功に導くために、社員に求める具体的な行動（例：失敗を恐れずに試行錯誤する姿勢、ロジカルシンキングやプロセス設計力）を明確にすること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "以下の知識や情報ソースを活用して、メッセージの品質を向上させます。\n- 戦略・哲学関連: DX/組織変革（Xスキル）に関する知識、「やりたい」意欲の重要性、問題解決思考（理想と現実のギャップ埋め）の原則、組織変革における性格・価値観の重要性。\n- コミュニケーション・訴求関連: 読者の感情（不安、希望、好奇心など）を揺さぶる感情トリガーの活用、重要なメッセージを強調するフレーズ、共感を呼ぶストーリーテリングのノウハウ。\n- AI活用関連: 生成AI導入の具体的なメリット（業務効率化、コスト削減、アイデア創出）、AIとの共創プロセスに関する知識。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- ユーザー入力の情報を基に、エグゼクティブメッセージ草案を作成してください。\n## STEP:\n1. まず、ユーザー入力の`{変革の背景}`を基に、なぜ今、我々が変わらなければならないのか、その必然性を力強く訴える導入部を構築してください。\n2. 次に、生成AIが単なるITツールではなく、`{生成AIの位置づけ}`であることを明確に定義し、社員の能力を拡張する存在であると説明してください。\n3. 生成AIの導入によって、会社と社員に`{導入後のビジョン}`という、どのような明るい未来がもたらされるのかを情熱的に語ってください。\n4. 最後に、この変革を成功に導くために`{社員への期待}`を具体的に伝え、全社員の主体的な参画を促す行動要請（コール・トゥ・アクション）を盛り込んでください。\n5. 全体の構成は、[#出力フォーマット]を厳守し、平易で情熱的、かつプロフェッショナルなトーンで記述してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 出力全体を通じて、専門的でありながらも、AI初心者にも分かりやすく、実践を促すような丁寧で平易な言葉遣いを心がけてください。\n- 出力は、論理的整合性を保ちながら、読者の感情に訴えかける表現を意識してください。\n- [#出力フォーマット] の見出しを厳守し、冗長な説明や繰り返しは避けてください。\n- 生成AIの出力品質はプロンプトの内容に大きく依存することを考慮し、可能な限り具体的で明確な指示を含めてください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "thinking_steps",
+      "id": "thinking_steps",
+      "type": "",
+      "label_hint": "思考ステップ（AI内部処理の定義）",
+      "placeholder": "ルールを入力してください",
+      "value": "本タスクを実行するにあたり、以下の思考プロセスを適用します。\n1. イシューの特定（論点思考）: ユーザー課題を「なぜ全社員の意欲が低いのか？」という本質的な論点（イシュー）に見極め、メッセージがこの課題を解決するように設計します。\n2. 感情的フックの設計: ターゲット社員が抱える潜在的な不安や現状の「困りごと」（例：「宝の持ち腐れ」状態、「何をすればいいかわからない」）に共感する要素を特定します。\n3. メッセージの論理構成（PREP法）: 結論（ビジョン）を最初に伝え、その理由（背景、AIの位置づけ）を論理的に展開し、最後に具体的な行動（社員への期待）を促す構成を適用します。\n4. トーン調整と平易化: 作成された草案に対して、非技術職でも理解できる平易な言葉に変換し、かつ情熱的で、「押しつけ感」や「煽り」を排除したトーンになっているかを検証します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "```markdown\n## 〇〇社 全社員向け：生成AIが拓く未来へのメッセージ\n### 1. 変革の背景と必然性\n（力強く訴える導入文。なぜ今変わる必要があるのかを明確に。）\n{変革の背景}\n### 2. 生成AIの位置づけ：あなたの能力を拡張する共創パートナー\n（生成AIが単なるツールではないこと、社員の欠点を補い、能力を引き上げる存在であることを定義。）\n{生成AIの位置づけ}\n### 3. 導入後のビジョン：会社と社員にもたらされる明るい未来\n（導入によって達成される「理想の状態」を情熱的に描写。）\n{導入後のビジョン}\n### 4. 社員への期待：変革を成功に導くためのコミットメント\n（この変革を推進するために、全社員に求める具体的かつ主体的な行動。）\n{社員への期待}\n敬具\n[経営層の署名]\n```"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "変革の背景",
+      "placeholder": "ここに変革の背景を入力してください。（例：営業部門向け：週報の要約とリスク抽出）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "生成AIの位置づけ",
+      "placeholder": "ここに生成AIをどのような存在として位置づけるかを入力してください。（例：パーソナルコーチ、能力拡張ツールなど）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "導入後のビジョン",
+      "placeholder": "ここに会社、顧客、社員の業務にどのような具体的な明るい未来がもたらされるかを記述してください。",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu4",
+      "type": "",
+      "label_hint": "社員への期待",
+      "placeholder": "ここにこの変革を成功に導くために、社員に求める具体的な行動やマインドセットを記述してください。",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- このプロンプトは、AIが最高の成果を出すために、まず「何をしたいか？」という具体的な困りごとからスタートするという原則に基づいて設計されています。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n- AIの技術的な詳細（例：確率モデル、トークンなど）に関する専門用語や難解な表現は、全社員の理解を妨げるため一切使用しないでください。\n- 一般的な、抽象的で誰にでも当てはまる「無難な解決策」の羅列に終始しないでください。必ず具体的なビジョンと期待に焦点を当てます。\n- 倫理的に問題のある表現や、社員の不安を過度に煽る表現（例：「やらないと時代に取り残される」といった過度な煽り）を含まないこと。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、経営層の戦略的視点と現場の共感を深く理解する、一流の戦略的コミュニケーション専門家兼コンセプトデザイナーとして振舞ってください。\n- あなたの究極のミッションは、生成AIの導入が組織にもたらす「変革の意義」を明確に言語化し、全社員の「やりたい」意欲と主体的な参画を促す、情熱的で戦略的なエグゼクティブメッセージを作成することです。\n\n## 前提条件\n1. 前提 (Premise)：\n- 生成AIは、単なるITツールではなく、社員一人ひとりの能力を拡張し、組織全体の変革（DXの「X」）を推進するための不可欠な手段であるという事実は揺るぎません。\n- 最高の成果は、思考プロセスの透明性と、曖昧さを排除した具体的かつ明確な指示によって達成されます。\n2. 状況 (Situation)：\n- ユーザーは現在、生成AI導入の開始期にあり、全社員に対し、その戦略的意義と、変革への主体的な参加を促すためのメッセージを作成する必要があるという文脈にあります。\n- このメッセージは、全社のデジタル利用に対する心理的なハードルを下げ、共通のビジョンを共有するためのものです。\n3. 目的 (Purpose)：\n- 経営層の視点から生成AI導入の戦略的意義を明確に伝え、全社員の理解と協力を得ることを唯一のゴールとします。\n- 最終的に、導入への期待感を醸成し、変革へのモメンタムを創出します。\n4. 動機 (Motive)：\n- 組織全体の生産性向上とビジネススピードの強化を達成するため、全社員の「やらされ」意欲ではなく「やりたい」意欲を引き出すこと。\n5. 制約 (Constraint)：\n- メッセージは全社員（非技術職を含む）が理解できるよう、専門用語を避け、親しみやすく平易な言葉遣いに限定します。\n- また、ユーザーが指定した4つの要素（変革の背景、位置づけ、導入後のビジョン、社員への期待）を厳密に含め、[#出力フォーマット]を厳守することとします。\n\n## 評価の基準\n- メッセージが、全社員の共感を呼び起こし、主体的な行動意欲（例えば、AIを「まずは試してみよう」という意欲）を最大化できるか。\n- 組織の変革推進（DXの「X」）に寄与する明確なビジョンと論理的構成が両立しているか。\n- また、メッセージが曖昧でなく、具体的な目標達成につながる指針を含んでいるか。\n\n## 明確化の要件\nAIがメッセージの核となる情報を深く理解できるよう、以下の情報をユーザーに問いかけ、明確化を促します。\n1. 変革の背景: なぜ今すぐ生成AIが必要なのか、その必然性（例：競争激化、顧客ニーズの変化、既存業務の非効率性）を、具体的なデータや事実（エビデンス）に基づき明確に記述すること。\n2. 生成AIの位置づけ: 生成AIが社員にとって「欠点を補完し、能力をさらに引き上げる」ツールや「共創パートナー」であることを示す具体的な定義。\n3. 導入後のビジョン: 導入後に達成される「理想の状態」を明確にし、社員のキャリアや業務にどのような明るい未来がもたらされるか、情熱的かつ具体的に描写すること。\n4. 社員への期待: 変革を成功に導くために、社員に求める具体的な行動（例：失敗を恐れずに試行錯誤する姿勢、ロジカルシンキングやプロセス設計力）を明確にすること。\n\n## リソース\n以下の知識や情報ソースを活用して、メッセージの品質を向上させます。\n- 戦略・哲学関連: DX/組織変革（Xスキル）に関する知識、「やりたい」意欲の重要性、問題解決思考（理想と現実のギャップ埋め）の原則、組織変革における性格・価値観の重要性。\n- コミュニケーション・訴求関連: 読者の感情（不安、希望、好奇心など）を揺さぶる感情トリガーの活用、重要なメッセージを強調するフレーズ、共感を呼ぶストーリーテリングのノウハウ。\n- AI活用関連: 生成AI導入の具体的なメリット（業務効率化、コスト削減、アイデア創出）、AIとの共創プロセスに関する知識。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- ユーザー入力の情報を基に、エグゼクティブメッセージ草案を作成してください。\n## STEP:\n1. まず、ユーザー入力の`{変革の背景}`を基に、なぜ今、我々が変わらなければならないのか、その必然性を力強く訴える導入部を構築してください。\n2. 次に、生成AIが単なるITツールではなく、`{生成AIの位置づけ}`であることを明確に定義し、社員の能力を拡張する存在であると説明してください。\n3. 生成AIの導入によって、会社と社員に`{導入後のビジョン}`という、どのような明るい未来がもたらされるのかを情熱的に語ってください。\n4. 最後に、この変革を成功に導くために`{社員への期待}`を具体的に伝え、全社員の主体的な参画を促す行動要請（コール・トゥ・アクション）を盛り込んでください。\n5. 全体の構成は、[#出力フォーマット]を厳守し、平易で情熱的、かつプロフェッショナルなトーンで記述してください。\n\n## ルール\n- 出力全体を通じて、専門的でありながらも、AI初心者にも分かりやすく、実践を促すような丁寧で平易な言葉遣いを心がけてください。\n- 出力は、論理的整合性を保ちながら、読者の感情に訴えかける表現を意識してください。\n- [#出力フォーマット] の見出しを厳守し、冗長な説明や繰り返しは避けてください。\n- 生成AIの出力品質はプロンプトの内容に大きく依存することを考慮し、可能な限り具体的で明確な指示を含めてください。\n\n## 思考ステップ（AI内部処理の定義）\n本タスクを実行するにあたり、以下の思考プロセスを適用します。\n1. イシューの特定（論点思考）: ユーザー課題を「なぜ全社員の意欲が低いのか？」という本質的な論点（イシュー）に見極め、メッセージがこの課題を解決するように設計します。\n2. 感情的フックの設計: ターゲット社員が抱える潜在的な不安や現状の「困りごと」（例：「宝の持ち腐れ」状態、「何をすればいいかわからない」）に共感する要素を特定します。\n3. メッセージの論理構成（PREP法）: 結論（ビジョン）を最初に伝え、その理由（背景、AIの位置づけ）を論理的に展開し、最後に具体的な行動（社員への期待）を促す構成を適用します。\n4. トーン調整と平易化: 作成された草案に対して、非技術職でも理解できる平易な言葉に変換し、かつ情熱的で、「押しつけ感」や「煽り」を排除したトーンになっているかを検証します。\n\n## 出力形式\n```markdown\n## 〇〇社 全社員向け：生成AIが拓く未来へのメッセージ\n### 1. 変革の背景と必然性\n（力強く訴える導入文。なぜ今変わる必要があるのかを明確に。）\n{変革の背景}\n### 2. 生成AIの位置づけ：あなたの能力を拡張する共創パートナー\n（生成AIが単なるツールではないこと、社員の欠点を補い、能力を引き上げる存在であることを定義。）\n{生成AIの位置づけ}\n### 3. 導入後のビジョン：会社と社員にもたらされる明るい未来\n（導入によって達成される「理想の状態」を情熱的に描写。）\n{導入後のビジョン}\n### 4. 社員への期待：変革を成功に導くためのコミットメント\n（この変革を推進するために、全社員に求める具体的かつ主体的な行動。）\n{社員への期待}\n敬具\n[経営層の署名]\n```\n\n## 補足\n- このプロンプトは、AIが最高の成果を出すために、まず「何をしたいか？」という具体的な困りごとからスタートするという原則に基づいて設計されています。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n- AIの技術的な詳細（例：確率モデル、トークンなど）に関する専門用語や難解な表現は、全社員の理解を妨げるため一切使用しないでください。\n- 一般的な、抽象的で誰にでも当てはまる「無難な解決策」の羅列に終始しないでください。必ず具体的なビジョンと期待に焦点を当てます。\n- 倫理的に問題のある表現や、社員の不安を過度に煽る表現（例：「やらないと時代に取り残される」といった過度な煽り）を含まないこと。"
+}

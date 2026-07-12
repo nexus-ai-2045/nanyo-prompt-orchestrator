@@ -1,0 +1,139 @@
+{
+  "prompt_id": 647,
+  "title": "技術ナレッジ記事作成ガイドライン設計",
+  "source_category": "文章作成・要約",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=647",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/647.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "820839c0929689932b7f995949c9c9cdfae2242543a54a90ee0fe716984b9bc0",
+  "raw_html": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta name=\"robots\" content=\"noindex\" />\n    <title>#647 技術ナレッジ記事作成ガイドライン設計プロンプト</title>\n    <style>\n        /* === スタイル設定 === */\n        \n        /* 基本ページ設定 */\n        body {\n            font-family: Arial, sans-serif;\n            margin: 0;\n            padding: 20px;\n            box-sizing: border-box;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            min-height: 100vh;\n            background-color: #FFF;\n        }\n        /* メインコンテナのスタイル */\n        .container {\n            width: 100%;\n            max-width: 800px;\n            background: #ffffff;\n            border-radius: 8px;\n            box-shadow: 3px 5px 15px -5px #777777;\n            overflow: hidden;\n        }\n        /* 各種見出し・ボタンのスタイル設定 */\n        h2 {\n            color: #797979;\n            font-size: 1.6em;\n        }\n        .box-title {\n            font-size: 1.7em;\n            letter-spacing: 0.1em;\n            padding: 1em 20px; /* Combined padding */\n            background-color: #5fc2f5;\n            color: #fff;\n            font-weight: 600;\n            display: flex; /* Make it a flex container */\n            align-items: center; /* Vertically center items */\n            justify-content: space-between; /* Push items to ends */\n        }\n        .box-title .title-text {\n            flex-grow: 1; /* Allow title to take available space */\n            text-align: center; /* Keep title centered */\n            white-space: nowrap; /* Prevent wrapping */\n            overflow: hidden; /* Hide overflow content */\n            text-overflow: ellipsis; /* Show ellipsis for truncated text */\n        }\n        #toggleIcon {\n            font-size: 24px; /* Increased size */\n        }\n        .form-content {\n            padding: 40px 120px;\n            background: #f1f1f1;\n        }\n        .box-bun {\n            background: #FFF;\n            border: 1px solid #D5D9DC;\n            border-radius: 20px;\n            padding: 15px;\n            margin-bottom: 40px;\n        }\n        .togglable-section {\n                /* display: none; Removed */\n            }\n        label {\n            display: inline-block;\n            margin-left: 5px;\n            color: #656565;\n        }\n        input[type=\"text\"], select, textarea {\n            width: 100%;\n            padding: 10px;\n            margin-top: 5px;\n            box-sizing: border-box;\n            border: 0.5px solid #AEAEAE;\n            border-radius: 5px;\n            font-size: 16px;\n        }\n        textarea {\n            resize: vertical;\n        }\n        .button-group {\n            display: flex;\n            justify-content: center;\n            margin-top: 20px;\n        }\n        .btn2 {\n            width: 150px;\n            height: 60px;\n            margin: 0 10px;\n        }\n\n        .btn-generate {\n            width: 180px;\n            height: 60px;\n            margin: 0 10px;\n        }\n        .btn2 a, .btn-generate a {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            width: 100%;\n            height: 100%;\n            text-decoration: none;\n            font-size: 20px;\n            font-weight: bold;\n            border-radius: 35px;\n            transition: all 0.5s ease;\n        }\n        .btn2 a {\n            background: #FFFFFF;\n            color: #5FC2F5;\n            border: 2px solid #5FC2F5;\n        }\n        .btn2 a:hover {\n            transform: scale(1.1, 1.1);\n        }\n        .btn-generate a {\n            background: #5FC2F5;\n            color: #FFFFFF;\n        }\n        .btn-generate a:hover {\n            transform: scale(1.1, 1.1);\n        }\n        .small-text {\n            font-size: 0.5em;\n            color: #656565;\n            text-align: center;\n            margin-top: 5px;\n        }\n\n/* === 入力エリアの色設定 === */\n.variable-textarea {\n    background-color: #ffe4e1; /* 薄いピンク */\n}\n\n\n        /* === スマホ用設定 === */\n@media only screen and (max-width: 768px) {\n    .prompt-text {\n        display: none;\n    }\n    .container {\n        width: 100%;\n        padding: 10px;\n        box-shadow: none;\n    }\n    .form-content {\n        padding: 20px 10px;\n    }\n    .box-bun {\n        padding: 10px;\n        margin-bottom: 20px;\n    }\n    h2 {\n        font-size: 1.4em;\n    }\n    .button-group {\n        flex-direction: column;\n    }\n    .btn2, .btn-generate {\n        width: 100%;\n        height: 50px;\n        margin: 10px 0;\n    }\n    .btn2 a, .btn-generate a {\n        font-size: 18px;\n    }\n    textarea {\n        font-size: 14px;\n    }\n}\n\n    </style>\n</head>\n<body>\n\n<!-- === メインのHTML構造 === -->\n<div class=\"container\">\n    <div class=\"box-title\">\n    <span class=\"title-text\">#647 技術ナレッジ記事作成ガイドライン設計プロンプト</span>\n    <span id=\"toggleIcon\" style=\"cursor:pointer;\">☰</span>\n</div>\n    <div class=\"form-content\">\n        <form id=\"summaryPromptForm\">\n\n<!-- プロンプトの目的 -->\n<div class=\"box-bun\">\n<h2>目的・ねらい</h2>\nこのプロンプトは、チーム全体の技術理解を促進し、将来のプロジェクトでの再利用を可能にするため、社内ノウハウを整理した「技術ナレッジ記事の作成ガイドライン」を、教育的かつ実践的な散文形式で作成します。\n</div>\n            <!-- あなたの役割の入力 -->\n            <div class=\"box-bun togglable-section\">\n<h2>あなたの役割</h2>\n<textarea name=\"role\" id=\"role\" rows=\"10\" placeholder=\"あなたの役割を入力してください\">\n- あなたは、チームの知識と経験を形式知化し、学習を促進するための高度な技術ライター、および知識共有促進コンサルタントとして振る舞ってください。\n- あなたの役割は、単に行動を指示するのではなく、AIが存在し、思考するための世界観そのものを設計するという哲学に基づき、技術的な正確性と教育的な視点を融合させた、再利用性が極めて高い記事作成ガイドラインを作成することです。\n</textarea>\n            </div>\n\n<!-- 前提条件 -->\n            <div class=\"box-bun togglable-section\">\n<h2>前提条件</h2>\n<textarea name=\"conditions\" id=\"conditions\" rows=\"33\" placeholder=\"前提条件を入力してください\">\n1. 前提 (Premise):\n - チーム内の技術ノウハウは、個人の暗黙知に依存せず、共有可能で再利用可能な形式で文書化されるべき資産である。\n - 技術記事の品質は、正確性、網羅性、教育的有用性の3つの要素を同時に満たす必要がある。\n2. 状況 (Situation):\n - 現在、ユーザーはチーム内の技術ノウハウを体系的に整理・文書化し、チーム全体の技術理解の促進と情報共有の効率化を図ろうとしている。\n - 依頼者は記事執筆に必要な環境と知識を持っており、具体的なテーマ（{記事テーマ}）について、検証済みの手順や設定値を提供できる段階にある。\n3. 目的 (Purpose):\n - チーム全体の技術理解を促進し、将来のプロジェクトでの再利用を可能にするため、社内ノウハウを整理した「技術ナレッジ記事の作成ガイドライン」を、教育的かつ実践的な散文形式で作成すること。\n4. 動機 (Motive):\n - 単なる知識の共有に留まらず、「なぜ、何のために動くのか」という存在理由と思想をAIに与えることで、個人の暗黙知への依存を排除し、チームを単なる便利なツールではなく、明確な責務を持った協働システムへと進化させる。\n - これは、持続可能なチームの成長と技術力の底上げを目指すための、根本的な思考の枠組みを設計することにある。\n5. 制約 (Constraint):\n - 後述の「記事作成ルール」および「出力様式」に記載されたすべての条件を、ガイドラインの内容と形式に厳格に適用し遵守すること。\n</textarea>\n            </div>\n\n\n<!-- 評価の基準 -->\n            <div class=\"box-bun togglable-section\">\n<h2>評価の基準</h2>\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"12\" placeholder=\"評価の基準を入力してください\">\n- 一貫性と再現性: ガイドラインに従って若手エンジニアや新人が記事を作成した場合、思考のブレが減り、一貫性のあるアウトプットが得られ、記載された手順が再現可能なレベルであること。\n- 網羅性と論理的構成: 記事の核となる3観点（背景/目的、手順、応用例/注意点）が論理的に構成され、情報が過不足なく網羅されていること。\n- ルール遵守の徹底: 記事作成ルール（特に書式や用語統一）が、曖昧さなく具体的に指示され、徹底されていること。\n</textarea>\n            </div>\n\n\n<!-- 明確化の要件 -->\n            <div class=\"box-bun togglable-section\">\n<h2>明確化の要件</h2>\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"18\" placeholder=\"明確化の要件を入力してください\">\n1. 読者ペルソナの理解: 記事の想定読者層（{想定読者層}）の既存の技術知識レベルを深く推察し、専門用語の簡単な説明の深度を調整するための具体的な指針を含めること。\n2. 検証済み情報の定義: 「手順や設定値は実際に検証済みのもの」という要件に基づき、情報源の信頼性（例: 誰が、いつ、どこで検証したか）を記事内でどのように示すべきか、その指針を明確化すること。\n3. 再利用の具体的な示唆: 記事が「再利用可能な形式」であるために、将来的にどのようなリソース（例：研修資料、FAQ、業務マニュアル）への転用を想定しているか、その具体的な適用方法に関する指針を含めること。\n4. 論理的整合性の確保: 「手順や設定の詳細（再現可能なレベル）」のセクションは、ロジカルシンキングやプロセス設計力の視点を取り入れ、ステップバイステップで破綻のない構造となるよう設計すること。\n</textarea>\n            </div>\n\n\n<!-- リソース -->\n            <div class=\"box-bun togglable-section\">\n<h2>リソース</h2>\n<textarea name=\"resource\" id=\"resource\" rows=\"10\" placeholder=\"リソースを入力してください\">\n- ユーザー入力情報: 記事の主題となる{記事テーマ}、想定する読者層（{想定読者層}）、チーム内の{統一用語集（任意）} 。\n- 知識体系: 技術記事の優良事例、効果的なロジカルシンキングやプロセス設計力に関するフレームワーク、および形式知化とナレッジマネジメントに関する知識。\n- 既存のルールセット: ユーザーが定義した「記事作成ルール」。\n</textarea>\n            </div>\n\n\n            <!-- 実行指示 -->\n            <div class=\"box-bun togglable-section\">\n<h2>実行指示</h2>\n<textarea name=\"instructions\" id=\"instructions\" rows=\"31\" placeholder=\"実行指示を入力してください\">\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- ユーザーの「今抱えている課題」を深く掘り下げ、7つの習慣のステップバイステップのプロセスを通じて、具体的なアクションプランを策定してください。\n\n## STEP:\n1. 記事構成の徹底的な分解: 記事に含めるべき3つの観点（背景と目的、手順の詳細、注意点と応用例）を、それぞれ具体的な記事セクション、見出し、含めるべき情報要素に分解し、論理的な構造を設計する。\n2. ルールの運用化: 提示された「記事作成ルール」（用語統一、書式など）が、記事のどのセクションで、作成者がどのように遵守すべきかを、具体的な行動指針として記述する。\n3. 「Why」の強調: 動機（Motive）に基づき、各記事が単なる手順の羅列ではなく、なぜその技術が重要で、なぜその手順が必要なのかを説明するセクション（背景と目的の深掘り）を盛り込むよう指示する。\n4. ガイドラインの最終生成: 上記のステップの結果を統合し、散文形式で、指定された出力様式に従い、論理的かつ分かりやすい技術ナレッジ記事の作成ガイドラインを完成させる。\n5. 最終ガイドライン活用による記事生成: STEP4の出力結果を基に、{想定読者層}が理解できるような記事を生成する。\n</textarea>\n            </div>\n\n            <!-- ルール -->\n            <div class=\"box-bun togglable-section\">\n<h2>ルール</h2>\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"28\" placeholder=\"ルールを入力してください\">\n1. 思考プロセス: 複雑な論理的思考が必要なタスクのため、回答生成時には段階的に考える（Chain-of-Thought的なアプローチ）ことを実行すること。\n2. 文体・トーン: 支援的かつ指導的なトーンで、正確性を重視したプロフェッショナルなスタイルで記述し、読者が「共創」の精神で記事作成に取り組めるように導くこと。\n3. 書式ルール厳守の原則: ユーザーが指定した記事作成ルール（文末「。」統一、タブは半角空白2文字、3〜4行ごとの空行、件名の【】など）は、生成するガイドラインの具体的な指導内容として厳格に反映すること。\n4. 出力の具体的指示: 回答する内容の指示が具体的であるほど、回答の品質が上がるため、要件を厳格に守ること。\n\n## 記事作成ルール：\n- 用語はチーム内で統一された表現を使用する。\n- 手順や設定値は実際に検証済みのものを記載する。\n- 初出の専門用語には簡単な説明を付ける。\n- 文末は「。」で統一し、見出しの後は1行空ける。\n- タブは半角空白2文字とする。\n- 3〜4行ごとに空行を挿入して読みやすくする。\n- 件名は「【】」で囲む。\n- 出力時はマークダウン構造を維持し、最終納品時にプレーンテキストへ変換する。\n</textarea>\n            </div>\n\n\n<!-- 出力設定 -->\n            <div class=\"box-bun togglable-section\">\n<h2>出力形式</h2>\n<textarea name=\"output\" id=\"output\" rows=\"31\" placeholder=\"出力形式を入力してください\">\n - 出力は、以下の主要な見出しと構成を厳守した散文形式（段落形式）で記述し、マークダウン構造を維持してください。見出しの後は1行空けること。\n```markdown\n# 【記事のタイトル：技術ナレッジ記事作成ガイドライン（XXXX）】\n\n## 1. イントロダクション：このガイドが目指すもの\n\n## 2. 技術記事の「なぜ？」を問う：前提と動機\n\n## 3. 記事の品質を保証する基本構成（3つの観点と要件）\n### 3.1. 背景と目的（Why）の明確化\n### 3.2. 手順と設定の詳細（How）の再現性\n### 3.3. 実践的な視点：注意点と応用例\n\n## 4. 記述スタイルと品質管理の原則\n### 4.1. 用語統一と専門用語の扱い\n### 4.2. 情報の正確性：検証済み情報の記載方法\n\n## 5. 統一されたレイアウトと書式ルール\n（句読点、タブ、空行、見出しの扱いに関する具体的な指示を記述）\n\n## 6. 記事の価値最大化：維持と再利用に関する指針\n\n# 【記事のタイトル：STEP5による記事生成】\n```\n</textarea>\n            </div>\n\n\n<!-- ユーザー入力 -->\n            <div class=\"box-bun\">\n<h2>ユーザー入力</h2>\n<h3>記事テーマ</h3>\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"5\" placeholder=\"ここに記事テーマを入力してください。\" class=\"variable-textarea\" >\n</textarea>\n<h3>想定読者層</h3>\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"ここに想定読者層を入力してください。\" class=\"variable-textarea\" >\n</textarea>\n<h3>統一用語集（任意）</h3>\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"10\" placeholder=\"ここに統一用語集を入力してください。（任意）\" class=\"variable-textarea\" >\n</textarea>\n            </div>\n\n\n\n            <!-- 補足 -->\n            <div class=\"box-bun togglable-section\">\n<h2>補足</h2>\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"26\" placeholder=\"を補足を入力してください\">\n- 「AIのポテンシャルを真に引き出す鍵」の考え方（「命令」から「設計」へ、「How」から「Why」へ、「対話エンジン」から「協働システム」へ）を、ガイドラインのトーンと内容に反映させてください。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n\n### ネガティブ制約条件\n1. 事実捏造の禁止: ユーザーが提供した「検証済み」ノウハウ以外の、根拠のない推測や架空の手順・設定値を事実として記述しないこと。\n2. 論理的飛躍の禁止: 手順や設定の説明において、読者が理解を阻害するような論理的飛躍や曖昧な表現に終始しないこと。特に手順は、誰でも再現可能なレベルで具体的に記述させる指針とすること。\n3. 抽象的な概念の羅列の禁止: 抽象的な概念の羅列に終始せず、具体的かつ実践的な文章を生成するための指針を提示すること。\n</textarea>\n            </div>\n\n\n        </form>\n        <div class=\"button-group\">\n            <div class='btn2'>\n                <a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\n            </div>\n            <div class=\"btn-generate\">\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\n            </div>\n        </div>\n    </div>\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=647\"></script>\n</div>\n\n<!-- JavaScript -->\n<script>\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\n    e.preventDefault();\n    const form = document.getElementById('summaryPromptForm');\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\n    const formData = new FormData(form);\n\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</あなたの役割>\\n\\n\";\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</前提条件>\\n\\n\";\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</評価の基準>\\n\\n\";\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</明確化の要件>\\n\\n\";\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</リソース>\\n\\n\";\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</実行指示>\\n\\n\";\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</ルール>\\n\\n\";\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</出力形式>\\n\\n\";\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\n    communicationContent += \"##記事テーマ=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\n    communicationContent += \"##想定読者層=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\n    communicationContent += \"##統一用語集（任意）=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n</ユーザー入力>\\n\\n\";\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</補足>\\n\";\n\n    // クリップボードにコピー\n    navigator.clipboard.writeText(communicationContent).then(() => {\n        alert('プロンプトがコピーされました。');\n    }).catch(err => {\n        console.error('クリップボードへのコピーに失敗しました:', err);\n        alert('プロンプトのコピーに失敗しました。');\n    });\n});\n\ndocument.addEventListener('DOMContentLoaded', function() {\n    const toggleIcon = document.getElementById('toggleIcon');\n    const togglableSections = document.querySelectorAll('.togglable-section');\n\n    // Default: All blocks should be displayed\n    // Set initial state of toggleIcon to 'hide' (×) and its title\n    if (toggleIcon) { // Ensure toggleIcon exists before setting its properties\n        toggleIcon.innerHTML = '×'; // Initially show 'hide' icon\n        toggleIcon.title = ''; // Initially no tooltip when visible\n    }\n\n    if (toggleIcon && togglableSections.length > 0) {\n        toggleIcon.addEventListener('click', function() {\n            const isHidden = togglableSections[0].style.display === 'none'; // Check current display state\n            if (isHidden) { // If currently hidden, show them\n                togglableSections.forEach(section => {\n                    section.style.display = 'block';\n                });\n                toggleIcon.innerHTML = '×'; // Change icon to 'hide'\n                toggleIcon.title = 'プロンプト非表示'; // No tooltip when visible\n            } else { // If currently visible, hide them\n                togglableSections.forEach(section => {\n                    section.style.display = 'none';\n                });\n                toggleIcon.innerHTML = '☰'; // Change icon to 'show'\n                toggleIcon.title = 'プロンプト表示'; // Set title for 'show' state\n            }\n        });\n    }\n});\n</script>\n</body>\n</html>\n",
+  "page_title": "#647 技術ナレッジ記事作成ガイドライン設計プロンプト",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "記事テーマ",
+    "想定読者層",
+    "統一用語集（任意）",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、チームの知識と経験を形式知化し、学習を促進するための高度な技術ライター、および知識共有促進コンサルタントとして振る舞ってください。\n- あなたの役割は、単に行動を指示するのではなく、AIが存在し、思考するための世界観そのものを設計するという哲学に基づき、技術的な正確性と教育的な視点を融合させた、再利用性が極めて高い記事作成ガイドラインを作成することです。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "1. 前提 (Premise):\n- チーム内の技術ノウハウは、個人の暗黙知に依存せず、共有可能で再利用可能な形式で文書化されるべき資産である。\n- 技術記事の品質は、正確性、網羅性、教育的有用性の3つの要素を同時に満たす必要がある。\n2. 状況 (Situation):\n- 現在、ユーザーはチーム内の技術ノウハウを体系的に整理・文書化し、チーム全体の技術理解の促進と情報共有の効率化を図ろうとしている。\n- 依頼者は記事執筆に必要な環境と知識を持っており、具体的なテーマ（{記事テーマ}）について、検証済みの手順や設定値を提供できる段階にある。\n3. 目的 (Purpose):\n- チーム全体の技術理解を促進し、将来のプロジェクトでの再利用を可能にするため、社内ノウハウを整理した「技術ナレッジ記事の作成ガイドライン」を、教育的かつ実践的な散文形式で作成すること。\n4. 動機 (Motive):\n- 単なる知識の共有に留まらず、「なぜ、何のために動くのか」という存在理由と思想をAIに与えることで、個人の暗黙知への依存を排除し、チームを単なる便利なツールではなく、明確な責務を持った協働システムへと進化させる。\n- これは、持続可能なチームの成長と技術力の底上げを目指すための、根本的な思考の枠組みを設計することにある。\n5. 制約 (Constraint):\n- 後述の「記事作成ルール」および「出力様式」に記載されたすべての条件を、ガイドラインの内容と形式に厳格に適用し遵守すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 一貫性と再現性: ガイドラインに従って若手エンジニアや新人が記事を作成した場合、思考のブレが減り、一貫性のあるアウトプットが得られ、記載された手順が再現可能なレベルであること。\n- 網羅性と論理的構成: 記事の核となる3観点（背景/目的、手順、応用例/注意点）が論理的に構成され、情報が過不足なく網羅されていること。\n- ルール遵守の徹底: 記事作成ルール（特に書式や用語統一）が、曖昧さなく具体的に指示され、徹底されていること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1. 読者ペルソナの理解: 記事の想定読者層（{想定読者層}）の既存の技術知識レベルを深く推察し、専門用語の簡単な説明の深度を調整するための具体的な指針を含めること。\n2. 検証済み情報の定義: 「手順や設定値は実際に検証済みのもの」という要件に基づき、情報源の信頼性（例: 誰が、いつ、どこで検証したか）を記事内でどのように示すべきか、その指針を明確化すること。\n3. 再利用の具体的な示唆: 記事が「再利用可能な形式」であるために、将来的にどのようなリソース（例：研修資料、FAQ、業務マニュアル）への転用を想定しているか、その具体的な適用方法に関する指針を含めること。\n4. 論理的整合性の確保: 「手順や設定の詳細（再現可能なレベル）」のセクションは、ロジカルシンキングやプロセス設計力の視点を取り入れ、ステップバイステップで破綻のない構造となるよう設計すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- ユーザー入力情報: 記事の主題となる{記事テーマ}、想定する読者層（{想定読者層}）、チーム内の{統一用語集（任意）} 。\n- 知識体系: 技術記事の優良事例、効果的なロジカルシンキングやプロセス設計力に関するフレームワーク、および形式知化とナレッジマネジメントに関する知識。\n- 既存のルールセット: ユーザーが定義した「記事作成ルール」。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- ユーザーの「今抱えている課題」を深く掘り下げ、7つの習慣のステップバイステップのプロセスを通じて、具体的なアクションプランを策定してください。\n## STEP:\n1. 記事構成の徹底的な分解: 記事に含めるべき3つの観点（背景と目的、手順の詳細、注意点と応用例）を、それぞれ具体的な記事セクション、見出し、含めるべき情報要素に分解し、論理的な構造を設計する。\n2. ルールの運用化: 提示された「記事作成ルール」（用語統一、書式など）が、記事のどのセクションで、作成者がどのように遵守すべきかを、具体的な行動指針として記述する。\n3. 「Why」の強調: 動機（Motive）に基づき、各記事が単なる手順の羅列ではなく、なぜその技術が重要で、なぜその手順が必要なのかを説明するセクション（背景と目的の深掘り）を盛り込むよう指示する。\n4. ガイドラインの最終生成: 上記のステップの結果を統合し、散文形式で、指定された出力様式に従い、論理的かつ分かりやすい技術ナレッジ記事の作成ガイドラインを完成させる。\n5. 最終ガイドライン活用による記事生成: STEP4の出力結果を基に、{想定読者層}が理解できるような記事を生成する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "1. 思考プロセス: 複雑な論理的思考が必要なタスクのため、回答生成時には段階的に考える（Chain-of-Thought的なアプローチ）ことを実行すること。\n2. 文体・トーン: 支援的かつ指導的なトーンで、正確性を重視したプロフェッショナルなスタイルで記述し、読者が「共創」の精神で記事作成に取り組めるように導くこと。\n3. 書式ルール厳守の原則: ユーザーが指定した記事作成ルール（文末「。」統一、タブは半角空白2文字、3〜4行ごとの空行、件名の【】など）は、生成するガイドラインの具体的な指導内容として厳格に反映すること。\n4. 出力の具体的指示: 回答する内容の指示が具体的であるほど、回答の品質が上がるため、要件を厳格に守ること。\n## 記事作成ルール：\n- 用語はチーム内で統一された表現を使用する。\n- 手順や設定値は実際に検証済みのものを記載する。\n- 初出の専門用語には簡単な説明を付ける。\n- 文末は「。」で統一し、見出しの後は1行空ける。\n- タブは半角空白2文字とする。\n- 3〜4行ごとに空行を挿入して読みやすくする。\n- 件名は「【】」で囲む。\n- 出力時はマークダウン構造を維持し、最終納品時にプレーンテキストへ変換する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "- 出力は、以下の主要な見出しと構成を厳守した散文形式（段落形式）で記述し、マークダウン構造を維持してください。見出しの後は1行空けること。\n```markdown\n# 【記事のタイトル：技術ナレッジ記事作成ガイドライン（XXXX）】\n## 1. イントロダクション：このガイドが目指すもの\n## 2. 技術記事の「なぜ？」を問う：前提と動機\n## 3. 記事の品質を保証する基本構成（3つの観点と要件）\n### 3.1. 背景と目的（Why）の明確化\n### 3.2. 手順と設定の詳細（How）の再現性\n### 3.3. 実践的な視点：注意点と応用例\n## 4. 記述スタイルと品質管理の原則\n### 4.1. 用語統一と専門用語の扱い\n### 4.2. 情報の正確性：検証済み情報の記載方法\n## 5. 統一されたレイアウトと書式ルール\n（句読点、タブ、空行、見出しの扱いに関する具体的な指示を記述）\n## 6. 記事の価値最大化：維持と再利用に関する指針\n# 【記事のタイトル：STEP5による記事生成】\n```"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "記事テーマ",
+      "placeholder": "ここに記事テーマを入力してください。",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "想定読者層",
+      "placeholder": "ここに想定読者層を入力してください。",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "統一用語集（任意）",
+      "placeholder": "ここに統一用語集を入力してください。（任意）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 「AIのポテンシャルを真に引き出す鍵」の考え方（「命令」から「設計」へ、「How」から「Why」へ、「対話エンジン」から「協働システム」へ）を、ガイドラインのトーンと内容に反映させてください。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n1. 事実捏造の禁止: ユーザーが提供した「検証済み」ノウハウ以外の、根拠のない推測や架空の手順・設定値を事実として記述しないこと。\n2. 論理的飛躍の禁止: 手順や設定の説明において、読者が理解を阻害するような論理的飛躍や曖昧な表現に終始しないこと。特に手順は、誰でも再現可能なレベルで具体的に記述させる指針とすること。\n3. 抽象的な概念の羅列の禁止: 抽象的な概念の羅列に終始せず、具体的かつ実践的な文章を生成するための指針を提示すること。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、チームの知識と経験を形式知化し、学習を促進するための高度な技術ライター、および知識共有促進コンサルタントとして振る舞ってください。\n- あなたの役割は、単に行動を指示するのではなく、AIが存在し、思考するための世界観そのものを設計するという哲学に基づき、技術的な正確性と教育的な視点を融合させた、再利用性が極めて高い記事作成ガイドラインを作成することです。\n\n## 前提条件\n1. 前提 (Premise):\n- チーム内の技術ノウハウは、個人の暗黙知に依存せず、共有可能で再利用可能な形式で文書化されるべき資産である。\n- 技術記事の品質は、正確性、網羅性、教育的有用性の3つの要素を同時に満たす必要がある。\n2. 状況 (Situation):\n- 現在、ユーザーはチーム内の技術ノウハウを体系的に整理・文書化し、チーム全体の技術理解の促進と情報共有の効率化を図ろうとしている。\n- 依頼者は記事執筆に必要な環境と知識を持っており、具体的なテーマ（{記事テーマ}）について、検証済みの手順や設定値を提供できる段階にある。\n3. 目的 (Purpose):\n- チーム全体の技術理解を促進し、将来のプロジェクトでの再利用を可能にするため、社内ノウハウを整理した「技術ナレッジ記事の作成ガイドライン」を、教育的かつ実践的な散文形式で作成すること。\n4. 動機 (Motive):\n- 単なる知識の共有に留まらず、「なぜ、何のために動くのか」という存在理由と思想をAIに与えることで、個人の暗黙知への依存を排除し、チームを単なる便利なツールではなく、明確な責務を持った協働システムへと進化させる。\n- これは、持続可能なチームの成長と技術力の底上げを目指すための、根本的な思考の枠組みを設計することにある。\n5. 制約 (Constraint):\n- 後述の「記事作成ルール」および「出力様式」に記載されたすべての条件を、ガイドラインの内容と形式に厳格に適用し遵守すること。\n\n## 評価の基準\n- 一貫性と再現性: ガイドラインに従って若手エンジニアや新人が記事を作成した場合、思考のブレが減り、一貫性のあるアウトプットが得られ、記載された手順が再現可能なレベルであること。\n- 網羅性と論理的構成: 記事の核となる3観点（背景/目的、手順、応用例/注意点）が論理的に構成され、情報が過不足なく網羅されていること。\n- ルール遵守の徹底: 記事作成ルール（特に書式や用語統一）が、曖昧さなく具体的に指示され、徹底されていること。\n\n## 明確化の要件\n1. 読者ペルソナの理解: 記事の想定読者層（{想定読者層}）の既存の技術知識レベルを深く推察し、専門用語の簡単な説明の深度を調整するための具体的な指針を含めること。\n2. 検証済み情報の定義: 「手順や設定値は実際に検証済みのもの」という要件に基づき、情報源の信頼性（例: 誰が、いつ、どこで検証したか）を記事内でどのように示すべきか、その指針を明確化すること。\n3. 再利用の具体的な示唆: 記事が「再利用可能な形式」であるために、将来的にどのようなリソース（例：研修資料、FAQ、業務マニュアル）への転用を想定しているか、その具体的な適用方法に関する指針を含めること。\n4. 論理的整合性の確保: 「手順や設定の詳細（再現可能なレベル）」のセクションは、ロジカルシンキングやプロセス設計力の視点を取り入れ、ステップバイステップで破綻のない構造となるよう設計すること。\n\n## リソース\n- ユーザー入力情報: 記事の主題となる{記事テーマ}、想定する読者層（{想定読者層}）、チーム内の{統一用語集（任意）} 。\n- 知識体系: 技術記事の優良事例、効果的なロジカルシンキングやプロセス設計力に関するフレームワーク、および形式知化とナレッジマネジメントに関する知識。\n- 既存のルールセット: ユーザーが定義した「記事作成ルール」。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- ユーザーの「今抱えている課題」を深く掘り下げ、7つの習慣のステップバイステップのプロセスを通じて、具体的なアクションプランを策定してください。\n## STEP:\n1. 記事構成の徹底的な分解: 記事に含めるべき3つの観点（背景と目的、手順の詳細、注意点と応用例）を、それぞれ具体的な記事セクション、見出し、含めるべき情報要素に分解し、論理的な構造を設計する。\n2. ルールの運用化: 提示された「記事作成ルール」（用語統一、書式など）が、記事のどのセクションで、作成者がどのように遵守すべきかを、具体的な行動指針として記述する。\n3. 「Why」の強調: 動機（Motive）に基づき、各記事が単なる手順の羅列ではなく、なぜその技術が重要で、なぜその手順が必要なのかを説明するセクション（背景と目的の深掘り）を盛り込むよう指示する。\n4. ガイドラインの最終生成: 上記のステップの結果を統合し、散文形式で、指定された出力様式に従い、論理的かつ分かりやすい技術ナレッジ記事の作成ガイドラインを完成させる。\n5. 最終ガイドライン活用による記事生成: STEP4の出力結果を基に、{想定読者層}が理解できるような記事を生成する。\n\n## ルール\n1. 思考プロセス: 複雑な論理的思考が必要なタスクのため、回答生成時には段階的に考える（Chain-of-Thought的なアプローチ）ことを実行すること。\n2. 文体・トーン: 支援的かつ指導的なトーンで、正確性を重視したプロフェッショナルなスタイルで記述し、読者が「共創」の精神で記事作成に取り組めるように導くこと。\n3. 書式ルール厳守の原則: ユーザーが指定した記事作成ルール（文末「。」統一、タブは半角空白2文字、3〜4行ごとの空行、件名の【】など）は、生成するガイドラインの具体的な指導内容として厳格に反映すること。\n4. 出力の具体的指示: 回答する内容の指示が具体的であるほど、回答の品質が上がるため、要件を厳格に守ること。\n## 記事作成ルール：\n- 用語はチーム内で統一された表現を使用する。\n- 手順や設定値は実際に検証済みのものを記載する。\n- 初出の専門用語には簡単な説明を付ける。\n- 文末は「。」で統一し、見出しの後は1行空ける。\n- タブは半角空白2文字とする。\n- 3〜4行ごとに空行を挿入して読みやすくする。\n- 件名は「【】」で囲む。\n- 出力時はマークダウン構造を維持し、最終納品時にプレーンテキストへ変換する。\n\n## 出力形式\n- 出力は、以下の主要な見出しと構成を厳守した散文形式（段落形式）で記述し、マークダウン構造を維持してください。見出しの後は1行空けること。\n```markdown\n# 【記事のタイトル：技術ナレッジ記事作成ガイドライン（XXXX）】\n## 1. イントロダクション：このガイドが目指すもの\n## 2. 技術記事の「なぜ？」を問う：前提と動機\n## 3. 記事の品質を保証する基本構成（3つの観点と要件）\n### 3.1. 背景と目的（Why）の明確化\n### 3.2. 手順と設定の詳細（How）の再現性\n### 3.3. 実践的な視点：注意点と応用例\n## 4. 記述スタイルと品質管理の原則\n### 4.1. 用語統一と専門用語の扱い\n### 4.2. 情報の正確性：検証済み情報の記載方法\n## 5. 統一されたレイアウトと書式ルール\n（句読点、タブ、空行、見出しの扱いに関する具体的な指示を記述）\n## 6. 記事の価値最大化：維持と再利用に関する指針\n# 【記事のタイトル：STEP5による記事生成】\n```\n\n## 補足\n- 「AIのポテンシャルを真に引き出す鍵」の考え方（「命令」から「設計」へ、「How」から「Why」へ、「対話エンジン」から「協働システム」へ）を、ガイドラインのトーンと内容に反映させてください。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n1. 事実捏造の禁止: ユーザーが提供した「検証済み」ノウハウ以外の、根拠のない推測や架空の手順・設定値を事実として記述しないこと。\n2. 論理的飛躍の禁止: 手順や設定の説明において、読者が理解を阻害するような論理的飛躍や曖昧な表現に終始しないこと。特に手順は、誰でも再現可能なレベルで具体的に記述させる指針とすること。\n3. 抽象的な概念の羅列の禁止: 抽象的な概念の羅列に終始せず、具体的かつ実践的な文章を生成するための指針を提示すること。"
+}

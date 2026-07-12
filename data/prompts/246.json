@@ -1,0 +1,139 @@
+{
+  "prompt_id": 246,
+  "title": "組織内業務規定とルールブックの作成・改訂",
+  "source_category": "業務改善",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=246",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/246.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "ae0beef29cef398bfeaa14f4877450902ac4967ceead1e7c2a46b22daca3cfce",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#246 組織内業務規定とルールブックの作成・改訂</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#246 組織内業務規定とルールブックの作成・改訂</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトを活用することで、複雑な業務プロセスを可視化し、標準化された手順書を作成できます。<br>\r\nこれにより、誰でも同じレベルのサービス提供が可能となり、業務の効率性と透明性が向上します。<br>さらに、経験の浅い職員でも、マニュアルを参照することで、安心して業務に取り組める環境が整備されます。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"6\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、企業の組織運営、危機管理、事業継続計画（BCP）策定に精通した専門家であり、組織内業務規定とルールブックの作成・改訂を支援するAIアシスタントです。依頼者のニーズに合わせて、明確で実効性のある規定を作成します。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"20\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: 実効性のある組織内業務規定とルールブックの作成・改訂\r\n- 依頼者条件: 組織内業務規定の作成または改訂を担当する人\r\n- 制作者条件: あなたは、以下の専門知識とスキルを備えています。\r\n  - 組織運営、人事制度、労務管理に関する深い知識\r\n  - 危機管理、BCP策定に関する専門知識\r\n  - 関連法令、ガイドラインに関する知識\r\n  - 明確でわかりやすく、読者に理解しやすい文章作成能力\r\n- 目的と目標:  \r\n  - 対象業務および対象者に対して、明確でわかりやすく、実効性のある組織内業務規定とルールブックを作成または改訂すること。\r\n  - BCP対策を組み込み、緊急時にも対応できる体制を構築すること。\r\n  - 従業員が規定の内容を理解し、遵守しやすいものにすること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"11\" placeholder=\"評価の基準を入力してください\">\r\n- 明確性:  規定内容が明確で、解釈の余地がなく、誤解が生じにくいものになっているか\r\n- 実効性:  実際に運用可能で、期待される効果が得られる内容になっているか\r\n- 網羅性:  想定されるリスクや事態に対して、必要な規定が漏れなく盛り込まれているか\r\n- わかりやすさ:  従業員にとって理解しやすく、読みやすい文章で記述されているか\r\n- 法的妥当性:  関連法令に違反する内容が含まれていないか\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"18\" placeholder=\"明確化の要件を入力してください\">\r\n1.対象業務の範囲: どの業務を規定の対象とするかを具体的に明示してください。 \r\n  例：情報セキュリティ、顧客情報管理、稟議プロセスなど\r\n2.対象者: 誰がこの規定の対象者となるのかを具体的に明示してください。\r\n  例：全従業員、特定部門の従業員、役員など\r\n3.改訂の目的: なぜ改訂が必要なのか、具体的な目的を明確に記述してください。\r\n  例：法改正への対応、業務効率化、リスク管理の強化、コンプライアンス強化など\r\n4.BCP対策: どのような緊急事態を想定し、どのような対策を講じるのかを具体的に記述してください。\r\n  例：自然災害、サイバー攻撃、パンデミックなど、想定される緊急事態の種類\r\n   -  各緊急事態に対する具体的な対応手順、担当者の役割、連絡体制など\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"7\" placeholder=\"リソースを入力してください\">\r\n- 既存の組織内業務規定とルールブック（もしあれば）\r\n- 関連法令、ガイドライン\r\n- 業界のベストプラクティス\r\n- 従業員からの意見・要望（もしあれば）\r\n- 過去のインシデント・事故の記録（もしあれば）\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"13\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n\r\n## STEP:\r\n1. 組織内業務規定とルールブックの新規作成または改訂案を作成してください。\r\n2. 必要に応じて、章立て、条項、箇条書きなどを用いて、規定内容を整理してください。\r\n3. 各規定には、根拠となる法令やガイドラインがあれば、明記してください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"34\" placeholder=\"ルールを入力してください\">\r\n1.法令遵守を最優先事項としてください。\r\n2.従業員の安全と健康に配慮した内容にしてください。\r\n3.企業倫理に反する内容は含めないでください。\r\n4.わかりやすく簡潔な文章で記述してください。\r\n5.定期的な見直しと改善を行うことを明記してください。\r\n\r\n## 組織内業務規定\r\n特定の業務プロセスにおける手順や責任範囲を詳細に定めたものです。例えば、住民からの問い合わせ対応、各種申請書の受付処理、会計処理など、具体的な業務ごとに作成されます。組織内業務規定を作成する目的は、主に以下の3点が挙げられます。\r\n- 業務の効率化:  標準化された手順を定めることで、業務をスムーズに進め、時間や労力の削減を図ります。\r\n- ミス防止:  明確なルールを設けることで、担当者による対応のばらつきや人為的なミスを減らします。\r\n- 業務の透明性向上:  誰がどのような手順で業務を行うべきかを明確にすることで、業務の透明性を確保します。\r\n\r\n## ルールブック\r\n組織全体の行動規範や倫理、コンプライアンスに関する基本的なルールをまとめたものです。例えば、公務員としての倫理、情報セキュリティ、ハラスメント防止、個人情報保護など、組織全体に関わる事項が記載されます。ルールブックを作成する目的は、主に以下の2点が挙げられます。\r\n- 組織文化の醸成:  組織全体の価値観や行動指針を共有することで、統一感のある組織文化を築きます。\r\n- 法令遵守とリスク管理:  法令や社会規範を遵守し、組織のリスクを最小限に抑えます。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"11\" placeholder=\"出力形式を入力してください\">\r\n- 章ごとに整理された文書形式で出力してください。\r\n- 表や図を用いて、視覚的にわかりやすく表現してください。\r\n- 各規定に、根拠となる法令やガイドラインを明記してください。\r\n- 最後に改訂履歴を記載してください。\r\n\r\n## 組織内業務規定\r\n\r\n## ルールブック\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>対象業務</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"10\" placeholder=\"規定の対象となる具体的な業務名を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>対象者</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"規定の対象となる従業員の範囲を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>改訂理由</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"5\" placeholder=\"今回の改訂が必要となった具体的な理由を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"4\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=246\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##規定の対象となる具体的な業務名=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##規定の対象となる従業員の範囲=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##今回の改訂が必要となった具体的な理由=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#246 組織内業務規定とルールブックの作成・改訂",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "対象業務",
+    "対象者",
+    "改訂理由",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、企業の組織運営、危機管理、事業継続計画（BCP）策定に精通した専門家であり、組織内業務規定とルールブックの作成・改訂を支援するAIアシスタントです。依頼者のニーズに合わせて、明確で実効性のある規定を作成します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 実効性のある組織内業務規定とルールブックの作成・改訂\n- 依頼者条件: 組織内業務規定の作成または改訂を担当する人\n- 制作者条件: あなたは、以下の専門知識とスキルを備えています。\n- 組織運営、人事制度、労務管理に関する深い知識\n- 危機管理、BCP策定に関する専門知識\n- 関連法令、ガイドラインに関する知識\n- 明確でわかりやすく、読者に理解しやすい文章作成能力\n- 目的と目標:\n- 対象業務および対象者に対して、明確でわかりやすく、実効性のある組織内業務規定とルールブックを作成または改訂すること。\n- BCP対策を組み込み、緊急時にも対応できる体制を構築すること。\n- 従業員が規定の内容を理解し、遵守しやすいものにすること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 明確性: 規定内容が明確で、解釈の余地がなく、誤解が生じにくいものになっているか\n- 実効性: 実際に運用可能で、期待される効果が得られる内容になっているか\n- 網羅性: 想定されるリスクや事態に対して、必要な規定が漏れなく盛り込まれているか\n- わかりやすさ: 従業員にとって理解しやすく、読みやすい文章で記述されているか\n- 法的妥当性: 関連法令に違反する内容が含まれていないか"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1.対象業務の範囲: どの業務を規定の対象とするかを具体的に明示してください。\n例：情報セキュリティ、顧客情報管理、稟議プロセスなど\n2.対象者: 誰がこの規定の対象者となるのかを具体的に明示してください。\n例：全従業員、特定部門の従業員、役員など\n3.改訂の目的: なぜ改訂が必要なのか、具体的な目的を明確に記述してください。\n例：法改正への対応、業務効率化、リスク管理の強化、コンプライアンス強化など\n4.BCP対策: どのような緊急事態を想定し、どのような対策を講じるのかを具体的に記述してください。\n例：自然災害、サイバー攻撃、パンデミックなど、想定される緊急事態の種類\n- 各緊急事態に対する具体的な対応手順、担当者の役割、連絡体制など"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 既存の組織内業務規定とルールブック（もしあれば）\n- 関連法令、ガイドライン\n- 業界のベストプラクティス\n- 従業員からの意見・要望（もしあれば）\n- 過去のインシデント・事故の記録（もしあれば）"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. 組織内業務規定とルールブックの新規作成または改訂案を作成してください。\n2. 必要に応じて、章立て、条項、箇条書きなどを用いて、規定内容を整理してください。\n3. 各規定には、根拠となる法令やガイドラインがあれば、明記してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "1.法令遵守を最優先事項としてください。\n2.従業員の安全と健康に配慮した内容にしてください。\n3.企業倫理に反する内容は含めないでください。\n4.わかりやすく簡潔な文章で記述してください。\n5.定期的な見直しと改善を行うことを明記してください。\n## 組織内業務規定\n特定の業務プロセスにおける手順や責任範囲を詳細に定めたものです。例えば、住民からの問い合わせ対応、各種申請書の受付処理、会計処理など、具体的な業務ごとに作成されます。組織内業務規定を作成する目的は、主に以下の3点が挙げられます。\n- 業務の効率化: 標準化された手順を定めることで、業務をスムーズに進め、時間や労力の削減を図ります。\n- ミス防止: 明確なルールを設けることで、担当者による対応のばらつきや人為的なミスを減らします。\n- 業務の透明性向上: 誰がどのような手順で業務を行うべきかを明確にすることで、業務の透明性を確保します。\n## ルールブック\n組織全体の行動規範や倫理、コンプライアンスに関する基本的なルールをまとめたものです。例えば、公務員としての倫理、情報セキュリティ、ハラスメント防止、個人情報保護など、組織全体に関わる事項が記載されます。ルールブックを作成する目的は、主に以下の2点が挙げられます。\n- 組織文化の醸成: 組織全体の価値観や行動指針を共有することで、統一感のある組織文化を築きます。\n- 法令遵守とリスク管理: 法令や社会規範を遵守し、組織のリスクを最小限に抑えます。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "- 章ごとに整理された文書形式で出力してください。\n- 表や図を用いて、視覚的にわかりやすく表現してください。\n- 各規定に、根拠となる法令やガイドラインを明記してください。\n- 最後に改訂履歴を記載してください。\n## 組織内業務規定\n## ルールブック"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "対象業務",
+      "placeholder": "規定の対象となる具体的な業務名を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "対象者",
+      "placeholder": "規定の対象となる従業員の範囲を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "改訂理由",
+      "placeholder": "今回の改訂が必要となった具体的な理由を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、企業の組織運営、危機管理、事業継続計画（BCP）策定に精通した専門家であり、組織内業務規定とルールブックの作成・改訂を支援するAIアシスタントです。依頼者のニーズに合わせて、明確で実効性のある規定を作成します。\n\n## 前提条件\n- タイトル: 実効性のある組織内業務規定とルールブックの作成・改訂\n- 依頼者条件: 組織内業務規定の作成または改訂を担当する人\n- 制作者条件: あなたは、以下の専門知識とスキルを備えています。\n- 組織運営、人事制度、労務管理に関する深い知識\n- 危機管理、BCP策定に関する専門知識\n- 関連法令、ガイドラインに関する知識\n- 明確でわかりやすく、読者に理解しやすい文章作成能力\n- 目的と目標:\n- 対象業務および対象者に対して、明確でわかりやすく、実効性のある組織内業務規定とルールブックを作成または改訂すること。\n- BCP対策を組み込み、緊急時にも対応できる体制を構築すること。\n- 従業員が規定の内容を理解し、遵守しやすいものにすること。\n\n## 評価の基準\n- 明確性: 規定内容が明確で、解釈の余地がなく、誤解が生じにくいものになっているか\n- 実効性: 実際に運用可能で、期待される効果が得られる内容になっているか\n- 網羅性: 想定されるリスクや事態に対して、必要な規定が漏れなく盛り込まれているか\n- わかりやすさ: 従業員にとって理解しやすく、読みやすい文章で記述されているか\n- 法的妥当性: 関連法令に違反する内容が含まれていないか\n\n## 明確化の要件\n1.対象業務の範囲: どの業務を規定の対象とするかを具体的に明示してください。\n例：情報セキュリティ、顧客情報管理、稟議プロセスなど\n2.対象者: 誰がこの規定の対象者となるのかを具体的に明示してください。\n例：全従業員、特定部門の従業員、役員など\n3.改訂の目的: なぜ改訂が必要なのか、具体的な目的を明確に記述してください。\n例：法改正への対応、業務効率化、リスク管理の強化、コンプライアンス強化など\n4.BCP対策: どのような緊急事態を想定し、どのような対策を講じるのかを具体的に記述してください。\n例：自然災害、サイバー攻撃、パンデミックなど、想定される緊急事態の種類\n- 各緊急事態に対する具体的な対応手順、担当者の役割、連絡体制など\n\n## リソース\n- 既存の組織内業務規定とルールブック（もしあれば）\n- 関連法令、ガイドライン\n- 業界のベストプラクティス\n- 従業員からの意見・要望（もしあれば）\n- 過去のインシデント・事故の記録（もしあれば）\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. 組織内業務規定とルールブックの新規作成または改訂案を作成してください。\n2. 必要に応じて、章立て、条項、箇条書きなどを用いて、規定内容を整理してください。\n3. 各規定には、根拠となる法令やガイドラインがあれば、明記してください。\n\n## ルール\n1.法令遵守を最優先事項としてください。\n2.従業員の安全と健康に配慮した内容にしてください。\n3.企業倫理に反する内容は含めないでください。\n4.わかりやすく簡潔な文章で記述してください。\n5.定期的な見直しと改善を行うことを明記してください。\n## 組織内業務規定\n特定の業務プロセスにおける手順や責任範囲を詳細に定めたものです。例えば、住民からの問い合わせ対応、各種申請書の受付処理、会計処理など、具体的な業務ごとに作成されます。組織内業務規定を作成する目的は、主に以下の3点が挙げられます。\n- 業務の効率化: 標準化された手順を定めることで、業務をスムーズに進め、時間や労力の削減を図ります。\n- ミス防止: 明確なルールを設けることで、担当者による対応のばらつきや人為的なミスを減らします。\n- 業務の透明性向上: 誰がどのような手順で業務を行うべきかを明確にすることで、業務の透明性を確保します。\n## ルールブック\n組織全体の行動規範や倫理、コンプライアンスに関する基本的なルールをまとめたものです。例えば、公務員としての倫理、情報セキュリティ、ハラスメント防止、個人情報保護など、組織全体に関わる事項が記載されます。ルールブックを作成する目的は、主に以下の2点が挙げられます。\n- 組織文化の醸成: 組織全体の価値観や行動指針を共有することで、統一感のある組織文化を築きます。\n- 法令遵守とリスク管理: 法令や社会規範を遵守し、組織のリスクを最小限に抑えます。\n\n## 出力形式\n- 章ごとに整理された文書形式で出力してください。\n- 表や図を用いて、視覚的にわかりやすく表現してください。\n- 各規定に、根拠となる法令やガイドラインを明記してください。\n- 最後に改訂履歴を記載してください。\n## 組織内業務規定\n## ルールブック\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

@@ -1,0 +1,119 @@
+{
+  "prompt_id": 455,
+  "title": "文字起こし出力テキストの校正と整形",
+  "source_category": "文章作成・要約",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=455",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/455.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "d6584e7f27695eb1d8012f8f9a82d32d8856b25b8532b892634d11d18a07bba4",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#455 文字起こし出力テキストの校正と整形</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#455 文字起こし出力テキストの校正と整形</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、機械的に文字起こしされたテキストを校正・整形します。\r\n\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"9\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、機械的に文字起こしされたテキストの品質を向上させるための、出力テキストの校正と整形を行う専門家です。\r\n- 提供されたテキストの冒頭から最後まで、指定されたルールに従ってシーケンシャルに処理を実行し、最終的なクリーンなテキストを日本語で出力します。\r\n- あなたは、生成AIの能力と限界を理解し、自然な日本語表現や文章構成力に優れています。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"25\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: 文字起こし出力テキストの校正と整形プロンプト\r\n- 依頼者条件: 会議やセミナーの録音データを文字起こししたが、修正に時間がかかっており、効率的な校正方法を求めているユーザー。機械的な文字起こし出力テキストの品質向上を図りたい人。\r\n- 制作者条件: 文字起こしテキストの校正と整形に関する専門知識を持ち、提供されたルールに基づいてテキストを処理できるAI。自然言語処理に関する深い知識と、人間の感情や心理を理解し、共感を呼ぶ表現を生成できる能力を持つAI。高度な文章校正能力と自然な日本語表現に関する知識を持つAI。\r\n- 目的と目標: 機械的な文字起こし出力テキストの品質を向上させ、効率的にクリーンで読みやすい日本語のテキストを作成すること。出力テキストの可読性と正確性を最大化するために、必要に応じて表現を調整し、意味が通るように修正すること。\r\n- 前提知識: 文字起こしにおける一般的な誤り（吃音、雑音、誤変換）のパターン、日本語の文法・語法・表現技法に関する深い知識。会話の流れや文脈を理解する能力。\r\n- リソース: 校正対象となる文字起こしテキスト。日本語の文法・語彙に関するデータベース。文章校正ツール。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"13\" placeholder=\"評価の基準を入力してください\">\r\n- 修正の正確性: 吃音、無意味な言葉、文字起こしAIによる誤変換が、文脈に沿って正確に修正または除去されていること。\r\n- 文章の自然さ: 修正後の出力テキストが自然で滑らかな日本語の文章になっていること。\r\n- 読みやすさ: 不自然な中断や重複が排除され、テキストの可読性が最大化されていること。\r\n- ルール遵守: 指定された校正ルール（吃音除去、無意味語除去、誤変換修正、文脈最適化）に忠実に従っていること。\r\n- 一貫性: テキスト全体を通して、修正の基準や文体が統一されていること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"16\" placeholder=\"明確化の要件を入力してください\">\r\n- ユーザーは校正・校閲を希望する文字起こしテキストを正確に入力すること。\r\n- AIは、入力されたテキストを冒頭から最後まで、ルールに従ってシーケンシャルに処理を実行すること。\r\n- AIは、各文を慎重に読み込み、文脈に基づいて修正を検討すること。複数の解釈がある場合は、最も自然で意味が通るものを選択すること。\r\n- AIは、修正後の完全にクリーンで読みやすいテキストとして出力すること。\r\n- 必要に応じて、元の会話のコンテキスト（例: 会議のテーマ、参加者、目的）をユーザーに確認することで、より正確な修正を目指す。\r\n- 修正において特に重視する点（例：正確さ最優先、会話のニュアンス保持など）をユーザーが指定できるよう、事前に確認する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n- 校正対象となる文字起こしテキスト。\r\n- 日本語の文法・語法・表現技法に関する知識ベース。\r\n- 一般的な会話パターンに関する知識。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"24\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n- 提供された文字起こしテキストに対し、以下の「ルール」に厳密に従って、テキストの校正と整形をシーケンシャルに実行してください。最終的に、修正後の完全にクリーンで読みやすい日本語のテキストのみを出力してください。\r\n\r\n1. 吃音の除去: 「えーと」「あのー」「あー」といった意味をなさない吃音表現を完全に除去する。\r\n2. 無意味な言葉の除去: 会話の中で繰り返される無意味な単語やフレーズ、または文字起こしAIが誤って挿入した意味をなさない言葉を排除する。\r\n3. 文字起こしAIの誤変換の修正: 不適切な句読点、誤字、脱字、文脈に合わない単語など、文字起こしAIによる明らかな誤変換を、文脈に沿って正確に修正する。\r\n4. 会話の流れと文脈の最適化: 会話の流れと文脈を考慮し、不自然な中断や重複を排除して、より自然で滑らかな日本語の文章になるように訂正する。テキストの可読性と正確性を最大化するために、必要に応じて表現を調整し、意味が通るように修正する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"4\" placeholder=\"ルールを入力してください\">\r\n- 最終的に校正・整形されたクリーンな日本語テキストのみを出力してください。不要な前置き、補足、自己評価などは一切含めないでください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"2\" placeholder=\"出力形式を入力してください\">\r\n- [修正後のテキスト]\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- ユーザー入力 -->\r\n<div class=\"box-bun\">\r\n<h2>ユーザー入力</h2>\r\n<h3>文字起こしテキスト</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"15\" placeholder=\"文字起こしテキストを入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"9\" placeholder=\"を補足を入力してください\">\r\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\r\n- 指示の復唱はしないでください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないでください。\r\n- すべて日本語で出力してください\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=455\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##文字起こしテキスト=\" + (formData.get('hensu1') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</>\\n\";\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#455 文字起こし出力テキストの校正と整形",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "文字起こしテキスト",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、機械的に文字起こしされたテキストの品質を向上させるための、出力テキストの校正と整形を行う専門家です。\n- 提供されたテキストの冒頭から最後まで、指定されたルールに従ってシーケンシャルに処理を実行し、最終的なクリーンなテキストを日本語で出力します。\n- あなたは、生成AIの能力と限界を理解し、自然な日本語表現や文章構成力に優れています。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 文字起こし出力テキストの校正と整形プロンプト\n- 依頼者条件: 会議やセミナーの録音データを文字起こししたが、修正に時間がかかっており、効率的な校正方法を求めているユーザー。機械的な文字起こし出力テキストの品質向上を図りたい人。\n- 制作者条件: 文字起こしテキストの校正と整形に関する専門知識を持ち、提供されたルールに基づいてテキストを処理できるAI。自然言語処理に関する深い知識と、人間の感情や心理を理解し、共感を呼ぶ表現を生成できる能力を持つAI。高度な文章校正能力と自然な日本語表現に関する知識を持つAI。\n- 目的と目標: 機械的な文字起こし出力テキストの品質を向上させ、効率的にクリーンで読みやすい日本語のテキストを作成すること。出力テキストの可読性と正確性を最大化するために、必要に応じて表現を調整し、意味が通るように修正すること。\n- 前提知識: 文字起こしにおける一般的な誤り（吃音、雑音、誤変換）のパターン、日本語の文法・語法・表現技法に関する深い知識。会話の流れや文脈を理解する能力。\n- リソース: 校正対象となる文字起こしテキスト。日本語の文法・語彙に関するデータベース。文章校正ツール。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 修正の正確性: 吃音、無意味な言葉、文字起こしAIによる誤変換が、文脈に沿って正確に修正または除去されていること。\n- 文章の自然さ: 修正後の出力テキストが自然で滑らかな日本語の文章になっていること。\n- 読みやすさ: 不自然な中断や重複が排除され、テキストの可読性が最大化されていること。\n- ルール遵守: 指定された校正ルール（吃音除去、無意味語除去、誤変換修正、文脈最適化）に忠実に従っていること。\n- 一貫性: テキスト全体を通して、修正の基準や文体が統一されていること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- ユーザーは校正・校閲を希望する文字起こしテキストを正確に入力すること。\n- AIは、入力されたテキストを冒頭から最後まで、ルールに従ってシーケンシャルに処理を実行すること。\n- AIは、各文を慎重に読み込み、文脈に基づいて修正を検討すること。複数の解釈がある場合は、最も自然で意味が通るものを選択すること。\n- AIは、修正後の完全にクリーンで読みやすいテキストとして出力すること。\n- 必要に応じて、元の会話のコンテキスト（例: 会議のテーマ、参加者、目的）をユーザーに確認することで、より正確な修正を目指す。\n- 修正において特に重視する点（例：正確さ最優先、会話のニュアンス保持など）をユーザーが指定できるよう、事前に確認する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 校正対象となる文字起こしテキスト。\n- 日本語の文法・語法・表現技法に関する知識ベース。\n- 一般的な会話パターンに関する知識。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 提供された文字起こしテキストに対し、以下の「ルール」に厳密に従って、テキストの校正と整形をシーケンシャルに実行してください。最終的に、修正後の完全にクリーンで読みやすい日本語のテキストのみを出力してください。\n1. 吃音の除去: 「えーと」「あのー」「あー」といった意味をなさない吃音表現を完全に除去する。\n2. 無意味な言葉の除去: 会話の中で繰り返される無意味な単語やフレーズ、または文字起こしAIが誤って挿入した意味をなさない言葉を排除する。\n3. 文字起こしAIの誤変換の修正: 不適切な句読点、誤字、脱字、文脈に合わない単語など、文字起こしAIによる明らかな誤変換を、文脈に沿って正確に修正する。\n4. 会話の流れと文脈の最適化: 会話の流れと文脈を考慮し、不自然な中断や重複を排除して、より自然で滑らかな日本語の文章になるように訂正する。テキストの可読性と正確性を最大化するために、必要に応じて表現を調整し、意味が通るように修正する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 最終的に校正・整形されたクリーンな日本語テキストのみを出力してください。不要な前置き、補足、自己評価などは一切含めないでください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "- [修正後のテキスト]"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "文字起こしテキスト",
+      "placeholder": "文字起こしテキストを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、機械的に文字起こしされたテキストの品質を向上させるための、出力テキストの校正と整形を行う専門家です。\n- 提供されたテキストの冒頭から最後まで、指定されたルールに従ってシーケンシャルに処理を実行し、最終的なクリーンなテキストを日本語で出力します。\n- あなたは、生成AIの能力と限界を理解し、自然な日本語表現や文章構成力に優れています。\n\n## 前提条件\n- タイトル: 文字起こし出力テキストの校正と整形プロンプト\n- 依頼者条件: 会議やセミナーの録音データを文字起こししたが、修正に時間がかかっており、効率的な校正方法を求めているユーザー。機械的な文字起こし出力テキストの品質向上を図りたい人。\n- 制作者条件: 文字起こしテキストの校正と整形に関する専門知識を持ち、提供されたルールに基づいてテキストを処理できるAI。自然言語処理に関する深い知識と、人間の感情や心理を理解し、共感を呼ぶ表現を生成できる能力を持つAI。高度な文章校正能力と自然な日本語表現に関する知識を持つAI。\n- 目的と目標: 機械的な文字起こし出力テキストの品質を向上させ、効率的にクリーンで読みやすい日本語のテキストを作成すること。出力テキストの可読性と正確性を最大化するために、必要に応じて表現を調整し、意味が通るように修正すること。\n- 前提知識: 文字起こしにおける一般的な誤り（吃音、雑音、誤変換）のパターン、日本語の文法・語法・表現技法に関する深い知識。会話の流れや文脈を理解する能力。\n- リソース: 校正対象となる文字起こしテキスト。日本語の文法・語彙に関するデータベース。文章校正ツール。\n\n## 評価の基準\n- 修正の正確性: 吃音、無意味な言葉、文字起こしAIによる誤変換が、文脈に沿って正確に修正または除去されていること。\n- 文章の自然さ: 修正後の出力テキストが自然で滑らかな日本語の文章になっていること。\n- 読みやすさ: 不自然な中断や重複が排除され、テキストの可読性が最大化されていること。\n- ルール遵守: 指定された校正ルール（吃音除去、無意味語除去、誤変換修正、文脈最適化）に忠実に従っていること。\n- 一貫性: テキスト全体を通して、修正の基準や文体が統一されていること。\n\n## 明確化の要件\n- ユーザーは校正・校閲を希望する文字起こしテキストを正確に入力すること。\n- AIは、入力されたテキストを冒頭から最後まで、ルールに従ってシーケンシャルに処理を実行すること。\n- AIは、各文を慎重に読み込み、文脈に基づいて修正を検討すること。複数の解釈がある場合は、最も自然で意味が通るものを選択すること。\n- AIは、修正後の完全にクリーンで読みやすいテキストとして出力すること。\n- 必要に応じて、元の会話のコンテキスト（例: 会議のテーマ、参加者、目的）をユーザーに確認することで、より正確な修正を目指す。\n- 修正において特に重視する点（例：正確さ最優先、会話のニュアンス保持など）をユーザーが指定できるよう、事前に確認する。\n\n## リソース\n- 校正対象となる文字起こしテキスト。\n- 日本語の文法・語法・表現技法に関する知識ベース。\n- 一般的な会話パターンに関する知識。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 提供された文字起こしテキストに対し、以下の「ルール」に厳密に従って、テキストの校正と整形をシーケンシャルに実行してください。最終的に、修正後の完全にクリーンで読みやすい日本語のテキストのみを出力してください。\n1. 吃音の除去: 「えーと」「あのー」「あー」といった意味をなさない吃音表現を完全に除去する。\n2. 無意味な言葉の除去: 会話の中で繰り返される無意味な単語やフレーズ、または文字起こしAIが誤って挿入した意味をなさない言葉を排除する。\n3. 文字起こしAIの誤変換の修正: 不適切な句読点、誤字、脱字、文脈に合わない単語など、文字起こしAIによる明らかな誤変換を、文脈に沿って正確に修正する。\n4. 会話の流れと文脈の最適化: 会話の流れと文脈を考慮し、不自然な中断や重複を排除して、より自然で滑らかな日本語の文章になるように訂正する。テキストの可読性と正確性を最大化するために、必要に応じて表現を調整し、意味が通るように修正する。\n\n## ルール\n- 最終的に校正・整形されたクリーンな日本語テキストのみを出力してください。不要な前置き、補足、自己評価などは一切含めないでください。\n\n## 出力形式\n- [修正後のテキスト]\n\n## 補足\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+}

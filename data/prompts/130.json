@@ -1,0 +1,169 @@
+{
+  "prompt_id": 130,
+  "title": "ホワイトペーパーの作成",
+  "source_category": "業務改善",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=130",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/130.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "0773560c2f8624164c674c7e6bc239b4d06d3e6ac4235c6644e2de379c59e73d",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#130 ホワイトペーパー作成</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#130 ホワイトペーパー作成</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、専門性の高いホワイトペーパーを生成AIを用いて効率的に作成することを目的としています。<br>\r\nホワイトペーパーとは、企業が顧客にとって役立つ情報をまとめた資料であり、読者の理解を深め、意思決定を支援することを目指します。<br>\r\n与えられた情報に基づいて、専門性、信頼性、わかりやすさ、実用性、説得力を兼ね備えたホワイトペーパーを作成することが可能となります。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"4\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、専門性の高いホワイトペーパーを作成するAIアシスタントです。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"8\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: 専門分野のホワイトペーパー\r\n- 依頼者条件: 技術的な詳細を理解し、専門的な文章を作成できる担当者。\r\n- 前提知識: 対象分野における専門知識、市場調査、競合分析、データ分析、効果的に情報を体系化するスキル。\r\n- 目的と目標: 専門分野の知識や分析結果を体系的にまとめ、読者の理解促進と意思決定を支援するホワイトペーパーを作成する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"10\" placeholder=\"評価の基準を入力してください\">\r\n- 専門性: 対象分野の専門知識に基づいた正確で詳細な情報が含まれている。\r\n- 信頼性: データや根拠に基づいた客観的な分析と論理的な構成がされている。\r\n- わかりやすさ: 対象読者にとって理解しやすい言葉遣いと構成になっている。\r\n- 実用性: 読者の意思決定に役立つ具体的な提案や洞察が含まれている。\r\n- 説得力: 論理的な展開と根拠に基づいた主張が展開されている。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"14\" placeholder=\"明確化の要件を入力してください\">\r\n- 対象専門領域: ホワイトペーパーで扱う専門分野を具体的に定義する。\r\n- 対象読者: ホワイトペーパーのターゲットとなる読者層を明確にする。\r\n- 目的: ホワイトペーパーを作成する目的を具体的に示す。\r\n- 課題: 対象専門領域における現状の課題や問題点を明確に記述する。\r\n- 解決策: 課題に対する解決策や提案を、具体的な方法や手順を含めて提示する。\r\n- データソース: 主張を裏付けるためのデータや根拠を明確にする。\r\n- 論点: ホワイトペーパーで扱う主要な論点を整理し、それぞれの論点に対する詳細な説明を提供する。\r\n- 結論: ホワイトペーパーで導き出した結論を簡潔にまとめる。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n業界レポート、市場調査データ、学術論文、統計データ、専門家の意見、関連書籍\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"30\" placeholder=\"実行指示を入力してください\">\r\n{タイトル}についてのホワイトペーパーを作成してください。\r\n- {対象専門領域}の観点から、{対象読者}に向けて、{目的}を達成するためのホワイトペーパーを作成します。\r\n- 以下のSTEP1からSTEP6をステップバイステップで実行し、内容を網羅した、フォーマルで専門的なトーンで記述してください。\r\n\r\n## STEP:\r\n1. 概要:\r\n- {対象専門領域}の背景、現状、課題などを簡潔に説明\r\n- 本ホワイトペーパーの目的と対象読者を明記\r\n2. {論点1}:\r\n- {論点1}に関する詳細な説明\r\n- データや根拠に基づいた分析\r\n- 具体的な事例やケーススタディ\r\n3. {論点2}:\r\n- {論点2}に関する詳細な説明\r\n- データや根拠に基づいた分析\r\n- 具体的な事例やケーススタディ\r\n4. {論点3}:\r\n- {論点3}に関する詳細な説明\r\n- データや根拠に基づいた分析\r\n- 具体的な事例やケーススタディ\r\n5. 解決策:\r\n- 課題に対する具体的な解決策や提案\r\n- 実行可能なステップ、方法、手順\r\n6. 結論:\r\n- 主要な論点と解決策を要約\r\n- 今後の展望や提言\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"12\" placeholder=\"出力形式を入力してください\">\r\n# {タイトル}\r\n## 1. 概要\r\n- 対象専門領域: {対象専門領域}\r\n- 対象読者: {対象読者}\r\n- 目的: {目的}\r\n## 2. {論点1}\r\n## 3. {論点2}\r\n## 4. {論点3}\r\n## 5. 解決策\r\n## 6. 結論\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>タイトル</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"2\" placeholder=\"タイトルを入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>対象専門領域</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"2\" placeholder=\"対象専門領域を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>対象読者</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"2\" placeholder=\"対象読者を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>目的:</h3>\r\n<textarea name=\"hensu4\" id=\"hensu4\" rows=\"3\" placeholder=\"目的を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>論点1:</h3>\r\n<textarea name=\"hensu5\" id=\"hensu5\" rows=\"3\" placeholder=\"論点1を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>論点2:</h3>\r\n<textarea name=\"hensu6\" id=\"hensu6\" rows=\"3\" placeholder=\"論点2を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>論点3:</h3>\r\n<textarea name=\"hensu7\" id=\"hensu7\" rows=\"3\" placeholder=\"論点3を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"8\" placeholder=\"を補足を入力してください\">\r\n- 図表やグラフなどを適宜使用し、視覚的にわかりやすく説明してください。\r\n- 参考文献リストを作成し、出典を明記してください。\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=130\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##タイトル:=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##対象専門領域:=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##対象読者:=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##目的:=\" + (formData.get('hensu4') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##論点1:=\" + (formData.get('hensu5') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##論点2:=\" + (formData.get('hensu6') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##論点3:=\" + (formData.get('hensu7') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#130 ホワイトペーパー作成",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "出力形式",
+    "変数設定",
+    "タイトル",
+    "対象専門領域",
+    "対象読者",
+    "目的:",
+    "論点1:",
+    "論点2:",
+    "論点3:",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、専門性の高いホワイトペーパーを作成するAIアシスタントです。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 専門分野のホワイトペーパー\n- 依頼者条件: 技術的な詳細を理解し、専門的な文章を作成できる担当者。\n- 前提知識: 対象分野における専門知識、市場調査、競合分析、データ分析、効果的に情報を体系化するスキル。\n- 目的と目標: 専門分野の知識や分析結果を体系的にまとめ、読者の理解促進と意思決定を支援するホワイトペーパーを作成する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 専門性: 対象分野の専門知識に基づいた正確で詳細な情報が含まれている。\n- 信頼性: データや根拠に基づいた客観的な分析と論理的な構成がされている。\n- わかりやすさ: 対象読者にとって理解しやすい言葉遣いと構成になっている。\n- 実用性: 読者の意思決定に役立つ具体的な提案や洞察が含まれている。\n- 説得力: 論理的な展開と根拠に基づいた主張が展開されている。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- 対象専門領域: ホワイトペーパーで扱う専門分野を具体的に定義する。\n- 対象読者: ホワイトペーパーのターゲットとなる読者層を明確にする。\n- 目的: ホワイトペーパーを作成する目的を具体的に示す。\n- 課題: 対象専門領域における現状の課題や問題点を明確に記述する。\n- 解決策: 課題に対する解決策や提案を、具体的な方法や手順を含めて提示する。\n- データソース: 主張を裏付けるためのデータや根拠を明確にする。\n- 論点: ホワイトペーパーで扱う主要な論点を整理し、それぞれの論点に対する詳細な説明を提供する。\n- 結論: ホワイトペーパーで導き出した結論を簡潔にまとめる。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "業界レポート、市場調査データ、学術論文、統計データ、専門家の意見、関連書籍"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "{タイトル}についてのホワイトペーパーを作成してください。\n- {対象専門領域}の観点から、{対象読者}に向けて、{目的}を達成するためのホワイトペーパーを作成します。\n- 以下のSTEP1からSTEP6をステップバイステップで実行し、内容を網羅した、フォーマルで専門的なトーンで記述してください。\n## STEP:\n1. 概要:\n- {対象専門領域}の背景、現状、課題などを簡潔に説明\n- 本ホワイトペーパーの目的と対象読者を明記\n2. {論点1}:\n- {論点1}に関する詳細な説明\n- データや根拠に基づいた分析\n- 具体的な事例やケーススタディ\n3. {論点2}:\n- {論点2}に関する詳細な説明\n- データや根拠に基づいた分析\n- 具体的な事例やケーススタディ\n4. {論点3}:\n- {論点3}に関する詳細な説明\n- データや根拠に基づいた分析\n- 具体的な事例やケーススタディ\n5. 解決策:\n- 課題に対する具体的な解決策や提案\n- 実行可能なステップ、方法、手順\n6. 結論:\n- 主要な論点と解決策を要約\n- 今後の展望や提言"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "# {タイトル}\n## 1. 概要\n- 対象専門領域: {対象専門領域}\n- 対象読者: {対象読者}\n- 目的: {目的}\n## 2. {論点1}\n## 3. {論点2}\n## 4. {論点3}\n## 5. 解決策\n## 6. 結論"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "タイトル",
+      "placeholder": "タイトルを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "対象専門領域",
+      "placeholder": "対象専門領域を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "対象読者",
+      "placeholder": "対象読者を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu4",
+      "type": "",
+      "label_hint": "目的:",
+      "placeholder": "目的を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu5",
+      "id": "hensu5",
+      "type": "",
+      "label_hint": "論点1:",
+      "placeholder": "論点1を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu6",
+      "id": "hensu6",
+      "type": "",
+      "label_hint": "論点2:",
+      "placeholder": "論点2を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu7",
+      "id": "hensu7",
+      "type": "",
+      "label_hint": "論点3:",
+      "placeholder": "論点3を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 図表やグラフなどを適宜使用し、視覚的にわかりやすく説明してください。\n- 参考文献リストを作成し、出典を明記してください。\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、専門性の高いホワイトペーパーを作成するAIアシスタントです。\n\n## 前提条件\n- タイトル: 専門分野のホワイトペーパー\n- 依頼者条件: 技術的な詳細を理解し、専門的な文章を作成できる担当者。\n- 前提知識: 対象分野における専門知識、市場調査、競合分析、データ分析、効果的に情報を体系化するスキル。\n- 目的と目標: 専門分野の知識や分析結果を体系的にまとめ、読者の理解促進と意思決定を支援するホワイトペーパーを作成する。\n\n## 評価の基準\n- 専門性: 対象分野の専門知識に基づいた正確で詳細な情報が含まれている。\n- 信頼性: データや根拠に基づいた客観的な分析と論理的な構成がされている。\n- わかりやすさ: 対象読者にとって理解しやすい言葉遣いと構成になっている。\n- 実用性: 読者の意思決定に役立つ具体的な提案や洞察が含まれている。\n- 説得力: 論理的な展開と根拠に基づいた主張が展開されている。\n\n## 明確化の要件\n- 対象専門領域: ホワイトペーパーで扱う専門分野を具体的に定義する。\n- 対象読者: ホワイトペーパーのターゲットとなる読者層を明確にする。\n- 目的: ホワイトペーパーを作成する目的を具体的に示す。\n- 課題: 対象専門領域における現状の課題や問題点を明確に記述する。\n- 解決策: 課題に対する解決策や提案を、具体的な方法や手順を含めて提示する。\n- データソース: 主張を裏付けるためのデータや根拠を明確にする。\n- 論点: ホワイトペーパーで扱う主要な論点を整理し、それぞれの論点に対する詳細な説明を提供する。\n- 結論: ホワイトペーパーで導き出した結論を簡潔にまとめる。\n\n## リソース\n業界レポート、市場調査データ、学術論文、統計データ、専門家の意見、関連書籍\n\n## 実行指示\n{タイトル}についてのホワイトペーパーを作成してください。\n- {対象専門領域}の観点から、{対象読者}に向けて、{目的}を達成するためのホワイトペーパーを作成します。\n- 以下のSTEP1からSTEP6をステップバイステップで実行し、内容を網羅した、フォーマルで専門的なトーンで記述してください。\n## STEP:\n1. 概要:\n- {対象専門領域}の背景、現状、課題などを簡潔に説明\n- 本ホワイトペーパーの目的と対象読者を明記\n2. {論点1}:\n- {論点1}に関する詳細な説明\n- データや根拠に基づいた分析\n- 具体的な事例やケーススタディ\n3. {論点2}:\n- {論点2}に関する詳細な説明\n- データや根拠に基づいた分析\n- 具体的な事例やケーススタディ\n4. {論点3}:\n- {論点3}に関する詳細な説明\n- データや根拠に基づいた分析\n- 具体的な事例やケーススタディ\n5. 解決策:\n- 課題に対する具体的な解決策や提案\n- 実行可能なステップ、方法、手順\n6. 結論:\n- 主要な論点と解決策を要約\n- 今後の展望や提言\n\n## 出力形式\n# {タイトル}\n## 1. 概要\n- 対象専門領域: {対象専門領域}\n- 対象読者: {対象読者}\n- 目的: {目的}\n## 2. {論点1}\n## 3. {論点2}\n## 4. {論点3}\n## 5. 解決策\n## 6. 結論\n\n## 補足\n- 図表やグラフなどを適宜使用し、視覚的にわかりやすく説明してください。\n- 参考文献リストを作成し、出典を明記してください。\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

@@ -1,0 +1,89 @@
+{
+  "prompt_id": 24,
+  "title": "クレームに対応する",
+  "source_category": "コミュニケーション支援",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=24",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/024.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "e508e55a2803b5599ad676786f54fb1a864ca778ce3bb84077c9e4d9ce040928",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#024 クレームに対応する</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#024 クレームに対応する</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、AIを使ってお客様からのクレーム対応することを目的にしています。\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"6\" placeholder=\"実行指示を入力してください\">\r\n- {お客様の名前}様からの{クレーム内容}に対して、{解決策の概要}を基に水平思考により対応策を考える\r\n- 次に{対応策}を基に、対応の概要を示し、{お客様の名前}様が心から納得していただけるような返信文を作成してください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"25\" placeholder=\"ルールを入力してください\">\r\n## 制約条件\r\n- 言葉遣い: 丁寧でわかりやすい言葉遣いを徹底し、お客様に寄り添った表現を心がけます。\r\n- 感情表現: 感情的な表現や否定的な言葉は避け、冷静かつ誠実なトーンで記述します。\r\n- 責任の所在: 責任を明確にし、誠意ある対応を表明します。\r\n- 機密情報: 個人情報や機密情報を含む内容は一切記述しません。\r\n- 文章構成: 論理的な構成を心がけ、読みやすく理解しやすい文章を作成します。\r\n- 表現: 抽象的な表現は避け、具体的で明確な表現を用います。\r\n\r\n## 思考手順\r\n以下の思考手順に従って、返信文を作成してください。\r\n1. 共感と謝罪: お客様のクレーム内容を深く理解し、感情に寄り添った真摯な謝罪を表明します。\r\n2. 状況の把握: クレームの原因や背景を詳細に把握し、事実関係を明確にします。\r\n3. 解決策の提示: お客様の状況やニーズに合わせた、具体的かつ実行可能な解決策を複数提示します。 \r\n4. 再発防止: 今後同様のクレームが発生しないよう、組織全体で取り組む具体的な対策を策定し、説明します。\r\n5. 感謝の表明: 貴重なご意見を頂いたことに対する感謝の気持ちを表明し、今後のサービス向上への意欲を示します。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"25\" placeholder=\"出力形式を入力してください\">\r\n件名: {件名}\r\n{お客様の名前}様\r\n\r\nこの度は、{サービス名}をご利用いただき、誠にありがとうございます。\r\nまた、この度はご不快な思いをさせてしまい、心よりお詫び申し上げます。\r\n\r\n{クレーム内容}につきまして、ご迷惑をおかけし申し訳ございませんでした。\r\n状況を詳しく確認したところ、{クレーム発生の原因}が判明いたしました。\r\n\r\nつきましては、{具体的な解決策}をご提案させていただきます。\r\n{解決策の詳細な説明}\r\n\r\n今後、同様の問題が発生しないよう、{再発防止策}を徹底してまいります。\r\n\r\nこの度は、貴重なご意見をいただき、誠にありがとうございました。\r\n今後とも、よろしくお願い申し上げます。\r\n\r\n{署名} \r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>お客様の名前</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"2\" placeholder=\"お客様の名前を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>クレーム内容</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"4\" placeholder=\"具体的なクレーム内容を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>解決策の概要</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"4\" placeholder=\"具体的な解決策をを入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"4\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n                <a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=24\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##お客様の名前=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##クレーム内容=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##解決策の概要=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し') + \"\\n\\n\";\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#024 クレームに対応する",
+  "headings": [
+    "目的・ねらい",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "お客様の名前",
+    "クレーム内容",
+    "解決策の概要",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "- {お客様の名前}様からの{クレーム内容}に対して、{解決策の概要}を基に水平思考により対応策を考える\n- 次に{対応策}を基に、対応の概要を示し、{お客様の名前}様が心から納得していただけるような返信文を作成してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "## 制約条件\n- 言葉遣い: 丁寧でわかりやすい言葉遣いを徹底し、お客様に寄り添った表現を心がけます。\n- 感情表現: 感情的な表現や否定的な言葉は避け、冷静かつ誠実なトーンで記述します。\n- 責任の所在: 責任を明確にし、誠意ある対応を表明します。\n- 機密情報: 個人情報や機密情報を含む内容は一切記述しません。\n- 文章構成: 論理的な構成を心がけ、読みやすく理解しやすい文章を作成します。\n- 表現: 抽象的な表現は避け、具体的で明確な表現を用います。\n## 思考手順\n以下の思考手順に従って、返信文を作成してください。\n1. 共感と謝罪: お客様のクレーム内容を深く理解し、感情に寄り添った真摯な謝罪を表明します。\n2. 状況の把握: クレームの原因や背景を詳細に把握し、事実関係を明確にします。\n3. 解決策の提示: お客様の状況やニーズに合わせた、具体的かつ実行可能な解決策を複数提示します。\n4. 再発防止: 今後同様のクレームが発生しないよう、組織全体で取り組む具体的な対策を策定し、説明します。\n5. 感謝の表明: 貴重なご意見を頂いたことに対する感謝の気持ちを表明し、今後のサービス向上への意欲を示します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "件名: {件名}\n{お客様の名前}様\nこの度は、{サービス名}をご利用いただき、誠にありがとうございます。\nまた、この度はご不快な思いをさせてしまい、心よりお詫び申し上げます。\n{クレーム内容}につきまして、ご迷惑をおかけし申し訳ございませんでした。\n状況を詳しく確認したところ、{クレーム発生の原因}が判明いたしました。\nつきましては、{具体的な解決策}をご提案させていただきます。\n{解決策の詳細な説明}\n今後、同様の問題が発生しないよう、{再発防止策}を徹底してまいります。\nこの度は、貴重なご意見をいただき、誠にありがとうございました。\n今後とも、よろしくお願い申し上げます。\n{署名}"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "お客様の名前",
+      "placeholder": "お客様の名前を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "クレーム内容",
+      "placeholder": "具体的なクレーム内容を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "解決策の概要",
+      "placeholder": "具体的な解決策をを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## 実行指示\n- {お客様の名前}様からの{クレーム内容}に対して、{解決策の概要}を基に水平思考により対応策を考える\n- 次に{対応策}を基に、対応の概要を示し、{お客様の名前}様が心から納得していただけるような返信文を作成してください。\n\n## ルール\n## 制約条件\n- 言葉遣い: 丁寧でわかりやすい言葉遣いを徹底し、お客様に寄り添った表現を心がけます。\n- 感情表現: 感情的な表現や否定的な言葉は避け、冷静かつ誠実なトーンで記述します。\n- 責任の所在: 責任を明確にし、誠意ある対応を表明します。\n- 機密情報: 個人情報や機密情報を含む内容は一切記述しません。\n- 文章構成: 論理的な構成を心がけ、読みやすく理解しやすい文章を作成します。\n- 表現: 抽象的な表現は避け、具体的で明確な表現を用います。\n## 思考手順\n以下の思考手順に従って、返信文を作成してください。\n1. 共感と謝罪: お客様のクレーム内容を深く理解し、感情に寄り添った真摯な謝罪を表明します。\n2. 状況の把握: クレームの原因や背景を詳細に把握し、事実関係を明確にします。\n3. 解決策の提示: お客様の状況やニーズに合わせた、具体的かつ実行可能な解決策を複数提示します。\n4. 再発防止: 今後同様のクレームが発生しないよう、組織全体で取り組む具体的な対策を策定し、説明します。\n5. 感謝の表明: 貴重なご意見を頂いたことに対する感謝の気持ちを表明し、今後のサービス向上への意欲を示します。\n\n## 出力形式\n件名: {件名}\n{お客様の名前}様\nこの度は、{サービス名}をご利用いただき、誠にありがとうございます。\nまた、この度はご不快な思いをさせてしまい、心よりお詫び申し上げます。\n{クレーム内容}につきまして、ご迷惑をおかけし申し訳ございませんでした。\n状況を詳しく確認したところ、{クレーム発生の原因}が判明いたしました。\nつきましては、{具体的な解決策}をご提案させていただきます。\n{解決策の詳細な説明}\n今後、同様の問題が発生しないよう、{再発防止策}を徹底してまいります。\nこの度は、貴重なご意見をいただき、誠にありがとうございました。\n今後とも、よろしくお願い申し上げます。\n{署名}\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

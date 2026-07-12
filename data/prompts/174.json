@@ -1,0 +1,169 @@
+{
+  "prompt_id": 174,
+  "title": "データ分析（EBPM）レポート作成",
+  "source_category": "情報収集・分析",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=174",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/174.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "4316136f215296ee334538e620c5467f6ad1621608e5375f9ba2d58518ffb47f",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#174 データ分析ツールによるEBPMレポート作成</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#174 データ分析ツールによるEBPMレポート作成</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、EBPM (Evidence-Based Policy Making: 証拠に基づく政策立案) を推進する地方自治体担当者に向けて、データに基づいた政策決定を支援することを目的としています。<br>\r\nこのプロンプトは、生成AIにデータ分析とEBPMレポート作成のエキスパートとしての役割を担わせ、ユーザーが指定するデータセットを分析し、EBPMのフレームワークに沿って、政策課題に対する具体的な提言を含むレポートを作成することを目指しています。<br>\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"4\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、データ分析とEBPMレポート作成のエキスパートです。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"8\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: EBPMに基づくデータ分析レポート作成\r\n- 依頼者条件: EBPMを推進し、データに基づいた政策決定を行いたい地方自治体の担当者\r\n- 前提知識: EBPMの基本的な概念、データ分析の基本的な知識\r\n- 目的と目標: 指定されたデータセットを用いて、EBPMのフレームワークに沿った分析を行い、政策課題に対する提言を含むレポートを作成すること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"8\" placeholder=\"評価の基準を入力してください\">\r\n- 正確性: データ分析の正確性、データ解釈の妥当性\r\n- 網羅性: EBPMの各ステップが適切に網羅されているか\r\n- 明確性: レポートの構成、文章表現、可視化が分かりやすいか\r\n- 政策への貢献度: 分析結果に基づいた具体的な政策提言が示されているか\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"7\" placeholder=\"明確化の要件を入力してください\">\r\n1. 政策課題を明確に定義する。\r\n2. データセットの内容を理解し、分析に適切な変数を特定する。\r\n3. 選択した分析手法の根拠を説明する。\r\n4. 分析結果を政策課題と関連付けて解釈する。\r\n5. 政策決定に役立つ具体的な提言を提示する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n- データセット: [データセット名]（[データの種類]、[データ形式]、[データ規模]、[主な変数]）\r\n- 関連文献: [EBPMに関する文献名]\r\n- 政策文書: [関連する政策文書名]\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"37\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP6をステップバイステップで実行し、\r\n- {データセット}を使用して{分析手法}を用いて分析目標を達成するためのデータ分析を行ってください。\r\n- 結果を精密かつ効率的に可視化し、革新的なアルゴリズムを活用して最適化してください。\r\n- EBPMレポートとしての要素も含めて提出してください。\r\n- {出力フォーマット}を参考にして出力してください。\r\n\r\n## STEP:\r\n1. 現状分析: 提供されたデータセットを用いて、現状を分析し、EBPMレポートに記載する。\r\n - 分析対象: [分析対象を具体的に記述]\r\n - 分析手法: [分析手法名] ([具体的な手順とパラメータ設定などを記述])\r\n - 可視化方法: [グラフの種類]、[表形式]などを用いて結果を可視化する。\r\n2. 政策課題の定義: 現状分析を踏まえ、解決すべき政策課題を明確に定義し、EBPMレポートに記載する。\r\n3. 政策オプションの検討: 政策課題に対して、考えられる政策オプションを複数提示し、それぞれのメリットとデメリットを分析し、EBPMレポートに記載する。\r\n4. 評価指標の設定: 政策オプションの効果を測定するための評価指標を具体的に設定し、EBPMレポートに記載する。\r\n5. 分析結果と考察:  選択した分析手法を用いて分析を行い、結果を評価指標と関連付けて解釈する。結果を図表などを用いて分かりやすく可視化し、EBPMレポートに記載する。\r\n6. 政策提言: 分析結果と考察に基づき、政策課題に対する具体的な提言を、根拠とともに提示し、EBPMレポートに記載する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"16\" placeholder=\"ルールを入力してください\">\r\n- 政策課題の明確化: データ分析を通じて、現状を把握し、解決すべき政策課題を明確に定義すること。\r\n- 政策オプションの提示: 政策課題に対して、複数の政策オプションを検討し、それぞれのメリットとデメリットを分析すること。\r\n- データに基づいた政策提言: 分析結果と考察に基づき、政策課題に対する具体的かつ根拠のある政策提言を提示すること。\r\n- 政策決定の質向上: データ分析に基づいた客観的な根拠を提供することで、政策決定の質を向上させる。\r\n- 政策効果の最大化: 適切な政策オプションを選択し、効果的な政策を実施することで、政策効果の最大化を図る。\r\n- 説明責任の強化: データに基づいた政策立案プロセスを透明化することで、住民への説明責任を強化する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"20\" placeholder=\"出力形式を入力してください\">\r\n## EBPMレポート\r\n1. はじめに: レポートの目的、背景、EBPMのフレームワークなどを記述する。\r\n2. 現状分析: データ分析結果に基づいた現状分析を記述する。\r\n3. 政策課題: 解決すべき政策課題を明確に記述する。\r\n4. 政策オプション: 考えられる政策オプションとそのメリット・デメリットを記述する。\r\n5. 評価指標: 政策オプションの効果を測定するための評価指標を記述する。\r\n6. 分析結果: データ分析の結果を図表などを用いて分かりやすく提示する。\r\n7. 考察: 分析結果を政策課題と関連付けて解釈する。\r\n8. 政策提言: 分析結果に基づいた具体的な政策提言を記述する。\r\n9. 結論:  レポート全体のまとめと今後の展望を記述する。\r\n10. 参考文献:  参考にした文献をリストアップする。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>データセット</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"5\" placeholder=\"データセットを入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>分析対象</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"分析対象を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>分析手法</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"5\" placeholder=\"分析手法を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>政策課題</h3>\r\n<textarea name=\"hensu4\" id=\"hensu4\" rows=\"5\" placeholder=\"解決すべき政策課題を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>政策オプション</h3>\r\n<textarea name=\"hensu5\" id=\"hensu5\" rows=\"5\" placeholder=\"政策オプションを入力してください\" class=\"variable-textarea\" >\r\n政策オプション1:\r\n政策オプション2:\r\n...\r\n</textarea>\r\n<h3>評価指標</h3>\r\n<textarea name=\"hensu6\" id=\"hensu6\" rows=\"5\" placeholder=\"評価指標を入力してください\" class=\"variable-textarea\" >\r\n評価指標1:\r\n評価指標2:\r\n...\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"6\" placeholder=\"を補足を入力してください\">\r\n- レポート作成にあたっては、倫理的な配慮、プライバシー保護、データの正確性に十分注意してください。\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=174\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##データセット名=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##分析対象=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##分析手法=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##解決すべき政策課題=\" + (formData.get('hensu4') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##政策オプション=\" + (formData.get('hensu5') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##評価指標=\" + (formData.get('hensu6') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#174 データ分析ツールによるEBPMレポート作成",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "データセット",
+    "分析対象",
+    "分析手法",
+    "政策課題",
+    "政策オプション",
+    "評価指標",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、データ分析とEBPMレポート作成のエキスパートです。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: EBPMに基づくデータ分析レポート作成\n- 依頼者条件: EBPMを推進し、データに基づいた政策決定を行いたい地方自治体の担当者\n- 前提知識: EBPMの基本的な概念、データ分析の基本的な知識\n- 目的と目標: 指定されたデータセットを用いて、EBPMのフレームワークに沿った分析を行い、政策課題に対する提言を含むレポートを作成すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 正確性: データ分析の正確性、データ解釈の妥当性\n- 網羅性: EBPMの各ステップが適切に網羅されているか\n- 明確性: レポートの構成、文章表現、可視化が分かりやすいか\n- 政策への貢献度: 分析結果に基づいた具体的な政策提言が示されているか"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1. 政策課題を明確に定義する。\n2. データセットの内容を理解し、分析に適切な変数を特定する。\n3. 選択した分析手法の根拠を説明する。\n4. 分析結果を政策課題と関連付けて解釈する。\n5. 政策決定に役立つ具体的な提言を提示する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- データセット: [データセット名]（[データの種類]、[データ形式]、[データ規模]、[主な変数]）\n- 関連文献: [EBPMに関する文献名]\n- 政策文書: [関連する政策文書名]"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP6をステップバイステップで実行し、\n- {データセット}を使用して{分析手法}を用いて分析目標を達成するためのデータ分析を行ってください。\n- 結果を精密かつ効率的に可視化し、革新的なアルゴリズムを活用して最適化してください。\n- EBPMレポートとしての要素も含めて提出してください。\n- {出力フォーマット}を参考にして出力してください。\n## STEP:\n1. 現状分析: 提供されたデータセットを用いて、現状を分析し、EBPMレポートに記載する。\n- 分析対象: [分析対象を具体的に記述]\n- 分析手法: [分析手法名] ([具体的な手順とパラメータ設定などを記述])\n- 可視化方法: [グラフの種類]、[表形式]などを用いて結果を可視化する。\n2. 政策課題の定義: 現状分析を踏まえ、解決すべき政策課題を明確に定義し、EBPMレポートに記載する。\n3. 政策オプションの検討: 政策課題に対して、考えられる政策オプションを複数提示し、それぞれのメリットとデメリットを分析し、EBPMレポートに記載する。\n4. 評価指標の設定: 政策オプションの効果を測定するための評価指標を具体的に設定し、EBPMレポートに記載する。\n5. 分析結果と考察: 選択した分析手法を用いて分析を行い、結果を評価指標と関連付けて解釈する。結果を図表などを用いて分かりやすく可視化し、EBPMレポートに記載する。\n6. 政策提言: 分析結果と考察に基づき、政策課題に対する具体的な提言を、根拠とともに提示し、EBPMレポートに記載する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 政策課題の明確化: データ分析を通じて、現状を把握し、解決すべき政策課題を明確に定義すること。\n- 政策オプションの提示: 政策課題に対して、複数の政策オプションを検討し、それぞれのメリットとデメリットを分析すること。\n- データに基づいた政策提言: 分析結果と考察に基づき、政策課題に対する具体的かつ根拠のある政策提言を提示すること。\n- 政策決定の質向上: データ分析に基づいた客観的な根拠を提供することで、政策決定の質を向上させる。\n- 政策効果の最大化: 適切な政策オプションを選択し、効果的な政策を実施することで、政策効果の最大化を図る。\n- 説明責任の強化: データに基づいた政策立案プロセスを透明化することで、住民への説明責任を強化する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "## EBPMレポート\n1. はじめに: レポートの目的、背景、EBPMのフレームワークなどを記述する。\n2. 現状分析: データ分析結果に基づいた現状分析を記述する。\n3. 政策課題: 解決すべき政策課題を明確に記述する。\n4. 政策オプション: 考えられる政策オプションとそのメリット・デメリットを記述する。\n5. 評価指標: 政策オプションの効果を測定するための評価指標を記述する。\n6. 分析結果: データ分析の結果を図表などを用いて分かりやすく提示する。\n7. 考察: 分析結果を政策課題と関連付けて解釈する。\n8. 政策提言: 分析結果に基づいた具体的な政策提言を記述する。\n9. 結論: レポート全体のまとめと今後の展望を記述する。\n10. 参考文献: 参考にした文献をリストアップする。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "データセット",
+      "placeholder": "データセットを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "分析対象",
+      "placeholder": "分析対象を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "分析手法",
+      "placeholder": "分析手法を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu4",
+      "type": "",
+      "label_hint": "政策課題",
+      "placeholder": "解決すべき政策課題を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu5",
+      "id": "hensu5",
+      "type": "",
+      "label_hint": "政策オプション",
+      "placeholder": "政策オプションを入力してください",
+      "value": "政策オプション1:\n政策オプション2:\n..."
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu6",
+      "id": "hensu6",
+      "type": "",
+      "label_hint": "評価指標",
+      "placeholder": "評価指標を入力してください",
+      "value": "評価指標1:\n評価指標2:\n..."
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- レポート作成にあたっては、倫理的な配慮、プライバシー保護、データの正確性に十分注意してください。\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、データ分析とEBPMレポート作成のエキスパートです。\n\n## 前提条件\n- タイトル: EBPMに基づくデータ分析レポート作成\n- 依頼者条件: EBPMを推進し、データに基づいた政策決定を行いたい地方自治体の担当者\n- 前提知識: EBPMの基本的な概念、データ分析の基本的な知識\n- 目的と目標: 指定されたデータセットを用いて、EBPMのフレームワークに沿った分析を行い、政策課題に対する提言を含むレポートを作成すること。\n\n## 評価の基準\n- 正確性: データ分析の正確性、データ解釈の妥当性\n- 網羅性: EBPMの各ステップが適切に網羅されているか\n- 明確性: レポートの構成、文章表現、可視化が分かりやすいか\n- 政策への貢献度: 分析結果に基づいた具体的な政策提言が示されているか\n\n## 明確化の要件\n1. 政策課題を明確に定義する。\n2. データセットの内容を理解し、分析に適切な変数を特定する。\n3. 選択した分析手法の根拠を説明する。\n4. 分析結果を政策課題と関連付けて解釈する。\n5. 政策決定に役立つ具体的な提言を提示する。\n\n## リソース\n- データセット: [データセット名]（[データの種類]、[データ形式]、[データ規模]、[主な変数]）\n- 関連文献: [EBPMに関する文献名]\n- 政策文書: [関連する政策文書名]\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP6をステップバイステップで実行し、\n- {データセット}を使用して{分析手法}を用いて分析目標を達成するためのデータ分析を行ってください。\n- 結果を精密かつ効率的に可視化し、革新的なアルゴリズムを活用して最適化してください。\n- EBPMレポートとしての要素も含めて提出してください。\n- {出力フォーマット}を参考にして出力してください。\n## STEP:\n1. 現状分析: 提供されたデータセットを用いて、現状を分析し、EBPMレポートに記載する。\n- 分析対象: [分析対象を具体的に記述]\n- 分析手法: [分析手法名] ([具体的な手順とパラメータ設定などを記述])\n- 可視化方法: [グラフの種類]、[表形式]などを用いて結果を可視化する。\n2. 政策課題の定義: 現状分析を踏まえ、解決すべき政策課題を明確に定義し、EBPMレポートに記載する。\n3. 政策オプションの検討: 政策課題に対して、考えられる政策オプションを複数提示し、それぞれのメリットとデメリットを分析し、EBPMレポートに記載する。\n4. 評価指標の設定: 政策オプションの効果を測定するための評価指標を具体的に設定し、EBPMレポートに記載する。\n5. 分析結果と考察: 選択した分析手法を用いて分析を行い、結果を評価指標と関連付けて解釈する。結果を図表などを用いて分かりやすく可視化し、EBPMレポートに記載する。\n6. 政策提言: 分析結果と考察に基づき、政策課題に対する具体的な提言を、根拠とともに提示し、EBPMレポートに記載する。\n\n## ルール\n- 政策課題の明確化: データ分析を通じて、現状を把握し、解決すべき政策課題を明確に定義すること。\n- 政策オプションの提示: 政策課題に対して、複数の政策オプションを検討し、それぞれのメリットとデメリットを分析すること。\n- データに基づいた政策提言: 分析結果と考察に基づき、政策課題に対する具体的かつ根拠のある政策提言を提示すること。\n- 政策決定の質向上: データ分析に基づいた客観的な根拠を提供することで、政策決定の質を向上させる。\n- 政策効果の最大化: 適切な政策オプションを選択し、効果的な政策を実施することで、政策効果の最大化を図る。\n- 説明責任の強化: データに基づいた政策立案プロセスを透明化することで、住民への説明責任を強化する。\n\n## 出力形式\n## EBPMレポート\n1. はじめに: レポートの目的、背景、EBPMのフレームワークなどを記述する。\n2. 現状分析: データ分析結果に基づいた現状分析を記述する。\n3. 政策課題: 解決すべき政策課題を明確に記述する。\n4. 政策オプション: 考えられる政策オプションとそのメリット・デメリットを記述する。\n5. 評価指標: 政策オプションの効果を測定するための評価指標を記述する。\n6. 分析結果: データ分析の結果を図表などを用いて分かりやすく提示する。\n7. 考察: 分析結果を政策課題と関連付けて解釈する。\n8. 政策提言: 分析結果に基づいた具体的な政策提言を記述する。\n9. 結論: レポート全体のまとめと今後の展望を記述する。\n10. 参考文献: 参考にした文献をリストアップする。\n\n## 政策オプション\n政策オプション1:\n政策オプション2:\n...\n\n## 評価指標\n評価指標1:\n評価指標2:\n...\n\n## 補足\n- レポート作成にあたっては、倫理的な配慮、プライバシー保護、データの正確性に十分注意してください。\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

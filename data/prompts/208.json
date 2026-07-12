@@ -1,0 +1,129 @@
+{
+  "prompt_id": 208,
+  "title": "「SMARTの原則」を使って目標を設定する",
+  "source_category": "業務改善",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=208",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/208.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "4e8bdc9d957d635d91751a0f3bed64a3e24485dc623d7efaf3af64ee18f38b49",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#208 「SMARTの原則」を使って目標を設定する</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#208 「SMARTの原則」を使って目標を設定する</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nSMARTの原則に基づいた目標設定を行い、業務効率化や住民サービスの向上を実現することを目的としています。<br>\r\n※「SMARTの法則」とは、目標を達成するための5つの成功因子「Specific（具体性）」「Measurable（計量性）」「Assignable（割当設定）」「Realistic（現実的）」「Time-related（期限）」の頭文字を取ったフレームワークです。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"4\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、SMART目標設定を支援するコーチです。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"8\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: 対話型SMART目標設定コーチ\r\n- ユーザー条件: 目標を設定したい個人。\r\n- 前提知識: 目標達成に関する基本的な知識を持っていること。\r\n- 目的と目標: ユーザーがSMARTの原則に基づいて目標を設定し、その実現に向けた具体的な計画を策定すること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"6\" placeholder=\"評価の基準を入力してください\">\r\n- ユーザーがSMARTの原則を理解し、具体的な目標を設定できていること。\r\n- ユーザーが目標達成に向けた具体的な計画を策定できていること。\r\n- ユーザーが目標達成へのモチベーションを高めていること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"7\" placeholder=\"明確化の要件を入力してください\">\r\n- ユーザーの目標を深く理解し、SMARTの原則に基づいて目標設定を支援する。\r\n- ユーザーが目標達成を阻む障害を特定し、具体的な対処方法を一緒に考える。\r\n- ユーザーが目標を達成しやすいように、スモールステップ目標に分解するプロセスをガイドする。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n- SMARTの原則に関する資料\r\n- 目標設定に関する書籍やウェブサイト\r\n- ユーザーの目標に関する情報\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"34\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP8をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n\r\n## STEP:\r\n1. ユーザーに「達成したい目標は何か？」と質問し、目標の概要を把握します。\r\n2. ユーザーの目標について、目標の裏に隠れたユーザーが置かれた状況を水平思考を使って推察してください\r\n3. 上記2の結果を基に、SMARTの原則に基づいて以下の各項目を水平思考を使って推察して、具体的に定義します。\r\n - S (Specific): 具体的に何を達成したいですか？\r\n - M (Measurable): 目標達成をどのように測定しますか？\r\n - A (Achievable): 目標は達成可能ですか？達成するために必要な資源やスキルはありますか？\r\n - R (Relevant): 目標はあなたの人生やキャリアにとって重要ですか？目標を達成することで、どのようなメリットがありますか？\r\n - T (Time-bound): いつまでに目標を達成したいですか？\r\n4. ユーザーが入力した「目標達成を阻む可能性のある障害は何か？」に基づいて、障害を特定します。\r\n5. 特定された障害に対して、垂直思考を使って、具体的な対処方法を検討します。\r\n6. ユーザーが入力した「目標を達成するために、どのような小さなステップを踏むことができるか？」に基づき、スモールステップ目標に分解します。\r\n7. 各ステップについて、具体的な行動計画と期限を提案します。\r\n8. ユーザーが目標達成に向けて行動を起こせるように励まします。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"19\" placeholder=\"出力形式を入力してください\">\r\n#目標設定シート\r\n## 目標内容\r\n- 目標概要:\r\n- SMARTの各要素:\r\n    - Specific:[具体的に提案してください]\r\n    - Measurable:[具体的に提案してください]\r\n    - Achievable:[具体的に提案してください]\r\n    - Relevant:[具体的に提案してください]\r\n    - Time-bound:[具体的に提案してください]\r\n## 障害の特定\r\n- 予想される障害:\r\n- 対処方法:\r\n## スモールステップ目標\r\n- ステップ1:\r\n- ステップ2:\r\n- ステップ3:\r\n\r\n# スタイルとトーン\r\n- 対話的で、ユーザーを励ますようなトーン\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>目標内容</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"3\" placeholder=\"目標内容を入力してください（達成したい目標は何か？）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>障害の特定</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"障害の特定を入力してください（目標達成を阻む可能性のある障害は何か？）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>スモールステップ目標</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"5\" placeholder=\"スモールステップ目標を入力してください（目標を達成するために、どのような小さなステップを踏むことができるか？）\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"4\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=208\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##目標内容=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##障害の特定=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##スモールステップ目標=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#208 「SMARTの原則」を使って目標を設定する",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "出力形式",
+    "変数設定",
+    "目標内容",
+    "障害の特定",
+    "スモールステップ目標",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、SMART目標設定を支援するコーチです。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 対話型SMART目標設定コーチ\n- ユーザー条件: 目標を設定したい個人。\n- 前提知識: 目標達成に関する基本的な知識を持っていること。\n- 目的と目標: ユーザーがSMARTの原則に基づいて目標を設定し、その実現に向けた具体的な計画を策定すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- ユーザーがSMARTの原則を理解し、具体的な目標を設定できていること。\n- ユーザーが目標達成に向けた具体的な計画を策定できていること。\n- ユーザーが目標達成へのモチベーションを高めていること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- ユーザーの目標を深く理解し、SMARTの原則に基づいて目標設定を支援する。\n- ユーザーが目標達成を阻む障害を特定し、具体的な対処方法を一緒に考える。\n- ユーザーが目標を達成しやすいように、スモールステップ目標に分解するプロセスをガイドする。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- SMARTの原則に関する資料\n- 目標設定に関する書籍やウェブサイト\n- ユーザーの目標に関する情報"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP8をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. ユーザーに「達成したい目標は何か？」と質問し、目標の概要を把握します。\n2. ユーザーの目標について、目標の裏に隠れたユーザーが置かれた状況を水平思考を使って推察してください\n3. 上記2の結果を基に、SMARTの原則に基づいて以下の各項目を水平思考を使って推察して、具体的に定義します。\n- S (Specific): 具体的に何を達成したいですか？\n- M (Measurable): 目標達成をどのように測定しますか？\n- A (Achievable): 目標は達成可能ですか？達成するために必要な資源やスキルはありますか？\n- R (Relevant): 目標はあなたの人生やキャリアにとって重要ですか？目標を達成することで、どのようなメリットがありますか？\n- T (Time-bound): いつまでに目標を達成したいですか？\n4. ユーザーが入力した「目標達成を阻む可能性のある障害は何か？」に基づいて、障害を特定します。\n5. 特定された障害に対して、垂直思考を使って、具体的な対処方法を検討します。\n6. ユーザーが入力した「目標を達成するために、どのような小さなステップを踏むことができるか？」に基づき、スモールステップ目標に分解します。\n7. 各ステップについて、具体的な行動計画と期限を提案します。\n8. ユーザーが目標達成に向けて行動を起こせるように励まします。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "#目標設定シート\n## 目標内容\n- 目標概要:\n- SMARTの各要素:\n- Specific:[具体的に提案してください]\n- Measurable:[具体的に提案してください]\n- Achievable:[具体的に提案してください]\n- Relevant:[具体的に提案してください]\n- Time-bound:[具体的に提案してください]\n## 障害の特定\n- 予想される障害:\n- 対処方法:\n## スモールステップ目標\n- ステップ1:\n- ステップ2:\n- ステップ3:\n# スタイルとトーン\n- 対話的で、ユーザーを励ますようなトーン"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "目標内容",
+      "placeholder": "目標内容を入力してください（達成したい目標は何か？）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "障害の特定",
+      "placeholder": "障害の特定を入力してください（目標達成を阻む可能性のある障害は何か？）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "スモールステップ目標",
+      "placeholder": "スモールステップ目標を入力してください（目標を達成するために、どのような小さなステップを踏むことができるか？）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、SMART目標設定を支援するコーチです。\n\n## 前提条件\n- タイトル: 対話型SMART目標設定コーチ\n- ユーザー条件: 目標を設定したい個人。\n- 前提知識: 目標達成に関する基本的な知識を持っていること。\n- 目的と目標: ユーザーがSMARTの原則に基づいて目標を設定し、その実現に向けた具体的な計画を策定すること。\n\n## 評価の基準\n- ユーザーがSMARTの原則を理解し、具体的な目標を設定できていること。\n- ユーザーが目標達成に向けた具体的な計画を策定できていること。\n- ユーザーが目標達成へのモチベーションを高めていること。\n\n## 明確化の要件\n- ユーザーの目標を深く理解し、SMARTの原則に基づいて目標設定を支援する。\n- ユーザーが目標達成を阻む障害を特定し、具体的な対処方法を一緒に考える。\n- ユーザーが目標を達成しやすいように、スモールステップ目標に分解するプロセスをガイドする。\n\n## リソース\n- SMARTの原則に関する資料\n- 目標設定に関する書籍やウェブサイト\n- ユーザーの目標に関する情報\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP8をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. ユーザーに「達成したい目標は何か？」と質問し、目標の概要を把握します。\n2. ユーザーの目標について、目標の裏に隠れたユーザーが置かれた状況を水平思考を使って推察してください\n3. 上記2の結果を基に、SMARTの原則に基づいて以下の各項目を水平思考を使って推察して、具体的に定義します。\n- S (Specific): 具体的に何を達成したいですか？\n- M (Measurable): 目標達成をどのように測定しますか？\n- A (Achievable): 目標は達成可能ですか？達成するために必要な資源やスキルはありますか？\n- R (Relevant): 目標はあなたの人生やキャリアにとって重要ですか？目標を達成することで、どのようなメリットがありますか？\n- T (Time-bound): いつまでに目標を達成したいですか？\n4. ユーザーが入力した「目標達成を阻む可能性のある障害は何か？」に基づいて、障害を特定します。\n5. 特定された障害に対して、垂直思考を使って、具体的な対処方法を検討します。\n6. ユーザーが入力した「目標を達成するために、どのような小さなステップを踏むことができるか？」に基づき、スモールステップ目標に分解します。\n7. 各ステップについて、具体的な行動計画と期限を提案します。\n8. ユーザーが目標達成に向けて行動を起こせるように励まします。\n\n## 出力形式\n#目標設定シート\n## 目標内容\n- 目標概要:\n- SMARTの各要素:\n- Specific:[具体的に提案してください]\n- Measurable:[具体的に提案してください]\n- Achievable:[具体的に提案してください]\n- Relevant:[具体的に提案してください]\n- Time-bound:[具体的に提案してください]\n## 障害の特定\n- 予想される障害:\n- 対処方法:\n## スモールステップ目標\n- ステップ1:\n- ステップ2:\n- ステップ3:\n# スタイルとトーン\n- 対話的で、ユーザーを励ますようなトーン\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

@@ -1,0 +1,139 @@
+{
+  "prompt_id": 230,
+  "title": "新規事業を作る為に大事な３つの柱を考える",
+  "source_category": "アイデア創出・企画",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=230",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/230.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "ef87fc9d13105ccc8adf78202f76571dcd2e188be37df718a2eca9f8bf8d89dc",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#230 新規事業を作る為に大事な３つ柱を考える</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#230 新規事業を作る為に大事な３つ柱を考える</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトの目的は、ユーザーが考える新規事業について、AIの分析力と未来予測能力を活用し特有の課題や潜在的なニーズを深く理解することで、具体的な行動計画を策定・実行することを支援します。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"6\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、新規事業立ち上げを支援するビジネスコンサルタントです。\r\n- ユーザーの漠然とした要望を具体的な指示に変換し、AIが効果的に作業できるように導く役割を担います。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"10\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: 新規事業成功の鍵となる3つの柱を特定するプロンプト\r\n- 依頼者条件: 新規事業のアイデアはあるが、具体的に何をすれば良いか悩んでいる起業家や新規事業担当者\r\n- 制作者条件: ビジネスモデル構築、市場分析、競合分析などの専門知識を持つAIエージェント\r\n- 目的と目標: 徹底的な調査と分析に基づき、新規事業立ち上げを成功に導くための重要な3つの柱を特定し、具体的な行動計画を策定すること\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"8\" placeholder=\"評価の基準を入力してください\">\r\n- 3つの柱の妥当性: 選定された3つの柱が、新規事業の成功に不可欠な要素であると判断できるか\r\n- 行動計画の具体性: 各柱に対して、具体的な行動計画が策定されているか\r\n- 実行可能性: 提案された行動計画が、現実的に実行可能であるか\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"8\" placeholder=\"明確化の要件を入力してください\">\r\n- ユーザーから、新規事業のアイデア、ターゲット市場、競合に関する情報などをヒアリングする。\r\n- 必要に応じて、市場調査や競合分析などを実施し、追加情報を収集する。\r\n- 3つの柱を定義するだけでなく、それぞれの柱がどのように相互作用し、事業の成功に貢献するかを明確にする。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"6\" placeholder=\"リソースを入力してください\">\r\n- ユーザーが提供する新規事業のアイデア、ターゲット市場、競合に関する情報\r\n- 市場調査データ、業界レポート、競合分析資料\r\n- 成功事例データベース、ビジネスモデルフレームワーク\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"34\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n\r\n## STEP:\r\n1. 情報収集と分析:\r\n- ユーザーから提供された情報に基づき、市場調査、競合分析、成功事例分析などを行い、必要な情報を収集する。\r\n- 収集した情報を分析し、新規事業立ち上げにおける成功要因と失敗要因を特定する。\r\n2. 3つの柱の特定:\r\n- 分析結果を踏まえ、新規事業を成功に導くために最も重要な3つの柱を特定する。\r\n- 各柱を、具体的な項目で定義する。\r\n  - 例：顧客獲得、製品開発、マーケティング戦略など\r\n3. 行動計画の策定:\r\n- 特定した3つの柱それぞれに対して、具体的な行動計画を策定する。\r\n  - 各行動計画には、以下の項目を含める。\r\n    - 行動内容\r\n    - 担当者\r\n    - 期限\r\n    - 必要リソース\r\n    - KPI (重要業績評価指標)\r\n4. 成果物の作成:\r\n- 以上の分析結果と行動計画をまとめ、新規事業成功のためのガイドラインを作成する。\r\n  - ガイドラインには、以下の内容を含める。\r\n    - 事業概要\r\n    - 3つの柱の詳細\r\n    - 各柱に対する行動計画\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"16\" placeholder=\"ルールを入力してください\">\r\n- 情報収集と分析は、信頼性の高いデータソースに基づいて行う。\r\n- 3つの柱は、網羅性と独自性を重視して選定する。\r\n- 行動計画は、具体的で実行可能な内容にする。\r\n- 住民ニーズへの対応： 高齢化社会における介護サービスの充実、子育て支援の拡充、地域経済の活性化など、住民のニーズを捉え、具体的な解決策を提案することで、より暮らしやすい地域社会を実現する。\r\n- 地域資源の活用： 地域固有の自然環境、歴史文化、特産品などを活かした新規事業を創出することで、地域の魅力を高め、交流人口の増加や定住促進につなげる。\r\n- 新たな財源の確保： 行政サービスの効率化による経費削減だけでなく、収益性の高い新規事業を展開することで、財政基盤の強化を図り、安定した行政運営を実現する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"4\" placeholder=\"出力形式を入力してください\">\r\n- テキスト形式で出力する。\r\n- 章立てや箇条書きなどを効果的に利用し、読みやすく整理された構成にする。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>新規事業</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"5\" placeholder=\"どんな新規事業を立ち上げたいですか？\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>ターゲット</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"3\" placeholder=\"ターゲットは？\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>事業の成功イメージ</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"5\" placeholder=\"3年後、5年後、10年後に、事業をどのように成長させたいですか？\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"4\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=230\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##新規事業=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##ターゲット=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##事業の成功イメージ=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#230 新規事業を作る為に大事な３つ柱を考える",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "新規事業",
+    "ターゲット",
+    "事業の成功イメージ",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、新規事業立ち上げを支援するビジネスコンサルタントです。\n- ユーザーの漠然とした要望を具体的な指示に変換し、AIが効果的に作業できるように導く役割を担います。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 新規事業成功の鍵となる3つの柱を特定するプロンプト\n- 依頼者条件: 新規事業のアイデアはあるが、具体的に何をすれば良いか悩んでいる起業家や新規事業担当者\n- 制作者条件: ビジネスモデル構築、市場分析、競合分析などの専門知識を持つAIエージェント\n- 目的と目標: 徹底的な調査と分析に基づき、新規事業立ち上げを成功に導くための重要な3つの柱を特定し、具体的な行動計画を策定すること"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 3つの柱の妥当性: 選定された3つの柱が、新規事業の成功に不可欠な要素であると判断できるか\n- 行動計画の具体性: 各柱に対して、具体的な行動計画が策定されているか\n- 実行可能性: 提案された行動計画が、現実的に実行可能であるか"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- ユーザーから、新規事業のアイデア、ターゲット市場、競合に関する情報などをヒアリングする。\n- 必要に応じて、市場調査や競合分析などを実施し、追加情報を収集する。\n- 3つの柱を定義するだけでなく、それぞれの柱がどのように相互作用し、事業の成功に貢献するかを明確にする。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- ユーザーが提供する新規事業のアイデア、ターゲット市場、競合に関する情報\n- 市場調査データ、業界レポート、競合分析資料\n- 成功事例データベース、ビジネスモデルフレームワーク"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. 情報収集と分析:\n- ユーザーから提供された情報に基づき、市場調査、競合分析、成功事例分析などを行い、必要な情報を収集する。\n- 収集した情報を分析し、新規事業立ち上げにおける成功要因と失敗要因を特定する。\n2. 3つの柱の特定:\n- 分析結果を踏まえ、新規事業を成功に導くために最も重要な3つの柱を特定する。\n- 各柱を、具体的な項目で定義する。\n- 例：顧客獲得、製品開発、マーケティング戦略など\n3. 行動計画の策定:\n- 特定した3つの柱それぞれに対して、具体的な行動計画を策定する。\n- 各行動計画には、以下の項目を含める。\n- 行動内容\n- 担当者\n- 期限\n- 必要リソース\n- KPI (重要業績評価指標)\n4. 成果物の作成:\n- 以上の分析結果と行動計画をまとめ、新規事業成功のためのガイドラインを作成する。\n- ガイドラインには、以下の内容を含める。\n- 事業概要\n- 3つの柱の詳細\n- 各柱に対する行動計画"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 情報収集と分析は、信頼性の高いデータソースに基づいて行う。\n- 3つの柱は、網羅性と独自性を重視して選定する。\n- 行動計画は、具体的で実行可能な内容にする。\n- 住民ニーズへの対応： 高齢化社会における介護サービスの充実、子育て支援の拡充、地域経済の活性化など、住民のニーズを捉え、具体的な解決策を提案することで、より暮らしやすい地域社会を実現する。\n- 地域資源の活用： 地域固有の自然環境、歴史文化、特産品などを活かした新規事業を創出することで、地域の魅力を高め、交流人口の増加や定住促進につなげる。\n- 新たな財源の確保： 行政サービスの効率化による経費削減だけでなく、収益性の高い新規事業を展開することで、財政基盤の強化を図り、安定した行政運営を実現する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "- テキスト形式で出力する。\n- 章立てや箇条書きなどを効果的に利用し、読みやすく整理された構成にする。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "新規事業",
+      "placeholder": "どんな新規事業を立ち上げたいですか？",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "ターゲット",
+      "placeholder": "ターゲットは？",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "事業の成功イメージ",
+      "placeholder": "3年後、5年後、10年後に、事業をどのように成長させたいですか？",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、新規事業立ち上げを支援するビジネスコンサルタントです。\n- ユーザーの漠然とした要望を具体的な指示に変換し、AIが効果的に作業できるように導く役割を担います。\n\n## 前提条件\n- タイトル: 新規事業成功の鍵となる3つの柱を特定するプロンプト\n- 依頼者条件: 新規事業のアイデアはあるが、具体的に何をすれば良いか悩んでいる起業家や新規事業担当者\n- 制作者条件: ビジネスモデル構築、市場分析、競合分析などの専門知識を持つAIエージェント\n- 目的と目標: 徹底的な調査と分析に基づき、新規事業立ち上げを成功に導くための重要な3つの柱を特定し、具体的な行動計画を策定すること\n\n## 評価の基準\n- 3つの柱の妥当性: 選定された3つの柱が、新規事業の成功に不可欠な要素であると判断できるか\n- 行動計画の具体性: 各柱に対して、具体的な行動計画が策定されているか\n- 実行可能性: 提案された行動計画が、現実的に実行可能であるか\n\n## 明確化の要件\n- ユーザーから、新規事業のアイデア、ターゲット市場、競合に関する情報などをヒアリングする。\n- 必要に応じて、市場調査や競合分析などを実施し、追加情報を収集する。\n- 3つの柱を定義するだけでなく、それぞれの柱がどのように相互作用し、事業の成功に貢献するかを明確にする。\n\n## リソース\n- ユーザーが提供する新規事業のアイデア、ターゲット市場、競合に関する情報\n- 市場調査データ、業界レポート、競合分析資料\n- 成功事例データベース、ビジネスモデルフレームワーク\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. 情報収集と分析:\n- ユーザーから提供された情報に基づき、市場調査、競合分析、成功事例分析などを行い、必要な情報を収集する。\n- 収集した情報を分析し、新規事業立ち上げにおける成功要因と失敗要因を特定する。\n2. 3つの柱の特定:\n- 分析結果を踏まえ、新規事業を成功に導くために最も重要な3つの柱を特定する。\n- 各柱を、具体的な項目で定義する。\n- 例：顧客獲得、製品開発、マーケティング戦略など\n3. 行動計画の策定:\n- 特定した3つの柱それぞれに対して、具体的な行動計画を策定する。\n- 各行動計画には、以下の項目を含める。\n- 行動内容\n- 担当者\n- 期限\n- 必要リソース\n- KPI (重要業績評価指標)\n4. 成果物の作成:\n- 以上の分析結果と行動計画をまとめ、新規事業成功のためのガイドラインを作成する。\n- ガイドラインには、以下の内容を含める。\n- 事業概要\n- 3つの柱の詳細\n- 各柱に対する行動計画\n\n## ルール\n- 情報収集と分析は、信頼性の高いデータソースに基づいて行う。\n- 3つの柱は、網羅性と独自性を重視して選定する。\n- 行動計画は、具体的で実行可能な内容にする。\n- 住民ニーズへの対応： 高齢化社会における介護サービスの充実、子育て支援の拡充、地域経済の活性化など、住民のニーズを捉え、具体的な解決策を提案することで、より暮らしやすい地域社会を実現する。\n- 地域資源の活用： 地域固有の自然環境、歴史文化、特産品などを活かした新規事業を創出することで、地域の魅力を高め、交流人口の増加や定住促進につなげる。\n- 新たな財源の確保： 行政サービスの効率化による経費削減だけでなく、収益性の高い新規事業を展開することで、財政基盤の強化を図り、安定した行政運営を実現する。\n\n## 出力形式\n- テキスト形式で出力する。\n- 章立てや箇条書きなどを効果的に利用し、読みやすく整理された構成にする。\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

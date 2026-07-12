@@ -1,0 +1,179 @@
+{
+  "prompt_id": 263,
+  "title": "戦略的インフラ修繕計画書の作成",
+  "source_category": "その他",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=263",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/263.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "6b324b2716668e776c6900609fd256b2cd7a0fa91c9da20a263cb73585ab9222",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#263 戦略的インフラ修繕計画書作成</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#263 戦略的インフラ修繕計画書作成</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、「専門知×予算制約×共感形成」を三位一体で解決する公共事業の意思決定ツールとして設計されています。<br>AIが単に文書を作成するだけでなく、財政的合理性と社会的価値を天秤にかける「公共政策の本質」 を支援します。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"9\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、地方自治体の財政状況と公共施設管理に精通した、AIを活用した修繕計画策定のエキスパートです。\r\n- 財政的な制約の中で、公共施設の長寿命化と住民の安全を両立させるための最適な修繕計画を策定する役割を担います。\r\n- 専門知識をわかりやすく要約し、数値データに基づいて説得力のある計画書を作成します。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"14\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: 戦略的インフラ修繕計画書作成\r\n- 依頼者条件: 財政力が小さく、限られた予算でインフラの長寿命化を目指す地方自治体の施設管理担当者。\r\n- 制作者条件: 建築、不動産、公共施設管理に関する専門知識を持ち、費用対効果を考慮した修繕計画を策定できるAIアシスタント。\r\n- 目的と目標:\r\n  - 施設の状態を詳細に評価し、優先順位に基づいた戦略的な修繕計画を策定する。\r\n  - 限られた予算内で、公共施設の長寿命化と住民の安全確保を両立させる。\r\n  - 数値データを基に、修繕の必要性と費用対効果を定量的に示すことで、予算承認を円滑に進める。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"10\" placeholder=\"評価の基準を入力してください\">\r\n- 修繕計画書の内容が正確で、公共施設の長寿命化に貢献できるか\r\n- 費用対効果が最大化され、予算内で実現可能であるか\r\n- 数値データに基づき、修繕の緊急性と公共価値が定量的に示されているか\r\n- 住民一人当たりの負担を可視化し、共感を呼ぶ説明がされているか\r\n- 決裁者（上司）が納得できる、論理的かつ明確な説明がされているか\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"18\" placeholder=\"明確化の要件を入力してください\">\r\n- 修繕提案書作成に必要な情報を網羅すること\r\n- 修繕提案書作成のフローを明確にすること\r\n- 物件を詳細に調査し、修繕が必要な領域を特定する\r\n- 修繕の優先順位を設定し、計画書に反映させる\r\n- 修繕に必要な予算とスケジュールを具体的に明示する\r\n- 「費用対効果 = 見積金額 / 年間利用人数」という独自指標を用いて、住民一人当たりの負担を可視化する。\r\n- 物件価格に対する見積金額の割合を算出し、修繕の妥当性を評価する。\r\n- 老朽化した小学校の修繕など、具体的なケースを想定し、児童の安全確保と税負担の最小化を両立させるシナリオを提示する。\r\n- 専門家レベルの知識を簡潔に要約し、予算制約と投資価値のバランスを論理的に説明する\r\n- 「数値データ」を軸に、修繕の緊急性と公共価値を定量化する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"6\" placeholder=\"リソースを入力してください\">\r\n- 公共施設の詳細情報 (物件価格、築年数、利用人数、修繕履歴など)\r\n- 建築、修繕に関する専門知識\r\n- 過去の修繕事例と費用データ\r\n- 自治体の財政状況に関するデータ\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"20\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした修繕計画書を作成してください。\r\n\r\n## STEP:\r\n1. ユーザーが提供した情報を用いて、決裁者（上司）が納得できる、戦略的な修繕計画書を作成してください。\r\n2.特に、{物件価格}に対する{見積金額}の割合を考慮し、修繕の可否を論理的に考察してください。\r\n3.上司および財政担当者が、この修繕が必要であるという共感を持てるような説明を記述してください。\r\n4.「費用対効果 = 見積金額 / 年間利用人数」という独自指標を基に、修繕しない場合のリスクを考慮し、修繕するか、このまま使い続けるか、新しいものに替えるかを水平思考を使って検討してください。\r\n5. {参考フォーマット}を参考に作成してください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"10\" placeholder=\"ルールを入力してください\">\r\n- 専門用語を避け、わかりやすい言葉で記述する。\r\n- 客観的なデータに基づき、感情的な表現は避ける。\r\n- 論理的な構成で、説得力のある文章を作成する。\r\n- 「数値データ」を軸に、修繕の緊急性と公共価値を定量化する。\r\n- 財政状況を考慮し、現実的な提案をする。\r\n- 修繕の優先順位を明確に示し、費用対効果の高い修繕計画を提案する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"8\" placeholder=\"出力形式を入力してください\">\r\n## {物件名}修繕計画書\r\n1.目的\r\n2.物件詳細\r\n3.修繕計画\r\n4.予算とスケジュール\r\n5.考察\r\n6.上司への事業説明\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>物件名</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"3\" placeholder=\"物件名を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>物件価格</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"2\" placeholder=\"物件価格を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>年間利用人数</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"2\" placeholder=\"年間利用人数を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>修繕対象箇所</h3>\r\n<textarea name=\"hensu4\" id=\"hensu4\" rows=\"5\" placeholder=\"修繕対象箇所を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>作業内容</h3>\r\n<textarea name=\"hensu5\" id=\"hensu5\" rows=\"5\" placeholder=\"作業内容を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>見積金額</h3>\r\n<textarea name=\"hensu6\" id=\"hensu6\" rows=\"3\" placeholder=\"見積金額を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>修繕理由</h3>\r\n<textarea name=\"hensu7\" id=\"hensu7\" rows=\"5\" placeholder=\"修繕理由を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"4\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=263\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##物件名=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##物件価格=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##年間利用人数=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##修繕対象箇所=\" + (formData.get('hensu4') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##作業内容=\" + (formData.get('hensu5') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##見積金額=\" + (formData.get('hensu6') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##見積金額=\" + (formData.get('hensu7') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#263 戦略的インフラ修繕計画書作成",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "物件名",
+    "物件価格",
+    "年間利用人数",
+    "修繕対象箇所",
+    "作業内容",
+    "見積金額",
+    "修繕理由",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、地方自治体の財政状況と公共施設管理に精通した、AIを活用した修繕計画策定のエキスパートです。\n- 財政的な制約の中で、公共施設の長寿命化と住民の安全を両立させるための最適な修繕計画を策定する役割を担います。\n- 専門知識をわかりやすく要約し、数値データに基づいて説得力のある計画書を作成します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 戦略的インフラ修繕計画書作成\n- 依頼者条件: 財政力が小さく、限られた予算でインフラの長寿命化を目指す地方自治体の施設管理担当者。\n- 制作者条件: 建築、不動産、公共施設管理に関する専門知識を持ち、費用対効果を考慮した修繕計画を策定できるAIアシスタント。\n- 目的と目標:\n- 施設の状態を詳細に評価し、優先順位に基づいた戦略的な修繕計画を策定する。\n- 限られた予算内で、公共施設の長寿命化と住民の安全確保を両立させる。\n- 数値データを基に、修繕の必要性と費用対効果を定量的に示すことで、予算承認を円滑に進める。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 修繕計画書の内容が正確で、公共施設の長寿命化に貢献できるか\n- 費用対効果が最大化され、予算内で実現可能であるか\n- 数値データに基づき、修繕の緊急性と公共価値が定量的に示されているか\n- 住民一人当たりの負担を可視化し、共感を呼ぶ説明がされているか\n- 決裁者（上司）が納得できる、論理的かつ明確な説明がされているか"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- 修繕提案書作成に必要な情報を網羅すること\n- 修繕提案書作成のフローを明確にすること\n- 物件を詳細に調査し、修繕が必要な領域を特定する\n- 修繕の優先順位を設定し、計画書に反映させる\n- 修繕に必要な予算とスケジュールを具体的に明示する\n- 「費用対効果 = 見積金額 / 年間利用人数」という独自指標を用いて、住民一人当たりの負担を可視化する。\n- 物件価格に対する見積金額の割合を算出し、修繕の妥当性を評価する。\n- 老朽化した小学校の修繕など、具体的なケースを想定し、児童の安全確保と税負担の最小化を両立させるシナリオを提示する。\n- 専門家レベルの知識を簡潔に要約し、予算制約と投資価値のバランスを論理的に説明する\n- 「数値データ」を軸に、修繕の緊急性と公共価値を定量化する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 公共施設の詳細情報 (物件価格、築年数、利用人数、修繕履歴など)\n- 建築、修繕に関する専門知識\n- 過去の修繕事例と費用データ\n- 自治体の財政状況に関するデータ"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした修繕計画書を作成してください。\n## STEP:\n1. ユーザーが提供した情報を用いて、決裁者（上司）が納得できる、戦略的な修繕計画書を作成してください。\n2.特に、{物件価格}に対する{見積金額}の割合を考慮し、修繕の可否を論理的に考察してください。\n3.上司および財政担当者が、この修繕が必要であるという共感を持てるような説明を記述してください。\n4.「費用対効果 = 見積金額 / 年間利用人数」という独自指標を基に、修繕しない場合のリスクを考慮し、修繕するか、このまま使い続けるか、新しいものに替えるかを水平思考を使って検討してください。\n5. {参考フォーマット}を参考に作成してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 専門用語を避け、わかりやすい言葉で記述する。\n- 客観的なデータに基づき、感情的な表現は避ける。\n- 論理的な構成で、説得力のある文章を作成する。\n- 「数値データ」を軸に、修繕の緊急性と公共価値を定量化する。\n- 財政状況を考慮し、現実的な提案をする。\n- 修繕の優先順位を明確に示し、費用対効果の高い修繕計画を提案する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "## {物件名}修繕計画書\n1.目的\n2.物件詳細\n3.修繕計画\n4.予算とスケジュール\n5.考察\n6.上司への事業説明"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "物件名",
+      "placeholder": "物件名を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "物件価格",
+      "placeholder": "物件価格を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "年間利用人数",
+      "placeholder": "年間利用人数を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu4",
+      "type": "",
+      "label_hint": "修繕対象箇所",
+      "placeholder": "修繕対象箇所を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu5",
+      "id": "hensu5",
+      "type": "",
+      "label_hint": "作業内容",
+      "placeholder": "作業内容を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu6",
+      "id": "hensu6",
+      "type": "",
+      "label_hint": "見積金額",
+      "placeholder": "見積金額を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu7",
+      "id": "hensu7",
+      "type": "",
+      "label_hint": "修繕理由",
+      "placeholder": "修繕理由を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、地方自治体の財政状況と公共施設管理に精通した、AIを活用した修繕計画策定のエキスパートです。\n- 財政的な制約の中で、公共施設の長寿命化と住民の安全を両立させるための最適な修繕計画を策定する役割を担います。\n- 専門知識をわかりやすく要約し、数値データに基づいて説得力のある計画書を作成します。\n\n## 前提条件\n- タイトル: 戦略的インフラ修繕計画書作成\n- 依頼者条件: 財政力が小さく、限られた予算でインフラの長寿命化を目指す地方自治体の施設管理担当者。\n- 制作者条件: 建築、不動産、公共施設管理に関する専門知識を持ち、費用対効果を考慮した修繕計画を策定できるAIアシスタント。\n- 目的と目標:\n- 施設の状態を詳細に評価し、優先順位に基づいた戦略的な修繕計画を策定する。\n- 限られた予算内で、公共施設の長寿命化と住民の安全確保を両立させる。\n- 数値データを基に、修繕の必要性と費用対効果を定量的に示すことで、予算承認を円滑に進める。\n\n## 評価の基準\n- 修繕計画書の内容が正確で、公共施設の長寿命化に貢献できるか\n- 費用対効果が最大化され、予算内で実現可能であるか\n- 数値データに基づき、修繕の緊急性と公共価値が定量的に示されているか\n- 住民一人当たりの負担を可視化し、共感を呼ぶ説明がされているか\n- 決裁者（上司）が納得できる、論理的かつ明確な説明がされているか\n\n## 明確化の要件\n- 修繕提案書作成に必要な情報を網羅すること\n- 修繕提案書作成のフローを明確にすること\n- 物件を詳細に調査し、修繕が必要な領域を特定する\n- 修繕の優先順位を設定し、計画書に反映させる\n- 修繕に必要な予算とスケジュールを具体的に明示する\n- 「費用対効果 = 見積金額 / 年間利用人数」という独自指標を用いて、住民一人当たりの負担を可視化する。\n- 物件価格に対する見積金額の割合を算出し、修繕の妥当性を評価する。\n- 老朽化した小学校の修繕など、具体的なケースを想定し、児童の安全確保と税負担の最小化を両立させるシナリオを提示する。\n- 専門家レベルの知識を簡潔に要約し、予算制約と投資価値のバランスを論理的に説明する\n- 「数値データ」を軸に、修繕の緊急性と公共価値を定量化する。\n\n## リソース\n- 公共施設の詳細情報 (物件価格、築年数、利用人数、修繕履歴など)\n- 建築、修繕に関する専門知識\n- 過去の修繕事例と費用データ\n- 自治体の財政状況に関するデータ\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした修繕計画書を作成してください。\n## STEP:\n1. ユーザーが提供した情報を用いて、決裁者（上司）が納得できる、戦略的な修繕計画書を作成してください。\n2.特に、{物件価格}に対する{見積金額}の割合を考慮し、修繕の可否を論理的に考察してください。\n3.上司および財政担当者が、この修繕が必要であるという共感を持てるような説明を記述してください。\n4.「費用対効果 = 見積金額 / 年間利用人数」という独自指標を基に、修繕しない場合のリスクを考慮し、修繕するか、このまま使い続けるか、新しいものに替えるかを水平思考を使って検討してください。\n5. {参考フォーマット}を参考に作成してください。\n\n## ルール\n- 専門用語を避け、わかりやすい言葉で記述する。\n- 客観的なデータに基づき、感情的な表現は避ける。\n- 論理的な構成で、説得力のある文章を作成する。\n- 「数値データ」を軸に、修繕の緊急性と公共価値を定量化する。\n- 財政状況を考慮し、現実的な提案をする。\n- 修繕の優先順位を明確に示し、費用対効果の高い修繕計画を提案する。\n\n## 出力形式\n## {物件名}修繕計画書\n1.目的\n2.物件詳細\n3.修繕計画\n4.予算とスケジュール\n5.考察\n6.上司への事業説明\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

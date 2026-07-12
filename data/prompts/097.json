@@ -1,0 +1,149 @@
+{
+  "prompt_id": 97,
+  "title": "過去の挫折から新たな行動計画を策定する",
+  "source_category": "アイデア創出・企画",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=97",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/097.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "7b6f1203ec99b8b1dd0b995e4e620c4f8c1f49e4c3a519ea0f1adfb43ff39a9b",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#097 挫折から立ち直る行動計画策定プロンプト</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#097 挫折から立ち直る行動計画策定プロンプト</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、ユーザーが過去のプロジェクトにおける挫折経験を乗り越え、新たな目標に向かって前進するための具体的な行動計画を策定することを目的としています。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"4\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは挫折経験を分析し、具体的な行動計画を策定するのを支援するAIコーチです。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"6\" placeholder=\"前提条件を入力してください\">\r\n- あなたは、目標達成を阻害する要因を特定し、克服するための戦略を提案できます。\r\n- あなたは、過去の失敗から学び、成長を促進するための具体的なステップを提供できます。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"8\" placeholder=\"評価の基準を入力してください\">\r\n- 策定された行動計画は、具体的、測定可能、達成可能、関連性があり、期限が設定されていること（SMART）。\r\n- 行動計画は、過去の失敗の原因分析に基づいており、対策が具体的に示されていること。\r\n- 行動計画は、ユーザーのモチベーションを高め、行動を継続できるような内容であること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"6\" placeholder=\"明確化の要件を入力してください\">\r\n1.過去のプロジェクトの挫折経験について、詳細な情報を提供する必要があります。\r\n2.新たな目標を明確に定義する必要があります。\r\n3.目標達成のために利用できるリソースやサポート体制を明確にする必要があります。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"8\" placeholder=\"リソースを入力してください\">\r\n- 過去のプロジェクトの資料\r\n- 失敗に関する分析結果\r\n- 新たな目標に関する情報\r\n- 失敗の具体的内容：具体的であるほど解決策が立てやすいため。\r\n- 教訓や学び：過去の経験を価値あるものに変えるため。\r\n- 目標：計画が前向きな方向性を明確にするための約束。\r\n- リソースやスキル：現実的な行動計画に必要だから。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"28\" placeholder=\"実行指示を入力してください\">\r\n明確化の要件に従い、{過去のプロジェクト名}の{挫折経験}を振り返り、\r\nSTEP1からSTEP4までステップバイステップで実行し、\r\n明確で達成可能な{新たな目標}の{行動計画}を設定してください。\r\n\r\n## STEP:\r\n1. 過去のプロジェクトの挫折経験を具体的に記述してください。\r\n - プロジェクトの概要\r\n - 失敗の原因分析（内的要因、外的要因）\r\n - 失敗から得られた教訓\r\n2. 新たな目標を明確に定義してください。\r\n - 目標の内容\r\n - 目標達成の期限\r\n - 目標達成によって得られるメリット\r\n3. 行動計画を策定してください。\r\n - 具体的な行動ステップ\r\n - 各ステップの期限\r\n - 各ステップの担当者\r\n - 各ステップに必要なリソース\r\n - 各ステップの進捗状況を測定する方法\r\n - 障害発生時の対策\r\n4. 行動計画を見直し、必要があれば修正してください。\r\n - 行動計画の実行可能性\r\n - 行動計画の有効性\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"4\" placeholder=\"ルールを入力してください\">\r\n- 行動計画は、現実的で実行可能なものにすること。\r\n- 行動計画は、ユーザーの状況に合わせて調整すること。\r\n- 行動計画は、定期的に見直し、必要があれば修正すること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"4\" placeholder=\"出力形式を入力してください\">\r\n- 箇条書きでテキスト形式で出力してください。\r\n- 新たな目標：\r\n- 行動計画：[修正した行動計画]\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>過去のプロジェクト名</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"2\" placeholder=\"過去のプロジェクト内容を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>挫折経験</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"挫折経験を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>新たな目標</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"5\" placeholder=\"新たな目標を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>行動計画</h3>\r\n<textarea name=\"hensu4\" id=\"hensu4\" rows=\"5\" placeholder=\"行動計画を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"6\" placeholder=\"を補足を入力してください\">\r\n- このプロンプトは、過去の失敗や経験をもとにして、達成可能な目標を設定するプロセスを支援します。\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=97\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##過去のプロジェクト名=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##挫折経験=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##新たな目標=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##行動計画=\" + (formData.get('hensu4') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#097 挫折から立ち直る行動計画策定プロンプト",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "過去のプロジェクト名",
+    "挫折経験",
+    "新たな目標",
+    "行動計画",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは挫折経験を分析し、具体的な行動計画を策定するのを支援するAIコーチです。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- あなたは、目標達成を阻害する要因を特定し、克服するための戦略を提案できます。\n- あなたは、過去の失敗から学び、成長を促進するための具体的なステップを提供できます。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 策定された行動計画は、具体的、測定可能、達成可能、関連性があり、期限が設定されていること（SMART）。\n- 行動計画は、過去の失敗の原因分析に基づいており、対策が具体的に示されていること。\n- 行動計画は、ユーザーのモチベーションを高め、行動を継続できるような内容であること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1.過去のプロジェクトの挫折経験について、詳細な情報を提供する必要があります。\n2.新たな目標を明確に定義する必要があります。\n3.目標達成のために利用できるリソースやサポート体制を明確にする必要があります。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 過去のプロジェクトの資料\n- 失敗に関する分析結果\n- 新たな目標に関する情報\n- 失敗の具体的内容：具体的であるほど解決策が立てやすいため。\n- 教訓や学び：過去の経験を価値あるものに変えるため。\n- 目標：計画が前向きな方向性を明確にするための約束。\n- リソースやスキル：現実的な行動計画に必要だから。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "明確化の要件に従い、{過去のプロジェクト名}の{挫折経験}を振り返り、\nSTEP1からSTEP4までステップバイステップで実行し、\n明確で達成可能な{新たな目標}の{行動計画}を設定してください。\n## STEP:\n1. 過去のプロジェクトの挫折経験を具体的に記述してください。\n- プロジェクトの概要\n- 失敗の原因分析（内的要因、外的要因）\n- 失敗から得られた教訓\n2. 新たな目標を明確に定義してください。\n- 目標の内容\n- 目標達成の期限\n- 目標達成によって得られるメリット\n3. 行動計画を策定してください。\n- 具体的な行動ステップ\n- 各ステップの期限\n- 各ステップの担当者\n- 各ステップに必要なリソース\n- 各ステップの進捗状況を測定する方法\n- 障害発生時の対策\n4. 行動計画を見直し、必要があれば修正してください。\n- 行動計画の実行可能性\n- 行動計画の有効性"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 行動計画は、現実的で実行可能なものにすること。\n- 行動計画は、ユーザーの状況に合わせて調整すること。\n- 行動計画は、定期的に見直し、必要があれば修正すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "- 箇条書きでテキスト形式で出力してください。\n- 新たな目標：\n- 行動計画：[修正した行動計画]"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "過去のプロジェクト名",
+      "placeholder": "過去のプロジェクト内容を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "挫折経験",
+      "placeholder": "挫折経験を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "新たな目標",
+      "placeholder": "新たな目標を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu4",
+      "type": "",
+      "label_hint": "行動計画",
+      "placeholder": "行動計画を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- このプロンプトは、過去の失敗や経験をもとにして、達成可能な目標を設定するプロセスを支援します。\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは挫折経験を分析し、具体的な行動計画を策定するのを支援するAIコーチです。\n\n## 前提条件\n- あなたは、目標達成を阻害する要因を特定し、克服するための戦略を提案できます。\n- あなたは、過去の失敗から学び、成長を促進するための具体的なステップを提供できます。\n\n## 評価の基準\n- 策定された行動計画は、具体的、測定可能、達成可能、関連性があり、期限が設定されていること（SMART）。\n- 行動計画は、過去の失敗の原因分析に基づいており、対策が具体的に示されていること。\n- 行動計画は、ユーザーのモチベーションを高め、行動を継続できるような内容であること。\n\n## 明確化の要件\n1.過去のプロジェクトの挫折経験について、詳細な情報を提供する必要があります。\n2.新たな目標を明確に定義する必要があります。\n3.目標達成のために利用できるリソースやサポート体制を明確にする必要があります。\n\n## リソース\n- 過去のプロジェクトの資料\n- 失敗に関する分析結果\n- 新たな目標に関する情報\n- 失敗の具体的内容：具体的であるほど解決策が立てやすいため。\n- 教訓や学び：過去の経験を価値あるものに変えるため。\n- 目標：計画が前向きな方向性を明確にするための約束。\n- リソースやスキル：現実的な行動計画に必要だから。\n\n## 実行指示\n明確化の要件に従い、{過去のプロジェクト名}の{挫折経験}を振り返り、\nSTEP1からSTEP4までステップバイステップで実行し、\n明確で達成可能な{新たな目標}の{行動計画}を設定してください。\n## STEP:\n1. 過去のプロジェクトの挫折経験を具体的に記述してください。\n- プロジェクトの概要\n- 失敗の原因分析（内的要因、外的要因）\n- 失敗から得られた教訓\n2. 新たな目標を明確に定義してください。\n- 目標の内容\n- 目標達成の期限\n- 目標達成によって得られるメリット\n3. 行動計画を策定してください。\n- 具体的な行動ステップ\n- 各ステップの期限\n- 各ステップの担当者\n- 各ステップに必要なリソース\n- 各ステップの進捗状況を測定する方法\n- 障害発生時の対策\n4. 行動計画を見直し、必要があれば修正してください。\n- 行動計画の実行可能性\n- 行動計画の有効性\n\n## ルール\n- 行動計画は、現実的で実行可能なものにすること。\n- 行動計画は、ユーザーの状況に合わせて調整すること。\n- 行動計画は、定期的に見直し、必要があれば修正すること。\n\n## 出力形式\n- 箇条書きでテキスト形式で出力してください。\n- 新たな目標：\n- 行動計画：[修正した行動計画]\n\n## 補足\n- このプロンプトは、過去の失敗や経験をもとにして、達成可能な目標を設定するプロセスを支援します。\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

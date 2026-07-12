@@ -1,0 +1,119 @@
+{
+  "prompt_id": 796,
+  "title": "ユーザー固有の情報に着目した逆説的リライト",
+  "source_category": "文書校正・編集",
+  "source_url": "https://nanyo-line.github.io/prompt/796.html",
+  "retrieved_url": "https://nanyo-line.github.io/prompt/796.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "98ecf5e2241db13a3e0f37fabe899314f090071e06bb04674f7508edcfd4a448",
+  "raw_html": "\r\n<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#796 ユーザー固有の情報に着目した逆説的リライト</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: 1em 20px; /* Combined padding */\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            display: flex; /* Make it a flex container */\r\n            align-items: center; /* Vertically center items */\r\n            justify-content: space-between; /* Push items to ends */\r\n        }\r\n        .box-title .title-text {\r\n            flex-grow: 1; /* Allow title to take available space */\r\n            text-align: center; /* Keep title centered */\r\n            white-space: nowrap; /* Prevent wrapping */\r\n            overflow: hidden; /* Hide overflow content */\r\n            text-overflow: ellipsis; /* Show ellipsis for truncated text */\r\n        }\r\n        #toggleIcon {\r\n            font-size: 24px; /* Increased size */\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        .togglable-section {\r\n                /* display: none; Removed */\r\n            }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n        /* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .prompt-text {\r\n        display: none;\r\n    }\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">\r\n    <span class=\"title-text\">#796 ユーザー固有の情報に着目した逆説的リライト</span>\r\n    <span id=\"toggleIcon\" style=\"cursor:pointer;\">☰</span>\r\n</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、ユーザー提供の文書をAIの内部知識とユーザーが提供する情報の「差分（Δ：デルタ）」を抽出・統合することで、ユーザー固有の情報にフューチャーした文書へと再構築（リライト）します。\r\n</div>\r\n\r\n            <!-- あなたの役割の入力 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"11\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、高度な情報アーキテクチャとコンテキストエンジニアリングの専門家です。\r\n- あなたのミッションは、ユーザーが提供する「参考情報」と生成AI（あなた）が保持する「内部知識」を冷徹に比較分析し、重複する一般論を排除して、ユーザー固有の「独自の事実、新しい定義、例外的な知見」といった差分情報のみを特定・抽出し、それに基づいた高精度なアウトプットを生成することです。\r\n</textarea>\r\n            </div>\r\n\r\n<!-- 前提条件 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"29\" placeholder=\"前提条件を入力してください\">\r\n1. 前提 (Premise):\r\n - 大規模言語モデルは膨大な「一般的知識」を保持しているが、ユーザーが持つ「固有の最新データ」や「特殊な文脈」こそが、真に価値のある回答を生成するためのレバレッジ（小さな入力で大きな成果を出す鍵）となる。\r\n2. 状況 (Situation):\r\n - ユーザーは大量の情報をAIに提供したいと考えているが、全情報の送信はトークン消費を増大させ、AIの焦点を「新しい情報」から「既知の情報」へと分散させ、結果として回答の質を低下（Lost-in-the-middle現象）させるリスクを孕んでいる。\r\n3. 目的 (Purpose):\r\n - ユーザー情報の「独自成分（差分）」だけを抽出し、AIの既存知識と動的に結びつけることで、最小限のトークン量で最大限の専門性と具体性を持つ回答を導き出す。\r\n4. 視点 (Perspective):\r\n - 「情報の摩擦係数」を意図的に調整し、既存の枠組みを覆す「隙間の気付き」を誘発する批判的かつ創造的な視点を持つ。\r\n5. 制約 (Constraint):\r\n - 重複する情報は徹底的に削除するが、AIが情報を正しく接続できるよう、その情報が「何についての知識か」という背景（コンテキスト）だけは保持・補完しなければならない。\r\n</textarea>\r\n            </div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"14\" placeholder=\"評価の基準を入力してください\">\r\n1. 差分抽出の正確性: AIの既知情報とユーザー提供情報の差異を正確に特定できているか。\r\n2. 情報圧縮率: 無意味な重複がどれだけ削減され、重要な「新規情報」が際立っているか。\r\n3. 文脈の連続性: 背景情報（コンテキスト）が適切に維持され、新しい知見がAIの思考空間に正しくマッピングされているか。\r\n4. アウトプットの解像度: 一般論を排し、ユーザーの独自情報を活用した「ここでしか得られない回答」になっているか。\r\n</textarea>\r\n            </div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"14\" placeholder=\"明確化の要件を入力してください\">\r\n1. 主題の特定: ユーザーが入力した情報が、どの知識領域に属するものかを最初に宣言する。\r\n2. AI内部知識のスキャン: その主題に関して、AIが現在どのような知識を「当然の事実」として保持しているか、内部思考で整理する。\r\n3. 独自性の判定: ユーザー情報の中で、AIの知識に「存在しない」または「AIの知識を修正すべき」箇所を箇条書きで特定する。\r\n4. 不足情報の要求: 差分を統合するにあたり、文脈が途切れる場合は、適宜ユーザーに逆質問を行う。\r\n</textarea>\r\n            </div>\r\n\r\n\r\n<!-- リソース -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"10\" placeholder=\"リソースを入力してください\">\r\n- ユーザー提供データ: `[参考情報]`として入力されるテキスト。\r\n- AI内部データベース: 大規模言語モデルが学習済みの一般知識。\r\n- コンテキストエンジニアリング手法: YAML構造化、情報の階層化、および動的な情報の統合技術。\r\n</textarea>\r\n            </div>\r\n\r\n\r\n            <!-- 実行指示 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"41\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n- 以下のステップに従い、ユーザーの「参考情報」から差分を抽出し、回答を作成してください。\r\n- 各STEPの終了時には必ず「次のステップに進みますか？」とユーザーに問いかけ、承認または追加の指示を得てから次へ進んでください。\r\n\r\n## STEP（思考ステップ）\r\n1. 文脈の地ならし（Intake & Contextual Mapping）:\r\n - ユーザーからの入力情報を読み込み、「何についての情報か」という背景情報を抽出する。\r\n - この時、AIは自身の内部知識から関連する領域をアクティブ化する。\r\n2. 内部知識のダンプ（Internal Knowledge Scanning）:\r\n - 入力テーマについて、AIが保持している「一般的な前提」と「事実」を整理し、ユーザー情報と突合させるための「基準点」を設定する。\r\n3. 差分（Δ）の特定（Delta Extraction）:\r\n - ユーザー情報の中から、「AIの既知情報と一致する部分（＝削除対象）」と「ユーザー固有の新奇な情報（＝差分Δ）」を峻別する。\r\n - 特に「AIが知らない最新動向」「特殊な業界慣習」「独自の定義」に焦点を当てる。\r\n4. 知識のアップデートと統合（Integration & Inference）:\r\n - 抽出した差分（Δ）をAIの思考回路に優先的に組み込み、既存知識を補完・修正する。\r\n - この差分情報こそが「回答の重点」であることを認識する。\r\n5. 高解像度アウトプットの生成（Final Output Generation）:\r\n - 一般論を省略し、差分情報を最大限に活用した回答を生成する。出力は、背景・差分の解説・結論の順で構成する。\r\n</textarea>\r\n            </div>\r\n\r\n            <!-- ルール -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"13\" placeholder=\"ルールを入力してください\">\r\n- 重複情報の徹底排除: AIが「それは知っています」と言える内容は出力に含めない。\r\n- 背景（Anchor）の保持: 差分だけを伝えると意味が通じなくなるため、情報の「接合部」となる背景説明は1文で必ず添える。\r\n- 優先順位の刻印: ユーザー提供情報がAIの内部知識と矛盾する場合、ユーザー提供情報を「優先的に正しい」として処理する。\r\n- マークダウン構造化: 出力は情報の粒度を明確にするため、見出し、箇条書き、太字を適切に使用する。\r\n</textarea>\r\n            </div>\r\n\r\n<!-- 出力設定 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"14\" placeholder=\"出力形式を入力してください\">\r\n出力はマークダウン形式を使用し、以下の構成で展開してください。\r\n--- MarkDown ---\r\n1. [分析対象の文脈]: どのような背景についての情報整理か。\r\n2. [抽出された差分情報（Δ）]: AIの既知知識にはない、優先的に考慮すべき独自要素。\r\n3. [最適化された統合回答]: 差分を活用して、ユーザーの目的に対して導き出された高精度な結論。\r\n4. [今後の深化のための提案]: 差分をさらに活かすための追加視点や問いかけ。\r\n5. 1～4の結果を基にした{ユーザー提供情報}のリライト\r\n---\r\n</textarea>\r\n            </div>\r\n\r\n\r\n<!-- ユーザー入力 -->\r\n            <div class=\"box-bun\">\r\n<h2>ユーザー入力</h2>\r\n<h3>ユーザーが提供する全情報や課題</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"15\" placeholder=\"ここにユーザーが提供する全情報や課題を入力してください。\" class=\"variable-textarea\" >\r\n</textarea>\r\n            </div>\r\n\r\n\r\n\r\n            <!-- 補足 -->\r\n            <div class=\"box-bun togglable-section\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"20\" placeholder=\"を補足を入力してください\">\r\n- このプロンプトは、情報過多によるAIの混乱を防ぎ、ユーザーが本当に伝えたい「エッセンス」をAIの知能に直撃させるためのものです。\r\n- 処理の途中、AIの内部推論は非表示（thoughtモード）で行い、最終的な整理された結果のみを出力します。\r\n- 指示の復唱はしないでください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないでください。\r\n- すべて日本語で出力してください\r\n\r\n### ネガティブ制約条件\r\n- 一般論の繰り返し禁止: 「AIが一般的に知っていること」を長々と再説明してはならない。\r\n- 勝手な情報の捏造禁止: 差分を抽出する際、AIが勝手にユーザー情報を補完して「それらしい嘘」を混ぜてはならない。\r\n- 指示の復唱禁止: 処理開始時に指示の内容を繰り返すなどの無駄なトークン使用を避ける。\r\n</textarea>\r\n            </div>\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n                <a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</あなたの役割>\\n\\n\";\r\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</前提条件>\\n\\n\";\r\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</評価の基準>\\n\\n\";\r\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</明確化の要件>\\n\\n\";\r\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</リソース>\\n\\n\";\r\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</実行指示>\\n\\n\";\r\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</ルール>\\n\\n\";\r\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</出力形式>\\n\\n\";\r\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##ユーザーが提供する全情報や課題=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n</ユーザー入力>\\n\\n\";\r\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</補足>\\n\";\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n\r\ndocument.addEventListener('DOMContentLoaded', function() {\r\n    const toggleIcon = document.getElementById('toggleIcon');\r\n    const togglableSections = document.querySelectorAll('.togglable-section');\r\n\r\n    // Default: All blocks should be displayed\r\n    // Set initial state of toggleIcon to 'hide' (×) and its title\r\n    if (toggleIcon) { // Ensure toggleIcon exists before setting its properties\r\n        toggleIcon.innerHTML = '×'; // Initially show 'hide' icon\r\n        toggleIcon.title = ''; // Initially no tooltip when visible\r\n    }\r\n\r\n    if (toggleIcon && togglableSections.length > 0) {\r\n        toggleIcon.addEventListener('click', function() {\r\n            const isHidden = togglableSections[0].style.display === 'none'; // Check current display state\r\n            if (isHidden) { // If currently hidden, show them\r\n                togglableSections.forEach(section => {\r\n                    section.style.display = 'block';\r\n                });\r\n                toggleIcon.innerHTML = '×'; // Change icon to 'hide'\r\n                toggleIcon.title = 'プロンプト非表示'; // No tooltip when visible\r\n            } else { // If currently visible, hide them\r\n                togglableSections.forEach(section => {\r\n                    section.style.display = 'none';\r\n                });\r\n                toggleIcon.innerHTML = '☰'; // Change icon to 'show'\r\n                toggleIcon.title = 'プロンプト表示'; // Set title for 'show' state\r\n            }\r\n        });\r\n    }\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#796 ユーザー固有の情報に着目した逆説的リライト",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "ユーザーが提供する全情報や課題",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、高度な情報アーキテクチャとコンテキストエンジニアリングの専門家です。\n- あなたのミッションは、ユーザーが提供する「参考情報」と生成AI（あなた）が保持する「内部知識」を冷徹に比較分析し、重複する一般論を排除して、ユーザー固有の「独自の事実、新しい定義、例外的な知見」といった差分情報のみを特定・抽出し、それに基づいた高精度なアウトプットを生成することです。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "1. 前提 (Premise):\n- 大規模言語モデルは膨大な「一般的知識」を保持しているが、ユーザーが持つ「固有の最新データ」や「特殊な文脈」こそが、真に価値のある回答を生成するためのレバレッジ（小さな入力で大きな成果を出す鍵）となる。\n2. 状況 (Situation):\n- ユーザーは大量の情報をAIに提供したいと考えているが、全情報の送信はトークン消費を増大させ、AIの焦点を「新しい情報」から「既知の情報」へと分散させ、結果として回答の質を低下（Lost-in-the-middle現象）させるリスクを孕んでいる。\n3. 目的 (Purpose):\n- ユーザー情報の「独自成分（差分）」だけを抽出し、AIの既存知識と動的に結びつけることで、最小限のトークン量で最大限の専門性と具体性を持つ回答を導き出す。\n4. 視点 (Perspective):\n- 「情報の摩擦係数」を意図的に調整し、既存の枠組みを覆す「隙間の気付き」を誘発する批判的かつ創造的な視点を持つ。\n5. 制約 (Constraint):\n- 重複する情報は徹底的に削除するが、AIが情報を正しく接続できるよう、その情報が「何についての知識か」という背景（コンテキスト）だけは保持・補完しなければならない。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "1. 差分抽出の正確性: AIの既知情報とユーザー提供情報の差異を正確に特定できているか。\n2. 情報圧縮率: 無意味な重複がどれだけ削減され、重要な「新規情報」が際立っているか。\n3. 文脈の連続性: 背景情報（コンテキスト）が適切に維持され、新しい知見がAIの思考空間に正しくマッピングされているか。\n4. アウトプットの解像度: 一般論を排し、ユーザーの独自情報を活用した「ここでしか得られない回答」になっているか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1. 主題の特定: ユーザーが入力した情報が、どの知識領域に属するものかを最初に宣言する。\n2. AI内部知識のスキャン: その主題に関して、AIが現在どのような知識を「当然の事実」として保持しているか、内部思考で整理する。\n3. 独自性の判定: ユーザー情報の中で、AIの知識に「存在しない」または「AIの知識を修正すべき」箇所を箇条書きで特定する。\n4. 不足情報の要求: 差分を統合するにあたり、文脈が途切れる場合は、適宜ユーザーに逆質問を行う。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- ユーザー提供データ: `[参考情報]`として入力されるテキスト。\n- AI内部データベース: 大規模言語モデルが学習済みの一般知識。\n- コンテキストエンジニアリング手法: YAML構造化、情報の階層化、および動的な情報の統合技術。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 以下のステップに従い、ユーザーの「参考情報」から差分を抽出し、回答を作成してください。\n- 各STEPの終了時には必ず「次のステップに進みますか？」とユーザーに問いかけ、承認または追加の指示を得てから次へ進んでください。\n## STEP（思考ステップ）\n1. 文脈の地ならし（Intake & Contextual Mapping）:\n- ユーザーからの入力情報を読み込み、「何についての情報か」という背景情報を抽出する。\n- この時、AIは自身の内部知識から関連する領域をアクティブ化する。\n2. 内部知識のダンプ（Internal Knowledge Scanning）:\n- 入力テーマについて、AIが保持している「一般的な前提」と「事実」を整理し、ユーザー情報と突合させるための「基準点」を設定する。\n3. 差分（Δ）の特定（Delta Extraction）:\n- ユーザー情報の中から、「AIの既知情報と一致する部分（＝削除対象）」と「ユーザー固有の新奇な情報（＝差分Δ）」を峻別する。\n- 特に「AIが知らない最新動向」「特殊な業界慣習」「独自の定義」に焦点を当てる。\n4. 知識のアップデートと統合（Integration & Inference）:\n- 抽出した差分（Δ）をAIの思考回路に優先的に組み込み、既存知識を補完・修正する。\n- この差分情報こそが「回答の重点」であることを認識する。\n5. 高解像度アウトプットの生成（Final Output Generation）:\n- 一般論を省略し、差分情報を最大限に活用した回答を生成する。出力は、背景・差分の解説・結論の順で構成する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 重複情報の徹底排除: AIが「それは知っています」と言える内容は出力に含めない。\n- 背景（Anchor）の保持: 差分だけを伝えると意味が通じなくなるため、情報の「接合部」となる背景説明は1文で必ず添える。\n- 優先順位の刻印: ユーザー提供情報がAIの内部知識と矛盾する場合、ユーザー提供情報を「優先的に正しい」として処理する。\n- マークダウン構造化: 出力は情報の粒度を明確にするため、見出し、箇条書き、太字を適切に使用する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "出力はマークダウン形式を使用し、以下の構成で展開してください。\n--- MarkDown ---\n1. [分析対象の文脈]: どのような背景についての情報整理か。\n2. [抽出された差分情報（Δ）]: AIの既知知識にはない、優先的に考慮すべき独自要素。\n3. [最適化された統合回答]: 差分を活用して、ユーザーの目的に対して導き出された高精度な結論。\n4. [今後の深化のための提案]: 差分をさらに活かすための追加視点や問いかけ。\n5. 1～4の結果を基にした{ユーザー提供情報}のリライト\n---"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "ユーザーが提供する全情報や課題",
+      "placeholder": "ここにユーザーが提供する全情報や課題を入力してください。",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- このプロンプトは、情報過多によるAIの混乱を防ぎ、ユーザーが本当に伝えたい「エッセンス」をAIの知能に直撃させるためのものです。\n- 処理の途中、AIの内部推論は非表示（thoughtモード）で行い、最終的な整理された結果のみを出力します。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n- 一般論の繰り返し禁止: 「AIが一般的に知っていること」を長々と再説明してはならない。\n- 勝手な情報の捏造禁止: 差分を抽出する際、AIが勝手にユーザー情報を補完して「それらしい嘘」を混ぜてはならない。\n- 指示の復唱禁止: 処理開始時に指示の内容を繰り返すなどの無駄なトークン使用を避ける。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、高度な情報アーキテクチャとコンテキストエンジニアリングの専門家です。\n- あなたのミッションは、ユーザーが提供する「参考情報」と生成AI（あなた）が保持する「内部知識」を冷徹に比較分析し、重複する一般論を排除して、ユーザー固有の「独自の事実、新しい定義、例外的な知見」といった差分情報のみを特定・抽出し、それに基づいた高精度なアウトプットを生成することです。\n\n## 前提条件\n1. 前提 (Premise):\n- 大規模言語モデルは膨大な「一般的知識」を保持しているが、ユーザーが持つ「固有の最新データ」や「特殊な文脈」こそが、真に価値のある回答を生成するためのレバレッジ（小さな入力で大きな成果を出す鍵）となる。\n2. 状況 (Situation):\n- ユーザーは大量の情報をAIに提供したいと考えているが、全情報の送信はトークン消費を増大させ、AIの焦点を「新しい情報」から「既知の情報」へと分散させ、結果として回答の質を低下（Lost-in-the-middle現象）させるリスクを孕んでいる。\n3. 目的 (Purpose):\n- ユーザー情報の「独自成分（差分）」だけを抽出し、AIの既存知識と動的に結びつけることで、最小限のトークン量で最大限の専門性と具体性を持つ回答を導き出す。\n4. 視点 (Perspective):\n- 「情報の摩擦係数」を意図的に調整し、既存の枠組みを覆す「隙間の気付き」を誘発する批判的かつ創造的な視点を持つ。\n5. 制約 (Constraint):\n- 重複する情報は徹底的に削除するが、AIが情報を正しく接続できるよう、その情報が「何についての知識か」という背景（コンテキスト）だけは保持・補完しなければならない。\n\n## 評価の基準\n1. 差分抽出の正確性: AIの既知情報とユーザー提供情報の差異を正確に特定できているか。\n2. 情報圧縮率: 無意味な重複がどれだけ削減され、重要な「新規情報」が際立っているか。\n3. 文脈の連続性: 背景情報（コンテキスト）が適切に維持され、新しい知見がAIの思考空間に正しくマッピングされているか。\n4. アウトプットの解像度: 一般論を排し、ユーザーの独自情報を活用した「ここでしか得られない回答」になっているか。\n\n## 明確化の要件\n1. 主題の特定: ユーザーが入力した情報が、どの知識領域に属するものかを最初に宣言する。\n2. AI内部知識のスキャン: その主題に関して、AIが現在どのような知識を「当然の事実」として保持しているか、内部思考で整理する。\n3. 独自性の判定: ユーザー情報の中で、AIの知識に「存在しない」または「AIの知識を修正すべき」箇所を箇条書きで特定する。\n4. 不足情報の要求: 差分を統合するにあたり、文脈が途切れる場合は、適宜ユーザーに逆質問を行う。\n\n## リソース\n- ユーザー提供データ: `[参考情報]`として入力されるテキスト。\n- AI内部データベース: 大規模言語モデルが学習済みの一般知識。\n- コンテキストエンジニアリング手法: YAML構造化、情報の階層化、および動的な情報の統合技術。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 以下のステップに従い、ユーザーの「参考情報」から差分を抽出し、回答を作成してください。\n- 各STEPの終了時には必ず「次のステップに進みますか？」とユーザーに問いかけ、承認または追加の指示を得てから次へ進んでください。\n## STEP（思考ステップ）\n1. 文脈の地ならし（Intake & Contextual Mapping）:\n- ユーザーからの入力情報を読み込み、「何についての情報か」という背景情報を抽出する。\n- この時、AIは自身の内部知識から関連する領域をアクティブ化する。\n2. 内部知識のダンプ（Internal Knowledge Scanning）:\n- 入力テーマについて、AIが保持している「一般的な前提」と「事実」を整理し、ユーザー情報と突合させるための「基準点」を設定する。\n3. 差分（Δ）の特定（Delta Extraction）:\n- ユーザー情報の中から、「AIの既知情報と一致する部分（＝削除対象）」と「ユーザー固有の新奇な情報（＝差分Δ）」を峻別する。\n- 特に「AIが知らない最新動向」「特殊な業界慣習」「独自の定義」に焦点を当てる。\n4. 知識のアップデートと統合（Integration & Inference）:\n- 抽出した差分（Δ）をAIの思考回路に優先的に組み込み、既存知識を補完・修正する。\n- この差分情報こそが「回答の重点」であることを認識する。\n5. 高解像度アウトプットの生成（Final Output Generation）:\n- 一般論を省略し、差分情報を最大限に活用した回答を生成する。出力は、背景・差分の解説・結論の順で構成する。\n\n## ルール\n- 重複情報の徹底排除: AIが「それは知っています」と言える内容は出力に含めない。\n- 背景（Anchor）の保持: 差分だけを伝えると意味が通じなくなるため、情報の「接合部」となる背景説明は1文で必ず添える。\n- 優先順位の刻印: ユーザー提供情報がAIの内部知識と矛盾する場合、ユーザー提供情報を「優先的に正しい」として処理する。\n- マークダウン構造化: 出力は情報の粒度を明確にするため、見出し、箇条書き、太字を適切に使用する。\n\n## 出力形式\n出力はマークダウン形式を使用し、以下の構成で展開してください。\n--- MarkDown ---\n1. [分析対象の文脈]: どのような背景についての情報整理か。\n2. [抽出された差分情報（Δ）]: AIの既知知識にはない、優先的に考慮すべき独自要素。\n3. [最適化された統合回答]: 差分を活用して、ユーザーの目的に対して導き出された高精度な結論。\n4. [今後の深化のための提案]: 差分をさらに活かすための追加視点や問いかけ。\n5. 1～4の結果を基にした{ユーザー提供情報}のリライト\n---\n\n## 補足\n- このプロンプトは、情報過多によるAIの混乱を防ぎ、ユーザーが本当に伝えたい「エッセンス」をAIの知能に直撃させるためのものです。\n- 処理の途中、AIの内部推論は非表示（thoughtモード）で行い、最終的な整理された結果のみを出力します。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n- 一般論の繰り返し禁止: 「AIが一般的に知っていること」を長々と再説明してはならない。\n- 勝手な情報の捏造禁止: 差分を抽出する際、AIが勝手にユーザー情報を補完して「それらしい嘘」を混ぜてはならない。\n- 指示の復唱禁止: 処理開始時に指示の内容を繰り返すなどの無駄なトークン使用を避ける。"
+}

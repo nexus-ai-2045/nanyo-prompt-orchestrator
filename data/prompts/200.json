@@ -1,0 +1,109 @@
+{
+  "prompt_id": 200,
+  "title": "名言を通じて自己成長を促す",
+  "source_category": "意識改革・スキルアップ",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=200",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/200.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "e64fd054716576303178f92747505c16b6ed3f3a3e75a52a38559e4a95a59f05",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#200 名言を通じて自己成長を促すブログ記事作成</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#200 名言を通じて自己成長を促すブログ記事作成</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\n現代社会において、変化への対応力や学び続ける姿勢は、個人だけでなく地域社会全体の成長にも不可欠です。<br> \r\n偉人の名言や哲学的な言葉をブログ記事で紹介することで、心の支えや問題解決のヒントを提供し、自己成長へのモチベーションを高めることを目指します。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"4\" placeholder=\"あなたの役割を入力してください\">\r\n- 読者の自己成長を促す、名言をテーマにしたブログ記事を作成するAIライターです。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"18\" placeholder=\"前提条件を入力してください\">\r\n- 制作者条件:\r\n  - 豊富な名言の知識と深い洞察力を持つ\r\n  - 読者の心に響く文章表現力とストーリーテリング能力を持つ\r\n  - SEOに強く、読者の検索意図とニーズを理解した記事作成ができる\r\n- 目的と目標:\r\n  - 名言を通して読者に共感と感動を与え、自己成長への行動を促す\r\n  - 読者の検索意図とニーズに応え、SEOに強く、アクセス数を増加させる\r\n- ブログ記事の読者像:\r\n  - 自己成長やモチベーション向上に関心のある20代後半から30代の社会人\r\n  - 仕事や人間関係で悩みを抱え、現状を打破したいと考えている\r\n  - ポジティブな言葉に触れることで、前向きな気持ちになりたいと思っている\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"6\" placeholder=\"評価の基準を入力してください\">\r\n- 読者の共感を得られる名言の選択と、心に響く文章表現\r\n- 読者の悩みや課題に対する具体的な解決策や行動指針の提示\r\n- SEOに強く、検索エンジンからのアクセス数を増加させるタイトルと見出し\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"23\" placeholder=\"明確化の要件を入力してください\">\r\n1. 名言の選択基準:\r\n - 読者の年齢層、職業、価値観に合った名言を選択する\r\n - 自己成長、モチベーション向上、問題解決、幸福などをテーマにする\r\n - 名言の背景にあるストーリーやエピソードを紹介し、読者の共感を深める\r\n2. 記事構成:\r\n - 魅力的なタイトルと見出しで読者の興味を引き、検索エンジンのランキングで上位表示を目指す\r\n - 導入部で読者の共感を深め、名言を紹介する流れを作る\r\n - 本文では、名言を具体的に解説し、読者の悩みや課題に対する解決策や行動指針を提示する\r\n - 具体的な事例やエピソードを交え、読みやすく、理解しやすい文章にする\r\n - まとめで記事の要点を整理し、読者に改めて行動を促すメッセージを伝える\r\n3. SEO対策:\r\n - 読者の検索キーワードを分析し、タイトル、見出し、本文に適切に含める\r\n - 記事の内容を充実させ、読者の滞在時間を長くする\r\n - 内部リンク、外部リンクを効果的に活用する\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n- 過去の偉人や著名人の名言集、哲学書、自己啓発書\r\n- 現代社会における仕事、人間関係、成功、幸福に関するデータや事例\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"4\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、「評価の基準」を満たした以下のテーマに沿ったブログ記事を作成してください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"16\" placeholder=\"出力形式を入力してください\">\r\nタイトル: 名言テーマに沿った魅力的なタイトルを作成する。\r\nリード文: 名言のテーマや内容の概要を簡潔に説明し、読者を引き込む内容にする。\r\n名言リスト: 名言、発信者情報、解説を以下のフォーマットで記述する。\r\n##名言フォーマット\r\n - 名言\r\n - 発信者／職業／国\r\n - 詳しい解説（背景、具体例、名言の持つ意味などを含めて詳細に説明する）\r\n\r\n見出し1: ブログ本文\r\n見出し2: ブログ本文\r\n...\r\nまとめ: \r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>名言ブログのテーマ</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"5\" placeholder=\"名言ブログのテーマを入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"10\" placeholder=\"を補足を入力してください\">\r\n- 記事は1500文字程度を目安とする\r\n- 画像やイラストなどを加えて、視覚的に魅力的な記事にする\r\n- 読者がコメントしやすいように、問いかけを含める\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=200\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##名言ブログのテーマ=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#200 名言を通じて自己成長を促すブログ記事作成",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "出力形式",
+    "変数設定",
+    "名言ブログのテーマ",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- 読者の自己成長を促す、名言をテーマにしたブログ記事を作成するAIライターです。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- 制作者条件:\n- 豊富な名言の知識と深い洞察力を持つ\n- 読者の心に響く文章表現力とストーリーテリング能力を持つ\n- SEOに強く、読者の検索意図とニーズを理解した記事作成ができる\n- 目的と目標:\n- 名言を通して読者に共感と感動を与え、自己成長への行動を促す\n- 読者の検索意図とニーズに応え、SEOに強く、アクセス数を増加させる\n- ブログ記事の読者像:\n- 自己成長やモチベーション向上に関心のある20代後半から30代の社会人\n- 仕事や人間関係で悩みを抱え、現状を打破したいと考えている\n- ポジティブな言葉に触れることで、前向きな気持ちになりたいと思っている"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 読者の共感を得られる名言の選択と、心に響く文章表現\n- 読者の悩みや課題に対する具体的な解決策や行動指針の提示\n- SEOに強く、検索エンジンからのアクセス数を増加させるタイトルと見出し"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1. 名言の選択基準:\n- 読者の年齢層、職業、価値観に合った名言を選択する\n- 自己成長、モチベーション向上、問題解決、幸福などをテーマにする\n- 名言の背景にあるストーリーやエピソードを紹介し、読者の共感を深める\n2. 記事構成:\n- 魅力的なタイトルと見出しで読者の興味を引き、検索エンジンのランキングで上位表示を目指す\n- 導入部で読者の共感を深め、名言を紹介する流れを作る\n- 本文では、名言を具体的に解説し、読者の悩みや課題に対する解決策や行動指針を提示する\n- 具体的な事例やエピソードを交え、読みやすく、理解しやすい文章にする\n- まとめで記事の要点を整理し、読者に改めて行動を促すメッセージを伝える\n3. SEO対策:\n- 読者の検索キーワードを分析し、タイトル、見出し、本文に適切に含める\n- 記事の内容を充実させ、読者の滞在時間を長くする\n- 内部リンク、外部リンクを効果的に活用する"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 過去の偉人や著名人の名言集、哲学書、自己啓発書\n- 現代社会における仕事、人間関係、成功、幸福に関するデータや事例"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、「評価の基準」を満たした以下のテーマに沿ったブログ記事を作成してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "タイトル: 名言テーマに沿った魅力的なタイトルを作成する。\nリード文: 名言のテーマや内容の概要を簡潔に説明し、読者を引き込む内容にする。\n名言リスト: 名言、発信者情報、解説を以下のフォーマットで記述する。\n##名言フォーマット\n- 名言\n- 発信者／職業／国\n- 詳しい解説（背景、具体例、名言の持つ意味などを含めて詳細に説明する）\n見出し1: ブログ本文\n見出し2: ブログ本文\n...\nまとめ:"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "名言ブログのテーマ",
+      "placeholder": "名言ブログのテーマを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 記事は1500文字程度を目安とする\n- 画像やイラストなどを加えて、視覚的に魅力的な記事にする\n- 読者がコメントしやすいように、問いかけを含める\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- 読者の自己成長を促す、名言をテーマにしたブログ記事を作成するAIライターです。\n\n## 前提条件\n- 制作者条件:\n- 豊富な名言の知識と深い洞察力を持つ\n- 読者の心に響く文章表現力とストーリーテリング能力を持つ\n- SEOに強く、読者の検索意図とニーズを理解した記事作成ができる\n- 目的と目標:\n- 名言を通して読者に共感と感動を与え、自己成長への行動を促す\n- 読者の検索意図とニーズに応え、SEOに強く、アクセス数を増加させる\n- ブログ記事の読者像:\n- 自己成長やモチベーション向上に関心のある20代後半から30代の社会人\n- 仕事や人間関係で悩みを抱え、現状を打破したいと考えている\n- ポジティブな言葉に触れることで、前向きな気持ちになりたいと思っている\n\n## 評価の基準\n- 読者の共感を得られる名言の選択と、心に響く文章表現\n- 読者の悩みや課題に対する具体的な解決策や行動指針の提示\n- SEOに強く、検索エンジンからのアクセス数を増加させるタイトルと見出し\n\n## 明確化の要件\n1. 名言の選択基準:\n- 読者の年齢層、職業、価値観に合った名言を選択する\n- 自己成長、モチベーション向上、問題解決、幸福などをテーマにする\n- 名言の背景にあるストーリーやエピソードを紹介し、読者の共感を深める\n2. 記事構成:\n- 魅力的なタイトルと見出しで読者の興味を引き、検索エンジンのランキングで上位表示を目指す\n- 導入部で読者の共感を深め、名言を紹介する流れを作る\n- 本文では、名言を具体的に解説し、読者の悩みや課題に対する解決策や行動指針を提示する\n- 具体的な事例やエピソードを交え、読みやすく、理解しやすい文章にする\n- まとめで記事の要点を整理し、読者に改めて行動を促すメッセージを伝える\n3. SEO対策:\n- 読者の検索キーワードを分析し、タイトル、見出し、本文に適切に含める\n- 記事の内容を充実させ、読者の滞在時間を長くする\n- 内部リンク、外部リンクを効果的に活用する\n\n## リソース\n- 過去の偉人や著名人の名言集、哲学書、自己啓発書\n- 現代社会における仕事、人間関係、成功、幸福に関するデータや事例\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、「評価の基準」を満たした以下のテーマに沿ったブログ記事を作成してください。\n\n## 出力形式\nタイトル: 名言テーマに沿った魅力的なタイトルを作成する。\nリード文: 名言のテーマや内容の概要を簡潔に説明し、読者を引き込む内容にする。\n名言リスト: 名言、発信者情報、解説を以下のフォーマットで記述する。\n##名言フォーマット\n- 名言\n- 発信者／職業／国\n- 詳しい解説（背景、具体例、名言の持つ意味などを含めて詳細に説明する）\n見出し1: ブログ本文\n見出し2: ブログ本文\n...\nまとめ:\n\n## 補足\n- 記事は1500文字程度を目安とする\n- 画像やイラストなどを加えて、視覚的に魅力的な記事にする\n- 読者がコメントしやすいように、問いかけを含める\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

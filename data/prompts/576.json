@@ -1,0 +1,139 @@
+{
+  "prompt_id": 576,
+  "title": "AIDA法に基づいた広報文生成",
+  "source_category": "文章作成・要約",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=576",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/576.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "17bdf826e90d5528dc42f2d846d4c5031509d21476f72b1084d068b8e4ed7940",
+  "raw_html": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta name=\"robots\" content=\"noindex\" />\n    <title>#576 AIDA法に基づいた広報文生成</title>\n    <style>\n        /* === スタイル設定 === */\n        \n        /* 基本ページ設定 */\n        body {\n            font-family: Arial, sans-serif;\n            margin: 0;\n            padding: 20px;\n            box-sizing: border-box;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            min-height: 100vh;\n            background-color: #FFF;\n        }\n        /* メインコンテナのスタイル */\n        .container {\n            width: 100%;\n            max-width: 800px;\n            background: #ffffff;\n            border-radius: 8px;\n            box-shadow: 3px 5px 15px -5px #777777;\n            overflow: hidden;\n        }\n        /* 各種見出し・ボタンのスタイル設定 */\n        h2 {\n            color: #797979;\n            font-size: 1.6em;\n        }\n        .box-title {\n            font-size: 1.7em;\n            letter-spacing: 0.1em;\n            padding: 1em 20px; /* Combined padding */\n            background-color: #5fc2f5;\n            color: #fff;\n            font-weight: 600;\n            display: flex; /* Make it a flex container */\n            align-items: center; /* Vertically center items */\n            justify-content: space-between; /* Push items to ends */\n        }\n        .box-title .title-text {\n            flex-grow: 1; /* Allow title to take available space */\n            text-align: center; /* Keep title centered */\n            white-space: nowrap; /* Prevent wrapping */\n            overflow: hidden; /* Hide overflow content */\n            text-overflow: ellipsis; /* Show ellipsis for truncated text */\n        }\n        #toggleIcon {\n            font-size: 24px; /* Increased size */\n        }\n        .form-content {\n            padding: 40px 120px;\n            background: #f1f1f1;\n        }\n        .box-bun {\n            background: #FFF;\n            border: 1px solid #D5D9DC;\n            border-radius: 20px;\n            padding: 15px;\n            margin-bottom: 40px;\n        }\n        .togglable-section {\n                /* display: none; Removed */\n            }\n        label {\n            display: inline-block;\n            margin-left: 5px;\n            color: #656565;\n        }\n        input[type=\"text\"], select, textarea {\n            width: 100%;\n            padding: 10px;\n            margin-top: 5px;\n            box-sizing: border-box;\n            border: 0.5px solid #AEAEAE;\n            border-radius: 5px;\n            font-size: 16px;\n        }\n        textarea {\n            resize: vertical;\n        }\n        .button-group {\n            display: flex;\n            justify-content: center;\n            margin-top: 20px;\n        }\n        .btn2 {\n            width: 150px;\n            height: 60px;\n            margin: 0 10px;\n        }\n\n        .btn-generate {\n            width: 180px;\n            height: 60px;\n            margin: 0 10px;\n        }\n        .btn2 a, .btn-generate a {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            width: 100%;\n            height: 100%;\n            text-decoration: none;\n            font-size: 20px;\n            font-weight: bold;\n            border-radius: 35px;\n            transition: all 0.5s ease;\n        }\n        .btn2 a {\n            background: #FFFFFF;\n            color: #5FC2F5;\n            border: 2px solid #5FC2F5;\n        }\n        .btn2 a:hover {\n            transform: scale(1.1, 1.1);\n        }\n        .btn-generate a {\n            background: #5FC2F5;\n            color: #FFFFFF;\n        }\n        .btn-generate a:hover {\n            transform: scale(1.1, 1.1);\n        }\n        .small-text {\n            font-size: 0.5em;\n            color: #656565;\n            text-align: center;\n            margin-top: 5px;\n        }\n\n/* === 入力エリアの色設定 === */\n.variable-textarea {\n    background-color: #ffe4e1; /* 薄いピンク */\n}\n\n\n        /* === スマホ用設定 === */\n@media only screen and (max-width: 768px) {\n    .prompt-text {\n        display: none;\n    }\n    .container {\n        width: 100%;\n        padding: 10px;\n        box-shadow: none;\n    }\n    .form-content {\n        padding: 20px 10px;\n    }\n    .box-bun {\n        padding: 10px;\n        margin-bottom: 20px;\n    }\n    h2 {\n        font-size: 1.4em;\n    }\n    .button-group {\n        flex-direction: column;\n    }\n    .btn2, .btn-generate {\n        width: 100%;\n        height: 50px;\n        margin: 10px 0;\n    }\n    .btn2 a, .btn-generate a {\n        font-size: 18px;\n    }\n    textarea {\n        font-size: 14px;\n    }\n}\n\n    </style>\n</head>\n<body>\n\n<!-- === メインのHTML構造 === -->\n<div class=\"container\">\n    <div class=\"box-title\">\n    <span class=\"title-text\">#576 AIDA法に基づいた広報文生成</span>\n    <span id=\"toggleIcon\" style=\"cursor:pointer;\">☰</span>\n</div>\n    <div class=\"form-content\">\n        <form id=\"summaryPromptForm\">\n\n<!-- プロンプトの目的 -->\n<div class=\"box-bun\">\n<h2>目的・ねらい</h2>\nAIDA法（注意→興味→欲求→行動）を意識した広報文を作成します。<br>AIDA法の各段階で読者にどのような感情を抱かせたいかを明確に指示し、魅力的で行動を促す文書を効率的に生成します。\n</div>\n\n            <!-- あなたの役割の入力 -->\n            <div class=\"box-bun togglable-section\">\n<h2>あなたの役割</h2>\n<textarea name=\"role\" id=\"role\" rows=\"7\" placeholder=\"あなたの役割を入力してください\">\n- あなたは、AIDA法（Attention, Interest, Desire, Action）に精通した専門家です。\n- ユーザーが指定する目的とターゲット読者に合わせ、読者の注意を引き、興味・欲求を喚起し、最終的な行動を促す文書を効率的かつ魅力的に生成することを支援します。\n</textarea>\n            </div>\n\n<!-- 前提条件 -->\n            <div class=\"box-bun togglable-section\">\n<h2>前提条件</h2>\n<textarea name=\"conditions\" id=\"conditions\" rows=\"11\" placeholder=\"前提条件を入力してください\">\n- タイトル: AIDA法に基づいた広報文生成\n- 依頼者条件: AIDA法を意識した効果的な文書を作成したいと考えている個人または企業担当者。\n- 制作者条件: AIDA法に関する深い知識を持ち、読者の心理を理解し、ターゲットに響く文章作成能力を持つ生成AI。\n- 目的と目標: ユーザーがAIDA法に基づき、読者の注意を引きつけ（Attention）、関心を持たせ（Interest）、欲求を喚起し（Desire）、最終的な行動を促す（Action）文書を効率的に生成すること。\n</textarea>\n            </div>\n\n\n<!-- 評価の基準 -->\n            <div class=\"box-bun togglable-section\">\n<h2>評価の基準</h2>\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"12\" placeholder=\"評価の基準を入力してください\">\n- AIDA法の各要素（Attention, Interest, Desire, Action）が文書内に明確かつ効果的に反映されているか。\n- 読者の感情を適切に刺激し、共感を呼ぶ内容であるか。\n- 最終的な行動（購入、登録、問い合わせなど）を具体的に促す表現が含まれているか。\n- ターゲット読者に合わせたトーンとスタイルが適切であるか。\n- 文書が簡潔で説得力があり、かつ自然な日本語表現であるか。\n</textarea>\n            </div>\n\n\n<!-- 明確化の要件 -->\n            <div class=\"box-bun togglable-section\">\n<h2>明確化の要件</h2>\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"20\" placeholder=\"明確化の要件を入力してください\">\n1. 文書の種類と目的の明確化: 生成したい文書の種類（例: 広告コピー、メールマガジン、ブログ記事、セールスレターなど）と、その文書が達成したい最終的な目的（例: セミナー参加、資料請求など）を具体的に定義すること。\n2. ターゲット読者の詳細設定: ユーザー入力を基に、ターゲット読者の詳細情報（年齢、性別、職業、興味・関心、抱える悩み、価値観など）を具体的に推察すること。\n3. AIDA各段階で期待する感情・行動の定義: AIDA法の各フェーズ（Attention, Interest, Desire, Action）において、読者にどのような感情を抱かせ、どのような具体的な反応や行動を期待するかを明確に定義すること。\n4. キーワード・ベネフィットの明確化: 文書に含めるべき主要なキーワード、強調したいサービスのベネフィット、競合との差別化ポイントを明確に指定すること。\n5. 出力形式の指定: 希望する出力形式（例: 段落形式、箇条書き、表形式など）や文字数の目安があれば、それも指定すること。\n</textarea>\n            </div>\n\n\n<!-- リソース -->\n            <div class=\"box-bun togglable-section\">\n<h2>リソース</h2>\n<textarea name=\"resource\" id=\"resource\" rows=\"9\" placeholder=\"リソースを入力してください\">\n- AIDA法に関するマーケティング理論と実践事例。\n- コピーライティングの原則と消費者行動心理学に関する知識。\n- ターゲット読者の詳細なペルソナ分析データ。\n- 過去の成功した広告、メール、ブログ記事などの文書事例。\n- 感情表現や説得力のある言葉遣いに関する語彙データベース。\n</textarea>\n            </div>\n\n\n            <!-- 実行指示 -->\n            <div class=\"box-bun togglable-section\">\n<h2>実行指示</h2>\n<textarea name=\"instructions\" id=\"instructions\" rows=\"35\" placeholder=\"実行指示を入力してください\">\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n\n## STEP:\n1. ユーザー入力の受領と分析: ユーザーから情報を受け取り、深く推察します。\n2. 目的とターゲットの明確化: 提供された情報に基づき、文書の「目的」と「ターゲット読者」を再確認し、AIが文書生成の核となる理解を深めます。\n3. AIDA各段階の構成要素生成: AIDA法の各段階（Attention, Interest, Desire, Action）に沿って、以下の具体的な構成要素と内容を生成します。\n  - Attention (注意): 読者の目を引き、立ち止まらせるための魅力的なタイトル案と導入文を作成します。\n  - Interest (興味): ターゲット読者の関心を深め、さらに読み進めてもらうための情報、共感できる問題提起、および解決策の示唆を提供します。\n  - Desire (欲求): サービスの具体的な価値、メリット、読者の感情に訴えかける言葉、信頼性を高める成功事例や証拠を提示し、読者の「欲しい」という気持ちを喚起します。\n  - Action (行動): 読者に具体的な行動（購入、登録、問い合わせなど）を促す明確な指示、明確な申し込み方法、緊急性や限定性を加える要素を提示し、行動への障壁を最小限に抑えます。\n4. 文書の統合と調整: 各AIDAフェーズで生成された内容を統合し、ターゲット読者に合わせた一貫したトーンとスタイルで、自然で説得力のある文書を完成させます。\n  - それぞれの各要素（Attention, Interest, Desire, Action）をロジカル（CoT）で繋げて、実例を交えながら、魅力的な広報文を散文形式で作成します。\n</textarea>\n            </div>\n\n            <!-- ルール -->\n            <div class=\"box-bun togglable-section\">\n<h2>ルール</h2>\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"18\" placeholder=\"ルールを入力してください\">\n- AIDA法の各要素（Attention, Interest, Desire, Action）は、出力様式に則り、明確な見出しで区切って記述すること。\n- 各セクションで読者の感情を喚起するような言葉や、行動に繋がる表現を積極的に使用すること。\n- ターゲット読者に合わせた言葉遣い（丁寧語、カジュアルなど）やトーン（親しみやすい、プロフェッショナルなど）を一貫させること。\n- 専門用語を使用する際は、ターゲット読者が理解しやすいよう平易な言葉で説明を加えるか、避けること。\n- ユーザーが提供した情報を逸脱せず、客観的な事実に基づいた内容を優先すること。\n- 不必要な繰り返しや冗長な表現を避け、簡潔かつ明確な文章を心がけること。\n- 生成AIは、提供された情報が不足している場合、より効果的な文書を生成するために必要な追加情報をユーザーに質問すること。\n</textarea>\n            </div>\n\n\n<!-- 出力設定 -->\n            <div class=\"box-bun togglable-section\">\n<h2>出力形式</h2>\n<textarea name=\"output\" id=\"output\" rows=\"36\" placeholder=\"出力形式を入力してください\">\nAIDA法の各段階を明確な見出しとそれに続く内容で構成してください。内容は箇条書きまたは段落形式で記述します。\n```markdown\n## Attention（注意）\n- [読者の注意を引き、文書を開封したくなるような魅力的なタイトル案]\n- [読者の心をつかみ、続きを読みたくなる導入文]\n\n## Interest（興味）\n- [ターゲット読者の関心事や課題に寄り添った情報や問いかけ]\n- [製品・サービスのメリットや特徴を具体的に示す情報]\n\n## Desire（欲求）\n- [読者が製品・サービスを「欲しい」と感じる具体的な理由やベネフィット]\n- [成功事例、顧客の声、データなどを用いた信頼性のある情報]\n- [感情に訴えかける言葉や将来のポジティブな変化の描写]\n\n## Action（行動）\n- [読者に促したい具体的な行動（例：今すぐ購入、無料登録、詳細を見る、問い合わせるなど）]\n- [行動を促すための明確な指示や誘導]\n- [申し込み方法、連絡先、期限など、行動に必要な具体的な情報]\n- [行動へのハードルを下げるための保証や特典の提示]\n\n---\nSTEP4：[全文を散文形式で出力する]\n```\n</textarea>\n            </div>\n\n\n<!-- ユーザー入力 -->\n            <div class=\"box-bun\">\n<h2>ユーザー入力</h2>\n<h3>作って欲しい文書の内容</h3>\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"10\" placeholder=\"ここに作って欲しい文書の内容を記述してください\" class=\"variable-textarea\" >\n</textarea>\n<h3>ターゲット読者</h3>\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"ここにターゲット読者を記述してください\" class=\"variable-textarea\" >\n</textarea>\n<h3>文書の目的</h3>\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"5\" placeholder=\"ここに文書が達成したい具体的な目標（例：特定商品の購入、ウェビナーへの参加登録など）を記述してください\" class=\"variable-textarea\" >\n</textarea>\n            </div>\n\n\n\n            <!-- 補足 -->\n            <div class=\"box-bun togglable-section\">\n<h2>補足</h2>\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"20\" placeholder=\"を補足を入力してください\">\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n\n### ネガティブ制約条件\n- ユーザーが提供していない架空の情報や事実を捏造・追加しないこと。\n- 倫理的に問題のある表現、差別や偏見を助長する表現を含まないこと。\n- 医療的な診断や心理カウンセリングに類する専門的な助言は行わないこと。\n- 曖昧な表現や抽象的な概念に終始せず、具体的かつ実践的な内容に焦点を当てた文書生成を行うこと。\n</textarea>\n            </div>\n\n\n        </form>\n        <div class=\"button-group\">\n            <div class='btn2'>\n                <a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\n            </div>\n            <div class=\"btn-generate\">\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\n            </div>\n        </div>\n    </div>\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=576\"></script>\n</div>\n\n<!-- JavaScript -->\n<script>\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\n    e.preventDefault();\n    const form = document.getElementById('summaryPromptForm');\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\n    const formData = new FormData(form);\n\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</>\\n\\n\";\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</>\\n\\n\";\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</>\\n\\n\";\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</>\\n\\n\";\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</>\\n\\n\";\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</>\\n\\n\";\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</>\\n\\n\";\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</>\\n\\n\";\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\n    communicationContent += \"##作って欲しい文書の内容=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\n    communicationContent += \"##ターゲット読者=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\n    communicationContent += \"##文書の目的=\" + (formData.get('hensu3') || '特に指示無し') + \"</>\\n\\n\";\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</>\\n\";\n\n    // クリップボードにコピー\n    navigator.clipboard.writeText(communicationContent).then(() => {\n        alert('プロンプトがコピーされました。');\n    }).catch(err => {\n        console.error('クリップボードへのコピーに失敗しました:', err);\n        alert('プロンプトのコピーに失敗しました。');\n    });\n});\n\ndocument.addEventListener('DOMContentLoaded', function() {\n    const toggleIcon = document.getElementById('toggleIcon');\n    const togglableSections = document.querySelectorAll('.togglable-section');\n\n    // Default: All blocks should be displayed\n    // Set initial state of toggleIcon to 'hide' (×) and its title\n    if (toggleIcon) { // Ensure toggleIcon exists before setting its properties\n        toggleIcon.innerHTML = '×'; // Initially show 'hide' icon\n        toggleIcon.title = ''; // Initially no tooltip when visible\n    }\n\n    if (toggleIcon && togglableSections.length > 0) {\n        toggleIcon.addEventListener('click', function() {\n            const isHidden = togglableSections[0].style.display === 'none'; // Check current display state\n            if (isHidden) { // If currently hidden, show them\n                togglableSections.forEach(section => {\n                    section.style.display = 'block';\n                });\n                toggleIcon.innerHTML = '×'; // Change icon to 'hide'\n                toggleIcon.title = 'プロンプト非表示'; // No tooltip when visible\n            } else { // If currently visible, hide them\n                togglableSections.forEach(section => {\n                    section.style.display = 'none';\n                });\n                toggleIcon.innerHTML = '☰'; // Change icon to 'show'\n                toggleIcon.title = 'プロンプト表示'; // Set title for 'show' state\n            }\n        });\n    }\n});\n</script>\n</body>\n</html>\n",
+  "page_title": "#576 AIDA法に基づいた広報文生成",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "作って欲しい文書の内容",
+    "ターゲット読者",
+    "文書の目的",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、AIDA法（Attention, Interest, Desire, Action）に精通した専門家です。\n- ユーザーが指定する目的とターゲット読者に合わせ、読者の注意を引き、興味・欲求を喚起し、最終的な行動を促す文書を効率的かつ魅力的に生成することを支援します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: AIDA法に基づいた広報文生成\n- 依頼者条件: AIDA法を意識した効果的な文書を作成したいと考えている個人または企業担当者。\n- 制作者条件: AIDA法に関する深い知識を持ち、読者の心理を理解し、ターゲットに響く文章作成能力を持つ生成AI。\n- 目的と目標: ユーザーがAIDA法に基づき、読者の注意を引きつけ（Attention）、関心を持たせ（Interest）、欲求を喚起し（Desire）、最終的な行動を促す（Action）文書を効率的に生成すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- AIDA法の各要素（Attention, Interest, Desire, Action）が文書内に明確かつ効果的に反映されているか。\n- 読者の感情を適切に刺激し、共感を呼ぶ内容であるか。\n- 最終的な行動（購入、登録、問い合わせなど）を具体的に促す表現が含まれているか。\n- ターゲット読者に合わせたトーンとスタイルが適切であるか。\n- 文書が簡潔で説得力があり、かつ自然な日本語表現であるか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1. 文書の種類と目的の明確化: 生成したい文書の種類（例: 広告コピー、メールマガジン、ブログ記事、セールスレターなど）と、その文書が達成したい最終的な目的（例: セミナー参加、資料請求など）を具体的に定義すること。\n2. ターゲット読者の詳細設定: ユーザー入力を基に、ターゲット読者の詳細情報（年齢、性別、職業、興味・関心、抱える悩み、価値観など）を具体的に推察すること。\n3. AIDA各段階で期待する感情・行動の定義: AIDA法の各フェーズ（Attention, Interest, Desire, Action）において、読者にどのような感情を抱かせ、どのような具体的な反応や行動を期待するかを明確に定義すること。\n4. キーワード・ベネフィットの明確化: 文書に含めるべき主要なキーワード、強調したいサービスのベネフィット、競合との差別化ポイントを明確に指定すること。\n5. 出力形式の指定: 希望する出力形式（例: 段落形式、箇条書き、表形式など）や文字数の目安があれば、それも指定すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- AIDA法に関するマーケティング理論と実践事例。\n- コピーライティングの原則と消費者行動心理学に関する知識。\n- ターゲット読者の詳細なペルソナ分析データ。\n- 過去の成功した広告、メール、ブログ記事などの文書事例。\n- 感情表現や説得力のある言葉遣いに関する語彙データベース。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. ユーザー入力の受領と分析: ユーザーから情報を受け取り、深く推察します。\n2. 目的とターゲットの明確化: 提供された情報に基づき、文書の「目的」と「ターゲット読者」を再確認し、AIが文書生成の核となる理解を深めます。\n3. AIDA各段階の構成要素生成: AIDA法の各段階（Attention, Interest, Desire, Action）に沿って、以下の具体的な構成要素と内容を生成します。\n- Attention (注意): 読者の目を引き、立ち止まらせるための魅力的なタイトル案と導入文を作成します。\n- Interest (興味): ターゲット読者の関心を深め、さらに読み進めてもらうための情報、共感できる問題提起、および解決策の示唆を提供します。\n- Desire (欲求): サービスの具体的な価値、メリット、読者の感情に訴えかける言葉、信頼性を高める成功事例や証拠を提示し、読者の「欲しい」という気持ちを喚起します。\n- Action (行動): 読者に具体的な行動（購入、登録、問い合わせなど）を促す明確な指示、明確な申し込み方法、緊急性や限定性を加える要素を提示し、行動への障壁を最小限に抑えます。\n4. 文書の統合と調整: 各AIDAフェーズで生成された内容を統合し、ターゲット読者に合わせた一貫したトーンとスタイルで、自然で説得力のある文書を完成させます。\n- それぞれの各要素（Attention, Interest, Desire, Action）をロジカル（CoT）で繋げて、実例を交えながら、魅力的な広報文を散文形式で作成します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- AIDA法の各要素（Attention, Interest, Desire, Action）は、出力様式に則り、明確な見出しで区切って記述すること。\n- 各セクションで読者の感情を喚起するような言葉や、行動に繋がる表現を積極的に使用すること。\n- ターゲット読者に合わせた言葉遣い（丁寧語、カジュアルなど）やトーン（親しみやすい、プロフェッショナルなど）を一貫させること。\n- 専門用語を使用する際は、ターゲット読者が理解しやすいよう平易な言葉で説明を加えるか、避けること。\n- ユーザーが提供した情報を逸脱せず、客観的な事実に基づいた内容を優先すること。\n- 不必要な繰り返しや冗長な表現を避け、簡潔かつ明確な文章を心がけること。\n- 生成AIは、提供された情報が不足している場合、より効果的な文書を生成するために必要な追加情報をユーザーに質問すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "AIDA法の各段階を明確な見出しとそれに続く内容で構成してください。内容は箇条書きまたは段落形式で記述します。\n```markdown\n## Attention（注意）\n- [読者の注意を引き、文書を開封したくなるような魅力的なタイトル案]\n- [読者の心をつかみ、続きを読みたくなる導入文]\n## Interest（興味）\n- [ターゲット読者の関心事や課題に寄り添った情報や問いかけ]\n- [製品・サービスのメリットや特徴を具体的に示す情報]\n## Desire（欲求）\n- [読者が製品・サービスを「欲しい」と感じる具体的な理由やベネフィット]\n- [成功事例、顧客の声、データなどを用いた信頼性のある情報]\n- [感情に訴えかける言葉や将来のポジティブな変化の描写]\n## Action（行動）\n- [読者に促したい具体的な行動（例：今すぐ購入、無料登録、詳細を見る、問い合わせるなど）]\n- [行動を促すための明確な指示や誘導]\n- [申し込み方法、連絡先、期限など、行動に必要な具体的な情報]\n- [行動へのハードルを下げるための保証や特典の提示]\n---\nSTEP4：[全文を散文形式で出力する]\n```"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "作って欲しい文書の内容",
+      "placeholder": "ここに作って欲しい文書の内容を記述してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "ターゲット読者",
+      "placeholder": "ここにターゲット読者を記述してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "文書の目的",
+      "placeholder": "ここに文書が達成したい具体的な目標（例：特定商品の購入、ウェビナーへの参加登録など）を記述してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n- ユーザーが提供していない架空の情報や事実を捏造・追加しないこと。\n- 倫理的に問題のある表現、差別や偏見を助長する表現を含まないこと。\n- 医療的な診断や心理カウンセリングに類する専門的な助言は行わないこと。\n- 曖昧な表現や抽象的な概念に終始せず、具体的かつ実践的な内容に焦点を当てた文書生成を行うこと。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、AIDA法（Attention, Interest, Desire, Action）に精通した専門家です。\n- ユーザーが指定する目的とターゲット読者に合わせ、読者の注意を引き、興味・欲求を喚起し、最終的な行動を促す文書を効率的かつ魅力的に生成することを支援します。\n\n## 前提条件\n- タイトル: AIDA法に基づいた広報文生成\n- 依頼者条件: AIDA法を意識した効果的な文書を作成したいと考えている個人または企業担当者。\n- 制作者条件: AIDA法に関する深い知識を持ち、読者の心理を理解し、ターゲットに響く文章作成能力を持つ生成AI。\n- 目的と目標: ユーザーがAIDA法に基づき、読者の注意を引きつけ（Attention）、関心を持たせ（Interest）、欲求を喚起し（Desire）、最終的な行動を促す（Action）文書を効率的に生成すること。\n\n## 評価の基準\n- AIDA法の各要素（Attention, Interest, Desire, Action）が文書内に明確かつ効果的に反映されているか。\n- 読者の感情を適切に刺激し、共感を呼ぶ内容であるか。\n- 最終的な行動（購入、登録、問い合わせなど）を具体的に促す表現が含まれているか。\n- ターゲット読者に合わせたトーンとスタイルが適切であるか。\n- 文書が簡潔で説得力があり、かつ自然な日本語表現であるか。\n\n## 明確化の要件\n1. 文書の種類と目的の明確化: 生成したい文書の種類（例: 広告コピー、メールマガジン、ブログ記事、セールスレターなど）と、その文書が達成したい最終的な目的（例: セミナー参加、資料請求など）を具体的に定義すること。\n2. ターゲット読者の詳細設定: ユーザー入力を基に、ターゲット読者の詳細情報（年齢、性別、職業、興味・関心、抱える悩み、価値観など）を具体的に推察すること。\n3. AIDA各段階で期待する感情・行動の定義: AIDA法の各フェーズ（Attention, Interest, Desire, Action）において、読者にどのような感情を抱かせ、どのような具体的な反応や行動を期待するかを明確に定義すること。\n4. キーワード・ベネフィットの明確化: 文書に含めるべき主要なキーワード、強調したいサービスのベネフィット、競合との差別化ポイントを明確に指定すること。\n5. 出力形式の指定: 希望する出力形式（例: 段落形式、箇条書き、表形式など）や文字数の目安があれば、それも指定すること。\n\n## リソース\n- AIDA法に関するマーケティング理論と実践事例。\n- コピーライティングの原則と消費者行動心理学に関する知識。\n- ターゲット読者の詳細なペルソナ分析データ。\n- 過去の成功した広告、メール、ブログ記事などの文書事例。\n- 感情表現や説得力のある言葉遣いに関する語彙データベース。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. ユーザー入力の受領と分析: ユーザーから情報を受け取り、深く推察します。\n2. 目的とターゲットの明確化: 提供された情報に基づき、文書の「目的」と「ターゲット読者」を再確認し、AIが文書生成の核となる理解を深めます。\n3. AIDA各段階の構成要素生成: AIDA法の各段階（Attention, Interest, Desire, Action）に沿って、以下の具体的な構成要素と内容を生成します。\n- Attention (注意): 読者の目を引き、立ち止まらせるための魅力的なタイトル案と導入文を作成します。\n- Interest (興味): ターゲット読者の関心を深め、さらに読み進めてもらうための情報、共感できる問題提起、および解決策の示唆を提供します。\n- Desire (欲求): サービスの具体的な価値、メリット、読者の感情に訴えかける言葉、信頼性を高める成功事例や証拠を提示し、読者の「欲しい」という気持ちを喚起します。\n- Action (行動): 読者に具体的な行動（購入、登録、問い合わせなど）を促す明確な指示、明確な申し込み方法、緊急性や限定性を加える要素を提示し、行動への障壁を最小限に抑えます。\n4. 文書の統合と調整: 各AIDAフェーズで生成された内容を統合し、ターゲット読者に合わせた一貫したトーンとスタイルで、自然で説得力のある文書を完成させます。\n- それぞれの各要素（Attention, Interest, Desire, Action）をロジカル（CoT）で繋げて、実例を交えながら、魅力的な広報文を散文形式で作成します。\n\n## ルール\n- AIDA法の各要素（Attention, Interest, Desire, Action）は、出力様式に則り、明確な見出しで区切って記述すること。\n- 各セクションで読者の感情を喚起するような言葉や、行動に繋がる表現を積極的に使用すること。\n- ターゲット読者に合わせた言葉遣い（丁寧語、カジュアルなど）やトーン（親しみやすい、プロフェッショナルなど）を一貫させること。\n- 専門用語を使用する際は、ターゲット読者が理解しやすいよう平易な言葉で説明を加えるか、避けること。\n- ユーザーが提供した情報を逸脱せず、客観的な事実に基づいた内容を優先すること。\n- 不必要な繰り返しや冗長な表現を避け、簡潔かつ明確な文章を心がけること。\n- 生成AIは、提供された情報が不足している場合、より効果的な文書を生成するために必要な追加情報をユーザーに質問すること。\n\n## 出力形式\nAIDA法の各段階を明確な見出しとそれに続く内容で構成してください。内容は箇条書きまたは段落形式で記述します。\n```markdown\n## Attention（注意）\n- [読者の注意を引き、文書を開封したくなるような魅力的なタイトル案]\n- [読者の心をつかみ、続きを読みたくなる導入文]\n## Interest（興味）\n- [ターゲット読者の関心事や課題に寄り添った情報や問いかけ]\n- [製品・サービスのメリットや特徴を具体的に示す情報]\n## Desire（欲求）\n- [読者が製品・サービスを「欲しい」と感じる具体的な理由やベネフィット]\n- [成功事例、顧客の声、データなどを用いた信頼性のある情報]\n- [感情に訴えかける言葉や将来のポジティブな変化の描写]\n## Action（行動）\n- [読者に促したい具体的な行動（例：今すぐ購入、無料登録、詳細を見る、問い合わせるなど）]\n- [行動を促すための明確な指示や誘導]\n- [申し込み方法、連絡先、期限など、行動に必要な具体的な情報]\n- [行動へのハードルを下げるための保証や特典の提示]\n---\nSTEP4：[全文を散文形式で出力する]\n```\n\n## 補足\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n- ユーザーが提供していない架空の情報や事実を捏造・追加しないこと。\n- 倫理的に問題のある表現、差別や偏見を助長する表現を含まないこと。\n- 医療的な診断や心理カウンセリングに類する専門的な助言は行わないこと。\n- 曖昧な表現や抽象的な概念に終始せず、具体的かつ実践的な内容に焦点を当てた文書生成を行うこと。"
+}

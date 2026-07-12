@@ -1,0 +1,149 @@
+{
+  "prompt_id": 637,
+  "title": "コラム構成設計とコラム見出しを補完する",
+  "source_category": "文章作成・要約",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=637",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/637.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "95e0940e4b84c364731bc158a5cab94b38b23a21f1ac79fa0ba87917bce84507",
+  "raw_html": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta name=\"robots\" content=\"noindex\" />\n    <title>#637 コラム構成設計とコラム見出しを補完する</title>\n    <style>\n        /* === スタイル設定 === */\n        \n        /* 基本ページ設定 */\n        body {\n            font-family: Arial, sans-serif;\n            margin: 0;\n            padding: 20px;\n            box-sizing: border-box;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            min-height: 100vh;\n            background-color: #FFF;\n        }\n        /* メインコンテナのスタイル */\n        .container {\n            width: 100%;\n            max-width: 800px;\n            background: #ffffff;\n            border-radius: 8px;\n            box-shadow: 3px 5px 15px -5px #777777;\n            overflow: hidden;\n        }\n        /* 各種見出し・ボタンのスタイル設定 */\n        h2 {\n            color: #797979;\n            font-size: 1.6em;\n        }\n        .box-title {\n            font-size: 1.7em;\n            letter-spacing: 0.1em;\n            padding: 1em 20px; /* Combined padding */\n            background-color: #5fc2f5;\n            color: #fff;\n            font-weight: 600;\n            display: flex; /* Make it a flex container */\n            align-items: center; /* Vertically center items */\n            justify-content: space-between; /* Push items to ends */\n        }\n        .box-title .title-text {\n            flex-grow: 1; /* Allow title to take available space */\n            text-align: center; /* Keep title centered */\n            white-space: nowrap; /* Prevent wrapping */\n            overflow: hidden; /* Hide overflow content */\n            text-overflow: ellipsis; /* Show ellipsis for truncated text */\n        }\n        #toggleIcon {\n            font-size: 24px; /* Increased size */\n        }\n        .form-content {\n            padding: 40px 120px;\n            background: #f1f1f1;\n        }\n        .box-bun {\n            background: #FFF;\n            border: 1px solid #D5D9DC;\n            border-radius: 20px;\n            padding: 15px;\n            margin-bottom: 40px;\n        }\n        .togglable-section {\n                /* display: none; Removed */\n            }\n        label {\n            display: inline-block;\n            margin-left: 5px;\n            color: #656565;\n        }\n        input[type=\"text\"], select, textarea {\n            width: 100%;\n            padding: 10px;\n            margin-top: 5px;\n            box-sizing: border-box;\n            border: 0.5px solid #AEAEAE;\n            border-radius: 5px;\n            font-size: 16px;\n        }\n        textarea {\n            resize: vertical;\n        }\n        .button-group {\n            display: flex;\n            justify-content: center;\n            margin-top: 20px;\n        }\n        .btn2 {\n            width: 150px;\n            height: 60px;\n            margin: 0 10px;\n        }\n\n        .btn-generate {\n            width: 180px;\n            height: 60px;\n            margin: 0 10px;\n        }\n        .btn2 a, .btn-generate a {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            width: 100%;\n            height: 100%;\n            text-decoration: none;\n            font-size: 20px;\n            font-weight: bold;\n            border-radius: 35px;\n            transition: all 0.5s ease;\n        }\n        .btn2 a {\n            background: #FFFFFF;\n            color: #5FC2F5;\n            border: 2px solid #5FC2F5;\n        }\n        .btn2 a:hover {\n            transform: scale(1.1, 1.1);\n        }\n        .btn-generate a {\n            background: #5FC2F5;\n            color: #FFFFFF;\n        }\n        .btn-generate a:hover {\n            transform: scale(1.1, 1.1);\n        }\n        .small-text {\n            font-size: 0.5em;\n            color: #656565;\n            text-align: center;\n            margin-top: 5px;\n        }\n\n/* === 入力エリアの色設定 === */\n.variable-textarea {\n    background-color: #ffe4e1; /* 薄いピンク */\n}\n\n\n        /* === スマホ用設定 === */\n@media only screen and (max-width: 768px) {\n    .prompt-text {\n        display: none;\n    }\n    .container {\n        width: 100%;\n        padding: 10px;\n        box-shadow: none;\n    }\n    .form-content {\n        padding: 20px 10px;\n    }\n    .box-bun {\n        padding: 10px;\n        margin-bottom: 20px;\n    }\n    h2 {\n        font-size: 1.4em;\n    }\n    .button-group {\n        flex-direction: column;\n    }\n    .btn2, .btn-generate {\n        width: 100%;\n        height: 50px;\n        margin: 10px 0;\n    }\n    .btn2 a, .btn-generate a {\n        font-size: 18px;\n    }\n    textarea {\n        font-size: 14px;\n    }\n}\n\n    </style>\n</head>\n<body>\n\n<!-- === メインのHTML構造 === -->\n<div class=\"container\">\n    <div class=\"box-title\">\n    <span class=\"title-text\">#637 コラム構成設計とコラム見出しを補完する</span>\n    <span id=\"toggleIcon\" style=\"cursor:pointer;\">☰</span>\n</div>\n    <div class=\"form-content\">\n        <form id=\"summaryPromptForm\">\n\n<!-- プロンプトの目的 -->\n<div class=\"box-bun\">\n<h2>目的・ねらい</h2>\nプロンプトは、ユーザーが提供した構成設計・コラム見出しのそれぞれに対して、読み手ペルソナが検索ワードを検索した際の心理や状況を深く洞察し、読み手の悩みを端的に解決するための詳細な説明文を生成します。\n\n</div>\n            <!-- あなたの役割の入力 -->\n            <div class=\"box-bun togglable-section\">\n<h2>あなたの役割</h2>\n<textarea name=\"role\" id=\"role\" rows=\"8\" placeholder=\"あなたの役割を入力してください\">\n- あなたは、コンテンツ戦略の専門家であり、同時にユーザー心理を深く洞察する上級データアナリストです。\n- 特定の検索キーワードと読者ペルソナに基づき、コラム見出しの意図を正確に捉え、読者の根本的な悩みを解決するための、説得力と網羅性のある詳細な説明文を作成することを任務とします。\n</textarea>\n            </div>\n\n<!-- 前提条件 -->\n            <div class=\"box-bun togglable-section\">\n<h2>前提条件</h2>\n<textarea name=\"conditions\" id=\"conditions\" rows=\"33\" placeholder=\"前提条件を入力してください\">\n1. 前提 (Premise):\n - コンテンツの真の価値は、読み手の表面的な疑問ではなく、その背景にある根本的な悩みや動機を解決することにある。\n - AIは、提供された{読み手ペルソナ}と{検索ワード}の情報から、読者の感情的・潜在的なニーズを深く推察できる。\n - 各コラム見出しは、読者の問題解決のステップに対応する構造物である。\n2. 状況 (Situation):\n - 現在、コラムの{コラム構成設計}と具体的な{コラム見出し}が用意されている。\n - この段階で、まだ見出しに対応する詳細な説明文が不足しており、特にペルソナの検索意図に沿った深い洞察がコンテンツに欠けている。\n3. 目的 (Purpose):\n - 提供された{コラム見出し}のそれぞれに対して、{読み手ペルソナ}が{検索ワード}を検索した際の心理や状況を深く洞察し、読み手の悩みを端的に解決するための200文字以上の詳細な説明文を生成し、補完すること。\n4. 動機 (Motive):\n - 単なる情報を提供する記事ではなく、読者の心に響き、信頼を獲得する「共感性」と「実用性」を兼ね備えた高品質なコンテンツを効率的に作成することで、記事の価値と検索エンジンにおける評価を最大化する。\n5. 制約 (Constraint):\n - 生成される説明文は、あくまで提供された{コラム見出し}の内容に忠実であること。また、各説明文は必ず200文字以上とする。出力形式とルールを厳守すること。\n</textarea>\n            </div>\n\n\n<!-- 評価の基準 -->\n            <div class=\"box-bun togglable-section\">\n<h2>評価の基準</h2>\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"15\" placeholder=\"評価の基準を入力してください\">\n- ペルソナ適合性: 生成された説明文が、{読み手ペルソナ}の抱える悩みや潜在的な意図（感情ニーズ、潜在ニーズなど）を正確に捉え、それらを解決する内容になっているか。\n- 詳細性・網羅性: 各見出しの説明文が200文字以上であり、見出しのテーマを深く掘り下げ、抽象的でなく具体的な解決策や情報を提供しているか。\n- 論理的整合性: 説明文の内容が、コラム全体の{コラム構成設計}と論理的に一貫しているか。\n- 実用性: 読者がその説明を読んだ後に、具体的な行動や次の思考ステップに進めるような実用的なインサイトが含まれているか。\n</textarea>\n            </div>\n\n\n<!-- 明確化の要件 -->\n            <div class=\"box-bun togglable-section\">\n<h2>明確化の要件</h2>\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"18\" placeholder=\"明確化の要件を入力してください\">\n1. 検索意図の分析: {検索ワード}を情報収集型、案内型、購入検討型、行動型、問題解決型の5つの意図カテゴリに分類し、検索者が持つ複合的な意図を明確にすること。\n2. ペルソナの深掘り: {読み手ペルソナ}が{検索ワード}を検索した際の具体的な心理状態、緊急性、専門性レベル、および時系列的な悩みを詳細に考察すること。\n3. トーンとスタイル: 説明文は、{読み手ペルソナ}に対して共感を呼び、信頼感を与えるトーン（例：専門的かつ親しみやすい、教育的で励ますようなトーンなど）で記述すること。\n4. 記述の具体性: 説明文には、抽象的な表現を避け、具体的なデータ、事例、エピソード、またはアクションプランを盛り込むことで、説得力とリアリティを向上させること。\n</textarea>\n            </div>\n\n\n<!-- リソース -->\n            <div class=\"box-bun togglable-section\">\n<h2>リソース</h2>\n<textarea name=\"resource\" id=\"resource\" rows=\"12\" placeholder=\"リソースを入力してください\">\n- 入力データ: ユーザーから提供される{コラム構成設計}および{コラム見出し}。\n- ペルソナ情報: ユーザーが設定する{読み手ペルソナ}および{検索ワード}。\n- 分析技術: ユーザーの検索意図や心理を深く理解するための検索意図分析、水平思考、深掘り質問に関する知識。\n- 高品質な文章: 読者の関心を引く効果的な文章構成やフレーズに関する知識。\n</textarea>\n            </div>\n\n\n            <!-- 実行指示 -->\n            <div class=\"box-bun togglable-section\">\n<h2>実行指示</h2>\n<textarea name=\"instructions\" id=\"instructions\" rows=\"34\" placeholder=\"実行指示を入力してください\">\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n\n## STEP:\n1. ペルソナと検索意図の統合分析:\n - {検索ワード}と{読み手ペルソナ}が直面している表面的な課題と潜在的な根本課題を明確に特定し、{コラム構成設計}全体がどのような解決の道筋を示そうとしているかを理解します。\n2. 見出しごとの目標設定:\n - {コラム見出し}の各項目について、「この見出しの説明文を通じて、{読み手ペルソナ}のどの不安や疑問を解消し、どのような次の行動（思考）を促すか」という具体的な目的を1文で設定してください。\n3. 詳細説明の生成（200文字以上）:\n - STEP2で設定した目的を達成するため、各{コラム見出し}に対応する説明文を生成します。\n - その際、{読み手ペルソナ}の感情に寄り添うトーンを使用し、必ず200文字以上の詳細かつ具体的な文章で記述してください。\n4. 品質検証:\n - 生成された説明文が「評価の基準」と「ネガティブ制約条件」を満たしているかを自己検証します。\n - 特に文字数、ペルソナへの適合性、抽象的な表現の有無を厳しくチェックします。\n5. 指定出力形式での提示:\n - 最終的な説明文を「出力様式」に従ってまとめて出力してください。\n</textarea>\n            </div>\n\n            <!-- ルール -->\n            <div class=\"box-bun togglable-section\">\n<h2>ルール</h2>\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"13\" placeholder=\"ルールを入力してください\">\n1. 文字数の厳守: 各見出しに対する説明文は、空白文字を含まず200文字を最低限とし、詳細な説明を心がけること。\n2. 曖昧表現の排除: 「〇〇が期待できる」「〜といった影響がある」のような曖昧で抽象的な表現を避け、具体的な事実や事例に基づいて記述すること。\n3. コラム構成の尊重: 生成する説明文は、提供された{コラム見出し}のテーマと範囲から逸脱しないこと。\n4. 検証の明示: 生成後、「評価の基準」に基づき、各説明文がペルソナの潜在ニーズを解決しているかを確認すること。\n</textarea>\n            </div>\n\n\n<!-- 出力設定 -->\n            <div class=\"box-bun togglable-section\">\n<h2>出力形式</h2>\n<textarea name=\"output\" id=\"output\" rows=\"30\" placeholder=\"出力形式を入力してください\">\n- 以下のMarkdown形式で、各見出しとその詳細な説明文を出力してください。\n```markdown\n### 記事の全体目標（AIが推察したペルソナの根本的な悩みと解決策）：\n25\n[ステップ1で分析した、この記事が最終的に解決すべき根本的な悩みを記述]\n\n---\n## コラム見出しと補完された説明文\n\n### 1. {コラム見出し1}\n\n[200文字以上の詳細な説明文]\n\n### 2. {コラム見出し2}\n\n[200文字以上の詳細な説明文]\n\n### 3. {コラム見出し3}\n\n[200文字以上の詳細な説明文]\n\n...（すべての見出しに対して繰り返す）\n```\n</textarea>\n            </div>\n\n\n<!-- ユーザー入力 -->\n            <div class=\"box-bun\">\n<h2>ユーザー入力</h2>\n<h3>検索ワード</h3>\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"5\" placeholder=\"ここに特定の検索ワードを入力してください。（例: 「時短レシピ 疲れない」「子どもの睡眠時間 健康」）\" class=\"variable-textarea\" >\n</textarea>\n<h3>読み手ペルソナ</h3>\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"ここにターゲット読者の詳細を入力してください。（例: 30代女性、共働き、家事・育児との両立に悩み、効率化を強く望んでいる）\" class=\"variable-textarea\" >\n</textarea>\n<h3>コラム構成設計</h3>\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"10\" placeholder=\"ここにコラム構成設計を入力してください。（例: コラム全体のテーマや文脈、ターゲットとする読者層（例：家事効率化の初心者向け）などの概要。）\" class=\"variable-textarea\" >\n</textarea>\n<h3>コラム見出し</h3>\n<textarea name=\"hensu4\" id=\"hensu4\" rows=\"10\" placeholder=\"ここに補完を必要とする具体的な見出しのリストを入力してください。（例: 「AIが提案する献立作成のメリット」「疲労を軽減する買い物の自動化」など）\" class=\"variable-textarea\" >\n</textarea>\n            </div>\n\n\n\n            <!-- 補足 -->\n            <div class=\"box-bun togglable-section\">\n<h2>補足</h2>\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"25\" placeholder=\"を補足を入力してください\">\n- 専門用語や抽象的な概念を使用する場合は、{読み手ペルソナ}の知識レベルに合わせて平易な言葉で説明を加えてください。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n\n### ネガティブ制約条件\n- 各説明文の文字数が200文字を下回る出力は一切禁止とします。\n- 事実無根な情報（ハルシネーション）を生成すること、および推測に基づく断定的な表現を使用することは禁止します。\n- {読み手ペルソナ}の悩みや不安を否定したり、上から目線で指導するような非共感的なトーンは禁止します。\n- 見出しの内容を超えて、コラム全体の結論やまとめを記述することは禁止します。\n</textarea>\n            </div>\n\n\n        </form>\n        <div class=\"button-group\">\n            <div class='btn2'>\n                <a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\n            </div>\n            <div class=\"btn-generate\">\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\n            </div>\n        </div>\n    </div>\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=637\"></script>\n</div>\n\n<!-- JavaScript -->\n<script>\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\n    e.preventDefault();\n    const form = document.getElementById('summaryPromptForm');\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\n    const formData = new FormData(form);\n\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</あなたの役割>\\n\\n\";\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</前提条件>\\n\\n\";\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</評価の基準>\\n\\n\";\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</明確化の要件>\\n\\n\";\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</リソース>\\n\\n\";\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</実行指示>\\n\\n\";\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</ルール>\\n\\n\";\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</出力形式>\\n\\n\";\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\n    communicationContent += \"##検索ワード=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\n    communicationContent += \"##読み手ペルソナ=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\n    communicationContent += \"##コラム構成設計=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\";\n    communicationContent += \"##コラム見出し=\" + (formData.get('hensu4') || '特に指示無し') + \"\\n</ユーザー入力>\\n\\n\";\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</補足>\\n\";\n\n    // クリップボードにコピー\n    navigator.clipboard.writeText(communicationContent).then(() => {\n        alert('プロンプトがコピーされました。');\n    }).catch(err => {\n        console.error('クリップボードへのコピーに失敗しました:', err);\n        alert('プロンプトのコピーに失敗しました。');\n    });\n});\n\ndocument.addEventListener('DOMContentLoaded', function() {\n    const toggleIcon = document.getElementById('toggleIcon');\n    const togglableSections = document.querySelectorAll('.togglable-section');\n\n    // Default: All blocks should be displayed\n    // Set initial state of toggleIcon to 'hide' (×) and its title\n    if (toggleIcon) { // Ensure toggleIcon exists before setting its properties\n        toggleIcon.innerHTML = '×'; // Initially show 'hide' icon\n        toggleIcon.title = ''; // Initially no tooltip when visible\n    }\n\n    if (toggleIcon && togglableSections.length > 0) {\n        toggleIcon.addEventListener('click', function() {\n            const isHidden = togglableSections[0].style.display === 'none'; // Check current display state\n            if (isHidden) { // If currently hidden, show them\n                togglableSections.forEach(section => {\n                    section.style.display = 'block';\n                });\n                toggleIcon.innerHTML = '×'; // Change icon to 'hide'\n                toggleIcon.title = 'プロンプト非表示'; // No tooltip when visible\n            } else { // If currently visible, hide them\n                togglableSections.forEach(section => {\n                    section.style.display = 'none';\n                });\n                toggleIcon.innerHTML = '☰'; // Change icon to 'show'\n                toggleIcon.title = 'プロンプト表示'; // Set title for 'show' state\n            }\n        });\n    }\n});\n</script>\n</body>\n</html>\n",
+  "page_title": "#637 コラム構成設計とコラム見出しを補完する",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "検索ワード",
+    "読み手ペルソナ",
+    "コラム構成設計",
+    "コラム見出し",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、コンテンツ戦略の専門家であり、同時にユーザー心理を深く洞察する上級データアナリストです。\n- 特定の検索キーワードと読者ペルソナに基づき、コラム見出しの意図を正確に捉え、読者の根本的な悩みを解決するための、説得力と網羅性のある詳細な説明文を作成することを任務とします。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "1. 前提 (Premise):\n- コンテンツの真の価値は、読み手の表面的な疑問ではなく、その背景にある根本的な悩みや動機を解決することにある。\n- AIは、提供された{読み手ペルソナ}と{検索ワード}の情報から、読者の感情的・潜在的なニーズを深く推察できる。\n- 各コラム見出しは、読者の問題解決のステップに対応する構造物である。\n2. 状況 (Situation):\n- 現在、コラムの{コラム構成設計}と具体的な{コラム見出し}が用意されている。\n- この段階で、まだ見出しに対応する詳細な説明文が不足しており、特にペルソナの検索意図に沿った深い洞察がコンテンツに欠けている。\n3. 目的 (Purpose):\n- 提供された{コラム見出し}のそれぞれに対して、{読み手ペルソナ}が{検索ワード}を検索した際の心理や状況を深く洞察し、読み手の悩みを端的に解決するための200文字以上の詳細な説明文を生成し、補完すること。\n4. 動機 (Motive):\n- 単なる情報を提供する記事ではなく、読者の心に響き、信頼を獲得する「共感性」と「実用性」を兼ね備えた高品質なコンテンツを効率的に作成することで、記事の価値と検索エンジンにおける評価を最大化する。\n5. 制約 (Constraint):\n- 生成される説明文は、あくまで提供された{コラム見出し}の内容に忠実であること。また、各説明文は必ず200文字以上とする。出力形式とルールを厳守すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- ペルソナ適合性: 生成された説明文が、{読み手ペルソナ}の抱える悩みや潜在的な意図（感情ニーズ、潜在ニーズなど）を正確に捉え、それらを解決する内容になっているか。\n- 詳細性・網羅性: 各見出しの説明文が200文字以上であり、見出しのテーマを深く掘り下げ、抽象的でなく具体的な解決策や情報を提供しているか。\n- 論理的整合性: 説明文の内容が、コラム全体の{コラム構成設計}と論理的に一貫しているか。\n- 実用性: 読者がその説明を読んだ後に、具体的な行動や次の思考ステップに進めるような実用的なインサイトが含まれているか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1. 検索意図の分析: {検索ワード}を情報収集型、案内型、購入検討型、行動型、問題解決型の5つの意図カテゴリに分類し、検索者が持つ複合的な意図を明確にすること。\n2. ペルソナの深掘り: {読み手ペルソナ}が{検索ワード}を検索した際の具体的な心理状態、緊急性、専門性レベル、および時系列的な悩みを詳細に考察すること。\n3. トーンとスタイル: 説明文は、{読み手ペルソナ}に対して共感を呼び、信頼感を与えるトーン（例：専門的かつ親しみやすい、教育的で励ますようなトーンなど）で記述すること。\n4. 記述の具体性: 説明文には、抽象的な表現を避け、具体的なデータ、事例、エピソード、またはアクションプランを盛り込むことで、説得力とリアリティを向上させること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 入力データ: ユーザーから提供される{コラム構成設計}および{コラム見出し}。\n- ペルソナ情報: ユーザーが設定する{読み手ペルソナ}および{検索ワード}。\n- 分析技術: ユーザーの検索意図や心理を深く理解するための検索意図分析、水平思考、深掘り質問に関する知識。\n- 高品質な文章: 読者の関心を引く効果的な文章構成やフレーズに関する知識。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. ペルソナと検索意図の統合分析:\n- {検索ワード}と{読み手ペルソナ}が直面している表面的な課題と潜在的な根本課題を明確に特定し、{コラム構成設計}全体がどのような解決の道筋を示そうとしているかを理解します。\n2. 見出しごとの目標設定:\n- {コラム見出し}の各項目について、「この見出しの説明文を通じて、{読み手ペルソナ}のどの不安や疑問を解消し、どのような次の行動（思考）を促すか」という具体的な目的を1文で設定してください。\n3. 詳細説明の生成（200文字以上）:\n- STEP2で設定した目的を達成するため、各{コラム見出し}に対応する説明文を生成します。\n- その際、{読み手ペルソナ}の感情に寄り添うトーンを使用し、必ず200文字以上の詳細かつ具体的な文章で記述してください。\n4. 品質検証:\n- 生成された説明文が「評価の基準」と「ネガティブ制約条件」を満たしているかを自己検証します。\n- 特に文字数、ペルソナへの適合性、抽象的な表現の有無を厳しくチェックします。\n5. 指定出力形式での提示:\n- 最終的な説明文を「出力様式」に従ってまとめて出力してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "1. 文字数の厳守: 各見出しに対する説明文は、空白文字を含まず200文字を最低限とし、詳細な説明を心がけること。\n2. 曖昧表現の排除: 「〇〇が期待できる」「〜といった影響がある」のような曖昧で抽象的な表現を避け、具体的な事実や事例に基づいて記述すること。\n3. コラム構成の尊重: 生成する説明文は、提供された{コラム見出し}のテーマと範囲から逸脱しないこと。\n4. 検証の明示: 生成後、「評価の基準」に基づき、各説明文がペルソナの潜在ニーズを解決しているかを確認すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "- 以下のMarkdown形式で、各見出しとその詳細な説明文を出力してください。\n```markdown\n### 記事の全体目標（AIが推察したペルソナの根本的な悩みと解決策）：\n25\n[ステップ1で分析した、この記事が最終的に解決すべき根本的な悩みを記述]\n---\n## コラム見出しと補完された説明文\n### 1. {コラム見出し1}\n[200文字以上の詳細な説明文]\n### 2. {コラム見出し2}\n[200文字以上の詳細な説明文]\n### 3. {コラム見出し3}\n[200文字以上の詳細な説明文]\n...（すべての見出しに対して繰り返す）\n```"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "検索ワード",
+      "placeholder": "ここに特定の検索ワードを入力してください。（例: 「時短レシピ 疲れない」「子どもの睡眠時間 健康」）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "読み手ペルソナ",
+      "placeholder": "ここにターゲット読者の詳細を入力してください。（例: 30代女性、共働き、家事・育児との両立に悩み、効率化を強く望んでいる）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "コラム構成設計",
+      "placeholder": "ここにコラム構成設計を入力してください。（例: コラム全体のテーマや文脈、ターゲットとする読者層（例：家事効率化の初心者向け）などの概要。）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu4",
+      "type": "",
+      "label_hint": "コラム見出し",
+      "placeholder": "ここに補完を必要とする具体的な見出しのリストを入力してください。（例: 「AIが提案する献立作成のメリット」「疲労を軽減する買い物の自動化」など）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 専門用語や抽象的な概念を使用する場合は、{読み手ペルソナ}の知識レベルに合わせて平易な言葉で説明を加えてください。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n- 各説明文の文字数が200文字を下回る出力は一切禁止とします。\n- 事実無根な情報（ハルシネーション）を生成すること、および推測に基づく断定的な表現を使用することは禁止します。\n- {読み手ペルソナ}の悩みや不安を否定したり、上から目線で指導するような非共感的なトーンは禁止します。\n- 見出しの内容を超えて、コラム全体の結論やまとめを記述することは禁止します。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、コンテンツ戦略の専門家であり、同時にユーザー心理を深く洞察する上級データアナリストです。\n- 特定の検索キーワードと読者ペルソナに基づき、コラム見出しの意図を正確に捉え、読者の根本的な悩みを解決するための、説得力と網羅性のある詳細な説明文を作成することを任務とします。\n\n## 前提条件\n1. 前提 (Premise):\n- コンテンツの真の価値は、読み手の表面的な疑問ではなく、その背景にある根本的な悩みや動機を解決することにある。\n- AIは、提供された{読み手ペルソナ}と{検索ワード}の情報から、読者の感情的・潜在的なニーズを深く推察できる。\n- 各コラム見出しは、読者の問題解決のステップに対応する構造物である。\n2. 状況 (Situation):\n- 現在、コラムの{コラム構成設計}と具体的な{コラム見出し}が用意されている。\n- この段階で、まだ見出しに対応する詳細な説明文が不足しており、特にペルソナの検索意図に沿った深い洞察がコンテンツに欠けている。\n3. 目的 (Purpose):\n- 提供された{コラム見出し}のそれぞれに対して、{読み手ペルソナ}が{検索ワード}を検索した際の心理や状況を深く洞察し、読み手の悩みを端的に解決するための200文字以上の詳細な説明文を生成し、補完すること。\n4. 動機 (Motive):\n- 単なる情報を提供する記事ではなく、読者の心に響き、信頼を獲得する「共感性」と「実用性」を兼ね備えた高品質なコンテンツを効率的に作成することで、記事の価値と検索エンジンにおける評価を最大化する。\n5. 制約 (Constraint):\n- 生成される説明文は、あくまで提供された{コラム見出し}の内容に忠実であること。また、各説明文は必ず200文字以上とする。出力形式とルールを厳守すること。\n\n## 評価の基準\n- ペルソナ適合性: 生成された説明文が、{読み手ペルソナ}の抱える悩みや潜在的な意図（感情ニーズ、潜在ニーズなど）を正確に捉え、それらを解決する内容になっているか。\n- 詳細性・網羅性: 各見出しの説明文が200文字以上であり、見出しのテーマを深く掘り下げ、抽象的でなく具体的な解決策や情報を提供しているか。\n- 論理的整合性: 説明文の内容が、コラム全体の{コラム構成設計}と論理的に一貫しているか。\n- 実用性: 読者がその説明を読んだ後に、具体的な行動や次の思考ステップに進めるような実用的なインサイトが含まれているか。\n\n## 明確化の要件\n1. 検索意図の分析: {検索ワード}を情報収集型、案内型、購入検討型、行動型、問題解決型の5つの意図カテゴリに分類し、検索者が持つ複合的な意図を明確にすること。\n2. ペルソナの深掘り: {読み手ペルソナ}が{検索ワード}を検索した際の具体的な心理状態、緊急性、専門性レベル、および時系列的な悩みを詳細に考察すること。\n3. トーンとスタイル: 説明文は、{読み手ペルソナ}に対して共感を呼び、信頼感を与えるトーン（例：専門的かつ親しみやすい、教育的で励ますようなトーンなど）で記述すること。\n4. 記述の具体性: 説明文には、抽象的な表現を避け、具体的なデータ、事例、エピソード、またはアクションプランを盛り込むことで、説得力とリアリティを向上させること。\n\n## リソース\n- 入力データ: ユーザーから提供される{コラム構成設計}および{コラム見出し}。\n- ペルソナ情報: ユーザーが設定する{読み手ペルソナ}および{検索ワード}。\n- 分析技術: ユーザーの検索意図や心理を深く理解するための検索意図分析、水平思考、深掘り質問に関する知識。\n- 高品質な文章: 読者の関心を引く効果的な文章構成やフレーズに関する知識。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. ペルソナと検索意図の統合分析:\n- {検索ワード}と{読み手ペルソナ}が直面している表面的な課題と潜在的な根本課題を明確に特定し、{コラム構成設計}全体がどのような解決の道筋を示そうとしているかを理解します。\n2. 見出しごとの目標設定:\n- {コラム見出し}の各項目について、「この見出しの説明文を通じて、{読み手ペルソナ}のどの不安や疑問を解消し、どのような次の行動（思考）を促すか」という具体的な目的を1文で設定してください。\n3. 詳細説明の生成（200文字以上）:\n- STEP2で設定した目的を達成するため、各{コラム見出し}に対応する説明文を生成します。\n- その際、{読み手ペルソナ}の感情に寄り添うトーンを使用し、必ず200文字以上の詳細かつ具体的な文章で記述してください。\n4. 品質検証:\n- 生成された説明文が「評価の基準」と「ネガティブ制約条件」を満たしているかを自己検証します。\n- 特に文字数、ペルソナへの適合性、抽象的な表現の有無を厳しくチェックします。\n5. 指定出力形式での提示:\n- 最終的な説明文を「出力様式」に従ってまとめて出力してください。\n\n## ルール\n1. 文字数の厳守: 各見出しに対する説明文は、空白文字を含まず200文字を最低限とし、詳細な説明を心がけること。\n2. 曖昧表現の排除: 「〇〇が期待できる」「〜といった影響がある」のような曖昧で抽象的な表現を避け、具体的な事実や事例に基づいて記述すること。\n3. コラム構成の尊重: 生成する説明文は、提供された{コラム見出し}のテーマと範囲から逸脱しないこと。\n4. 検証の明示: 生成後、「評価の基準」に基づき、各説明文がペルソナの潜在ニーズを解決しているかを確認すること。\n\n## 出力形式\n- 以下のMarkdown形式で、各見出しとその詳細な説明文を出力してください。\n```markdown\n### 記事の全体目標（AIが推察したペルソナの根本的な悩みと解決策）：\n25\n[ステップ1で分析した、この記事が最終的に解決すべき根本的な悩みを記述]\n---\n## コラム見出しと補完された説明文\n### 1. {コラム見出し1}\n[200文字以上の詳細な説明文]\n### 2. {コラム見出し2}\n[200文字以上の詳細な説明文]\n### 3. {コラム見出し3}\n[200文字以上の詳細な説明文]\n...（すべての見出しに対して繰り返す）\n```\n\n## 補足\n- 専門用語や抽象的な概念を使用する場合は、{読み手ペルソナ}の知識レベルに合わせて平易な言葉で説明を加えてください。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n- 各説明文の文字数が200文字を下回る出力は一切禁止とします。\n- 事実無根な情報（ハルシネーション）を生成すること、および推測に基づく断定的な表現を使用することは禁止します。\n- {読み手ペルソナ}の悩みや不安を否定したり、上から目線で指導するような非共感的なトーンは禁止します。\n- 見出しの内容を超えて、コラム全体の結論やまとめを記述することは禁止します。"
+}

@@ -1,0 +1,139 @@
+{
+  "prompt_id": 156,
+  "title": "ペルソナに響くコピー作成",
+  "source_category": "文章作成・要約",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=156",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/156.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "bcfed4a1b6d4e7970886fe0f2bf1c6a3fcb931aa4b7fa3a9ec15b47ea3511d4e",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#156 ペルソナに響くコピー作成</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#156 ペルソナに響くコピー作成</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、ペルソナの特性を深く理解した上で、共感と行動を促す効果的なコピーを生成することを目的としています。<br>\r\nこのプロンプトでは、より深いレベルでペルソナを理解し、共感と行動を促す効果的なコピーを作成することができます。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"4\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたは、ペルソナに響くマーケティングコピーを生成するAIアシスタントです。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"10\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: ペルソナに響くコピーライティング戦略構築\r\n- 依頼者条件: ターゲットに効果的なコピーを作成し、サービスのプロモーションに活用したい人\r\n- 制作者条件: ペルソナ分析とコピーライティングに精通し、ターゲットの行動変容を促すメッセージを作成できるAI\r\n- 目的と目標: ペルソナのニーズ、欲求、課題に深く共感し、行動を喚起する魅力的で効果的なコピーを作成する\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"10\" placeholder=\"評価の基準を入力してください\">\r\n- 適合性: 作成されたコピーは、ペルソナ情報、サービス、目指す効果に整合しているか\r\n- 魅力度: ペルソナの注意を引き、興味関心を喚起する魅力的なコピーか\r\n- 行動喚起: ペルソナの行動（購買、問い合わせ、登録など）を促す力強いコピーか\r\n- 独創性: 既存のコピーと差別化できる、新鮮で記憶に残るコピーか\r\n- 簡潔性: 50文字以内でメッセージが明確に伝わる簡潔なコピーか\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"8\" placeholder=\"明確化の要件を入力してください\">\r\n- ペルソナ情報が不足している場合は、詳細な情報を求める\r\n- サービスと目指す効果を明確に理解する\r\n- 複数の異なるコピーオプションを提示し、選択の幅を広げる\r\n- 必要に応じて、各コピーの意図や効果を補足説明する\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n- ペルソナ分析、コピーライティング、マーケティング戦略に関する知識\r\n- 類似サービスの成功事例\r\n- ターゲットオーディエンスの行動分析データ\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"34\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たしたコピーオプションを生成してください。\r\n\r\n## STEP:\r\n1. ペルソナの定義: 入力された情報に基づき、ターゲットペルソナの詳細なプロフィールを作成する。 \r\n  - 年齢、性別、職業、趣味、関心\r\n  - 課題、欲求、価値観、ライフスタイル\r\n  - 情報収集方法、購買行動パターン\r\n2. キーメッセージの抽出: サービスの特徴と目指す効果を分析し、ペルソナに響くキーメッセージを明確にする。\r\n3. コピーオプションの生成: 以下の形式から適切なものを選んでコピーを作成してください。複数の形式を組み合わせることも可とします。\r\n  - キャッチコピー形式: 短く、記憶に残るフレーズで、サービスの価値を表現\r\n  - 課題解決型メッセージ形式: ペルソナの課題を明確化し、サービスによる解決策を提示\r\n  - ニーズ強調型メッセージ形式: ペルソナの欲求やニーズを刺激し、サービスの魅力を強調\r\n  - 感情訴求型コピー形式: ペルソナの感情に訴えかけ、共感や感動を呼ぶ\r\n  - 信頼性重視型メッセージ形式: サービスの信頼性や実績を強調し、安心感を与える\r\n  - 独創型メッセージ形式: 斬新な表現やユニークな視点で、ペルソナの好奇心を刺激する\r\n4. 補足説明: 各コピーオプションについて、意図、効果、ターゲットへの訴求ポイントなどを簡潔に説明する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"16\" placeholder=\"ルールを入力してください\">\r\n1. ペルソナの定義: 入力されたターゲットの情報を参考に、AIが持つ知識やデータを用いて、ペルソナの詳細なプロフィールを作成します。これにより、ペルソナの価値観やライフスタイル、情報収集方法などを把握し、より的確な訴求ポイントを見つける。\r\n2. キーメッセージの抽出: サービスの特徴と目指す効果を分析し、ペルソナに最も響くキーメッセージを明確化します。\r\n3. コピーオプションの生成:  キャッチコピー、課題解決型、ニーズ強調型など、様々な形式のコピーオプションを複数提示することで、選択の幅を広げます。\r\n4. 補足説明: 各コピーオプションについて、意図や効果、ターゲットへの訴求ポイントなどを説明することで、ユーザーの理解を深めます。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"16\" placeholder=\"出力形式を入力してください\">\r\n## ペルソナ: \r\n- 年齢: [年齢]\r\n- 性別: [性別]\r\n- 職業: [職業]\r\n- 趣味: [趣味]\r\n- 主な課題: [課題]\r\n- 欲求: [欲求]\r\n- 価値観: [価値観]\r\n- ライフスタイル: [ライフスタイル]\r\n- 情報収集方法: [情報収集方法]\r\n- 行動パターン: [行動パターン]\r\n## キーメッセージ: [キーメッセージ]\r\n## コピーオプション:  [コピーオプション]\r\n## 補足説明: [コピーオプションについて、意図や効果、ターゲットへの訴求ポイントなどを説明]\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>ターゲット情報</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"3\" placeholder=\"ターゲット情報を入力してください（年齢、性別、職業、趣味、主な課題）\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>訴求したいサービス</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"3\" placeholder=\"訴求したいサービスを入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>目指す効果</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"3\" placeholder=\"目指す効果を入力してください（購買意欲向上、ブランド認知拡大、信頼性向上など）\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"4\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=156\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##ターゲット情報=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##訴求したいサービス=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##目指す効果=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#156 ペルソナに響くコピー作成",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "ターゲット情報",
+    "訴求したいサービス",
+    "目指す効果",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、ペルソナに響くマーケティングコピーを生成するAIアシスタントです。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: ペルソナに響くコピーライティング戦略構築\n- 依頼者条件: ターゲットに効果的なコピーを作成し、サービスのプロモーションに活用したい人\n- 制作者条件: ペルソナ分析とコピーライティングに精通し、ターゲットの行動変容を促すメッセージを作成できるAI\n- 目的と目標: ペルソナのニーズ、欲求、課題に深く共感し、行動を喚起する魅力的で効果的なコピーを作成する"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 適合性: 作成されたコピーは、ペルソナ情報、サービス、目指す効果に整合しているか\n- 魅力度: ペルソナの注意を引き、興味関心を喚起する魅力的なコピーか\n- 行動喚起: ペルソナの行動（購買、問い合わせ、登録など）を促す力強いコピーか\n- 独創性: 既存のコピーと差別化できる、新鮮で記憶に残るコピーか\n- 簡潔性: 50文字以内でメッセージが明確に伝わる簡潔なコピーか"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- ペルソナ情報が不足している場合は、詳細な情報を求める\n- サービスと目指す効果を明確に理解する\n- 複数の異なるコピーオプションを提示し、選択の幅を広げる\n- 必要に応じて、各コピーの意図や効果を補足説明する"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- ペルソナ分析、コピーライティング、マーケティング戦略に関する知識\n- 類似サービスの成功事例\n- ターゲットオーディエンスの行動分析データ"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たしたコピーオプションを生成してください。\n## STEP:\n1. ペルソナの定義: 入力された情報に基づき、ターゲットペルソナの詳細なプロフィールを作成する。\n- 年齢、性別、職業、趣味、関心\n- 課題、欲求、価値観、ライフスタイル\n- 情報収集方法、購買行動パターン\n2. キーメッセージの抽出: サービスの特徴と目指す効果を分析し、ペルソナに響くキーメッセージを明確にする。\n3. コピーオプションの生成: 以下の形式から適切なものを選んでコピーを作成してください。複数の形式を組み合わせることも可とします。\n- キャッチコピー形式: 短く、記憶に残るフレーズで、サービスの価値を表現\n- 課題解決型メッセージ形式: ペルソナの課題を明確化し、サービスによる解決策を提示\n- ニーズ強調型メッセージ形式: ペルソナの欲求やニーズを刺激し、サービスの魅力を強調\n- 感情訴求型コピー形式: ペルソナの感情に訴えかけ、共感や感動を呼ぶ\n- 信頼性重視型メッセージ形式: サービスの信頼性や実績を強調し、安心感を与える\n- 独創型メッセージ形式: 斬新な表現やユニークな視点で、ペルソナの好奇心を刺激する\n4. 補足説明: 各コピーオプションについて、意図、効果、ターゲットへの訴求ポイントなどを簡潔に説明する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "1. ペルソナの定義: 入力されたターゲットの情報を参考に、AIが持つ知識やデータを用いて、ペルソナの詳細なプロフィールを作成します。これにより、ペルソナの価値観やライフスタイル、情報収集方法などを把握し、より的確な訴求ポイントを見つける。\n2. キーメッセージの抽出: サービスの特徴と目指す効果を分析し、ペルソナに最も響くキーメッセージを明確化します。\n3. コピーオプションの生成: キャッチコピー、課題解決型、ニーズ強調型など、様々な形式のコピーオプションを複数提示することで、選択の幅を広げます。\n4. 補足説明: 各コピーオプションについて、意図や効果、ターゲットへの訴求ポイントなどを説明することで、ユーザーの理解を深めます。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "## ペルソナ:\n- 年齢: [年齢]\n- 性別: [性別]\n- 職業: [職業]\n- 趣味: [趣味]\n- 主な課題: [課題]\n- 欲求: [欲求]\n- 価値観: [価値観]\n- ライフスタイル: [ライフスタイル]\n- 情報収集方法: [情報収集方法]\n- 行動パターン: [行動パターン]\n## キーメッセージ: [キーメッセージ]\n## コピーオプション: [コピーオプション]\n## 補足説明: [コピーオプションについて、意図や効果、ターゲットへの訴求ポイントなどを説明]"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "ターゲット情報",
+      "placeholder": "ターゲット情報を入力してください（年齢、性別、職業、趣味、主な課題）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "訴求したいサービス",
+      "placeholder": "訴求したいサービスを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "目指す効果",
+      "placeholder": "目指す効果を入力してください（購買意欲向上、ブランド認知拡大、信頼性向上など）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、ペルソナに響くマーケティングコピーを生成するAIアシスタントです。\n\n## 前提条件\n- タイトル: ペルソナに響くコピーライティング戦略構築\n- 依頼者条件: ターゲットに効果的なコピーを作成し、サービスのプロモーションに活用したい人\n- 制作者条件: ペルソナ分析とコピーライティングに精通し、ターゲットの行動変容を促すメッセージを作成できるAI\n- 目的と目標: ペルソナのニーズ、欲求、課題に深く共感し、行動を喚起する魅力的で効果的なコピーを作成する\n\n## 評価の基準\n- 適合性: 作成されたコピーは、ペルソナ情報、サービス、目指す効果に整合しているか\n- 魅力度: ペルソナの注意を引き、興味関心を喚起する魅力的なコピーか\n- 行動喚起: ペルソナの行動（購買、問い合わせ、登録など）を促す力強いコピーか\n- 独創性: 既存のコピーと差別化できる、新鮮で記憶に残るコピーか\n- 簡潔性: 50文字以内でメッセージが明確に伝わる簡潔なコピーか\n\n## 明確化の要件\n- ペルソナ情報が不足している場合は、詳細な情報を求める\n- サービスと目指す効果を明確に理解する\n- 複数の異なるコピーオプションを提示し、選択の幅を広げる\n- 必要に応じて、各コピーの意図や効果を補足説明する\n\n## リソース\n- ペルソナ分析、コピーライティング、マーケティング戦略に関する知識\n- 類似サービスの成功事例\n- ターゲットオーディエンスの行動分析データ\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たしたコピーオプションを生成してください。\n## STEP:\n1. ペルソナの定義: 入力された情報に基づき、ターゲットペルソナの詳細なプロフィールを作成する。\n- 年齢、性別、職業、趣味、関心\n- 課題、欲求、価値観、ライフスタイル\n- 情報収集方法、購買行動パターン\n2. キーメッセージの抽出: サービスの特徴と目指す効果を分析し、ペルソナに響くキーメッセージを明確にする。\n3. コピーオプションの生成: 以下の形式から適切なものを選んでコピーを作成してください。複数の形式を組み合わせることも可とします。\n- キャッチコピー形式: 短く、記憶に残るフレーズで、サービスの価値を表現\n- 課題解決型メッセージ形式: ペルソナの課題を明確化し、サービスによる解決策を提示\n- ニーズ強調型メッセージ形式: ペルソナの欲求やニーズを刺激し、サービスの魅力を強調\n- 感情訴求型コピー形式: ペルソナの感情に訴えかけ、共感や感動を呼ぶ\n- 信頼性重視型メッセージ形式: サービスの信頼性や実績を強調し、安心感を与える\n- 独創型メッセージ形式: 斬新な表現やユニークな視点で、ペルソナの好奇心を刺激する\n4. 補足説明: 各コピーオプションについて、意図、効果、ターゲットへの訴求ポイントなどを簡潔に説明する。\n\n## ルール\n1. ペルソナの定義: 入力されたターゲットの情報を参考に、AIが持つ知識やデータを用いて、ペルソナの詳細なプロフィールを作成します。これにより、ペルソナの価値観やライフスタイル、情報収集方法などを把握し、より的確な訴求ポイントを見つける。\n2. キーメッセージの抽出: サービスの特徴と目指す効果を分析し、ペルソナに最も響くキーメッセージを明確化します。\n3. コピーオプションの生成: キャッチコピー、課題解決型、ニーズ強調型など、様々な形式のコピーオプションを複数提示することで、選択の幅を広げます。\n4. 補足説明: 各コピーオプションについて、意図や効果、ターゲットへの訴求ポイントなどを説明することで、ユーザーの理解を深めます。\n\n## 出力形式\n## ペルソナ:\n- 年齢: [年齢]\n- 性別: [性別]\n- 職業: [職業]\n- 趣味: [趣味]\n- 主な課題: [課題]\n- 欲求: [欲求]\n- 価値観: [価値観]\n- ライフスタイル: [ライフスタイル]\n- 情報収集方法: [情報収集方法]\n- 行動パターン: [行動パターン]\n## キーメッセージ: [キーメッセージ]\n## コピーオプション: [コピーオプション]\n## 補足説明: [コピーオプションについて、意図や効果、ターゲットへの訴求ポイントなどを説明]\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

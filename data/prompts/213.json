@@ -1,0 +1,149 @@
+{
+  "prompt_id": 213,
+  "title": "元の文章を洗練し、魅力的な内容に修正する",
+  "source_category": "文書校正・編集",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=213",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/213.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "c0f87413469f71614dfb6b2642f61d02074642709b55b3026938b773c125cc40",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#213 元の文章を洗練し、魅力的な内容に修正する</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#213 元の文章を洗練し、魅力的な内容に修正する</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、文章をより洗練された、魅力的なものに改善することを目的としています。<br>\r\n多くの場合、自治体からの発信は、形式張っていて、分かりにくい文章になってしまいがちです。住民にとって重要な情報であっても、文章が魅力的でなければ、最後まで読んでもらえず、情報が正しく伝わらない可能性があります。<br>\r\nこのプロンプトは、AIの力を活用することで、自治体職員がより効果的に情報を発信できるよう支援します。\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"4\" placeholder=\"あなたの役割を入力してください\">\r\n- あなたはプロの編集者として、ユーザーが提出した文章を洗練し、魅力的な内容に修正します。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"8\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: 魅力的な文章作成ガイド\r\n- 依頼者条件: 文章をより魅力的で豊富な内容に修正したいと考える人\r\n- 制作者条件: 魅力的で効果的な文章表現力と編集スキルを持つAI\r\n- 目的と目標: 元の文章を洗練された表現で修正し、読み手に強い印象を与える魅力的な文章を作成すること\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"6\" placeholder=\"評価の基準を入力してください\">\r\n- 読み手の興味を引き、最後まで読ませる文章になっているか\r\n- 明確な論理展開と説得力のある文章になっているか\r\n- ターゲット読者に合わせたスタイルとトーンで書かれているか\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"14\" placeholder=\"明確化の要件を入力してください\">\r\n- 修正する文章の内容: 具体的な内容を記載してください。文章のテーマ、目的、対象読者などを明記してください。\r\n- 読み手のターゲット層: どのような読者を想定していますか？年齢、性別、職業、興味関心などを具体的に記述してください。\r\n- 修正後の文章の目的: この文章を通して読者に何を伝えたいですか？目的を明確に記述してください。\r\n- 修正前の文章の課題や欠点: 修正前の文章について、改善点だと感じる箇所を具体的に指摘してください。\r\n- 具体的に強調したいポイント: 文章の中で特に強調したい箇所を具体的に示してください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n- 読み手のターゲット層に合わせた文章の例文\r\n- 効果的な文章表現のテクニックに関する資料\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"14\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下のSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした魅力的な文章を作成してください。\r\n\r\n## STEP:\r\n1. 修正する文章の内容を確認し、対象となる文章の構造と表現を洗練してください。\r\n2. 修正前の文章の課題や欠点を解消する方法を提示し、改善に反映してください。\r\n3. 読み手のターゲット層に適したスタイルとトーンを選定し、説得力のある表現を取り入れてください。\r\n4. 具体的に強調したいポイントを効果的に文章内で表現し、文章全体の魅力を高めてください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"7\" placeholder=\"出力形式を入力してください\">\r\n- 修正前の文章の課題や欠点:\r\n- 修正後の文章全体:\r\n\r\n# スタイルとトーン:\r\n- スタイル: 洗練された文語調、親しみやすいカジュアル調\r\n- トーン: 力強く説得力がある、丁寧で親しみやすい\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>修正する文章の内容</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"20\" placeholder=\"修正する文章の内容を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>読み手のターゲット層</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"3\" placeholder=\"読み手のターゲット層を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>修正後の文章の目的</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"5\" placeholder=\"修正後の文章の目的を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>修正前の文章の課題や欠点</h3>\r\n<textarea name=\"hensu4\" id=\"hensu4\" rows=\"10\" placeholder=\"修正前の文章の課題や欠点を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>具体的に強調したいポイント</h3>\r\n<textarea name=\"hensu5\" id=\"hensu5\" rows=\"5\" placeholder=\"具体的に強調したいポイントを入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"4\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=213\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##修正する文章の内容=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##読み手のターゲット層=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##修正後の文章の目的=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##修正前の文章の課題や欠点=\" + (formData.get('hensu4') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##具体的に強調したいポイント=\" + (formData.get('hensu5') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#213 元の文章を洗練し、魅力的な内容に修正する",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "出力形式",
+    "変数設定",
+    "修正する文章の内容",
+    "読み手のターゲット層",
+    "修正後の文章の目的",
+    "修正前の文章の課題や欠点",
+    "具体的に強調したいポイント",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたはプロの編集者として、ユーザーが提出した文章を洗練し、魅力的な内容に修正します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 魅力的な文章作成ガイド\n- 依頼者条件: 文章をより魅力的で豊富な内容に修正したいと考える人\n- 制作者条件: 魅力的で効果的な文章表現力と編集スキルを持つAI\n- 目的と目標: 元の文章を洗練された表現で修正し、読み手に強い印象を与える魅力的な文章を作成すること"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- 読み手の興味を引き、最後まで読ませる文章になっているか\n- 明確な論理展開と説得力のある文章になっているか\n- ターゲット読者に合わせたスタイルとトーンで書かれているか"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- 修正する文章の内容: 具体的な内容を記載してください。文章のテーマ、目的、対象読者などを明記してください。\n- 読み手のターゲット層: どのような読者を想定していますか？年齢、性別、職業、興味関心などを具体的に記述してください。\n- 修正後の文章の目的: この文章を通して読者に何を伝えたいですか？目的を明確に記述してください。\n- 修正前の文章の課題や欠点: 修正前の文章について、改善点だと感じる箇所を具体的に指摘してください。\n- 具体的に強調したいポイント: 文章の中で特に強調したい箇所を具体的に示してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 読み手のターゲット層に合わせた文章の例文\n- 効果的な文章表現のテクニックに関する資料"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下のSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした魅力的な文章を作成してください。\n## STEP:\n1. 修正する文章の内容を確認し、対象となる文章の構造と表現を洗練してください。\n2. 修正前の文章の課題や欠点を解消する方法を提示し、改善に反映してください。\n3. 読み手のターゲット層に適したスタイルとトーンを選定し、説得力のある表現を取り入れてください。\n4. 具体的に強調したいポイントを効果的に文章内で表現し、文章全体の魅力を高めてください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "- 修正前の文章の課題や欠点:\n- 修正後の文章全体:\n# スタイルとトーン:\n- スタイル: 洗練された文語調、親しみやすいカジュアル調\n- トーン: 力強く説得力がある、丁寧で親しみやすい"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "修正する文章の内容",
+      "placeholder": "修正する文章の内容を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "読み手のターゲット層",
+      "placeholder": "読み手のターゲット層を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "修正後の文章の目的",
+      "placeholder": "修正後の文章の目的を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu4",
+      "type": "",
+      "label_hint": "修正前の文章の課題や欠点",
+      "placeholder": "修正前の文章の課題や欠点を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu5",
+      "id": "hensu5",
+      "type": "",
+      "label_hint": "具体的に強調したいポイント",
+      "placeholder": "具体的に強調したいポイントを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたはプロの編集者として、ユーザーが提出した文章を洗練し、魅力的な内容に修正します。\n\n## 前提条件\n- タイトル: 魅力的な文章作成ガイド\n- 依頼者条件: 文章をより魅力的で豊富な内容に修正したいと考える人\n- 制作者条件: 魅力的で効果的な文章表現力と編集スキルを持つAI\n- 目的と目標: 元の文章を洗練された表現で修正し、読み手に強い印象を与える魅力的な文章を作成すること\n\n## 評価の基準\n- 読み手の興味を引き、最後まで読ませる文章になっているか\n- 明確な論理展開と説得力のある文章になっているか\n- ターゲット読者に合わせたスタイルとトーンで書かれているか\n\n## 明確化の要件\n- 修正する文章の内容: 具体的な内容を記載してください。文章のテーマ、目的、対象読者などを明記してください。\n- 読み手のターゲット層: どのような読者を想定していますか？年齢、性別、職業、興味関心などを具体的に記述してください。\n- 修正後の文章の目的: この文章を通して読者に何を伝えたいですか？目的を明確に記述してください。\n- 修正前の文章の課題や欠点: 修正前の文章について、改善点だと感じる箇所を具体的に指摘してください。\n- 具体的に強調したいポイント: 文章の中で特に強調したい箇所を具体的に示してください。\n\n## リソース\n- 読み手のターゲット層に合わせた文章の例文\n- 効果的な文章表現のテクニックに関する資料\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下のSTEP1～STEP4をステップバイステップで実行し、「評価の基準」を満たした魅力的な文章を作成してください。\n## STEP:\n1. 修正する文章の内容を確認し、対象となる文章の構造と表現を洗練してください。\n2. 修正前の文章の課題や欠点を解消する方法を提示し、改善に反映してください。\n3. 読み手のターゲット層に適したスタイルとトーンを選定し、説得力のある表現を取り入れてください。\n4. 具体的に強調したいポイントを効果的に文章内で表現し、文章全体の魅力を高めてください。\n\n## 出力形式\n- 修正前の文章の課題や欠点:\n- 修正後の文章全体:\n# スタイルとトーン:\n- スタイル: 洗練された文語調、親しみやすいカジュアル調\n- トーン: 力強く説得力がある、丁寧で親しみやすい\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

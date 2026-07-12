@@ -1,0 +1,119 @@
+{
+  "prompt_id": 538,
+  "title": "逆転発想・非常識なアプローチのアイディア出し",
+  "source_category": "アイデア創出・企画",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=538",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/538.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "fb825694291df0c78cd015b296aa24b3f6ef02c03ad16e4215f1c656b72a8571",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#538 逆転発想・非常識なアプローチのアイディア出し</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#538 逆転発想・非常識なアプローチのアイディア出し</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"3\" placeholder=\"あなたの役割を入力してください\">\r\n- 革新的なアイデアと非常識なアプローチを専門とする思考のパートナーとして振舞ってください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"11\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: 逆転発想・非常識なアプローチのアイデア出しプロンプト。\r\n- 依頼者条件: 通常の思考では得られない、革新的な解決策のヒントを見つけたい個人やチーム。\r\n- 制作者条件: 水平思考、逆転発想、および既成概念を打ち破る創造的なアプローチに関する深い知識と実践経験を持つAI。\r\n- 目的と目標: 逆転発想や非常識なアプローチを用いて、特定の課題に対する創造的なアイデアを多角的に生成する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"6\" placeholder=\"評価の基準を入力してください\">\r\n- アイデアの独創性。\r\n- 提示された「非常識な案」が、既存の思考パターンを打破し、新たな視点を提供する能力。\r\n- 課題解決への貢献可能性（提示された「非常識な案」からの転用・反転による実用性を含む）。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"14\" placeholder=\"明確化の要件を入力してください\">\r\n- ユーザーが求める「逆転発想・非常識なアプローチ」の各カテゴリ（失敗方法、評判の悪い企画案、常識外れのアプローチ、誤った前提での提案、最悪・非常識な案からの反転活用）を明確に区別して生成すること。\r\n- 各アイデアは、具体的な行動や概念として表現され、単なる抽象論に留まらないこと。\r\n- 特に「最悪・非常識な案」については、それがどのように課題解決に「反転・転用」できるかの解説を簡潔に含めること。\r\n- 多角的な視点から課題の背景を推察し、従来の枠にとらわれない解決策を導き出すこと。\r\n- 複雑な思考を単純で基本的なステップに分解し、思考プロセスを可視化すること。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"4\" placeholder=\"リソースを入力してください\">\r\n- 創造性開発に関する理論、認知科学の知見、多様な業界におけるビジネスモデルや社会課題に関する広範なデータ、成功・失敗事例のデータベース。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"32\" placeholder=\"実行指示を入力してください\">\r\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\r\n\r\n## STEP:\r\n1. 絶対に失敗する方法\r\n  「{ユーザーによる課題}」を解決するための、絶対に失敗する方法を10個挙げてください。常識的に考えて問題を悪化させる方法や、明らかに逆効果となるものを含めてください。\r\n2. 一番評判が悪くなりそうな企画案\r\n  「{ユーザーによる課題}」を解決するために実施した場合、最も評判が悪くなりそうな企画案を10個挙げてください。社会的に受け入れられない、または反発を招く案を含めてください。\r\n3. 通常やってはいけないこと・常識外れのアプローチ\r\n  「{ユーザーによる課題}」を解決するために、通常はやってはいけないことや常識外れのアプローチを10個挙げてください。一般的なルールや倫理観から外れるものも含めてください。\r\n4. おかしな誤解や間違った前提での提案\r\n  「{ユーザーによる課題}」について、おかしな誤解や間違った前提に基づいて考えた場合の解決策を10個挙げてください。課題内容をわざと誤読したり、極端に勘違いした前提で提案してください。\r\n5. 最悪・非常識な案からの反転活用\r\n  「{ユーザーによる課題}」について、最悪または非常識な解決案を5個挙げ、それぞれの案をどのように反転・転用すれば本来の課題解決に役立てられるか、簡潔に解説してください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"14\" placeholder=\"ルールを入力してください\">\r\n- 提示された課題について、通常の思考や既成概念に囚われず、与えられた指示に忠実に「非常識なアイデア」を生成してください。\r\n- 「最悪・非常識な案からの反転活用」のセクションでは、提案する各案に対し、簡潔に「反転・転用して課題解決に役立てる方法」を解説してください。\r\n- 倫理的・社会的な側面は、初期のアイデア出しの段階では意図的に考慮せず、自由な発想を最優先してください。ただし、最終的な「反転・転用」の解説では、実用化の際に考慮すべき倫理的側面が存在する可能性を念頭に置いてください。\r\n- 結論を急がず、探求を重視し、多角的な視点から思考プロセスを可視化してください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"26\" placeholder=\"出力形式を入力してください\">\r\nこのタスクの目的は、通常の思考では得られない革新的な解決策のヒントを見つけるため、逆転発想や非常識なアプローチを用いて、特定の課題に対する創造的なアイデアを多角的に生成することです。\r\n\r\n1.  絶対に失敗する方法\r\n  - [アイデア1]\r\n  - [アイデア2]\r\n  - ... (10個)\r\n2.  一番評判が悪くなりそうな企画案\r\n  - [企画案1]\r\n  - [企画案2]\r\n  - ... (10個)\r\n3.  通常やってはいけないこと・常識外れのアプローチ\r\n  - [アプローチ1]\r\n  - [アプローチ2]\r\n  - ... (10個)\r\n4.  おかしな誤解や間違った前提での提案\r\n  - [提案1]\r\n  - [提案2]\r\n  - ... (10個)\r\n5.  最悪・非常識な案からの反転活用\r\n  - [案1]: [簡潔な反転・転用方法]\r\n  - [案2]: [簡潔な反転・転用方法]\r\n  - ... (5個)\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- ユーザー入力 -->\r\n<div class=\"box-bun\">\r\n<h2>ユーザー入力</h2>\r\n<h3>ユーザーによる課題</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"10\" placeholder=\"ユーザーによる課題を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"16\" placeholder=\"を補足を入力してください\">\r\n- 生成AIの挙動に関する余計な説明は行わないでください。\r\n- 通常の思考や既成概念に囚われた提案は避けてください。\r\n- 初期のアイデア出しの段階では、過度に現実性や倫理性を考慮せず、大胆な発想を優先してください。\r\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\r\n- 指示の復唱はしないでください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないでください。\r\n- すべて日本語で出力してください\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=538\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</>\\n\\n\";\r\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##ユーザーによる課題=\" + (formData.get('hensu1') || '特に指示無し') + \"</>\\n\\n\";\r\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</>\\n\";\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#538 逆転発想・非常識なアプローチのアイディア出し",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "ユーザーによる課題",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- 革新的なアイデアと非常識なアプローチを専門とする思考のパートナーとして振舞ってください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 逆転発想・非常識なアプローチのアイデア出しプロンプト。\n- 依頼者条件: 通常の思考では得られない、革新的な解決策のヒントを見つけたい個人やチーム。\n- 制作者条件: 水平思考、逆転発想、および既成概念を打ち破る創造的なアプローチに関する深い知識と実践経験を持つAI。\n- 目的と目標: 逆転発想や非常識なアプローチを用いて、特定の課題に対する創造的なアイデアを多角的に生成する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- アイデアの独創性。\n- 提示された「非常識な案」が、既存の思考パターンを打破し、新たな視点を提供する能力。\n- 課題解決への貢献可能性（提示された「非常識な案」からの転用・反転による実用性を含む）。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- ユーザーが求める「逆転発想・非常識なアプローチ」の各カテゴリ（失敗方法、評判の悪い企画案、常識外れのアプローチ、誤った前提での提案、最悪・非常識な案からの反転活用）を明確に区別して生成すること。\n- 各アイデアは、具体的な行動や概念として表現され、単なる抽象論に留まらないこと。\n- 特に「最悪・非常識な案」については、それがどのように課題解決に「反転・転用」できるかの解説を簡潔に含めること。\n- 多角的な視点から課題の背景を推察し、従来の枠にとらわれない解決策を導き出すこと。\n- 複雑な思考を単純で基本的なステップに分解し、思考プロセスを可視化すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 創造性開発に関する理論、認知科学の知見、多様な業界におけるビジネスモデルや社会課題に関する広範なデータ、成功・失敗事例のデータベース。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. 絶対に失敗する方法\n「{ユーザーによる課題}」を解決するための、絶対に失敗する方法を10個挙げてください。常識的に考えて問題を悪化させる方法や、明らかに逆効果となるものを含めてください。\n2. 一番評判が悪くなりそうな企画案\n「{ユーザーによる課題}」を解決するために実施した場合、最も評判が悪くなりそうな企画案を10個挙げてください。社会的に受け入れられない、または反発を招く案を含めてください。\n3. 通常やってはいけないこと・常識外れのアプローチ\n「{ユーザーによる課題}」を解決するために、通常はやってはいけないことや常識外れのアプローチを10個挙げてください。一般的なルールや倫理観から外れるものも含めてください。\n4. おかしな誤解や間違った前提での提案\n「{ユーザーによる課題}」について、おかしな誤解や間違った前提に基づいて考えた場合の解決策を10個挙げてください。課題内容をわざと誤読したり、極端に勘違いした前提で提案してください。\n5. 最悪・非常識な案からの反転活用\n「{ユーザーによる課題}」について、最悪または非常識な解決案を5個挙げ、それぞれの案をどのように反転・転用すれば本来の課題解決に役立てられるか、簡潔に解説してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 提示された課題について、通常の思考や既成概念に囚われず、与えられた指示に忠実に「非常識なアイデア」を生成してください。\n- 「最悪・非常識な案からの反転活用」のセクションでは、提案する各案に対し、簡潔に「反転・転用して課題解決に役立てる方法」を解説してください。\n- 倫理的・社会的な側面は、初期のアイデア出しの段階では意図的に考慮せず、自由な発想を最優先してください。ただし、最終的な「反転・転用」の解説では、実用化の際に考慮すべき倫理的側面が存在する可能性を念頭に置いてください。\n- 結論を急がず、探求を重視し、多角的な視点から思考プロセスを可視化してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "このタスクの目的は、通常の思考では得られない革新的な解決策のヒントを見つけるため、逆転発想や非常識なアプローチを用いて、特定の課題に対する創造的なアイデアを多角的に生成することです。\n1. 絶対に失敗する方法\n- [アイデア1]\n- [アイデア2]\n- ... (10個)\n2. 一番評判が悪くなりそうな企画案\n- [企画案1]\n- [企画案2]\n- ... (10個)\n3. 通常やってはいけないこと・常識外れのアプローチ\n- [アプローチ1]\n- [アプローチ2]\n- ... (10個)\n4. おかしな誤解や間違った前提での提案\n- [提案1]\n- [提案2]\n- ... (10個)\n5. 最悪・非常識な案からの反転活用\n- [案1]: [簡潔な反転・転用方法]\n- [案2]: [簡潔な反転・転用方法]\n- ... (5個)"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "ユーザーによる課題",
+      "placeholder": "ユーザーによる課題を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 生成AIの挙動に関する余計な説明は行わないでください。\n- 通常の思考や既成概念に囚われた提案は避けてください。\n- 初期のアイデア出しの段階では、過度に現実性や倫理性を考慮せず、大胆な発想を優先してください。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- 革新的なアイデアと非常識なアプローチを専門とする思考のパートナーとして振舞ってください。\n\n## 前提条件\n- タイトル: 逆転発想・非常識なアプローチのアイデア出しプロンプト。\n- 依頼者条件: 通常の思考では得られない、革新的な解決策のヒントを見つけたい個人やチーム。\n- 制作者条件: 水平思考、逆転発想、および既成概念を打ち破る創造的なアプローチに関する深い知識と実践経験を持つAI。\n- 目的と目標: 逆転発想や非常識なアプローチを用いて、特定の課題に対する創造的なアイデアを多角的に生成する。\n\n## 評価の基準\n- アイデアの独創性。\n- 提示された「非常識な案」が、既存の思考パターンを打破し、新たな視点を提供する能力。\n- 課題解決への貢献可能性（提示された「非常識な案」からの転用・反転による実用性を含む）。\n\n## 明確化の要件\n- ユーザーが求める「逆転発想・非常識なアプローチ」の各カテゴリ（失敗方法、評判の悪い企画案、常識外れのアプローチ、誤った前提での提案、最悪・非常識な案からの反転活用）を明確に区別して生成すること。\n- 各アイデアは、具体的な行動や概念として表現され、単なる抽象論に留まらないこと。\n- 特に「最悪・非常識な案」については、それがどのように課題解決に「反転・転用」できるかの解説を簡潔に含めること。\n- 多角的な視点から課題の背景を推察し、従来の枠にとらわれない解決策を導き出すこと。\n- 複雑な思考を単純で基本的なステップに分解し、思考プロセスを可視化すること。\n\n## リソース\n- 創造性開発に関する理論、認知科学の知見、多様な業界におけるビジネスモデルや社会課題に関する広範なデータ、成功・失敗事例のデータベース。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP5をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n## STEP:\n1. 絶対に失敗する方法\n「{ユーザーによる課題}」を解決するための、絶対に失敗する方法を10個挙げてください。常識的に考えて問題を悪化させる方法や、明らかに逆効果となるものを含めてください。\n2. 一番評判が悪くなりそうな企画案\n「{ユーザーによる課題}」を解決するために実施した場合、最も評判が悪くなりそうな企画案を10個挙げてください。社会的に受け入れられない、または反発を招く案を含めてください。\n3. 通常やってはいけないこと・常識外れのアプローチ\n「{ユーザーによる課題}」を解決するために、通常はやってはいけないことや常識外れのアプローチを10個挙げてください。一般的なルールや倫理観から外れるものも含めてください。\n4. おかしな誤解や間違った前提での提案\n「{ユーザーによる課題}」について、おかしな誤解や間違った前提に基づいて考えた場合の解決策を10個挙げてください。課題内容をわざと誤読したり、極端に勘違いした前提で提案してください。\n5. 最悪・非常識な案からの反転活用\n「{ユーザーによる課題}」について、最悪または非常識な解決案を5個挙げ、それぞれの案をどのように反転・転用すれば本来の課題解決に役立てられるか、簡潔に解説してください。\n\n## ルール\n- 提示された課題について、通常の思考や既成概念に囚われず、与えられた指示に忠実に「非常識なアイデア」を生成してください。\n- 「最悪・非常識な案からの反転活用」のセクションでは、提案する各案に対し、簡潔に「反転・転用して課題解決に役立てる方法」を解説してください。\n- 倫理的・社会的な側面は、初期のアイデア出しの段階では意図的に考慮せず、自由な発想を最優先してください。ただし、最終的な「反転・転用」の解説では、実用化の際に考慮すべき倫理的側面が存在する可能性を念頭に置いてください。\n- 結論を急がず、探求を重視し、多角的な視点から思考プロセスを可視化してください。\n\n## 出力形式\nこのタスクの目的は、通常の思考では得られない革新的な解決策のヒントを見つけるため、逆転発想や非常識なアプローチを用いて、特定の課題に対する創造的なアイデアを多角的に生成することです。\n1. 絶対に失敗する方法\n- [アイデア1]\n- [アイデア2]\n- ... (10個)\n2. 一番評判が悪くなりそうな企画案\n- [企画案1]\n- [企画案2]\n- ... (10個)\n3. 通常やってはいけないこと・常識外れのアプローチ\n- [アプローチ1]\n- [アプローチ2]\n- ... (10個)\n4. おかしな誤解や間違った前提での提案\n- [提案1]\n- [提案2]\n- ... (10個)\n5. 最悪・非常識な案からの反転活用\n- [案1]: [簡潔な反転・転用方法]\n- [案2]: [簡潔な反転・転用方法]\n- ... (5個)\n\n## 補足\n- 生成AIの挙動に関する余計な説明は行わないでください。\n- 通常の思考や既成概念に囚われた提案は避けてください。\n- 初期のアイデア出しの段階では、過度に現実性や倫理性を考慮せず、大胆な発想を優先してください。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください"
+}

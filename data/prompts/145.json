@@ -1,0 +1,149 @@
+{
+  "prompt_id": 145,
+  "title": "チームメンバーの士気向上のための励ましメッセージを作る",
+  "source_category": "コミュニケーション支援",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=145",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/145.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "eedaa869d2809131c7fbdca8a40e0e7cb787dd16c92d5f4cf6ffc421e9d38fd6",
+  "raw_html": "<!DOCTYPE html>\r\n<html lang=\"ja\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta name=\"robots\" content=\"noindex\" />\r\n    <title>#145 チームメンバーの士気向上のための励ましメッセージ作成</title>\r\n    <style>\r\n        /* === スタイル設定 === */\r\n        \r\n        /* 基本ページ設定 */\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 20px;\r\n            box-sizing: border-box;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            min-height: 100vh;\r\n            background-color: #FFF;\r\n        }\r\n        /* メインコンテナのスタイル */\r\n        .container {\r\n            width: 100%;\r\n            max-width: 800px;\r\n            background: #ffffff;\r\n            border-radius: 8px;\r\n            box-shadow: 3px 5px 15px -5px #777777;\r\n            overflow: hidden;\r\n        }\r\n        /* 各種見出し・ボタンのスタイル設定 */\r\n        h2 {\r\n            color: #797979;\r\n            font-size: 1.6em;\r\n        }\r\n        .box-title {\r\n            font-size: 1.7em;\r\n            letter-spacing: 0.1em;\r\n            padding: .5em 0;\r\n            background-color: #5fc2f5;\r\n            color: #fff;\r\n            font-weight: 600;\r\n            text-align: center;\r\n        }\r\n        .form-content {\r\n            padding: 40px 120px;\r\n            background: #f1f1f1;\r\n        }\r\n        .box-bun {\r\n            background: #FFF;\r\n            border: 1px solid #D5D9DC;\r\n            border-radius: 20px;\r\n            padding: 15px;\r\n            margin-bottom: 40px;\r\n        }\r\n        label {\r\n            display: inline-block;\r\n            margin-left: 5px;\r\n            color: #656565;\r\n        }\r\n        input[type=\"text\"], select, textarea {\r\n            width: 100%;\r\n            padding: 10px;\r\n            margin-top: 5px;\r\n            box-sizing: border-box;\r\n            border: 0.5px solid #AEAEAE;\r\n            border-radius: 5px;\r\n            font-size: 16px;\r\n        }\r\n        textarea {\r\n            resize: vertical;\r\n        }\r\n        .button-group {\r\n            display: flex;\r\n            justify-content: center;\r\n            margin-top: 20px;\r\n        }\r\n        .btn2 {\r\n            width: 150px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n\r\n        .btn-generate {\r\n            width: 180px;\r\n            height: 60px;\r\n            margin: 0 10px;\r\n        }\r\n        .btn2 a, .btn-generate a {\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            width: 100%;\r\n            height: 100%;\r\n            text-decoration: none;\r\n            font-size: 20px;\r\n            font-weight: bold;\r\n            border-radius: 35px;\r\n            transition: all 0.5s ease;\r\n        }\r\n        .btn2 a {\r\n            background: #FFFFFF;\r\n            color: #5FC2F5;\r\n            border: 2px solid #5FC2F5;\r\n        }\r\n        .btn2 a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .btn-generate a {\r\n            background: #5FC2F5;\r\n            color: #FFFFFF;\r\n        }\r\n        .btn-generate a:hover {\r\n            transform: scale(1.1, 1.1);\r\n        }\r\n        .small-text {\r\n            font-size: 0.5em;\r\n            color: #656565;\r\n            text-align: center;\r\n            margin-top: 5px;\r\n        }\r\n\r\n\r\n/* === 入力エリアの色設定 === */\r\n.variable-textarea {\r\n    background-color: #ffe4e1; /* 薄いピンク */\r\n}\r\n\r\n\r\n/* === スマホ用設定 === */\r\n@media only screen and (max-width: 768px) {\r\n    .container {\r\n        width: 100%;\r\n        padding: 10px;\r\n        box-shadow: none;\r\n    }\r\n    .form-content {\r\n        padding: 20px 10px;\r\n    }\r\n    .box-bun {\r\n        padding: 10px;\r\n        margin-bottom: 20px;\r\n    }\r\n    h2 {\r\n        font-size: 1.4em;\r\n    }\r\n    .button-group {\r\n        flex-direction: column;\r\n    }\r\n    .btn2, .btn-generate {\r\n        width: 100%;\r\n        height: 50px;\r\n        margin: 10px 0;\r\n    }\r\n    .btn2 a, .btn-generate a {\r\n        font-size: 18px;\r\n    }\r\n    textarea {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n    </style>\r\n</head>\r\n<body>\r\n\r\n<!-- === メインのHTML構造 === -->\r\n<div class=\"container\">\r\n    <div class=\"box-title\">#145 チームメンバーの士気向上のための励ましメッセージ作成</div>\r\n    <div class=\"form-content\">\r\n        <form id=\"summaryPromptForm\">\r\n\r\n<!-- プロンプトの目的 -->\r\n<div class=\"box-bun\">\r\n<h2>目的・ねらい</h2>\r\nこのプロンプトは、チームリーダーやマネージャーが、個々のチームメンバーに対して、よりパーソナライズされた励ましのメッセージを作成することを支援することを目的としています。<br>\r\nこのプロンプトを実行することで、チームリーダーやマネージャーは、より効果的にチームメンバーを励まし、モチベーションを高め、チーム全体の生産性向上につなげることが期待できます。 \r\n</div>\r\n\r\n<!-- あなたの役割の入力 -->\r\n<div class=\"box-bun\">\r\n<h2>あなたの役割</h2>\r\n<textarea name=\"role\" id=\"role\" rows=\"4\" placeholder=\"あなたの役割を入力してください\">\r\n- チームメンバーを励ますメッセージを作成する専門家\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 前提条件 -->\r\n<div class=\"box-bun\">\r\n<h2>前提条件</h2>\r\n<textarea name=\"conditions\" id=\"conditions\" rows=\"8\" placeholder=\"前提条件を入力してください\">\r\n- タイトル: チームメンバーへの個別メッセージ作成プロンプト\r\n- 依頼者条件: チームリーダーまたはマネージャー\r\n- 前提知識: チームメンバーそれぞれの個性、強み、現在の状況、直面している課題を理解している\r\n- 目的と目標: 個別メッセージを通じてメンバーの士気を高め、チーム全体の生産性向上に貢献する\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 評価の基準 -->\r\n<div class=\"box-bun\">\r\n<h2>評価の基準</h2>\r\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"8\" placeholder=\"評価の基準を入力してください\">\r\n- メッセージが、対象メンバーの個性や状況に適切にパーソナライズされている。 \r\n- メンバーのモチベーションを高め、行動を促すような具体的な内容が含まれている。\r\n- チーム全体の目標達成に貢献できるような、前向きで協調性を促す内容である。\r\n- 温かみがあり、共感できるトーンで書かれている。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 明確化の要件 -->\r\n<div class=\"box-bun\">\r\n<h2>明確化の要件</h2>\r\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"8\" placeholder=\"明確化の要件を入力してください\">\r\n- 個別メッセージ作成にあたって、以下の項目を明確にする。\r\n  - 対象メンバーの名前\r\n  - 対象メンバーの個性、強み\r\n  - 対象メンバーの現在の状況、直面している課題\r\n  - チーム全体の目標\r\n  - メッセージを通して期待する行動や変化\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- リソース -->\r\n<div class=\"box-bun\">\r\n<h2>リソース</h2>\r\n<textarea name=\"resource\" id=\"resource\" rows=\"5\" placeholder=\"リソースを入力してください\">\r\n- 過去のコミュニケーション記録\r\n- チームメンバーのパフォーマンスデータ\r\n- チーム全体の目標設定資料\r\n- 励ましのメッセージ例文集\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 実行指示 -->\r\n<div class=\"box-bun\">\r\n<h2>実行指示</h2>\r\n<textarea name=\"instructions\" id=\"instructions\" rows=\"24\" placeholder=\"実行指示を入力してください\">\r\n下記のSTEP1～STEP3をステップバイステップで実行し、{メンバー名}への個別メッセージを作成してください。\r\n\r\n## STEP:\r\n1. 情報収集: 対象メンバーに関する情報を収集します。\r\n  - 氏名\r\n  - 個性、強み\r\n  - 現在の状況、直面している課題\r\n  - 最近の成果や貢献\r\n  - チーム目標への貢献度\r\n2. メッセージ作成: 収集した情報に基づき、以下の要素を含めてメッセージを作成します。\r\n  - 具体的な行動や成果に対する感謝と賞賛\r\n  - 直面している課題に対する共感と励まし\r\n  - 強みや能力に対する肯定的なフィードバック\r\n  - チーム目標達成に向けた期待と役割の明確化\r\n  - 今後の成長と発展を促す言葉\r\n3. 確認と修正: 作成したメッセージを読み直し、以下の観点から確認と修正を行います。\r\n  - 誤字脱字がないか\r\n  - 文法的に正しいか\r\n  - トーンは適切か\r\n  - メッセージは明確で理解しやすいか\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- ルール -->\r\n<div class=\"box-bun\">\r\n<h2>ルール</h2>\r\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"18\" placeholder=\"ルールを入力してください\">\r\n- チームメンバーの個性と状況に合わせたメッセージ作成: プロンプトは、メンバーの名前、個性、強み、現在の状況や課題などの情報を収集するように指示しています。これらの情報を基に、それぞれのメンバーに響くような、よりパーソナライズされた励ましのメッセージを作成する。\r\n- モチベーション向上と行動促進: 単なる一般的な励ましではなく、具体的な行動や成果に対する感謝、直面する課題への共感、強みや能力への肯定的なフィードバックなどを含めることで、メンバーのモチベーションを高め、更なる行動を促すことを目指す。\r\n- チーム目標達成への貢献: メッセージを通して、チーム全体の目標と、各メンバーの役割を再確認させ、チームワークと協調性を促進することで、チーム目標達成への貢献を促す。\r\n- 温かい人間関係の構築:  温かみがあり、共感できるトーンでメッセージを作成することで、メンバーとの信頼関係を深め、より良い人間関係を築くことに貢献する。\r\n</textarea>\r\n</div>\r\n\r\n\r\n<!-- 出力設定 -->\r\n<div class=\"box-bun\">\r\n<h2>出力形式</h2>\r\n<textarea name=\"output\" id=\"output\" rows=\"5\" placeholder=\"出力形式を入力してください\">\r\n### 励ましメッセージ\r\nメンバー名: [メンバー名]\r\n個性、強み: [個性、強み]\r\n現在の状況や課題: [現在の状況や課題]\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n<!-- 変数設定 -->\r\n<div class=\"box-bun\">\r\n<h2>変数設定</h2>\r\n<h3>メンバー名</h3>\r\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"2\" placeholder=\"メンバー名を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>個性、強み</h3>\r\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"個性、強みを入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>現在の状況や課題</h3>\r\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"5\" placeholder=\"現在の状況や課題を入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n<h3>メッセージ本文</h3>\r\n<textarea name=\"hensu4\" id=\"hensu4\" rows=\"5\" placeholder=\"伝えたいメッセージを入力してください\" class=\"variable-textarea\" >\r\n</textarea>\r\n</div>\r\n\r\n<!-- 補足 -->\r\n<div class=\"box-bun\">\r\n<h2>補足</h2>\r\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"4\" placeholder=\"を補足を入力してください\">\r\n- 指示の復唱はしないてください。\r\n- 自己評価はしないでください。\r\n- 結論やまとめは書かないください。\r\n</textarea>\r\n</div>\r\n\r\n\r\n\r\n        </form>\r\n        <div class=\"button-group\">\r\n            <div class='btn2'>\r\n<a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\r\n            </div>\r\n            <div class=\"btn-generate\">\r\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\r\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=145\"></script>\r\n</div>\r\n\r\n<!-- JavaScript -->\r\n<script>\r\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\r\n    e.preventDefault();\r\n    const form = document.getElementById('summaryPromptForm');\r\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\r\n    const formData = new FormData(form);\r\n\r\n    communicationContent += \"# あなたの役割\\n\" + (formData.get('role') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 前提条件\\n\" + (formData.get('conditions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 評価の基準\\n\" + (formData.get('hyoka') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 明確化の要件\\n\" + (formData.get('meikaku') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# リソース\\n\" + (formData.get('resource') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 実行指示\\n\" + (formData.get('instructions') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# ルール\\n\" + (formData.get('clarification_rules') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 出力形式\\n\" + (formData.get('output') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 変数設定\" + (formData.get('hensu') || '') + \"\\n\";\r\n    communicationContent += \"##メンバー名=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##個性、強み=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##現在の状況や課題=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\";\r\n    communicationContent += \"##伝えたいメッセージ=\" + (formData.get('hensu4') || '特に指示無し') + \"\\n\\n\";\r\n    communicationContent += \"# 補足\\n\" + (formData.get('hosoku') || '特に指示無し');\r\n\r\n\r\n    // クリップボードにコピー\r\n    navigator.clipboard.writeText(communicationContent).then(() => {\r\n        alert('プロンプトがコピーされました。');\r\n    }).catch(err => {\r\n        console.error('クリップボードへのコピーに失敗しました:', err);\r\n        alert('プロンプトのコピーに失敗しました。');\r\n    });\r\n});\r\n</script>\r\n</body>\r\n</html>\r\n",
+  "page_title": "#145 チームメンバーの士気向上のための励ましメッセージ作成",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "メンバー名",
+    "個性、強み",
+    "現在の状況や課題",
+    "メッセージ本文",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- チームメンバーを励ますメッセージを作成する専門家"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: チームメンバーへの個別メッセージ作成プロンプト\n- 依頼者条件: チームリーダーまたはマネージャー\n- 前提知識: チームメンバーそれぞれの個性、強み、現在の状況、直面している課題を理解している\n- 目的と目標: 個別メッセージを通じてメンバーの士気を高め、チーム全体の生産性向上に貢献する"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- メッセージが、対象メンバーの個性や状況に適切にパーソナライズされている。\n- メンバーのモチベーションを高め、行動を促すような具体的な内容が含まれている。\n- チーム全体の目標達成に貢献できるような、前向きで協調性を促す内容である。\n- 温かみがあり、共感できるトーンで書かれている。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- 個別メッセージ作成にあたって、以下の項目を明確にする。\n- 対象メンバーの名前\n- 対象メンバーの個性、強み\n- 対象メンバーの現在の状況、直面している課題\n- チーム全体の目標\n- メッセージを通して期待する行動や変化"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 過去のコミュニケーション記録\n- チームメンバーのパフォーマンスデータ\n- チーム全体の目標設定資料\n- 励ましのメッセージ例文集"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "下記のSTEP1～STEP3をステップバイステップで実行し、{メンバー名}への個別メッセージを作成してください。\n## STEP:\n1. 情報収集: 対象メンバーに関する情報を収集します。\n- 氏名\n- 個性、強み\n- 現在の状況、直面している課題\n- 最近の成果や貢献\n- チーム目標への貢献度\n2. メッセージ作成: 収集した情報に基づき、以下の要素を含めてメッセージを作成します。\n- 具体的な行動や成果に対する感謝と賞賛\n- 直面している課題に対する共感と励まし\n- 強みや能力に対する肯定的なフィードバック\n- チーム目標達成に向けた期待と役割の明確化\n- 今後の成長と発展を促す言葉\n3. 確認と修正: 作成したメッセージを読み直し、以下の観点から確認と修正を行います。\n- 誤字脱字がないか\n- 文法的に正しいか\n- トーンは適切か\n- メッセージは明確で理解しやすいか"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- チームメンバーの個性と状況に合わせたメッセージ作成: プロンプトは、メンバーの名前、個性、強み、現在の状況や課題などの情報を収集するように指示しています。これらの情報を基に、それぞれのメンバーに響くような、よりパーソナライズされた励ましのメッセージを作成する。\n- モチベーション向上と行動促進: 単なる一般的な励ましではなく、具体的な行動や成果に対する感謝、直面する課題への共感、強みや能力への肯定的なフィードバックなどを含めることで、メンバーのモチベーションを高め、更なる行動を促すことを目指す。\n- チーム目標達成への貢献: メッセージを通して、チーム全体の目標と、各メンバーの役割を再確認させ、チームワークと協調性を促進することで、チーム目標達成への貢献を促す。\n- 温かい人間関係の構築: 温かみがあり、共感できるトーンでメッセージを作成することで、メンバーとの信頼関係を深め、より良い人間関係を築くことに貢献する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "### 励ましメッセージ\nメンバー名: [メンバー名]\n個性、強み: [個性、強み]\n現在の状況や課題: [現在の状況や課題]"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "メンバー名",
+      "placeholder": "メンバー名を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "個性、強み",
+      "placeholder": "個性、強みを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "現在の状況や課題",
+      "placeholder": "現在の状況や課題を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu4",
+      "type": "",
+      "label_hint": "メッセージ本文",
+      "placeholder": "伝えたいメッセージを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- チームメンバーを励ますメッセージを作成する専門家\n\n## 前提条件\n- タイトル: チームメンバーへの個別メッセージ作成プロンプト\n- 依頼者条件: チームリーダーまたはマネージャー\n- 前提知識: チームメンバーそれぞれの個性、強み、現在の状況、直面している課題を理解している\n- 目的と目標: 個別メッセージを通じてメンバーの士気を高め、チーム全体の生産性向上に貢献する\n\n## 評価の基準\n- メッセージが、対象メンバーの個性や状況に適切にパーソナライズされている。\n- メンバーのモチベーションを高め、行動を促すような具体的な内容が含まれている。\n- チーム全体の目標達成に貢献できるような、前向きで協調性を促す内容である。\n- 温かみがあり、共感できるトーンで書かれている。\n\n## 明確化の要件\n- 個別メッセージ作成にあたって、以下の項目を明確にする。\n- 対象メンバーの名前\n- 対象メンバーの個性、強み\n- 対象メンバーの現在の状況、直面している課題\n- チーム全体の目標\n- メッセージを通して期待する行動や変化\n\n## リソース\n- 過去のコミュニケーション記録\n- チームメンバーのパフォーマンスデータ\n- チーム全体の目標設定資料\n- 励ましのメッセージ例文集\n\n## 実行指示\n下記のSTEP1～STEP3をステップバイステップで実行し、{メンバー名}への個別メッセージを作成してください。\n## STEP:\n1. 情報収集: 対象メンバーに関する情報を収集します。\n- 氏名\n- 個性、強み\n- 現在の状況、直面している課題\n- 最近の成果や貢献\n- チーム目標への貢献度\n2. メッセージ作成: 収集した情報に基づき、以下の要素を含めてメッセージを作成します。\n- 具体的な行動や成果に対する感謝と賞賛\n- 直面している課題に対する共感と励まし\n- 強みや能力に対する肯定的なフィードバック\n- チーム目標達成に向けた期待と役割の明確化\n- 今後の成長と発展を促す言葉\n3. 確認と修正: 作成したメッセージを読み直し、以下の観点から確認と修正を行います。\n- 誤字脱字がないか\n- 文法的に正しいか\n- トーンは適切か\n- メッセージは明確で理解しやすいか\n\n## ルール\n- チームメンバーの個性と状況に合わせたメッセージ作成: プロンプトは、メンバーの名前、個性、強み、現在の状況や課題などの情報を収集するように指示しています。これらの情報を基に、それぞれのメンバーに響くような、よりパーソナライズされた励ましのメッセージを作成する。\n- モチベーション向上と行動促進: 単なる一般的な励ましではなく、具体的な行動や成果に対する感謝、直面する課題への共感、強みや能力への肯定的なフィードバックなどを含めることで、メンバーのモチベーションを高め、更なる行動を促すことを目指す。\n- チーム目標達成への貢献: メッセージを通して、チーム全体の目標と、各メンバーの役割を再確認させ、チームワークと協調性を促進することで、チーム目標達成への貢献を促す。\n- 温かい人間関係の構築: 温かみがあり、共感できるトーンでメッセージを作成することで、メンバーとの信頼関係を深め、より良い人間関係を築くことに貢献する。\n\n## 出力形式\n### 励ましメッセージ\nメンバー名: [メンバー名]\n個性、強み: [個性、強み]\n現在の状況や課題: [現在の状況や課題]\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

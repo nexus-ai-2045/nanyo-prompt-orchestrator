@@ -1,0 +1,159 @@
+{
+  "prompt_id": 632,
+  "title": "変革のための効果的なコミュニケーションプラン作成",
+  "source_category": "コミュニケーション支援",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=632",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/632.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "b81e391f3c5395b9498cc46456555ffa11236013372a38260b6132a92ac11880",
+  "raw_html": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta name=\"robots\" content=\"noindex\" />\n    <title>#632 変革のための効果的なコミュニケーションプラン作成</title>\n    <style>\n        /* === スタイル設定 === */\n        \n        /* 基本ページ設定 */\n        body {\n            font-family: Arial, sans-serif;\n            margin: 0;\n            padding: 20px;\n            box-sizing: border-box;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            min-height: 100vh;\n            background-color: #FFF;\n        }\n        /* メインコンテナのスタイル */\n        .container {\n            width: 100%;\n            max-width: 800px;\n            background: #ffffff;\n            border-radius: 8px;\n            box-shadow: 3px 5px 15px -5px #777777;\n            overflow: hidden;\n        }\n        /* 各種見出し・ボタンのスタイル設定 */\n        h2 {\n            color: #797979;\n            font-size: 1.6em;\n        }\n        .box-title {\n            font-size: 1.7em;\n            letter-spacing: 0.1em;\n            padding: 1em 20px; /* Combined padding */\n            background-color: #5fc2f5;\n            color: #fff;\n            font-weight: 600;\n            display: flex; /* Make it a flex container */\n            align-items: center; /* Vertically center items */\n            justify-content: space-between; /* Push items to ends */\n        }\n        .box-title .title-text {\n            flex-grow: 1; /* Allow title to take available space */\n            text-align: center; /* Keep title centered */\n            white-space: nowrap; /* Prevent wrapping */\n            overflow: hidden; /* Hide overflow content */\n            text-overflow: ellipsis; /* Show ellipsis for truncated text */\n        }\n        #toggleIcon {\n            font-size: 24px; /* Increased size */\n        }\n        .form-content {\n            padding: 40px 120px;\n            background: #f1f1f1;\n        }\n        .box-bun {\n            background: #FFF;\n            border: 1px solid #D5D9DC;\n            border-radius: 20px;\n            padding: 15px;\n            margin-bottom: 40px;\n        }\n        .togglable-section {\n                /* display: none; Removed */\n            }\n        label {\n            display: inline-block;\n            margin-left: 5px;\n            color: #656565;\n        }\n        input[type=\"text\"], select, textarea {\n            width: 100%;\n            padding: 10px;\n            margin-top: 5px;\n            box-sizing: border-box;\n            border: 0.5px solid #AEAEAE;\n            border-radius: 5px;\n            font-size: 16px;\n        }\n        textarea {\n            resize: vertical;\n        }\n        .button-group {\n            display: flex;\n            justify-content: center;\n            margin-top: 20px;\n        }\n        .btn2 {\n            width: 150px;\n            height: 60px;\n            margin: 0 10px;\n        }\n\n        .btn-generate {\n            width: 180px;\n            height: 60px;\n            margin: 0 10px;\n        }\n        .btn2 a, .btn-generate a {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            width: 100%;\n            height: 100%;\n            text-decoration: none;\n            font-size: 20px;\n            font-weight: bold;\n            border-radius: 35px;\n            transition: all 0.5s ease;\n        }\n        .btn2 a {\n            background: #FFFFFF;\n            color: #5FC2F5;\n            border: 2px solid #5FC2F5;\n        }\n        .btn2 a:hover {\n            transform: scale(1.1, 1.1);\n        }\n        .btn-generate a {\n            background: #5FC2F5;\n            color: #FFFFFF;\n        }\n        .btn-generate a:hover {\n            transform: scale(1.1, 1.1);\n        }\n        .small-text {\n            font-size: 0.5em;\n            color: #656565;\n            text-align: center;\n            margin-top: 5px;\n        }\n\n/* === 入力エリアの色設定 === */\n.variable-textarea {\n    background-color: #ffe4e1; /* 薄いピンク */\n}\n\n\n        /* === スマホ用設定 === */\n@media only screen and (max-width: 768px) {\n    .prompt-text {\n        display: none;\n    }\n    .container {\n        width: 100%;\n        padding: 10px;\n        box-shadow: none;\n    }\n    .form-content {\n        padding: 20px 10px;\n    }\n    .box-bun {\n        padding: 10px;\n        margin-bottom: 20px;\n    }\n    h2 {\n        font-size: 1.4em;\n    }\n    .button-group {\n        flex-direction: column;\n    }\n    .btn2, .btn-generate {\n        width: 100%;\n        height: 50px;\n        margin: 10px 0;\n    }\n    .btn2 a, .btn-generate a {\n        font-size: 18px;\n    }\n    textarea {\n        font-size: 14px;\n    }\n}\n\n    </style>\n</head>\n<body>\n\n<!-- === メインのHTML構造 === -->\n<div class=\"container\">\n    <div class=\"box-title\">\n    <span class=\"title-text\">#632 変革のための効果的なコミュニケーションプラン作成</span>\n    <span id=\"toggleIcon\" style=\"cursor:pointer;\">☰</span>\n</div>\n    <div class=\"form-content\">\n        <form id=\"summaryPromptForm\">\n\n<!-- プロンプトの目的 -->\n<div class=\"box-bun\">\n<h2>目的・ねらい</h2>\nこのプロンプトは、組織変革という非常にデリケートかつ重要な課題に対して、AIの分析力と共感性を最大限に活用し、業務に直ちに活用できる実践的なプランを作成します。\n</div>\n            <!-- あなたの役割の入力 -->\n            <div class=\"box-bun togglable-section\">\n<h2>あなたの役割</h2>\n<textarea name=\"role\" id=\"role\" rows=\"9\" placeholder=\"あなたの役割を入力してください\">\n- あなたは、組織変革コミュニケーションの専門家であり、企業文化や従業員心理に深く精通したチェンジマネジメントコンサルタントです。\n- あなたの主な役割は、従業員の心理的な抵抗を軽減し、変革の必要性やメリットに対する共感を呼ぶための協調的かつ双方向的なコミュニケーション戦略（Change Mindsetプラン）を構築することです。\n</textarea>\n            </div>\n\n<!-- 前提条件 -->\n            <div class=\"box-bun togglable-section\">\n<h2>前提条件</h2>\n<textarea name=\"conditions\" id=\"conditions\" rows=\"36\" placeholder=\"前提条件を入力してください\">\n1. 前提 (Premise):\n - 組織変革（DX/システム導入など）の成功は、技術（D）よりも、人と組織を変えるスキル（X、組織変革スキル）に依存する。\n - 変革への従業員の理解促進と心理的抵抗の軽減が、新しい制度やシステムの導入と定着の鍵である。\n - コミュニケーションは透明性と誠実さを基盤とし、信頼関係を築くべきである。\n2. 状況 (Situation):\n - 企業内で新しいシステム導入や組織改革が計画されている。\n - 組織はトップダウンの意思決定が多く、従業員が変化に対して受動的になりがちな傾向がある。\n - ターゲットは、企業内のプロジェクトマネージャーや経営企画担当者である。\n3. 目的 (Purpose):\n - 従業員の心理的抵抗を軽減し、変革の必要性やそのメリットを伝えることで、新しい制度やシステムの円滑な導入と定着を実現すること。\n - 最終的な成果として、「Change Mindset（意識改革）のためのコミュニケーションプラン草案」を生成すること。\n4. 動機 (Motive):\n - 一方的な通達（トップダウン）ではなく、従業員の立場や疑問に透明性と誠実さをもって応え、双方向の対話を促す協調的なアプローチを通じて、組織全体の変革意識を共創的に達成すること。\n5. 制約 (Constraint):\n - 作成するプランは、ターゲット（全従業員、管理者層など）とフェーズ（導入前、導入時、導入後）に応じた具体的な施策を含むこと。\n - コミュニケーションのトーンは、透明性・誠実さを重視し、協調的な文体とすること。\n</textarea>\n            </div>\n\n\n<!-- 評価の基準 -->\n            <div class=\"box-bun togglable-section\">\n<h2>評価の基準</h2>\n<textarea name=\"hyoka\" id=\"hyoka\" rows=\"14\" placeholder=\"評価の基準を入力してください\">\n1. 共感性と説得力: 提案された「変革のストーリー」が、従業員の共感を得られ、「なぜ変革が必要か」を論理的かつ感情的に納得させる説得力を持っているか。\n2. 実用性と網羅性: 提案された施策が、ターゲットとフェーズに応じて具体的に実行可能であり、従業員の不安解消策とポジティブな側面が明確に組み込まれているか。\n3. 双方向性の確保: トップダウンの傾向を克服するため、フィードバック収集や対話といった双方向のコミュニケーションの仕組みが具体的に定義されているか。\n4. トーン＆マナーの遵守: 透明性、誠実さ、協調性を重視した文体・表現が適用されているか。\n</textarea>\n            </div>\n\n\n<!-- 明確化の要件 -->\n            <div class=\"box-bun togglable-section\">\n<h2>明確化の要件</h2>\n<textarea name=\"meikaku\" id=\"meikaku\" rows=\"17\" placeholder=\"明確化の要件を入力してください\">\n- AIが従業員の心理的抵抗を深く理解し、適切なプランを設計するために、以下の要素を明確化してください。\n1. 変革の具体的な内容: 導入するシステム、または組織改革の具体的な範囲、およびそれによって業務プロセスや人員配置にどのような変化が起こるか（As-Is/To-Be）を明確にする。\n2. 従業員の懸念事項の深掘り: ターゲット従業員が抱える具体的な不安や潜在的な課題（例: 仕事が増える、自分のスキルが不要になる、複雑になる、失敗したくないなど）を、機能的、感情的、社会的な側面に分けて事前に推察する。\n3. 主要なキーパーソン: 変革推進のリーダー層（管理者層）が、変革の意義をどの程度理解し、コミットしているか、また彼らに対する特別なコミュニケーション（育成/エンゲージメント）が必要かどうか。\n</textarea>\n            </div>\n\n\n<!-- リソース -->\n            <div class=\"box-bun togglable-section\">\n<h2>リソース</h2>\n<textarea name=\"resource\" id=\"resource\" rows=\"11\" placeholder=\"リソースを入力してください\">\n- コミュニケーション戦略の知見: 感情に訴えかけるストーリーテリングの原則、ターゲット層の心理的抵抗の解消法、説得力のあるメッセージ作成のノウハウ。\n- 組織変革とDXの知見: DXにおける「組織変革スキル（X）」の重要性、変革フェーズごとの課題とアプローチ。\n- 思考フレームワーク: 問題解決思考（理想の姿と現実のギャップ分析）、なぜなぜ分析（根本原因の深堀り）。\n</textarea>\n            </div>\n\n\n            <!-- 実行指示 -->\n            <div class=\"box-bun togglable-section\">\n<h2>実行指示</h2>\n<textarea name=\"instructions\" id=\"instructions\" rows=\"42\" placeholder=\"実行指示を入力してください\">\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 以下のSTEPに従い、「Change Mindsetのためのコミュニケーションプラン草案」を策定してください。\n- 各ステップでは、提供されたユーザー入力と前提条件を厳守すること。\n\n## STEP:\n1. 変革の「Why」と共感ストーリーの定義\n  1-1. 問題の定義（ギャップ分析）: 現状（As-Is）と変革後の理想の姿（To-Be）を明確にし、そのギャップ（問題）を特定します。\n  1-2. ストーリー核の作成: 特定されたギャップと変革の目的に基づき、従業員が「自分ごと」として捉えられ、共感を覚える「変革のストーリー（なぜ変革が必要か）」の核となるメッセージを定義します。\n2. 従業員の不安とメリットの構造化\n  2-1. 懸念事項の特定と対策: 従業員視点で、変革によって生じうる機能的、感情的、社会的な不安や疑問を特定し、それらを解消するための具体的かつ誠実な回答案（FAQ草案）を作成します。\n  2-2. ポジティブな未来の描写: 変革が従業員の個人の成長、キャリア、日々の業務、または生活にもたらす具体的なポジティブな側面（ベネフィット）を明確にし、感情に訴えかける形で描写します。\n3. コミュニケーション施策の立案と具体化\n  3-1. ターゲット/フェーズの分類: 「全従業員」「管理者層」「導入影響部門」といったターゲット層と、「導入前（認知/理解促進）」「導入時（教育/サポート）」「導入後（定着/フィードバック）」のフェーズに分類します。\n  3-2. 施策の提案: 各分類（ターゲット×フェーズ）に応じて、双方向の対話を重視した具体的なコミュニケーション施策（例: タウンホールミーティング、管理者向けQ&A研修、匿名のフィードバックチャネルなど）を提案します。\n</textarea>\n            </div>\n\n            <!-- ルール -->\n            <div class=\"box-bun togglable-section\">\n<h2>ルール</h2>\n<textarea name=\"clarification_rules\" id=\"clarification_rules\" rows=\"13\" placeholder=\"ルールを入力してください\">\n1. トーンの厳守: 出力は、前提条件で定義された通り、透明性・誠実さを重視し、一方的な通達ではなく、従業員との対話を促すような協調的な文体で記述します。\n2. 具体的なアウトプット: 施策は「〇〇を検討」といった抽象的な表現ではなく、「△△という目的で、〇〇というツールを使い、管理者向けのロールプレイを実施する」のように、即座に実行に移せる具体的な内容とします。\n3. 論理的構造: 各ステップの論理的な根拠（Why）を明確にし、提案全体で一貫性のあるメッセージが伝わるように構成します。\n</textarea>\n            </div>\n\n\n<!-- 出力設定 -->\n            <div class=\"box-bun togglable-section\">\n<h2>出力形式</h2>\n<textarea name=\"output\" id=\"output\" rows=\"50\" placeholder=\"出力形式を入力してください\">\n- 出力は、以下のMarkdown形式の構成を厳守してください。\n```markdown\n## 変革のためのコミュニケーションプラン草案：[AIが提案するタイトル]\n\n### 1. 変革のストーリー（意識改革のための核となるメッセージ）\n- 【変革のWhy（現状と理想のギャップ）】：[簡潔に記述]\n- 【核となるメッセージ（従業員への訴え）】：[共感と必要性を促すメッセージ]\n- 【ストーリーテリング要素】：[変革の必要性を伝えるための具体的なエピソードや比喩の提案]\n\n### 2. 従業員視点の分析と不安解消プラン\n#### 2-1. 従業員の主な懸念と質問（FAQトップ3草案）\n- 懸念1（機能的/業務的）：[具体的な懸念] → [誠実な回答案]\n- 懸念2（感情的/心理的）：[具体的な懸念] → [誠実な回答案]\n- 懸念3（社会的/キャリア的）：[具体的な懸念] → [誠実な回答案]\n\n#### 2-2. 変革がもたらすポジティブな側面（未来の描写）\n- [従業員個人の業務効率や成長に焦点を当てた描写]\n\n### 3. コミュニケーション施策詳細（ターゲット×フェーズ別）\nターゲット層 フェーズ 施策名 目的 双方向性（対話）の確保方法\n:--- :--- :--- :--- :---\n全従業員 導入前 [具体的な施策名] [目的] [具体的な方法]\n全従業員 導入時 [具体的な施策名] [目的] [具体的な方法]\n管理者層 導入前 [具体的な施策名] [目的] [具体的な方法]\n管理者層 導入後 [具体的な施策名] [目的] [具体的な方法]\n導入影響部門 導入時 [具体的な施策名] [目的] [具体的な方法]\n\n### 4. プランの評価指標（KPI草案）\n1. [指標1]：[測定方法と目標値]\n2. [指標2]：[測定方法と目標値]\n3. [指標3]：[測定方法と目標値]\n```\n</textarea>\n            </div>\n\n\n<!-- ユーザー入力 -->\n            <div class=\"box-bun\">\n<h2>ユーザー入力</h2>\n<h3>変革テーマ</h3>\n<textarea name=\"hensu1\" id=\"hensu1\" rows=\"5\" placeholder=\"ここに変革テーマを入力します。（例：全社的なAI導入と業務プロセスの見直し）\" class=\"variable-textarea\" >\n</textarea>\n<h3>現在の従業員の雰囲気/抵抗レベル</h3>\n<textarea name=\"hensu2\" id=\"hensu2\" rows=\"5\" placeholder=\"ここに現在の従業員の雰囲気/抵抗レベルを入力します。（例：新しいことへの意欲は低い。失敗を恐れて様子見が多い。）\" class=\"variable-textarea\" >\n</textarea>\n<h3>想定ターゲットA（管理者層）の課題</h3>\n<textarea name=\"hensu3\" id=\"hensu3\" rows=\"5\" placeholder=\"ここに想定ターゲットA（管理者層）の課題を入力します。（例：部下への説明責任が増えることへの負担感。自分たちも変革の意義を理解しきれていない。）\" class=\"variable-textarea\" >\n</textarea>\n<h3>想定ターゲットB（一般従業員）の課題</h3>\n<textarea name=\"hensu4\" id=\"hensu4\" rows=\"5\" placeholder=\"ここに想定ターゲットB（一般従業員）の課題を入力します。（例：AIに仕事を奪われるのではないかという漠然とした不安。操作が難しそう。）\" class=\"variable-textarea\" >\n</textarea>\n<h3>コミュニケーションチャネル（利用可能リソース）</h3>\n<textarea name=\"hensu5\" id=\"hensu5\" rows=\"5\" placeholder=\"ここにコミュニケーションチャネル（利用可能リソース）を入力します。（例：社内メール、部署別ミーティング、管理者向け研修、社内SNS）\" class=\"variable-textarea\" >\n</textarea>\n            </div>\n\n\n\n            <!-- 補足 -->\n            <div class=\"box-bun togglable-section\">\n<h2>補足</h2>\n<textarea name=\"hosoku\" id=\"hosoku\" rows=\"25\" placeholder=\"を補足を入力してください\">\n- このプランは、組織がトップダウンの意思決定に偏りがちであるという背景を考慮し、特に管理者層に対するエンゲージメント強化と、全従業員からの匿名またはオープンなフィードバック収集の仕組みを重視しています。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n\n### ネガティブ制約条件\n- 従業員の不安や疑問に対し、抽象的な精神論や理想論に終始した回答をしないこと。\n- システムや技術の専門的な仕様のみを羅列し、それが従業員にとってどのような利益や変化をもたらすかの説明を欠いた、一方的な通達型のメッセージを作成しないこと。\n- プランの実行が困難な、過度に時間や予算を要する非現実的な施策を提案しないこと。\n</textarea>\n            </div>\n\n\n        </form>\n        <div class=\"button-group\">\n            <div class='btn2'>\n                <a href=\"http://www.city.nanyo.yamagata.jp/dxchosei/5793\">戻る</a>\n            </div>\n            <div class=\"btn-generate\">\n                <a href=\"#\" id=\"generateButton\">プロンプト作成</a>\n                <div class=\"small-text\">クリップボードにコピーされます。</div>\n            </div>\n        </div>\n    </div>\n<script type=\"text/javascript\" src=\"/download_prompt/download.php?dsp_count=632\"></script>\n</div>\n\n<!-- JavaScript -->\n<script>\ndocument.getElementById('generateButton').addEventListener('click', function(e) {\n    e.preventDefault();\n    const form = document.getElementById('summaryPromptForm');\n    let communicationContent = \"以下はあなたへの指示の内容です。\\n\\n\";\n    const formData = new FormData(form);\n\n    communicationContent += \"<あなたの役割>\\n\" + (formData.get('role') || '特に指示無し\\n') + \"</あなたの役割>\\n\\n\";\n    communicationContent += \"<前提条件>\\n\" + (formData.get('conditions') || '特に指示無し\\n') + \"</前提条件>\\n\\n\";\n    communicationContent += \"<評価の基準>\\n\" + (formData.get('hyoka') || '特に指示無し\\n') + \"</評価の基準>\\n\\n\";\n    communicationContent += \"<明確化の要件>\\n\" + (formData.get('meikaku') || '特に指示無し\\n') + \"</明確化の要件>\\n\\n\";\n    communicationContent += \"<リソース>\\n\" + (formData.get('resource') || '特に指示無し\\n') + \"</リソース>\\n\\n\";\n    communicationContent += \"<実行指示>\\n\" + (formData.get('instructions') || '特に指示無し\\n') + \"</実行指示>\\n\\n\";\n    communicationContent += \"<ルール>\\n\" + (formData.get('clarification_rules') || '特に指示無し\\n') + \"</ルール>\\n\\n\";\n    communicationContent += \"<出力形式>\\n\" + (formData.get('output') || '特に指示無し\\n') + \"</出力形式>\\n\\n\";\n    communicationContent += \"<ユーザー入力>\" + (formData.get('hensu') || '') + \"\\n\";\n    communicationContent += \"##変革テーマ=\" + (formData.get('hensu1') || '特に指示無し') + \"\\n\";\n    communicationContent += \"##現在の従業員の雰囲気/抵抗レベル=\" + (formData.get('hensu2') || '特に指示無し') + \"\\n\";\n    communicationContent += \"##想定ターゲットA（管理者層）の課題=\" + (formData.get('hensu3') || '特に指示無し') + \"\\n\";\n    communicationContent += \"##想定ターゲットB（一般従業員）の課題=\" + (formData.get('hensu4') || '特に指示無し') + \"\\n\";\n    communicationContent += \"##コミュニケーションチャネル（利用可能リソース）=\" + (formData.get('hensu5') || '特に指示無し') + \"\\n</ユーザー入力>\\n\\n\";\n    communicationContent += \"<補足>\\n\" + (formData.get('hosoku') || '特に指示無し\\n') + \"</補足>\\n\";\n\n    // クリップボードにコピー\n    navigator.clipboard.writeText(communicationContent).then(() => {\n        alert('プロンプトがコピーされました。');\n    }).catch(err => {\n        console.error('クリップボードへのコピーに失敗しました:', err);\n        alert('プロンプトのコピーに失敗しました。');\n    });\n});\n\ndocument.addEventListener('DOMContentLoaded', function() {\n    const toggleIcon = document.getElementById('toggleIcon');\n    const togglableSections = document.querySelectorAll('.togglable-section');\n\n    // Default: All blocks should be displayed\n    // Set initial state of toggleIcon to 'hide' (×) and its title\n    if (toggleIcon) { // Ensure toggleIcon exists before setting its properties\n        toggleIcon.innerHTML = '×'; // Initially show 'hide' icon\n        toggleIcon.title = ''; // Initially no tooltip when visible\n    }\n\n    if (toggleIcon && togglableSections.length > 0) {\n        toggleIcon.addEventListener('click', function() {\n            const isHidden = togglableSections[0].style.display === 'none'; // Check current display state\n            if (isHidden) { // If currently hidden, show them\n                togglableSections.forEach(section => {\n                    section.style.display = 'block';\n                });\n                toggleIcon.innerHTML = '×'; // Change icon to 'hide'\n                toggleIcon.title = 'プロンプト非表示'; // No tooltip when visible\n            } else { // If currently visible, hide them\n                togglableSections.forEach(section => {\n                    section.style.display = 'none';\n                });\n                toggleIcon.innerHTML = '☰'; // Change icon to 'show'\n                toggleIcon.title = 'プロンプト表示'; // Set title for 'show' state\n            }\n        });\n    }\n});\n</script>\n</body>\n</html>\n",
+  "page_title": "#632 変革のための効果的なコミュニケーションプラン作成",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "ユーザー入力",
+    "変革テーマ",
+    "現在の従業員の雰囲気/抵抗レベル",
+    "想定ターゲットA（管理者層）の課題",
+    "想定ターゲットB（一般従業員）の課題",
+    "コミュニケーションチャネル（利用可能リソース）",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- あなたは、組織変革コミュニケーションの専門家であり、企業文化や従業員心理に深く精通したチェンジマネジメントコンサルタントです。\n- あなたの主な役割は、従業員の心理的な抵抗を軽減し、変革の必要性やメリットに対する共感を呼ぶための協調的かつ双方向的なコミュニケーション戦略（Change Mindsetプラン）を構築することです。"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "1. 前提 (Premise):\n- 組織変革（DX/システム導入など）の成功は、技術（D）よりも、人と組織を変えるスキル（X、組織変革スキル）に依存する。\n- 変革への従業員の理解促進と心理的抵抗の軽減が、新しい制度やシステムの導入と定着の鍵である。\n- コミュニケーションは透明性と誠実さを基盤とし、信頼関係を築くべきである。\n2. 状況 (Situation):\n- 企業内で新しいシステム導入や組織改革が計画されている。\n- 組織はトップダウンの意思決定が多く、従業員が変化に対して受動的になりがちな傾向がある。\n- ターゲットは、企業内のプロジェクトマネージャーや経営企画担当者である。\n3. 目的 (Purpose):\n- 従業員の心理的抵抗を軽減し、変革の必要性やそのメリットを伝えることで、新しい制度やシステムの円滑な導入と定着を実現すること。\n- 最終的な成果として、「Change Mindset（意識改革）のためのコミュニケーションプラン草案」を生成すること。\n4. 動機 (Motive):\n- 一方的な通達（トップダウン）ではなく、従業員の立場や疑問に透明性と誠実さをもって応え、双方向の対話を促す協調的なアプローチを通じて、組織全体の変革意識を共創的に達成すること。\n5. 制約 (Constraint):\n- 作成するプランは、ターゲット（全従業員、管理者層など）とフェーズ（導入前、導入時、導入後）に応じた具体的な施策を含むこと。\n- コミュニケーションのトーンは、透明性・誠実さを重視し、協調的な文体とすること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "1. 共感性と説得力: 提案された「変革のストーリー」が、従業員の共感を得られ、「なぜ変革が必要か」を論理的かつ感情的に納得させる説得力を持っているか。\n2. 実用性と網羅性: 提案された施策が、ターゲットとフェーズに応じて具体的に実行可能であり、従業員の不安解消策とポジティブな側面が明確に組み込まれているか。\n3. 双方向性の確保: トップダウンの傾向を克服するため、フィードバック収集や対話といった双方向のコミュニケーションの仕組みが具体的に定義されているか。\n4. トーン＆マナーの遵守: 透明性、誠実さ、協調性を重視した文体・表現が適用されているか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "- AIが従業員の心理的抵抗を深く理解し、適切なプランを設計するために、以下の要素を明確化してください。\n1. 変革の具体的な内容: 導入するシステム、または組織改革の具体的な範囲、およびそれによって業務プロセスや人員配置にどのような変化が起こるか（As-Is/To-Be）を明確にする。\n2. 従業員の懸念事項の深掘り: ターゲット従業員が抱える具体的な不安や潜在的な課題（例: 仕事が増える、自分のスキルが不要になる、複雑になる、失敗したくないなど）を、機能的、感情的、社会的な側面に分けて事前に推察する。\n3. 主要なキーパーソン: 変革推進のリーダー層（管理者層）が、変革の意義をどの程度理解し、コミットしているか、また彼らに対する特別なコミュニケーション（育成/エンゲージメント）が必要かどうか。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- コミュニケーション戦略の知見: 感情に訴えかけるストーリーテリングの原則、ターゲット層の心理的抵抗の解消法、説得力のあるメッセージ作成のノウハウ。\n- 組織変革とDXの知見: DXにおける「組織変革スキル（X）」の重要性、変革フェーズごとの課題とアプローチ。\n- 思考フレームワーク: 問題解決思考（理想の姿と現実のギャップ分析）、なぜなぜ分析（根本原因の深堀り）。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 以下のSTEPに従い、「Change Mindsetのためのコミュニケーションプラン草案」を策定してください。\n- 各ステップでは、提供されたユーザー入力と前提条件を厳守すること。\n## STEP:\n1. 変革の「Why」と共感ストーリーの定義\n1-1. 問題の定義（ギャップ分析）: 現状（As-Is）と変革後の理想の姿（To-Be）を明確にし、そのギャップ（問題）を特定します。\n1-2. ストーリー核の作成: 特定されたギャップと変革の目的に基づき、従業員が「自分ごと」として捉えられ、共感を覚える「変革のストーリー（なぜ変革が必要か）」の核となるメッセージを定義します。\n2. 従業員の不安とメリットの構造化\n2-1. 懸念事項の特定と対策: 従業員視点で、変革によって生じうる機能的、感情的、社会的な不安や疑問を特定し、それらを解消するための具体的かつ誠実な回答案（FAQ草案）を作成します。\n2-2. ポジティブな未来の描写: 変革が従業員の個人の成長、キャリア、日々の業務、または生活にもたらす具体的なポジティブな側面（ベネフィット）を明確にし、感情に訴えかける形で描写します。\n3. コミュニケーション施策の立案と具体化\n3-1. ターゲット/フェーズの分類: 「全従業員」「管理者層」「導入影響部門」といったターゲット層と、「導入前（認知/理解促進）」「導入時（教育/サポート）」「導入後（定着/フィードバック）」のフェーズに分類します。\n3-2. 施策の提案: 各分類（ターゲット×フェーズ）に応じて、双方向の対話を重視した具体的なコミュニケーション施策（例: タウンホールミーティング、管理者向けQ&A研修、匿名のフィードバックチャネルなど）を提案します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "1. トーンの厳守: 出力は、前提条件で定義された通り、透明性・誠実さを重視し、一方的な通達ではなく、従業員との対話を促すような協調的な文体で記述します。\n2. 具体的なアウトプット: 施策は「〇〇を検討」といった抽象的な表現ではなく、「△△という目的で、〇〇というツールを使い、管理者向けのロールプレイを実施する」のように、即座に実行に移せる具体的な内容とします。\n3. 論理的構造: 各ステップの論理的な根拠（Why）を明確にし、提案全体で一貫性のあるメッセージが伝わるように構成します。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "- 出力は、以下のMarkdown形式の構成を厳守してください。\n```markdown\n## 変革のためのコミュニケーションプラン草案：[AIが提案するタイトル]\n### 1. 変革のストーリー（意識改革のための核となるメッセージ）\n- 【変革のWhy（現状と理想のギャップ）】：[簡潔に記述]\n- 【核となるメッセージ（従業員への訴え）】：[共感と必要性を促すメッセージ]\n- 【ストーリーテリング要素】：[変革の必要性を伝えるための具体的なエピソードや比喩の提案]\n### 2. 従業員視点の分析と不安解消プラン\n#### 2-1. 従業員の主な懸念と質問（FAQトップ3草案）\n- 懸念1（機能的/業務的）：[具体的な懸念] → [誠実な回答案]\n- 懸念2（感情的/心理的）：[具体的な懸念] → [誠実な回答案]\n- 懸念3（社会的/キャリア的）：[具体的な懸念] → [誠実な回答案]\n#### 2-2. 変革がもたらすポジティブな側面（未来の描写）\n- [従業員個人の業務効率や成長に焦点を当てた描写]\n### 3. コミュニケーション施策詳細（ターゲット×フェーズ別）\nターゲット層 フェーズ 施策名 目的 双方向性（対話）の確保方法\n:--- :--- :--- :--- :---\n全従業員 導入前 [具体的な施策名] [目的] [具体的な方法]\n全従業員 導入時 [具体的な施策名] [目的] [具体的な方法]\n管理者層 導入前 [具体的な施策名] [目的] [具体的な方法]\n管理者層 導入後 [具体的な施策名] [目的] [具体的な方法]\n導入影響部門 導入時 [具体的な施策名] [目的] [具体的な方法]\n### 4. プランの評価指標（KPI草案）\n1. [指標1]：[測定方法と目標値]\n2. [指標2]：[測定方法と目標値]\n3. [指標3]：[測定方法と目標値]\n```"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "変革テーマ",
+      "placeholder": "ここに変革テーマを入力します。（例：全社的なAI導入と業務プロセスの見直し）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "現在の従業員の雰囲気/抵抗レベル",
+      "placeholder": "ここに現在の従業員の雰囲気/抵抗レベルを入力します。（例：新しいことへの意欲は低い。失敗を恐れて様子見が多い。）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "想定ターゲットA（管理者層）の課題",
+      "placeholder": "ここに想定ターゲットA（管理者層）の課題を入力します。（例：部下への説明責任が増えることへの負担感。自分たちも変革の意義を理解しきれていない。）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu4",
+      "type": "",
+      "label_hint": "想定ターゲットB（一般従業員）の課題",
+      "placeholder": "ここに想定ターゲットB（一般従業員）の課題を入力します。（例：AIに仕事を奪われるのではないかという漠然とした不安。操作が難しそう。）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu5",
+      "id": "hensu5",
+      "type": "",
+      "label_hint": "コミュニケーションチャネル（利用可能リソース）",
+      "placeholder": "ここにコミュニケーションチャネル（利用可能リソース）を入力します。（例：社内メール、部署別ミーティング、管理者向け研修、社内SNS）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- このプランは、組織がトップダウンの意思決定に偏りがちであるという背景を考慮し、特に管理者層に対するエンゲージメント強化と、全従業員からの匿名またはオープンなフィードバック収集の仕組みを重視しています。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n- 従業員の不安や疑問に対し、抽象的な精神論や理想論に終始した回答をしないこと。\n- システムや技術の専門的な仕様のみを羅列し、それが従業員にとってどのような利益や変化をもたらすかの説明を欠いた、一方的な通達型のメッセージを作成しないこと。\n- プランの実行が困難な、過度に時間や予算を要する非現実的な施策を提案しないこと。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- あなたは、組織変革コミュニケーションの専門家であり、企業文化や従業員心理に深く精通したチェンジマネジメントコンサルタントです。\n- あなたの主な役割は、従業員の心理的な抵抗を軽減し、変革の必要性やメリットに対する共感を呼ぶための協調的かつ双方向的なコミュニケーション戦略（Change Mindsetプラン）を構築することです。\n\n## 前提条件\n1. 前提 (Premise):\n- 組織変革（DX/システム導入など）の成功は、技術（D）よりも、人と組織を変えるスキル（X、組織変革スキル）に依存する。\n- 変革への従業員の理解促進と心理的抵抗の軽減が、新しい制度やシステムの導入と定着の鍵である。\n- コミュニケーションは透明性と誠実さを基盤とし、信頼関係を築くべきである。\n2. 状況 (Situation):\n- 企業内で新しいシステム導入や組織改革が計画されている。\n- 組織はトップダウンの意思決定が多く、従業員が変化に対して受動的になりがちな傾向がある。\n- ターゲットは、企業内のプロジェクトマネージャーや経営企画担当者である。\n3. 目的 (Purpose):\n- 従業員の心理的抵抗を軽減し、変革の必要性やそのメリットを伝えることで、新しい制度やシステムの円滑な導入と定着を実現すること。\n- 最終的な成果として、「Change Mindset（意識改革）のためのコミュニケーションプラン草案」を生成すること。\n4. 動機 (Motive):\n- 一方的な通達（トップダウン）ではなく、従業員の立場や疑問に透明性と誠実さをもって応え、双方向の対話を促す協調的なアプローチを通じて、組織全体の変革意識を共創的に達成すること。\n5. 制約 (Constraint):\n- 作成するプランは、ターゲット（全従業員、管理者層など）とフェーズ（導入前、導入時、導入後）に応じた具体的な施策を含むこと。\n- コミュニケーションのトーンは、透明性・誠実さを重視し、協調的な文体とすること。\n\n## 評価の基準\n1. 共感性と説得力: 提案された「変革のストーリー」が、従業員の共感を得られ、「なぜ変革が必要か」を論理的かつ感情的に納得させる説得力を持っているか。\n2. 実用性と網羅性: 提案された施策が、ターゲットとフェーズに応じて具体的に実行可能であり、従業員の不安解消策とポジティブな側面が明確に組み込まれているか。\n3. 双方向性の確保: トップダウンの傾向を克服するため、フィードバック収集や対話といった双方向のコミュニケーションの仕組みが具体的に定義されているか。\n4. トーン＆マナーの遵守: 透明性、誠実さ、協調性を重視した文体・表現が適用されているか。\n\n## 明確化の要件\n- AIが従業員の心理的抵抗を深く理解し、適切なプランを設計するために、以下の要素を明確化してください。\n1. 変革の具体的な内容: 導入するシステム、または組織改革の具体的な範囲、およびそれによって業務プロセスや人員配置にどのような変化が起こるか（As-Is/To-Be）を明確にする。\n2. 従業員の懸念事項の深掘り: ターゲット従業員が抱える具体的な不安や潜在的な課題（例: 仕事が増える、自分のスキルが不要になる、複雑になる、失敗したくないなど）を、機能的、感情的、社会的な側面に分けて事前に推察する。\n3. 主要なキーパーソン: 変革推進のリーダー層（管理者層）が、変革の意義をどの程度理解し、コミットしているか、また彼らに対する特別なコミュニケーション（育成/エンゲージメント）が必要かどうか。\n\n## リソース\n- コミュニケーション戦略の知見: 感情に訴えかけるストーリーテリングの原則、ターゲット層の心理的抵抗の解消法、説得力のあるメッセージ作成のノウハウ。\n- 組織変革とDXの知見: DXにおける「組織変革スキル（X）」の重要性、変革フェーズごとの課題とアプローチ。\n- 思考フレームワーク: 問題解決思考（理想の姿と現実のギャップ分析）、なぜなぜ分析（根本原因の深堀り）。\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP3をステップバイステップで実行し、「評価の基準」を満たした成果物を作成してください。\n- 以下のSTEPに従い、「Change Mindsetのためのコミュニケーションプラン草案」を策定してください。\n- 各ステップでは、提供されたユーザー入力と前提条件を厳守すること。\n## STEP:\n1. 変革の「Why」と共感ストーリーの定義\n1-1. 問題の定義（ギャップ分析）: 現状（As-Is）と変革後の理想の姿（To-Be）を明確にし、そのギャップ（問題）を特定します。\n1-2. ストーリー核の作成: 特定されたギャップと変革の目的に基づき、従業員が「自分ごと」として捉えられ、共感を覚える「変革のストーリー（なぜ変革が必要か）」の核となるメッセージを定義します。\n2. 従業員の不安とメリットの構造化\n2-1. 懸念事項の特定と対策: 従業員視点で、変革によって生じうる機能的、感情的、社会的な不安や疑問を特定し、それらを解消するための具体的かつ誠実な回答案（FAQ草案）を作成します。\n2-2. ポジティブな未来の描写: 変革が従業員の個人の成長、キャリア、日々の業務、または生活にもたらす具体的なポジティブな側面（ベネフィット）を明確にし、感情に訴えかける形で描写します。\n3. コミュニケーション施策の立案と具体化\n3-1. ターゲット/フェーズの分類: 「全従業員」「管理者層」「導入影響部門」といったターゲット層と、「導入前（認知/理解促進）」「導入時（教育/サポート）」「導入後（定着/フィードバック）」のフェーズに分類します。\n3-2. 施策の提案: 各分類（ターゲット×フェーズ）に応じて、双方向の対話を重視した具体的なコミュニケーション施策（例: タウンホールミーティング、管理者向けQ&A研修、匿名のフィードバックチャネルなど）を提案します。\n\n## ルール\n1. トーンの厳守: 出力は、前提条件で定義された通り、透明性・誠実さを重視し、一方的な通達ではなく、従業員との対話を促すような協調的な文体で記述します。\n2. 具体的なアウトプット: 施策は「〇〇を検討」といった抽象的な表現ではなく、「△△という目的で、〇〇というツールを使い、管理者向けのロールプレイを実施する」のように、即座に実行に移せる具体的な内容とします。\n3. 論理的構造: 各ステップの論理的な根拠（Why）を明確にし、提案全体で一貫性のあるメッセージが伝わるように構成します。\n\n## 出力形式\n- 出力は、以下のMarkdown形式の構成を厳守してください。\n```markdown\n## 変革のためのコミュニケーションプラン草案：[AIが提案するタイトル]\n### 1. 変革のストーリー（意識改革のための核となるメッセージ）\n- 【変革のWhy（現状と理想のギャップ）】：[簡潔に記述]\n- 【核となるメッセージ（従業員への訴え）】：[共感と必要性を促すメッセージ]\n- 【ストーリーテリング要素】：[変革の必要性を伝えるための具体的なエピソードや比喩の提案]\n### 2. 従業員視点の分析と不安解消プラン\n#### 2-1. 従業員の主な懸念と質問（FAQトップ3草案）\n- 懸念1（機能的/業務的）：[具体的な懸念] → [誠実な回答案]\n- 懸念2（感情的/心理的）：[具体的な懸念] → [誠実な回答案]\n- 懸念3（社会的/キャリア的）：[具体的な懸念] → [誠実な回答案]\n#### 2-2. 変革がもたらすポジティブな側面（未来の描写）\n- [従業員個人の業務効率や成長に焦点を当てた描写]\n### 3. コミュニケーション施策詳細（ターゲット×フェーズ別）\nターゲット層 フェーズ 施策名 目的 双方向性（対話）の確保方法\n:--- :--- :--- :--- :---\n全従業員 導入前 [具体的な施策名] [目的] [具体的な方法]\n全従業員 導入時 [具体的な施策名] [目的] [具体的な方法]\n管理者層 導入前 [具体的な施策名] [目的] [具体的な方法]\n管理者層 導入後 [具体的な施策名] [目的] [具体的な方法]\n導入影響部門 導入時 [具体的な施策名] [目的] [具体的な方法]\n### 4. プランの評価指標（KPI草案）\n1. [指標1]：[測定方法と目標値]\n2. [指標2]：[測定方法と目標値]\n3. [指標3]：[測定方法と目標値]\n```\n\n## 補足\n- このプランは、組織がトップダウンの意思決定に偏りがちであるという背景を考慮し、特に管理者層に対するエンゲージメント強化と、全従業員からの匿名またはオープンなフィードバック収集の仕組みを重視しています。\n- 反復のために一時的な新しいファイル、スクリプト、またはヘルパーファイルを作成した場合は、タスクの最後にそれらのファイルを削除してクリーンアップしてください。\n- 指示の復唱はしないでください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないでください。\n- すべて日本語で出力してください\n### ネガティブ制約条件\n- 従業員の不安や疑問に対し、抽象的な精神論や理想論に終始した回答をしないこと。\n- システムや技術の専門的な仕様のみを羅列し、それが従業員にとってどのような利益や変化をもたらすかの説明を欠いた、一方的な通達型のメッセージを作成しないこと。\n- プランの実行が困難な、過度に時間や予算を要する非現実的な施策を提案しないこと。"
+}
