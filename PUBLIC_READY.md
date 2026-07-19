@@ -6,7 +6,7 @@
 
 - `README.md` exists.
 - `SECURITY.md` exists.
-- `LICENSE` exists (MIT はコード部分。`data/` は CC BY 4.0 mirror、出典は `references/license.md`)。
+- `LICENSE` exists (MIT はコード部分。`data/` は CC BY 4.0 mirror、出典・改変の有無は README と `references/license.md` に明示)。
 - Repository tree scan did not show obvious personal path leakage.
 
 ## GitHub-Side Checks

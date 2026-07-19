@@ -143,8 +143,21 @@ PY
 | パターン別に整理 | `references/pattern-map.md` |
 | AI / sub-agent へ運用手順として渡す | `skills/nanyo-prompt-adapter/SKILL.md` |
 
-## 出典
+## ライセンスと出典
 
-出典: 山形県南陽市「一発OK!! 市民も使える！生成AI活用実例集（プロンプト集）」
+### コード (scripts/ / skills/ ほか)
 
-ライセンス: CC BY 4.0。詳細は `references/license.md` を参照してください。
+MIT License (`LICENSE` 参照)。
+
+### ミラーデータ (data/)
+
+- 出典: 山形県南陽市「一発OK!! 市民も使える！生成AI活用実例集（プロンプト集）」
+  (https://www.city.nanyo.yamagata.jp/dxchosei/5793)
+- ライセンス: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)。
+  公式ページ「著作権について」に基づく (著作権は南陽市に帰属。出典を明記することで
+  営利目的での利用・複製・改変・再配布が可能。「特に断りのない限り」の留保あり)。
+- 各プロンプトの取得 URL・取得日時・checksum は `data/prompts/*.json` に保持。
+- 変更の有無: `data/prompts/*.json` は無改変の raw mirror。改変版を作る場合は
+  `source_original` と `nexus_adapted` を分離する (`references/license.md` 参照)。
+
+`LICENSE` (MIT) はコード部分のみに適用され、`data/` 配下には適用されません。
