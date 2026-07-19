@@ -6,7 +6,8 @@
 
 ```text
 出典: 山形県南陽市「一発OK!! 市民も使える！生成AI活用実例集（プロンプト集）」
-ライセンス: CC BY 4.0
+出典URL: https://www.city.nanyo.yamagata.jp/dxchosei/5793
+ライセンス: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.ja)
 ```
 
 運用:

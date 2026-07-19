@@ -152,7 +152,7 @@ MIT License (`LICENSE` 参照)。
 ### ミラーデータ (data/)
 
 - 出典: 山形県南陽市「一発OK!! 市民も使える！生成AI活用実例集（プロンプト集）」
-  (https://www.city.nanyo.yamagata.jp/dxchosei/5793)
+- 出典URL: https://www.city.nanyo.yamagata.jp/dxchosei/5793
 - ライセンス: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)。
   公式ページ「著作権について」に基づく (著作権は南陽市に帰属。出典を明記することで
   営利目的での利用・複製・改変・再配布が可能。「特に断りのない限り」の留保あり)。
