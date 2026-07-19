@@ -143,8 +143,25 @@ PY
 | パターン別に整理 | `references/pattern-map.md` |
 | AI / sub-agent へ運用手順として渡す | `skills/nanyo-prompt-adapter/SKILL.md` |
 
-## 出典
+## ライセンスと出典
 
-出典: 山形県南陽市「一発OK!! 市民も使える！生成AI活用実例集（プロンプト集）」
+### コード (scripts/ / skills/ ほか)
 
-ライセンス: CC BY 4.0。詳細は `references/license.md` を参照してください。
+MIT License (`LICENSE` 参照)。
+
+### ミラーデータ (data/)
+
+- 出典: [山形県南陽市「一発OK!! 市民も使える！生成AI活用実例集（プロンプト集）」](http://www.city.nanyo.yamagata.jp/dxchosei/5793)
+  - 公式サイトは https 非対応のため http リンク (2026-07-19 実測: https は TLS 接続不可、http は 200)
+  - 公式ページが閲覧できない場合: [2026-06-10 時点のアーカイブ](https://web.archive.org/web/20260610070554/http://www.city.nanyo.yamagata.jp/dxchosei/5793)
+- ライセンス: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)。
+  公式ページ「著作権について」に基づく (著作権は南陽市に帰属。出典を明記することで
+  営利目的での利用・複製・改変・再配布が可能。「特に断りのない限り」の留保あり)。
+- 各プロンプトの取得 URL・取得日時・checksum は `data/prompts/*.json` に保持。
+- 変更の有無: 各 JSON の `raw_html` は取得したままの無改変 HTML。`prompt_text` は
+  `raw_html` から機械抽出した整形版 (空白の正規化・空行除去・`## 見出し` の合成を含む。
+  `scripts/nanyo_prompt_mirror.py` 参照)。文言そのものの書き換えは行っていない。
+  さらに改変版を作る場合は `source_original` と `nexus_adapted` を分離する
+  (`references/license.md` 参照)。
+
+`LICENSE` (MIT) はコード部分のみに適用され、`data/` 配下には適用されません。
