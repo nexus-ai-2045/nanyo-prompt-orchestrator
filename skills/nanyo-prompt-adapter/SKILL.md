@@ -25,9 +25,10 @@ description: "Use when selecting, adapting, mirroring, or PDCA-reviewing prompts
 
 1. ユーザーの目的を `search / implement / review / operate / ideate / decide` のどれかに置く。
 2. `references/pattern-map.md` の中核パターンから近いものを選ぶ。
-3. `data/inventory-unique.csv` または `data/prompt-bodies.jsonl` を検索し、候補 ID を最大 10 件に絞る。
-4. 候補が必要十分なら `data/prompts/<id>.json` を読む。
-5. prompt 本文をそのまま使うか、役割・入力変数・制約・出力形式・検証条件へ再構成する。
+3. まず `scripts/nanyo_prompt_router.py "<query>" --target codex|skill|subagent|pdca` を使い、候補 ID を最大 10 件に絞る。
+4. CLI が足りない場合だけ、`data/inventory-unique.csv` または `data/prompt-bodies.jsonl` を直接検索する。
+5. 候補が必要十分なら `data/prompts/<id>.json` を読む。
+6. prompt 本文をそのまま使うか、役割・入力変数・制約・出力形式・検証条件へ再構成する。
 
 ## 停止線
 
