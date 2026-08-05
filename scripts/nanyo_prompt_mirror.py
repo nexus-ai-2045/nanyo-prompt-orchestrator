@@ -207,7 +207,14 @@ def write_json(path: Path, data: dict[str, object]) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def mirror(base_dir: Path, delay: float, limit: int | None, timeout: int) -> dict[str, object]:
+def mirror(
+    base_dir: Path,
+    delay: float,
+    limit: int | None,
+    timeout: int,
+    include_raw_html: bool = False,
+    raw_html_dir: Path | None = None,
+) -> dict[str, object]:
     inventory_path = base_dir / "inventory-unique.csv"
     if not inventory_path.exists():
         raise FileNotFoundError(f"missing inventory: {inventory_path}")
@@ -243,9 +250,13 @@ def mirror(base_dir: Path, delay: float, limit: int | None, timeout: int) -> dic
                 "retrieved_at": retrieved_at,
                 "license": "CC BY 4.0; attribution: 南陽市",
                 "raw_html_sha256": checksum,
-                "raw_html": html_text,
                 **parsed,
             }
+            if include_raw_html:
+                record["raw_html"] = html_text
+            if raw_html_dir is not None:
+                raw_html_dir.mkdir(parents=True, exist_ok=True)
+                (raw_html_dir / f"{prompt_id:03d}.html").write_text(html_text, encoding="utf-8")
             write_json(prompts_dir / f"{prompt_id:03d}.json", record)
             bodies.write(
                 json.dumps(
@@ -276,6 +287,8 @@ def mirror(base_dir: Path, delay: float, limit: int | None, timeout: int) -> dic
         "empty_prompt_text_count": empty_prompt_text,
         "prompts_dir": str(prompts_dir),
         "prompt_bodies_jsonl": str(bodies_path),
+        "include_raw_html": include_raw_html,
+        "raw_html_dir": str(raw_html_dir) if raw_html_dir is not None else "",
         "errors": errors,
     }
     write_json(base_dir / "mirror-summary.json", summary)
@@ -288,9 +301,26 @@ def main(argv: list[str]) -> int:
     parser.add_argument("--delay", type=float, default=0.03)
     parser.add_argument("--limit", type=int)
     parser.add_argument("--timeout", type=int, default=30)
+    parser.add_argument(
+        "--include-raw-html",
+        action="store_true",
+        help="include fetched raw HTML in data/prompts/*.json; off by default",
+    )
+    parser.add_argument(
+        "--raw-html-dir",
+        type=Path,
+        help="write fetched raw HTML files to this directory without embedding them in JSON",
+    )
     args = parser.parse_args(argv)
 
-    summary = mirror(Path(args.base_dir), args.delay, args.limit, args.timeout)
+    summary = mirror(
+        Path(args.base_dir),
+        args.delay,
+        args.limit,
+        args.timeout,
+        include_raw_html=args.include_raw_html,
+        raw_html_dir=args.raw_html_dir,
+    )
     print(json.dumps({k: v for k, v in summary.items() if k != "errors"}, ensure_ascii=False))
     if summary["error_count"]:
         print(json.dumps({"errors": summary["errors"][:10]}, ensure_ascii=False), file=sys.stderr)

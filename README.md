@@ -138,7 +138,7 @@ PY
 |---|---|
 | まず読む | `README.md` |
 | 全文検索や候補抽出 | `data/prompt-bodies.jsonl` |
-| 個別プロンプトの HTML / checksum まで確認 | `data/prompts/*.json` |
+| 個別プロンプトの抽出フィールド / checksum まで確認 | `data/prompts/*.json` |
 | 出典とライセンス確認 | `references/license.md` |
 | パターン別に整理 | `references/pattern-map.md` |
 | AI / sub-agent へ運用手順として渡す | `skills/nanyo-prompt-adapter/SKILL.md` |
@@ -158,10 +158,13 @@ MIT License (`LICENSE` 参照)。
   公式ページ「著作権について」に基づく (著作権は南陽市に帰属。出典を明記することで
   営利目的での利用・複製・改変・再配布が可能。「特に断りのない限り」の留保あり)。
 - 各プロンプトの取得 URL・取得日時・checksum は `data/prompts/*.json` に保持。
-- 変更の有無: 各 JSON の `raw_html` は取得したままの無改変 HTML。`prompt_text` は
-  `raw_html` から機械抽出した整形版 (空白の正規化・空行除去・`## 見出し` の合成を含む。
+- 変更の有無: `prompt_text` は取得 HTML から機械抽出した整形版です
+  (空白の正規化・空行除去・`## 見出し` の合成を含む。
   `scripts/nanyo_prompt_mirror.py` 参照)。文言そのものの書き換えは行っていない。
   さらに改変版を作る場合は `source_original` と `nexus_adapted` を分離する
   (`references/license.md` 参照)。
+- 取得 HTML 本文は既定では JSON に含めません。監査・再抽出用に必要な場合は
+  `scripts/nanyo_prompt_mirror.py --include-raw-html` または
+  `--raw-html-dir data/raw-html` を使ってください。`data/raw-html/` は未追跡 cache です。
 
 `LICENSE` (MIT) はコード部分のみに適用され、`data/` 配下には適用されません。
