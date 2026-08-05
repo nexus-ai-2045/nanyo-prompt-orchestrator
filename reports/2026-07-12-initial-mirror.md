@@ -37,6 +37,13 @@ sample IDs 1 / 370 / 573 / 656 / 799 / 825: raw_html_sha256 and prompt_text pres
 repo size: 35M
 ```
 
+## 2026-08-05 更新
+
+- `data/prompts/*.json` から `raw_html` 本文を削除した。
+- `raw_html_sha256`、取得 URL、取得日時、抽出済み `prompt_text` は保持した。
+- 取得 HTML が必要な場合は `scripts/nanyo_prompt_mirror.py --include-raw-html` または
+  `--raw-html-dir data/raw-html` で再取得する。
+
 ## 未実施
 
 - GitHub 作成、push、公開範囲変更は未実施。
