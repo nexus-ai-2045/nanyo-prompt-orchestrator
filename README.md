@@ -30,10 +30,12 @@ data/
   prompts/*.json
 references/
   license.md
+  orchestration-architecture.md
   pattern-map.md
 scripts/
   nanyo_prompt_inventory.py
   nanyo_prompt_mirror.py
+  nanyo_prompt_router.py
 skills/
   nanyo-prompt-adapter/SKILL.md
 reports/
@@ -96,14 +98,26 @@ PY
 
 ## AI に渡す
 
-1. `data/prompt-bodies.jsonl` から近い用途のプロンプトを 3-10 件だけ選ぶ。
+1. `scripts/nanyo_prompt_router.py` で近い用途のプロンプトを 3-10 件だけ選ぶ。
 2. そのまま貼らず、目的・入力・出力形式・禁止事項を今のタスクに合わせて短くする。
 3. `skills/nanyo-prompt-adapter/SKILL.md` の手順で、重複除去、出典保持、リスク確認、PDCA に分ける。
 
-AI への依頼例:
+候補を JSON packet として出す:
+
+```bash
+python3 scripts/nanyo_prompt_router.py "議事録 要約" --target subagent --limit 5
+```
+
+Markdown packet として出す:
+
+```bash
+python3 scripts/nanyo_prompt_router.py "PDCA 改善" --target pdca --format markdown --limit 3
+```
+
+AI への追加依頼例:
 
 ```text
-この JSONL から「議事録要約」に近いプロンプトを最大5件選び、
+この packet から「議事録要約」に近いプロンプトを最大5件選び、
 共通する型、使い回せる指示、今の業務に合わせて削るべき文を分けてください。
 出典の prompt_id は残してください。
 ```
@@ -139,7 +153,9 @@ PY
 | まず読む | `README.md` |
 | 全文検索や候補抽出 | `data/prompt-bodies.jsonl` |
 | 個別プロンプトの抽出フィールド / checksum まで確認 | `data/prompts/*.json` |
+| Codex / skill / sub-agent / PDCA 向け packet 生成 | `scripts/nanyo_prompt_router.py` |
 | 出典とライセンス確認 | `references/license.md` |
+| 読み出しオーケストレーションの設計境界 | `references/orchestration-architecture.md` |
 | パターン別に整理 | `references/pattern-map.md` |
 | AI / sub-agent へ運用手順として渡す | `skills/nanyo-prompt-adapter/SKILL.md` |
 
