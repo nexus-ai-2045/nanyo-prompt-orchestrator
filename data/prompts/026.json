@@ -1,0 +1,78 @@
+{
+  "prompt_id": 26,
+  "title": "【簡単】AIに文章を校正してもらう",
+  "source_category": "文書校正・編集",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=26",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/026.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "c297f84c69d7fc44eab0eca81360fc8dcc4471ed33109ec55c3027add4a83d2b",
+  "page_title": "#026 【簡単】AIに文章を校正してもらう",
+  "headings": [
+    "目的・ねらい",
+    "前提条件",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "添削したい文章",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- 依頼者条件: 日本語学習者\n- 前提知識: 基本的な文法、語彙\n- 目的と目標: 自然で分かりやすい文章作成"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "以下の{添削要望}に従い、{添削したい文章を入力}を添削してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "## 添削要望:\n- 誤字脱字の修正\n- 文法誤りの修正\n- より自然で分かりやすい表現への修正\n- 句読点の修正\n- 冗長な表現の削除"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "## 添削結果:\n### 添削済み文章:\n{ここに添削済み文章を出力}\n## 添削内容:\n- 誤字脱字: {誤字脱字を指摘し、修正内容を記述}\n- 文法誤り: {文法誤りを指摘し、修正内容を記述}\n- 表現: {表現の改善点を指摘し、修正内容を記述}\n- 句読点: {句読点の修正点を指摘し、修正内容を記述}\n- 冗長な表現: {冗長な表現を指摘し、削除した部分を記述}"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "添削したい文章",
+      "placeholder": "ここに添削したい文章を入力を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## 前提条件\n- 依頼者条件: 日本語学習者\n- 前提知識: 基本的な文法、語彙\n- 目的と目標: 自然で分かりやすい文章作成\n\n## 実行指示\n以下の{添削要望}に従い、{添削したい文章を入力}を添削してください。\n\n## ルール\n## 添削要望:\n- 誤字脱字の修正\n- 文法誤りの修正\n- より自然で分かりやすい表現への修正\n- 句読点の修正\n- 冗長な表現の削除\n\n## 出力形式\n## 添削結果:\n### 添削済み文章:\n{ここに添削済み文章を出力}\n## 添削内容:\n- 誤字脱字: {誤字脱字を指摘し、修正内容を記述}\n- 文法誤り: {文法誤りを指摘し、修正内容を記述}\n- 表現: {表現の改善点を指摘し、修正内容を記述}\n- 句読点: {句読点の修正点を指摘し、修正内容を記述}\n- 冗長な表現: {冗長な表現を指摘し、削除した部分を記述}\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}
