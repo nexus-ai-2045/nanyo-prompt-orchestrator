@@ -1,0 +1,68 @@
+{
+  "prompt_id": 8,
+  "title": "対象者をプロファイルする",
+  "source_category": "情報収集・分析",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=8",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/008.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "ea1da75ea7781e71b88aa620edbc3a9ee8d564f265321dbd109d17af7b115752",
+  "page_title": "#008_対象者をプロファイルする",
+  "headings": [
+    "目的・ねらい",
+    "前提条件",
+    "実行指示",
+    "出力形式",
+    "変数設定",
+    "人物情報",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 人物プロファイルの自動作成\n- 依頼者条件:プロファイル情報を効果的にまとめたいと考えている人。\n- 制作者条件: 人物のプロファイルを正確に生成できる能力を持つ人。\n- 目的と目標: プロファイルをAIを使って効率的に生成すること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "{人物情報}のプロファイルを、\n参考フォーマットを参考にして書き出してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "## 参考フォーマット=\"\n{人物情報}のプロファイル\n{人物情報}の性格:\n{人物情報}の対象の悩み:\n{人物情報}の興味・関心:\n{人物情報}の特徴的な行動:"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "人物情報",
+      "placeholder": "どのような人をプロファイルしたいか人物情報を箇条書きで入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## 前提条件\n- タイトル: 人物プロファイルの自動作成\n- 依頼者条件:プロファイル情報を効果的にまとめたいと考えている人。\n- 制作者条件: 人物のプロファイルを正確に生成できる能力を持つ人。\n- 目的と目標: プロファイルをAIを使って効率的に生成すること。\n\n## 実行指示\n{人物情報}のプロファイルを、\n参考フォーマットを参考にして書き出してください。\n\n## 出力形式\n## 参考フォーマット=\"\n{人物情報}のプロファイル\n{人物情報}の性格:\n{人物情報}の対象の悩み:\n{人物情報}の興味・関心:\n{人物情報}の特徴的な行動:\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

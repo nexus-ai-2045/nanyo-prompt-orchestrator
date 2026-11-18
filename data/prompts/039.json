@@ -1,0 +1,68 @@
+{
+  "prompt_id": 39,
+  "title": "【簡単】施策のメリット・デメリットの洗い出し",
+  "source_category": "アイデア創出・企画",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=39",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/039.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "86c319e415f820a3f37d3f020e8d4520c885e12538d778cef4eb34d85852c1f8",
+  "page_title": "#039 【簡単】施策のメリット・デメリットの洗い出し",
+  "headings": [
+    "目的・ねらい",
+    "実行指示",
+    "出力形式",
+    "変数設定",
+    "施策名",
+    "出力数",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "以下の{施策名}を行った場合に想定されるメリットとデメリットを水平思考で考え、\n箇条書きで{出力数}つずつ出力してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "メリット:\nデメリット:"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "施策名",
+      "placeholder": "施策名を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "出力数",
+      "placeholder": "出力数を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## 実行指示\n以下の{施策名}を行った場合に想定されるメリットとデメリットを水平思考で考え、\n箇条書きで{出力数}つずつ出力してください。\n\n## 出力形式\nメリット:\nデメリット:\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}
