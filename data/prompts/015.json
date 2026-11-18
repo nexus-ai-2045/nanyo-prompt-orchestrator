@@ -1,0 +1,58 @@
+{
+  "prompt_id": 15,
+  "title": "メールへの返信",
+  "source_category": "コミュニケーション支援",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=15",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/015.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "eb5df0e47fae93061c1659ba95ed726f0c746e5c867e11007022fef72aad3cb1",
+  "page_title": "#015 メールへの返信",
+  "headings": [
+    "目的・ねらい",
+    "実行指示",
+    "変数設定",
+    "メール内容",
+    "返信したい内容",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "以下の{メール内容}に対して、返信メールを作成してください。\nトーンは{メール内容}にペーシングしてください。\n以下の{返信したい内容}を含めてください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "メール内容",
+      "placeholder": "メール内容を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "返信したい内容",
+      "placeholder": "返信したい内容を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## 実行指示\n以下の{メール内容}に対して、返信メールを作成してください。\nトーンは{メール内容}にペーシングしてください。\n以下の{返信したい内容}を含めてください。\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

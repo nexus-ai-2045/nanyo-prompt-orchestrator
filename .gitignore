@@ -1,6 +1,6 @@
+.DS_Store
 __pycache__/
 *.pyc
-.pytest_cache/
-.DS_Store
-.env
-.env.*
+.venv/
+.local/
+data/raw-html/

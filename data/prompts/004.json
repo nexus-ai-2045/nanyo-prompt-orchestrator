@@ -1,0 +1,68 @@
+{
+  "prompt_id": 4,
+  "title": "文章の議論を分析する",
+  "source_category": "情報収集・分析",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=4",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/004.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "6a3d6d4a761b5c8968a62327759f69e66f2edf8063c67f0245483c8bf90f5084",
+  "page_title": "#004_文章の議論を分析する",
+  "headings": [
+    "目的・ねらい",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "会話内容",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "- 以下の{会話内容}を出力制約、出力方法に従って分析してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- 議論の肯定意見、否定意見に分けて解説してください。\n- 議論の内容に対しての質問、課題点などを出力してください。\n- 表現を受け取ることが困難な場合、文面から意味を読み取ってください。\n- 議論では1人、2人、3人に分けているので、特徴を掴んで出力してください"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "- 表形式でまとめてください。\n- 賛成意見、反対意見に分けて出力をします。"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "会話内容",
+      "placeholder": "会話内容を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## 実行指示\n- 以下の{会話内容}を出力制約、出力方法に従って分析してください。\n\n## ルール\n- 議論の肯定意見、否定意見に分けて解説してください。\n- 議論の内容に対しての質問、課題点などを出力してください。\n- 表現を受け取ることが困難な場合、文面から意味を読み取ってください。\n- 議論では1人、2人、3人に分けているので、特徴を掴んで出力してください\n\n## 出力形式\n- 表形式でまとめてください。\n- 賛成意見、反対意見に分けて出力をします。\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

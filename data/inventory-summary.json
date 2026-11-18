@@ -1,0 +1,22 @@
+{
+  "source_url": "http://www.city.nanyo.yamagata.jp/dxchosei/5793",
+  "retrieved_at": "2026-07-12T01:28:53.056856+00:00",
+  "source_rows": 826,
+  "unique_prompt_ids": 825,
+  "duplicate_prompt_ids": [
+    "573"
+  ],
+  "category_counts": {
+    "未分類": 10,
+    "文章作成・要約": 202,
+    "文書校正・編集": 50,
+    "アイデア創出・企画": 111,
+    "業務改善": 62,
+    "情報収集・分析": 59,
+    "コミュニケーション支援": 82,
+    "プログラミング": 83,
+    "意識改革・スキルアップ": 58,
+    "その他": 109
+  },
+  "note": "Run nanyo_prompt_mirror.py to mirror individual prompt bodies locally."
+}
