@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import contextlib
 import csv
 import datetime as dt
 import hashlib
@@ -17,6 +18,7 @@ import urllib.request
 from dataclasses import dataclass
 from html.parser import HTMLParser
 from pathlib import Path
+from typing import Iterator, TextIO
 
 
 DEFAULT_BASE = Path("data")
@@ -207,6 +209,30 @@ def write_json(path: Path, data: dict[str, object]) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def load_previous_body_lines(path: Path) -> dict[int, str]:
+    if not path.exists():
+        return {}
+    lines: dict[int, str] = {}
+    for line in path.read_text(encoding="utf-8", errors="replace").split("\n"):
+        try:
+            prompt_id = json.loads(line)["prompt_id"]
+        except (json.JSONDecodeError, KeyError, TypeError):
+            continue
+        if isinstance(prompt_id, int):
+            lines[prompt_id] = line
+    return lines
+
+
+@contextlib.contextmanager
+def replace_on_success(pending_path: Path, final_path: Path) -> Iterator[TextIO]:
+    try:
+        with pending_path.open("w", encoding="utf-8") as pending:
+            yield pending
+        pending_path.replace(final_path)
+    finally:
+        pending_path.unlink(missing_ok=True)
+
+
 def mirror(
     base_dir: Path,
     delay: float,
@@ -218,9 +244,9 @@ def mirror(
     inventory_path = base_dir / "inventory-unique.csv"
     if not inventory_path.exists():
         raise FileNotFoundError(f"missing inventory: {inventory_path}")
-    rows = load_inventory(inventory_path)
-    if limit is not None:
-        rows = rows[:limit]
+    inventory_rows = load_inventory(inventory_path)
+    rows = inventory_rows if limit is None else inventory_rows[:limit]
+    rows_beyond_limit = inventory_rows[len(rows) :]
 
     retrieved_at = utc_now()
     prompts_dir = base_dir / "prompts"
@@ -228,13 +254,20 @@ def mirror(
     errors: list[dict[str, str]] = []
     mirrored = 0
     empty_prompt_text = 0
+    retained_previous = 0
+    previous_lines = load_previous_body_lines(bodies_path)
+    pending_path = bodies_path.with_name(bodies_path.name + ".pending")
 
-    with bodies_path.open("w", encoding="utf-8") as bodies:
+    with replace_on_success(pending_path, bodies_path) as bodies:
         for index, row in enumerate(rows, 1):
             prompt_id = int(row["prompt_id"])
             final_url, html_text, error = mirror_url(row, timeout=timeout)
             if error:
                 errors.append({"prompt_id": row["prompt_id"], "title": row["title"], "error": error})
+                previous_line = previous_lines.get(prompt_id)
+                if previous_line is not None:
+                    bodies.write(previous_line + "\n")
+                    retained_previous += 1
                 continue
             parsed = parse_prompt_page(html_text)
             checksum = hashlib.sha256(html_text.encode("utf-8")).hexdigest()
@@ -278,12 +311,18 @@ def mirror(
             mirrored += 1
             if delay and index < len(rows):
                 time.sleep(delay)
+        for row in rows_beyond_limit:
+            previous_line = previous_lines.get(int(row["prompt_id"]))
+            if previous_line is not None:
+                bodies.write(previous_line + "\n")
+                retained_previous += 1
 
     summary = {
         "retrieved_at": retrieved_at,
         "inventory_count": len(rows),
         "mirrored_count": mirrored,
         "error_count": len(errors),
+        "retained_previous_count": retained_previous,
         "empty_prompt_text_count": empty_prompt_text,
         "prompts_dir": str(prompts_dir),
         "prompt_bodies_jsonl": str(bodies_path),
