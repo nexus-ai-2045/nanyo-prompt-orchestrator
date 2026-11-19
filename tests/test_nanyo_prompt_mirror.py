@@ -44,28 +44,96 @@ class MirrorOutputShapeTest(unittest.TestCase):
             self.assertNotIn("raw_html", record)
             self.assertIn("fixture prompt", (raw_dir / "001.html").read_text(encoding="utf-8"))
 
-    def _write_inventory(self, base: Path) -> None:
+    def test_failed_fetch_keeps_the_previous_corpus_record(self) -> None:
+        with TemporaryDirectory() as tmp:
+            base = Path(tmp)
+            self._write_inventory(base, prompt_ids=("1", "2"))
+            self._patch_mirror_url()
+            nanyo_prompt_mirror.mirror(base, delay=0, limit=None, timeout=1)
+            before = self._corpus(base)
+            self._patch_mirror_url(failing_ids={"2"}, body="refreshed prompt")
+
+            summary = nanyo_prompt_mirror.mirror(base, delay=0, limit=None, timeout=1)
+
+            after = self._corpus(base)
+            self.assertEqual([record["prompt_id"] for record in after], [1, 2])
+            self.assertIn("refreshed prompt", str(after[0]["prompt_text"]))
+            self.assertNotEqual(after[0], before[0])
+            self.assertEqual(after[1], before[1])
+            self.assertEqual(summary["error_count"], 1)
+            self.assertEqual(summary["retained_previous_count"], 1)
+
+    def test_fully_failed_refresh_leaves_the_corpus_unchanged(self) -> None:
+        with TemporaryDirectory() as tmp:
+            base = Path(tmp)
+            self._write_inventory(base, prompt_ids=("1", "2"))
+            self._patch_mirror_url()
+            nanyo_prompt_mirror.mirror(base, delay=0, limit=None, timeout=1)
+            before = (base / "prompt-bodies.jsonl").read_bytes()
+            self._patch_mirror_url(failing_ids={"1", "2"})
+
+            nanyo_prompt_mirror.mirror(base, delay=0, limit=None, timeout=1)
+
+            self.assertEqual((base / "prompt-bodies.jsonl").read_bytes(), before)
+
+    def test_interrupted_refresh_leaves_the_corpus_unchanged(self) -> None:
+        with TemporaryDirectory() as tmp:
+            base = Path(tmp)
+            self._write_inventory(base, prompt_ids=("1", "2"))
+            self._patch_mirror_url()
+            nanyo_prompt_mirror.mirror(base, delay=0, limit=None, timeout=1)
+            before = (base / "prompt-bodies.jsonl").read_bytes()
+
+            def interrupted(row: dict[str, str], timeout: int) -> tuple[str, str, str | None]:
+                raise KeyboardInterrupt
+
+            nanyo_prompt_mirror.mirror_url = interrupted
+
+            with self.assertRaises(KeyboardInterrupt):
+                nanyo_prompt_mirror.mirror(base, delay=0, limit=None, timeout=1)
+
+            self.assertEqual((base / "prompt-bodies.jsonl").read_bytes(), before)
+            self.assertEqual(sorted(path.name for path in base.glob("prompt-bodies*")), ["prompt-bodies.jsonl"])
+
+    def test_failed_fetch_without_a_previous_record_is_skipped(self) -> None:
+        with TemporaryDirectory() as tmp:
+            base = Path(tmp)
+            self._write_inventory(base, prompt_ids=("1", "2"))
+            self._patch_mirror_url(failing_ids={"2"})
+
+            summary = nanyo_prompt_mirror.mirror(base, delay=0, limit=None, timeout=1)
+
+            self.assertEqual([record["prompt_id"] for record in self._corpus(base)], [1])
+            self.assertEqual(summary["retained_previous_count"], 0)
+
+    def _corpus(self, base: Path) -> list[dict[str, object]]:
+        lines = (base / "prompt-bodies.jsonl").read_text(encoding="utf-8").splitlines()
+        return [json.loads(line) for line in lines]
+
+    def _write_inventory(self, base: Path, prompt_ids: tuple[str, ...] = ("1",)) -> None:
         with (base / "inventory-unique.csv").open("w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(
                 f,
                 fieldnames=["prompt_id", "title", "source_category", "prompt_url"],
             )
             writer.writeheader()
-            writer.writerow(
-                {
-                    "prompt_id": "1",
-                    "title": "fixture",
-                    "source_category": "fixture-category",
-                    "prompt_url": "https://example.invalid/prompt/1",
-                }
-            )
+            for prompt_id in prompt_ids:
+                writer.writerow(
+                    {
+                        "prompt_id": prompt_id,
+                        "title": "fixture",
+                        "source_category": "fixture-category",
+                        "prompt_url": f"https://example.invalid/prompt/{prompt_id}",
+                    }
+                )
 
-    def _patch_mirror_url(self) -> None:
-        nanyo_prompt_mirror.mirror_url = lambda row, timeout: (
-            row["prompt_url"],
-            "<html><title>fixture</title><textarea>fixture prompt</textarea></html>",
-            None,
-        )
+    def _patch_mirror_url(self, failing_ids: frozenset[str] | set[str] = frozenset(), body: str = "fixture prompt") -> None:
+        def fake(row: dict[str, str], timeout: int) -> tuple[str, str, str | None]:
+            if row["prompt_id"] in failing_ids:
+                return row["prompt_url"], "", "timed out"
+            return row["prompt_url"], f"<html><title>fixture</title><textarea>{body}</textarea></html>", None
+
+        nanyo_prompt_mirror.mirror_url = fake
 
 
 if __name__ == "__main__":
