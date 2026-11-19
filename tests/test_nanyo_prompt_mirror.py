@@ -106,11 +106,55 @@ class MirrorOutputShapeTest(unittest.TestCase):
             self.assertEqual([record["prompt_id"] for record in self._corpus(base)], [1])
             self.assertEqual(summary["retained_previous_count"], 0)
 
-    def _corpus(self, base: Path) -> list[dict[str, object]]:
-        lines = (base / "prompt-bodies.jsonl").read_text(encoding="utf-8").splitlines()
-        return [json.loads(line) for line in lines]
+    def test_previous_corpus_with_invalid_bytes_does_not_stop_the_refresh(self) -> None:
+        with TemporaryDirectory() as tmp:
+            base = Path(tmp)
+            self._write_inventory(base)
+            (base / "prompt-bodies.jsonl").write_bytes(b'{"prompt_id": 1, "title": "\xe3\x81"}\n')
+            self._patch_mirror_url()
 
-    def _write_inventory(self, base: Path, prompt_ids: tuple[str, ...] = ("1",)) -> None:
+            summary = nanyo_prompt_mirror.mirror(base, delay=0, limit=None, timeout=1)
+
+            self.assertEqual(summary["mirrored_count"], 1)
+            self.assertEqual([record["prompt_id"] for record in self._corpus(base)], [1])
+
+    def test_failed_fetch_keeps_a_previous_record_containing_unicode_line_separators(self) -> None:
+        for separator in (chr(0x2028), chr(0x2029), chr(0x85)):
+            with self.subTest(separator=repr(separator)), TemporaryDirectory() as tmp:
+                base = Path(tmp)
+                self._write_inventory(base, title=f"fix{separator}ture")
+                self._patch_mirror_url()
+                nanyo_prompt_mirror.mirror(base, delay=0, limit=None, timeout=1)
+                before = (base / "prompt-bodies.jsonl").read_bytes()
+                self._patch_mirror_url(failing_ids={"1"})
+
+                summary = nanyo_prompt_mirror.mirror(base, delay=0, limit=None, timeout=1)
+
+                self.assertEqual((base / "prompt-bodies.jsonl").read_bytes(), before)
+                self.assertEqual(summary["retained_previous_count"], 1)
+
+    def test_limit_keeps_previous_records_beyond_the_limit(self) -> None:
+        with TemporaryDirectory() as tmp:
+            base = Path(tmp)
+            self._write_inventory(base, prompt_ids=("1", "2", "3"))
+            self._patch_mirror_url()
+            nanyo_prompt_mirror.mirror(base, delay=0, limit=None, timeout=1)
+            before = self._corpus(base)
+            self._patch_mirror_url(body="refreshed prompt")
+
+            summary = nanyo_prompt_mirror.mirror(base, delay=0, limit=1, timeout=1)
+
+            after = self._corpus(base)
+            self.assertEqual([record["prompt_id"] for record in after], [1, 2, 3])
+            self.assertIn("refreshed prompt", str(after[0]["prompt_text"]))
+            self.assertEqual(after[1:], before[1:])
+            self.assertEqual(summary["retained_previous_count"], 2)
+
+    def _corpus(self, base: Path) -> list[dict[str, object]]:
+        lines = (base / "prompt-bodies.jsonl").read_text(encoding="utf-8").split("\n")
+        return [json.loads(line) for line in lines if line]
+
+    def _write_inventory(self, base: Path, prompt_ids: tuple[str, ...] = ("1",), title: str = "fixture") -> None:
         with (base / "inventory-unique.csv").open("w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(
                 f,
@@ -121,7 +165,7 @@ class MirrorOutputShapeTest(unittest.TestCase):
                 writer.writerow(
                     {
                         "prompt_id": prompt_id,
-                        "title": "fixture",
+                        "title": title,
                         "source_category": "fixture-category",
                         "prompt_url": f"https://example.invalid/prompt/{prompt_id}",
                     }

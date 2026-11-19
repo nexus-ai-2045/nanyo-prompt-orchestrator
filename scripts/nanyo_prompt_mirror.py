@@ -213,7 +213,7 @@ def load_previous_body_lines(path: Path) -> dict[int, str]:
     if not path.exists():
         return {}
     lines: dict[int, str] = {}
-    for line in path.read_text(encoding="utf-8").splitlines():
+    for line in path.read_text(encoding="utf-8", errors="replace").split("\n"):
         try:
             prompt_id = json.loads(line)["prompt_id"]
         except (json.JSONDecodeError, KeyError, TypeError):
@@ -244,9 +244,9 @@ def mirror(
     inventory_path = base_dir / "inventory-unique.csv"
     if not inventory_path.exists():
         raise FileNotFoundError(f"missing inventory: {inventory_path}")
-    rows = load_inventory(inventory_path)
-    if limit is not None:
-        rows = rows[:limit]
+    inventory_rows = load_inventory(inventory_path)
+    rows = inventory_rows if limit is None else inventory_rows[:limit]
+    rows_beyond_limit = inventory_rows[len(rows) :]
 
     retrieved_at = utc_now()
     prompts_dir = base_dir / "prompts"
@@ -311,6 +311,11 @@ def mirror(
             mirrored += 1
             if delay and index < len(rows):
                 time.sleep(delay)
+        for row in rows_beyond_limit:
+            previous_line = previous_lines.get(int(row["prompt_id"]))
+            if previous_line is not None:
+                bodies.write(previous_line + "\n")
+                retained_previous += 1
 
     summary = {
         "retrieved_at": retrieved_at,
