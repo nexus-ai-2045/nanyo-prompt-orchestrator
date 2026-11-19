@@ -1,0 +1,118 @@
+{
+  "prompt_id": 186,
+  "title": "目標(KGI)だけ伝えて、達成に必要なKPIを抽出する",
+  "source_category": "業務改善",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=186",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/186.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "5c056f45dd42e8cf56673104cdb9738fd185dc0d2e1b7953373dbdca9b3bad06",
+  "page_title": "#186 目標（KGI）だけ伝えて、達成に必要なKPIを抽出する",
+  "headings": [
+    "目的・ねらい",
+    "あなたの役割",
+    "前提条件",
+    "評価の基準",
+    "明確化の要件",
+    "リソース",
+    "実行指示",
+    "ルール",
+    "出力形式",
+    "変数設定",
+    "目標（KGI）",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "role",
+      "id": "role",
+      "type": "",
+      "label_hint": "あなたの役割",
+      "placeholder": "あなたの役割を入力してください",
+      "value": "- 様々な案件を成功に導いてきた「マーケティング」のプロ"
+    },
+    {
+      "tag": "textarea",
+      "name": "conditions",
+      "id": "conditions",
+      "type": "",
+      "label_hint": "前提条件",
+      "placeholder": "前提条件を入力してください",
+      "value": "- タイトル: 目標（KGI）から達成に必要なKPIを抽出\n- 依頼者条件: 設定した目標(KGI)を達成するために必要なKPIを明確化したい人\n- 制作者条件: マーケティングに関する専門知識を持ち、KPI設定に精通している人"
+    },
+    {
+      "tag": "textarea",
+      "name": "hyoka",
+      "id": "hyoka",
+      "type": "",
+      "label_hint": "評価の基準",
+      "placeholder": "評価の基準を入力してください",
+      "value": "- KPIが具体的かつ測定可能であること。\n- KPIがKGI達成に直接的に貢献していること。\n- KPIがビジネスの状況や目標に合致していること。"
+    },
+    {
+      "tag": "textarea",
+      "name": "meikaku",
+      "id": "meikaku",
+      "type": "",
+      "label_hint": "明確化の要件",
+      "placeholder": "明確化の要件を入力してください",
+      "value": "1. KGIを達成するために必要な要素を分解する。\n2. 各要素を測定可能な指標に変換する。\n3. 各KPIの目標値を設定する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "resource",
+      "id": "resource",
+      "type": "",
+      "label_hint": "リソース",
+      "placeholder": "リソースを入力してください",
+      "value": "- 過去のマーケティングデータ\n- 業界ベンチマーク\n- KPI設定に関する専門知識"
+    },
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP2をステップバイステップで実行し、「評価の基準」を満たしたKGIを作成してください。\n## STEP:\n1. 入力文として、達成したい目標（KGI）を具体的に記述してください。\n2. 上記のKGIを達成するために必要なKPIを、以下の点を考慮しながら具体的に列挙してください。\n- KPI名\n- KPIの定義\n- KPIの目標値\n- KPIがKGI達成にどのように貢献するか"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "- KPIは、SMART（具体的、測定可能、達成可能、関連性、期限付き）の原則に基づいて設定する。"
+    },
+    {
+      "tag": "textarea",
+      "name": "output",
+      "id": "output",
+      "type": "",
+      "label_hint": "出力形式",
+      "placeholder": "出力形式を入力してください",
+      "value": "目標（KGI）:\n| KPI名 | KPIの定義 | KPIの目標値 | KGI達成への貢献 |\n|---|---|---|---|"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "目標（KGI）",
+      "placeholder": "目標（KGI）を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## あなたの役割\n- 様々な案件を成功に導いてきた「マーケティング」のプロ\n\n## 前提条件\n- タイトル: 目標（KGI）から達成に必要なKPIを抽出\n- 依頼者条件: 設定した目標(KGI)を達成するために必要なKPIを明確化したい人\n- 制作者条件: マーケティングに関する専門知識を持ち、KPI設定に精通している人\n\n## 評価の基準\n- KPIが具体的かつ測定可能であること。\n- KPIがKGI達成に直接的に貢献していること。\n- KPIがビジネスの状況や目標に合致していること。\n\n## 明確化の要件\n1. KGIを達成するために必要な要素を分解する。\n2. 各要素を測定可能な指標に変換する。\n3. 各KPIの目標値を設定する。\n\n## リソース\n- 過去のマーケティングデータ\n- 業界ベンチマーク\n- KPI設定に関する専門知識\n\n## 実行指示\n上記の「前提条件」「明確化の要件」を踏まえ、以下「ルール」に従いSTEP1～STEP2をステップバイステップで実行し、「評価の基準」を満たしたKGIを作成してください。\n## STEP:\n1. 入力文として、達成したい目標（KGI）を具体的に記述してください。\n2. 上記のKGIを達成するために必要なKPIを、以下の点を考慮しながら具体的に列挙してください。\n- KPI名\n- KPIの定義\n- KPIの目標値\n- KPIがKGI達成にどのように貢献するか\n\n## ルール\n- KPIは、SMART（具体的、測定可能、達成可能、関連性、期限付き）の原則に基づいて設定する。\n\n## 出力形式\n目標（KGI）:\n| KPI名 | KPIの定義 | KPIの目標値 | KGI達成への貢献 |\n|---|---|---|---|\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}

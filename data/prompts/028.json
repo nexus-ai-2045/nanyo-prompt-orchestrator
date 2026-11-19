@@ -1,0 +1,128 @@
+{
+  "prompt_id": 28,
+  "title": "【詳細】ビジネスメール作成",
+  "source_category": "文章作成・要約",
+  "source_url": "https://nanyo-city.jpn.org/download_prompt/download.php?download=28",
+  "retrieved_url": "https://nanyo-city.jpn.org/prompt/028.html",
+  "retrieved_at": "2026-07-12T01:29:34.392730+00:00",
+  "license": "CC BY 4.0; attribution: 南陽市",
+  "raw_html_sha256": "01931f590e8a4e6c55f2c4ed31c0c989e4005ea8dcbc80b8bdcc2cfd807c1595",
+  "page_title": "#028 【詳細】ビジネスメール作成",
+  "headings": [
+    "目的・ねらい",
+    "実行指示",
+    "ルール",
+    "変数設定",
+    "件名",
+    "相手",
+    "目的",
+    "背景情報",
+    "伝えたい内容",
+    "相手に求めるアクション",
+    "トーン",
+    "文体",
+    "補足"
+  ],
+  "fields": [
+    {
+      "tag": "textarea",
+      "name": "instructions",
+      "id": "instructions",
+      "type": "",
+      "label_hint": "実行指示",
+      "placeholder": "実行指示を入力してください",
+      "value": "上記の情報を基に、以下「ルール」に従いビジネスメール本文を作成してください。\n必要な場合は、署名や添付ファイルに関する指示を追加してください。"
+    },
+    {
+      "tag": "textarea",
+      "name": "clarification_rules",
+      "id": "clarification_rules",
+      "type": "",
+      "label_hint": "ルール",
+      "placeholder": "ルールを入力してください",
+      "value": "## メール作成ルール:\n- 30文字程度で改行する\n- 3、4行ごとに空行を挿入する\n- 相手の敬称は「様」を使用する\n- 日付は「○月○日」の形式で記載する\n- 件名は「【】」で囲む\n- 添付ファイルは末尾にリストアップする\n- 文末には［以上、宜しくお願い致します。］を入力する"
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu1",
+      "id": "hensu1",
+      "type": "",
+      "label_hint": "件名",
+      "placeholder": "簡潔で具体的な件名を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu2",
+      "id": "hensu2",
+      "type": "",
+      "label_hint": "相手",
+      "placeholder": "メールの送信相手とその属性（役職、部署、関係性など）を入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu3",
+      "id": "hensu3",
+      "type": "",
+      "label_hint": "目的",
+      "placeholder": "メールの目的を具体的に入力してください。（例：情報提供、依頼、謝罪、お礼など）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu4",
+      "id": "hensu4",
+      "type": "",
+      "label_hint": "背景情報",
+      "placeholder": "メールの背景となる状況や、関連する過去のやり取りなどを入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu5",
+      "id": "hensu5",
+      "type": "",
+      "label_hint": "伝えたい内容",
+      "placeholder": "箇条書きで、相手に伝えたい内容を具体的に列挙してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu5",
+      "id": "hensu6",
+      "type": "",
+      "label_hint": "相手に求めるアクション",
+      "placeholder": "相手にどのような行動を期待するのかを具体的に入力してください",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu5",
+      "id": "hensu6",
+      "type": "",
+      "label_hint": "トーン",
+      "placeholder": "メールのトーンを指定してください。（例：丁寧、カジュアル、フォーマルなど）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hensu5",
+      "id": "hensu6",
+      "type": "",
+      "label_hint": "文体",
+      "placeholder": "メールの文体を指定してください。（例：簡潔、詳細、箇条書きなど）",
+      "value": ""
+    },
+    {
+      "tag": "textarea",
+      "name": "hosoku",
+      "id": "hosoku",
+      "type": "",
+      "label_hint": "補足",
+      "placeholder": "を補足を入力してください",
+      "value": "- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+    }
+  ],
+  "prompt_text": "## 実行指示\n上記の情報を基に、以下「ルール」に従いビジネスメール本文を作成してください。\n必要な場合は、署名や添付ファイルに関する指示を追加してください。\n\n## ルール\n## メール作成ルール:\n- 30文字程度で改行する\n- 3、4行ごとに空行を挿入する\n- 相手の敬称は「様」を使用する\n- 日付は「○月○日」の形式で記載する\n- 件名は「【】」で囲む\n- 添付ファイルは末尾にリストアップする\n- 文末には［以上、宜しくお願い致します。］を入力する\n\n## 補足\n- 指示の復唱はしないてください。\n- 自己評価はしないでください。\n- 結論やまとめは書かないください。"
+}
